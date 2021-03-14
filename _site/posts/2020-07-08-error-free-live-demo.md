@@ -376,7 +376,7 @@ If someone clones this repo, they will clone the first branch you pushed, you ca
 
 ![I understand](http://pixelprowess.com/i/2020-07-08_16-45-18.png)
 
-    Note: It might be a good idea to add a README.md file to give a description of your project.
+> **Note:** It might be a good idea to add a `README.md` file to give a description of your project.
 
 ## The advantages of publishing
 
