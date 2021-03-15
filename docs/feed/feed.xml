@@ -12,12 +12,12 @@
 	</author>
 	
 	<entry>
-		<title>Best online tools and Modules to get started on your next Web Development Project</title>
+		<title>Best online Tools, Extensions and Modules to Get Started on your Next Web Development Project</title>
 		<link href="/posts/2021-03-13-Best-Online-Tools-and-Modules/"/>
 		<updated>2021-03-13T05:00:00Z</updated>
 		<id>/posts/2021-03-13-Best-Online-Tools-and-Modules/</id>
 		<content type="html">&lt;h2 id=&quot;emmet&quot;&gt;Emmet &lt;a class=&quot;direct-link&quot; href=&quot;#emmet&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://pixelprowess.com/i/2021-03-13_14-04-11.png&quot; alt=&quot;Emmet Screenshot&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://www.emmet.io/&quot;&gt;&lt;img src=&quot;https://pixelprowess.com/i/2021-03-13_14-04-11.png&quot; alt=&quot;Emmet Screenshot&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;First, let me go with Some of the easiest. If you use Visual Studio Code, it comes with &lt;a href=&quot;https://www.emmet.io/&quot;&gt;Emmet&lt;/a&gt; installed. Emmet is a toolkit for coding faster through quick shortcuts.&lt;/p&gt;
 &lt;div style=&quot;position:relative;height:0;padding-bottom:56.25%&quot;&gt;
 &lt;iframe width=&quot;640&quot; height=&quot;360&quot; src=&quot;https://www.linkedin.com/learning/embed/coding-faster-with-emmet/understanding-type-child-and-sibling-selectors?claim=AQFwqHRMgbR34AAAAXgstV8ozoulcpGkyhnHY8QhPnMc2qdbBh7aJYazyE-kn6CGhNLWDJnhOUnOtOfyXQi6K7fqNJdRzMYqLJ6Bqi2r1IAbdvVvYXqxntfbjnx5W_lU51DHkND87Iwg7D750HUFgPdhpE0gZxP2ZPp7AqButB2pSb4VuNkq59EOISivJ-cbVpgUU40wTjU31_pRn2whuDDjR5raYBmYfq_ETlZ_GKndjSAPJNfhKRNMz_0OpA1H5znLeExZKC0GWL3iFfSmTpHDKgdToEkjkbhjj0g4QKYHPTmLUto8vJNqAGyBK_Fieuzd1Hc2aA46HS07cI9nY1K7DHh1NYbSUWihFbvEr0I5MFtOF-VDpzbQBIbbc5BqwctPyoFJtd6ySiIFDTboodSh4yz8K3o6LvUOldgG2fXzGtEPXggwKFys9yjXTqhB-Q_x4NWOf_WbnJDo7t4COixZ83soQ2t09pcfcgiLs-9PPmVX7VtXt5CbtC8wYDn_iYJ-O_EsrREFKveRDaCsVs4WU_EUuLwSgKge-r7mSOrwZQ3vWnpnAOxelLR9Gb-o-L24JDEze31y5--vownBP3S3pDlhqr5xI82eqgiYBeLF0mfc46lGcGpUHd6epn-chQwSjaWyVjp3ZlCTofo3INgcM4DDxxiIWCqYM4tnaaoDVtOJfDeYvUGEdVxZnJ2pErQ7goUKos7W-Dkm0QutHWXhVmWEsoBo6K5lbQ&quot; mozallowfullscreen=&quot;true&quot; webkitallowfullscreen=&quot;true&quot; allowfullscreen=&quot;true&quot; frameborder=&quot;0&quot; style=&quot;position:absolute;width:100%;height:100%;left:0&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;&lt;p&gt;&lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/learning/coding-faster-with-emmet/understanding-type-child-and-sibling-selectors?trk=embed_lil&quot;&gt;Understanding type, child, and sibling selectors&lt;/a&gt;&lt;/strong&gt; from &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/learning/coding-faster-with-emmet?trk=embed_lil&quot;&gt;Coding Faster with Emmet&lt;/a&gt;&lt;/strong&gt; by &lt;strong&gt;&lt;a href=&quot;https://www.linkedin.com/learning/instructors/ray-villalobos?trk=embed_lil&quot;&gt;Ray Villalobos&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
@@ -27,18 +27,18 @@
 &lt;p&gt;&lt;img src=&quot;https://pixelprowess.com/i/started-emmet-sample.jpg&quot; alt=&quot;Emmet Sample&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;Emmet is great for building little templates of content types you can add. Trust me, learning Emmet is well worth your time, I&#39;m just scratching the surface on what you can do here.&lt;/p&gt;
 &lt;h2 id=&quot;html-boilerplate&quot;&gt;HTML Boilerplate &lt;a class=&quot;direct-link&quot; href=&quot;#html-boilerplate&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://pixelprowess.com/i/started-html-boilerplate.jpg&quot; alt=&quot;HTML Boilerplate&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Another way to get started quickly on your page if you want a little some more flexibility is to use this website called &lt;a href=&quot;https://htmlboilerplates.com/&quot;&gt;HTML Boilerplates&lt;/a&gt;&lt;a href=&quot;https://htmlboilerplates.com/%29.&quot;&gt;.&lt;/a&gt; It gives you the structure for different component that might need to go on your HTML page. It&#39;s not a ton of options, but it has a lot of the things that you&#39;ll need to have in your boilerplates to get going.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://htmlboilerplates.com&quot;&gt;&lt;img src=&quot;https://pixelprowess.com/i/started-html-boilerplate.jpg&quot; alt=&quot;HTML Boilerplate&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Another way to get started quickly on your page if you want a little some more flexibility is to use this website called &lt;a href=&quot;https://htmlboilerplates.com/&quot;&gt;HTML Boilerplates&lt;/a&gt;&lt;a href=&quot;https://htmlboilerplates.com.&quot;&gt;.&lt;/a&gt; It gives you the structure for different component that might need to go on your HTML page. It&#39;s not a ton of options, but it has a lot of the things that you&#39;ll need to have in your boilerplates to get going.&lt;/p&gt;
 &lt;h2 id=&quot;github-templates&quot;&gt;Github Templates &lt;a class=&quot;direct-link&quot; href=&quot;#github-templates&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://pixelprowess.com/i/started-github.jpg&quot; alt=&quot;Github Use template&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Another way you can start a new project is based on an old project. If you have a Github Repo, you can easily switch it to a template. Just go to the settings tab in your project.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/new&quot;&gt;&lt;img src=&quot;https://pixelprowess.com/i/started-github.jpg&quot; alt=&quot;Github Use template&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Another way you can start a &lt;a href=&quot;https://github.com/new&quot;&gt;new project&lt;/a&gt; is based on an old project. If you have a Github Repo, you can easily switch it to a template. Just go to the settings tab in your project.&lt;/p&gt;
 &lt;p&gt;Scroll down and turn on the Template repository checkbox. Your project will now have a &#39;Use this template&#39; button.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://pixelprowess.com/i/started-github-usetemplate.jpg&quot; alt=&quot;Github Use template&quot; /&gt;&lt;/p&gt;
 &lt;p&gt;That will quickly create a new Github project that is a clone of a current project.&lt;/p&gt;
 &lt;p&gt;You can use this with another one of Github&#39;s great shortcuts. if you want to create a new Github repo, that&#39;s based on your template. You can use their shortcut URL &lt;a href=&quot;https://github.com/new/&quot;&gt;github.new&lt;/a&gt; and as a bonus, you can choose this or any other template you have saved like this.&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://pixelprowess.com/i/started-github-template.jpg&quot; alt=&quot;Github template&quot; /&gt;&lt;/p&gt;
 &lt;h2 id=&quot;degit&quot;&gt;Degit &lt;a class=&quot;direct-link&quot; href=&quot;#degit&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;http://pixelprowess.com/i/2021-03-15_01-47-33.png&quot; alt=&quot;Degit&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://github.com/Rich-Harris/degit&quot;&gt;&lt;img src=&quot;http://pixelprowess.com/i/2021-03-15_01-47-33.png&quot; alt=&quot;Degit&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;Ok, what if you want to create a project based on someone else&#39;s Github Repo, but you don&#39;t want to fork...or maybe you forgot to create a template based on the repo. You might even be looking to clone a specific branch and you definitely want to start off with a clean history.&lt;/p&gt;
 &lt;p&gt;This is where Degit has some advanced features that makes this easy. It is a CLI that you&#39;ll need to install globally&lt;/p&gt;
 &lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt; -g degit&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
@@ -48,19 +48,19 @@
 &lt;p&gt;If you want to clone just a sub-directory, you can simply add slashes to read the right directory &lt;code&gt;degit planetoftheweb/bootstrap4layouts/build&lt;/code&gt;, but you can also clone specific branches, releases or commit hashes.&lt;/p&gt;
 &lt;p&gt;The big advantage here is that you&#39;re cloning the repo without history, so you can grab a piece of a project to begin a new project easily.&lt;/p&gt;
 &lt;h2 id=&quot;create-app&quot;&gt;Create app &lt;a class=&quot;direct-link&quot; href=&quot;#create-app&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://pixelprowess.com/i/started-createapp.jpg&quot; alt=&quot;Create App&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://createapp.dev/&quot;&gt;&lt;img src=&quot;https://pixelprowess.com/i/started-createapp.jpg&quot; alt=&quot;Create App&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;For more advanced projects need more choices, you can try &lt;a href=&quot;https://createapp.dev/&quot;&gt;Create App&lt;/a&gt;. It lets you choose different libraries like React, Svelte or vanilla JavaScript, build tools like WebPack, Parcel or Snowpack, UI Libraries like Bootstrap or Tailwind CSS.&lt;/p&gt;
 &lt;p&gt;Name your project, and you can either hit the download project button to get a zip file, or you can copy the terminal commands you&#39;ll need to set this up yourself.&lt;/p&gt;
 &lt;h2 id=&quot;vite&quot;&gt;Vite &lt;a class=&quot;direct-link&quot; href=&quot;#vite&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
-&lt;p&gt;&lt;img src=&quot;https://pixelprowess.com/i/started-vite.jpg&quot; alt=&quot;Vite&quot; /&gt;&lt;/p&gt;
-&lt;p&gt;Create App is cool and all, but what if you&#39;re not really into so many choices. You just need something super modern and quick, not so many choices between bundlers or build tools. My new favorite is Vite.&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://vitejs.dev/&quot;&gt;&lt;img src=&quot;https://pixelprowess.com/i/started-vite.jpg&quot; alt=&quot;Vite&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;Create App is cool and all, but what if you&#39;re not really into so many choices. You just need something super modern and quick, not so many choices between bundlers or build tools. My new favorite is &lt;a href=&quot;https://vitejs.dev/&quot;&gt;Vite&lt;/a&gt;.&lt;/p&gt;
 &lt;p&gt;Some of the features include a live preview server, native javascript import commands, hot module replacement, support for CSS, JSX and typescript. Vite doesn&#39;t let you choose, it just uses Rollup, ESbuild and template support for React, Vue, VanillaJS and Lit-Element.&lt;/p&gt;
 &lt;p&gt;It&#39;s one of those things that just works.&lt;/p&gt;
 </content>
 	</entry>
 	
 	<entry>
-		<title>Apply: Make it Small</title>
+		<title>Apply Newsletter: Make it Small</title>
 		<link href="/posts/2021-03-10-apply-newsletter-make-it-small/"/>
 		<updated>2021-03-10T05:00:00Z</updated>
 		<id>/posts/2021-03-10-apply-newsletter-make-it-small/</id>
@@ -99,7 +99,7 @@
 	</entry>
 	
 	<entry>
-		<title>Apply: Success Hasn&#39;t Spoiled Me...Yet!</title>
+		<title>Apply Newsletter: Success Hasn&#39;t Spoiled Me...Yet!</title>
 		<link href="/posts/2021-03-03-apply-newsletter-success-hasnt-spoiled-me-yet/"/>
 		<updated>2021-03-03T05:00:00Z</updated>
 		<id>/posts/2021-03-03-apply-newsletter-success-hasnt-spoiled-me-yet/</id>
@@ -143,7 +143,7 @@
 	</entry>
 	
 	<entry>
-		<title>Apply for Web Developers: Lets Get Started</title>
+		<title>Apply Newsletter: Lets Get Started</title>
 		<link href="/posts/2021-02-24-apply-newsletter-lets-get-started/"/>
 		<updated>2021-02-24T05:00:00Z</updated>
 		<id>/posts/2021-02-24-apply-newsletter-lets-get-started/</id>

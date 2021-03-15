@@ -6,14 +6,14 @@
   "url": "https://www.linkedin.com/learning/building-a-graphql-project-with-react-js",
   "tags" : "graphQL,react,database,javascript,github"
 },{
-  "title": "Best online tools and Modules to get started on your next Web Development Project",
+  "title": "Best online Tools, Extensions and Modules to Get Started on your Next Web Development Project",
   "date" : "Mar 13, 2021",
-  "summary" : "You&#39;ve got a new project to build, but how to begin. Ohhh the many ways to go. Should I use React, Svelte or Vue.js. Bootstrap or Tailwind, which Bundler should I use. Heres some great ways to get going.",
+  "summary" : "You&#39;ve got a new project to build, but how to begin. Ohhh the many ways to go. Should I use React, Svelte or Vue.js. Bootstrap or Tailwind, which Bundler should I use. Heres some great ways to get going quickly.",
   "thumbnail": "/images/posts/fasterprojects_tn.jpg",
   "url": "/posts/2021-03-13-Best-Online-Tools-and-Modules/",
-  "tags" : "tutorial,vidoe,web development,github,tools"
+  "tags" : "tutorial,video,web development,tooling"
 },{
-  "title": "Apply: Make it Small",
+  "title": "Apply Newsletter: Make it Small",
   "date" : "Mar 10, 2021",
   "summary" : "I was recording a course last week when I ran into an unsurmountable problem. You know the type where you think: I have no idea why this isn&#39;t working or how to solve this. Being an experienced moron, I did what I always do. Sleep on it. Which doesn&#39;t exactly make the problem go away, but I know that at that point, what I really need is a break.",
   "thumbnail": "/images/posts/1615354110381_tn.jpg",
@@ -27,7 +27,7 @@
   "url": "/posts/2021-03-07-Squoosh/",
   "tags" : "tutorial,video,web development,tools"
 },{
-  "title": "Apply: Success Hasn&#39;t Spoiled Me...Yet!",
+  "title": "Apply Newsletter: Success Hasn&#39;t Spoiled Me...Yet!",
   "date" : "Mar 03, 2021",
   "summary" : "Years ago, I went to a pickup game at the Y. Which reminded me why I quit the basketball team in High School for a nerdier Computer Lab career. I couldn&#39;t shoot, dribble or run (although I&#39;m not sure I could ever shoot). I got picked last.",
   "thumbnail": "/images/posts/1614781660264_tn.jpg",
@@ -41,7 +41,7 @@
   "url": "/posts/2021-02-28-CSS Clamp/",
   "tags" : "tutorial,video,web development,css"
 },{
-  "title": "Apply for Web Developers: Lets Get Started",
+  "title": "Apply Newsletter: Lets Get Started",
   "date" : "Feb 24, 2021",
   "summary" : "Here I go. I&#39;m going to get started on this newsletter I&#39;ve been thinking about for so long. It&#39;s not easy committing to, but unless you jump in, you might never get started.",
   "thumbnail": "/images/posts/apply-get-started_tn.jpg",

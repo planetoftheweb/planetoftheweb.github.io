@@ -1,21 +1,21 @@
 ---
 layout: post
-title: 'Best online tools and Modules to get started on your next Web Development Project'
-summary: "You've got a new project to build, but how to begin. Ohhh the many ways to go. Should I use React, Svelte or Vue.js. Bootstrap or Tailwind, which Bundler should I use. Heres some great ways to get going."
-hero: /images/posts/fasterprojects.jpg
+title: 'Best online Tools, Extensions and Modules to Get Started on your Next Web Development Project'
+summary: "You've got a new project to build, but how to begin. Ohhh the many ways to go. Should I use React, Svelte or Vue.js. Bootstrap or Tailwind, which Bundler should I use. Heres some great ways to get going quickly."
+hero: /images/posts/faster-1080p-thumbnail.jpg
 thumb: /images/posts/fasterprojects_tn.jpg
 
 tags:
   - tutorial
-  - vidoe
+  - video
   - web development
-  - github
-  - tools
+  - tooling
 ---
 
 ## Emmet
 
-![Emmet Screenshot](http://pixelprowess.com/i/2021-03-13_14-04-11.png)
+[![Emmet Screenshot](https://pixelprowess.com/i/2021-03-13_14-04-11.png)](https://www.emmet.io/)
+
 
 First, let me go with Some of the easiest. If you use Visual Studio Code, it comes with [Emmet](https://www.emmet.io/) installed. Emmet is a toolkit for coding faster through quick shortcuts.
 
@@ -34,16 +34,16 @@ Emmet is great for building little templates of content types you can add. Trust
 
 ## HTML Boilerplate
 
-![HTML Boilerplate](https://pixelprowess.com/i/started-html-boilerplate.jpg)
+[![HTML Boilerplate](https://pixelprowess.com/i/started-html-boilerplate.jpg)](https://htmlboilerplates.com)
 
-Another way to get started quickly on your page if you want a little some more flexibility is to use this website called [HTML Boilerplates](https://htmlboilerplates.com/)[.](https://htmlboilerplates.com/%29.) It gives you the structure for different component that might need to go on your HTML page. It's not a ton of options, but it has a lot of the things that you'll need to have in your boilerplates to get going.
+
+Another way to get started quickly on your page if you want a little some more flexibility is to use this website called [HTML Boilerplates](https://htmlboilerplates.com/)[.](https://htmlboilerplates.com.) It gives you the structure for different component that might need to go on your HTML page. It's not a ton of options, but it has a lot of the things that you'll need to have in your boilerplates to get going.
 
 ## Github Templates
 
-![Github Use template](https://pixelprowess.com/i/started-github.jpg)
+[![Github Use template](https://pixelprowess.com/i/started-github.jpg)](https://github.com/new)
 
-Another way you can start a new project is based on an old project. If you have a Github Repo, you can easily switch it to a template. Just go to the settings tab in your project.
-
+Another way you can start a [new project](https://github.com/new) is based on an old project. If you have a Github Repo, you can easily switch it to a template. Just go to the settings tab in your project.
 
 Scroll down and turn on the Template repository checkbox. Your project will now have a 'Use this template' button.
 
@@ -53,13 +53,11 @@ That will quickly create a new Github project that is a clone of a current proje
 
 You can use this with another one of Github's great shortcuts. if you want to create a new Github repo, that's based on your template. You can use their shortcut URL [github.new](https://github.com/new/) and as a bonus, you can choose this or any other template you have saved like this.
 
-
-
 ![Github template](https://pixelprowess.com/i/started-github-template.jpg)
 
 ## Degit
 
-![Degit](http://pixelprowess.com/i/2021-03-15_01-47-33.png)
+[![Degit](http://pixelprowess.com/i/2021-03-15_01-47-33.png)](https://github.com/Rich-Harris/degit)
 
 Ok, what if you want to create a project based on someone else's Github Repo, but you don't want to fork...or maybe you forgot to create a template based on the repo. You might even be looking to clone a specific branch and you definitely want to start off with a clean history.
 
@@ -82,18 +80,16 @@ If you want to clone just a sub-directory, you can simply add slashes to read th
 The big advantage here is that you're cloning the repo without history, so you can grab a piece of a project to begin a new project easily.
 
 ## Create app
-
-![Create App](https://pixelprowess.com/i/started-createapp.jpg)
+[![Create App](https://pixelprowess.com/i/started-createapp.jpg)](https://createapp.dev/)
 
 For more advanced projects need more choices, you can try [Create App](https://createapp.dev/). It lets you choose different libraries like React, Svelte or vanilla JavaScript, build tools like WebPack, Parcel or Snowpack, UI Libraries like Bootstrap or Tailwind CSS.
 
 Name your project, and you can either hit the download project button to get a zip file, or you can copy the terminal commands you'll need to set this up yourself.
 
 ## Vite
+[![Vite](https://pixelprowess.com/i/started-vite.jpg)](https://vitejs.dev/)
 
-![Vite](https://pixelprowess.com/i/started-vite.jpg)
-
-Create App is cool and all, but what if you're not really into so many choices. You just need something super modern and quick, not so many choices between bundlers or build tools. My new favorite is Vite.
+Create App is cool and all, but what if you're not really into so many choices. You just need something super modern and quick, not so many choices between bundlers or build tools. My new favorite is [Vite](https://vitejs.dev/).
 
 Some of the features include a live preview server, native javascript import commands, hot module replacement, support for CSS, JSX and typescript. Vite doesn't let you choose, it just uses Rollup, ESbuild and template support for React, Vue, VanillaJS and Lit-Element.
 
