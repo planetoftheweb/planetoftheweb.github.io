@@ -10,6 +10,7 @@
     "build": "run-s prod:*",
     "now-build": "run-s prod:*",
     "prod:del": "rimraf build",
+    "prod:bootstrap-rayveal": "sass --style=compressed ./_site/_process/scss/style.scss ./dist/css/style.css",
     "prod:serve": "ELEVENTY_ENV=production eleventy --output=./build --quiet"
   },
   "postcss": {

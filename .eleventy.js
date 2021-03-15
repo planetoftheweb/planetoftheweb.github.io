@@ -5,9 +5,13 @@ const pluginTOC = require('eleventy-plugin-nesting-toc')
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
 
 module.exports = function (eleventyConfig) {
+
   eleventyConfig.addPlugin(pluginRss)
+
   eleventyConfig.addPlugin(syntaxHighlight)
+
   eleventyConfig.addWatchTarget('_process/scss')
+
   eleventyConfig.addFilter('simpleDate', (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: 'utc' }).toFormat(
       'LLL dd, yyyy'
@@ -19,8 +23,6 @@ module.exports = function (eleventyConfig) {
     wrapper: 'div',
     wrapperClass: '',
   })
-
-  eleventyConfig.addPassthroughCopy("./_site/js/script.js");
 
   eleventyConfig.addPlugin(eleventyNavigationPlugin)
 
@@ -77,6 +79,7 @@ module.exports = function (eleventyConfig) {
     require('./_site/_includes/getTagList')
   )
 
+  eleventyConfig.addPassthroughCopy("./_site/js/script.js");
   /* Markdown Plugins */
   let markdownIt = require('markdown-it')
   let markdownItAnchor = require('markdown-it-anchor')

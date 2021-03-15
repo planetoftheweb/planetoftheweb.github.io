@@ -8,6 +8,7 @@ video: aDDKibLYm18
 
 tags:
   - tutorial
+  - video
   - web development
   - github
   - linkedin learning

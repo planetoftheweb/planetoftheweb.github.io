@@ -3,12 +3,12 @@
 }
 
 .page-section-title {
-  @include font-size(1.5rem);
+  @include font-size(2.5rem);
 }
 
 .page-section-text {
   font-family: $font-family-sans-serif;
-  @include font-size(1rem);
+  @include font-size(1.2rem);
   font-weight: 400;
 }
 
@@ -24,7 +24,7 @@
 
 code {
   color: $body-bg;
-  background-color: lighten(theme-color('special'), 20%);
+  background-color: lighten(theme-color('special'), 5%);
   padding: 0 8px;
   border-radius: 5px;
 }
@@ -42,7 +42,7 @@ ol li {
 
 h1,
 .h1 {
-  color: lighten(theme-color('special'), 20%);
+  color: $dark-red;
 }
 
 h2,
@@ -54,7 +54,7 @@ h2,
 
 h3,
 .h3 {
-  color: $special;
+  color: darken($dark-red, 5%);
 }
 
 .site-header {
@@ -216,7 +216,14 @@ time {
   }
 
   p {
+    @include font-size(1.2rem);
     margin: 1.5em auto;
+  }
+
+  blockquote {
+    padding: 1px 1px 1px 2em;
+    border-left: 0.5em solid $dark-red;
+    background: $brighter-beige;
   }
 
   ul li,
@@ -234,10 +241,31 @@ time {
   pre {
     display: inline-block;
     box-shadow: 10px 10px 20px #92865c;
+    max-width: 100%;
   }
 
   pre code {
     font-size: 0.8em !important;
     margin: 0;
+  }
+
+  aside nav {
+    background-color: $dark-blue;
+    font-size: 0.9em;
+    padding: 10px;
+    border-radius: 5px;
+    line-height: 90%;
+    color: $brighter-beige;
+    ol {
+      padding-left: 1.75em;
+      margin-bottom: 0;
+    }
+    a {
+      color: $brighter-beige;
+      text-decoration: underline;
+      &:hover {
+        color: $white;
+      }
+    }
   }
 }

@@ -10,7 +10,7 @@ $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 700;
 $line-height-base: 1.6;
 
-$light-beige: #f3e9ca;
+$light-beige: #ebe8e4;
 $dark-red: #bf471b;
 $dark-blue: #3e4653;
 $neutral-blue: #646569;
@@ -31,7 +31,7 @@ $theme-colors: (
 );
 
 $enable-responsive-font-sizes: true;
-$rfs-base-font-size: 0.8rem;
+$rfs-base-font-size: 1.2rem;
 $enable-caret: false;
 
 $enable-shadows: true;
@@ -40,7 +40,7 @@ $spacer: 1rem;
 
 $spacers: (
   huge: (
-    $spacer * 5,
+    $spacer * 6,
   ),
 );
 

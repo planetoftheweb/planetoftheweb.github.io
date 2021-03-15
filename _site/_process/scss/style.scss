@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Asap:400,700|Roboto+Slab:300');
+html {
+  scroll-behavior: smooth;
+}
 
 // Import our custom variables
 @import './custom';
