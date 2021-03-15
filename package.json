@@ -4,13 +4,13 @@
   "description": "Personal website and blog for Ray Villalobos",
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
-    "dev:bootstrap-rayveal": "sass --style=compressed ./_site/_process/scss/style.scss ./dist/css/style.css",
+    "dev:bootstrap-rayveal": "sass --style=compressed ./_site/_process/scss/style.scss ./docs/css/style.css",
     "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve --quiet",
-    "dev:del": "rimraf dist",
+    "dev:del": "rimraf docs",
     "build": "run-s prod:*",
     "now-build": "run-s prod:*",
     "prod:del": "rimraf build",
-    "prod:bootstrap-rayveal": "sass --style=compressed ./_site/_process/scss/style.scss ./dist/css/style.css",
+    "prod:bootstrap-rayveal": "sass --style=compressed ./_site/_process/scss/style.scss ./build/css/style.css",
     "prod:serve": "ELEVENTY_ENV=production eleventy --output=./build --quiet"
   },
   "postcss": {
