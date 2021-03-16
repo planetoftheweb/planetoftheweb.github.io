@@ -4,7 +4,7 @@ title: 'Best online Tools, Extensions and Modules to Get Started on your Next We
 summary: "You've got a new project to build, but how to begin. Ohhh the many ways to go. Should I use React, Svelte or Vue.js. Bootstrap or Tailwind, which Bundler should I use. Heres some great ways to get going quickly."
 hero: /images/posts/faster-1080p-thumbnail.jpg
 thumb: /images/posts/fasterprojects_tn.jpg
-vide: UQkhm_fQnOU
+video: UQkhm_fQnOU
 
 tags:
   - tutorial
