@@ -9,6 +9,7 @@ eleventyNavigation:
 
 {% set postslist = collections.posts | head(11) %}
 {% set courselist = collections.courses | head(6) %}
+{% set newsletterlist = collections.newsletter | head(1) %}
 {% set carouselPosts = collections.posts | head(3) %}
 
 
@@ -46,11 +47,23 @@ eleventyNavigation:
     {% endfor -%}
   </div>
   <div class="col-md-3">
-    <h6 class="text-secondary mt-3 px-3 px-sm-0">Latest Courses</h6>
+
+    <h6 class="text-secondary mt-3 px-3 px-sm-0">Apply Newsletter</h6>
+
+    <div class="newsletter-sidebar">
+    {% set itemList = newsletterlist %}
+    {% for item in itemList %}
+    {% include "sidebar_notags.njk" %}
+    {% endfor -%}
+    <a href="/newsletter/0" class="d-none d-lg-inline mr-3 mb-5 mr-lg-1 text-secondary family-sans"><i class="fas fa-newspaper"></i> All News</a>
+    </div>
+
+    <h6 class="text-secondary mt-5 px-3 px-sm-0">Latest Courses</h6>
     <div class="main-sidebar">
+
     {% set itemList = courselist %}
     {% for item in itemList %}
-    {% include "sidebar.njk" %}
+    {% include "sidebar_notags.njk" %}
     {% endfor -%}
     </div>
   </div>

@@ -60,14 +60,6 @@
 	</entry>
 	
 	<entry>
-		<title>Apply Newsletter: Make it Small</title>
-		<link href="/posts/2021-03-10-apply-newsletter-make-it-small/"/>
-		<updated>2021-03-10T05:00:00Z</updated>
-		<id>/posts/2021-03-10-apply-newsletter-make-it-small/</id>
-		<content type="html"></content>
-	</entry>
-	
-	<entry>
 		<title>Try out the latest and most efficient image compression with Squoosh from Google</title>
 		<link href="/posts/2021-03-07-Squoosh/"/>
 		<updated>2021-03-07T05:00:00Z</updated>
@@ -96,14 +88,6 @@
 &lt;p&gt;You can also save this as an app by hitting this install button at the top of the home screen if you want to use it offline without having to load the website.&lt;/p&gt;
 &lt;p&gt;Overall, this app can really make a big differce in your LightHouse score.&lt;/p&gt;
 </content>
-	</entry>
-	
-	<entry>
-		<title>Apply Newsletter: Success Hasn&#39;t Spoiled Me...Yet!</title>
-		<link href="/posts/2021-03-03-apply-newsletter-success-hasnt-spoiled-me-yet/"/>
-		<updated>2021-03-03T05:00:00Z</updated>
-		<id>/posts/2021-03-03-apply-newsletter-success-hasnt-spoiled-me-yet/</id>
-		<content type="html"></content>
 	</entry>
 	
 	<entry>
@@ -143,11 +127,42 @@
 	</entry>
 	
 	<entry>
-		<title>Apply Newsletter: Lets Get Started</title>
-		<link href="/posts/2021-02-24-apply-newsletter-lets-get-started/"/>
-		<updated>2021-02-24T05:00:00Z</updated>
-		<id>/posts/2021-02-24-apply-newsletter-lets-get-started/</id>
-		<content type="html"></content>
+		<title>JSL: ES2020 Optional Chaining Operator...explained with cats</title>
+		<link href="/posts/2021-02-14-JSL-ES2020-new-features-optional-chaining/"/>
+		<updated>2021-02-14T05:00:00Z</updated>
+		<id>/posts/2021-02-14-JSL-ES2020-new-features-optional-chaining/</id>
+		<content type="html">&lt;h2 id=&quot;optional-chaining&quot;&gt;Optional Chaining &lt;a class=&quot;direct-link&quot; href=&quot;#optional-chaining&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Optional Chaining. It looks like a question mark next to a period, but there&#39;s a lot of hidden power in that punctuation.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;?.&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;aka-the-ternary-conditional-operator&quot;&gt;AKA The Ternary Conditional Operator &lt;a class=&quot;direct-link&quot; href=&quot;#aka-the-ternary-conditional-operator&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;It&#39;s also known as the ternary conditional operator because it combines some of what the ternary operator does together with the chaining operator, normally called dot notation.&lt;/p&gt;
+&lt;p&gt;It&#39;s similar to the traditional dot syntax which lets you access an object and its properties.&lt;/p&gt;
+&lt;p&gt;Say you have a list of cats you need to keep track of. You might have some data that looks like this to track them.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; cats &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;  name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;Sniggles&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;  breed&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;Cyrmic&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;  fur&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;    color&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;calico&#39;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token comment&quot;&gt;//...other cats&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;using-dot-notation-syntax&quot;&gt;Using Dot Notation Syntax &lt;a class=&quot;direct-link&quot; href=&quot;#using-dot-notation-syntax&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You can use dot notation to get to the fur color. That would look like this:&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; myColor &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; cats&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fur&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;color&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token comment&quot;&gt;// returns &#39;calico&#39;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;But what if in your list of animals, you have a cat that has no fur?&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; cats &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token comment&quot;&gt;//...previous cats&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;  name&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;Mojo&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;  breed&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;Sphynx&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;  &lt;span class=&quot;token comment&quot;&gt;//...other cats&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;the-error-with-missing-objects&quot;&gt;The Error With Missing Objects &lt;a class=&quot;direct-link&quot; href=&quot;#the-error-with-missing-objects&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The problem here is that JSON data, specially when working with a NoSQL database doesn&#39;t necessarily return all of the fields, so we can&#39;t guarantee that we&#39;ll have a fur object available.&lt;/p&gt;
+&lt;p&gt;In that case, you&#39;d get an error from the compiler. And it&#39;s not one of those easy to find errors. It&#39;s one of those that implies you&#39;re an idiot.&lt;/p&gt;
+&lt;h2 id=&quot;ternary-operator-fix&quot;&gt;Ternary Operator Fix &lt;a class=&quot;direct-link&quot; href=&quot;#ternary-operator-fix&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;You can try fixing it by using the ternary operator like this:&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; myColor &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;cats&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fur&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;color&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;?&lt;/span&gt; cats&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;fur&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;color &lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&#39;&#39;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;What we&#39;re doing here is a short version of an if...then statement. First, we test for the cats color and if it&#39;s undefined or null, then return an empty string, which is similar. But honestly, that&#39;s not the most readable code.&lt;/p&gt;
+&lt;h2 id=&quot;optional-chaining-fix&quot;&gt;Optional Chaining Fix &lt;a class=&quot;direct-link&quot; href=&quot;#optional-chaining-fix&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The Optional Chaining operator performs this test for you.&lt;/p&gt;
+&lt;pre class=&quot;language-js&quot;&gt;&lt;code class=&quot;language-js&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; myColor &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; cats&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;body&lt;span class=&quot;token operator&quot;&gt;?.&lt;/span&gt;fur&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;color&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;If the fur object doesn&#39;t exist, it will return undefined instead of null so you don&#39;t get the error. That&#39;s also much easier to read. Ternary statements are awesome, but they always give me a headache.&lt;/p&gt;
+&lt;h2 id=&quot;browser-support&quot;&gt;Browser Support &lt;a class=&quot;direct-link&quot; href=&quot;#browser-support&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is one of JavaScript&#39;s 2020 features and browser support is spotty.&lt;/p&gt;
+&lt;script src=&quot;https://cdn.jsdelivr.net/gh/ireade/caniuse-embed/public/caniuse-embed.min.js&quot;&gt;&lt;/script&gt;
+&lt;p class=&quot;ciu_embed&quot; data-feature=&quot;mdn-javascript__operators__optional_chaining&quot; data-periods=&quot;future_1,current,past_1,past_2&quot; data-accessible-colours=&quot;false&quot;&gt;&lt;/p&gt;
+&lt;p&gt;So make sure you&#39;re using a transpiler like &lt;a href=&quot;https://babeljs.io/&quot;&gt;Babel&lt;/a&gt; if you want this to work in older browsers.&lt;/p&gt;
+&lt;h2 id=&quot;more-info&quot;&gt;More Info &lt;a class=&quot;direct-link&quot; href=&quot;#more-info&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Learn more about &lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Optional_chaining&quot;&gt;Optional Chaining&lt;/a&gt; on MDN.&lt;/p&gt;
+</content>
 	</entry>
 	
 	<entry>

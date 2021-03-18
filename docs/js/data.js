@@ -1,4 +1,18 @@
 [{
+  "title": "Spending Time to Make Time",
+  "date" : "Mar 17, 2021",
+  "summary" : "Developers are notorious for being lazy. I&#39;m obsessed with streamlining processes, it&#39;s one of those things that brings joy to my heart. In this issue, I try to save you some time.",
+  "thumbnail": "/images/posts/racingcar_tn.jpg",
+  "url": "https://www.linkedin.com/pulse/spending-time-make-ray-villalobos/",
+  "tags" : "external,Apply Newsletter"
+},{
+  "title": "Best Web Developer Tools, Extensions and Modules to Get Started on your Next Web Design Project",
+  "date" : "Mar 16, 2021",
+  "summary" : "You&#39;ve got a new web development project to build, but how to begin. Here&#39;s a few tips and tricks that I use which are the best ways to get your web design projects started quickly.",
+  "thumbnail": "https://i.ytimg.com/vi/UQkhm_fQnOU/hqdefault.jpg",
+  "url": "/videos/2021-03-16-Web-Developer-Tools-to-Get-Started-Web-Design-Project/",
+  "tags" : ""
+},{
   "title": "Building a GraphQL Project with React.js",
   "date" : "Mar 15, 2021",
   "summary" : "GraphQL gives you a clean way to query complex server data efficiently, and React makes it easy to present that information as a web application in the browser.",
@@ -13,9 +27,16 @@
   "url": "/posts/2021-03-13-Best-Online-Tools-and-Modules/",
   "tags" : "tutorial,video,web development,tooling"
 },{
-  "title": "Apply Newsletter: Make it Small",
+  "title": "Automate Image Compression for your Websites with the latest codecs using Squoosh from Google",
   "date" : "Mar 10, 2021",
-  "summary" : "I was recording a course last week when I ran into an unsurmountable problem. You know the type where you think: I have no idea why this isn&#39;t working or how to solve this. Being an experienced moron, I did what I always do. Sleep on it. Which doesn&#39;t exactly make the problem go away, but I know that at that point, what I really need is a break.",
+  "summary" : "To get the smallest sizes for your web design images, you need to try the latest codecs like WebP, MozJPEG, AVIF and Google created an excellent tool that helps you automate that process.",
+  "thumbnail": "https://i.ytimg.com/vi/KvQ4WCIXg0w/hqdefault.jpg",
+  "url": "/videos/2021-03-10-Image-Compression-using-Squoosh-from-Google/",
+  "tags" : ""
+},{
+  "title": "Make it Small",
+  "date" : "Mar 10, 2021",
+  "summary" : "I was recording a course last week when I ran into an unsurmountable problem. You know the type where you think: I have no idea why this isn&#39;t working or how to solve this. Here&#39;s how I solve the big..and small problems.",
   "thumbnail": "/images/posts/1615354110381_tn.jpg",
   "url": "https://www.linkedin.com/pulse/make-small-ray-villalobos/",
   "tags" : "external,Apply Newsletter"
@@ -27,12 +48,19 @@
   "url": "/posts/2021-03-07-Squoosh/",
   "tags" : "tutorial,video,web development,tools"
 },{
-  "title": "Apply Newsletter: Success Hasn&#39;t Spoiled Me...Yet!",
+  "title": "Success Hasn&#39;t Spoiled Me...Yet!",
   "date" : "Mar 03, 2021",
-  "summary" : "Years ago, I went to a pickup game at the Y. Which reminded me why I quit the basketball team in High School for a nerdier Computer Lab career. I couldn&#39;t shoot, dribble or run (although I&#39;m not sure I could ever shoot). I got picked last.",
+  "summary" : "The newsletter shattered my expectations with over 5000 subscriptions the first week. Trying hard to not let it get to my head, I talk about my learning habit and lots of other developer tips.",
   "thumbnail": "/images/posts/1614781660264_tn.jpg",
   "url": "https://www.linkedin.com/pulse/success-hasnt-spoiled-meyet-ray-villalobos/",
   "tags" : "external,Apply Newsletter"
+},{
+  "title": "CSS Tips and Tricks: Responsive content without media queries using CSS Clamp()",
+  "date" : "Mar 01, 2021",
+  "summary" : "There&#39;s a super useful CSS function called Clamp() you&#39;ve got to learn as a part of your of bag of CSS Tips and Tricks.",
+  "thumbnail": "https://i.ytimg.com/vi/CICYdO0g8Ew/hqdefault.jpg",
+  "url": "/videos/2021-03-01-Responsive-content-using-CSS-Clamp/",
+  "tags" : ""
 },{
   "title": "Responsive content without media queries using CSS Clamp()",
   "date" : "Feb 28, 2021",
@@ -41,12 +69,33 @@
   "url": "/posts/2021-02-28-CSS Clamp/",
   "tags" : "tutorial,video,web development,css"
 },{
-  "title": "Apply Newsletter: Lets Get Started",
+  "title": "Bootstrap Icons - Free Icons for Web Design",
   "date" : "Feb 24, 2021",
-  "summary" : "Here I go. I&#39;m going to get started on this newsletter I&#39;ve been thinking about for so long. It&#39;s not easy committing to, but unless you jump in, you might never get started.",
+  "summary" : "If you&#39;re looking for free Icons for web design. Bootstrap Icons is an open source icon set from the makers of the bootstrap framework with more than 1300 icons",
+  "thumbnail": "https://i.ytimg.com/vi/Nhpyb1jx54A/hqdefault.jpg",
+  "url": "/videos/2021-02-24-Bootstrap-Icons-for-Web-Design/",
+  "tags" : ""
+},{
+  "title": "Lets Get Started",
+  "date" : "Feb 24, 2021",
+  "summary" : "In this first edition, I try to explain what I&#39;m doing with the newsletter, a bit of my background story and highlight some of the work I&#39;ve been doing recently.",
   "thumbnail": "/images/posts/apply-get-started_tn.jpg",
   "url": "https://www.linkedin.com/pulse/lets-get-started-ray-villalobos/",
   "tags" : "external,Apply Newsletter"
+},{
+  "title": "Tailwind CSS vs Bootstrap-Is it time to switch?",
+  "date" : "Feb 19, 2021",
+  "summary" : "A live stream on Tailwind vs Bootstrap because I think you need to know when and if it&#39;s the right time to switch to this new CSS library.",
+  "thumbnail": "https://i.ytimg.com/vi/6ULHBv_0Y3U/hqdefault.jpg",
+  "url": "/videos/2021-02-19-Tailwind-CSS-vs-Bootstrap-Is-it-time-to-switch/",
+  "tags" : ""
+},{
+  "title": "JSL: ES2020 Optional Chaining Operator...explained with cats",
+  "date" : "Feb 14, 2021",
+  "summary" : "JavaScript&#39;s Optional Chaining Operator, also known as the conditional ternary operator is one of those cool new features in ES2020 that you need to know.",
+  "thumbnail": "/images/posts/jsl-optionalchaining_tn.jpg",
+  "url": "/posts/2021-02-14-JSL-ES2020-new-features-optional-chaining/",
+  "tags" : "javascript,tutorial,javascript2020,optionalchaining,frontenddeveloper,fullstackdeveloper,developer,webdesign,JSL"
 },{
   "title": "Tailwind CSS: Essential Training",
   "date" : "Feb 12, 2021",
@@ -55,12 +104,26 @@
   "url": "https://www.linkedin.com/learning/tailwind-css-essential-training/divide",
   "tags" : "graphQL,react,database,javascript"
 },{
+  "title": "JavaScript ES2020 New Features-Optional Chaining",
+  "date" : "Feb 05, 2021",
+  "summary" : "JavaScript&#39;s Optional Chaining Operator, also known as the conditional ternary operator is one of those cool new features in ES2020 that you need to know.",
+  "thumbnail": "https://i.ytimg.com/vi/TLb0FyS2p2c/hqdefault.jpg",
+  "url": "/videos/2021-02-05-JavaScript-ES2020-New-Features-Optional-Chaining/",
+  "tags" : ""
+},{
   "title": "Vue.js 3: Essential Training",
   "date" : "Jan 22, 2021",
   "summary" : "Vue.js offers developers a framework for building applications that lets them choose how deeply they want to apply the framework.",
   "thumbnail": "/images/courses/vuejs3.jpg",
   "url": "https://www.linkedin.com/learning/vue-js-3-essential-training",
   "tags" : "vuejs,vue3,framework,javascript,javascript library"
+},{
+  "title": "The Recap - Github Universe Edition",
+  "date" : "Dec 15, 2020",
+  "summary" : "Let&#39;s recap Github Universe with a live chat about what you loved with Ray Villalobos, Morten Rand-Hendrikssen and Walt Ritscher with Special Guest Allison Weins Product Manager at Github CodeSpaces.",
+  "thumbnail": "https://i.ytimg.com/vi/bjR4kHGsX3E/hqdefault.jpg",
+  "url": "/videos/2020-12-15-The-Recap-Github-Universe-Edition/",
+  "tags" : ""
 },{
   "title": "Developer Career Paths and Certifications",
   "date" : "Dec 11, 2020",
@@ -83,6 +146,13 @@
   "url": "https://www.linkedin.com/learning/building-a-video-chat-app-with-vue-js-and-firebase",
   "tags" : "vuejs,vuejs2,video,chat,firebase,database"
 },{
+  "title": "Using LinkedIn Learning courses with Github Repos",
+  "date" : "Jul 24, 2020",
+  "summary" : "Some LinkedIn Learning technology courses have Github repositories associated with them. They can make your life a whole lot easier when working with the courses.",
+  "thumbnail": "https://i.ytimg.com/vi/aDDKibLYm18/hqdefault.jpg",
+  "url": "/videos/2020-07-24-LinkedIn-Learning-courses-with-Github-Repos/",
+  "tags" : ""
+},{
   "title": "How to take a course on LinkedIn Learning with a Github Repo",
   "date" : "Jul 22, 2020",
   "summary" : "Some of our courses on LinkedIn Learning allow you use Github repositories in order to follow along and practice with the course, so let&#39;s take a look at how that works and how you might use Github to enhance the way you take the course.",
@@ -97,6 +167,55 @@
   "url": "/posts/2020-07-08-error-free-live-demo/",
   "tags" : "tutorial,web development"
 },{
+  "title": "Notyf, A JavaScript Notification Library that&#39;s fully customizable",
+  "date" : "Jul 02, 2020",
+  "summary" : "In this episode, we&#39;re taking a look at Notyf, a tiny and flexible notification library that you can use with your javascript, Angular or Vue.js projects.",
+  "thumbnail": "https://i.ytimg.com/vi/l1DeaNvAOb8/hqdefault.jpg",
+  "url": "/videos/2020-07-02-Notyf-A-JavaScript-Notification-Library/",
+  "tags" : ""
+},{
+  "title": "How to manage your Software Development Career Q&amp;A",
+  "date" : "Jul 01, 2020",
+  "summary" : "What should you study? The importance of Degrees, Internships, Github Repos, Portfolios and how to prove that you can be a developer.",
+  "thumbnail": "https://i.ytimg.com/vi/vlReYJkGNpQ/hqdefault.jpg",
+  "url": "/videos/2020-07-01-How-to-manage-your-Software-Development-Career/",
+  "tags" : ""
+},{
+  "title": "Checking Out Bootstrap&#39;s NPM Starter Project",
+  "date" : "Jun 30, 2020",
+  "summary" : "Let&#39;s take a look at one of Bootstrap&#39;s new projects...the npm starter template that helps you create bootstrap projects a bit quicker if you&#39;re using NPM as the basis for your web development projects.",
+  "thumbnail": "https://i.ytimg.com/vi/u7ta6qj_aCw/hqdefault.jpg",
+  "url": "/videos/2020-06-30-Bootstraps-NPM-Starter-Project/",
+  "tags" : ""
+},{
+  "title": "Bootstrap 5 Alpha 1. What&#39;s new and what to know if you&#39;re migrating.",
+  "date" : "Jun 27, 2020",
+  "summary" : "Bootstrap is the world&#39;s most popular CSS Framework, and they recently released the first Alpha for version 5, so let&#39;s take a look at some of the new features and what you&#39;ll need to know when migrating or updating your projects.",
+  "thumbnail": "https://i.ytimg.com/vi/fKY8S8L8d5c/hqdefault.jpg",
+  "url": "/videos/2020-06-27-Bootstrap-5-What-s-new-and-migrating/",
+  "tags" : ""
+},{
+  "title": "Could this be the best new CSS Icon Library?",
+  "date" : "Jun 25, 2020",
+  "summary" : "Climbing in the Github Star Charts with over 5000 already is this little known new icon library...css.gg. It has a ton of features including CSS, SVG and Figma UI icons.",
+  "thumbnail": "https://i.ytimg.com/vi/in9JuYB0J7Q/hqdefault.jpg",
+  "url": "/videos/2020-06-25-the-best-new-CSS-Icon-Library/",
+  "tags" : ""
+},{
+  "title": "Tech Peeves: What makes you crazy about tech",
+  "date" : "Jun 25, 2020",
+  "summary" : "We love tech but let’s be honest. Some parts are annoying. We’re not talking about big issues here, but the little things that exasperate you every time you encounter them. Join us this week as we grumble about our pet peeves in tech.",
+  "thumbnail": "https://i.ytimg.com/vi/hbZfpsdC3-Q/hqdefault.jpg",
+  "url": "/videos/2020-06-25-Tech-Peeves-What-makes-you-crazy-about-tech/",
+  "tags" : ""
+},{
+  "title": "Let&#39;s Play with Github&#39;s CodeSpaces",
+  "date" : "Jun 24, 2020",
+  "summary" : "Ray Villalobos got early access to Github CodeSpaces, so let&#39;s spend a few minutes together and talk about how it works and what you can do with it.",
+  "thumbnail": "https://i.ytimg.com/vi/Sk4dX9IuDb8/hqdefault.jpg",
+  "url": "/videos/2020-06-24-Let-s-Play-with-Github-CodeSpaces/",
+  "tags" : ""
+},{
   "title": "CSS: Scrolling and Parallax",
   "date" : "Jun 24, 2020",
   "summary" : "This course shows developers how to leverage scrolling and parallax to program new interface styles using CSS, JavaScript as well as ScrollMagic and the GreenSock Animation Platform (GSAP).",
@@ -104,12 +223,82 @@
   "url": "https://www.linkedin.com/learning/css-scrolling-and-parallax/",
   "tags" : "animations,css,javascript,scrollmagic,gsap,scrolling,tweening"
 },{
+  "title": "NAP Technical Support Q&amp;A",
+  "date" : "Jun 21, 2020",
+  "summary" : "In this Episode of NAP - Not a Podcast, we take questions from our LinkedIn Friends and answer. You have questions. The NAP team (might) have answers!",
+  "thumbnail": "https://i.ytimg.com/vi/Ml84e4-qgZI/hqdefault.jpg",
+  "url": "/videos/2020-06-21-NAP-Technical-Support-Q-A/",
+  "tags" : ""
+},{
+  "title": "Biggest Professional Mistakes",
+  "date" : "Jun 18, 2020",
+  "summary" : "The NAP team breaks down their biggest career blunders. Maybe there&#39;s something to learn from their mistakes to help you career improve in Technology.",
+  "thumbnail": "https://i.ytimg.com/vi/ooDRG64Telk/hqdefault.jpg",
+  "url": "/videos/2020-06-18-Biggest-Professional-Mistakes/",
+  "tags" : ""
+},{
+  "title": "Tech Journeys - How we got a job in Technology",
+  "date" : "Jun 11, 2020",
+  "summary" : "The NAP friends all come from various backgrounds and have broken into tech in different and not so conventional ways.",
+  "thumbnail": "https://i.ytimg.com/vi/Ghem9lpaG5c/hqdefault.jpg",
+  "url": "/videos/2020-06-11-Tech-Journeys-How-we-got-a-job-in-Technology/",
+  "tags" : ""
+},{
+  "title": "Tech Trends-Not a Podcast",
+  "date" : "May 28, 2020",
+  "summary" : "The NAP crew thrives on technology. Being proficient in our chosen tech field means that we try to sense the upcoming tech trends, so we’re prepared for what’s next.",
+  "thumbnail": "https://i.ytimg.com/vi/r4vbpqlveLI/hqdefault.jpg",
+  "url": "/videos/2020-05-28-Tech-Trends/",
+  "tags" : ""
+},{
+  "title": "Making the Most of your Browser",
+  "date" : "May 14, 2020",
+  "summary" : "The browser is the Swiss army knife of the Web, in this episode we talk about how we use the browsers as technologists, how to manage tabs, profiles and what extensions work best to turbo-charge your experience.",
+  "thumbnail": "https://i.ytimg.com/vi/MSltP3aFyCM/hqdefault.jpg",
+  "url": "/videos/2020-05-14-Making-the-Most-of-your-Browser/",
+  "tags" : ""
+},{
   "title": "GitHub Quick Tips",
   "date" : "May 11, 2020",
   "summary" : "These 30 tips and tricks help you exercise the full power of this versatile software development platform. Customize GitHub by building out your project homepages, turning repositories into reusable templates, adding collaborators and more.",
   "thumbnail": "/images/courses/githubquick_tn.jpg",
   "url": "https://www.linkedin.com/learning/github-quick-tips/",
   "tags" : "github,tips,quick tips,git"
+},{
+  "title": "Best Technology Movies To Watch",
+  "date" : "May 07, 2020",
+  "summary" : "In this livestream we&#39;ll discuss our favorite technology movies. With special guest Ashley Kennedy.  Morten Rand-Hendriksen and Ray Villalobos with dueling time travel movies and who knows what Walt Ritscher will bring.",
+  "thumbnail": "https://i.ytimg.com/vi/XGb2CbjqlJk/hqdefault.jpg",
+  "url": "/videos/2020-05-07-Best-Technology-Movies-To-Watch/",
+  "tags" : ""
+},{
+  "title": "What to do when not TECH-ing",
+  "date" : "Apr 30, 2020",
+  "summary" : "We share when we do when we&#39;re not wresting with technology. Share with us what you&#39;re doing when you&#39;re not coding, tech-ing, azure-ing, etc.",
+  "thumbnail": "https://i.ytimg.com/vi/80DTY7N2qAY/hqdefault.jpg",
+  "url": "/videos/2020-04-30-What-to-do-when-not-TECH-ing/",
+  "tags" : ""
+},{
+  "title": "Getting things done with Technology",
+  "date" : "Apr 23, 2020",
+  "summary" : "We&#39;ll talk about how each of us approaches getting things done with different software (or hardware) tools.",
+  "thumbnail": "https://i.ytimg.com/vi/aA_Ms7-cAUQ/hqdefault.jpg",
+  "url": "/videos/2020-04-23-Getting-things-done-with-Technology/",
+  "tags" : ""
+},{
+  "title": "Web Utilities we Can&#39;t live Without",
+  "date" : "Apr 16, 2020",
+  "summary" : "We talk about utilities that are so useful to their daily lives that they can&#39;t live without them. Everything from password managers, to search tools, clipboard managers diffing tools and much more.",
+  "thumbnail": "https://i.ytimg.com/vi/dzaIDRoKq1Q/hqdefault.jpg",
+  "url": "/videos/2020-04-16-Web-Utilities-we-Can-t-live-Without/",
+  "tags" : ""
+},{
+  "title": "Definitely Not A Podcast",
+  "date" : "Apr 08, 2020",
+  "summary" : "A Live Stream about the Internet, technology and development. With Sharon Bennet, Morten Rand-Hendriksen, Walt Ritscher and Ray Villalobos...We have a lighthearted approach to what&#39;s happening in Technology.",
+  "thumbnail": "https://i.ytimg.com/vi/kIzEi7Qh1Yc/hqdefault.jpg",
+  "url": "/videos/2020-04-08-Definitely-Not-A-Podcast/",
+  "tags" : ""
 },{
   "title": "Building Serverless Apps with JAMStack and Eleventy",
   "date" : "Mar 17, 2020",
@@ -166,6 +355,13 @@
   "thumbnail": "/images/courses/succeeding-web-development_tn.png",
   "url": "https://www.linkedin.com/learning/succeeding-in-web-development-full-stack-and-front-end/becoming-a-web-developer?u=104",
   "tags" : "careers,full stack,web development,web designer,web developer"
+},{
+  "title": "How to post from LinkedIn and Twitter at the same time",
+  "date" : "Aug 23, 2019",
+  "summary" : "I’m posting more from LinkedIn and Twitter, but I’m too lazy to post twice…since It’s easy enough to do it from LinkedIn, here’s a quick tutorial to show you how to set it up.",
+  "thumbnail": "https://i.ytimg.com/vi/zGQ23v5TKYY/hqdefault.jpg",
+  "url": "/videos/2019-08-23-How-to-post-from-LinkedIn-and-Twitter/",
+  "tags" : ""
 },{
   "title": "Vue.js: Building an Interface",
   "date" : "Aug 15, 2019",
@@ -341,6 +537,13 @@
   "thumbnail": "/images/posts/weekly-unusual_tn.png",
   "url": "https://www.linkedin.com/pulse/5-unusual-skills-industry-professionals-use-more-ray-villalobos",
   "tags" : "external,careers"
+},{
+  "title": "Building Markdown Slideshows with RayVeal.js",
+  "date" : "Aug 02, 2017",
+  "summary" : "Rayveal.js is an adaptation of the popular reveal.js framework, but it&#39;s designed to work with markdown files to make it super easy to create slideshows.",
+  "thumbnail": "https://i.ytimg.com/vi/S53U5x_4tBM/hqdefault.jpg",
+  "url": "/videos/2017-08-02-Building-Markdown-Slideshows-with-RayVeal-js/",
+  "tags" : ""
 },{
   "title": "Keep up with full stack, UX, web design and mobile with seven weekly series",
   "date" : "Jun 28, 2017",

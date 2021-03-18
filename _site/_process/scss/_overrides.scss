@@ -249,6 +249,11 @@ time {
     margin: 0;
   }
 
+  .article-content a {
+    color: $primary;
+    text-decoration: underline;
+  }
+
   aside nav {
     background-color: $dark-blue;
     font-size: 0.9em;
@@ -269,3 +274,4 @@ time {
     }
   }
 }
+

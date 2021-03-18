@@ -49,19 +49,14 @@ module.exports = function (eleventyConfig) {
     return collection.getFilteredByGlob('./_site/courses/*.md').reverse()
   })
 
-  // only content in the `projects` directory
-  eleventyConfig.addCollection('projects', function (collection) {
-    return collection.getFilteredByGlob('./_site/projects/**/*.md')
+  // only content in the `courses` directory
+  eleventyConfig.addCollection('newsletter', function (collection) {
+    return collection.getFilteredByGlob('./_site/newsletter/*.md').reverse()
   })
 
-  // only content in the `rayveal` directory
-  eleventyConfig.addCollection('rayveal', function (collection) {
-    return collection.getFilteredByGlob('./_site/projects/rayveal/*.md')
-  })
-
-  // only content in the `seven` directory
-  eleventyConfig.addCollection('seven', function (collection) {
-    return collection.getFilteredByGlob('./_site/projects/seven/*.md')
+  // only content in the `courses` directory
+  eleventyConfig.addCollection('videos', function (collection) {
+    return collection.getFilteredByGlob('./_site/videos/*.md').reverse()
   })
 
   eleventyConfig.addCollection('searchable', function (collection) {
@@ -69,7 +64,8 @@ module.exports = function (eleventyConfig) {
       .getFilteredByGlob([
         './_site/courses/*.md',
         './_site/posts/*.md',
-        './_site/projects/**/*.md',
+        './_site/newsletter/*.md',
+        './_site/videos/*.md'
       ])
       .reverse()
   })

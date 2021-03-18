@@ -1,0 +1,873 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+ 
+    <title>Raybo.org</title>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+  
+    <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    </head>
+  <body class="position-relative" data-spy="scroll" data-target=".site-nav" data-offset="55">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
+  <div class="container-fluid">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-brand text-lowercase">
+      <a class="text-light" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
+        
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
+        
+        <a class="nav-item nav-link font-weight-bold  text-light" href="/"><i class="fas fa-home"></i></a>
+        
+          <a class="nav-item nav-link" href="/courses/0/">courses</a>
+          
+          <a class="nav-item nav-link" href="/Videos/0/">videos</a>
+          
+          <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+          
+          <a class="nav-item nav-link" href="/posts/0/">posts</a>
+          </div>
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user text-white"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
+            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+            <i class="fab fa-github text-secondary mr-2"></i>github
+          </a><a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+            <i class="fab fa-linkedin text-secondary mr-2"></i>linkedin
+          </a><a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+            <i class="fab fa-twitter text-secondary mr-2"></i>twitter
+          </a><a class="dropdown-item text-capitalize" href="https://dribbble.com/planetoftheweb">
+            <i class="fab fa-dribbble text-secondary mr-2"></i>dribble
+          </a><a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+            <i class="fab fa-flickr text-secondary mr-2"></i>flickr
+          </a><a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+            <i class="fab fa-youtube text-secondary mr-2"></i>youtube
+          </a><a class="dropdown-item text-capitalize" href="https://www.instagram.com/iviewsource">
+            <i class="fab fa-instagram text-secondary mr-2"></i>instagram
+          </a></div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-left" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+style="padding-top: 80px"
+>
+<p>See <a href="/tags/">all tags</a>.</p>
+<h2 class="text-secondary mb-5">Tagged <small>“videos”</small></h2>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  mb-3 ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2017-08-02-Building-Markdown-Slideshows-with-RayVeal-js/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/S53U5x_4tBM/hqdefault.jpg" alt="Building Markdown Slideshows with RayVeal.js image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Aug 02, 2017">Aug 02, 2017</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2017-08-02-Building-Markdown-Slideshows-with-RayVeal-js/" class="item-title h2 d-block" >Building Markdown Slideshows with RayVeal.js
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Rayveal.js is an adaptation of the popular reveal.js framework, but it's designed to work with markdown files to make it super easy to create slideshows.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2019-08-23-How-to-post-from-LinkedIn-and-Twitter/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/zGQ23v5TKYY/hqdefault.jpg" alt="How to post from LinkedIn and Twitter at the same time image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Aug 23, 2019">Aug 23, 2019</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2019-08-23-How-to-post-from-LinkedIn-and-Twitter/" class="item-title h2 d-block" >How to post from LinkedIn and Twitter at the same time
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">I’m posting more from LinkedIn and Twitter, but I’m too lazy to post twice…since It’s easy enough to do it from LinkedIn, here’s a quick tutorial to show you how to set it up.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-04-08-Definitely-Not-A-Podcast/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/kIzEi7Qh1Yc/hqdefault.jpg" alt="Definitely Not A Podcast image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Apr 08, 2020">Apr 08, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-04-08-Definitely-Not-A-Podcast/" class="item-title h2 d-block" >Definitely Not A Podcast
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">A Live Stream about the Internet, technology and development. With Sharon Bennet, Morten Rand-Hendriksen, Walt Ritscher and Ray Villalobos...We have a lighthearted approach to what's happening in Technology.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-04-16-Web-Utilities-we-Can-t-live-Without/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/dzaIDRoKq1Q/hqdefault.jpg" alt="Web Utilities we Can&#39;t live Without image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Apr 16, 2020">Apr 16, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-04-16-Web-Utilities-we-Can-t-live-Without/" class="item-title h2 d-block" >Web Utilities we Can't live Without
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">We talk about utilities that are so useful to their daily lives that they can't live without them. Everything from password managers, to search tools, clipboard managers diffing tools and much more.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-04-23-Getting-things-done-with-Technology/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/aA_Ms7-cAUQ/hqdefault.jpg" alt="Getting things done with Technology image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Apr 23, 2020">Apr 23, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-04-23-Getting-things-done-with-Technology/" class="item-title h2 d-block" >Getting things done with Technology
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">We'll talk about how each of us approaches getting things done with different software (or hardware) tools.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-04-30-What-to-do-when-not-TECH-ing/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/80DTY7N2qAY/hqdefault.jpg" alt="What to do when not TECH-ing image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Apr 30, 2020">Apr 30, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-04-30-What-to-do-when-not-TECH-ing/" class="item-title h2 d-block" >What to do when not TECH-ing
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">We share when we do when we're not wresting with technology. Share with us what you're doing when you're not coding, tech-ing, azure-ing, etc.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-05-07-Best-Technology-Movies-To-Watch/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/XGb2CbjqlJk/hqdefault.jpg" alt="Best Technology Movies To Watch image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="May 07, 2020">May 07, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-05-07-Best-Technology-Movies-To-Watch/" class="item-title h2 d-block" >Best Technology Movies To Watch
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">In this livestream we'll discuss our favorite technology movies. With special guest Ashley Kennedy.  Morten Rand-Hendriksen and Ray Villalobos with dueling time travel movies and who knows what Walt Ritscher will bring.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-05-14-Making-the-Most-of-your-Browser/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/MSltP3aFyCM/hqdefault.jpg" alt="Making the Most of your Browser image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="May 14, 2020">May 14, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-05-14-Making-the-Most-of-your-Browser/" class="item-title h2 d-block" >Making the Most of your Browser
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">The browser is the Swiss army knife of the Web, in this episode we talk about how we use the browsers as technologists, how to manage tabs, profiles and what extensions work best to turbo-charge your experience.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-05-28-Tech-Trends/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/r4vbpqlveLI/hqdefault.jpg" alt="Tech Trends-Not a Podcast image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="May 28, 2020">May 28, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-05-28-Tech-Trends/" class="item-title h2 d-block" >Tech Trends-Not a Podcast
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">The NAP crew thrives on technology. Being proficient in our chosen tech field means that we try to sense the upcoming tech trends, so we’re prepared for what’s next.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-06-11-Tech-Journeys-How-we-got-a-job-in-Technology/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/Ghem9lpaG5c/hqdefault.jpg" alt="Tech Journeys - How we got a job in Technology image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jun 11, 2020">Jun 11, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-06-11-Tech-Journeys-How-we-got-a-job-in-Technology/" class="item-title h2 d-block" >Tech Journeys - How we got a job in Technology
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">The NAP friends all come from various backgrounds and have broken into tech in different and not so conventional ways.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-06-18-Biggest-Professional-Mistakes/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/ooDRG64Telk/hqdefault.jpg" alt="Biggest Professional Mistakes image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jun 18, 2020">Jun 18, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-06-18-Biggest-Professional-Mistakes/" class="item-title h2 d-block" >Biggest Professional Mistakes
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">The NAP team breaks down their biggest career blunders. Maybe there's something to learn from their mistakes to help you career improve in Technology.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-06-21-NAP-Technical-Support-Q-A/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/Ml84e4-qgZI/hqdefault.jpg" alt="NAP Technical Support Q&amp;A image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jun 21, 2020">Jun 21, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-06-21-NAP-Technical-Support-Q-A/" class="item-title h2 d-block" >NAP Technical Support Q&A
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">In this Episode of NAP - Not a Podcast, we take questions from our LinkedIn Friends and answer. You have questions. The NAP team (might) have answers!</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-06-24-Let-s-Play-with-Github-CodeSpaces/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/Sk4dX9IuDb8/hqdefault.jpg" alt="Let&#39;s Play with Github&#39;s CodeSpaces image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jun 24, 2020">Jun 24, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-06-24-Let-s-Play-with-Github-CodeSpaces/" class="item-title h2 d-block" >Let's Play with Github's CodeSpaces
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Ray Villalobos got early access to Github CodeSpaces, so let's spend a few minutes together and talk about how it works and what you can do with it.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-06-25-Tech-Peeves-What-makes-you-crazy-about-tech/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/hbZfpsdC3-Q/hqdefault.jpg" alt="Tech Peeves: What makes you crazy about tech image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jun 25, 2020">Jun 25, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-06-25-Tech-Peeves-What-makes-you-crazy-about-tech/" class="item-title h2 d-block" >Tech Peeves: What makes you crazy about tech
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">We love tech but let’s be honest. Some parts are annoying. We’re not talking about big issues here, but the little things that exasperate you every time you encounter them. Join us this week as we grumble about our pet peeves in tech.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-06-25-the-best-new-CSS-Icon-Library/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/in9JuYB0J7Q/hqdefault.jpg" alt="Could this be the best new CSS Icon Library? image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jun 25, 2020">Jun 25, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-06-25-the-best-new-CSS-Icon-Library/" class="item-title h2 d-block" >Could this be the best new CSS Icon Library?
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Climbing in the Github Star Charts with over 5000 already is this little known new icon library...css.gg. It has a ton of features including CSS, SVG and Figma UI icons.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-06-27-Bootstrap-5-What-s-new-and-migrating/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/fKY8S8L8d5c/hqdefault.jpg" alt="Bootstrap 5 Alpha 1. What&#39;s new and what to know if you&#39;re migrating. image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jun 27, 2020">Jun 27, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-06-27-Bootstrap-5-What-s-new-and-migrating/" class="item-title h2 d-block" >Bootstrap 5 Alpha 1. What's new and what to know if you're migrating.
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Bootstrap is the world's most popular CSS Framework, and they recently released the first Alpha for version 5, so let's take a look at some of the new features and what you'll need to know when migrating or updating your projects.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-06-30-Bootstraps-NPM-Starter-Project/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/u7ta6qj_aCw/hqdefault.jpg" alt="Checking Out Bootstrap&#39;s NPM Starter Project image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jun 30, 2020">Jun 30, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-06-30-Bootstraps-NPM-Starter-Project/" class="item-title h2 d-block" >Checking Out Bootstrap's NPM Starter Project
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Let's take a look at one of Bootstrap's new projects...the npm starter template that helps you create bootstrap projects a bit quicker if you're using NPM as the basis for your web development projects.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-07-01-How-to-manage-your-Software-Development-Career/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/vlReYJkGNpQ/hqdefault.jpg" alt="How to manage your Software Development Career Q&amp;A image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jul 01, 2020">Jul 01, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-07-01-How-to-manage-your-Software-Development-Career/" class="item-title h2 d-block" >How to manage your Software Development Career Q&A
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">What should you study? The importance of Degrees, Internships, Github Repos, Portfolios and how to prove that you can be a developer.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-07-02-Notyf-A-JavaScript-Notification-Library/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/l1DeaNvAOb8/hqdefault.jpg" alt="Notyf, A JavaScript Notification Library that&#39;s fully customizable image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jul 02, 2020">Jul 02, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-07-02-Notyf-A-JavaScript-Notification-Library/" class="item-title h2 d-block" >Notyf, A JavaScript Notification Library that's fully customizable
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">In this episode, we're taking a look at Notyf, a tiny and flexible notification library that you can use with your javascript, Angular or Vue.js projects.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-07-24-LinkedIn-Learning-courses-with-Github-Repos/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/aDDKibLYm18/hqdefault.jpg" alt="Using LinkedIn Learning courses with Github Repos image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Jul 24, 2020">Jul 24, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-07-24-LinkedIn-Learning-courses-with-Github-Repos/" class="item-title h2 d-block" >Using LinkedIn Learning courses with Github Repos
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Some LinkedIn Learning technology courses have Github repositories associated with them. They can make your life a whole lot easier when working with the courses.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2020-12-15-The-Recap-Github-Universe-Edition/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/bjR4kHGsX3E/hqdefault.jpg" alt="The Recap - Github Universe Edition image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Dec 15, 2020">Dec 15, 2020</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2020-12-15-The-Recap-Github-Universe-Edition/" class="item-title h2 d-block" >The Recap - Github Universe Edition
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">Let's recap Github Universe with a live chat about what you loved with Ray Villalobos, Morten Rand-Hendrikssen and Walt Ritscher with Special Guest Allison Weins Product Manager at Github CodeSpaces.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2021-02-05-JavaScript-ES2020-New-Features-Optional-Chaining/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/TLb0FyS2p2c/hqdefault.jpg" alt="JavaScript ES2020 New Features-Optional Chaining image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Feb 05, 2021">Feb 05, 2021</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2021-02-05-JavaScript-ES2020-New-Features-Optional-Chaining/" class="item-title h2 d-block" >JavaScript ES2020 New Features-Optional Chaining
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">JavaScript's Optional Chaining Operator, also known as the conditional ternary operator is one of those cool new features in ES2020 that you need to know.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2021-02-19-Tailwind-CSS-vs-Bootstrap-Is-it-time-to-switch/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/6ULHBv_0Y3U/hqdefault.jpg" alt="Tailwind CSS vs Bootstrap-Is it time to switch? image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Feb 19, 2021">Feb 19, 2021</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2021-02-19-Tailwind-CSS-vs-Bootstrap-Is-it-time-to-switch/" class="item-title h2 d-block" >Tailwind CSS vs Bootstrap-Is it time to switch?
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">A live stream on Tailwind vs Bootstrap because I think you need to know when and if it's the right time to switch to this new CSS library.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2021-02-24-Bootstrap-Icons-for-Web-Design/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/Nhpyb1jx54A/hqdefault.jpg" alt="Bootstrap Icons - Free Icons for Web Design image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Feb 24, 2021">Feb 24, 2021</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2021-02-24-Bootstrap-Icons-for-Web-Design/" class="item-title h2 d-block" >Bootstrap Icons - Free Icons for Web Design
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">If you're looking for free Icons for web design. Bootstrap Icons is an open source icon set from the makers of the bootstrap framework with more than 1300 icons</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2021-03-01-Responsive-content-using-CSS-Clamp/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/CICYdO0g8Ew/hqdefault.jpg" alt="CSS Tips and Tricks: Responsive content without media queries using CSS Clamp() image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Mar 01, 2021">Mar 01, 2021</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2021-03-01-Responsive-content-using-CSS-Clamp/" class="item-title h2 d-block" >CSS Tips and Tricks: Responsive content without media queries using CSS Clamp()
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">There's a super useful CSS function called Clamp() you've got to learn as a part of your of bag of CSS Tips and Tricks.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2021-03-10-Image-Compression-using-Squoosh-from-Google/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/KvQ4WCIXg0w/hqdefault.jpg" alt="Automate Image Compression for your Websites with the latest codecs using Squoosh from Google image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Mar 10, 2021">Mar 10, 2021</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2021-03-10-Image-Compression-using-Squoosh-from-Google/" class="item-title h2 d-block" >Automate Image Compression for your Websites with the latest codecs using Squoosh from Google
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">To get the smallest sizes for your web design images, you need to try the latest codecs like WebP, MozJPEG, AVIF and Google created an excellent tool that helps you automate that process.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+  
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+    
+      <div class="col-md-3">
+        <a href="/videos/2021-03-16-Web-Developer-Tools-to-Get-Started-Web-Design-Project/" class="d-block mb-1"  >
+          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/UQkhm_fQnOU/hqdefault.jpg" alt="Best Web Developer Tools, Extensions and Modules to Get Started on your Next Web Design Project image">
+        </a>
+      <time class="item-date small d-block text-body" datetime="Mar 16, 2021">Mar 16, 2021</time>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="/videos/2021-03-16-Web-Developer-Tools-to-Get-Started-Web-Design-Project/" class="item-title h2 d-block" >Best Web Developer Tools, Extensions and Modules to Get Started on your Next Web Design Project
+      
+      </a>
+      <p class="item-summary lead mb-1 text-body">You've got a new web development project to build, but how to begin. Here's a few tips and tricks that I use which are the best ways to get your web design projects started quickly.</p>
+      
+  
+
+      <div class="tagslist d-none d-lg-block mt-2">
+  
+</div>
+    </div>
+  </div>
+</article>
+
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</div>
+    </footer>
+  </body>
+
+</html>

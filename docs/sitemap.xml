@@ -227,6 +227,11 @@
   </url>
   
   <url>
+    <loc>/videos/2017-08-02-Building-Markdown-Slideshows-with-RayVeal-js/</loc>
+    <lastmod>2017-08-02</lastmod>
+  </url>
+  
+  <url>
     <loc>/posts/2017-08-05-five-unusual-skills/</loc>
     <lastmod>2017-08-05</lastmod>
   </url>
@@ -352,6 +357,11 @@
   </url>
   
   <url>
+    <loc>/videos/2019-08-23-How-to-post-from-LinkedIn-and-Twitter/</loc>
+    <lastmod>2019-08-23</lastmod>
+  </url>
+  
+  <url>
     <loc>/courses/2019-09-11-succeeding-in-web-development/</loc>
     <lastmod>2019-09-11</lastmod>
   </url>
@@ -392,13 +402,98 @@
   </url>
   
   <url>
+    <loc>/videos/2020-04-08-Definitely-Not-A-Podcast/</loc>
+    <lastmod>2020-04-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-04-16-Web-Utilities-we-Can-t-live-Without/</loc>
+    <lastmod>2020-04-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-04-23-Getting-things-done-with-Technology/</loc>
+    <lastmod>2020-04-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-04-30-What-to-do-when-not-TECH-ing/</loc>
+    <lastmod>2020-04-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-05-07-Best-Technology-Movies-To-Watch/</loc>
+    <lastmod>2020-05-07</lastmod>
+  </url>
+  
+  <url>
     <loc>/courses/2020-05-11-github-quick-tips/</loc>
     <lastmod>2020-05-11</lastmod>
   </url>
   
   <url>
+    <loc>/videos/2020-05-14-Making-the-Most-of-your-Browser/</loc>
+    <lastmod>2020-05-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-05-28-Tech-Trends/</loc>
+    <lastmod>2020-05-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-06-11-Tech-Journeys-How-we-got-a-job-in-Technology/</loc>
+    <lastmod>2020-06-11</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-06-18-Biggest-Professional-Mistakes/</loc>
+    <lastmod>2020-06-18</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-06-21-NAP-Technical-Support-Q-A/</loc>
+    <lastmod>2020-06-21</lastmod>
+  </url>
+  
+  <url>
     <loc>/courses/2020-06-24-css-scrolling-parallax/</loc>
     <lastmod>2020-06-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-06-24-Let-s-Play-with-Github-CodeSpaces/</loc>
+    <lastmod>2020-06-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-06-25-Tech-Peeves-What-makes-you-crazy-about-tech/</loc>
+    <lastmod>2020-06-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-06-25-the-best-new-CSS-Icon-Library/</loc>
+    <lastmod>2020-06-25</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-06-27-Bootstrap-5-What-s-new-and-migrating/</loc>
+    <lastmod>2020-06-27</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-06-30-Bootstraps-NPM-Starter-Project/</loc>
+    <lastmod>2020-06-30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-07-01-How-to-manage-your-Software-Development-Career/</loc>
+    <lastmod>2020-07-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-07-02-Notyf-A-JavaScript-Notification-Library/</loc>
+    <lastmod>2020-07-02</lastmod>
   </url>
   
   <url>
@@ -409,6 +504,11 @@
   <url>
     <loc>/posts/2020-07-22-Taking a Course in LinkedIn Learning with a Github Repo/</loc>
     <lastmod>2020-07-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2020-07-24-LinkedIn-Learning-courses-with-Github-Repos/</loc>
+    <lastmod>2020-07-24</lastmod>
   </url>
   
   <url>
@@ -427,8 +527,18 @@
   </url>
   
   <url>
+    <loc>/videos/2020-12-15-The-Recap-Github-Universe-Edition/</loc>
+    <lastmod>2020-12-15</lastmod>
+  </url>
+  
+  <url>
     <loc>/courses/2021-01-22-vue-js-3-essential-training/</loc>
     <lastmod>2021-01-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2021-02-05-JavaScript-ES2020-New-Features-Optional-Chaining/</loc>
+    <lastmod>2021-02-05</lastmod>
   </url>
   
   <url>
@@ -437,7 +547,22 @@
   </url>
   
   <url>
-    <loc>/posts/2021-02-24-apply-newsletter-lets-get-started/</loc>
+    <loc>/posts/2021-02-14-JSL-ES2020-new-features-optional-chaining/</loc>
+    <lastmod>2021-02-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2021-02-19-Tailwind-CSS-vs-Bootstrap-Is-it-time-to-switch/</loc>
+    <lastmod>2021-02-19</lastmod>
+  </url>
+  
+  <url>
+    <loc>/newsletter/2021-02-24-apply-newsletter-lets-get-started/</loc>
+    <lastmod>2021-02-24</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2021-02-24-Bootstrap-Icons-for-Web-Design/</loc>
     <lastmod>2021-02-24</lastmod>
   </url>
   
@@ -447,7 +572,12 @@
   </url>
   
   <url>
-    <loc>/posts/2021-03-03-apply-newsletter-success-hasnt-spoiled-me-yet/</loc>
+    <loc>/videos/2021-03-01-Responsive-content-using-CSS-Clamp/</loc>
+    <lastmod>2021-03-01</lastmod>
+  </url>
+  
+  <url>
+    <loc>/newsletter/2021-03-03-apply-newsletter-success-hasnt-spoiled-me-yet/</loc>
     <lastmod>2021-03-03</lastmod>
   </url>
   
@@ -457,7 +587,12 @@
   </url>
   
   <url>
-    <loc>/posts/2021-03-10-apply-newsletter-make-it-small/</loc>
+    <loc>/newsletter/2021-03-10-apply-newsletter-make-it-small/</loc>
+    <lastmod>2021-03-10</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2021-03-10-Image-Compression-using-Squoosh-from-Google/</loc>
     <lastmod>2021-03-10</lastmod>
   </url>
   
@@ -504,5 +639,25 @@
   <url>
     <loc>/tags/css/</loc>
     <lastmod>2021-03-15</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2021-03-16-Web-Developer-Tools-to-Get-Started-Web-Design-Project/</loc>
+    <lastmod>2021-03-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>/newsletter/2021-03-17-apply-newsletter-spending-time-to-make-time/</loc>
+    <lastmod>2021-03-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>/newsletter/0/</loc>
+    <lastmod>2021-03-17</lastmod>
+  </url>
+  
+  <url>
+    <loc>/Videos/0/</loc>
+    <lastmod>2021-03-17</lastmod>
   </url>
 </urlset>
