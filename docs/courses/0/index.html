@@ -4,19 +4,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
  
-    <title>Raybo.org</title>
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
-  
-    <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     <script defer src="/js/script.js"></script>
  
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -38,18 +36,44 @@
     </button>
 
     <div class="navbar-brand text-lowercase">
-      <a class="text-light" href="/"><i class="icon icon-pow"></i>Raybo.org</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Courses</span>
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Courses</span>
     </div>
 
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
-      <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
         
         <a class="nav-item nav-link " href="/"><i class="fas fa-home"></i></a>
+
+
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user text-white"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
+            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+              <i class="fab fa-github text-secondary me-5"></i> github
+            </a><a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+              <i class="fab fa-linkedin text-secondary me-5"></i> linkedin
+            </a><a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+              <i class="fab fa-twitter text-secondary me-5"></i> twitter
+            </a><a class="dropdown-item text-capitalize" href="https://dribbble.com/planetoftheweb">
+              <i class="fab fa-dribbble text-secondary me-5"></i> dribble
+            </a><a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+              <i class="fab fa-flickr text-secondary me-5"></i> flickr
+            </a><a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+              <i class="fab fa-youtube text-secondary me-5"></i> youtube
+            </a><a class="dropdown-item text-capitalize" href="https://www.instagram.com/iviewsource">
+              <i class="fab fa-instagram text-secondary me-5"></i> instagram
+            </a></div>
+        </div>
+
+
         
-          <a class="nav-item nav-link disabled font-weight-bold text-light" href="/courses/0/">courses</a>
+          <a class="nav-item nav-link disabled fw-bold text-light" href="/courses/0/">courses</a>
           
           <a class="nav-item nav-link" href="/videos/0/">videos</a>
           
@@ -57,28 +81,6 @@
           
           <a class="nav-item nav-link" href="/posts/0/">posts</a>
           </div>
-        <div class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-user text-white"></i>
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
-            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
-            <i class="fab fa-github text-secondary mr-2"></i>github
-          </a><a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
-            <i class="fab fa-linkedin text-secondary mr-2"></i>linkedin
-          </a><a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
-            <i class="fab fa-twitter text-secondary mr-2"></i>twitter
-          </a><a class="dropdown-item text-capitalize" href="https://dribbble.com/planetoftheweb">
-            <i class="fab fa-dribbble text-secondary mr-2"></i>dribble
-          </a><a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-            <i class="fab fa-flickr text-secondary mr-2"></i>flickr
-          </a><a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
-            <i class="fab fa-youtube text-secondary mr-2"></i>youtube
-          </a><a class="dropdown-item text-capitalize" href="https://www.instagram.com/iviewsource">
-            <i class="fab fa-instagram text-secondary mr-2"></i>instagram
-          </a></div>
-        </div>
       </div>
       <div class="searchbox pl-2 py-2">
     <input
@@ -99,7 +101,7 @@
           <li class="list-group-item">
             <a :href="item.url" class="d-flex text-secondary">
               <span class="pr-2" v-html="item.icon"></span>
-              <span class="text-body text-left" v-html="item.title"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
             </a>
           </li>
         </ul>
@@ -111,7 +113,7 @@
 </nav>
 
     
-  <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 30vh;">
+  <header id="page-hero" class="site-header position-relative 100vw  site-header" style="min-height: 30vh;">
 <section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(https://lil-cdn.com/585273/computing-floating-apps-226149059.jpg); height: 100%; width: 100%;  filter: blur(0);" ></section>
 <div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
   <div class="container">
@@ -171,7 +173,7 @@
   <div class="row justify-content-center px-3 px-sm-0  mb-3 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/learning/building-a-graphql-project-with-react-js" class="d-block mb-1"  >
+        <a href="https://www.linkedin.com/learning/building-a-graphql-project-with-react-js" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/courses/graphqlreact.jpg" alt="Building a GraphQL Project with React.js image">
         </a>
       <time class="item-date small d-block text-body" datetime="Mar 15, 2021">Mar 15, 2021</time>
@@ -179,7 +181,7 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/learning/building-a-graphql-project-with-react-js" class="item-title h2 d-block" >Building a GraphQL Project with React.js
+      <a href="https://www.linkedin.com/learning/building-a-graphql-project-with-react-js" class="item-title h2 d-block text-decoration-none" >Building a GraphQL Project with React.js
       
       </a>
       <p class="item-summary lead mb-1 text-body">GraphQL gives you a clean way to query complex server data efficiently, and React makes it easy to present that information as a web application in the browser.</p>
@@ -187,7 +189,7 @@
 
   <div class="item-links">
   
-    <a href="" class="d-none d-lg-inline mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -196,11 +198,11 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/graphQL/" class="badge badge-primary">graphQL</a>
-    <a href="/tags/react/" class="badge badge-primary">react</a>
-    <a href="/tags/database/" class="badge badge-primary">database</a>
-    <a href="/tags/javascript/" class="badge badge-primary">javascript</a>
-    <a href="/tags/github/" class="badge badge-primary">github</a>
+    <a href="/tags/graphQL/" class="badge badge-primary text-decoration-none">graphQL</a>
+    <a href="/tags/react/" class="badge badge-primary text-decoration-none">react</a>
+    <a href="/tags/database/" class="badge badge-primary text-decoration-none">database</a>
+    <a href="/tags/javascript/" class="badge badge-primary text-decoration-none">javascript</a>
+    <a href="/tags/github/" class="badge badge-primary text-decoration-none">github</a>
 </div>
     </div>
   </div>
@@ -209,10 +211,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/learning/tailwind-css-essential-training/divide" class="d-block mb-1"  >
+        <a href="https://www.linkedin.com/learning/tailwind-css-essential-training/divide" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/courses/tailwindcss.jpg" alt="Tailwind CSS: Essential Training image">
         </a>
       <time class="item-date small d-block text-body" datetime="Feb 12, 2021">Feb 12, 2021</time>
@@ -220,7 +222,7 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/learning/tailwind-css-essential-training/divide" class="item-title h2 d-block" >Tailwind CSS: Essential Training
+      <a href="https://www.linkedin.com/learning/tailwind-css-essential-training/divide" class="item-title h2 d-block text-decoration-none" >Tailwind CSS: Essential Training
       
       </a>
       <p class="item-summary lead mb-1 text-body">The Tailwind CSS utility-first approach throws out many of the traditional CSS approaches to building projects, allowing you to create a complete and unique website without writing a single line of CSS.</p>
@@ -228,7 +230,7 @@
 
   <div class="item-links">
   
-    <a href="" class="d-none d-lg-inline mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -237,10 +239,10 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/graphQL/" class="badge badge-primary">graphQL</a>
-    <a href="/tags/react/" class="badge badge-primary">react</a>
-    <a href="/tags/database/" class="badge badge-primary">database</a>
-    <a href="/tags/javascript/" class="badge badge-primary">javascript</a>
+    <a href="/tags/graphQL/" class="badge badge-primary text-decoration-none">graphQL</a>
+    <a href="/tags/react/" class="badge badge-primary text-decoration-none">react</a>
+    <a href="/tags/database/" class="badge badge-primary text-decoration-none">database</a>
+    <a href="/tags/javascript/" class="badge badge-primary text-decoration-none">javascript</a>
 </div>
     </div>
   </div>
@@ -249,10 +251,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/learning/vue-js-3-essential-training" class="d-block mb-1"  >
+        <a href="https://www.linkedin.com/learning/vue-js-3-essential-training" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/courses/vuejs3.jpg" alt="Vue.js 3: Essential Training image">
         </a>
       <time class="item-date small d-block text-body" datetime="Jan 22, 2021">Jan 22, 2021</time>
@@ -260,7 +262,7 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/learning/vue-js-3-essential-training" class="item-title h2 d-block" >Vue.js 3: Essential Training
+      <a href="https://www.linkedin.com/learning/vue-js-3-essential-training" class="item-title h2 d-block text-decoration-none" >Vue.js 3: Essential Training
       
       </a>
       <p class="item-summary lead mb-1 text-body">Vue.js offers developers a framework for building applications that lets them choose how deeply they want to apply the framework.</p>
@@ -268,7 +270,7 @@
 
   <div class="item-links">
   
-    <a href="" class="d-none d-lg-inline mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -277,11 +279,11 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/vuejs/" class="badge badge-primary">vuejs</a>
-    <a href="/tags/vue3/" class="badge badge-primary">vue3</a>
-    <a href="/tags/framework/" class="badge badge-primary">framework</a>
-    <a href="/tags/javascript/" class="badge badge-primary">javascript</a>
-    <a href="/tags/javascript library/" class="badge badge-primary">javascript library</a>
+    <a href="/tags/vuejs/" class="badge badge-primary text-decoration-none">vuejs</a>
+    <a href="/tags/vue3/" class="badge badge-primary text-decoration-none">vue3</a>
+    <a href="/tags/framework/" class="badge badge-primary text-decoration-none">framework</a>
+    <a href="/tags/javascript/" class="badge badge-primary text-decoration-none">javascript</a>
+    <a href="/tags/javascript library/" class="badge badge-primary text-decoration-none">javascript library</a>
 </div>
     </div>
   </div>
@@ -290,10 +292,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/learning/developer-career-paths-and-certifications-2" class="d-block mb-1"  >
+        <a href="https://www.linkedin.com/learning/developer-career-paths-and-certifications-2" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/courses/developercareers.jpg" alt="Developer Career Paths and Certifications image">
         </a>
       <time class="item-date small d-block text-body" datetime="Dec 11, 2020">Dec 11, 2020</time>
@@ -301,7 +303,7 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/learning/developer-career-paths-and-certifications-2" class="item-title h2 d-block" >Developer Career Paths and Certifications
+      <a href="https://www.linkedin.com/learning/developer-career-paths-and-certifications-2" class="item-title h2 d-block text-decoration-none" >Developer Career Paths and Certifications
       
       </a>
       <p class="item-summary lead mb-1 text-body">Technology has changed the way we approach ordinary tasks—from settling the bill at restaurants to driving—and more industries than ever are leveraging tech to work smarter. It's a great time to launch a career as a developer in this ever-changing field.</p>
@@ -309,7 +311,7 @@
 
   <div class="item-links">
   
-    <a href="" class="d-none d-lg-inline mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -318,9 +320,9 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/careers/" class="badge badge-primary">careers</a>
-    <a href="/tags/developers/" class="badge badge-primary">developers</a>
-    <a href="/tags/certifications/" class="badge badge-primary">certifications</a>
+    <a href="/tags/careers/" class="badge badge-primary text-decoration-none">careers</a>
+    <a href="/tags/developers/" class="badge badge-primary text-decoration-none">developers</a>
+    <a href="/tags/certifications/" class="badge badge-primary text-decoration-none">certifications</a>
 </div>
     </div>
   </div>
@@ -329,10 +331,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/learning/getting-your-first-job-in-software-development/" class="d-block mb-1"  >
+        <a href="https://www.linkedin.com/learning/getting-your-first-job-in-software-development/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/courses/firstjob.jpg" alt="Getting Your First Job in Software Development image">
         </a>
       <time class="item-date small d-block text-body" datetime="Dec 10, 2020">Dec 10, 2020</time>
@@ -340,7 +342,7 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/learning/getting-your-first-job-in-software-development/" class="item-title h2 d-block" >Getting Your First Job in Software Development
+      <a href="https://www.linkedin.com/learning/getting-your-first-job-in-software-development/" class="item-title h2 d-block text-decoration-none" >Getting Your First Job in Software Development
       
       </a>
       <p class="item-summary lead mb-1 text-body">Technology seems like a safe harbor in a stormy economy. Instructor, this course answers the most common questions people have about how to look for, find, and get your first job in software development, and helps you build a solid plan for career success.</p>
@@ -348,7 +350,7 @@
 
   <div class="item-links">
   
-    <a href="" class="d-none d-lg-inline mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -357,9 +359,9 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/careers/" class="badge badge-primary">careers</a>
-    <a href="/tags/developers/" class="badge badge-primary">developers</a>
-    <a href="/tags/certifications/" class="badge badge-primary">certifications</a>
+    <a href="/tags/careers/" class="badge badge-primary text-decoration-none">careers</a>
+    <a href="/tags/developers/" class="badge badge-primary text-decoration-none">developers</a>
+    <a href="/tags/certifications/" class="badge badge-primary text-decoration-none">certifications</a>
 </div>
     </div>
   </div>
@@ -368,10 +370,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/learning/building-a-video-chat-app-with-vue-js-and-firebase" class="d-block mb-1"  >
+        <a href="https://www.linkedin.com/learning/building-a-video-chat-app-with-vue-js-and-firebase" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/courses/vuevideochatfirebase.jpg" alt="Getting Your First Job in Software Development image">
         </a>
       <time class="item-date small d-block text-body" datetime="Sep 25, 2020">Sep 25, 2020</time>
@@ -379,7 +381,7 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/learning/building-a-video-chat-app-with-vue-js-and-firebase" class="item-title h2 d-block" >Getting Your First Job in Software Development
+      <a href="https://www.linkedin.com/learning/building-a-video-chat-app-with-vue-js-and-firebase" class="item-title h2 d-block text-decoration-none" >Getting Your First Job in Software Development
       
       </a>
       <p class="item-summary lead mb-1 text-body">With more people needing to stay connected virtually, video chat applications like Zoom and Microsoft Teams have exploded in popularity. Curious about how you might build a video chat application of your own?</p>
@@ -387,7 +389,7 @@
 
   <div class="item-links">
   
-    <a href="" class="d-none d-lg-inline mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -396,12 +398,12 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/vuejs/" class="badge badge-primary">vuejs</a>
-    <a href="/tags/vuejs2/" class="badge badge-primary">vuejs2</a>
-    <a href="/tags/video/" class="badge badge-primary">video</a>
-    <a href="/tags/chat/" class="badge badge-primary">chat</a>
-    <a href="/tags/firebase/" class="badge badge-primary">firebase</a>
-    <a href="/tags/database/" class="badge badge-primary">database</a>
+    <a href="/tags/vuejs/" class="badge badge-primary text-decoration-none">vuejs</a>
+    <a href="/tags/vuejs2/" class="badge badge-primary text-decoration-none">vuejs2</a>
+    <a href="/tags/video/" class="badge badge-primary text-decoration-none">video</a>
+    <a href="/tags/chat/" class="badge badge-primary text-decoration-none">chat</a>
+    <a href="/tags/firebase/" class="badge badge-primary text-decoration-none">firebase</a>
+    <a href="/tags/database/" class="badge badge-primary text-decoration-none">database</a>
 </div>
     </div>
   </div>
@@ -410,10 +412,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/learning/css-scrolling-and-parallax/" class="d-block mb-1"  >
+        <a href="https://www.linkedin.com/learning/css-scrolling-and-parallax/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/courses/cssparallax_tn.jpg" alt="CSS: Scrolling and Parallax image">
         </a>
       <time class="item-date small d-block text-body" datetime="Jun 24, 2020">Jun 24, 2020</time>
@@ -421,7 +423,7 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/learning/css-scrolling-and-parallax/" class="item-title h2 d-block" >CSS: Scrolling and Parallax
+      <a href="https://www.linkedin.com/learning/css-scrolling-and-parallax/" class="item-title h2 d-block text-decoration-none" >CSS: Scrolling and Parallax
       
       </a>
       <p class="item-summary lead mb-1 text-body">This course shows developers how to leverage scrolling and parallax to program new interface styles using CSS, JavaScript as well as ScrollMagic and the GreenSock Animation Platform (GSAP).</p>
@@ -429,7 +431,7 @@
 
   <div class="item-links">
   
-    <a href="" class="d-none d-lg-inline mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -438,13 +440,13 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/animations/" class="badge badge-primary">animations</a>
-    <a href="/tags/css/" class="badge badge-primary">css</a>
-    <a href="/tags/javascript/" class="badge badge-primary">javascript</a>
-    <a href="/tags/scrollmagic/" class="badge badge-primary">scrollmagic</a>
-    <a href="/tags/gsap/" class="badge badge-primary">gsap</a>
-    <a href="/tags/scrolling/" class="badge badge-primary">scrolling</a>
-    <a href="/tags/tweening/" class="badge badge-primary">tweening</a>
+    <a href="/tags/animations/" class="badge badge-primary text-decoration-none">animations</a>
+    <a href="/tags/css/" class="badge badge-primary text-decoration-none">css</a>
+    <a href="/tags/javascript/" class="badge badge-primary text-decoration-none">javascript</a>
+    <a href="/tags/scrollmagic/" class="badge badge-primary text-decoration-none">scrollmagic</a>
+    <a href="/tags/gsap/" class="badge badge-primary text-decoration-none">gsap</a>
+    <a href="/tags/scrolling/" class="badge badge-primary text-decoration-none">scrolling</a>
+    <a href="/tags/tweening/" class="badge badge-primary text-decoration-none">tweening</a>
 </div>
     </div>
   </div>
@@ -453,10 +455,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/learning/github-quick-tips/" class="d-block mb-1"  >
+        <a href="https://www.linkedin.com/learning/github-quick-tips/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/courses/githubquick_tn.jpg" alt="GitHub Quick Tips image">
         </a>
       <time class="item-date small d-block text-body" datetime="May 11, 2020">May 11, 2020</time>
@@ -464,7 +466,7 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/learning/github-quick-tips/" class="item-title h2 d-block" >GitHub Quick Tips
+      <a href="https://www.linkedin.com/learning/github-quick-tips/" class="item-title h2 d-block text-decoration-none" >GitHub Quick Tips
       
       </a>
       <p class="item-summary lead mb-1 text-body">These 30 tips and tricks help you exercise the full power of this versatile software development platform. Customize GitHub by building out your project homepages, turning repositories into reusable templates, adding collaborators and more.</p>
@@ -472,7 +474,7 @@
 
   <div class="item-links">
   
-    <a href="" class="d-none d-lg-inline mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -481,10 +483,10 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/github/" class="badge badge-primary">github</a>
-    <a href="/tags/tips/" class="badge badge-primary">tips</a>
-    <a href="/tags/quick tips/" class="badge badge-primary">quick tips</a>
-    <a href="/tags/git/" class="badge badge-primary">git</a>
+    <a href="/tags/github/" class="badge badge-primary text-decoration-none">github</a>
+    <a href="/tags/tips/" class="badge badge-primary text-decoration-none">tips</a>
+    <a href="/tags/quick tips/" class="badge badge-primary text-decoration-none">quick tips</a>
+    <a href="/tags/git/" class="badge badge-primary text-decoration-none">git</a>
 </div>
     </div>
   </div>
@@ -493,10 +495,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/learning/building-serverless-apps-with-jamstack-and-eleventy" class="d-block mb-1"  >
+        <a href="https://www.linkedin.com/learning/building-serverless-apps-with-jamstack-and-eleventy" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/courses/serverless_tn.jpg" alt="Building Serverless Apps with JAMStack and Eleventy image">
         </a>
       <time class="item-date small d-block text-body" datetime="Mar 17, 2020">Mar 17, 2020</time>
@@ -504,7 +506,7 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/learning/building-serverless-apps-with-jamstack-and-eleventy" class="item-title h2 d-block" >Building Serverless Apps with JAMStack and Eleventy
+      <a href="https://www.linkedin.com/learning/building-serverless-apps-with-jamstack-and-eleventy" class="item-title h2 d-block text-decoration-none" >Building Serverless Apps with JAMStack and Eleventy
       
       </a>
       <p class="item-summary lead mb-1 text-body">This course is a step-by-step project tutorial built with the Jamstack and Eleventy. Learn how to build pages from templates and layouts, connect to data through APIs, use shortcodes and filters to inject and update content, and more.</p>
@@ -512,7 +514,7 @@
 
   <div class="item-links">
   
-    <a href="" class="d-none d-lg-inline mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -521,10 +523,10 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/serverless/" class="badge badge-primary">serverless</a>
-    <a href="/tags/jamstack/" class="badge badge-primary">jamstack</a>
-    <a href="/tags/eleventy/" class="badge badge-primary">eleventy</a>
-    <a href="/tags/static site/" class="badge badge-primary">static site</a>
+    <a href="/tags/serverless/" class="badge badge-primary text-decoration-none">serverless</a>
+    <a href="/tags/jamstack/" class="badge badge-primary text-decoration-none">jamstack</a>
+    <a href="/tags/eleventy/" class="badge badge-primary text-decoration-none">eleventy</a>
+    <a href="/tags/static site/" class="badge badge-primary text-decoration-none">static site</a>
 </div>
     </div>
   </div>
@@ -533,10 +535,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/learning/visual-studio-code-building-an-extension" class="d-block mb-1"  >
+        <a href="https://www.linkedin.com/learning/visual-studio-code-building-an-extension" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/courses/vscodeext_tn.jpg" alt="Visual Studio Code: Building an Extension image">
         </a>
       <time class="item-date small d-block text-body" datetime="Feb 11, 2020">Feb 11, 2020</time>
@@ -544,7 +546,7 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/learning/visual-studio-code-building-an-extension" class="item-title h2 d-block" >Visual Studio Code: Building an Extension
+      <a href="https://www.linkedin.com/learning/visual-studio-code-building-an-extension" class="item-title h2 d-block text-decoration-none" >Visual Studio Code: Building an Extension
       
       </a>
       <p class="item-summary lead mb-1 text-body">Make Visual Studio Code do what you want by building extensions. Apply web development tools and APIs to create a new tool inside Visual Studio Code. Create and modify themes, automate tasks by adding commands and more.</p>
@@ -552,7 +554,7 @@
 
   <div class="item-links">
   
-    <a href="" class="d-none d-lg-inline mr-3 mr-lg-1 text-secondary"><i class="fab fa-linkedin mr-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    <a href="" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
     
     
   
@@ -561,13 +563,13 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/animations/" class="badge badge-primary">animations</a>
-    <a href="/tags/css/" class="badge badge-primary">css</a>
-    <a href="/tags/javascript/" class="badge badge-primary">javascript</a>
-    <a href="/tags/scrollmagic/" class="badge badge-primary">scrollmagic</a>
-    <a href="/tags/gsap/" class="badge badge-primary">gsap</a>
-    <a href="/tags/scrolling/" class="badge badge-primary">scrolling</a>
-    <a href="/tags/tweening/" class="badge badge-primary">tweening</a>
+    <a href="/tags/animations/" class="badge badge-primary text-decoration-none">animations</a>
+    <a href="/tags/css/" class="badge badge-primary text-decoration-none">css</a>
+    <a href="/tags/javascript/" class="badge badge-primary text-decoration-none">javascript</a>
+    <a href="/tags/scrollmagic/" class="badge badge-primary text-decoration-none">scrollmagic</a>
+    <a href="/tags/gsap/" class="badge badge-primary text-decoration-none">gsap</a>
+    <a href="/tags/scrolling/" class="badge badge-primary text-decoration-none">scrolling</a>
+    <a href="/tags/tweening/" class="badge badge-primary text-decoration-none">tweening</a>
 </div>
     </div>
   </div>

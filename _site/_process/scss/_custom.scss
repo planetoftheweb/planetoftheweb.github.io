@@ -1,10 +1,13 @@
-$font-family-sans-serif: Asap, -apple-system, BlinkMacSystemFont, 'Segoe UI',
-  'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-  'Segoe UI Emoji', 'Segoe UI Symbol';
+@import "../../../node_modules/bootstrap/scss/functions";
+@import "../../../node_modules/bootstrap/scss/variables";
 
-$font-family-base: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-  'Roboto', 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji',
-  'Segoe UI Emoji', 'Segoe UI Symbol';
+$font-family-sans-serif: Asap, -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
+
+$font-family-base: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
+  "Roboto", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol";
 
 $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 700;
@@ -24,10 +27,10 @@ $body-bg: $light-beige;
 $text-body: $neutral-blue;
 $body-color: $text-body;
 $border-radius: 8px;
-$special: darken($body-bg, 50%);
+$special: $purple-600;
 
 $theme-colors: (
-  'special': $special,
+  "special": $special,
 );
 
 $enable-responsive-font-sizes: true;
@@ -38,45 +41,39 @@ $enable-shadows: true;
 
 $spacer: 1rem;
 
-$spacers: (
-  huge: (
-    $spacer * 6,
-  ),
-);
-
 $grid-gutter-width: 16px;
 
-$pagination-bg: lighten($special, 30%);
-$pagination-color: darken($body-bg, 10%);
-$pagination-border-color: darken($body-bg, 7%);
+$pagination-bg: $purple-300;
+$pagination-color: $yellow-700;
+$pagination-border-color: $yellow-100;
 
 $pagination-active-color: $body-bg;
-$pagination-active-bg: lighten($special, 5%);
-$pagination-active-border-color: darken($body-bg, 7%);
+$pagination-active-bg: $yellow-100;
+$pagination-active-border-color: $yellow-100;
 
-$pagination-disabled-bg: darken($body-bg, 3%);
-$pagination-disabled-border-color: darken($body-bg, 7%);
+$pagination-disabled-bg: $yellow-100;
+$pagination-disabled-border-color: $yellow-100;
 
 $pagination-hover-color: $body-bg;
 $pagination-hover-bg: $special;
 $pagination-hover-color: $white;
-$pagination-hover-border-color: darken($body-bg, 7%);
+$pagination-hover-border-color: $purple-400;
 
 $card-border-radius: 0;
 $list-group-bg: $body-bg;
 $list-group-active-bg: $secondary;
 
 $dropdown-bg: $white;
-$dropdown-divider-bg: darken($text-body, 15%);
+$dropdown-divider-bg: $yellow-700;
 $dropdown-link-color: $text-body;
 $dropdown-item-padding-y: 0.15rem;
 $dropdown-item-padding-x: 1rem;
 $dropdown-link-hover-color: $white;
-$dropdown-link-hover-bg: darken($body-bg, 5%);
+$dropdown-link-hover-bg: $yellow-600;
 $nav-divider-margin-y: 0.3rem;
 
 $link-color: $primary;
-$link-hover-color: lighten($link-color, 10%);
+$link-hover-color: $cyan-300;
 $link-hover-decoration: none;
 
 $badge-font-weight: 400;

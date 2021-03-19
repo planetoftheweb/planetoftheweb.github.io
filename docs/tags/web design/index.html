@@ -4,19 +4,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
  
-    <title>Raybo.org</title>
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
-  
-    <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     <script defer src="/js/script.js"></script>
  
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -38,16 +36,42 @@
     </button>
 
     <div class="navbar-brand text-lowercase">
-      <a class="text-light" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
     </div>
 
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
-      <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
         
-        <a class="nav-item nav-link font-weight-bold  text-light" href="/"><i class="fas fa-home"></i></a>
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="fas fa-home"></i></a>
+
+
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user text-white"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
+            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+              <i class="fab fa-github text-secondary me-5"></i> github
+            </a><a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+              <i class="fab fa-linkedin text-secondary me-5"></i> linkedin
+            </a><a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+              <i class="fab fa-twitter text-secondary me-5"></i> twitter
+            </a><a class="dropdown-item text-capitalize" href="https://dribbble.com/planetoftheweb">
+              <i class="fab fa-dribbble text-secondary me-5"></i> dribble
+            </a><a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+              <i class="fab fa-flickr text-secondary me-5"></i> flickr
+            </a><a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+              <i class="fab fa-youtube text-secondary me-5"></i> youtube
+            </a><a class="dropdown-item text-capitalize" href="https://www.instagram.com/iviewsource">
+              <i class="fab fa-instagram text-secondary me-5"></i> instagram
+            </a></div>
+        </div>
+
+
         
           <a class="nav-item nav-link" href="/courses/0/">courses</a>
           
@@ -57,28 +81,6 @@
           
           <a class="nav-item nav-link" href="/posts/0/">posts</a>
           </div>
-        <div class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-user text-white"></i>
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
-            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
-            <i class="fab fa-github text-secondary mr-2"></i>github
-          </a><a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
-            <i class="fab fa-linkedin text-secondary mr-2"></i>linkedin
-          </a><a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
-            <i class="fab fa-twitter text-secondary mr-2"></i>twitter
-          </a><a class="dropdown-item text-capitalize" href="https://dribbble.com/planetoftheweb">
-            <i class="fab fa-dribbble text-secondary mr-2"></i>dribble
-          </a><a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-            <i class="fab fa-flickr text-secondary mr-2"></i>flickr
-          </a><a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
-            <i class="fab fa-youtube text-secondary mr-2"></i>youtube
-          </a><a class="dropdown-item text-capitalize" href="https://www.instagram.com/iviewsource">
-            <i class="fab fa-instagram text-secondary mr-2"></i>instagram
-          </a></div>
-        </div>
       </div>
       <div class="searchbox pl-2 py-2">
     <input
@@ -99,7 +101,7 @@
           <li class="list-group-item">
             <a :href="item.url" class="d-flex text-secondary">
               <span class="pr-2" v-html="item.icon"></span>
-              <span class="text-body text-left" v-html="item.title"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
             </a>
           </li>
         </ul>
@@ -125,7 +127,7 @@ style="padding-top: 80px"
   <div class="row justify-content-center px-3 px-sm-0  mb-3 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/pulse/want-get-hired-look-technology-careerlinkedin-jobs-finds-villalobos/" class="d-block mb-1"  target="_blank">
+        <a href="https://www.linkedin.com/pulse/want-get-hired-look-technology-careerlinkedin-jobs-finds-villalobos/" class="d-block mb-1 text-decoration-none"  target="_blank">
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/wanttogethired_tn.png" alt="Want to get hired? Look into this technology career image">
         </a>
       <time class="item-date small d-block text-body" datetime="Dec 07, 2017">Dec 07, 2017</time>
@@ -133,9 +135,9 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/want-get-hired-look-technology-careerlinkedin-jobs-finds-villalobos/" class="item-title h2 d-block" target="_blank">Want to get hired? Look into this technology career
+      <a href="https://www.linkedin.com/pulse/want-get-hired-look-technology-careerlinkedin-jobs-finds-villalobos/" class="item-title h2 d-block text-decoration-none" target="_blank">Want to get hired? Look into this technology career
       
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
       
       </a>
       <p class="item-summary lead mb-1 text-body">The LinkedIn U.S. Emerging Jobs Report finds that job growth in the next decade outstrips growth in the previous decade creating 11.5 million jobs, estimating that 65% of children entering primary school will hold jobs that don't yet exist.</p>
@@ -152,12 +154,12 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-primary">external</a>
-    <a href="/tags/careers/" class="badge badge-primary">careers</a>
-    <a href="/tags/web design/" class="badge badge-primary">web design</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/data visualization/" class="badge badge-primary">data visualization</a>
-    <a href="/tags/python/" class="badge badge-primary">python</a>
+    <a href="/tags/external/" class="badge badge-primary text-decoration-none">external</a>
+    <a href="/tags/careers/" class="badge badge-primary text-decoration-none">careers</a>
+    <a href="/tags/web design/" class="badge badge-primary text-decoration-none">web design</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/data visualization/" class="badge badge-primary text-decoration-none">data visualization</a>
+    <a href="/tags/python/" class="badge badge-primary text-decoration-none">python</a>
 </div>
     </div>
   </div>
@@ -165,10 +167,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/pulse/keep-up-fast-changing-front-end-full-stack-ux-web-seven-villalobos" class="d-block mb-1"  target="_blank">
+        <a href="https://www.linkedin.com/pulse/keep-up-fast-changing-front-end-full-stack-ux-web-seven-villalobos" class="d-block mb-1 text-decoration-none"  target="_blank">
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/weekly-ux_tn.png" alt="Keep up with full stack, UX, web design and mobile with seven weekly series image">
         </a>
       <time class="item-date small d-block text-body" datetime="Jun 28, 2017">Jun 28, 2017</time>
@@ -176,9 +178,9 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/keep-up-fast-changing-front-end-full-stack-ux-web-seven-villalobos" class="item-title h2 d-block" target="_blank">Keep up with full stack, UX, web design and mobile with seven weekly series
+      <a href="https://www.linkedin.com/pulse/keep-up-fast-changing-front-end-full-stack-ux-web-seven-villalobos" class="item-title h2 d-block text-decoration-none" target="_blank">Keep up with full stack, UX, web design and mobile with seven weekly series
       
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
       
       </a>
       <p class="item-summary lead mb-1 text-body">No other field changes more rapidly than the web industry, so it's important to keep learning constantly to stay up with the latest frameworks and languages. These weekly series offer quick, 10 minute tips to help you stay frosty and challenge you to keep learning about Android development, web media, mastering interview code, CSS, Sharepoint, UX and Visual Studio.</p>
@@ -195,10 +197,10 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-primary">external</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/web design/" class="badge badge-primary">web design</a>
-    <a href="/tags/careers/" class="badge badge-primary">careers</a>
+    <a href="/tags/external/" class="badge badge-primary text-decoration-none">external</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/web design/" class="badge badge-primary text-decoration-none">web design</a>
+    <a href="/tags/careers/" class="badge badge-primary text-decoration-none">careers</a>
 </div>
     </div>
   </div>
@@ -206,10 +208,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/pulse/5-reasons-you-should-develop-your-next-site-using-node-ray-villalobos" class="d-block mb-1"  target="_blank">
+        <a href="https://www.linkedin.com/pulse/5-reasons-you-should-develop-your-next-site-using-node-ray-villalobos" class="d-block mb-1 text-decoration-none"  target="_blank">
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/express_tn.png" alt="5 Reasons You Should Develop Your Next Site Using Node &amp; ExpressJS image">
         </a>
       <time class="item-date small d-block text-body" datetime="Dec 20, 2016">Dec 20, 2016</time>
@@ -217,9 +219,9 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/5-reasons-you-should-develop-your-next-site-using-node-ray-villalobos" class="item-title h2 d-block" target="_blank">5 Reasons You Should Develop Your Next Site Using Node & ExpressJS
+      <a href="https://www.linkedin.com/pulse/5-reasons-you-should-develop-your-next-site-using-node-ray-villalobos" class="item-title h2 d-block text-decoration-none" target="_blank">5 Reasons You Should Develop Your Next Site Using Node & ExpressJS
       
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
       
       </a>
       <p class="item-summary lead mb-1 text-body">Creating a website using NodeJS instead of Apache used to be hard, but today several advances have made NodeJS Servers easy to deploy. In this article, I talk about what are some of the advantages of using Node and Express and why you should give it a shot.</p>
@@ -236,12 +238,12 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-primary">external</a>
-    <a href="/tags/web design/" class="badge badge-primary">web design</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/nodejs/" class="badge badge-primary">nodejs</a>
-    <a href="/tags/expressjs/" class="badge badge-primary">expressjs</a>
-    <a href="/tags/javascript/" class="badge badge-primary">javascript</a>
+    <a href="/tags/external/" class="badge badge-primary text-decoration-none">external</a>
+    <a href="/tags/web design/" class="badge badge-primary text-decoration-none">web design</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/nodejs/" class="badge badge-primary text-decoration-none">nodejs</a>
+    <a href="/tags/expressjs/" class="badge badge-primary text-decoration-none">expressjs</a>
+    <a href="/tags/javascript/" class="badge badge-primary text-decoration-none">javascript</a>
 </div>
     </div>
   </div>
@@ -249,10 +251,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/pulse/getting-love-learning-reactjs-ray-villalobos" class="d-block mb-1"  target="_blank">
+        <a href="https://www.linkedin.com/pulse/getting-love-learning-reactjs-ray-villalobos" class="d-block mb-1 text-decoration-none"  target="_blank">
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/react_tn.png" alt="Getting to Love Learning ReactJS image">
         </a>
       <time class="item-date small d-block text-body" datetime="Aug 13, 2016">Aug 13, 2016</time>
@@ -260,9 +262,9 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/getting-love-learning-reactjs-ray-villalobos" class="item-title h2 d-block" target="_blank">Getting to Love Learning ReactJS
+      <a href="https://www.linkedin.com/pulse/getting-love-learning-reactjs-ray-villalobos" class="item-title h2 d-block text-decoration-none" target="_blank">Getting to Love Learning ReactJS
       
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
       
       </a>
       <p class="item-summary lead mb-1 text-body">There's a lot of resistance to learning the ReactJS library. That's because there are two main concepts that make it a tough sell for traditional developers. So let's take a look at what's been holding back most developers from learning ReactJS.</p>
@@ -279,12 +281,12 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-primary">external</a>
-    <a href="/tags/web design/" class="badge badge-primary">web design</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/react/" class="badge badge-primary">react</a>
-    <a href="/tags/javascript/" class="badge badge-primary">javascript</a>
-    <a href="/tags/frameworks/" class="badge badge-primary">frameworks</a>
+    <a href="/tags/external/" class="badge badge-primary text-decoration-none">external</a>
+    <a href="/tags/web design/" class="badge badge-primary text-decoration-none">web design</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/react/" class="badge badge-primary text-decoration-none">react</a>
+    <a href="/tags/javascript/" class="badge badge-primary text-decoration-none">javascript</a>
+    <a href="/tags/frameworks/" class="badge badge-primary text-decoration-none">frameworks</a>
 </div>
     </div>
   </div>
@@ -292,10 +294,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/pulse/whats-wrong-angularjs2-why-youre-still-going-like-ray-villalobos" class="d-block mb-1"  target="_blank">
+        <a href="https://www.linkedin.com/pulse/whats-wrong-angularjs2-why-youre-still-going-like-ray-villalobos" class="d-block mb-1 text-decoration-none"  target="_blank">
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/angular_tn.png" alt="What&#39;s wrong with AngularJS2 and why you&#39;re going to like it image">
         </a>
       <time class="item-date small d-block text-body" datetime="Feb 18, 2016">Feb 18, 2016</time>
@@ -303,9 +305,9 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/whats-wrong-angularjs2-why-youre-still-going-like-ray-villalobos" class="item-title h2 d-block" target="_blank">What's wrong with AngularJS2 and why you're going to like it
+      <a href="https://www.linkedin.com/pulse/whats-wrong-angularjs2-why-youre-still-going-like-ray-villalobos" class="item-title h2 d-block text-decoration-none" target="_blank">What's wrong with AngularJS2 and why you're going to like it
       
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
       
       </a>
       <p class="item-summary lead mb-1 text-body">I've been working with AngularJS2 for a while, so I wanted to give some thoughts to those who are thinking or planning to update or upgrade their apps to this new version. I'll discuss what's new, what's very different, what works and what is going to be a challenge.</p>
@@ -322,11 +324,11 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-primary">external</a>
-    <a href="/tags/web design/" class="badge badge-primary">web design</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/angular/" class="badge badge-primary">angular</a>
-    <a href="/tags/frameworks/" class="badge badge-primary">frameworks</a>
+    <a href="/tags/external/" class="badge badge-primary text-decoration-none">external</a>
+    <a href="/tags/web design/" class="badge badge-primary text-decoration-none">web design</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/angular/" class="badge badge-primary text-decoration-none">angular</a>
+    <a href="/tags/frameworks/" class="badge badge-primary text-decoration-none">frameworks</a>
 </div>
     </div>
   </div>
@@ -334,10 +336,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/pulse/learn-postcss-new-way-design-code-css-youre-going-love-ray-villalobos" class="d-block mb-1"  target="_blank">
+        <a href="https://www.linkedin.com/pulse/learn-postcss-new-way-design-code-css-youre-going-love-ray-villalobos" class="d-block mb-1 text-decoration-none"  target="_blank">
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/postcss_tn.png" alt="Learn about PostCSS! A new way to code CSS you&#39;re going to love image">
         </a>
       <time class="item-date small d-block text-body" datetime="Jan 21, 2016">Jan 21, 2016</time>
@@ -345,9 +347,9 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/learn-postcss-new-way-design-code-css-youre-going-love-ray-villalobos" class="item-title h2 d-block" target="_blank">Learn about PostCSS! A new way to code CSS you're going to love
+      <a href="https://www.linkedin.com/pulse/learn-postcss-new-way-design-code-css-youre-going-love-ray-villalobos" class="item-title h2 d-block text-decoration-none" target="_blank">Learn about PostCSS! A new way to code CSS you're going to love
       
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
       
       </a>
       <p class="item-summary lead mb-1 text-body">Every so often, a new tool things changes the status quo and makes doing your job easier. First, there was Sass, Less and now, there's a new kid in town called PostCSS. It's changing how web designers and developers work. You should check it out because you're going to love it. In this article, I'll show you what the fuss is all about and show you some videos of PostCSS in action from a couple of my lynda.com courses.</p>
@@ -364,10 +366,10 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-primary">external</a>
-    <a href="/tags/web design/" class="badge badge-primary">web design</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/postcss/" class="badge badge-primary">postcss</a>
+    <a href="/tags/external/" class="badge badge-primary text-decoration-none">external</a>
+    <a href="/tags/web design/" class="badge badge-primary text-decoration-none">web design</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/postcss/" class="badge badge-primary text-decoration-none">postcss</a>
 </div>
     </div>
   </div>
@@ -375,10 +377,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="/posts/2015-12-21-javascript-you-should-already-know/" class="d-block mb-1"  >
+        <a href="/posts/2015-12-21-javascript-you-should-already-know/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/jsfrontend_tn.png" alt="6 JavaScript technologies Front-end developers should already know image">
         </a>
       <time class="item-date small d-block text-body" datetime="Dec 21, 2015">Dec 21, 2015</time>
@@ -386,7 +388,7 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="/posts/2015-12-21-javascript-you-should-already-know/" class="item-title h2 d-block" >6 JavaScript technologies Front-end developers should already know
+      <a href="/posts/2015-12-21-javascript-you-should-already-know/" class="item-title h2 d-block text-decoration-none" >6 JavaScript technologies Front-end developers should already know
       
       </a>
       <p class="item-summary lead mb-1 text-body">Life's tough for a front end developer because the pace of learning moves so fast. Today's developer needs to be familiar with a number of libraries, frameworks and processes in order to be successful. Here's my list of JavaScript technologies that you should already be familiar with if you're a professional front end developer.</p>
@@ -395,10 +397,10 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/web design/" class="badge badge-primary">web design</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/javascript/" class="badge badge-primary">javascript</a>
-    <a href="/tags/NodeJS/" class="badge badge-primary">NodeJS</a>
+    <a href="/tags/web design/" class="badge badge-primary text-decoration-none">web design</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/javascript/" class="badge badge-primary text-decoration-none">javascript</a>
+    <a href="/tags/NodeJS/" class="badge badge-primary text-decoration-none">NodeJS</a>
 </div>
     </div>
   </div>
@@ -406,10 +408,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/pulse/before-your-learn-new-javascript-framework-make-sure-youve-ray" class="d-block mb-1"  target="_blank">
+        <a href="https://www.linkedin.com/pulse/before-your-learn-new-javascript-framework-make-sure-youve-ray" class="d-block mb-1 text-decoration-none"  target="_blank">
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/beforeframework_tn.png" alt="Before you learn a framework, make sure you&#39;ve mastered these essential techniques image">
         </a>
       <time class="item-date small d-block text-body" datetime="Dec 16, 2015">Dec 16, 2015</time>
@@ -417,9 +419,9 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/before-your-learn-new-javascript-framework-make-sure-youve-ray" class="item-title h2 d-block" target="_blank">Before you learn a framework, make sure you've mastered these essential techniques
+      <a href="https://www.linkedin.com/pulse/before-your-learn-new-javascript-framework-make-sure-youve-ray" class="item-title h2 d-block text-decoration-none" target="_blank">Before you learn a framework, make sure you've mastered these essential techniques
       
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
       
       </a>
       <p class="item-summary lead mb-1 text-body">With lower attention spans, it's easy to get distracted by shiny new frameworks like React, AngularJS and others. Before you spend your valuable time on those frameworks, make sure you understand these essential JavaScript techniques.</p>
@@ -436,13 +438,13 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-primary">external</a>
-    <a href="/tags/web design/" class="badge badge-primary">web design</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/javascript/" class="badge badge-primary">javascript</a>
-    <a href="/tags/react/" class="badge badge-primary">react</a>
-    <a href="/tags/angular/" class="badge badge-primary">angular</a>
-    <a href="/tags/frameworks/" class="badge badge-primary">frameworks</a>
+    <a href="/tags/external/" class="badge badge-primary text-decoration-none">external</a>
+    <a href="/tags/web design/" class="badge badge-primary text-decoration-none">web design</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/javascript/" class="badge badge-primary text-decoration-none">javascript</a>
+    <a href="/tags/react/" class="badge badge-primary text-decoration-none">react</a>
+    <a href="/tags/angular/" class="badge badge-primary text-decoration-none">angular</a>
+    <a href="/tags/frameworks/" class="badge badge-primary text-decoration-none">frameworks</a>
 </div>
     </div>
   </div>
@@ -450,10 +452,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="/posts/2015-03-01-online-graphic-formats/" class="d-block mb-1"  >
+        <a href="/posts/2015-03-01-online-graphic-formats/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/graphics_tn.png" alt="Principles of online graphic formats image">
         </a>
       <time class="item-date small d-block text-body" datetime="Mar 01, 2015">Mar 01, 2015</time>
@@ -461,7 +463,7 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="/posts/2015-03-01-online-graphic-formats/" class="item-title h2 d-block" >Principles of online graphic formats
+      <a href="/posts/2015-03-01-online-graphic-formats/" class="item-title h2 d-block text-decoration-none" >Principles of online graphic formats
       
       </a>
       <p class="item-summary lead mb-1 text-body">If your goal is to create visualizations for online consumption, it's good to understand the fundamentals of how graphic formats work for online delivery. In this article, I'll talk about the different bitmap/raster graphics and some of the main considerations for online delivery.</p>
@@ -470,8 +472,8 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/web design/" class="badge badge-primary">web design</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
+    <a href="/tags/web design/" class="badge badge-primary text-decoration-none">web design</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
 </div>
     </div>
   </div>
@@ -479,10 +481,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="/posts/2015-02-11-centered-navigation-table-css/" class="d-block mb-1"  >
+        <a href="/posts/2015-02-11-centered-navigation-table-css/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/horizontally_tn.png" alt="Horizontally Centered Navigation Menu with CSS image">
         </a>
       <time class="item-date small d-block text-body" datetime="Feb 11, 2015">Feb 11, 2015</time>
@@ -490,7 +492,7 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="/posts/2015-02-11-centered-navigation-table-css/" class="item-title h2 d-block" >Horizontally Centered Navigation Menu with CSS
+      <a href="/posts/2015-02-11-centered-navigation-table-css/" class="item-title h2 d-block text-decoration-none" >Horizontally Centered Navigation Menu with CSS
       
       </a>
       <p class="item-summary lead mb-1 text-body">Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy.</p>
@@ -499,8 +501,8 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/web design/" class="badge badge-primary">web design</a>
-    <a href="/tags/css/" class="badge badge-primary">css</a>
+    <a href="/tags/web design/" class="badge badge-primary text-decoration-none">web design</a>
+    <a href="/tags/css/" class="badge badge-primary text-decoration-none">css</a>
 </div>
     </div>
   </div>

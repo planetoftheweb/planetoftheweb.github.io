@@ -9,25 +9,16 @@
     display: block;
     height: 3.5rem;
     margin-top: -3.5rem;
-    content: '';
-  }
-
-  .main {
-    max-width: 1200px;
+    content: "";
   }
 
   .aside {
-    max-width: 280px;
     position: sticky;
     top: 4rem;
     height: calc(100vh - 4rem);
     overflow-y: auto;
     font-family: $font-family-sans-serif;
     @include font-size(0.9em);
-  }
-
-  .aside-main {
-    min-width: 200px;
   }
 
   .list-group-item {
@@ -44,6 +35,6 @@
   }
 
   .aside-supplemental a.list-group-item::before {
-    content: '# ';
+    content: "# ";
   }
 }

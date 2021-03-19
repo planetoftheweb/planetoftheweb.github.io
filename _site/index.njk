@@ -1,6 +1,6 @@
 ---
 layout: base.njk
-headerHeight: 50vh
+headerHeight: 40vh
 carousel:
   fade: true
 eleventyNavigation:
@@ -40,14 +40,13 @@ eleventyNavigation:
 {% if carouselPosts==null and hero==null%}style="padding-top: 60px"{%endif%}
 >
 <div class="row">
-  <div class="main-content col-md-9">
+  <div class="col-md-9">
     <h6 class="family-sans text-secondary mt-3 mb-2 px-3 px-sm-0">Latest Posts</h6>
     {%- for item in postslist %}
     {% include "items.njk" %}
     {% endfor -%}
   </div>
   <div class="col-md-3">
-
     <h6 class="text-secondary mt-3 px-3 px-sm-0">Apply Newsletter</h6>
 
     <div class="newsletter-sidebar">
@@ -55,7 +54,7 @@ eleventyNavigation:
     {% for item in itemList %}
     {% include "sidebar_notags.njk" %}
     {% endfor -%}
-    <a href="/newsletter/0" class="d-none d-lg-inline mr-3 mb-5 mr-lg-1 text-secondary family-sans"><i class="fas fa-newspaper"></i> All News</a>
+    <a href="/newsletter/0" class="d-none d-lg-inline me-3 mb-5 me-lg-1 text-secondary family-sans"><i class="fas fa-newspaper"></i> All News</a>
     </div>
 
     <h6 class="text-secondary mt-5 px-3 px-sm-0">Latest Courses</h6>

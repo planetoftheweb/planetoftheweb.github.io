@@ -6,16 +6,16 @@ carousel:
   indicators: false
   controls: false
   items:
-    - url: 'http://raybo.org'
+    - url: "http://raybo.org"
       data:
-        hero: 'http://pixelprowess.com/i/raybo01.jpg'
+        hero: "http://pixelprowess.com/i/raybo01.jpg"
 
-    - url: 'http://bbb.com'
+    - url: "http://raybo.org"
       data:
-        hero: 'http://pixelprowess.com/i/raybo02.jpg'
-    - url: 'http://ccc.com'
+        hero: "http://pixelprowess.com/i/raybo02.jpg"
+    - url: "http://raybo.org"
       data:
-        hero: 'http://pixelprowess.com/i/raybo03.jpg'
+        hero: "http://pixelprowess.com/i/raybo03.jpg"
 
 navtitle: About
 ---

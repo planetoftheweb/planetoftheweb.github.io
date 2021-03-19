@@ -4,19 +4,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
  
-    <title>Raybo.org</title>
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
-  
-    <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     <script defer src="/js/script.js"></script>
  
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -38,47 +36,51 @@
     </button>
 
     <div class="navbar-brand text-lowercase">
-      <a class="text-light" href="/"><i class="icon icon-pow"></i>Raybo.org</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Newsletter</span>
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Newsletter</span>
     </div>
 
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
-      <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
         
         <a class="nav-item nav-link " href="/"><i class="fas fa-home"></i></a>
+
+
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user text-white"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
+            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+              <i class="fab fa-github text-secondary me-5"></i> github
+            </a><a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+              <i class="fab fa-linkedin text-secondary me-5"></i> linkedin
+            </a><a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+              <i class="fab fa-twitter text-secondary me-5"></i> twitter
+            </a><a class="dropdown-item text-capitalize" href="https://dribbble.com/planetoftheweb">
+              <i class="fab fa-dribbble text-secondary me-5"></i> dribble
+            </a><a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+              <i class="fab fa-flickr text-secondary me-5"></i> flickr
+            </a><a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+              <i class="fab fa-youtube text-secondary me-5"></i> youtube
+            </a><a class="dropdown-item text-capitalize" href="https://www.instagram.com/iviewsource">
+              <i class="fab fa-instagram text-secondary me-5"></i> instagram
+            </a></div>
+        </div>
+
+
         
           <a class="nav-item nav-link" href="/courses/0/">courses</a>
           
           <a class="nav-item nav-link" href="/videos/0/">videos</a>
           
-          <a class="nav-item nav-link disabled font-weight-bold text-light" href="/newsletter/0/">newsletter</a>
+          <a class="nav-item nav-link disabled fw-bold text-light" href="/newsletter/0/">newsletter</a>
           
           <a class="nav-item nav-link" href="/posts/0/">posts</a>
           </div>
-        <div class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-user text-white"></i>
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
-            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
-            <i class="fab fa-github text-secondary mr-2"></i>github
-          </a><a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
-            <i class="fab fa-linkedin text-secondary mr-2"></i>linkedin
-          </a><a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
-            <i class="fab fa-twitter text-secondary mr-2"></i>twitter
-          </a><a class="dropdown-item text-capitalize" href="https://dribbble.com/planetoftheweb">
-            <i class="fab fa-dribbble text-secondary mr-2"></i>dribble
-          </a><a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-            <i class="fab fa-flickr text-secondary mr-2"></i>flickr
-          </a><a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
-            <i class="fab fa-youtube text-secondary mr-2"></i>youtube
-          </a><a class="dropdown-item text-capitalize" href="https://www.instagram.com/iviewsource">
-            <i class="fab fa-instagram text-secondary mr-2"></i>instagram
-          </a></div>
-        </div>
       </div>
       <div class="searchbox pl-2 py-2">
     <input
@@ -99,7 +101,7 @@
           <li class="list-group-item">
             <a :href="item.url" class="d-flex text-secondary">
               <span class="pr-2" v-html="item.icon"></span>
-              <span class="text-body text-left" v-html="item.title"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
             </a>
           </li>
         </ul>
@@ -111,7 +113,7 @@
 </nav>
 
     
-  <header id="page-hero" class="site-header position-relative  site-header" style="width: 100vw; min-height: 30vh;">
+  <header id="page-hero" class="site-header position-relative 100vw  site-header" style="min-height: 30vh;">
 <section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(https://lil-cdn.com/585273/computing-apps-top-227241901.jpg); height: 100%; width: 100%;  filter: blur(0);" ></section>
 <div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
   <div class="container">
@@ -167,7 +169,7 @@
   <div class="row justify-content-center px-3 px-sm-0  mb-3 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/pulse/spending-time-make-ray-villalobos/" class="d-block mb-1"  target="_blank">
+        <a href="https://www.linkedin.com/pulse/spending-time-make-ray-villalobos/" class="d-block mb-1 text-decoration-none"  target="_blank">
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/racingcar_tn.jpg" alt="Spending Time to Make Time image">
         </a>
       <time class="item-date small d-block text-body" datetime="Mar 17, 2021">Mar 17, 2021</time>
@@ -175,9 +177,9 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/spending-time-make-ray-villalobos/" class="item-title h2 d-block" target="_blank">Spending Time to Make Time
+      <a href="https://www.linkedin.com/pulse/spending-time-make-ray-villalobos/" class="item-title h2 d-block text-decoration-none" target="_blank">Spending Time to Make Time
       
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
       
       </a>
       <p class="item-summary lead mb-1 text-body">Developers are notorious for being lazy. I'm obsessed with streamlining processes, it's one of those things that brings joy to my heart. In this issue, I try to save you some time.</p>
@@ -194,8 +196,8 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-primary">external</a>
-    <a href="/tags/Apply Newsletter/" class="badge badge-primary">Apply Newsletter</a>
+    <a href="/tags/external/" class="badge badge-primary text-decoration-none">external</a>
+    <a href="/tags/Apply Newsletter/" class="badge badge-primary text-decoration-none">Apply Newsletter</a>
 </div>
     </div>
   </div>
@@ -212,10 +214,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/pulse/make-small-ray-villalobos/" class="d-block mb-1"  target="_blank">
+        <a href="https://www.linkedin.com/pulse/make-small-ray-villalobos/" class="d-block mb-1 text-decoration-none"  target="_blank">
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/1615354110381_tn.jpg" alt="Make it Small image">
         </a>
       <time class="item-date small d-block text-body" datetime="Mar 10, 2021">Mar 10, 2021</time>
@@ -223,9 +225,9 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/make-small-ray-villalobos/" class="item-title h2 d-block" target="_blank">Make it Small
+      <a href="https://www.linkedin.com/pulse/make-small-ray-villalobos/" class="item-title h2 d-block text-decoration-none" target="_blank">Make it Small
       
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
       
       </a>
       <p class="item-summary lead mb-1 text-body">I was recording a course last week when I ran into an unsurmountable problem. You know the type where you think: I have no idea why this isn't working or how to solve this. Here's how I solve the big..and small problems.</p>
@@ -242,8 +244,8 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-primary">external</a>
-    <a href="/tags/Apply Newsletter/" class="badge badge-primary">Apply Newsletter</a>
+    <a href="/tags/external/" class="badge badge-primary text-decoration-none">external</a>
+    <a href="/tags/Apply Newsletter/" class="badge badge-primary text-decoration-none">Apply Newsletter</a>
 </div>
     </div>
   </div>
@@ -260,10 +262,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/pulse/success-hasnt-spoiled-meyet-ray-villalobos/" class="d-block mb-1"  target="_blank">
+        <a href="https://www.linkedin.com/pulse/success-hasnt-spoiled-meyet-ray-villalobos/" class="d-block mb-1 text-decoration-none"  target="_blank">
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/1614781660264_tn.jpg" alt="Success Hasn&#39;t Spoiled Me...Yet! image">
         </a>
       <time class="item-date small d-block text-body" datetime="Mar 03, 2021">Mar 03, 2021</time>
@@ -271,9 +273,9 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/success-hasnt-spoiled-meyet-ray-villalobos/" class="item-title h2 d-block" target="_blank">Success Hasn't Spoiled Me...Yet!
+      <a href="https://www.linkedin.com/pulse/success-hasnt-spoiled-meyet-ray-villalobos/" class="item-title h2 d-block text-decoration-none" target="_blank">Success Hasn't Spoiled Me...Yet!
       
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
       
       </a>
       <p class="item-summary lead mb-1 text-body">The newsletter shattered my expectations with over 5000 subscriptions the first week. Trying hard to not let it get to my head, I talk about my learning habit and lots of other developer tips.</p>
@@ -290,8 +292,8 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-primary">external</a>
-    <a href="/tags/Apply Newsletter/" class="badge badge-primary">Apply Newsletter</a>
+    <a href="/tags/external/" class="badge badge-primary text-decoration-none">external</a>
+    <a href="/tags/Apply Newsletter/" class="badge badge-primary text-decoration-none">Apply Newsletter</a>
 </div>
     </div>
   </div>
@@ -308,10 +310,10 @@
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="https://www.linkedin.com/pulse/lets-get-started-ray-villalobos/" class="d-block mb-1"  target="_blank">
+        <a href="https://www.linkedin.com/pulse/lets-get-started-ray-villalobos/" class="d-block mb-1 text-decoration-none"  target="_blank">
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/apply-get-started_tn.jpg" alt="Lets Get Started image">
         </a>
       <time class="item-date small d-block text-body" datetime="Feb 24, 2021">Feb 24, 2021</time>
@@ -319,9 +321,9 @@
     
 
     <div class="col-md-9">
-      <a href="https://www.linkedin.com/pulse/lets-get-started-ray-villalobos/" class="item-title h2 d-block" target="_blank">Lets Get Started
+      <a href="https://www.linkedin.com/pulse/lets-get-started-ray-villalobos/" class="item-title h2 d-block text-decoration-none" target="_blank">Lets Get Started
       
-        <i class="fas fa-external-link-square-alt text-body ml-1" style="font-size: .5em;"></i>
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
       
       </a>
       <p class="item-summary lead mb-1 text-body">In this first edition, I try to explain what I'm doing with the newsletter, a bit of my background story and highlight some of the work I've been doing recently.</p>
@@ -338,8 +340,8 @@
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/external/" class="badge badge-primary">external</a>
-    <a href="/tags/Apply Newsletter/" class="badge badge-primary">Apply Newsletter</a>
+    <a href="/tags/external/" class="badge badge-primary text-decoration-none">external</a>
+    <a href="/tags/Apply Newsletter/" class="badge badge-primary text-decoration-none">Apply Newsletter</a>
 </div>
     </div>
   </div>

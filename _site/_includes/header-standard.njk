@@ -1,4 +1,4 @@
-<header id="page-hero" class="site-header position-relative {% if not hero %}mt-5{% endif %} site-header" style="width: 100vw; {% if hero %}min-height: {{(headerHeight) if headerHeight else '50vh'}};{% endif %}">
+<header id="page-hero" class="site-header position-relative 100vw {% if not hero %}mt-5{% endif %} site-header" style="{% if hero %}min-height: {{(headerHeight) if headerHeight else '50vh'}};{% endif %}">
 <section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url({{ hero }}); height: 100%; width: 100%;  filter: blur({{(blur) if blur else '0'}});" ></section>
 <div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
   <div class="container">

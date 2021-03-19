@@ -5,43 +5,45 @@
     </button>
 
     <div class="navbar-brand text-lowercase">
-      <a class="text-light" href="{{ '/' | url }}"><i class="icon icon-pow"></i>{{ metadata.title }}</a> {% if navtitle %} <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">{{ navtitle }}</span>{% endif %}
+      <a class="text-white text-decoration-none" href="{{ '/' | url }}"><i class="icon icon-pow"></i>{{ metadata.title }}</a> {% if navtitle %} <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">{{ navtitle }}</span>{% endif %}
     </div>
 
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
-      <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
         {# These next two links are hidden are allow scrollspy to detect the current page #}
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
         
-        {% if navtitle != 'Home' %}<a class="nav-item nav-link {% if navtitle==null %}font-weight-bold  text-light{% endif %}" href="/"><i class="fas fa-home"></i></a>{% endif %}
-        {% set mainNav = collections.all | eleventyNavigation("main") %}
+        {% if navtitle != 'Home' %}<a class="nav-item nav-link {% if navtitle==null %}fw-bold  text-light{% endif %}" href="/"><i class="fas fa-home"></i></a>{% endif %}
 
-        {%- for nav in mainNav | reverse -%}
-          {% if nav.url == page.url %}
-          <a class="nav-item nav-link disabled font-weight-bold text-light" href="{{ nav.url | url }}">{{ nav.title }}</a>
-          {% else %}
-          <a class="nav-item nav-link" href="{{ nav.url | url }}">{{ nav.title }}</a>
-          {% endif %}
-        {%- endfor -%}
 
-        </div>
         <div class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             <i class="fas fa-user text-white"></i>
           </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
             <a class="dropdown-item text-capitalize" href="/about">About Me</a>
             <div class="dropdown-divider"></div>
 
-
-        {%- for socialNav in metadata.author.social -%}
-          <a class="dropdown-item text-capitalize" href="{{socialNav.url}}">
-            <i class="{{socialNav.iconClass}} text-secondary mr-2"></i>{{socialNav.name}}
-          </a>
-        {%- endfor -%}
+            {%- for socialNav in metadata.author.social -%}
+            <a class="dropdown-item text-capitalize" href="{{socialNav.url}}">
+              <i class="{{socialNav.iconClass}} text-secondary me-5"></i> {{socialNav.name}}
+            </a>
+            {%- endfor -%}
 
           </div>
+        </div>
+
+
+        {% set mainNav = collections.all | eleventyNavigation("main") %}
+
+        {%- for nav in mainNav | reverse -%}
+          {% if nav.url == page.url %}
+          <a class="nav-item nav-link disabled fw-bold text-light" href="{{ nav.url | url }}">{{ nav.title }}</a>
+          {% else %}
+          <a class="nav-item nav-link" href="{{ nav.url | url }}">{{ nav.title }}</a>
+          {% endif %}
+        {%- endfor -%}
         </div>
       </div>
       {% include "search.njk" %}

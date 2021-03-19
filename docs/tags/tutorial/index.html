@@ -4,19 +4,17 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
  
-    <title>Raybo.org</title>
-    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
-  
-    <script defer src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script defer src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
     <script defer src="/js/script.js"></script>
  
     <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -38,16 +36,42 @@
     </button>
 
     <div class="navbar-brand text-lowercase">
-      <a class="text-light" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
     </div>
 
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
-      <div class="navbar-nav ml-auto font-weight-regular text-uppercase">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
         
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>
         
-        <a class="nav-item nav-link font-weight-bold  text-light" href="/"><i class="fas fa-home"></i></a>
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="fas fa-home"></i></a>
+
+
+        <div class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user text-white"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
+            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+              <i class="fab fa-github text-secondary me-5"></i> github
+            </a><a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+              <i class="fab fa-linkedin text-secondary me-5"></i> linkedin
+            </a><a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+              <i class="fab fa-twitter text-secondary me-5"></i> twitter
+            </a><a class="dropdown-item text-capitalize" href="https://dribbble.com/planetoftheweb">
+              <i class="fab fa-dribbble text-secondary me-5"></i> dribble
+            </a><a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+              <i class="fab fa-flickr text-secondary me-5"></i> flickr
+            </a><a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+              <i class="fab fa-youtube text-secondary me-5"></i> youtube
+            </a><a class="dropdown-item text-capitalize" href="https://www.instagram.com/iviewsource">
+              <i class="fab fa-instagram text-secondary me-5"></i> instagram
+            </a></div>
+        </div>
+
+
         
           <a class="nav-item nav-link" href="/courses/0/">courses</a>
           
@@ -57,28 +81,6 @@
           
           <a class="nav-item nav-link" href="/posts/0/">posts</a>
           </div>
-        <div class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-            <i class="fas fa-user text-white"></i>
-          </a>
-          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="userDropdown">
-            <a class="dropdown-item text-capitalize" href="/about">About Me</a>
-            <div class="dropdown-divider"></div><a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
-            <i class="fab fa-github text-secondary mr-2"></i>github
-          </a><a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
-            <i class="fab fa-linkedin text-secondary mr-2"></i>linkedin
-          </a><a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
-            <i class="fab fa-twitter text-secondary mr-2"></i>twitter
-          </a><a class="dropdown-item text-capitalize" href="https://dribbble.com/planetoftheweb">
-            <i class="fab fa-dribbble text-secondary mr-2"></i>dribble
-          </a><a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
-            <i class="fab fa-flickr text-secondary mr-2"></i>flickr
-          </a><a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
-            <i class="fab fa-youtube text-secondary mr-2"></i>youtube
-          </a><a class="dropdown-item text-capitalize" href="https://www.instagram.com/iviewsource">
-            <i class="fab fa-instagram text-secondary mr-2"></i>instagram
-          </a></div>
-        </div>
       </div>
       <div class="searchbox pl-2 py-2">
     <input
@@ -99,7 +101,7 @@
           <li class="list-group-item">
             <a :href="item.url" class="d-flex text-secondary">
               <span class="pr-2" v-html="item.icon"></span>
-              <span class="text-body text-left" v-html="item.title"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
             </a>
           </li>
         </ul>
@@ -125,7 +127,7 @@ style="padding-top: 80px"
   <div class="row justify-content-center px-3 px-sm-0  mb-3 ">
     
       <div class="col-md-3">
-        <a href="/posts/2021-03-13-Best-Online-Tools-and-Modules/" class="d-block mb-1"  >
+        <a href="/posts/2021-03-13-Best-Online-Tools-and-Modules/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/fasterprojects_tn.jpg" alt="Best online Tools, Extensions and Modules to Get Started on your Next Web Development Project image">
         </a>
       <time class="item-date small d-block text-body" datetime="Mar 13, 2021">Mar 13, 2021</time>
@@ -133,7 +135,7 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="/posts/2021-03-13-Best-Online-Tools-and-Modules/" class="item-title h2 d-block" >Best online Tools, Extensions and Modules to Get Started on your Next Web Development Project
+      <a href="/posts/2021-03-13-Best-Online-Tools-and-Modules/" class="item-title h2 d-block text-decoration-none" >Best online Tools, Extensions and Modules to Get Started on your Next Web Development Project
       
       </a>
       <p class="item-summary lead mb-1 text-body">You've got a new project to build, but how to begin. Ohhh the many ways to go. Should I use React, Svelte or Vue.js. Bootstrap or Tailwind, which Bundler should I use. Heres some great ways to get going quickly.</p>
@@ -142,10 +144,10 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/tutorial/" class="badge badge-primary">tutorial</a>
-    <a href="/tags/video/" class="badge badge-primary">video</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/tooling/" class="badge badge-primary">tooling</a>
+    <a href="/tags/tutorial/" class="badge badge-primary text-decoration-none">tutorial</a>
+    <a href="/tags/video/" class="badge badge-primary text-decoration-none">video</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/tooling/" class="badge badge-primary text-decoration-none">tooling</a>
 </div>
     </div>
   </div>
@@ -153,10 +155,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="/posts/2021-03-07-Squoosh/" class="d-block mb-1"  >
+        <a href="/posts/2021-03-07-Squoosh/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/squoosh_tn.png" alt="Try out the latest and most efficient image compression with Squoosh from Google image">
         </a>
       <time class="item-date small d-block text-body" datetime="Mar 07, 2021">Mar 07, 2021</time>
@@ -164,7 +166,7 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="/posts/2021-03-07-Squoosh/" class="item-title h2 d-block" >Try out the latest and most efficient image compression with Squoosh from Google
+      <a href="/posts/2021-03-07-Squoosh/" class="item-title h2 d-block text-decoration-none" >Try out the latest and most efficient image compression with Squoosh from Google
       
       </a>
       <p class="item-summary lead mb-1 text-body">Squoosh let's you explore the web's latest and greatest compression formats like WebP, AVIF, JPEG-XL and others.</p>
@@ -173,10 +175,10 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/tutorial/" class="badge badge-primary">tutorial</a>
-    <a href="/tags/video/" class="badge badge-primary">video</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/tools/" class="badge badge-primary">tools</a>
+    <a href="/tags/tutorial/" class="badge badge-primary text-decoration-none">tutorial</a>
+    <a href="/tags/video/" class="badge badge-primary text-decoration-none">video</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/tools/" class="badge badge-primary text-decoration-none">tools</a>
 </div>
     </div>
   </div>
@@ -184,10 +186,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="/posts/2021-02-28-CSS Clamp/" class="d-block mb-1"  >
+        <a href="/posts/2021-02-28-CSS Clamp/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/cssclamp_tn.jpg" alt="Responsive content without media queries using CSS Clamp() image">
         </a>
       <time class="item-date small d-block text-body" datetime="Feb 28, 2021">Feb 28, 2021</time>
@@ -195,7 +197,7 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="/posts/2021-02-28-CSS Clamp/" class="item-title h2 d-block" >Responsive content without media queries using CSS Clamp()
+      <a href="/posts/2021-02-28-CSS Clamp/" class="item-title h2 d-block text-decoration-none" >Responsive content without media queries using CSS Clamp()
       
       </a>
       <p class="item-summary lead mb-1 text-body">There's a useful function in CSS called CSS Clamp. It's better than using a width property because you can set up a minimum and maximum value, which are the clamps.</p>
@@ -204,10 +206,10 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/tutorial/" class="badge badge-primary">tutorial</a>
-    <a href="/tags/video/" class="badge badge-primary">video</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/css/" class="badge badge-primary">css</a>
+    <a href="/tags/tutorial/" class="badge badge-primary text-decoration-none">tutorial</a>
+    <a href="/tags/video/" class="badge badge-primary text-decoration-none">video</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/css/" class="badge badge-primary text-decoration-none">css</a>
 </div>
     </div>
   </div>
@@ -215,10 +217,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="/posts/2021-02-14-JSL-ES2020-new-features-optional-chaining/" class="d-block mb-1"  >
+        <a href="/posts/2021-02-14-JSL-ES2020-new-features-optional-chaining/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/jsl-optionalchaining_tn.jpg" alt="JSL: ES2020 Optional Chaining Operator...explained with cats image">
         </a>
       <time class="item-date small d-block text-body" datetime="Feb 14, 2021">Feb 14, 2021</time>
@@ -226,7 +228,7 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="/posts/2021-02-14-JSL-ES2020-new-features-optional-chaining/" class="item-title h2 d-block" >JSL: ES2020 Optional Chaining Operator...explained with cats
+      <a href="/posts/2021-02-14-JSL-ES2020-new-features-optional-chaining/" class="item-title h2 d-block text-decoration-none" >JSL: ES2020 Optional Chaining Operator...explained with cats
       
       </a>
       <p class="item-summary lead mb-1 text-body">JavaScript's Optional Chaining Operator, also known as the conditional ternary operator is one of those cool new features in ES2020 that you need to know.</p>
@@ -235,15 +237,15 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/javascript/" class="badge badge-primary">javascript</a>
-    <a href="/tags/tutorial/" class="badge badge-primary">tutorial</a>
-    <a href="/tags/javascript2020/" class="badge badge-primary">javascript2020</a>
-    <a href="/tags/optionalchaining/" class="badge badge-primary">optionalchaining</a>
-    <a href="/tags/frontenddeveloper/" class="badge badge-primary">frontenddeveloper</a>
-    <a href="/tags/fullstackdeveloper/" class="badge badge-primary">fullstackdeveloper</a>
-    <a href="/tags/developer/" class="badge badge-primary">developer</a>
-    <a href="/tags/webdesign/" class="badge badge-primary">webdesign</a>
-    <a href="/tags/JSL/" class="badge badge-primary">JSL</a>
+    <a href="/tags/javascript/" class="badge badge-primary text-decoration-none">javascript</a>
+    <a href="/tags/tutorial/" class="badge badge-primary text-decoration-none">tutorial</a>
+    <a href="/tags/javascript2020/" class="badge badge-primary text-decoration-none">javascript2020</a>
+    <a href="/tags/optionalchaining/" class="badge badge-primary text-decoration-none">optionalchaining</a>
+    <a href="/tags/frontenddeveloper/" class="badge badge-primary text-decoration-none">frontenddeveloper</a>
+    <a href="/tags/fullstackdeveloper/" class="badge badge-primary text-decoration-none">fullstackdeveloper</a>
+    <a href="/tags/developer/" class="badge badge-primary text-decoration-none">developer</a>
+    <a href="/tags/webdesign/" class="badge badge-primary text-decoration-none">webdesign</a>
+    <a href="/tags/JSL/" class="badge badge-primary text-decoration-none">JSL</a>
 </div>
     </div>
   </div>
@@ -251,10 +253,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="/posts/2020-07-22-Taking a Course in LinkedIn Learning with a Github Repo/" class="d-block mb-1"  >
+        <a href="/posts/2020-07-22-Taking a Course in LinkedIn Learning with a Github Repo/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/usingGithubExercises_tn.jpg" alt="How to take a course on LinkedIn Learning with a Github Repo image">
         </a>
       <time class="item-date small d-block text-body" datetime="Jul 22, 2020">Jul 22, 2020</time>
@@ -262,7 +264,7 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="/posts/2020-07-22-Taking a Course in LinkedIn Learning with a Github Repo/" class="item-title h2 d-block" >How to take a course on LinkedIn Learning with a Github Repo
+      <a href="/posts/2020-07-22-Taking a Course in LinkedIn Learning with a Github Repo/" class="item-title h2 d-block text-decoration-none" >How to take a course on LinkedIn Learning with a Github Repo
       
       </a>
       <p class="item-summary lead mb-1 text-body">Some of our courses on LinkedIn Learning allow you use Github repositories in order to follow along and practice with the course, so let's take a look at how that works and how you might use Github to enhance the way you take the course.</p>
@@ -271,11 +273,11 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/tutorial/" class="badge badge-primary">tutorial</a>
-    <a href="/tags/video/" class="badge badge-primary">video</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
-    <a href="/tags/github/" class="badge badge-primary">github</a>
-    <a href="/tags/linkedin learning/" class="badge badge-primary">linkedin learning</a>
+    <a href="/tags/tutorial/" class="badge badge-primary text-decoration-none">tutorial</a>
+    <a href="/tags/video/" class="badge badge-primary text-decoration-none">video</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
+    <a href="/tags/github/" class="badge badge-primary text-decoration-none">github</a>
+    <a href="/tags/linkedin learning/" class="badge badge-primary text-decoration-none">linkedin learning</a>
 </div>
     </div>
   </div>
@@ -283,10 +285,10 @@ style="padding-top: 80px"
 
   
 
-  <div class="row justify-content-center px-3 px-sm-0  my-5 my-md-huge ">
+  <div class="row justify-content-center px-3 px-sm-0  my-5 ">
     
       <div class="col-md-3">
-        <a href="/posts/2020-07-08-error-free-live-demo/" class="d-block mb-1"  >
+        <a href="/posts/2020-07-08-error-free-live-demo/" class="d-block mb-1 text-decoration-none"  >
           <img class="item-title  w-100 img-fluid rounded" src="/images/posts/markus-spiske-Skf7HxARcoc-unsplash_tn.png" alt="How to eliminate the terror of a live coding demo training tutorial image">
         </a>
       <time class="item-date small d-block text-body" datetime="Jul 08, 2020">Jul 08, 2020</time>
@@ -294,7 +296,7 @@ style="padding-top: 80px"
     
 
     <div class="col-md-9">
-      <a href="/posts/2020-07-08-error-free-live-demo/" class="item-title h2 d-block" >How to eliminate the terror of a live coding demo training tutorial
+      <a href="/posts/2020-07-08-error-free-live-demo/" class="item-title h2 d-block text-decoration-none" >How to eliminate the terror of a live coding demo training tutorial
       
       </a>
       <p class="item-summary lead mb-1 text-body">I've prepared dozens of project based online tutorials and given as many live training sessions featuring the dreaded 'live coding' demo. It can be embarrasing when you type in a comma instead of a semicolon. Here's a process for having a flawless demo.</p>
@@ -303,8 +305,8 @@ style="padding-top: 80px"
 
       <div class="tagslist d-none d-lg-block mt-2">
   
-    <a href="/tags/tutorial/" class="badge badge-primary">tutorial</a>
-    <a href="/tags/web development/" class="badge badge-primary">web development</a>
+    <a href="/tags/tutorial/" class="badge badge-primary text-decoration-none">tutorial</a>
+    <a href="/tags/web development/" class="badge badge-primary text-decoration-none">web development</a>
 </div>
     </div>
   </div>
