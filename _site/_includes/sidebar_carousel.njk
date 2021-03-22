@@ -11,10 +11,17 @@
         {% for item in itemList %}
           {% set defaultURL = '' %}{% if item.data.links[0] %}{% for name, link in item.data.links[0] %}{% set defaultURL = link %}{% endfor %}{% else %}{% set defaultURL = item.url %}{% endif %}
           <div class="carousel-item {% if loop.first %} active {% endif %}">
+            {% if item.data.video %}
+            <lite-youtube videoid="{{ item.data.video }}" style="background-image: url('{{item.data.thumb}}'); width:100%;">
+              <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">{{ item.data.title }}</span></button>
+            </lite-youtube>
+            {% else %}
             <img class="d-block w-100" src="{{ item.data.thumb }}" alt="{{ item.data.title }} photo">
+            {% endif %}
             <div class="d-block">
               <time class="small d-none d-lg-block text-body" datetime="{{ date | simpleDate }}">{{ item.date | simpleDate }}</time>
-              <a href="{{ defaultURL | url }}" class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">{{item.data.title}}</a>
+              <a href="{% if item.data.video %}https://www.youtube.com/watch?v={{ item.data.video }}{% else %}{{ defaultURL | url }}{% endif %}" 
+              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">{{item.data.title}}</a>
               <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">{{item.data.summary}}</p>
             </div>
           </div>

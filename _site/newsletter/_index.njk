@@ -1,6 +1,6 @@
 ---
 layout: page.njk
-hero: https://lil-cdn.com/585273/computing-apps-top-227241901.jpg
+hero: /images/site/graphic_newsletter.png
 tags:
   - nav
 iconclass: far fa-file-alt
@@ -16,20 +16,20 @@ permalink: /newsletter/{{pagination.pageNumber}}/
 ---
 
 {% include "pagination.njk" %}
-
-{%- for item in pagination.items %}
-  {% set defaultURL = '' %}
-  {% if item.data.links[0] %}
-    {% for name, link in item.data.links[0] %}
-      {% set defaultURL = link %}
-    {% endfor %}
-  {% else %}
-      {% set defaultURL = item.url %}
-  {% endif %}
-
-  {% include "items.njk" %}
-
-{% endfor -%}
-
-{% include "pagination.njk" %}
-
+<div class="row">
+  <div class="col-md-9">
+  {%- for item in pagination.items %}
+    {% include "items.njk" %}
+  {% endfor -%}
+  {% include "pagination.njk" %}
+  </div>
+  <div class="col-md-3">
+    {% from '../_includes/sidebar_carousel.njk' import carousel %}
+    <div class="sidebar-videos">
+      <h6 class="text-secondary mt-3 px-3 px-sm-0">Latest Videos</h6>
+      {% set itemList = collections.videos | head(4) %}
+      {{ carousel(itemList, id = 'sidebar-videos') }}
+      <a href="/videos/0" class="d-lg-block text-secondary family-sans"><i class="fab fa-youtube"></i> All Videos</a>
+    </div>
+  </div>
+</div>

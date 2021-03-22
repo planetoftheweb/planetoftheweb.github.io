@@ -46,7 +46,6 @@ eleventyNavigation:
 
 <div class=" bg-primary vw-100 py-3">
   <div class="video-list d-flex flex-row flex-nowrap" style="overflow-y: scroll">
-    {% set videoslist = collections.videos | head(20) %}
     {% set itemList = videoslist %}
     {% for item in itemList %}
     {% include "slider_videos.njk" %}
