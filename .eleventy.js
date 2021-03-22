@@ -76,6 +76,7 @@ module.exports = function (eleventyConfig) {
   )
 
   eleventyConfig.addPassthroughCopy("./_site/js/script.js");
+  eleventyConfig.addPassthroughCopy("./_site/js/lite-yt-embed.js");
   /* Markdown Plugins */
   let markdownIt = require('markdown-it')
   let markdownItAnchor = require('markdown-it-anchor')

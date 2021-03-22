@@ -7,10 +7,6 @@ eleventyNavigation:
   key: main
 ---
 
-{% set postslist = collections.posts | head(11) %}
-{% set courselist = collections.courses | head(6) %}
-{% set newsletterlist = collections.newsletter | head(1) %}
-{% set carouselPosts = collections.posts | head(3) %}
 
 
 {% if hero %}
@@ -31,12 +27,35 @@ eleventyNavigation:
 </header>
 {% else %}
   <header id="page-hero">
+  {% set carouselPosts = collections.posts | head(3) %}
   {% include "header-carousel-posts.njk" %}
   </header>
 {% endif %}
 
+<style>
+.video-list::-webkit-scrollbar {
+    display: none;
+}
+.video-list {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+</style>
 
-<article id="main-content" class="page-home site-main container"
+<div id="main-content" >
+
+<div class=" bg-primary vw-100 py-3">
+  <div class="video-list d-flex flex-row flex-nowrap" style="overflow-y: scroll">
+    {% set videoslist = collections.videos | head(20) %}
+    {% set itemList = videoslist %}
+    {% for item in itemList %}
+    {% include "slider_videos.njk" %}
+    {% endfor -%}
+  </div>
+</div>
+
+{% set postslist = collections.posts | head(6) %}
+<article class="page-home site-main container"
 {% if carouselPosts==null and hero==null%}style="padding-top: 60px"{%endif%}
 >
 <div class="row">
@@ -47,25 +66,23 @@ eleventyNavigation:
     {% endfor -%}
   </div>
   <div class="col-md-3">
-    <h6 class="text-secondary mt-3 px-3 px-sm-0">Apply Newsletter</h6>
-
-    <div class="newsletter-sidebar">
-    {% set itemList = newsletterlist %}
-    {% for item in itemList %}
-    {% include "sidebar_notags.njk" %}
-    {% endfor -%}
-    <a href="/newsletter/0" class="d-none d-lg-inline me-3 mb-5 me-lg-1 text-secondary family-sans"><i class="fas fa-newspaper"></i> All News</a>
+    {% from './_includes/sidebar_carousel.njk' import carousel %}
+    <div class="sidebar-newsletter">
+      <h6 class="text-secondary mt-3 px-3 px-sm-0">Apply Newsletter</h6>
+      {% set itemList = collections.newsletter | head(4) %}
+      {{ carousel(itemList, id = 'sidebar-newsletter') }}
+      <a href="/newsletter/0" class="d-lg-block text-secondary family-sans"><i class="fas fa-newspaper"></i> All Articles</a>
+      <a href="https://www.linkedin.com/newsletters/apply-for-web-developers-6674822532509655040/" class="d-lg-block text-secondary family-sans"><i class="fab fa-linkedin"></i> Subscribe</a>
     </div>
 
-    <h6 class="text-secondary mt-5 px-3 px-sm-0">Latest Courses</h6>
-    <div class="main-sidebar">
-
-    {% set itemList = courselist %}
-    {% for item in itemList %}
-    {% include "sidebar_notags.njk" %}
-    {% endfor -%}
+    <div class="sidebar-courses">
+      <h6 class="text-secondary mt-3 px-3 px-sm-0">Latest Courses</h6>
+      {% set itemList = collections.courses | head(8) %}
+      {{ carousel(itemList, id = 'sidebar-courses') }}
+      <a href="/courses/0" class="d-lg-block text-secondary family-sans"><i class="fab fa-linkedin"></i> All my courses</a>
     </div>
   </div>
+</div>
 </div>
 </article>
 

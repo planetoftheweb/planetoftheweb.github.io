@@ -11,15 +11,17 @@ $font-family-base: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI",
 
 $headings-font-family: $font-family-sans-serif;
 $headings-font-weight: 700;
+$font-weight-base: 300;
 $line-height-base: 1.6;
 
 $light-beige: #ebe8e4;
 $dark-red: #bf471b;
-$dark-blue: #3e4653;
+$dark-blue: rgb(54, 61, 73);
 $neutral-blue: #646569;
 $black: #000;
 $white: #fff;
 $brighter-beige: #ddd4ba;
+$special: $purple-600;
 
 $primary: $dark-blue;
 $secondary: $dark-red;
@@ -27,13 +29,15 @@ $body-bg: $light-beige;
 $text-body: $neutral-blue;
 $body-color: $text-body;
 $border-radius: 8px;
-$special: $purple-600;
 
 $theme-colors: (
+  "primary": $dark-blue,
+  "dark": $dark-blue,
+  "secondary": $secondary,
   "special": $special,
+  "brighter": $brighter-beige,
 );
 
-$enable-responsive-font-sizes: true;
 $rfs-base-font-size: 1.2rem;
 $enable-caret: false;
 
@@ -43,8 +47,8 @@ $spacer: 1rem;
 
 $grid-gutter-width: 16px;
 
-$pagination-bg: $purple-300;
-$pagination-color: $yellow-700;
+$pagination-bg: #867763;
+$pagination-color: #ebe8e4;
 $pagination-border-color: $yellow-100;
 
 $pagination-active-color: $body-bg;
@@ -54,7 +58,7 @@ $pagination-active-border-color: $yellow-100;
 $pagination-disabled-bg: $yellow-100;
 $pagination-disabled-border-color: $yellow-100;
 
-$pagination-hover-color: $body-bg;
+$pagination-hover-color: #867763;
 $pagination-hover-bg: $special;
 $pagination-hover-color: $white;
 $pagination-hover-border-color: $purple-400;

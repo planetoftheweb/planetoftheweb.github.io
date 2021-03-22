@@ -1,0 +1,8 @@
+<div class="ps-3">
+  <lite-youtube videoid="{{ item.data.video }}" style="background-image: url('{{item.data.thumb}}'); width:400px;">
+    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">{{ item.data.title }}</span></button>
+  </lite-youtube>
+  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
+    <a href="https://www.youtube.com/watch?v={{ item.data.video }}" class="lh-1 text-white text-decoration-none">{{item.data.title}}</a>
+  </div>
+</div>

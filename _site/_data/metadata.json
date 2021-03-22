@@ -14,14 +14,19 @@
     "bio": "Ray Villalobos is a Full Stack Web Development Author. He’s a full time Staff Author at LInkedIn Learning and Lynda.com.",
     "social": [
       {
+        "name": "linkedin",
+        "iconClass": "fab fa-linkedin",
+        "url": "https://linkedin.com/in/planetoftheweb"
+      },
+      {
         "name": "github",
         "iconClass": "fab fa-github",
         "url": "https://github.com/planetoftheweb"
       },
       {
-        "name": "linkedin",
-        "iconClass": "fab fa-linkedin",
-        "url": "https://linkedin.com/in/planetoftheweb"
+        "name": "clubhouse",
+        "iconClass": "fas fa-user-friends",
+        "url": "https://www.joinclubhouse.com/planetoftheweb"
       },
       {
         "name": "twitter",
@@ -46,7 +51,7 @@
       {
         "name": "instagram",
         "iconClass": "fab fa-instagram",
-        "url": "https://www.instagram.com/iviewsource"
+        "url": "https://www.instagram.com/planetoftheweb"
       }
     ]
   }

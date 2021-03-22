@@ -15,11 +15,12 @@
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
     <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
     <script defer src="/js/script.js"></script>
  
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
-    <script>
+    <script async>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
@@ -28,12 +29,31 @@
     </script>
 
     </head>
-  <body class="position-relative" data-spy="scroll" data-target=".site-nav" data-offset="55">
+  <body class="position-relative">
     {% include "navbar.njk" %}
     {{ content | safe }}
     <footer class="site-footer bg-transparent pb-3 pb-md-5">
       {% include "social.njk" %}
     </footer>
+
+    <script>
+      (function () {
+        let nav = document.querySelector('.site-nav')
+        let mainContent = document.querySelector('#main-content')
+        let navHeight = nav.scrollHeight
+
+        function moveHeader() {
+          let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+          mainOnTop < 0
+            ? nav.classList.add('in-body')
+            : nav.classList.remove('in-body')
+
+          window.requestAnimationFrame(moveHeader)
+        }
+        window.requestAnimationFrame(moveHeader)
+      })();
+    </script>
   </body>
 
 </html>

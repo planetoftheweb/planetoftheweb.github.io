@@ -4,7 +4,8 @@
   "description": "Personal website and blog for Ray Villalobos",
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
-    "dev:bootstrap-rayveal": "sass --style=compressed ./_site/_process/scss/style.scss ./docs/css/style.css",
+    "dev:sass": "sass --style=compressed ./_site/_process/scss/style.scss ./docs/css/style.css",
+    "dev:sass-watch": "npm run dev:sass -- --watch",
     "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve --quiet",
     "dev:del": "rimraf docs",
     "build": "run-s prod:*",

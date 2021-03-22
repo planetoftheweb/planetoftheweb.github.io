@@ -1,8 +1,8 @@
 <header id="layout-carousel" style="max-height: {{carousel.height}} !important"
 
-{% if not hero %}mt-5 pt-5{% endif %} site-header" style=" min-height: {{(headerHeight) if headerHeight else '50vh'}};
+{% if not hero %}mt-5 pt-5{% endif %} site-header" style="width: 100vw; min-height: {{(headerHeight) if headerHeight else '50vh'}};
 
-  class="100vw site-header position-relative carousel {% if carousel.slide !== false %}slide{%endif%}
+  class="site-header position-relative carousel {% if carousel.slide !== false %}slide{%endif%}
   {% if carousel.fade %}carousel-fade{% endif %}"
   {% if carousel.interval %}data-interval="{{carousel.interval}}"{% endif %}
   {% if carousel.wrap == false %}data-wrap="false"{% endif %} 
@@ -21,7 +21,7 @@
     {% for item in carousel.items %}
     <div class="carousel-item {% if loop.first %}active{% endif%}" >
       <a href="{{item.url}}">
-        <img class="d-block w-100" src="{{ item.data.hero }}" alt="{{item.data.title}}">
+        <div class="d-block w-100" style="background-image: linear-gradient(  rgba(0, 0, 0, .7), transparent 30%, rgba(0, 0, 0, .9)), url({{ item.data.hero }}); height: 50vh; background-repeat: no-repeat; background-size: cover;   background-position: center;" alt="{{item.data.title}}"></div>
         <div class="carousel-caption d-none d-md-block">
           {% if item.data.title %}<h1>{{item.data.title}}</h1>{% endif %}
           {% if item.data.summary %}<p>{{item.summary}}</p>{% endif %}

@@ -139,7 +139,7 @@
   "url": "https://www.linkedin.com/learning/getting-your-first-job-in-software-development/",
   "tags" : "careers,developers,certifications"
 },{
-  "title": "Getting Your First Job in Software Development",
+  "title": "Building a Video Chat App with Vue2 and Firebase",
   "date" : "Sep 25, 2020",
   "summary" : "With more people needing to stay connected virtually, video chat applications like Zoom and Microsoft Teams have exploded in popularity. Curious about how you might build a video chat application of your own?",
   "thumbnail": "/images/courses/vuevideochatfirebase.jpg",

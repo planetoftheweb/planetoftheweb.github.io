@@ -6,7 +6,7 @@ tags:
 iconclass: far fa-file-alt
 pagination:
   data: collections.videos
-  size: 10
+  size: 9
 navtitle: videos
 eleventyNavigation:
   key: videos
@@ -17,19 +17,11 @@ permalink: /videos/{{pagination.pageNumber}}/
 
 {% include "pagination.njk" %}
 
+<div class="row row-cols-1 row-cols-md-3 g-4">
 {%- for item in pagination.items %}
-  {% set defaultURL = '' %}
-  {% if item.data.links[0] %}
-    {% for name, link in item.data.links[0] %}
-      {% set defaultURL = link %}
-    {% endfor %}
-  {% else %}
-      {% set defaultURL = item.url %}
-  {% endif %}
-
-  {% include "items.njk" %}
-
+  {% include "items-video.njk" %}
 {% endfor -%}
+</div>
 
 {% include "pagination.njk" %}
 
