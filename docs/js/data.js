@@ -1,4 +1,11 @@
 [{
+  "title": "The Power of the Story",
+  "date" : "Mar 22, 2021",
+  "summary" : "I attended a ClubHouse event last week with some high profile Engineering Hiring Managers on the topic of getting a job in Technology. I had a chance to ask them a question: Tell me about an instance when someone really impressed you during an interview. I didn&#39;t expect the reply, but I should have.",
+  "thumbnail": "/images/posts/storytelling_tn.jpg",
+  "url": "https://www.linkedin.com/pulse/power-story-ray-villalobos/",
+  "tags" : "external,Apply Newsletter"
+},{
   "title": "Spending Time to Make Time",
   "date" : "Mar 17, 2021",
   "summary" : "Developers are notorious for being lazy. I&#39;m obsessed with streamlining processes, it&#39;s one of those things that brings joy to my heart. In this issue, I try to save you some time.",

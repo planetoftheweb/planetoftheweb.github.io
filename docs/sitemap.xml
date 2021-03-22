@@ -607,41 +607,6 @@
   </url>
   
   <url>
-    <loc>/about/</loc>
-    <lastmod>2021-03-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>/courses/0/</loc>
-    <lastmod>2021-03-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>/</loc>
-    <lastmod>2021-03-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>/js/data.js</loc>
-    <lastmod>2021-03-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>/posts/0/</loc>
-    <lastmod>2021-03-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2021-03-15</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/css/</loc>
-    <lastmod>2021-03-15</lastmod>
-  </url>
-  
-  <url>
     <loc>/videos/2021-03-16-Web-Developer-Tools-to-Get-Started-Web-Design-Project/</loc>
     <lastmod>2021-03-16</lastmod>
   </url>
@@ -652,17 +617,57 @@
   </url>
   
   <url>
-    <loc>/newsletter/0/</loc>
-    <lastmod>2021-03-17</lastmod>
+    <loc>/newsletter/2021-03-22-the-power-of-the-story/</loc>
+    <lastmod>2021-03-22</lastmod>
   </url>
   
   <url>
-    <loc>/videos/0/</loc>
-    <lastmod>2021-03-17</lastmod>
+    <loc>/about/</loc>
+    <lastmod>2021-03-22</lastmod>
   </url>
   
   <url>
     <loc>/about/policies/</loc>
+    <lastmod>2021-03-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/0/</loc>
+    <lastmod>2021-03-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>/</loc>
+    <lastmod>2021-03-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>/js/data.js</loc>
+    <lastmod>2021-03-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>/newsletter/0/</loc>
+    <lastmod>2021-03-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/0/</loc>
+    <lastmod>2021-03-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2021-03-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/css/</loc>
+    <lastmod>2021-03-22</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/0/</loc>
     <lastmod>2021-03-22</lastmod>
   </url>
 </urlset>
