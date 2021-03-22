@@ -7,6 +7,8 @@ eleventyNavigation:
   key: main
 ---
 
+{% set videoslist = collections.videos | head(20) %}
+{% set carouselPosts = collections.posts | head(3) %}
 
 
 {% if hero %}
