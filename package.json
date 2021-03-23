@@ -4,10 +4,10 @@
   "description": "Personal website and blog for Ray Villalobos",
   "scripts": {
     "start": "npm-run-all --parallel dev:*",
-    "dev:sass": "sass --style=compressed ./_site/_process/scss/style.scss ./docs/css/style.css",
+    "dev:sass": "sass --style=expanded ./_site/_process/scss/style.scss ./dev/css/style.css",
     "dev:sass-watch": "npm run dev:sass -- --watch",
     "dev:eleventy": "ELEVENTY_ENV=development eleventy --serve --quiet",
-    "dev:del": "rimraf docs",
+    "dev:del": "rimraf dev",
     "build": "run-s prod:*",
     "now-build": "run-s prod:*",
     "prod:del": "rimraf build",

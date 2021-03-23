@@ -107,7 +107,7 @@ module.exports = function (eleventyConfig) {
       templates: '_includes',
       layouts: '_layouts',
       data: '_data',
-      output: 'docs',
+      output: 'dev',
     },
   }
 }
