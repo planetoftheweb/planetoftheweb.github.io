@@ -1,0 +1,753 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+ 
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    </head>
+  <body class="position-relative">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
+  <div class="container-fluid">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Courses</span>
+    </div>
+
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link " href="/"><i class="fas fa-home"></i></a>
+        
+            <a class="nav-item nav-link disabled fw-bold text-light" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-user text-white"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                  <i class="fab fa-linkedin text-secondary me-1"></i> linkedin
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                  <i class="fab fa-github text-secondary me-1"></i> github
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                  <i class="fas fa-user-friends text-secondary me-1"></i> clubhouse
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                  <i class="fab fa-twitter text-secondary me-1"></i> twitter
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://dribbble.com/planetoftheweb">
+                  <i class="fab fa-dribbble text-secondary me-1"></i> dribble
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                  <i class="fab fa-flickr text-secondary me-1"></i> flickr
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                  <i class="fab fa-youtube text-secondary me-1"></i> youtube
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                  <i class="fab fa-instagram text-secondary me-1"></i> instagram
+              </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="site-header position-relative 100vw  site-header" style="min-height: 30vh;">
+<section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(/images/site/graphic_courses.png); height: 100%; width: 100%;  filter: blur(0);" ></section>
+<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
+        <h2 class="page-section-title text-light"></h2>
+        <p class="page-section-text text-light d-none d-md-block">
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</header> 
+
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<nav class="my-3" aria-label="Page navigation">
+  <div class="pagination pagination-sm justify-content-center">
+      
+      <div class="page-item disabled">
+        <span class="page-link disabled" href="."><i class="fas fa-arrow-left"></i></span>
+      </div>
+      
+    
+      <div class="page-item active"><a class="page-link" href="/courses/0/index.html">1</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/1/index.html">2</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/2/index.html">3</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/3/index.html">4</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/4/index.html">5</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/5/index.html">6</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/6/index.html">7</a></div>
+    
+
+      
+      <div class="page-item">
+        <a class="page-link" href="/courses/1/index.html"><i class="fas fa-arrow-right"></i></a>
+      </div>
+      
+  </div>
+</nav>
+
+  <div class="row">
+    <div class="col-md-9">
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  mb-3 ">
+  
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/learning/building-a-graphql-project-with-react-js" class="d-block mb-1 text-decoration-none"  >
+          <img class="item-title  w-100 img-fluid rounded" src="/images/courses/graphqlreact.jpg" alt="Building a GraphQL Project with React.js image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/learning/building-a-graphql-project-with-react-js" class="item-title h2 mb-0 d-block text-decoration-none stretched-link" >Building a GraphQL Project with React.js</a>
+      <time class="item-date small d-block text-body" datetime="Mar 15, 2021">Mar 15, 2021</time>
+      
+      <div class="fs-5 text-body">GraphQL gives you a clean way to query complex server data efficiently, and React makes it easy to present that information as a web application in the browser.</div>
+      
+  <div class="item-links">
+  
+    <a href="https://www.linkedin.com/learning/building-a-graphql-project-with-react-js" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+  
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/learning/tailwind-css-essential-training/divide" class="d-block mb-1 text-decoration-none"  >
+          <img class="item-title  w-100 img-fluid rounded" src="/images/courses/tailwindcss.jpg" alt="Tailwind CSS: Essential Training image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/learning/tailwind-css-essential-training/divide" class="item-title h2 mb-0 d-block text-decoration-none stretched-link" >Tailwind CSS: Essential Training</a>
+      <time class="item-date small d-block text-body" datetime="Feb 12, 2021">Feb 12, 2021</time>
+      
+      <div class="fs-5 text-body">The Tailwind CSS utility-first approach throws out many of the traditional CSS approaches to building projects, allowing you to create a complete and unique website without writing a single line of CSS.</div>
+      
+  <div class="item-links">
+  
+    <a href="https://www.linkedin.com/learning/tailwind-css-essential-training/divide" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+  
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/learning/vue-js-3-essential-training" class="d-block mb-1 text-decoration-none"  >
+          <img class="item-title  w-100 img-fluid rounded" src="/images/courses/vuejs3.jpg" alt="Vue.js 3: Essential Training image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/learning/vue-js-3-essential-training" class="item-title h2 mb-0 d-block text-decoration-none stretched-link" >Vue.js 3: Essential Training</a>
+      <time class="item-date small d-block text-body" datetime="Jan 22, 2021">Jan 22, 2021</time>
+      
+      <div class="fs-5 text-body">Vue.js offers developers a framework for building applications that lets them choose how deeply they want to apply the framework.</div>
+      
+  <div class="item-links">
+  
+    <a href="https://www.linkedin.com/learning/vue-js-3-essential-training" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+  
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/learning/developer-career-paths-and-certifications-2" class="d-block mb-1 text-decoration-none"  >
+          <img class="item-title  w-100 img-fluid rounded" src="/images/courses/developercareers.jpg" alt="Developer Career Paths and Certifications image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/learning/developer-career-paths-and-certifications-2" class="item-title h2 mb-0 d-block text-decoration-none stretched-link" >Developer Career Paths and Certifications</a>
+      <time class="item-date small d-block text-body" datetime="Dec 11, 2020">Dec 11, 2020</time>
+      
+      <div class="fs-5 text-body">Technology has changed the way we approach ordinary tasks—from settling the bill at restaurants to driving—and more industries than ever are leveraging tech to work smarter. It's a great time to launch a career as a developer in this ever-changing field.</div>
+      
+  <div class="item-links">
+  
+    <a href="https://www.linkedin.com/learning/developer-career-paths-and-certifications-2" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+  
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/learning/getting-your-first-job-in-software-development/" class="d-block mb-1 text-decoration-none"  >
+          <img class="item-title  w-100 img-fluid rounded" src="/images/courses/firstjob.jpg" alt="Getting Your First Job in Software Development image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/learning/getting-your-first-job-in-software-development/" class="item-title h2 mb-0 d-block text-decoration-none stretched-link" >Getting Your First Job in Software Development</a>
+      <time class="item-date small d-block text-body" datetime="Dec 10, 2020">Dec 10, 2020</time>
+      
+      <div class="fs-5 text-body">Technology seems like a safe harbor in a stormy economy. Instructor, this course answers the most common questions people have about how to look for, find, and get your first job in software development, and helps you build a solid plan for career success.</div>
+      
+  <div class="item-links">
+  
+    <a href="https://www.linkedin.com/learning/getting-your-first-job-in-software-development/" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+  
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/learning/building-a-video-chat-app-with-vue-js-and-firebase" class="d-block mb-1 text-decoration-none"  >
+          <img class="item-title  w-100 img-fluid rounded" src="/images/courses/vuevideochatfirebase.jpg" alt="Building a Video Chat App with Vue2 and Firebase image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/learning/building-a-video-chat-app-with-vue-js-and-firebase" class="item-title h2 mb-0 d-block text-decoration-none stretched-link" >Building a Video Chat App with Vue2 and Firebase</a>
+      <time class="item-date small d-block text-body" datetime="Sep 25, 2020">Sep 25, 2020</time>
+      
+      <div class="fs-5 text-body">With more people needing to stay connected virtually, video chat applications like Zoom and Microsoft Teams have exploded in popularity. Curious about how you might build a video chat application of your own?</div>
+      
+  <div class="item-links">
+  
+    <a href="https://www.linkedin.com/learning/building-a-video-chat-app-with-vue-js-and-firebase" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+  
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/learning/css-scrolling-and-parallax/" class="d-block mb-1 text-decoration-none"  >
+          <img class="item-title  w-100 img-fluid rounded" src="/images/courses/cssparallax_tn.jpg" alt="CSS: Scrolling and Parallax image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/learning/css-scrolling-and-parallax/" class="item-title h2 mb-0 d-block text-decoration-none stretched-link" >CSS: Scrolling and Parallax</a>
+      <time class="item-date small d-block text-body" datetime="Jun 24, 2020">Jun 24, 2020</time>
+      
+      <div class="fs-5 text-body">This course shows developers how to leverage scrolling and parallax to program new interface styles using CSS, JavaScript as well as ScrollMagic and the GreenSock Animation Platform (GSAP).</div>
+      
+  <div class="item-links">
+  
+    <a href="https://www.linkedin.com/learning/css-scrolling-and-parallax/" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+  
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/learning/github-quick-tips/" class="d-block mb-1 text-decoration-none"  >
+          <img class="item-title  w-100 img-fluid rounded" src="/images/courses/githubquick_tn.jpg" alt="GitHub Quick Tips image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/learning/github-quick-tips/" class="item-title h2 mb-0 d-block text-decoration-none stretched-link" >GitHub Quick Tips</a>
+      <time class="item-date small d-block text-body" datetime="May 11, 2020">May 11, 2020</time>
+      
+      <div class="fs-5 text-body">These 30 tips and tricks help you exercise the full power of this versatile software development platform. Customize GitHub by building out your project homepages, turning repositories into reusable templates, adding collaborators and more.</div>
+      
+  <div class="item-links">
+  
+    <a href="https://www.linkedin.com/learning/github-quick-tips/" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+  
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/learning/building-serverless-apps-with-jamstack-and-eleventy" class="d-block mb-1 text-decoration-none"  >
+          <img class="item-title  w-100 img-fluid rounded" src="/images/courses/serverless_tn.jpg" alt="Building Serverless Apps with JAMStack and Eleventy image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/learning/building-serverless-apps-with-jamstack-and-eleventy" class="item-title h2 mb-0 d-block text-decoration-none stretched-link" >Building Serverless Apps with JAMStack and Eleventy</a>
+      <time class="item-date small d-block text-body" datetime="Mar 17, 2020">Mar 17, 2020</time>
+      
+      <div class="fs-5 text-body">This course is a step-by-step project tutorial built with the Jamstack and Eleventy. Learn how to build pages from templates and layouts, connect to data through APIs, use shortcodes and filters to inject and update content, and more.</div>
+      
+  <div class="item-links">
+  
+    <a href="https://www.linkedin.com/learning/building-serverless-apps-with-jamstack-and-eleventy" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+  
+    
+      <div class="col-md-3">
+        <a href="https://www.linkedin.com/learning/visual-studio-code-building-an-extension" class="d-block mb-1 text-decoration-none"  >
+          <img class="item-title  w-100 img-fluid rounded" src="/images/courses/vscodeext_tn.jpg" alt="Visual Studio Code: Building an Extension image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9">
+      <a href="https://www.linkedin.com/learning/visual-studio-code-building-an-extension" class="item-title h2 mb-0 d-block text-decoration-none stretched-link" >Visual Studio Code: Building an Extension</a>
+      <time class="item-date small d-block text-body" datetime="Feb 11, 2020">Feb 11, 2020</time>
+      
+      <div class="fs-5 text-body">Make Visual Studio Code do what you want by building extensions. Apply web development tools and APIs to create a new tool inside Visual Studio Code. Create and modify themes, automate tasks by adding commands and more.</div>
+      
+  <div class="item-links">
+  
+    <a href="https://www.linkedin.com/learning/visual-studio-code-building-an-extension" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>
+    
+    
+  
+  </div>
+  
+
+    </div>
+  </div>
+    <nav class="my-3" aria-label="Page navigation">
+  <div class="pagination pagination-sm justify-content-center">
+      
+      <div class="page-item disabled">
+        <span class="page-link disabled" href="."><i class="fas fa-arrow-left"></i></span>
+      </div>
+      
+    
+      <div class="page-item active"><a class="page-link" href="/courses/0/index.html">1</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/1/index.html">2</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/2/index.html">3</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/3/index.html">4</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/4/index.html">5</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/5/index.html">6</a></div>
+    
+      <div class="page-item "><a class="page-link" href="/courses/6/index.html">7</a></div>
+    
+
+      
+      <div class="page-item">
+        <a class="page-link" href="/courses/1/index.html"><i class="fas fa-arrow-right"></i></a>
+      </div>
+      
+  </div>
+</nav>
+
+    </div>
+    <div class="col-md-3">
+      
+
+      <div class="sidebar-videos">
+        <h6 class="text-secondary mt-3 px-3 px-sm-0">Latest Videos</h6>
+        
+        
+    <style>
+      #sidebar-videos .carousel-control-prev, #sidebar-videos .carousel-control-next {
+        align-items: flex-start;
+        top: 90px;
+      }
+    </style>
+
+    <div id="sidebar-videos" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        
+          
+          <div class="carousel-item  active ">
+            
+            <lite-youtube videoid="UQkhm_fQnOU" style="background-image: url('https://i.ytimg.com/vi/UQkhm_fQnOU/hqdefault.jpg'); width:100%;">
+              <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Best Web Developer Tools, Extensions and Modules to Get Started on your Next Web Design Project</span></button>
+            </lite-youtube>
+            
+            <div class="d-block">
+              <time class="small d-none d-lg-block text-body" datetime="Invalid DateTime">Mar 16, 2021</time>
+              <a href="https://www.youtube.com/watch?v=UQkhm_fQnOU" 
+              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">Best Web Developer Tools, Extensions and Modules to Get Started on your Next Web Design Project</a>
+              <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">You&#39;ve got a new web development project to build, but how to begin. Here&#39;s a few tips and tricks that I use which are the best ways to get your web design projects started quickly.</p>
+            </div>
+          </div>
+        
+          
+          <div class="carousel-item ">
+            
+            <lite-youtube videoid="KvQ4WCIXg0w" style="background-image: url('https://i.ytimg.com/vi/KvQ4WCIXg0w/hqdefault.jpg'); width:100%;">
+              <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Automate Image Compression for your Websites with the latest codecs using Squoosh from Google</span></button>
+            </lite-youtube>
+            
+            <div class="d-block">
+              <time class="small d-none d-lg-block text-body" datetime="Invalid DateTime">Mar 10, 2021</time>
+              <a href="https://www.youtube.com/watch?v=KvQ4WCIXg0w" 
+              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">Automate Image Compression for your Websites with the latest codecs using Squoosh from Google</a>
+              <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">To get the smallest sizes for your web design images, you need to try the latest codecs like WebP, MozJPEG, AVIF and Google created an excellent tool that helps you automate that process.</p>
+            </div>
+          </div>
+        
+          
+          <div class="carousel-item ">
+            
+            <lite-youtube videoid="CICYdO0g8Ew" style="background-image: url('https://i.ytimg.com/vi/CICYdO0g8Ew/hqdefault.jpg'); width:100%;">
+              <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">CSS Tips and Tricks: Responsive content without media queries using CSS Clamp()</span></button>
+            </lite-youtube>
+            
+            <div class="d-block">
+              <time class="small d-none d-lg-block text-body" datetime="Invalid DateTime">Mar 01, 2021</time>
+              <a href="https://www.youtube.com/watch?v=CICYdO0g8Ew" 
+              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">CSS Tips and Tricks: Responsive content without media queries using CSS Clamp()</a>
+              <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">There&#39;s a super useful CSS function called Clamp() you&#39;ve got to learn as a part of your of bag of CSS Tips and Tricks.</p>
+            </div>
+          </div>
+        
+          
+          <div class="carousel-item ">
+            
+            <lite-youtube videoid="Nhpyb1jx54A" style="background-image: url('https://i.ytimg.com/vi/Nhpyb1jx54A/hqdefault.jpg'); width:100%;">
+              <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Bootstrap Icons - Free Icons for Web Design</span></button>
+            </lite-youtube>
+            
+            <div class="d-block">
+              <time class="small d-none d-lg-block text-body" datetime="Invalid DateTime">Feb 24, 2021</time>
+              <a href="https://www.youtube.com/watch?v=Nhpyb1jx54A" 
+              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">Bootstrap Icons - Free Icons for Web Design</a>
+              <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">If you&#39;re looking for free Icons for web design. Bootstrap Icons is an open source icon set from the makers of the bootstrap framework with more than 1300 icons</p>
+            </div>
+          </div>
+        </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#sidebar-videos"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#sidebar-videos"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+        <a href="/videos/0" class="d-lg-block text-secondary family-sans"><i class="fab fa-youtube"></i> All Videos</a>
+      </div>
+
+      <div class="sidebar-newsletter">
+        <h6 class="text-secondary mt-3 px-3 px-sm-0">Apply Newsletter</h6>
+        
+        
+    <style>
+      #sidebar-newsletter .carousel-control-prev, #sidebar-newsletter .carousel-control-next {
+        align-items: flex-start;
+        top: 90px;
+      }
+    </style>
+
+    <div id="sidebar-newsletter" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        
+          
+          <div class="carousel-item  active ">
+            
+            <img class="d-block w-100" src="/images/posts/storytelling_tn.jpg" alt="The Power of the Story photo">
+            
+            <div class="d-block">
+              <time class="small d-none d-lg-block text-body" datetime="Invalid DateTime">Mar 22, 2021</time>
+              <a href="https://www.linkedin.com/pulse/power-story-ray-villalobos/" 
+              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">The Power of the Story</a>
+              <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">I attended a ClubHouse event last week with some high profile Engineering Hiring Managers on the topic of getting a job in Technology. I had a chance to ask them a question: Tell me about an instance when someone really impressed you during an interview. I didn&#39;t expect the reply, but I should have.</p>
+            </div>
+          </div>
+        
+          
+          <div class="carousel-item ">
+            
+            <img class="d-block w-100" src="/images/posts/racingcar_tn.jpg" alt="Spending Time to Make Time photo">
+            
+            <div class="d-block">
+              <time class="small d-none d-lg-block text-body" datetime="Invalid DateTime">Mar 17, 2021</time>
+              <a href="https://www.linkedin.com/pulse/spending-time-make-ray-villalobos/" 
+              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">Spending Time to Make Time</a>
+              <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">Developers are notorious for being lazy. I&#39;m obsessed with streamlining processes, it&#39;s one of those things that brings joy to my heart. In this issue, I try to save you some time.</p>
+            </div>
+          </div>
+        
+          
+          <div class="carousel-item ">
+            
+            <img class="d-block w-100" src="/images/posts/1615354110381_tn.jpg" alt="Make it Small photo">
+            
+            <div class="d-block">
+              <time class="small d-none d-lg-block text-body" datetime="Invalid DateTime">Mar 10, 2021</time>
+              <a href="https://www.linkedin.com/pulse/make-small-ray-villalobos/" 
+              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">Make it Small</a>
+              <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">I was recording a course last week when I ran into an unsurmountable problem. You know the type where you think: I have no idea why this isn&#39;t working or how to solve this. Here&#39;s how I solve the big..and small problems.</p>
+            </div>
+          </div>
+        
+          
+          <div class="carousel-item ">
+            
+            <img class="d-block w-100" src="/images/posts/1614781660264_tn.jpg" alt="Success Hasn&#39;t Spoiled Me...Yet! photo">
+            
+            <div class="d-block">
+              <time class="small d-none d-lg-block text-body" datetime="Invalid DateTime">Mar 03, 2021</time>
+              <a href="https://www.linkedin.com/pulse/success-hasnt-spoiled-meyet-ray-villalobos/" 
+              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">Success Hasn&#39;t Spoiled Me...Yet!</a>
+              <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">The newsletter shattered my expectations with over 5000 subscriptions the first week. Trying hard to not let it get to my head, I talk about my learning habit and lots of other developer tips.</p>
+            </div>
+          </div>
+        </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#sidebar-newsletter"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#sidebar-newsletter"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+        <a href="/newsletter/0" class="d-lg-block text-secondary family-sans"><i class="fas fa-newspaper"></i> All Articles</a>
+        <a href="https://www.linkedin.com/newsletters/apply-for-web-developers-6674822532509655040/" class="d-lg-block text-secondary family-sans"><i class="fab fa-linkedin"></i> Subscribe</a>
+      </div>
+
+    </div>
+  </div>
+
+</article>
+
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</div>
+    </footer>
+
+    <script>
+      (function () {
+        let nav = document.querySelector('.site-nav')
+        let mainContent = document.querySelector('#main-content')
+        let navHeight = nav.scrollHeight
+
+        function moveHeader() {
+          let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+          mainOnTop < 0
+            ? nav.classList.add('in-body')
+            : nav.classList.remove('in-body')
+
+          window.requestAnimationFrame(moveHeader)
+        }
+        window.requestAnimationFrame(moveHeader)
+      })();
+    </script>
+  </body>
+
+</html>

@@ -1,0 +1,210 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+ 
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>  
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    </head>
+  <body class="position-relative">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
+  <div class="container-fluid">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="fas fa-home"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="fas fa-user text-white"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                  <i class="fab fa-linkedin text-secondary me-1"></i> linkedin
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                  <i class="fab fa-github text-secondary me-1"></i> github
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                  <i class="fas fa-user-friends text-secondary me-1"></i> clubhouse
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                  <i class="fab fa-twitter text-secondary me-1"></i> twitter
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://dribbble.com/planetoftheweb">
+                  <i class="fab fa-dribbble text-secondary me-1"></i> dribble
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                  <i class="fab fa-flickr text-secondary me-1"></i> flickr
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                  <i class="fab fa-youtube text-secondary me-1"></i> youtube
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                  <i class="fab fa-instagram text-secondary me-1"></i> instagram
+              </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="site-header position-relative 100vw  site-header" style="min-height: 50vh;">
+<section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url(/images/posts/angular.jpg); height: 100%; width: 100%;  filter: blur(3px);" ></section>
+<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
+        <h2 class="page-section-title text-light">What&#39;s wrong with AngularJS2 and why you&#39;re going to like it</h2>
+        <p class="page-section-text text-light d-none d-md-block">
+          I've been working with AngularJS2 for a while, so I wanted to give some thoughts to those who are thinking or planning to update or upgrade their apps to this new version. I'll discuss what's new, what's very different, what works and what is going to be a challenge.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</header> 
+
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+  <div class="row">
+      <main class="article-content px-3 px-sm-0 main col">
+      
+      </main>
+      <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 col-xl-3 ms-3 mt-3">
+        <h4>Contents</h4>
+        <nav class="sticky-top" style="top: 100px;">
+        
+        </nav>
+      </aside>
+  <div>
+</main>
+</article>
+
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="layout-social container d-flex justify-content-center">
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+</div>
+    </footer>
+
+    <script>
+      (function () {
+        let nav = document.querySelector('.site-nav')
+        let mainContent = document.querySelector('#main-content')
+        let navHeight = nav.scrollHeight
+
+        function moveHeader() {
+          let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+          mainOnTop < 0
+            ? nav.classList.add('in-body')
+            : nav.classList.remove('in-body')
+
+          window.requestAnimationFrame(moveHeader)
+        }
+        window.requestAnimationFrame(moveHeader)
+      })();
+    </script>
+  </body>
+
+</html>
