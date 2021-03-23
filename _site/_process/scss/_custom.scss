@@ -32,9 +32,10 @@ $border-radius: 8px;
 
 $theme-colors: (
   "primary": $dark-blue,
+  "light": $light-beige,
   "dark": $dark-blue,
   "secondary": $secondary,
-  "special": $special,
+  "special": $dark-red,
   "brighter": $brighter-beige,
 );
 
@@ -51,17 +52,17 @@ $pagination-bg: #867763;
 $pagination-color: #ebe8e4;
 $pagination-border-color: $yellow-100;
 
-$pagination-active-color: $body-bg;
-$pagination-active-bg: $yellow-100;
+$pagination-active-color: $dark-red;
+$pagination-active-bg: #dec9b2;
 $pagination-active-border-color: $yellow-100;
 
 $pagination-disabled-bg: $yellow-100;
 $pagination-disabled-border-color: $yellow-100;
 
 $pagination-hover-color: #867763;
-$pagination-hover-bg: $special;
+$pagination-hover-bg: $dark-red;
 $pagination-hover-color: $white;
-$pagination-hover-border-color: $purple-400;
+$pagination-hover-border-color: $dark-red;
 
 $card-border-radius: 0;
 $list-group-bg: $body-bg;
