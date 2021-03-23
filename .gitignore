@@ -1,9 +1,0 @@
-build
-docs
-dev
-_site/css/*.css
-_site/css/*.css.map
-_site/js/script.js
-.vscode/
-node_modules
-.DS_Store
