@@ -1,0 +1,24 @@
+{% set defaultURL = '' %}{% if item.data.links[0] %}{% for name, link in item.data.links[0] %}{% set defaultURL = link %}{% endfor %}{% else %}{% set defaultURL = item.url %}{% endif %}
+
+  {% if r/external/g.test(item.data.tags) or r/course/g.test(item.data.tags) %}{% set external = true %}{% endif %}
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative {% if loop.first %} mb-3 {% else %} my-5 {% endif %}">
+  
+    {% if item.data.thumb %}
+      <div class="col-md-3">
+        <a href="{{ defaultURL | url }}" class="d-block mb-1 text-decoration-none"  {% if external %}target="_blank"{% endif %}>
+          <img class="item-title  w-100 img-fluid rounded" src="{{ item.data.thumb }}" alt="{{ item.data.title }} image">
+        </a>
+      </div>
+    {% endif %}
+
+    <div class="{% if item.data.thumb %}col-md-9{% else %} col-m {% endif %}">
+      <a href="{{ defaultURL | url }}" class="item-title h2 mb-0 d-block text-decoration-none {% if item.data.links.length <= 1 %}stretched-link{% endif %}" {% if external %}target="_blank"{% endif %}>{{ item.data.title | safe }}</a>
+      <time class="item-date small d-block text-body" datetime="{{ item.date | simpleDate | safe }}">{{ item.date | simpleDate | safe }}</time>
+      {% if external %}
+        <i class="fas fa-external-link-square-alt text-body ms-1" style="font-size: .5em;"></i>
+      {% endif %}
+      <div class="fs-5 text-body">{{ item.data.summary | safe }}</div>
+      {% include "links.njk" %}
+    </div>
+  </div>

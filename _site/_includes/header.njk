@@ -1,0 +1,8 @@
+{% if carousel.items %}
+  {% include "header-carousel.njk" %}
+{% elif video %}
+  {% include "header-video.njk" %}
+{% elif hero %}
+  {% include "header-standard.njk" %}
+{% endif %}
+

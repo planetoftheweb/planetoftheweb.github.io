@@ -1,0 +1,47 @@
+<header id="layout-carousel"
+  style="width: 100vw; min-height: {{(headerHeight) if headerHeight else '30vh'}}"
+  class="carousel 100vw d-none d-sm-flex justify-content-center align-items-center  {% if carousel.slide !== false %}slide{%endif%}
+    {% if carousel.fade %}carousel-fade{% endif %}"
+    {% if carousel.interval %}data-bs-interval="{{carousel.interval}}"{% endif %}
+    {% if carousel.wrap == false %}data-bs-wrap="false"{% endif %} 
+    {% if carousel.ride !== false %}data-bs-ride="carousel"{% endif %}
+    {% if carousel.pause == false %}data-bs-pause="false"{% endif %}
+  >
+
+  <div class="carousel-inner">
+    {% if carousel.indicators !== false %}
+      <div class="carousel-indicators">
+      {% for item in carouselPosts %}
+        <button type="button" {% if loop.first %}class="active"{% endif%} data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{loop.index0}}" aria-label="Slide 3"></button>
+      {% endfor %}
+      </div>
+    {% endif %}
+
+    {% for item in carouselPosts %}
+    <div class="carousel-item {% if loop.first %}active{% endif%}" >
+      <a href="{{item.url}}">
+        <div style="background-image: linear-gradient(  rgba(0, 0, 0, .7), transparent 30%, rgba(0, 0, 0, .9)), url({{ item.data.hero }}); height: 50vh; background-repeat: no-repeat; background-size: cover;   background-position: center;" alt="{{item.data.title}}">
+          <img class="sr-only" src="{{ item.data.hero }}" alt="{{ item.data.title }} photo">
+        </div>
+        <div class="carousel-caption">
+          <div class="container">
+          {% if item.data.title %}<h4 class="d-none d-lg-block text-white">{{item.data.title}}</h4>{% endif %}
+          {% if item.data.summary %}<p class="d-none d-xl-block" style="font-size: .9em">{{item.data.summary}}</p>{% endif %}
+          </div>
+        </div>
+      </a>
+    </div>
+    {% endfor %}
+
+    {% if carousel.controls !== false %}
+  <button class="carousel-control-prev" type="button" data-bs-target="#layout-carousel"  data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#layout-carousel"  data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+    {% endif %}
+  </div>
+</header>

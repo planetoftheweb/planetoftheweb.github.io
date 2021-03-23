@@ -1,0 +1,39 @@
+{% macro carousel(itemList, id, arrowPosition='90px', height='550px' ) %}
+    <style>
+      #{{ id }} .carousel-control-prev, #{{ id }} .carousel-control-next {
+        align-items: flex-start;
+        top: {{arrowPosition}};
+      }
+    </style>
+
+    <div id="{{ id }}" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        {% for item in itemList %}
+          {% set defaultURL = '' %}{% if item.data.links[0] %}{% for name, link in item.data.links[0] %}{% set defaultURL = link %}{% endfor %}{% else %}{% set defaultURL = item.url %}{% endif %}
+          <div class="carousel-item {% if loop.first %} active {% endif %}">
+            {% if item.data.video %}
+            <lite-youtube videoid="{{ item.data.video }}" style="background-image: url('{{item.data.thumb}}'); width:100%;">
+              <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">{{ item.data.title }}</span></button>
+            </lite-youtube>
+            {% else %}
+            <img class="d-block w-100" src="{{ item.data.thumb }}" alt="{{ item.data.title }} photo">
+            {% endif %}
+            <div class="d-block">
+              <time class="small d-none d-lg-block text-body" datetime="{{ date | simpleDate }}">{{ item.date | simpleDate }}</time>
+              <a href="{% if item.data.video %}https://www.youtube.com/watch?v={{ item.data.video }}{% else %}{{ defaultURL | url }}{% endif %}" 
+              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">{{item.data.title}}</a>
+              <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">{{item.data.summary}}</p>
+            </div>
+          </div>
+        {% endfor -%}
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#{{id}}"  data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#{{id}}"  data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+{% endmacro %}

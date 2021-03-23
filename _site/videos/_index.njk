@@ -1,0 +1,27 @@
+---
+layout: page.njk
+hero: /images/site/graphic_videos.png
+tags:
+  - nav
+iconclass: far fa-file-alt
+pagination:
+  data: collections.videos
+  size: 9
+navtitle: videos
+eleventyNavigation:
+  key: videos
+  parent: main
+  order: 1
+permalink: /videos/{{pagination.pageNumber}}/
+---
+
+{% include "pagination.njk" %}
+
+<div class="row row-cols-1 row-cols-md-3 g-4">
+{%- for item in pagination.items %}
+  {% include "items-video.njk" %}
+{% endfor -%}
+</div>
+
+{% include "pagination.njk" %}
+
