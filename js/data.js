@@ -27,7 +27,7 @@
   "url": "https://www.linkedin.com/learning/building-a-graphql-project-with-react-js",
   "tags" : "graphQL,react,database,javascript,github"
 },{
-  "title": "Best online Tools, Extensions and Modules to Get Started on your Next Web Development Project",
+  "title": "Online Tools, Extensions and Modules to Get Started on your Next Web Development Project",
   "date" : "Mar 13, 2021",
   "summary" : "You&#39;ve got a new project to build, but how to begin. Ohhh the many ways to go. Should I use React, Svelte or Vue.js. Bootstrap or Tailwind, which Bundler should I use. Heres some great ways to get going quickly.",
   "thumbnail": "/images/posts/fasterprojects_tn.jpg",
