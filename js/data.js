@@ -1,4 +1,11 @@
 [{
+  "title": "The Launch Video LiveStream: Understanding how React Hooks work with GraphQL using the Github GraphQL API",
+  "date" : "Mar 24, 2021",
+  "summary" : "GraphQL and React are extemely popular web development platforms and if I was looking for a job something that i&#39;d definitely want on my resume. The Github API is public and pretty well made, so it makes it a great place to experiment on something practical.",
+  "thumbnail": "/images/posts/launch-react-graphq.jpg",
+  "url": "/posts/2021-03-24-the-launch-graphql-react/",
+  "tags" : "tutorial,video,web development,tooling"
+},{
   "title": "The Power of the Story",
   "date" : "Mar 22, 2021",
   "summary" : "I attended a ClubHouse event last week with some high profile Engineering Hiring Managers on the topic of getting a job in Technology. I had a chance to ask them a question: Tell me about an instance when someone really impressed you during an interview. I didn&#39;t expect the reply, but I should have.",
