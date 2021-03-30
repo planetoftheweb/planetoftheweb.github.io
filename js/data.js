@@ -1,4 +1,25 @@
 [{
+  "title": "Hacking the Bootstrap Carousel: Automating the Creation of Carousel Features Using JavaScript",
+  "date" : "Mar 29, 2021",
+  "summary" : "If you often add indicators and controls to your Bootstrap 5 carousel, you can make that process easier using JavaScript to generate those for you, requiring only additional classes.",
+  "thumbnail": "/images/posts/hackingbootstrap-javascript_tn.jpg",
+  "url": "/posts/2021-03-29-automating-the-creation-of-carousel-features-with-javascript-by-hacking-the-bootstrap-carousel/",
+  "tags" : "tutorial,video,web development,CSS,Bootstrap,Bootstrap 5,Carousel"
+},{
+  "title": "Hacking the Bootstrap 5 Carousel: Building Sidebar Carousels with CSS",
+  "date" : "Mar 28, 2021",
+  "summary" : "You don&#39;t have to a single carousel on a page, they work really well on sidebars to cycle through content, getting attention by using their sliding or fading features.",
+  "thumbnail": "/images/posts/hacking-bootstrap-sidebar_tn.jpg",
+  "url": "/posts/2021-03-28-making-sidebar-carousels-with-css-by-hacking-the-bootstrap-5-carousel/",
+  "tags" : "tutorial,video,web development,CSS,Bootstrap,Bootstrap 5,Carousel"
+},{
+  "title": "Hacking the Bootstrap 5 Carousel: Consistent Height Carousels with CSS Gradients and Object Fit",
+  "date" : "Mar 27, 2021",
+  "summary" : "The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about one of my favorite new css features object-position and object-fit.",
+  "thumbnail": "/images/posts/hackingbootstrap-gradients_tn.jpg",
+  "url": "/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/",
+  "tags" : "tutorial,video,web development,CSS,Bootstrap,Bootstrap 5,Carousel"
+},{
   "title": "The Launch Video LiveStream: Understanding how React Hooks work with GraphQL using the Github GraphQL API",
   "date" : "Mar 24, 2021",
   "summary" : "GraphQL and React are extemely popular web development platforms and if I was looking for a job something that i&#39;d definitely want on my resume. The Github API is public and pretty well made, so it makes it a great place to experiment on something practical.",
