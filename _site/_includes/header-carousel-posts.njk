@@ -20,7 +20,7 @@
     {% for item in carouselPosts %}
     <div class="carousel-item {% if loop.first %}active{% endif%}" >
       <a href="{{item.url}}">
-        <div style="background-image: linear-gradient(  rgba(0, 0, 0, .7), transparent 30%, rgba(0, 0, 0, .9)), url({{ item.data.hero }}); height: 50vh; background-repeat: no-repeat; background-size: cover;   background-position: center;" alt="{{item.data.title}}">
+        <div style="background-image: linear-gradient(rgba(126, 59, 151, .6), transparent 40%, transparent 60%, rgba(0, 122, 231, .9)), url({{ item.data.hero }}); height: 50vh; background-repeat: no-repeat; background-size: cover;   background-position: center;" alt="{{item.data.title}}">
           <img class="sr-only" src="{{ item.data.hero }}" alt="{{ item.data.title }} photo">
         </div>
         <div class="carousel-caption">

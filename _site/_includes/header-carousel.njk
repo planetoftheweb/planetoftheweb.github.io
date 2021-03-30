@@ -21,7 +21,7 @@
     {% for item in carousel.items %}
     <div class="carousel-item {% if loop.first %}active{% endif%}" >
       <a href="{{item.url}}">
-        <div class="d-block w-100" style="background-image: linear-gradient(  rgba(0, 0, 0, .7), transparent 30%, rgba(0, 0, 0, .9)), url({{ item.data.hero }}); height: 50vh; background-repeat: no-repeat; background-size: cover;   background-position: center;" alt="{{item.data.title}}"></div>
+        <div class="d-block w-100" style="background-image: linear-gradient(rgba(126, 59, 151, .6), transparent 30%, rgba(0, 122, 231, .9)), url({{ item.data.hero }}); height: 50vh; background-repeat: no-repeat; background-size: cover;   background-position: center;" alt="{{item.data.title}}"></div>
         <div class="carousel-caption d-none d-md-block">
           {% if item.data.title %}<h1>{{item.data.title}}</h1>{% endif %}
           {% if item.data.summary %}<p>{{item.summary}}</p>{% endif %}

@@ -240,18 +240,26 @@ time {
 
   pre {
     display: inline-block;
-    box-shadow: 10px 10px 20px #92865c;
     max-width: 100%;
   }
 
   pre code {
-    font-size: 0.8em !important;
+    font-size: 1.2em !important;
     margin: 0;
+  }
+
+  iframe {
+    max-width: 100% !important;
   }
 
   .article-content a {
     color: $primary;
     text-decoration: underline;
+  }
+
+  .article-content pre {
+    text-shadow: none !important;
+    border-radius: 10px !important;
   }
 
   aside nav {
