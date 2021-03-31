@@ -1,4 +1,11 @@
 [{
+  "title": "The Perils of Multi-tasking",
+  "date" : "Mar 31, 2021",
+  "summary" : "I got sick last week and couldn&#39;t record videos. So in this edition, I talk about the power of leveraging one activity to get multiple pieces of content, plus, how that can be a struggle when managing your life.",
+  "thumbnail": "/images/posts/multitasking_tn.jpg",
+  "url": "https://www.linkedin.com/pulse/perils-multi-tasking-ray-villalobos",
+  "tags" : "external,Apply Newsletter"
+},{
   "title": "Hacking the Bootstrap Carousel: Automating the Creation of Carousel Features Using JavaScript",
   "date" : "Mar 29, 2021",
   "summary" : "If you often add indicators and controls to your Bootstrap 5 carousel, you can make that process easier using JavaScript to generate those for you, requiring only additional classes.",
