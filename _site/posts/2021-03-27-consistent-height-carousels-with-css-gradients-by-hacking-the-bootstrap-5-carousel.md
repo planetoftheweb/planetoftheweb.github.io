@@ -1,9 +1,10 @@
 ---
 layout: post
 title: "Hacking the Bootstrap 5 Carousel: Consistent Height Carousels with CSS Gradients and Object Fit"
-summary: "The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about one of my favorite new css features object-position and object-fit."
+summary: "The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about some of my favorite new css features object-position and object-fit."
 hero: /images/posts/hackingbootstrap-gradients.png
 thumb: /images/posts/hackingbootstrap-gradients_tn.jpg
+video: KHF6nysy0-c
 tags:
   - tutorial
   - video
@@ -29,7 +30,7 @@ When the image changes so does the height of the container. If you put the carou
 
 ## Object Fit & Object Position to the rescue
 
-To fix this we can use some newer CSS properties that you may have not heard of. If you're familiar with how backgrounds work, you know that you can set the `background-size` attribute to cover and it proportionally resize the background to fit the space available.
+To fix this we can use some newer CSS properties that you may have not heard of. If you're familiar with how backgrounds work, you know that you can set the `background-size` attribute to cover and the browser will proportionally resize the background to fit the space available.
 
 You can do the same thing with a regular image using [object-fit](https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit). To get this to look right, you can combine it with [object-position](https://developer.mozilla.org/en-US/docs/Web/CSS/object-position) to center the image.
 
