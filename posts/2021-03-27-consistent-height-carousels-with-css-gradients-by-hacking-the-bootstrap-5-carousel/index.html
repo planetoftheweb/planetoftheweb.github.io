@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Raybo.org</title>
 
-    <meta name="description" content="The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about one of my favorite new css features object-position and object-fit." />
+    <meta name="description" content="The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about some of my favorite new css features object-position and object-fit." />
     <meta property="og:title" content="Hacking the Bootstrap 5 Carousel: Consistent Height Carousels with CSS Gradients and Object Fit" />
-    <meta property="og:description" content="The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about one of my favorite new css features object-position and object-fit." />
+    <meta property="og:description" content="The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about some of my favorite new css features object-position and object-fit." />
     <meta property="og:image" content="https://raybo.org/images/posts/hackingbootstrap-gradients.png" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="https://raybo.org/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/">
     <meta name="twitter:title" content="Hacking the Bootstrap 5 Carousel: Consistent Height Carousels with CSS Gradients and Object Fit">
-    <meta name="twitter:description" content="The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about one of my favorite new css features object-position and object-fit.">
+    <meta name="twitter:description" content="The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about some of my favorite new css features object-position and object-fit.">
     <meta name="twitter:image" content="https://raybo.org/images/posts/hackingbootstrap-gradients.png">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
@@ -42,7 +42,7 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
   <body class="position-relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  bg-dark sticky-top  py-0">
   <div class="container-fluid">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
@@ -139,21 +139,9 @@
 </nav>
 
     
-  <header id="page-hero" class="site-header position-relative 100vw  site-header" style="min-height: 40vh;">
-<section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(126, 59, 151, .6) 50px, transparent), url(/images/posts/hackingbootstrap-gradients.png); height: 100%; width: 100%;  filter: blur(20px);  transform: scale(1.1);" ></section>
-<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
-        <h2 class="page-section-title text-light">Hacking the Bootstrap 5 Carousel: Consistent Height Carousels with CSS Gradients and Object Fit</h2>
-        <p class="page-section-text text-light d-none d-md-block">
-          The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about one of my favorite new css features object-position and object-fit.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-</header> 
+  <header id="page-hero" class="site-header ratio ratio-16x9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/KHF6nysy0-c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
 
 
 
@@ -162,6 +150,9 @@
 
 >
 <main class="article-content px-3 px-sm-0 container">
+
+<h1>Hacking the Bootstrap 5 Carousel: Consistent Height Carousels with CSS Gradients and Object Fit</h1>
+<p class="lead">The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about some of my favorite new css features object-position and object-fit.</p>
 
   <div class="row">
       <main class="article-content px-3 px-sm-0 main col-9">
@@ -174,7 +165,7 @@
 </iframe>
 <p>When the image changes so does the height of the container. If you put the carousel above some content, the content beneath the images will shift as you try to read the content. Very annoying.</p>
 <h2 id="object-fit-%26-object-position-to-the-rescue">Object Fit &amp; Object Position to the rescue <a class="direct-link" href="#object-fit-%26-object-position-to-the-rescue"> </a></h2>
-<p>To fix this we can use some newer CSS properties that you may have not heard of. If you're familiar with how backgrounds work, you know that you can set the <code>background-size</code> attribute to cover and it proportionally resize the background to fit the space available.</p>
+<p>To fix this we can use some newer CSS properties that you may have not heard of. If you're familiar with how backgrounds work, you know that you can set the <code>background-size</code> attribute to cover and the browser will proportionally resize the background to fit the space available.</p>
 <p>You can do the same thing with a regular image using <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit">object-fit</a>. To get this to look right, you can combine it with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/object-position">object-position</a> to center the image.</p>
 <pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token selector">#carouselHero .carousel-item img</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">object-fit</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">object-position</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">height</span><span class="token punctuation">:</span> 50vh<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
 <p>You can also set a height with the <code>vh</code> (viewport height) measurement and add <code>overflow:hidden;</code> so any extra bit of image will get chopped off. Although <code>50vh</code> means that the image will be 50% of the viewport height in this case, you can set that to any height you want.</p>

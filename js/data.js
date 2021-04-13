@@ -1,4 +1,11 @@
 [{
+  "title": "Failure to Communicate",
+  "date" : "Apr 07, 2021",
+  "summary" : "This week I give my daughter some great advice on my birthday about recognizing when failure helps you make changes. Plus some communication related adjustments I&#39;ve been making to become a better teacher.",
+  "thumbnail": "/images/posts/failuretocommunicate_tn.png",
+  "url": "https://www.linkedin.com/pulse/failure-communicate-ray-villalobos",
+  "tags" : "external,Apply Newsletter"
+},{
   "title": "The Perils of Multi-tasking",
   "date" : "Mar 31, 2021",
   "summary" : "I got sick last week and couldn&#39;t record videos. So in this edition, I talk about the power of leveraging one activity to get multiple pieces of content, plus, how that can be a struggle when managing your life.",
@@ -22,7 +29,7 @@
 },{
   "title": "Hacking the Bootstrap 5 Carousel: Consistent Height Carousels with CSS Gradients and Object Fit",
   "date" : "Mar 27, 2021",
-  "summary" : "The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about one of my favorite new css features object-position and object-fit.",
+  "summary" : "The Bootstrap Carousel is one of the the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about some of my favorite new css features object-position and object-fit.",
   "thumbnail": "/images/posts/hackingbootstrap-gradients_tn.jpg",
   "url": "/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousel/",
   "tags" : "tutorial,video,web development,CSS,Bootstrap,Bootstrap 5,Carousel"
