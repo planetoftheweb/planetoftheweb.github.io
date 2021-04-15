@@ -1,4 +1,11 @@
 [{
+  "title": "Need to Know Basis",
+  "date" : "Apr 14, 2021",
+  "summary" : "Just the other day, I learned something in my editing software...ScreenFlow that shocked me. It&#39;s one of those things that saved me so much time, it felt like I gained an extra lung and became more efficient at breathing. And I did it in the middle of that project.",
+  "thumbnail": "/images/posts/need_to_know_basis_tn.png",
+  "url": "https://www.linkedin.com/pulse/need-know-basis-ray-villalobos/",
+  "tags" : "external,Apply Newsletter"
+},{
   "title": "Failure to Communicate",
   "date" : "Apr 07, 2021",
   "summary" : "This week I give my daughter some great advice on my birthday about recognizing when failure helps you make changes. Plus some communication related adjustments I&#39;ve been making to become a better teacher.",
