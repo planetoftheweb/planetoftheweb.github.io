@@ -332,11 +332,6 @@
   </url>
   
   <url>
-    <loc>/courses/2019-02-13-react-js-building-an-interface/</loc>
-    <lastmod>2019-02-13</lastmod>
-  </url>
-  
-  <url>
     <loc>/courses/2019-03-20-vue-js-essential-training/</loc>
     <lastmod>2019-03-20</lastmod>
   </url>
@@ -647,8 +642,18 @@
   </url>
   
   <url>
+    <loc>/videos/2021-04-04-Hacking-the-Bootstrap-5-Carousel-Consistent-Height-Carousels-with-CSS-Gradients-and-Object-Fit/</loc>
+    <lastmod>2021-04-04</lastmod>
+  </url>
+  
+  <url>
     <loc>/newsletter/2021-04-07-failure-to-communicte/</loc>
     <lastmod>2021-04-07</lastmod>
+  </url>
+  
+  <url>
+    <loc>/videos/2021-04-12-Building Sidebar Carousels with CSS by Hacking the Bootstrap Carousel/</loc>
+    <lastmod>2021-04-12</lastmod>
   </url>
   
   <url>
@@ -657,52 +662,72 @@
   </url>
   
   <url>
+    <loc>/newsletter/2021-04-20-supreme-assistance/</loc>
+    <lastmod>2021-04-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>/courses/2021-04-23-react-js-building-an-interface/</loc>
+    <lastmod>2021-04-23</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2021-04-28-make-a-button-behave-like-a-checkbox-or-radio-form-element-in-bootstrap-5/</loc>
+    <lastmod>2021-04-28</lastmod>
+  </url>
+  
+  <url>
+    <loc>/newsletter/2021-04-29-juniordeveloper/</loc>
+    <lastmod>2021-04-29</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
-    <lastmod>2021-04-15</lastmod>
+    <lastmod>2021-05-04</lastmod>
   </url>
   
   <url>
     <loc>/about/policies/</loc>
-    <lastmod>2021-04-15</lastmod>
+    <lastmod>2021-05-04</lastmod>
   </url>
   
   <url>
     <loc>/courses/0/</loc>
-    <lastmod>2021-04-15</lastmod>
+    <lastmod>2021-05-04</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-04-15</lastmod>
+    <lastmod>2021-05-04</lastmod>
   </url>
   
   <url>
     <loc>/js/data.js</loc>
-    <lastmod>2021-04-15</lastmod>
+    <lastmod>2021-05-04</lastmod>
   </url>
   
   <url>
     <loc>/newsletter/0/</loc>
-    <lastmod>2021-04-15</lastmod>
+    <lastmod>2021-05-04</lastmod>
   </url>
   
   <url>
     <loc>/posts/0/</loc>
-    <lastmod>2021-04-15</lastmod>
+    <lastmod>2021-05-04</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2021-04-15</lastmod>
+    <lastmod>2021-05-04</lastmod>
   </url>
   
   <url>
     <loc>/tags/css/</loc>
-    <lastmod>2021-04-15</lastmod>
+    <lastmod>2021-05-04</lastmod>
   </url>
   
   <url>
     <loc>/videos/0/</loc>
-    <lastmod>2021-04-15</lastmod>
+    <lastmod>2021-05-04</lastmod>
   </url>
 </urlset>

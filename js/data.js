@@ -1,10 +1,46 @@
 [{
+  "title": "Junior Developer",
+  "date" : "Apr 29, 2021",
+  "summary" : "This week, I talk about when you can call yourself a Junior Developer, which I really struggled with how to answer. Plus I just finished the largest course I do, you get to see one of my two favorite games and a peek at my ridiculously complicated video setup.",
+  "thumbnail": "/images/posts/juniordeveloper_tn.jpg",
+  "url": "https://www.linkedin.com/pulse/junior-developer-ray-villalobos",
+  "tags" : "external,Apply Newsletter"
+},{
+  "title": "Best Bootstrap 5 Features-Turn a button into a checkbox or radio form element",
+  "date" : "Apr 28, 2021",
+  "summary" : "Bootstrap 5 has a lot of new features, but sometimes it&#39;s the smaller things that really impress me. Let&#39;s take a look at just one of those new features. Making something that looks like a button behave like a checkbox or radio element",
+  "thumbnail": "/images/posts/bootstrapbuttoncheckboxes_tn.jpg",
+  "url": "/posts/2021-04-28-make-a-button-behave-like-a-checkbox-or-radio-form-element-in-bootstrap-5/",
+  "tags" : "tutorial,video,web development,CSS,bootstrap,bootstrap 5,checkbox,button"
+},{
+  "title": "React: Building a Web Interface",
+  "date" : "Apr 23, 2021",
+  "summary" : "In this practical, hands-on course, I show you how to build a simple interface from scratch using hooks and TailwindCSS.",
+  "thumbnail": "/images/courses/react-interface2021_tn.jpg",
+  "url": "https://www.linkedin.com/learning/react-js-building-an-interface-8551484","icon": "<i class=\"fas fa-project-diagram\"></i>",
+  "tags" : "react,javascript,frameworks,components,project,interface"
+},{
+  "title": "Supreme Assistance",
+  "date" : "Apr 20, 2021",
+  "summary" : "This week, I talk about the large amount of code people copy from Stack Overflow and a recent ruling from the US Supreme court that makes it a-ok.
+",
+  "thumbnail": "/images/posts/supreme-assistance_tn.jpg",
+  "url": "https://www.linkedin.com/pulse/supreme-assistance-ray-villalobos/",
+  "tags" : "external,Apply Newsletter"
+},{
   "title": "Need to Know Basis",
   "date" : "Apr 14, 2021",
   "summary" : "Just the other day, I learned something in my editing software...ScreenFlow that shocked me. It&#39;s one of those things that saved me so much time, it felt like I gained an extra lung and became more efficient at breathing. And I did it in the middle of that project.",
-  "thumbnail": "/images/posts/need_to_know_basis_tn.png",
+  "thumbnail": "/images/posts/need_to_know_basis_tn.jpg",
   "url": "https://www.linkedin.com/pulse/need-know-basis-ray-villalobos/",
   "tags" : "external,Apply Newsletter"
+},{
+  "title": "Hacking the Bootstrap 5 Carousel: Consistent Height Carousels with CSS Gradients and Object Fit",
+  "date" : "Apr 12, 2021",
+  "summary" : "The Bootstrap carousel is one of the most popular components in Bootstrap 5, but we have the technology to improve it and at the same time learn about one of my favorite new CSS features object-position and object-fit.",
+  "thumbnail": "https://i.ytimg.com/vi/KHF6nysy0-c/hqdefault.jpg",
+  "url": "/videos/2021-04-12-Building Sidebar Carousels with CSS by Hacking the Bootstrap Carousel/",
+  "tags" : ""
 },{
   "title": "Failure to Communicate",
   "date" : "Apr 07, 2021",
@@ -12,6 +48,13 @@
   "thumbnail": "/images/posts/failuretocommunicate_tn.png",
   "url": "https://www.linkedin.com/pulse/failure-communicate-ray-villalobos",
   "tags" : "external,Apply Newsletter"
+},{
+  "title": "Building Sidebar Carousels with CSS by Hacking the Bootstrap Carousel",
+  "date" : "Apr 04, 2021",
+  "summary" : "You don&#39;t have to use a single carousel on a page, they work really well on sidebars to cycle through content, getting attention by using their sliding or fading features.",
+  "thumbnail": "https://i.ytimg.com/vi/0-1aD5M40js/hqdefault.jpg",
+  "url": "/videos/2021-04-04-Hacking-the-Bootstrap-5-Carousel-Consistent-Height-Carousels-with-CSS-Gradients-and-Object-Fit/",
+  "tags" : ""
 },{
   "title": "The Perils of Multi-tasking",
   "date" : "Mar 31, 2021",
@@ -445,13 +488,6 @@
   "summary" : "In this course, explore the fundamentals of Vue.js. Explore the core library and learn how to make the most of templates, classes, objects, arrays, styles, modules, and more. You&#39;ll learn using codepen as well as ",
   "thumbnail": "/images/courses/vue-esst_tn.png",
   "url": "https://www.linkedin.com/learning/vue-js-essential-training-2","icon": "<i class=\"fas fa-project-diagram\"></i>",
-  "tags" : "react,javascript,frameworks,components,project,interface"
-},{
-  "title": "React: Building a Web Interface",
-  "date" : "Feb 13, 2019",
-  "summary" : "In this practical, hands-on course, featuring a realistic sample project that showcases the strengths of React: an online appointment scheduling tool.",
-  "thumbnail": "/images/courses/react-interface_tn.png",
-  "url": "https://www.linkedin.com/learning/react-js-building-an-interface-2","icon": "<i class=\"fas fa-project-diagram\"></i>",
   "tags" : "react,javascript,frameworks,components,project,interface"
 },{
   "title": "Building a Web Interface with Angular",
