@@ -1,5 +1,19 @@
 [{
-  "title": "Junior Developer",
+  "title": "The Course Hustle",
+  "date" : "May 13, 2021",
+  "summary" : "This week, still recuperating, I walk you in detail through what it took to put together my latest Bootstrap 5 Essential Training course. I talk about adding a 15% challenge of something new in every project...which sometimes balloons to like 40%, but once you&#39;re committed, you can&#39;t stop...won&#39;t stop.",
+  "thumbnail": "/images/posts/thecoursehustle_tn.jpg",
+  "url": "https://www.linkedin.com/pulse/course-hustle-ray-villalobos",
+  "tags" : "external,Apply Newsletter"
+},{
+  "title": "The One Two",
+  "date" : "May 06, 2021",
+  "summary" : "This week, I talk about the one two punch I got from the Covid vaccine which really set me back with my extra video tutorials. Plus, I talk about my new React with Hooks/ Tailwind CSS Course. My upcoming Bootstrap 5 course and what I&#39;m doing afterwards. ",
+  "thumbnail": "/images/posts/theonetwo_tn.jpg",
+  "url": "https://www.linkedin.com/pulse/one-two-ray-villalobos",
+  "tags" : "external,Apply Newsletter"
+},{
+  "title": "The Junior Developer",
   "date" : "Apr 29, 2021",
   "summary" : "This week, I talk about when you can call yourself a Junior Developer, which I really struggled with how to answer. Plus I just finished the largest course I do, you get to see one of my two favorite games and a peek at my ridiculously complicated video setup.",
   "thumbnail": "/images/posts/juniordeveloper_tn.jpg",
