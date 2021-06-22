@@ -49,6 +49,6 @@
     "@fortawesome/fontawesome-free": "^5.13.1",
     "animate.css": "^3.7.2",
     "bootstrap": "^5.0.0-beta2",
-    "vue": "^2.6.11"
+    "vue": "^2.6.13"
   }
 }
