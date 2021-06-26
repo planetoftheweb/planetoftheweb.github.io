@@ -1,24 +1,66 @@
 [{
+  "title": "The Space Rules",
+  "date" : "Jun 25, 2021",
+  "summary" : "This week, I might just settle that argument of wether spaces or tabs are best in development. I&#39;ll even tell you if I prefer single over double quotes. Somehow I end up talking about privacy and make a big announcement about my largest course ever.",
+  "thumbnail": "/images/posts/spacerules_tn.jpg",
+  "url": "/newsletter/2021-06-25-The Only Way/",
+  "tags" : "Apply Newsletter"
+},{
+  "title": "The Creator Conundrum",
+  "date" : "Jun 17, 2021",
+  "summary" : "This week, I&#39;m talking about Creator Mode and what it&#39;s going to do to LinkedIn and my own journey learning to accept the inevitable. No nerdy stuff, just a bit of excitement over the feature now being available to everyone.",
+  "thumbnail": "/images/posts/creatorconundrum_tn.jpg",
+  "url": "/newsletter/2021-06-17-The-Creator-Conundrum/",
+  "tags" : "Apply Newsletter"
+},{
+  "title": "The Canine Nourishment",
+  "date" : "Jun 10, 2021",
+  "summary" : "Don&#39;t worry, this is not going to be an article about Mojo, the coding dog...or his food. It&#39;s more about making sure you understand your product, before you start making changes.",
+  "thumbnail": "/images/posts/caninenourishment_tn.jpg",
+  "url": "/newsletter/2021-06-10-The-Canine-Nourishment/",
+  "tags" : "Apply Newsletter"
+},{
+  "title": "The Geekier Edition",
+  "date" : "Jun 03, 2021",
+  "summary" : "What does Teen Titans have to do with this week&#39;s edition..we&#39;ll you&#39;ll have to read it to find out. It&#39;s definitely a geekier edition than last week. I blame the lack of internet access.",
+  "thumbnail": "/images/posts/geekieredition_tn.jpg",
+  "url": "/newsletter/2021-06-03-The-Geekier-Edition/",
+  "tags" : "Apply Newsletter"
+},{
+  "title": "The Outdoor Development",
+  "date" : "May 27, 2021",
+  "summary" : "This week, I&#39;m taking some previously scheduled Designated Time off, so Mojo...the coding dog and I are off to the north Georgia mountains in our RV to practice some debugging, pair coding and attempt to establish a performance budget. Having done all that, we look for some help through the local Stack Overflow grapevine while learning once again that it pays to read the docs. Also, we do a bit of camping.",
+  "thumbnail": "/images/posts/outdoordevelopment_tn.jpg",
+  "url": "/newsletter/2021-05-27-The-Outdoor-Development/",
+  "tags" : "Apply Newsletter"
+},{
+  "title": "The Relentless Pursuit",
+  "date" : "May 20, 2021",
+  "summary" : "Feeling better, I go over how my failure at photography is a perfect example of how I approach...well everything. I have a new video and I talk about the ways I&#39;m editing, recording and writing differently these days.",
+  "thumbnail": "/images/posts/relentlesspursuit_tn.jpg",
+  "url": "/newsletter/2021-05-20-The-Relentless-Pursuit/",
+  "tags" : "Apply Newsletter"
+},{
   "title": "The Course Hustle",
   "date" : "May 13, 2021",
   "summary" : "This week, still recuperating, I walk you in detail through what it took to put together my latest Bootstrap 5 Essential Training course. I talk about adding a 15% challenge of something new in every project...which sometimes balloons to like 40%, but once you&#39;re committed, you can&#39;t stop...won&#39;t stop.",
   "thumbnail": "/images/posts/thecoursehustle_tn.jpg",
-  "url": "https://www.linkedin.com/pulse/course-hustle-ray-villalobos",
-  "tags" : "external,Apply Newsletter"
+  "url": "/newsletter/2021-05-13-The_Course_Hustle/",
+  "tags" : "Apply Newsletter"
 },{
   "title": "The One Two",
   "date" : "May 06, 2021",
   "summary" : "This week, I talk about the one two punch I got from the Covid vaccine which really set me back with my extra video tutorials. Plus, I talk about my new React with Hooks/ Tailwind CSS Course. My upcoming Bootstrap 5 course and what I&#39;m doing afterwards. ",
   "thumbnail": "/images/posts/theonetwo_tn.jpg",
-  "url": "https://www.linkedin.com/pulse/one-two-ray-villalobos",
-  "tags" : "external,Apply Newsletter"
+  "url": "/newsletter/2021-05-06-The_One_Two/",
+  "tags" : "Apply Newsletter"
 },{
   "title": "The Junior Developer",
   "date" : "Apr 29, 2021",
   "summary" : "This week, I talk about when you can call yourself a Junior Developer, which I really struggled with how to answer. Plus I just finished the largest course I do, you get to see one of my two favorite games and a peek at my ridiculously complicated video setup.",
   "thumbnail": "/images/posts/juniordeveloper_tn.jpg",
-  "url": "https://www.linkedin.com/pulse/junior-developer-ray-villalobos",
-  "tags" : "external,Apply Newsletter"
+  "url": "/newsletter/2021-04-29-juniordeveloper/",
+  "tags" : "Apply Newsletter"
 },{
   "title": "Best Bootstrap 5 Features-Turn a button into a checkbox or radio form element",
   "date" : "Apr 28, 2021",
@@ -26,6 +68,13 @@
   "thumbnail": "/images/posts/bootstrapbuttoncheckboxes_tn.jpg",
   "url": "/posts/2021-04-28-make-a-button-behave-like-a-checkbox-or-radio-form-element-in-bootstrap-5/",
   "tags" : "tutorial,video,web development,CSS,bootstrap,bootstrap 5,checkbox,button"
+},{
+  "title": "Bootstrap 5: Essential Training",
+  "date" : "Apr 26, 2021",
+  "summary" : "Bootstrap—a front-end framework using HTML, CSS, and JavaScript—is designed to help developers quickly and easily build responsive, mobile-ready websites that are cross-browser compatible.",
+  "thumbnail": "/images/courses/bootstrap5Esst_tn.jpg",
+  "url": "https://www.linkedin.com/learning/bootstrap-5-essential-training",
+  "tags" : "bootstrap,javascript,frameworks,css,html"
 },{
   "title": "React: Building a Web Interface",
   "date" : "Apr 23, 2021",
@@ -36,18 +85,17 @@
 },{
   "title": "Supreme Assistance",
   "date" : "Apr 20, 2021",
-  "summary" : "This week, I talk about the large amount of code people copy from Stack Overflow and a recent ruling from the US Supreme court that makes it a-ok.
-",
+  "summary" : "This week, I talk about the large amount of code people copy from Stack Overflow and a recent ruling from the US Supreme court that makes it a-ok.",
   "thumbnail": "/images/posts/supreme-assistance_tn.jpg",
-  "url": "https://www.linkedin.com/pulse/supreme-assistance-ray-villalobos/",
-  "tags" : "external,Apply Newsletter"
+  "url": "/newsletter/2021-04-20-supreme-assistance/",
+  "tags" : "Apply Newsletter"
 },{
   "title": "Need to Know Basis",
   "date" : "Apr 14, 2021",
-  "summary" : "Just the other day, I learned something in my editing software...ScreenFlow that shocked me. It&#39;s one of those things that saved me so much time, it felt like I gained an extra lung and became more efficient at breathing. And I did it in the middle of that project.",
+  "summary" : "According to resarch, the best time to learn is when you need to know something. Sometimes that&#39;s in the middle of a project. Here&#39;s one of my secrets I use to plan to learn in the middle of a project.",
   "thumbnail": "/images/posts/need_to_know_basis_tn.jpg",
-  "url": "https://www.linkedin.com/pulse/need-know-basis-ray-villalobos/",
-  "tags" : "external,Apply Newsletter"
+  "url": "/newsletter/2021-04-14-need-to-know-basis/",
+  "tags" : "Apply Newsletter"
 },{
   "title": "Hacking the Bootstrap 5 Carousel: Consistent Height Carousels with CSS Gradients and Object Fit",
   "date" : "Apr 12, 2021",
@@ -58,10 +106,10 @@
 },{
   "title": "Failure to Communicate",
   "date" : "Apr 07, 2021",
-  "summary" : "This week I give my daughter some great advice on my birthday about recognizing when failure helps you make changes. Plus some communication related adjustments I&#39;ve been making to become a better teacher.",
+  "summary" : "Sure the rest of LinkedIn has a week off, but I&#39;m still busy making content...Here&#39;s the latest edition of Apply...the Newsletters for Developers and others who might not know what a Full Stack Developer is.",
   "thumbnail": "/images/posts/failuretocommunicate_tn.png",
-  "url": "https://www.linkedin.com/pulse/failure-communicate-ray-villalobos",
-  "tags" : "external,Apply Newsletter"
+  "url": "/newsletter/2021-04-07-failure-to-communicte/",
+  "tags" : "Apply Newsletter"
 },{
   "title": "Building Sidebar Carousels with CSS by Hacking the Bootstrap Carousel",
   "date" : "Apr 04, 2021",
@@ -74,8 +122,8 @@
   "date" : "Mar 31, 2021",
   "summary" : "I got sick last week and couldn&#39;t record videos. So in this edition, I talk about the power of leveraging one activity to get multiple pieces of content, plus, how that can be a struggle when managing your life.",
   "thumbnail": "/images/posts/multitasking_tn.png",
-  "url": "https://www.linkedin.com/pulse/perils-multi-tasking-ray-villalobos",
-  "tags" : "external,Apply Newsletter"
+  "url": "/newsletter/2021-03-31-the-perils-of-multitasking/",
+  "tags" : "Apply Newsletter"
 },{
   "title": "Hacking the Bootstrap Carousel: Automating the Creation of Carousel Features Using JavaScript",
   "date" : "Mar 29, 2021",
@@ -109,14 +157,14 @@
   "date" : "Mar 22, 2021",
   "summary" : "I attended a ClubHouse event last week with some high profile Engineering Hiring Managers on the topic of getting a job in Technology. I had a chance to ask them a question: Tell me about an instance when someone really impressed you during an interview. I didn&#39;t expect the reply, but I should have.",
   "thumbnail": "/images/posts/storytelling_tn.jpg",
-  "url": "https://www.linkedin.com/pulse/power-story-ray-villalobos/",
-  "tags" : "external,Apply Newsletter"
+  "url": "/newsletter/2021-03-22-the-power-of-the-story/",
+  "tags" : "Apply Newsletter"
 },{
   "title": "Spending Time to Make Time",
   "date" : "Mar 17, 2021",
-  "summary" : "Developers are notorious for being lazy. I&#39;m obsessed with streamlining processes, it&#39;s one of those things that brings joy to my heart. In this issue, I try to save you some time.",
+  "summary" : "Need a little more time on your day to get things done? Sometimes the best way to make time is to spend some time. In this edition of my weekly newsletter, I talk about some of the things that help me fit more into my schedule as a developer with a bonus video highlighting several tools I use to start new web development projects. ",
   "thumbnail": "/images/posts/racingcar_tn.jpg",
-  "url": "https://www.linkedin.com/pulse/spending-time-make-ray-villalobos/",
+  "url": "/newsletter/2021-03-17-apply-newsletter-spending-time-to-make-time/",
   "tags" : "external,Apply Newsletter"
 },{
   "title": "Best Web Developer Tools, Extensions and Modules to Get Started on your Next Web Design Project",
@@ -151,8 +199,8 @@
   "date" : "Mar 10, 2021",
   "summary" : "I was recording a course last week when I ran into an unsurmountable problem. You know the type where you think: I have no idea why this isn&#39;t working or how to solve this. Here&#39;s how I solve the big..and small problems.",
   "thumbnail": "/images/posts/1615354110381_tn.jpg",
-  "url": "https://www.linkedin.com/pulse/make-small-ray-villalobos/",
-  "tags" : "external,Apply Newsletter"
+  "url": "/newsletter/2021-03-10-apply-newsletter-make-it-small/",
+  "tags" : "Apply Newsletter"
 },{
   "title": "Try out the latest and most efficient image compression with Squoosh from Google",
   "date" : "Mar 07, 2021",
@@ -165,8 +213,8 @@
   "date" : "Mar 03, 2021",
   "summary" : "The newsletter shattered my expectations with over 5000 subscriptions the first week. Trying hard to not let it get to my head, I talk about my learning habit and lots of other developer tips.",
   "thumbnail": "/images/posts/1614781660264_tn.jpg",
-  "url": "https://www.linkedin.com/pulse/success-hasnt-spoiled-meyet-ray-villalobos/",
-  "tags" : "external,Apply Newsletter"
+  "url": "/newsletter/2021-03-03-apply-newsletter-success-hasnt-spoiled-me-yet/",
+  "tags" : "Apply Newsletter"
 },{
   "title": "CSS Tips and Tricks: Responsive content without media queries using CSS Clamp()",
   "date" : "Mar 01, 2021",
@@ -193,8 +241,8 @@
   "date" : "Feb 24, 2021",
   "summary" : "In this first edition, I try to explain what I&#39;m doing with the newsletter, a bit of my background story and highlight some of the work I&#39;ve been doing recently.",
   "thumbnail": "/images/posts/apply-get-started_tn.jpg",
-  "url": "https://www.linkedin.com/pulse/lets-get-started-ray-villalobos/",
-  "tags" : "external,Apply Newsletter"
+  "url": "/newsletter/2021-02-24-apply-newsletter-lets-get-started/",
+  "tags" : "Apply Newsletter"
 },{
   "title": "Tailwind CSS vs Bootstrap-Is it time to switch?",
   "date" : "Feb 19, 2021",
