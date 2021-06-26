@@ -1,6 +1,5 @@
 {% if carousel.items %}
-<header id="layout-carousel" style="max-height: {{carousel.height}} !important"
-  class="carousel {% if carousel.slide !== false %}slide{%endif%}{% if carousel.fade %}carousel-fade{% endif %}"
+<header id="layout-carousel" class="carousel {% if carousel.slide !== false %}slide{%endif%}{% if carousel.fade %}carousel-fade{% endif %}"
   {% if carousel.interval %}data-interval="{{carousel.interval}}"{% endif %}
   {% if carousel.wrap == false %}data-wrap="false"{% endif %} 
   {% if carousel.ride !== false %}data-ride="carousel"{% endif %}

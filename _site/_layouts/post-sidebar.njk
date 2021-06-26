@@ -13,7 +13,7 @@ sidebar: true
           {% set sidebarNav = collections.all | eleventyNavigation(sidebar) %}
 
           {%- for nav in sidebarNav | reverse -%}
-           <a class="list-group-item d-flex justify-content-end align-items-center" href="{{ nav.url | url }}">{{ nav.title | safe }}<i class="fas fa-file-alt ms-2"></i></a>
+           <a class="list-group-item d-flex justify-content-end align-items-center" href="{{ nav.url | url }}">{{ nav.title | safe }}<i class="bi bi-file-text ms-2"></i></a>
           {%- endfor -%}
 
         </nav>

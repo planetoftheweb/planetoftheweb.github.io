@@ -2,11 +2,11 @@
   <div class="pagination pagination-sm justify-content-center">
       {% if pagination.previousPageLink %}
       <div class="page-item">
-        <a class="page-link" href="{{pagination.previousPageLink | url}}"><i class="fas fa-arrow-left"></i></a>
+        <a class="page-link" href="{{pagination.previousPageLink | url}}"><i class="bi bi-arrow-left"></i></a>
       </div>
       {% else %}
       <div class="page-item disabled">
-        <span class="page-link disabled" href="{{pagination.previousPageLink | url}}"><i class="fas fa-arrow-left"></i></span>
+        <span class="page-link disabled" href="{{pagination.previousPageLink | url}}"><i class="bi bi-arrow-left"></i></span>
       </div>
       {% endif %}
     {% for link in pagination.links %}
@@ -15,11 +15,11 @@
 
       {% if pagination.nextPageLink %}
       <div class="page-item">
-        <a class="page-link" href="{{pagination.nextPageLink | url}}"><i class="fas fa-arrow-right"></i></a>
+        <a class="page-link" href="{{pagination.nextPageLink | url}}"><i class="bi bi-arrow-right"></i></a>
       </div>
       {% else %}
       <div class="page-item disabled">
-        <a class="page-link" href="{{pagination.nextPageLink | url}}"><i class="fas fa-arrow-right"></i></a>
+        <a class="page-link" href="{{pagination.nextPageLink | url}}"><i class="bi bi-arrow-right"></i></a>
       </div>
       {% endif %}
   </div>

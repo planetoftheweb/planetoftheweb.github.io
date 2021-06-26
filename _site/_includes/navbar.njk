@@ -13,7 +13,7 @@
         {# These next two links are hidden are allow scrollspy to detect the current page #}
         <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
         <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
-        {% if navtitle != 'Home' %}<a class="nav-item nav-link {% if navtitle==null %}fw-bold  text-light{% endif %}" href="/"><i class="fas fa-home"></i></a>{% endif %}
+        {% if navtitle != 'Home' %}<a class="nav-item nav-link {% if navtitle==null %}fw-bold  text-light{% endif %}" href="/"><i class="bi bi-house-door-fill"></i></a>{% endif %}
         {% set mainNav = collections.all | eleventyNavigation("main") %}
           {%- for nav in mainNav | reverse -%}
             {% if nav.url == page.url %}
@@ -24,7 +24,7 @@
           {%- endfor -%}
           <div class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-              <i class="fas fa-user text-white"></i>
+              <i class="bi bi-person-fill"></i>
             </a>
             <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
               <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>

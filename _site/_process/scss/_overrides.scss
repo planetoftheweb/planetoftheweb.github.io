@@ -5,6 +5,10 @@
   background: $brighter-beige;
 }
 
+a:hover {
+  color: $dark-red;
+}
+
 .family-sans {
   font-family: $font-family-sans-serif !important;
 }
@@ -281,4 +285,35 @@ time {
       }
     }
   }
+}
+
+.article-side-image {
+  width: 50%;
+  min-width: 300px;
+  padding-left: 20px;
+  float: right;
+}
+
+#layout-carousel {
+  width: 100vw;
+
+  .carousel-item img {
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
+  }
+
+  .carousel-item:before {
+    content: "";
+    display: block;
+    position: absolute;
+    background-image: linear-gradient(to top, rgba(0, 99, 221, 0.5), transparent, rgba(3, 51, 110, 0.5));
+    width: 100vw;
+    top: 0;
+    height: 100%;
+  }
+}
+
+.merchandise {
+  background: $brighter-beige;
 }

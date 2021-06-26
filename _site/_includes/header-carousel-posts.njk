@@ -1,5 +1,4 @@
-<header id="layout-carousel"
-  style="width: 100vw; min-height: {{(headerHeight) if headerHeight else '30vh'}}"
+<header id="layout-carousel" 
   class="carousel 100vw d-none d-sm-flex justify-content-center align-items-center  {% if carousel.slide !== false %}slide{%endif%}
     {% if carousel.fade %}carousel-fade{% endif %}"
     {% if carousel.interval %}data-bs-interval="{{carousel.interval}}"{% endif %}
@@ -8,21 +7,18 @@
     {% if carousel.pause == false %}data-bs-pause="false"{% endif %}
   >
 
+  {% if carousel.indicators !== false %}
+  <div class="carousel-indicators"></div>
+  {% endif %}
+ 
   <div class="carousel-inner">
-    {% if carousel.indicators !== false %}
-      <div class="carousel-indicators">
-      {% for item in carouselPosts %}
-        <button type="button" {% if loop.first %}class="active"{% endif%} data-bs-target="#carouselExampleIndicators" data-bs-slide-to="{{loop.index0}}" aria-label="Slide 3"></button>
-      {% endfor %}
-      </div>
-    {% endif %}
 
     {% for item in carouselPosts %}
-    <div class="carousel-item {% if loop.first %}active{% endif%}" >
+    <div class="carousel-item {% if loop.first %}active{% endif%}" 
+  style="max-height: {{(headerHeight) if headerHeight else '30vh'}}; overflow:hidden"
+      >
       <a href="{{item.url}}">
-        <div style="background-image: linear-gradient(rgba(126, 59, 151, .6), transparent 40%, transparent 60%, rgba(0, 122, 231, .9)), url({{ item.data.hero }}); height: 50vh; background-repeat: no-repeat; background-size: cover;   background-position: center;" alt="{{item.data.title}}">
-          <img class="sr-only" src="{{ item.data.hero }}" alt="{{ item.data.title }} photo">
-        </div>
+        <img class="d-block w-100" src="{{ item.data.hero }}" alt="{{ item.data.title }} photo">
         <div class="carousel-caption">
           <div class="container">
           {% if item.data.title %}<h4 class="d-none d-lg-block text-white">{{item.data.title}}</h4>{% endif %}
@@ -32,16 +28,9 @@
       </a>
     </div>
     {% endfor %}
-
-    {% if carousel.controls !== false %}
-  <button class="carousel-control-prev" type="button" data-bs-target="#layout-carousel"  data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#layout-carousel"  data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-    {% endif %}
   </div>
+
+  {% if carousel.controls !== false %}
+  <div class="carousel-buttons"></div>
+  {% endif %}
 </header>
