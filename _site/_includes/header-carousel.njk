@@ -21,7 +21,7 @@
     {% for item in carousel.items %}
     <div class="carousel-item {% if loop.first %}active{% endif%}" >
       <a href="{{item.url}}">
-        <img class="d-block w-100" src="{{item.data.hero}}"></div>
+        <img class="d-block w-100" src="{{item.data.hero}}" style="max-height: {{(headerHeight) if headerHeight else '50vh'}}"></div>
         <div class="carousel-caption d-none d-md-block">
           {% if item.data.title %}<h1>{{item.data.title}}</h1>{% endif %}
           {% if item.data.summary %}<p>{{item.summary}}</p>{% endif %}
