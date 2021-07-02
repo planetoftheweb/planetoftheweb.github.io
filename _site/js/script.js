@@ -34,7 +34,6 @@ var app = new Vue({
   }
 })
 
-
 const insertIndicators = document.querySelectorAll('.carousel-indicators')
 
 insertIndicators.forEach(carouselIndicators => {

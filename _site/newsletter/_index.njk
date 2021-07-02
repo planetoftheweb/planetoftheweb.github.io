@@ -17,13 +17,16 @@ permalink: /newsletter/{{pagination.pageNumber}}/
 
 {% include "pagination.njk" %}
 <div class="row">
-  <div class="col-md-9">
+  <div class="col">
   {%- for item in pagination.items %}
     {% include "items.njk" %}
   {% endfor -%}
   {% include "pagination.njk" %}
   </div>
   <div class="col-md-3">
+    <div class="sidebar-merch">
+    {% include "sidebar_merch.njk" %}
+    </div>
     {% from '../_includes/sidebar_carousel.njk' import carousel %}
     <div class="sidebar-videos">
       <h6 class="text-secondary mt-3 px-3 px-sm-0">Latest Videos</h6>

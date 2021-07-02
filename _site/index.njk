@@ -60,7 +60,7 @@ eleventyNavigation:
 {% if carouselPosts==null and hero==null%}style="padding-top: 60px"{%endif%}
 >
 <div class="row">
-  <div class="col-md-9">
+  <div class="col">
     <h6 class="family-sans text-secondary mt-3 mb-2 px-3 px-sm-0">Latest Posts</h6>
     {%- for item in postslist %}
     {% include "items.njk" %}
@@ -68,7 +68,7 @@ eleventyNavigation:
   </div>
   <div class="col-md-3">
     {% from './_includes/sidebar_carousel.njk' import carousel %}
-    <div class="sidebar-newsletter">
+    <div class="sidebar-merch">
     {% include "sidebar_merch.njk" %}
     </div>
     <div class="sidebar-newsletter">

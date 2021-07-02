@@ -17,7 +17,7 @@ permalink: /posts/{{pagination.pageNumber}}/
 
 {% include "pagination.njk" %}
   <div class="row">
-    <div class="col-md-9">
+    <div class="col">
     {%- for item in pagination.items %}
       {% include "items.njk" %}
     {% endfor -%}
@@ -26,6 +26,9 @@ permalink: /posts/{{pagination.pageNumber}}/
     <div class="col-md-3">
       {% from '../_includes/sidebar_carousel.njk' import carousel %}
 
+      <div class="sidebar-merch">
+      {% include "sidebar_merch.njk" %}
+      </div>
       <div class="sidebar-videos">
         <h6 class="text-secondary mt-3 px-3 px-sm-0">Latest Videos</h6>
         {% set itemList = collections.videos | head(4) %}
