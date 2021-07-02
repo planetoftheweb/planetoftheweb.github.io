@@ -1,7 +1,7 @@
 ---
 layout: post.njk
 title: "The Auspicious Overlords"
-summary: "This week I answer once and for all what's on everyone's (or at least my) mind. Will the AI Overlords take your job away any time soon. Also, I talk about the latest entry from Github that writes code by synthesizing billions of lines of code(Skynet? We'll see). Plus, you'll find out what my next two live streams are all about."
+summary: "Will the AI Overlords take your job away any time soon? I talk about the latest entry from Github that writes code by synthesizing billions of lines of code. Plus, you'll find out what my next two live streams are all about."
 hero: /images/newsletter/auspiciousoverlords.png
 thumb: /images/newsletter/auspiciousoverlords_tn.jpg
 tags:

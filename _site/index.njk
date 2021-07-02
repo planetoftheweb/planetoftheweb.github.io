@@ -8,7 +8,7 @@ eleventyNavigation:
 ---
 
 {% set videoslist = collections.videos | head(20) %}
-{% set carouselPosts = collections.posts | head(3) %}
+{% set carouselPosts = collections.posts | head(5) %}
 
 
 {% if hero %}
@@ -29,7 +29,7 @@ eleventyNavigation:
 </header>
 {% else %}
   <header id="page-hero">
-  {% set carouselPosts = collections.posts | head(3) %}
+  {% set carouselPosts = collections.home | head(5) %}
   {% include "header-carousel-posts.njk" %}
   </header>
 {% endif %}
@@ -55,7 +55,7 @@ eleventyNavigation:
   </div>
 </div>
 
-{% set postslist = collections.posts | head(6) %}
+{% set postslist = collections.home | head(10) %}
 <article class="page-home site-main container"
 {% if carouselPosts==null and hero==null%}style="padding-top: 60px"{%endif%}
 >

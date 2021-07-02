@@ -39,6 +39,10 @@ module.exports = function (eleventyConfig) {
     return DateTime.fromJSDate(dateObj).toFormat('yyyy-LL-dd')
   })
 
+  eleventyConfig.addCollection('home', function (collection) {
+    return collection.getFilteredByGlob(['./_site/posts/*.md', './_site/newsletter/*.md', './_site/courses/*.md', './_site/videos/*.md']).reverse()
+  })
+
   // only content in the `posts` directory
   eleventyConfig.addCollection('posts', function (collection) {
     return collection.getFilteredByGlob('./_site/posts/*.md').reverse()
