@@ -1,10 +1,24 @@
 [{
+  "title": "The Auspicious Overlords",
+  "date" : "Jul 01, 2021",
+  "summary" : "Will the AI Overlords take your job away any time soon? I talk about the latest entry from Github that writes code by synthesizing billions of lines of code. Plus, you&#39;ll find out what my next two live streams are all about.",
+  "thumbnail": "/images/newsletter/auspiciousoverlords_tn.jpg",
+  "url": "/newsletter/2021-07-01-The Auspicious Overlords/",
+  "tags" : "Apply Newsletter"
+},{
   "title": "The Space Rules",
   "date" : "Jun 25, 2021",
   "summary" : "This week, I might just settle that argument of wether spaces or tabs are best in development. I&#39;ll even tell you if I prefer single over double quotes. Somehow I end up talking about privacy and make a big announcement about my largest course ever.",
   "thumbnail": "/images/posts/spacerules_tn.jpg",
   "url": "/newsletter/2021-06-25-The Only Way/",
   "tags" : "Apply Newsletter"
+},{
+  "title": "Bootstrap 5: Essential Training",
+  "date" : "Jun 23, 2021",
+  "summary" : "Bootstrap—a front-end framework using HTML, CSS, and JavaScript—is designed to help developers quickly and easily build responsive, mobile-ready websites that are cross-browser compatible.",
+  "thumbnail": "/images/courses/bootstrap5Esst_tn.jpg",
+  "url": "https://www.linkedin.com/learning/bootstrap-5-essential-training",
+  "tags" : "bootstrap,javascript,frameworks,css,html"
 },{
   "title": "The Creator Conundrum",
   "date" : "Jun 17, 2021",
@@ -68,13 +82,6 @@
   "thumbnail": "/images/posts/bootstrapbuttoncheckboxes_tn.jpg",
   "url": "/posts/2021-04-28-make-a-button-behave-like-a-checkbox-or-radio-form-element-in-bootstrap-5/",
   "tags" : "tutorial,video,web development,CSS,bootstrap,bootstrap 5,checkbox,button"
-},{
-  "title": "Bootstrap 5: Essential Training",
-  "date" : "Apr 26, 2021",
-  "summary" : "Bootstrap—a front-end framework using HTML, CSS, and JavaScript—is designed to help developers quickly and easily build responsive, mobile-ready websites that are cross-browser compatible.",
-  "thumbnail": "/images/courses/bootstrap5Esst_tn.jpg",
-  "url": "https://www.linkedin.com/learning/bootstrap-5-essential-training",
-  "tags" : "bootstrap,javascript,frameworks,css,html"
 },{
   "title": "React: Building a Web Interface",
   "date" : "Apr 23, 2021",
