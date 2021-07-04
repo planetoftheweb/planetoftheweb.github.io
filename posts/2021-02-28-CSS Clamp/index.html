@@ -150,7 +150,7 @@
 <p class="lead">There&#39;s a useful function in CSS called CSS Clamp. It&#39;s better than using a width property because you can set up a minimum and maximum value, which are the clamps.</p>
 
   <div class="row">
-    <main class="article-content px-3 px-sm-0 main col">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
     <p>Here's what Clamp looks like:</p>
 <pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token function">clamp</span><span class="token punctuation">(</span>MIN<span class="token punctuation">,</span> VAL<span class="token punctuation">,</span> MAX<span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
 <h2 id="where-can-i-use-it%3F">Where can I use it? <a class="direct-link" href="#where-can-i-use-it%3F"> </a></h2>
@@ -166,7 +166,7 @@
 <p>This will make the image try to be 100% of the width of the container, but also no smaller than 800 pixels and no larger than 1200 pixels.</p>
 <p>Normally, I'd take care of this by creating a div that contains the image, but <code>clamp()</code> is letting me put this directly on the image, so that's less, more flexible code.</p>
 <h2 id="clamp-with-content">Clamp with content <a class="direct-link" href="#clamp-with-content"> </a></h2>
-<p>Let's see  the content section of your site. That 100% width might get too big at times. Now, you can fix this with media queries, but clamp gives you a better way.</p>
+<p>Let's see the content section of your site. That 100% width might get too big at times. Now, you can fix this with media queries, but clamp gives you a better way.</p>
 <pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token property">margin</span><span class="token punctuation">:</span> 0 auto<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token property">width</span><span class="token punctuation">:</span> <span class="token function">clamp</span><span class="token punctuation">(</span>800px<span class="token punctuation">,</span> 100%<span class="token punctuation">,</span> 1200px<span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
 <p>I'm adding a display block and the margin rule to make sure this images centers on our layout.</p>
 <p>This rule makes the hero image cover 100% of the width of the container, but also be no smaller than 800 Pixels and no bigger than 1200 pixels. Normally I take care of this type of thing by wrapping my images in a container, but this is cleaner.</p>
@@ -176,12 +176,12 @@
 <p>Now you have an image that doesn't get too big or too small.</p>
 <h2 id="what-about-fonts%3F">What about fonts? <a class="direct-link" href="#what-about-fonts%3F"> </a></h2>
 <p>You can also use this to create responsive font sizes. The typical way is to use a complex <code>calc()</code> function, but with the <code>clamp()</code> function, it's easy to establish a range of values.</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token property">font-size</span><span class="token punctuation">:</span>  <span class="token function">clamp</span><span class="token punctuation">(</span>2em<span class="token punctuation">,</span> 4vw<span class="token punctuation">,</span> 3.2em<span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token function">clamp</span><span class="token punctuation">(</span>2em<span class="token punctuation">,</span> 4vw<span class="token punctuation">,</span> 3.2em<span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
 <p>I'm using viewport widths here, so that's making the font responsive to the size of the browser. Just remember that 100vw means 100% of the viewport width and that would be a HUGE font size, so a fairly small size here. To me, this type of sizing is easier to read than a complex <code>calc()</code>.</p>
 <p>It's got pretty good <a href="https://caniuse.com/?search=clamp">browser support</a>, so I think that unless you're supporting really old browsers it's something you can start using today.</p>
 
     </main>
-    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 col-xl-3 mt-3">
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
       <h4>Contents</h4>
       <nav class="sticky-top" style="top: 100px;">
       <div class="">
