@@ -1,9 +1,12 @@
 {% if item.data.links != null %}
   <div class="item-links">
   {% for item in item.data.links %}
-    {% if item.lil %}<a href="{{ item.lil }}" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-linkedin me-1"></i><span class="d-none d-lg-inline text-body">on LinkedIn</a></span>{% endif %}
-    {% if item.repo %}<a href="{{ item.repo }}" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fab fa-github me-1"></i><span class="d-none d-lg-inline text-body">repo</a></span>{% endif %}
-    {% if item.demo %}<a href="{{ item.demo }}" class="d-none  d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none"><i class="fas fa-globe me-1"></i><span class="d-none d-lg-inline text-body">demo</a></span>{% endif %}
+    {% if item.lil %}<a href="{{ item.lil }}" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none small"><i class="bi bi-linkedin"></i><span class="ms-1 d-none d-lg-inline text-body">on LinkedIn</a></span>{% endif %}
+    {% if item.repo %}<a href="{{ item.repo }}" class="d-none d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none small"><i class="bi bi-github"></i><span class="ms-1 d-none d-lg-inline text-body">repo</a></span>{% endif %}
+    {% if item.demo %}<a href="{{ item.demo }}" class="d-none  d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none small"><i class="bi bi-joystick"></i><span class="ms-1 d-none d-lg-inline text-body">demo</a></span>{% endif %}
+    {% if item.slides %}<a href="{{ item.slides }}" class="d-none  d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none small" target="_blank"><i class="bi bi-easel"></i><span class="ms-1 d-none d-lg-inline text-body">slides</a></span>{% endif %}
+    {% if item.microsite %}<a href="{{ item.microsite }}" class="d-none  d-lg-inline me-3 me-lg-1 text-secondary text-decoration-none small"><i class="bi bi-globe"></i><span class="ms-1 d-none d-lg-inline text-body">docs</a></span>{% endif %}
+    <i class="bi bi-globe"></i>
   {% endfor %}
   </div>
 {% endif %}  

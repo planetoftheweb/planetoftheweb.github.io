@@ -5,4 +5,5 @@ summary: "The NAP crew thrives on technology. Being proficient in our chosen tec
 thumb: "https://i.ytimg.com/vi/r4vbpqlveLI/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/r4vbpqlveLI/maxresdefault.jpg"
 video: r4vbpqlveLI
+category: videos
 ---

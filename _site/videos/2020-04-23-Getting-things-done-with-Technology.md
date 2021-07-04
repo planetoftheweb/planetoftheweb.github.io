@@ -5,4 +5,5 @@ summary: "We'll talk about how each of us approaches getting things done with di
 thumb: "https://i.ytimg.com/vi/aA_Ms7-cAUQ/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/aA_Ms7-cAUQ/maxresdefault.jpg"
 video: aA_Ms7
+category: videos
 ---

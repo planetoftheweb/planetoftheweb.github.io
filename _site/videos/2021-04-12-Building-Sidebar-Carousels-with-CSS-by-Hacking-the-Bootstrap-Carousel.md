@@ -5,4 +5,5 @@ summary: "The Bootstrap carousel is one of the most popular components in Bootst
 thumb: "https://i.ytimg.com/vi/KHF6nysy0-c/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/KHF6nysy0-c/maxresdefault.jpg"
 video: "KHF6nysy0-c"
+category: videos
 ---

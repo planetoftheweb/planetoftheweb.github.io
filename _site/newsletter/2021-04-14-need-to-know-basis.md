@@ -4,8 +4,7 @@ title: "Need to Know Basis"
 summary: "According to resarch, the best time to learn is when you need to know something. Sometimes that's in the middle of a project. Here's one of my secrets I use to plan to learn in the middle of a project."
 hero: /images/posts/need_to_know_basis.jpg
 thumb: /images/posts/need_to_know_basis_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 I've been editing since before YouTube existed, but it's not something I'm great at. Just the other day, I learned something in my editing software...[ScreenFlow](https://www.telestream.net/screenflow/overview.htm) that shocked me. It's one of those things that saved me so much time, it felt like I gained an extra lung and became more efficient at breathing. And I did it in the middle of that project.

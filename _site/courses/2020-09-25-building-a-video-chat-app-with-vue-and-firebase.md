@@ -4,7 +4,9 @@ summary: "With more people needing to stay connected virtually, video chat appli
 thumb: "/images/courses/vuevideochatfirebase.jpg"
 links:
   - lil: https://www.linkedin.com/learning/building-a-video-chat-app-with-vue-js-and-firebase
+category: courses
 tags:
+  - external
   - vuejs
   - vuejs2
   - video

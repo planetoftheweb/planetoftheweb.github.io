@@ -6,6 +6,7 @@ hero: /images/posts/angular.jpg
 thumb: /images/posts/angular_tn.png
 links:
   - linkedin: https://www.linkedin.com/pulse/whats-wrong-angularjs2-why-youre-still-going-like-ray-villalobos
+category: posts
 tags:
   - external
   - web design

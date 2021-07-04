@@ -6,7 +6,9 @@ hero: "/images/courses/react-spas.jpg"
 links:
   - lil: https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Felectron-building-cross-platform-desktop-apps
   - repo: https://github.com/planetoftheweb/electron-4
+category: courses
 tags:
+  - external
   - css
   - javascript
   - html

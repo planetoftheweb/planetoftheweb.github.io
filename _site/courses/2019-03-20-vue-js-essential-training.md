@@ -6,7 +6,9 @@ hero: "/images/courses/vue-esst.jpg"
 links:
   - lil: https://www.linkedin.com/learning/vue-js-essential-training-2
   - repo: https://github.com/planetoftheweb/vue-essentials
+category: courses
 tags:
+  - external
   - react
   - javascript
   - frameworks

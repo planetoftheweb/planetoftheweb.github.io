@@ -5,4 +5,5 @@ summary: "We share when we do when we're not wresting with technology. Share wit
 thumb: "https://i.ytimg.com/vi/80DTY7N2qAY/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/80DTY7N2qAY/maxresdefault.jpg"
 video: 80DTY7N2qAY
+category: videos
 ---

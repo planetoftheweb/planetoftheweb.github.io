@@ -5,4 +5,5 @@ summary: "I’m posting more from LinkedIn and Twitter, but I’m too lazy to po
 thumb: "https://i.ytimg.com/vi/zGQ23v5TKYY/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/zGQ23v5TKYY/maxresdefault.jpg"
 video: zGQ23v5TKYY
+category: videos
 ---

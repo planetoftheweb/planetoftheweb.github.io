@@ -5,6 +5,7 @@ summary: "GraphQL and React are extemely popular web development platforms and i
 hero: /images/posts/launch-react-graphq.jpg
 thumb: /images/posts/launch-react-graphq.jpg
 video: 71RrEJ00gPk
+category: posts
 tags:
   - tutorial
   - video
@@ -198,11 +199,7 @@ Paginating is done with a field called edges. You wrap the nodes with an edges r
 ```graphql
 {
   viewer {
-    repositories(
-      first: 2
-      after: "Y3Vyc29yOnYyOpK5MjAyMC0xMi0zMVQyMDoxMDoyNi0wODowMM4TbQ-E"
-      orderBy: { field: CREATED_AT, direction: DESC }
-    ) {
+    repositories(first: 2, after: "Y3Vyc29yOnYyOpK5MjAyMC0xMi0zMVQyMDoxMDoyNi0wODowMM4TbQ-E", orderBy: { field: CREATED_AT, direction: DESC }) {
       totalCount
       edges {
         node {
@@ -305,9 +302,7 @@ The key to understanding hooks in this application is two parts. How I get my da
 
 ```jsx
 const fetchData = useCallback(() => {
-  const queryText = JSON.stringify(
-    query(pageCount, queryString, paginationKeyword, paginationString)
-  );
+  const queryText = JSON.stringify(query(pageCount, queryString, paginationKeyword, paginationString));
 
   fetch(github.baseURL, {
     method: "POST",
@@ -366,12 +361,7 @@ query(pageCount, queryString, paginationKeyword, paginationString);
 This is in the `Query.js` file and it looks just like what we use in the GraphyQL interface.
 
 ```jsx
-const githubQuery = (
-  pageCount,
-  queryString,
-  paginationKeyword,
-  paginationString
-) => {
+const githubQuery = (pageCount, queryString, paginationKeyword, paginationString) => {
   return {
     query: `
     {

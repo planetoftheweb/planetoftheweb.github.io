@@ -5,4 +5,5 @@ summary: "In this livestream we'll discuss our favorite technology movies. With 
 thumb: "https://i.ytimg.com/vi/XGb2CbjqlJk/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/XGb2CbjqlJk/maxresdefault.jpg"
 video: XGb2CbjqlJk
+category: videos
 ---

@@ -1,9 +1,10 @@
 ---
 layout: post.njk
-title: 'Vector Graphic Formats Used for data visualizations'
+title: "Vector Graphic Formats Used for data visualizations"
 summary: "In this article, I'll talk about the different graphic formats used for visualizing data and examine some of the differences. Since most visualizations are handled in just a few different vector graphic formats, we'll see why using vectors has advantages over bitmaps because it allows us to illustrate as well as create interactions with very little overhead."
 hero: /images/posts/vector.png
 thumb: /images/posts/vector_tn.png
+category: posts
 tags:
   - data visualization
   - svg
@@ -26,10 +27,10 @@ This, of course, is a huge advantage over bitmaps, but vectors are only good for
 Online graphics are usually served in just a few formats. The most common bitmap formats are GIF, JPEG and PNG. Because these formats are, for the most part, static (with the exception of GIF), they are not best for representing data for visualizations. In addition to being difficult to animate, individual data points or elements are not accessible through JavaScript.
 
 | Format | Description       |
-| ------ | ----------------- |
+| ------ | ----------------- | ---------------------------------------------------------------------- |
 | GIF    | 256 colors max    | Low quality, but only Bitmap format that supports very basic animation |
-| JPEG   | 24-Bit True color | High quality especially on photos, but no animation |
-| PNG    | Up to 64-bit      | Smooth transparency, great compression, no animation |
+| JPEG   | 24-Bit True color | High quality especially on photos, but no animation                    |
+| PNG    | Up to 64-bit      | Smooth transparency, great compression, no animation                   |
 
 ## Vector Graphics Online
 
@@ -56,10 +57,10 @@ The commands for drawing are also more like commands than objects. Here's an exa
 
 ```javascript
 function drawRect() {
-  var canvas = document.getElementById('rect')
-  var context = canvas.getContext('2d')
-  context.fillStyle = 'rgb(233,192,117)'
-  context.fillRect(0, 0, 100, 100)
+  var canvas = document.getElementById("rect");
+  var context = canvas.getContext("2d");
+  context.fillStyle = "rgb(233,192,117)";
+  context.fillRect(0, 0, 100, 100);
 }
 ```
 

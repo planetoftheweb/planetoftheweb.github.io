@@ -6,6 +6,7 @@ hero: /images/posts/postcss.jpg
 thumb: /images/posts/postcss_tn.png
 links:
   - linkedin: https://www.linkedin.com/pulse/learn-postcss-new-way-design-code-css-youre-going-love-ray-villalobos
+category: posts
 tags:
   - external
   - web design

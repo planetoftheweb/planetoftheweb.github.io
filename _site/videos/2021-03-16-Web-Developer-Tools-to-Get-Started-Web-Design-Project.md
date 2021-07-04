@@ -5,4 +5,5 @@ summary: "You've got a new web development project to build, but how to begin. H
 thumb: "https://i.ytimg.com/vi/UQkhm_fQnOU/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/UQkhm_fQnOU/maxresdefault.jpg"
 video: "UQkhm_fQnOU"
+category: videos
 ---

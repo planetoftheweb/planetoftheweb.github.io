@@ -5,4 +5,5 @@ summary: "There's a super useful CSS function called Clamp() you've got to learn
 thumb: "https://i.ytimg.com/vi/CICYdO0g8Ew/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/CICYdO0g8Ew/maxresdefault.jpg"
 video: "CICYdO0g8Ew"
+category: videos
 ---

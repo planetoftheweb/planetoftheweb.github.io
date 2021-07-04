@@ -5,4 +5,5 @@ summary: "If you're looking for free Icons for web design. Bootstrap Icons is an
 thumb: "https://i.ytimg.com/vi/Nhpyb1jx54A/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/Nhpyb1jx54A/maxresdefault.jpg"
 video: "Nhpyb1jx54A"
+category: videos
 ---

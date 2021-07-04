@@ -5,4 +5,5 @@ summary: "JavaScript's Optional Chaining Operator, also known as the conditional
 thumb: "https://i.ytimg.com/vi/TLb0FyS2p2c/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/TLb0FyS2p2c/maxresdefault.jpg"
 video: "TLb0FyS2p2c"
+category: videos
 ---

@@ -4,8 +4,7 @@ title: "The Geekier Edition"
 summary: "What does Teen Titans have to do with this week's edition..we'll you'll have to read it to find out. It's definitely a geekier edition than last week. I blame the lack of internet access."
 hero: /images/posts/geekieredition.png
 thumb: /images/posts/geekieredition_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 Alert! this week I once again write on extra geeky topics. I'm not sure if I should write more geeky things or more generic things. I guess this warning is sort of like when you watched Teen Titans and the theme song was in Japanese.

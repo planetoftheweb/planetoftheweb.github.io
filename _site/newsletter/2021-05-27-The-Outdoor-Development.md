@@ -4,8 +4,7 @@ title: "The Outdoor Development"
 summary: "This week, I'm taking some previously scheduled Designated Time off, so Mojo...the coding dog and I are off to the north Georgia mountains in our RV to practice some debugging, pair coding and attempt to establish a performance budget. Having done all that, we look for some help through the local Stack Overflow grapevine while learning once again that it pays to read the docs. Also, we do a bit of camping."
 hero: /images/posts/outdoordevelopment.png
 thumb: /images/posts/outdoordevelopment_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 I wasn't sure if I'd be able to publish an article this week. I'm taking some Designated Time Off for my anniversary with my beautiful wife. We're in North Georgia minutes from both North/South Carolina and close to Tennessee in the US.

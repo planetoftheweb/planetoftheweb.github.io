@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'How to take a course on LinkedIn Learning with a Github Repo'
+title: "How to take a course on LinkedIn Learning with a Github Repo"
 summary: "Some of our courses on LinkedIn Learning allow you use Github repositories in order to follow along and practice with the course, so let's take a look at how that works and how you might use Github to enhance the way you take the course."
 hero: /images/posts/usingGithubExercises.jpg
 thumb: /images/posts/usingGithubExercises_tn.jpg
 video: aDDKibLYm18
-
+category: posts
 tags:
   - tutorial
   - video

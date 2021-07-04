@@ -1,22 +1,21 @@
 ---
 layout: post
-title: 'JSL: ES2020 Optional Chaining Operator...explained with cats'
+title: "JSL: ES2020 Optional Chaining Operator...explained with cats"
 summary: "JavaScript's Optional Chaining Operator, also known as the conditional ternary operator is one of those cool new features in ES2020 that you need to know."
 hero: /images/posts/jsl-optionalchaining.jpg
 thumb: /images/posts/jsl-optionalchaining_tn.jpg
 video: TLb0FyS2p2c
-
+category: posts
 tags:
-- javascript 
-- tutorial 
-- javascript2020 
-- optionalchaining 
-- frontenddeveloper 
-- fullstackdeveloper 
-- developer 
-- webdesign
-- JSL
-
+  - javascript
+  - tutorial
+  - javascript2020
+  - optionalchaining
+  - frontenddeveloper
+  - fullstackdeveloper
+  - developer
+  - webdesign
+  - JSL
 ---
 
 ## Optional Chaining
@@ -77,9 +76,8 @@ In that case, you'd get an error from the compiler. And it's not one of those ea
 You can try fixing it by using the ternary operator like this:
 
 ```js
-const myColor = (cats[0].fur.color) ? cats[0].fur.color : '';
+const myColor = cats[0].fur.color ? cats[0].fur.color : "";
 ```
-
 
 What we're doing here is a short version of an if...then statement. First, we test for the cats color and if it's undefined or null, then return an empty string, which is similar. But honestly, that's not the most readable code.
 
@@ -88,11 +86,10 @@ What we're doing here is a short version of an if...then statement. First, we te
 The Optional Chaining operator performs this test for you.
 
 ```js
-const myColor = cats[0].body?.fur.color
+const myColor = cats[0].body?.fur.color;
 ```
 
 If the fur object doesn't exist, it will return undefined instead of null so you don't get the error. That's also much easier to read. Ternary statements are awesome, but they always give me a headache.
-
 
 ## Browser Support
 

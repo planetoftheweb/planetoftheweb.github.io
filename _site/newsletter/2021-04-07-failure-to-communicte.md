@@ -4,8 +4,7 @@ title: "Failure to Communicate"
 summary: "Sure the rest of LinkedIn has a week off, but I'm still busy making content...Here's the latest edition of Apply...the Newsletters for Developers and others who might not know what a Full Stack Developer is."
 hero: /images/posts/failuretocommunicate.jpg
 thumb: /images/posts/failuretocommunicate_tn.png
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 I'm writing you on my birthday, a great time to reflect. I got a note from my daughter thanking me for giving her some good advice that I'm going to pass along. She's graduating from her Associate of Arts degree and is hitting that stage where she's stressed about her future. Like many kids she's trying to decide what she should study.

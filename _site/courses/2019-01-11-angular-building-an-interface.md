@@ -6,7 +6,9 @@ hero: "/images/courses/angular-interface.jpg"
 links:
   - lil: https://www.linkedin.com/learning/angular-building-an-interface/building-an-interface-with-angular
   - repo: https://github.com/planetoftheweb/angularinterface
+category: courses
 tags:
+  - external
   - angular
   - javascript
   - frameworks

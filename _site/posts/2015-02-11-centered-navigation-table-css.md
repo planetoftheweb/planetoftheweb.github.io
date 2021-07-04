@@ -1,12 +1,13 @@
 ---
 layout: post.njk
-title: 'Horizontally Centered Navigation Menu with CSS'
+title: "Horizontally Centered Navigation Menu with CSS"
 summary: "Getting a menu to center horizontally is surprisingly hard, especially when you're using CSS lists. In this tutorial, I'll show you how to change the display element to pretend you're centering a table, which is easy."
 hero: /images/posts/horizontally.png
 thumb: /images/posts/horizontally_tn.png
 resources:
   - video: https://www.youtube.com/watch?v=RT64aSNXnzY
   - code: http://jsbin.com/popalu/12/edit?html,css,output
+category: posts
 tags:
   - web design
   - css
@@ -45,7 +46,7 @@ I've simplified it a bit here for clarity. The key extra item here is the additi
 .sitemenu {
   width: 100%;
   background: #a2cea5;
-  font-family: 'Droid Sans', serif;
+  font-family: "Droid Sans", serif;
   border-top: 8px solid #126758;
 }
 ```

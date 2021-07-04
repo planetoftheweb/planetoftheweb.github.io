@@ -4,6 +4,7 @@ title: "Hacking the Bootstrap Carousel: Automating the Creation of Carousel Feat
 summary: "If you often add indicators and controls to your Bootstrap 5 carousel, you can make that process easier using JavaScript to generate those for you, requiring only additional classes."
 hero: /images/posts/hackingbootstrap-javascript.png
 thumb: /images/posts/hackingbootstrap-javascript_tn.jpg
+category: posts
 tags:
   - tutorial
   - video
@@ -27,20 +28,8 @@ The first of the two components are carousel indicators, which look like this:
 
 ```html
 <div class="carousel-indicators">
-  <button
-    type="button"
-    data-bs-target="#carouselHero"
-    data-bs-slide-to="0"
-    class="active"
-    aria-current="true"
-    aria-label="Slide 1"
-  ></button>
-  <button
-    type="button"
-    data-bs-target="#carouselHero"
-    data-bs-slide-to="1"
-    aria-label="Slide 2"
-  ></button>
+  <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+  <button type="button" data-bs-target="#carouselHero" data-bs-slide-to="1" aria-label="Slide 2"></button>
 </div>
 ```
 
@@ -52,9 +41,7 @@ const insertIndicators = document.querySelectorAll(".carousel-indicators");
 insertIndicators.forEach((carouselIndicators) => {
   const id = carouselIndicators.parentNode.id;
   if (id !== null) {
-    const carouselItems = carouselIndicators.parentNode.querySelectorAll(
-      ".carousel-item"
-    );
+    const carouselItems = carouselIndicators.parentNode.querySelectorAll(".carousel-item");
     carouselItems.forEach((item, index) => {
       let el = document.createElement("button");
       el.type = "button";

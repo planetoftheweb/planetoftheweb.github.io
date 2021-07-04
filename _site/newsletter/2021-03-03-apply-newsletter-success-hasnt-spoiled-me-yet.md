@@ -4,8 +4,7 @@ title: "Success Hasn't Spoiled Me...Yet!"
 summary: "The newsletter shattered my expectations with over 5000 subscriptions the first week. Trying hard to not let it get to my head, I talk about my learning habit and lots of other developer tips."
 hero: /images/posts/1614781660264.jpg
 thumb: /images/posts/1614781660264_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 Years ago, I went to a pickup game at the Y. Which reminded me why I quit the basketball team in High School for a nerdier Computer Lab career. I couldn't shoot, dribble or run (although I'm not sure I could ever shoot). I got picked last.

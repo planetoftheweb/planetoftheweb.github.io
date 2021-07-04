@@ -4,8 +4,7 @@ title: "The Auspicious Overlords"
 summary: "Will the AI Overlords take your job away any time soon? I talk about the latest entry from Github that writes code by synthesizing billions of lines of code. Plus, you'll find out what my next two live streams are all about."
 hero: /images/newsletter/auspiciousoverlords.png
 thumb: /images/newsletter/auspiciousoverlords_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 There's no time like the present...unless you have a deadline. Then you find all types of time to do some other 'essential' things you've been meaning to get done. For instance, I had planned to write this newsletter earlier in the day, but then I saw all of the cables in my office that needed to be organized. Something I'd been putting off for a while.

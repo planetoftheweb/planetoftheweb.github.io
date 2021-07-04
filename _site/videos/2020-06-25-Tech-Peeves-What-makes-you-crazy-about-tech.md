@@ -5,4 +5,5 @@ summary: "We love tech but let’s be honest. Some parts are annoying. We’re n
 thumb: "https://i.ytimg.com/vi/hbZfpsdC3-Q/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/hbZfpsdC3-Q/hqdefault.jpg"
 video: hbZfpsdC3-Q
+category: videos
 ---

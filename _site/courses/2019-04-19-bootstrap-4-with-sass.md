@@ -5,7 +5,9 @@ thumb: "/images/courses/bootstrap-4-with-sass_tn.png"
 hero: "/images/courses/bootstrap-4-with-sass.jpg"
 links:
   - lil: https://www.linkedin.com/learning/bootstrap-4-with-sass/
+category: courses
 tags:
+  - external
   - bootstrap
   - bootstrap4
   - sass

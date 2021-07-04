@@ -6,7 +6,9 @@ hero: "/images/courses/json.jpg"
 links:
   - lil: https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-and-json-integration-techniques
   - repo: https://github.com/planetoftheweb/json
+category: courses
 tags:
+  - external
   - css
   - javascript
   - html

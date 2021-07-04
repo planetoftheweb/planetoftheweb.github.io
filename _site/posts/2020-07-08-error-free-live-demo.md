@@ -1,10 +1,10 @@
 ---
 layout: post
-title: 'How to eliminate the terror of a live coding demo training tutorial'
+title: "How to eliminate the terror of a live coding demo training tutorial"
 summary: "I've prepared dozens of project based online tutorials and given as many live training sessions featuring the dreaded 'live coding' demo. It can be embarrasing when you type in a comma instead of a semicolon. Here's a process for having a flawless demo."
 hero: /images/posts/markus-spiske-Skf7HxARcoc-unsplash.jpg
 thumb: /images/posts/markus-spiske-Skf7HxARcoc-unsplash_tn.png
-
+category: posts
 tags:
   - tutorial
   - web development
@@ -137,10 +137,8 @@ For my code, I want just a simple template with the bootstrap css and no script 
     <div class="container">
       <h1>Headline</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa
-        officiis, velit minus deserunt est suscipit. Consequuntur laboriosam
-        est, illum totam voluptates tempore commodi ut, molestiae nulla vel
-        dicta aperiam tenetur?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa officiis, velit minus deserunt est suscipit. Consequuntur laboriosam est,
+        illum totam voluptates tempore commodi ut, molestiae nulla vel dicta aperiam tenetur?
       </p>
       ...
     </div>
@@ -206,9 +204,9 @@ For the next step, we're going to show some of the options available with the li
   let notyf = new Notyf({
     duration: 0,
     dismissible: true,
-    position: { x: 'right', y: 'top' },
-  })
-  notyf.success('Way to go Bud')
+    position: { x: "right", y: "top" },
+  });
+  notyf.success("Way to go Bud");
 </script>
 ```
 

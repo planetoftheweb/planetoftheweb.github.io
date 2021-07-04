@@ -4,8 +4,7 @@ title: "The Creator Conundrum"
 summary: "This week, I'm talking about Creator Mode and what it's going to do to LinkedIn and my own journey learning to accept the inevitable. No nerdy stuff, just a bit of excitement over the feature now being available to everyone."
 hero: /images/posts/creatorconundrum.png
 thumb: /images/posts/creatorconundrum_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 Some things are inevitable and there's just a few ways you can respond to them. You can try to ignore what's coming, try to prevent it from happening or join the party. I'm not talking about robots taking over the world or going after your job.

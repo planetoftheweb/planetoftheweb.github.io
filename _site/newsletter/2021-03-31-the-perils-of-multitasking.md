@@ -4,8 +4,7 @@ title: "The Perils of Multi-tasking"
 summary: "I got sick last week and couldn't record videos. So in this edition, I talk about the power of leveraging one activity to get multiple pieces of content, plus, how that can be a struggle when managing your life."
 hero: /images/posts/multitasking.png
 thumb: /images/posts/multitasking_tn.png
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 One of the by-products of learning a second language (English for me) is that you learn everything by context. But sometimes the context doesn't make sense. In English people tend to tell you that they don't mean to do something right before they're about to do that very thing.

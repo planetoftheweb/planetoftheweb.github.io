@@ -4,8 +4,7 @@ title: "Supreme Assistance"
 summary: "This week, I talk about the large amount of code people copy from Stack Overflow and a recent ruling from the US Supreme court that makes it a-ok."
 hero: /images/posts/supreme-assistance.svg
 thumb: /images/posts/supreme-assistance_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 I'm never as busy as when I'm trying to finish a course. Specially something like the Bootstrap course I'm going through. It's by far, the largest topic I cover. It got me thinking about how much of the work we do relies on the help we give one another.

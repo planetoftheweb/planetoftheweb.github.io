@@ -5,7 +5,9 @@ thumb: "/images/courses/vueinterface_tn.jpg"
 hero: "/images/courses/vueinterface.jpg"
 links:
   - lil: https://www.linkedin.com/learning/vue-js-building-an-interface-2/
+category: courses
 tags:
+  - external
   - frameworks
   - vue.js
   - javascript

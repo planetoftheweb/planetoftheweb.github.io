@@ -5,4 +5,5 @@ summary: "What should you study? The importance of Degrees, Internships, Github 
 thumb: "https://i.ytimg.com/vi/vlReYJkGNpQ/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/vlReYJkGNpQ/maxresdefault.jpg"
 video: vlReYJkGNpQ
+category: videos
 ---

@@ -1,11 +1,11 @@
 ---
 layout: post
-title: 'Online Tools, Extensions and Modules to Get Started on your Next Web Development Project'
+title: "Online Tools, Extensions and Modules to Get Started on your Next Web Development Project"
 summary: "You've got a new project to build, but how to begin. Ohhh the many ways to go. Should I use React, Svelte or Vue.js. Bootstrap or Tailwind, which Bundler should I use. Heres some great ways to get going quickly."
 hero: /images/posts/faster-1080p-thumbnail.jpg
 thumb: /images/posts/fasterprojects_tn.jpg
 video: UQkhm_fQnOU
-
+category: posts
 tags:
   - tutorial
   - video
@@ -16,7 +16,6 @@ tags:
 ## Emmet
 
 [![Emmet Screenshot](https://pixelprowess.com/i/2021-03-13_14-04-11.png)](https://www.emmet.io/)
-
 
 First, let me go with Some of the easiest. If you use Visual Studio Code, it comes with [Emmet](https://www.emmet.io/) installed. Emmet is a toolkit for coding faster through quick shortcuts.
 
@@ -36,7 +35,6 @@ Emmet is great for building little templates of content types you can add. Trust
 ## HTML Boilerplate
 
 [![HTML Boilerplate](https://pixelprowess.com/i/started-html-boilerplate.jpg)](https://htmlboilerplates.com)
-
 
 Another way to get started quickly on your page if you want a little some more flexibility is to use this website called [HTML Boilerplates](https://htmlboilerplates.com/)[.](https://htmlboilerplates.com.) It gives you the structure for different component that might need to go on your HTML page. It's not a ton of options, but it has a lot of the things that you'll need to have in your boilerplates to get going.
 
@@ -81,6 +79,7 @@ If you want to clone just a sub-directory, you can simply add slashes to read th
 The big advantage here is that you're cloning the repo without history, so you can grab a piece of a project to begin a new project easily.
 
 ## Create app
+
 [![Create App](https://pixelprowess.com/i/started-createapp.jpg)](https://createapp.dev/)
 
 For more advanced projects need more choices, you can try [Create App](https://createapp.dev/). It lets you choose different libraries like React, Svelte or vanilla JavaScript, build tools like WebPack, Parcel or Snowpack, UI Libraries like Bootstrap or Tailwind CSS.
@@ -88,6 +87,7 @@ For more advanced projects need more choices, you can try [Create App](https://c
 Name your project, and you can either hit the download project button to get a zip file, or you can copy the terminal commands you'll need to set this up yourself.
 
 ## Vite
+
 [![Vite](https://pixelprowess.com/i/started-vite.jpg)](https://vitejs.dev/)
 
 Create App is cool and all, but what if you're not really into so many choices. You just need something super modern and quick, not so many choices between bundlers or build tools. My new favorite is [Vite](https://vitejs.dev/).
@@ -95,5 +95,3 @@ Create App is cool and all, but what if you're not really into so many choices. 
 Some of the features include a live preview server, native javascript import commands, hot module replacement, support for CSS, JSX and typescript. Vite doesn't let you choose, it just uses Rollup, ESbuild and template support for React, Vue, VanillaJS and Lit-Element.
 
 It's one of those things that just works.
-
-

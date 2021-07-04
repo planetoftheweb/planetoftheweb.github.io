@@ -5,6 +5,7 @@ summary: "The Bootstrap Carousel is one of the the most popular components in Bo
 hero: /images/posts/hackingbootstrap-gradients.png
 thumb: /images/posts/hackingbootstrap-gradients_tn.jpg
 video: KHF6nysy0-c
+category: posts
 tags:
   - tutorial
   - video

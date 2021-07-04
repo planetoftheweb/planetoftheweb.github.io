@@ -4,8 +4,7 @@ title: "The Space Rules"
 summary: "This week, I might just settle that argument of wether spaces or tabs are best in development. I'll even tell you if I prefer single over double quotes. Somehow I end up talking about privacy and make a big announcement about my largest course ever."
 hero: /images/posts/spacerules.png
 thumb: /images/posts/spacerules_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 I love programming, so I'm really having fun working on an internal project with my friends. But sometimes, even when working with friends, you can run into serious conflict. In programming, one of the first things you learn is that when in a team, you have to adjust to the style of other developers. Here's a brief conversation between me and my friend Morten.

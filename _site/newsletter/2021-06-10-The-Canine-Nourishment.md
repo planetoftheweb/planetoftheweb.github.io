@@ -4,8 +4,7 @@ title: "The Canine Nourishment"
 summary: "Don't worry, this is not going to be an article about Mojo, the coding dog...or his food. It's more about making sure you understand your product, before you start making changes."
 hero: /images/posts/caninenourishment.png
 thumb: /images/posts/caninenourishment_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 I worked for several large and small companies over my career and designed large and small websites. One of the best things that happened to me was enrolling in a program for a week at the Tribune network of newspapers where I got to go to the Editor's meeting every day and sit in on the conversations about what went into the next day's newspaper.

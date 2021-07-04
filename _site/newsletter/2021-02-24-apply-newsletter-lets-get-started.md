@@ -4,8 +4,7 @@ title: "Lets Get Started"
 summary: "In this first edition, I try to explain what I'm doing with the newsletter, a bit of my background story and highlight some of the work I've been doing recently."
 hero: /images/posts/apply-get-started.png
 thumb: /images/posts/apply-get-started_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 Here I go. I'm going to get started on this newsletter I've been thinking about for so long. It's not easy committing to, but unless you jump in, you might never get started.

@@ -5,4 +5,5 @@ summary: "Rayveal.js is an adaptation of the popular reveal.js framework, but it
 thumb: "https://i.ytimg.com/vi/S53U5x_4tBM/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/S53U5x_4tBM/maxresdefault.jpg"
 video: S53U5x_4tBM
+category: videos
 ---

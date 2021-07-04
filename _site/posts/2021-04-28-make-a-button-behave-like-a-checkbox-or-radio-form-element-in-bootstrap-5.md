@@ -4,6 +4,7 @@ title: "Best Bootstrap 5 Features-Turn a button into a checkbox or radio form el
 summary: "Bootstrap 5 has a lot of new features, but sometimes it's the smaller things that really impress me. Let's take a look at just one of those new features. Making something that looks like a button behave like a checkbox or radio element"
 hero: /images/posts/bootstrapbuttoncheckboxes.png
 thumb: /images/posts/bootstrapbuttoncheckboxes_tn.jpg
+category: posts
 tags:
   - tutorial
   - video

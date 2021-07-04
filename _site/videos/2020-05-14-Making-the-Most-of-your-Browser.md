@@ -5,4 +5,5 @@ summary: "The browser is the Swiss army knife of the Web, in this episode we tal
 thumb: "https://i.ytimg.com/vi/MSltP3aFyCM/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/MSltP3aFyCM/maxresdefault.jpg"
 video: MSltP3aFyCM
+category: videos
 ---

@@ -5,7 +5,9 @@ thumb: "/images/courses/react-interface2021_tn.jpg"
 hero: "/images/courses/react-interface2021.jpg"
 links:
   - lil: https://www.linkedin.com/learning/react-js-building-an-interface-8551484
+category: courses
 tags:
+  - external
   - react
   - javascript
   - frameworks

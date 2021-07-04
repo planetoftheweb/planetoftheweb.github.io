@@ -4,8 +4,7 @@ title: "The Power of the Story"
 summary: "I attended a ClubHouse event last week with some high profile Engineering Hiring Managers on the topic of getting a job in Technology. I had a chance to ask them a question: Tell me about an instance when someone really impressed you during an interview. I didn't expect the reply, but I should have."
 hero: /images/posts/storytelling.png
 thumb: /images/posts/storytelling_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 I attended a [ClubHouse](https://www.joinclubhouse.com/@planetoftheweb) event last week with some high profile Engineering Hiring Managers on the topic of getting a job in Technology. I had a chance to ask them a question: "Tell me about an instance when someone really impressed you during an interview; What was the one thing that impressed you about an individual applying for a job?". I didn't expect the reply, but I should have.

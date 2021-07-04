@@ -6,4 +6,5 @@ summary: "Some LinkedIn Learning technology courses have Github repositories ass
 thumb: "https://i.ytimg.com/vi/aDDKibLYm18/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/aDDKibLYm18/maxresdefault.jpg"
 video: "https://www.youtube.com/watch?v=aDDKibLYm18"
+category: videos
 ---

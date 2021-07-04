@@ -4,8 +4,7 @@ title: "The Course Hustle"
 summary: "This week, still recuperating, I walk you in detail through what it took to put together my latest Bootstrap 5 Essential Training course. I talk about adding a 15% challenge of something new in every project...which sometimes balloons to like 40%, but once you're committed, you can't stop...won't stop."
 hero: /images/posts/thecoursehustle.png
 thumb: /images/posts/thecoursehustle_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 Well, I'm still a bit ill this week, but definitely on the mend, so although I'm taking it easy, I'm still plugging along forward. It's giving me some time to reflect on what's going on. I thought I'd give you a bit of info about how I put together a course. Specifically the one I just finished before I got all sick.

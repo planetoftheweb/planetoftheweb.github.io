@@ -5,4 +5,5 @@ summary: "To get the smallest sizes for your web design images, you need to try 
 thumb: "https://i.ytimg.com/vi/KvQ4WCIXg0w/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/KvQ4WCIXg0w/maxresdefault.jpg"
 video: "KvQ4WCIXg0w"
+category: videos
 ---

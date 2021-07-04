@@ -5,4 +5,5 @@ summary: "Let's take a look at one of Bootstrap's new projects...the npm starter
 thumb: "https://i.ytimg.com/vi/u7ta6qj_aCw/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/u7ta6qj_aCw/maxresdefault.jpg"
 video: u7ta6qj_aCw
+category: videos
 ---

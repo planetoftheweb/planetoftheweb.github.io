@@ -4,8 +4,7 @@ title: "The Relentless Pursuit"
 summary: "Feeling better, I go over how my failure at photography is a perfect example of how I approach...well everything. I have a new video and I talk about the ways I'm editing, recording and writing differently these days."
 hero: /images/posts/relentlesspursuit.png
 thumb: /images/posts/relentlesspursuit_tn.jpg
-tags:
-  - Apply Newsletter
+category: newsletter
 ---
 
 Years ago I took a picture of my daughter. It was just about the worst picture ever taken. Minutes later, my wife took a picture a few feet away from where I had taken the bad picture and it was amazing! The difference was the light was better where she took her picture, but I didn't know that at the time.

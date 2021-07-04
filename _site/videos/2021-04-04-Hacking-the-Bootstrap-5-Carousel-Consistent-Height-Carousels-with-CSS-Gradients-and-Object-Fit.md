@@ -5,4 +5,5 @@ summary: "You don't have to use a single carousel on a page, they work really we
 thumb: "https://i.ytimg.com/vi/0-1aD5M40js/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/0-1aD5M40js/maxresdefault.jpg"
 video: "0-1aD5M40js"
+category: videos
 ---

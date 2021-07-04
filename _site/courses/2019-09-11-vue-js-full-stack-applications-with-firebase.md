@@ -5,7 +5,9 @@ thumb: "/images/courses/vuefirebase_tn.jpg"
 hero: "/images/courses/vuefirebase.jpg"
 links:
   - lil: https://www.linkedin.com/learning/vue-js-full-stack-applications-with-firebase
+category: courses
 tags:
+  - external
   - frameworks
   - vue.js
   - firebase

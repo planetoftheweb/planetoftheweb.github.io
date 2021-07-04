@@ -1,11 +1,13 @@
 ---
-title: 'Gulp.js: Web Project Workflows'
-summary: 'Developing an efficient workflow will help you write better code and test and deploy your web applications easily and efficiently. Gulp.js make setting up compression, minification, preprocessing, and other common tasks easy.'
-thumb: '/images/courses/gulp_tn.jpg'
-hero: '/images/courses/gulp.jpg'
+title: "Gulp.js: Web Project Workflows"
+summary: "Developing an efficient workflow will help you write better code and test and deploy your web applications easily and efficiently. Gulp.js make setting up compression, minification, preprocessing, and other common tasks easy."
+thumb: "/images/courses/gulp_tn.jpg"
+hero: "/images/courses/gulp.jpg"
 links:
   - lil: https://www.linkedin.com/learning/gulp-js-web-project-workflows/
+category: courses
 tags:
+  - external
   - careers
   - full stack
   - web development

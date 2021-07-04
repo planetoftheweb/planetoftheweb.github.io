@@ -5,4 +5,5 @@ summary: "In this Episode of NAP - Not a Podcast, we take questions from our Lin
 thumb: "https://i.ytimg.com/vi/Ml84e4-qgZI/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/Ml84e4-qgZI/maxresdefault.jpg"
 video: "Ml84e4"
+category: videos
 ---

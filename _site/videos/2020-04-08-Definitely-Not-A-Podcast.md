@@ -5,4 +5,5 @@ summary: "A Live Stream about the Internet, technology and development. With Sha
 thumb: "https://i.ytimg.com/vi/kIzEi7Qh1Yc/hqdefault.jpg"
 hero: "https://i.ytimg.com/vi/kIzEi7Qh1Yc/maxresdefault.jpg"
 video: kIzEi7Qh1Yc
+category: videos
 ---

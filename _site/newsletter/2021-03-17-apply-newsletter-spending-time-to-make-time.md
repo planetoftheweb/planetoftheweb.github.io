@@ -4,9 +4,7 @@ title: "Spending Time to Make Time"
 summary: "Need a little more time on your day to get things done? Sometimes the best way to make time is to spend some time. In this edition of my weekly newsletter, I talk about some of the things that help me fit more into my schedule as a developer with a bonus video highlighting several tools I use to start new web development projects. "
 hero: /images/posts/racingcar.jpg
 thumb: /images/posts/racingcar_tn.jpg
-tags:
-  - external
-  - Apply Newsletter
+category: newsletter
 ---
 
 Developers are notorious for being lazy. So much of our work involves developing efficiencies...ways of doing things faster with less work. I'm obsessed with streamlining processes, it's one of those things that brings joy to my heart. Unfortunately, you have to do a lot of work to save a lot of work. Most people get stuck on getting started with their time saving project.

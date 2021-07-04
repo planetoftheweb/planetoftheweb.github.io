@@ -6,6 +6,7 @@ hero: /images/posts/beforeframework.jpg
 thumb: /images/posts/beforeframework_tn.png
 links:
   - linkedin: https://www.linkedin.com/pulse/before-your-learn-new-javascript-framework-make-sure-youve-ray
+category: posts
 tags:
   - external
   - web design

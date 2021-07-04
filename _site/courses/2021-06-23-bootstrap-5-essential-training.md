@@ -5,7 +5,9 @@ thumb: "/images/courses/bootstrap5Esst_tn.jpg"
 hero: "/images/courses/bootstrap5Esst.jpg"
 links:
   - lil: https://www.linkedin.com/learning/bootstrap-5-essential-training
+category: courses
 tags:
+  - external
   - bootstrap
   - javascript
   - frameworks
