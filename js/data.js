@@ -1,9 +1,16 @@
 [{
   "title": "GitHub Copilot Demo and Review",
-  "date" : "Jul 04, 2021",
+  "date" : "Jul 08, 2021",
   "summary" : "Well...the secret about being a programmer is that you&#39;re always looking things up. Wether it&#39;s through MDN, the mozilla developer network. Github Copilot works sort of like AutoComplete, but it&#39;s a lot cooler. To use it, you can just try to write a function with a logical name and the AI will use billions of lines of code to give you something that...well might work.",
   "thumbnail": "/images/videos/githubcopilot_tn.jpg",
   "url": "/videos/2021-06-3--Github-Copilot-Demo/",
+  "tags" : ""
+},{
+  "title": "The Unpredictable Storm",
+  "date" : "Jul 08, 2021",
+  "summary" : "Hurricane Elsa wasn&#39;t the strongest hurricane when it passed through my area, but sometimes the unexpected storms are the best reminders of how to prepare yourself for the future. In this issue, I take a look at how to prepare for the coming storms and two companies that are doing it right. Plus I talk about my next live stream...The Toolbox.",
+  "thumbnail": "/images/newsletter/unpredictablestorm_tn.jpg",
+  "url": "/newsletter/2021-07-08-The-Unpredictable-Storm/",
   "tags" : ""
 },{
   "title": "The Auspicious Overlords",
