@@ -1,10 +1,17 @@
 [{
   "title": "GitHub Copilot Demo and Review",
-  "date" : "Jul 08, 2021",
+  "date" : "Jul 15, 2021",
   "summary" : "Well...the secret about being a programmer is that you&#39;re always looking things up. Wether it&#39;s through MDN, the mozilla developer network. Github Copilot works sort of like AutoComplete, but it&#39;s a lot cooler. To use it, you can just try to write a function with a logical name and the AI will use billions of lines of code to give you something that...well might work.",
   "thumbnail": "/images/videos/githubcopilot_tn.jpg",
   "url": "/videos/2021-06-3--Github-Copilot-Demo/",
   "tags" : ""
+},{
+  "title": "Ep. 00 - JavaScript is Definitely Weird",
+  "date" : "Jul 14, 2021",
+  "summary" : "In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test.",
+  "thumbnail": "/images/site/thetoolbox_tn.png",
+  "url": "/toolbox/2021-07-14-The-Toolbox-Ep-00-JavaScript-is-Definitely-Weird/",
+  "tags" : "thetoolbox"
 },{
   "title": "The Unpredictable Storm",
   "date" : "Jul 08, 2021",

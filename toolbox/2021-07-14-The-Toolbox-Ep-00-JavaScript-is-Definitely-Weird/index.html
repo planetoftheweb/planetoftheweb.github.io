@@ -1,0 +1,273 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <meta name="description" content="In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test." />
+    <meta property="og:title" content="Ep. 00 - JavaScript is Definitely Weird" />
+    <meta property="og:description" content="In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test." />
+    <meta property="og:image" content="https://raybo.org/images/site/thetoolbox-illustration.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2021-07-14-The-Toolbox-Ep-00-JavaScript-is-Definitely-Weird/">
+    <meta name="twitter:title" content="Ep. 00 - JavaScript is Definitely Weird">
+    <meta name="twitter:description" content="In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test.">
+    <meta name="twitter:image" content="https://raybo.org/images/site/thetoolbox-illustration.png">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
+ 
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body class="position-relative">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  bg-dark sticky-top  py-0">
+  <div class="container-fluid">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="bi bi-house-door-fill"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/toolbox/0/">toolbox</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                  <i class="bi bi-linkedin text-secondary me-1"></i> linkedin
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                  <i class="bi bi-github text-secondary me-1"></i> github
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                  <i class="bi bi-suit-club text-secondary me-1"></i> clubhouse
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                  <i class="bi bi-twitter text-secondary me-1"></i> twitter
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                  <i class="bi bi-image text-secondary me-1"></i> flickr
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                  <i class="bi bi-youtube text-secondary me-1"></i> youtube
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                  <i class="bi bi-instagram text-secondary me-1"></i> instagram
+              </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="site-header ratio ratio-16x9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/GjfHjnfIA9E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+<h1>Ep. 00 - JavaScript is Definitely Weird</h1>
+<p class="lead">In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test.</p>
+
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <h2 id="npm-and-the-boy-who-cried-wolf">NPM and the Boy Who Cried Wolf <a class="direct-link" href="#npm-and-the-boy-who-cried-wolf"> </a></h2>
+<p><a href="https://go.raybo.org/4zWW"><img src="http://pixelprowess.com/i/2021-07-14_10-00-56.png" alt="NPM and the Boy Who Cried Wolf"></a></p>
+<p><a href="https://www.npmjs.com/">NPM</a>, the tool that is installed with <a href="https://nodejs.org/en/">NodeJS</a>...which most web developers use everyday has a false positive approach that creates a 'boy who cried wolf' problem. This great article from <a href="https://mobile.twitter.com/dan_abramov">Dan Abramov</a> is a deep dive into why that's a problem and potential fixes.</p>
+<p>The main problem is that it over reports vulnerabilities and dependency problems, so for example, almost everytime I write a blog post, I notice that some dependency is out of date, often with a high severity. As vulnerabilities are found on projects, NPM records and mentions this, which is a great thing.</p>
+<p>However, because my site is a static site, I don't publish code that has these dependencies. That's one of the problems this article talks about. Some of the suggestions for fixing things are: <strong>Move dependency to devDependencies</strong> to make sure things the published site doesn't need don't get published. <strong>Inline all dependencies during publish</strong> (<a href="https://vitejs.dev/">Vite</a> does this), so that once things are transpiled into the published site, they dependency issue goes away.</p>
+<hr>
+<h2 id="appsumo-day-sale">AppSumo Day Sale <a class="direct-link" href="#appsumo-day-sale"> </a></h2>
+<p><a href="https://appsumo.com/"><img src="http://pixelprowess.com/i/2021-07-14_11-26-38.png" alt="AppSumo Day Sale"></a></p>
+<p>This is a limited time deal, but the site is always awesome. AppSumo has a lot of up and coming apps often offered with lifetime deals. I've found so many useful apps here like Publr and Switchy. They have some specials that are set to last only for a couple of days.</p>
+<ul>
+<li>I like the concept of <a href="https://appsumo.com/products/getterms/">GetTerms</a>, since these days sites and apps require privacy policies. This gives you some reasonable one size fits most privacy policy. I'd gotten in on this deal before.</li>
+<li><a href="https://appsumo.com/products/onestream-live/">OneStream Live</a> lets you both live stream, but also schedule pre-recorded live streams and it will take care of simulcasting it in multiple social media platforms for you. I bought this one when it was previous offered, but I'm still using <a href="https://streamyard.com/">StreamYard</a>, which does some of the same things, but lets you also have multiple guests. Still, for a one time deal, OneStream looks pretty sweet.</li>
+<li>Who doesn't love stickers. <a href="https://appsumo.com/products/stickermule/">StickerMule</a> will often run special deals on things like die cuts and regular stickers. They're offering Holographic Stickers this time for only $9. This one's a little harder to find on the site, but it's well worth it.</li>
+</ul>
+<p>You can use the code SUMODAY for 10% off and there's lots more deals and it runs from July 13-16th.</p>
+<hr>
+<h2 id="wikipedia-ql">Wikipedia QL <a class="direct-link" href="#wikipedia-ql"> </a></h2>
+<p><a href="https://github.com/zverok/wikipedia_ql"><img src="http://pixelprowess.com/i/2021-07-14_11-48-35.png" alt="Wikipedia QL"></a></p>
+<p>This <a href="https://github.com/zverok/wikipedia_ql">npm project</a> is a tool for querying Wikipedia. It's a NodeJS module that uses the <a href="https://en.wikipedia.org/wiki/Wikipedia:API">Wikipedia API</a> to retrieve metadata in an easy to digest JSON format. It runs on and returns easy to part JSON data. I like that at the end of the NPM project it shows some reasons why this is a better approach than other solutions provide by and for Wikipedia.</p>
+<hr>
+<h2 id="git-restore-and-switch">Git Restore and Switch <a class="direct-link" href="#git-restore-and-switch"> </a></h2>
+<p><img src="http://pixelprowess.com/i/2021-07-14_11-53-21.png" alt="Git Switch and Restore">.</p>
+<p>There's been some recent changes to Git, the most popular version control system for web developers. The <code>git checkout</code> command had been doing the work of switching to commits and branches as well as restoring the state of commits. That work has now been split into two different commands, <code>git restore</code> and <code>git switch</code>.</p>
+<p>The most important thing to remember is that you use <code>git switch -c BRANCHNAME</code> to create a new branch instead of <code>git restore .</code> to switch to a branch. The old way of switching to a branch is deprecated, but still works and might be removed in the future, so you might as well start getting used to it.</p>
+<hr>
+<h2 id="js-is-weird">JS is Weird <a class="direct-link" href="#js-is-weird"> </a></h2>
+<p><a href="https://jsisweird.com/"><img src="http://pixelprowess.com/i/2021-07-14_12-22-29.png" alt="JS is Weird"></a></p>
+<p>I'm not big on quizzes...they bring back old memories of bad teachers, but I really think you should take <a href="https://jsisweird.com/">this quiz</a>. It's full of questions about JavaScript's quirkiness, so this isn't about learning useful code for your next project. and the best part of the quiz is not the questions, but at the end, the site provides thorough explanations of why the developer chose to write his own query language.</p>
+<h3 id="see-you-next-week">See you next week <a class="direct-link" href="#see-you-next-week"> </a></h3>
+<p>The best way to keep up with what I'm up to is to follow me on Linkedin at <a href="https://www.linkedin.com/in/planetoftheweb/">linkedin/in/planetoftheweb</a>. I'm also on all of the other less superior social media platforms at planetoftheweb.</p>
+
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#npm-and-the-boy-who-cried-wolf">NPM and the Boy Who Cried Wolf  </a>
+            		</li>
+
+                    <li><a href="#appsumo-day-sale">AppSumo Day Sale  </a>
+            		</li>
+
+                    <li><a href="#wikipedia-ql">Wikipedia QL  </a>
+            		</li>
+
+                    <li><a href="#git-restore-and-switch">Git Restore and Switch  </a>
+            		</li>
+
+                    <li><a href="#js-is-weird">JS is Weird  </a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
+</article>
+
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="container d-flex justify-content-center"><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
+      <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://github.com/planetoftheweb">
+      <i class="bi bi-github text-secondary me-1"></i>github
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.joinclubhouse.com/planetoftheweb">
+      <i class="bi bi-suit-club text-secondary me-1"></i>clubhouse
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://twitter.com/planetoftheweb">
+      <i class="bi bi-twitter text-secondary me-1"></i>twitter
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="bi bi-image text-secondary me-1"></i>flickr
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="bi bi-youtube text-secondary me-1"></i>youtube
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.instagram.com/planetoftheweb">
+      <i class="bi bi-instagram text-secondary me-1"></i>instagram
+      </a>
+    </div></div>
+      <div class="text-center">
+      <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+      <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+      </div>
+    </footer>
+
+  <script>
+    (function () {
+      let nav = document.querySelector('.site-nav')
+      let mainContent = document.querySelector('#main-content')
+      let navHeight = nav.scrollHeight
+
+      function moveHeader() {
+        let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+        mainOnTop < 0
+          ? nav.classList.add('in-body')
+          : nav.classList.remove('in-body')
+
+        window.requestAnimationFrame(moveHeader)
+      }
+      window.requestAnimationFrame(moveHeader)
+    })();
+  </script>
+  <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"lang":"en","siteId":2197414,"cookiePolicyId":85544448, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html>
