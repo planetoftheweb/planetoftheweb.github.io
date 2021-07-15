@@ -1,11 +1,4 @@
 [{
-  "title": "GitHub Copilot Demo and Review",
-  "date" : "Jul 15, 2021",
-  "summary" : "Well...the secret about being a programmer is that you&#39;re always looking things up. Wether it&#39;s through MDN, the mozilla developer network. Github Copilot works sort of like AutoComplete, but it&#39;s a lot cooler. To use it, you can just try to write a function with a logical name and the AI will use billions of lines of code to give you something that...well might work.",
-  "thumbnail": "/images/videos/githubcopilot_tn.jpg",
-  "url": "/videos/2021-06-3--Github-Copilot-Demo/",
-  "tags" : ""
-},{
   "title": "The Quizzical Dream",
   "date" : "Jul 15, 2021",
   "summary" : "In this episode, I talk about the joys of quizzing. Also, why I think it&#39;s an inffective tool for gauging developer performance and how I came up with the perfect quiz that you have to get 100% in order to pass. Plus, you can watch me struggle through a JS quiz.",
@@ -60,6 +53,13 @@
   "summary" : "Don&#39;t worry, this is not going to be an article about Mojo, the coding dog...or his food. It&#39;s more about making sure you understand your product, before you start making changes.",
   "thumbnail": "/images/posts/caninenourishment_tn.jpg",
   "url": "/newsletter/2021-06-10-The-Canine-Nourishment/",
+  "tags" : ""
+},{
+  "title": "GitHub Copilot Demo and Review",
+  "date" : "Jun 03, 2021",
+  "summary" : "Well...the secret about being a programmer is that you&#39;re always looking things up. Wether it&#39;s through MDN, the mozilla developer network. Github Copilot works sort of like AutoComplete, but it&#39;s a lot cooler. To use it, you can just try to write a function with a logical name and the AI will use billions of lines of code to give you something that...well might work.",
+  "thumbnail": "/images/videos/githubcopilot_tn.jpg",
+  "url": "/videos/2021-06-03-Github-Copilot-Demo/",
   "tags" : ""
 },{
   "title": "The Geekier Edition",
