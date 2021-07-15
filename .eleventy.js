@@ -3,6 +3,8 @@ const pluginRss = require('@11ty/eleventy-plugin-rss')
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight')
 const pluginTOC = require('eleventy-plugin-nesting-toc')
 const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
+const now = new Date();
+const livePosts = post => post.date <= now;
 
 module.exports = function (eleventyConfig) {
 
@@ -40,27 +42,32 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addCollection('home', function (collection) {
-    return collection.getFilteredByGlob(['./_site/posts/*.md', './_site/newsletter/*.md', './_site/toolbox/*.md', './_site/courses/*.md', './_site/videos/*.md']).reverse()
+    return collection.getFilteredByGlob(['./_site/posts/*.md', './_site/newsletter/*.md', './_site/toolbox/*.md', './_site/courses/*.md', './_site/videos/*.md']).filter(livePosts).reverse()
   })
 
   // only content in the `posts` directory
   eleventyConfig.addCollection('posts', function (collection) {
-    return collection.getFilteredByGlob('./_site/posts/*.md').reverse()
+    return collection.getFilteredByGlob('./_site/posts/*.md').filter(livePosts).reverse()
   })
 
   // only content in the `courses` directory
   eleventyConfig.addCollection('courses', function (collection) {
-    return collection.getFilteredByGlob('./_site/courses/*.md').reverse()
+    return collection.getFilteredByGlob('./_site/courses/*.md').filter(livePosts).reverse()
   })
 
   // only content in the `newsletter` directory
   eleventyConfig.addCollection('newsletter', function (collection) {
-    return collection.getFilteredByGlob('./_site/newsletter/*.md').reverse()
+    return collection.getFilteredByGlob('./_site/newsletter/*.md').filter(livePosts).reverse()
+  })
+
+  // only content in the `toolbox` directory
+  eleventyConfig.addCollection('toolbox', function (collection) {
+    return collection.getFilteredByGlob('./_site/toolbox/*.md').filter(livePosts).reverse()
   })
 
   // only content in the `videos` directory
   eleventyConfig.addCollection('videos', function (collection) {
-    return collection.getFilteredByGlob('./_site/videos/*.md').reverse()
+    return collection.getFilteredByGlob('./_site/videos/*.md').filter(livePosts).reverse()
   })
 
   eleventyConfig.addCollection('searchable', function (collection) {
@@ -71,7 +78,7 @@ module.exports = function (eleventyConfig) {
         './_site/newsletter/*.md',
         './_site/toolbox/*.md',
         './_site/videos/*.md'
-      ])
+      ]).filter(livePosts)
       .reverse()
   })
 

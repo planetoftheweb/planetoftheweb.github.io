@@ -1,0 +1,38 @@
+---
+layout: page.njk
+hero: /images/site/thetoolbox-illustration.png
+tags:
+  - nav
+iconclass: fas fa-toolbox
+pagination:
+  data: collections.toolbox
+  size: 10
+navtitle: Toolbox
+eleventyNavigation:
+  key: toolbox
+  parent: main
+  order: 1
+permalink: /toolbox/{{pagination.pageNumber}}/
+---
+
+{% include "pagination.njk" %}
+<div class="row">
+  <div class="col">
+  {%- for item in pagination.items %}
+    {% include "items.njk" %}
+  {% endfor -%}
+  {% include "pagination.njk" %}
+  </div>
+  <div class="col-md-3">
+    <div class="sidebar-merch">
+    {% include "sidebar_merch.njk" %}
+    </div>
+    {% from '../_includes/sidebar_carousel.njk' import carousel %}
+    <div class="sidebar-videos">
+      <h6 class="text-secondary mt-3 px-3 px-sm-0">Latest Videos</h6>
+      {% set itemList = collections.videos | head(4) %}
+      {{ carousel(itemList, id = 'sidebar-videos') }}
+      <a href="/toolbox/0" class="d-lg-block text-secondary family-sans"><i class="fab fa-youtube"></i> All Toolbox</a>
+    </div>
+  </div>
+</div>
