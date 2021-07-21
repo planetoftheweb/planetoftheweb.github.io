@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Ep. 00 - JavaScript is Definitely Weird
+title: "Why JavaScript is Definitely Weird: The Toolbox - Episode 00"
 summary: "In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test."
 video: GjfHjnfIA9E
 hero: /images/site/thetoolbox-illustration.png
