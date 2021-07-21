@@ -1,4 +1,11 @@
 [{
+  "title": "How Can Github Help me Manage my Development Projects? The Toolbox - Episode 01",
+  "date" : "Jul 21, 2021",
+  "summary" : "In this episode...the official first episode of the Toolbox, we&#39;ll take a look at some great new tools, including my new favorite flowchart designer, a site that explains the shell and I&#39;ll introduce you to the tools inside Github that help with Project Management.",
+  "thumbnail": "/images/toolbox/GithubTimeMachine_tn.jpg",
+  "url": "/toolbox/2021-07-21-Managing-your-projects-with-GitHub-The-Toolbox-Ep-01/",
+  "tags" : "thetoolbox,github"
+},{
   "title": "The Quizzical Dream",
   "date" : "Jul 15, 2021",
   "summary" : "In this episode, I talk about the joys of quizzing. Also, why I think it&#39;s an inffective tool for gauging developer performance and how I came up with the perfect quiz that you have to get 100% in order to pass. Plus, you can watch me struggle through a JS quiz.",
@@ -6,7 +13,7 @@
   "url": "/newsletter/2021-07-15-The-Quizzical-Dream/",
   "tags" : ""
 },{
-  "title": "Ep. 00 - JavaScript is Definitely Weird",
+  "title": "Why JavaScript is Definitely Weird: The Toolbox - Episode 00",
   "date" : "Jul 14, 2021",
   "summary" : "In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test.",
   "thumbnail": "/images/site/thetoolbox_tn.png",
