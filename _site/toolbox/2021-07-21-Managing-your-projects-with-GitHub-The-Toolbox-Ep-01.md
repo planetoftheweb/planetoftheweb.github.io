@@ -2,7 +2,7 @@
 layout: post
 title: "How Can Github Help me Manage my Development Projects? The Toolbox - Episode 01"
 summary: "In this episode...the official first episode of the Toolbox, we'll take a look at some great new tools, including my new favorite flowchart designer, a site that explains the shell and I'll introduce you to the tools inside Github that help with Project Management."
-video: djiiIhLZtOs
+video: djiiIhLZtOs?t=97
 hero: /images/toolbox/GithubTimeMachine.jpg
 thumb: /images/toolbox/GithubTimeMachine_tn.jpg
 category: toolbox
@@ -13,11 +13,14 @@ tags:
 
 Welcome to The Toolbox. My new livestream, where I take a look some of the most useful tools for web developers.
 
+# The Tools
+
 ## Flowchart Designer 3
 
 <small>(Mac/iPhone/iPad • Free/$7.99 Pro)</small>
 
-[![Screenshot of Flowchart Designer 3](http://pixelprowess.com/i/2021-07-14_09-36-45.png)]](https://apps.apple.com/us/app/flowchart-designer-3/id1512570906#?platform=ipad)
+[![Screenshot of Flowchart Designer 3](http://pixelprowess.com/i/2021-07-14_09-36-45.png)](https://apps.apple.com/us/app/flowchart-designer-3/id1512570906#?platform=ipad)
+
 I'd been looking for a great way to create flowcharts, and I came across [Flowchart Designer 3](https://apps.apple.com/us/app/flowchart-designer-3/id1512570906#?platform=ipad), which was just what I needed for some simple charts. There's a free version with a $7.99 upgrade for some more shapes. It works just as you'd expect.
 
 The arrows automatically connect the nodes, which then move with as you adjust other notes, items auto align to a grid and it's easy to enter some labels. Plus it lets you save as a transparent PNG or PDF. I do wish it would let you save SVGs directly from the app though.
@@ -57,15 +60,11 @@ Nice little QR Code builder for giving people your WiFi Details. https://go.rayb
 
 # GitHub Project Management
 
-> >
-
 Github provides a lot of tools to help you manage projects and if you've never used them before, you're really missing out. I wanted to take the time to go over how it works.
 
 ---
 
-# Contributors
-
-> >
+## Contributors
 
 First, You can invite someone to join and participate on your project. That's especially useful for repositories like this one, which are private. Someone who can make changes to your project is called a contributor.
 
@@ -75,24 +74,24 @@ Once you add contributors, then Github will become a bit more useful.
 
 ---
 
-# Creating an Issue
+## Creating an Issue
 
 Issues let you create todos and communicate with collaborators on your project to identify things that need to be taken care of. They are the primary way to organize to dos and tasks. They can flg bugs and lets you have discussion with either the public or the other members of your team.
 
 ---
 
-# Organizing into MileStones
+## Organizing into MileStones
 
 Once you have a lot of issues, things can get messy in the issues tab. You can create milestones to help you filter or organize your issues. Milestones help you group your issues by goals. They're just another way to organize your issues.
 
 ---
 
-# Creating a Project
+## Creating a Project
 
 Once you have a significant amount of issues, you can also organize them into projects. Projects give you access to kanban boards. It's like a two dimensional board where you can see all of your issues and their status. Boards provide for a ton of automation features so that as you move your issues throught the different board it creates a history of what's happening on your project.
 
 ---
 
-# Releases
+## Releases
 
 Releases let you formalize the launch of your project at a specific version. Creating a release takes a snapshot of where your project is at a particular point in time. Regardless of where your master branch is, the release will allow someone to come back to the version of the project at that particular release.
