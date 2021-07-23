@@ -1,4 +1,11 @@
 [{
+  "title": "The Unforgettable Ride",
+  "date" : "Jul 22, 2021",
+  "summary" : "Having launched The Toolbox this week, my thoughts go back to my childhood and how teaching myself how to ride a bike taught me everything I needed to know about learning things permanently.",
+  "thumbnail": "/images/newsletter/unforgettableride_tn.jpg",
+  "url": "/newsletter/2021-07-22-The-Unforgettable-Ride/",
+  "tags" : ""
+},{
   "title": "How Can Github Help me Manage my Development Projects? The Toolbox - Episode 01",
   "date" : "Jul 21, 2021",
   "summary" : "In this episode...the official first episode of the Toolbox, we&#39;ll take a look at some great new tools, including my new favorite flowchart designer, a site that explains the shell and I&#39;ll introduce you to the tools inside Github that help with Project Management.",
