@@ -1,4 +1,11 @@
 [{
+  "title": "The Necessary Change",
+  "date" : "Jul 29, 2021",
+  "summary" : "My world has been changing and I&#39;ve working hard to keep up with it, so I show you how I learned from the mistakes of IBM...and Interstellar? You can&#39;t stop change, but when it comes you can be ready to do what&#39;s necessary.&quot;",
+  "thumbnail": "/images/newsletter/necessarychange_tn.jpg",
+  "url": "/newsletter/2021-07-29-The-Necessary-Change/",
+  "tags" : ""
+},{
   "title": "The Unforgettable Ride",
   "date" : "Jul 22, 2021",
   "summary" : "Having launched The Toolbox this week, my thoughts go back to my childhood and how teaching myself how to ride a bike taught me everything I needed to know about learning things permanently.",
