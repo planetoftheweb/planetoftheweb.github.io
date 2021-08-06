@@ -45,7 +45,7 @@ A common problem developers have with school is that some of the content is outd
 
 When I was studying for my Masters, I remember this class where I had to read five main sources each week. One chapter each from three books, as well as a couple of research papers. Then, I had to write a four bullet summary for the teacher. That was really hard, but it taught me to digest a large amount of information and distill it down to the essentials.
 
-I had two classes that semester, plus a full time job while I was teaching my own college class. I did way better the second time I went to school for the Masters. The first time I eked out a low C average and had to be on probation when I first joined the program. I got a 3.95 GPA the second time, not because I was any smarter, but because my whole job has taught me to digest and parse. A lot of doing well in school comes down to effort and putting in the hours, but also learning how to be efficient.
+I had two classes that semester, plus a full time job while I was teaching my own college class. I did way better the second time I went to school for the Masters. The first time I eked out a low C average and had to be on probation when I first joined the Masters program. I got a 3.95 GPA the second time, not because I was any smarter, but because my life and experience taught me how to learn...digest, parse, take notes, write. A lot of doing well in school comes down to effort and putting in the hours, but also learning how to be efficient at learning and communicating.
 
 School gives you an opportunity to prove you can handle a ton of input with deliverables like reports, tests, posts, interactions and in my case apps and sites. If you can handle that, then you can handle a regular job just fine. Learning how to work in teams...the thing you often dread in school, becomes a huge component of your success as an employee. It's crazy, but now that I'm older I appreciate those opportunities a lot more.
 
@@ -55,7 +55,7 @@ Speaking of rewinding, I'm working on a course covering the new features in Boot
 
 [![Bootstrap 5: New Features and Migration](http://pixelprowess.com/i/2021-08-05_17-13-58.png)](https://raybo.org/slides_boot5new/#/)
 
-Well, just this week, Bootstrap went ahead and released a new version. That means revising the course I just turned in so that it's up-to-date. That's the chaotic nature of my job.
+Well, just this week, Bootstrap went ahead and released a new version. That means revising the course I just turned in so that it's up-to-date. Digest...parse...take notes...write, it's the same thing I learned when school taught me how to learn. That's the chaotic nature of my job they don't teach you about in school that's the key to doing well anywhere.
 
 I managed to do a quick episode of The Toolbox showing the new features.
 
