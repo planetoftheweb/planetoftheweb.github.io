@@ -8,7 +8,7 @@
 },{
   "title": "What&#39;s new in Bootstrap 5.1? The Toolbox - Episode 02",
   "date" : "Aug 04, 2021",
-  "summary" : "In this episode...Bootstrap has released a new version of it&#39;s popular front end Framework. Version 5.1 offers lots of new features and a move towards CSS Grid. In this episode, we&#39;ll discuss the changes and what they mean to someone who wants to update.",
+  "summary" : "In this episode...Bootstrap has released a new version of it&#39;s popular front end Framework. V ersion 5.1 offers lots of new features and a move towards CSS Grid. In this episode, we&#39;ll discuss the changes and what they mean to someone who wants to update.",
   "thumbnail": "/images/toolbox/bootstrap52-tbep02_tn.jpg",
   "url": "/toolbox/2021-08-04-Whats-New-In-Bootstrap-5-The-Toolbox-Ep-02/",
   "tags" : "thetoolbox,github"
