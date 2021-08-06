@@ -1,4 +1,18 @@
 [{
+  "title": "The Unchanging Essence",
+  "date" : "Aug 05, 2021",
+  "summary" : "This week, I talk about the best advice I gave to some students from Yale, realize I&#39;m not that different from who I was in high school, talk about my meeting with the old NAP crew, plus I realize the course I just finished two days ago, needs an update.",
+  "thumbnail": "/images/newsletter/unchangingessence_tn.jpg",
+  "url": "/newsletter/2021-08-05-The_Professional_Developer/",
+  "tags" : ""
+},{
+  "title": "What&#39;s new in Bootstrap 5.1? The Toolbox - Episode 02",
+  "date" : "Aug 04, 2021",
+  "summary" : "In this episode...Bootstrap has released a new version of it&#39;s popular front end Framework. Version 5.1 offers lots of new features and a move towards CSS Grid. In this episode, we&#39;ll discuss the changes and what they mean to someone who wants to update.",
+  "thumbnail": "/images/toolbox/bootstrap52-tbep02_tn.jpg",
+  "url": "/toolbox/2021-08-04-Whats-New-In-Bootstrap-5-The-Toolbox-Ep-02/",
+  "tags" : "thetoolbox,github"
+},{
   "title": "The Necessary Change",
   "date" : "Jul 29, 2021",
   "summary" : "My world has been changing and I&#39;ve working hard to keep up with it, so I show you how I learned from the mistakes of IBM...and Interstellar? You can&#39;t stop change, but when it comes you can be ready to do what&#39;s necessary.&quot;",
