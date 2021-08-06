@@ -1,8 +1,9 @@
 ---
 layout: post
 title: "What's new in Bootstrap 5.1? The Toolbox - Episode 02"
-summary: "In this episode...Bootstrap has released a new version of it's popular front end Framework. Version 5.1 offers lots of new features and a move towards CSS Grid. In this episode, we'll discuss the changes and what they mean to someone who wants to update."
-video: djiiIhLZtOs?t=97
+summary: "In this episode...Bootstrap has released a new version of it's popular front end Framework. V
+ersion 5.1 offers lots of new features and a move towards CSS Grid. In this episode, we'll discuss the changes and what they mean to someone who wants to update."
+video: 5adzOyrfJwE
 hero: /images/toolbox/bootstrap52-tbep02.jpg
 thumb: /images/toolbox/bootstrap52-tbep02_tn.jpg
 category: toolbox
