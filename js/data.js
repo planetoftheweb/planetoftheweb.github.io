@@ -1,4 +1,11 @@
 [{
+  "title": "Layoutit Grid",
+  "date" : "Aug 05, 2021",
+  "summary" : "If the language of grid layouts feels a bit frustrating, check out this excellent grid layout app. Recommended by Addy Omani.",
+  "thumbnail": "https://raw.githubusercontent.com/Leniolabs/layoutit-grid/main/assets/layoutit-grid-showcase-v2.gif",
+  "url": "https://go.raybo.org/5GeW",
+  "tags" : "external"
+},{
   "title": "The Unchanging Essence",
   "date" : "Aug 05, 2021",
   "summary" : "This week, I talk about the best advice I gave to some students from Yale, realize I&#39;m not that different from who I was in high school, talk about my meeting with the old NAP crew, plus I realize the course I just finished two days ago, needs an update.",
