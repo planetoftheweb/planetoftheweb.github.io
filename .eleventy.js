@@ -42,32 +42,37 @@ module.exports = function (eleventyConfig) {
   })
 
   eleventyConfig.addCollection('home', function (collection) {
-    return collection.getFilteredByGlob(['./_site/posts/*.md', './_site/newsletter/*.md', './_site/toolbox/*.md', './_site/courses/*.md', './_site/videos/*.md']).filter(livePosts).reverse()
+    return collection.getFilteredByGlob(['./_site/posts/*.md', './_site/newsletter/*.md', './_site/toolbox/*.md', './_site/courses/*.md', './_site/videos/*.md']).filter(livePosts).filter(post => !Boolean(post.data.draft)).reverse()
   })
 
   // only content in the `posts` directory
   eleventyConfig.addCollection('posts', function (collection) {
-    return collection.getFilteredByGlob('./_site/posts/*.md').filter(livePosts).reverse()
+    return collection.getFilteredByGlob('./_site/posts/*.md').filter(livePosts).filter(post => !Boolean(post.data.draft)).reverse()
   })
 
   // only content in the `courses` directory
   eleventyConfig.addCollection('courses', function (collection) {
-    return collection.getFilteredByGlob('./_site/courses/*.md').filter(livePosts).reverse()
+    return collection.getFilteredByGlob('./_site/courses/*.md').filter(livePosts).filter(post => !Boolean(post.data.draft)).reverse()
   })
 
   // only content in the `newsletter` directory
   eleventyConfig.addCollection('newsletter', function (collection) {
-    return collection.getFilteredByGlob('./_site/newsletter/*.md').filter(livePosts).reverse()
+    return collection.getFilteredByGlob('./_site/newsletter/*.md').filter(livePosts).filter(post => !Boolean(post.data.draft)).reverse()
   })
 
   // only content in the `toolbox` directory
   eleventyConfig.addCollection('toolbox', function (collection) {
-    return collection.getFilteredByGlob('./_site/toolbox/*.md').filter(livePosts).reverse()
+    return collection.getFilteredByGlob('./_site/toolbox/*.md').filter(livePosts).filter(post => !Boolean(post.data.draft)).reverse()
+  })
+
+  // only content in the `shorts` directory
+  eleventyConfig.addCollection('shorts', function (collection) {
+    return collection.getFilteredByGlob('./_site/shorts/*.md').filter(livePosts).filter(post => !Boolean(post.data.draft)).reverse()
   })
 
   // only content in the `videos` directory
   eleventyConfig.addCollection('videos', function (collection) {
-    return collection.getFilteredByGlob('./_site/videos/*.md').filter(livePosts).reverse()
+    return collection.getFilteredByGlob('./_site/videos/*.md').filter(livePosts).filter(post => !Boolean(post.data.draft)).reverse()
   })
 
   eleventyConfig.addCollection('searchable', function (collection) {
@@ -77,6 +82,7 @@ module.exports = function (eleventyConfig) {
         './_site/posts/*.md',
         './_site/newsletter/*.md',
         './_site/toolbox/*.md',
+        './_site/shorts/*.md',
         './_site/videos/*.md'
       ]).filter(livePosts)
       .reverse()
