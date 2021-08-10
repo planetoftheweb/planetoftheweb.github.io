@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "newsletter/2021-08-05-The_Professional_Developer.md",
+            "file": "404.md",
             "mode": "source"
           }
         }
@@ -68,7 +68,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "newsletter/2021-08-05-The_Professional_Developer.md",
+                "file": "404.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -83,11 +83,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "active": "27999131b8f02c3c",
   "lastOpenFiles": [
+    "404.md",
+    "Untitled.md",
     "newsletter/2021-08-05-The_Professional_Developer.md",
     "newsletter/2021-07-29-The-Necessary-Change.md",
     "newsletter/2021-07-29-The-Necessary-Change 1.md"
