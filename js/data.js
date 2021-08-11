@@ -1,17 +1,38 @@
 [{
+  "title": "Introducing the World Wide Web",
+  "date" : "Aug 11, 2021",
+  "summary" : "The web is now 30 years old and this page has some awesome stats and info. 60% of the world is online. 81% of Americans log on a daily basis, 69,444 users apply for jobs and much more.",
+  "thumbnail": "https://www.w3.org/comm/assets/graphics/internet-minute-2020-sepia.jpg",
+  "url": "https://www.w3.org/blog/2021/08/30-years-on-from-introducing-the-web-to-the-world/",
+  "tags" : "external"
+},{
+  "title": "HTML2Canvas",
+  "date" : "Aug 11, 2021",
+  "summary" : "This module lets you add screenshot capture of whole pages or parts of a page to your projects using JavaScript. It&#39;s DOM based, so it might not be 100% accurate, but still cool as heck.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-11_13-07-21.png",
+  "url": "https://html2canvas.hertzen.com/",
+  "tags" : "external"
+},{
+  "title": "Github CodeSpaces",
+  "date" : "Aug 11, 2021",
+  "summary" : "This had been a long time coming. Github is now available for Teams and Enterprise. The beta remains until they announce a personal option. They reduced the startup time to 10 seconds and Github itself is dogfooding how they build things. For them it went from 45 minds to the 10 seconds mentioned above.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-11_12-32-02.png",
+  "url": "https://github.com/features/codespaces",
+  "tags" : "external"
+},{
+  "title": "Markdown Presentation Ecosystem",
+  "date" : "Aug 11, 2021",
+  "summary" : "You know I&#39;m a big fan of markdown and reveal.js, but this markdown presentation as an ecosystem sounds pretty cool. I don&#39;t feel like I&#39;m going to be moving rayveal.js anytime soon, but it might be worth a look.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-10_15-22-24.png",
+  "url": "https://go.raybo.org/5Gdr",
+  "tags" : "external"
+},{
   "title": "How to Write Good Alt Text",
   "date" : "Aug 11, 2021",
   "summary" : "What a fantastic article on how to write good ALT tags. It might not be the most exciting thing to do, but it&#39;s a great practice.",
   "thumbnail": "https://www.zenweb.com.au/blog/img/alt-text-for-accessibility-and-search-engines.jpg",
   "url": "https://go.raybo.org/4RjU",
   "tags" : "external"
-},{
-  "title": "",
-  "date" : "Aug 11, 2021",
-  
-  
-  "url": "/shorts/202108111132/",
-  "tags" : ""
 },{
   "title": "Crop SVGs",
   "date" : "Aug 11, 2021",
