@@ -1,20 +1,202 @@
 [{
+  "title": "File Converter",
+  "date" : "Aug 11, 2021",
+  "summary" : "Free for 25 conversions per day and pretty handy, this site converts an insane amount of formats. Pretty handy.",
+  "thumbnail": "https://cloudconvert.com/images/logo_flat_110_borderless.png",
+  "url": "https://go.raybo.org/4dw1",
+  "tags" : "external"
+},{
+  "title": "",
+  "date" : "Aug 11, 2021",
+  "summary" : "I really like this list of alternative Unix commands. Didn&#39;t have lots of them available in zsh, but I did have and enjoyed using bat for displaying code nicely.",
+  "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210618-9342-q25tc1.png",
+  "url": "https://go.raybo.org/4exX",
+  "tags" : "external"
+},{
+  "title": "",
+  "date" : "Aug 11, 2021",
+  "summary" : "Looks like Lighthouse is got some competition from Microsoft with it&#39;s own performance and accessibility tools called Webhint. Who doesn&#39;t love a Narwhal? Are you using these tools to check your site?",
+  "thumbnail": "https://webhint.io/static/images/apple-touch-icon-c01d89d4f3.png",
+  "url": "https://go.raybo.org/4fVv",
+  "tags" : "external"
+},{
+  "title": "Webhint",
+  "date" : "Aug 11, 2021",
+  "summary" : "Looks like Lighthouse is got some competition from Microsoft with it&#39;s own performance and accesibility tools called Webhint. Who doesn&#39;t love a Narwhal? Are you using these tools to check your site?",
+  "thumbnail": "https://webhint.io/static/images/apple-touch-icon-c01d89d4f3.png",
+  "url": "https://go.raybo.org/4fVv",
+  "tags" : "external"
+},{
+  "title": "Optimising for high density displays",
+  "date" : "Aug 11, 2021",
+  "summary" : "A nice writeup or how to prepare your images for high density screens.",
+  "thumbnail": "https://jakearchibald.com/c/img-f8ecf98d.jpg",
+  "url": "https://go.raybo.org/4fVz&quot;",
+  "tags" : "external"
+},{
+  "title": "ES2021 Features",
+  "date" : "Aug 11, 2021",
+  "summary" : "ES2021 has been approved. This site has a nice short and concise list of examples of what&#39;s new.",
+  "thumbnail": "https://h3manth.com/ES2021/og.jpeg",
+  "url": "https://go.raybo.org/4mXO",
+  "tags" : "external"
+},{
+  "title": "Temporal-JavaScript&#39;s new Date API",
+  "date" : "Aug 11, 2021",
+  "summary" : "Finally, a date object an API that makes sense. The upcoming JavaScript temporal API. Here&#39;s a write-up from Axel Raushmayer.",
+  "thumbnail": "https://2ality.com/img/deep-js.jpg",
+  "url": "https://go.raybo.org/4uU_",
+  "tags" : "external"
+},{
+  "title": "SolidJS",
+  "date" : "Aug 11, 2021",
+  "summary" : "A React Killer? We&#39;ll see, although solid has a lot going for it in terms of performance, I think the problem is the similarity to React. Why would someone switch from React...for a few k or milliseconds. However. Only time will tell, but still keep an eye out on this one.",
+  "thumbnail": "https://www.solidjs.com/og.jpg",
+  "url": "https://go.raybo.org/4uVr&quot;",
+  "tags" : "external"
+},{
+  "title": "JS is Weird",
+  "date" : "Aug 11, 2021",
+  "summary" : "This is such a fun test ( I can&#39;t believe I&#39;m saying that). Don&#39;t worry about the score (srsly, don&#39;t try to get a good score), but try to think about what&#39;s happening. I think the best part is the explanations at the end of the test.",
+  "thumbnail": "https://jsisweird.com/jsisweird.png",
+  "url": "https://go.raybo.org/4uWD&quot;",
+  "tags" : "external"
+},{
+  "title": "Animista",
+  "date" : "Aug 11, 2021",
+  "summary" : "Another one of those cool sites that helps you build animations with a modern interface. Get the animation and code after you play.",
+  "thumbnail": "http://animista.net/animista-media-img.gif",
+  "url": "https://go.raybo.org/4ymn&quot;",
+  "tags" : "external"
+},{
+  "title": "JS1024",
+  "date" : "Aug 11, 2021",
+  "summary" : "This is an annual event for JS developers who love pain (I mean a challenge). Try to make something cool in less than 1024 bytes (1k). It&#39;s like when someone asks me if I want to get up at 5am to go to the beach and see the sunrise (no thanks). I feel like I have enough of a hard time doing anything in infinite K.",
+  "thumbnail": "https://js1024.fun/files/meta.png",
+  "url": "https://go.raybo.org/4uWP&quot;",
+  "tags" : "external"
+},{
+  "title": "HTTP Code Generator",
+  "date" : "Aug 11, 2021",
+  "summary" : "This code generator for HTTP requests will help you build and give you the code for different HTTP requests.",
+  "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210705-5799-c2yawm.png",
+  "url": "https://go.raybo.org/4uX0",
+  "tags" : "external"
+},{
+  "title": "Wikipedia QL",
+  "date" : "Aug 11, 2021",
+  "summary" : "Scrape Wikipedia through a query language and receive the results as JSON objects that you can use on your projects. Wikipedia has so much data you might end up using this one.",
+  "thumbnail": "https://opengraph.githubassets.com/bc26424bb1efcf42513adafa8fcc858e4adbfba3bcad329b1e0f40b6b7d872/zverok/wikipedia_ql",
+  "url": "https://go.raybo.org/4vek",
+  "tags" : "external"
+},{
+  "title": "npm audit: Broken by Design",
+  "date" : "Aug 11, 2021",
+  "summary" : "npm has a false positive approach that creates a &#39;boy who cried wolf&#39; problem. This great article from Dan Abramov is a deep dive into why that&#39;s a problem and potential fixes.",
+  "thumbnail": "https://imgur.com/ABDK4Ky.png",
+  "url": "https://go.raybo.org/4zWW",
+  "tags" : "external"
+},{
+  "title": "Gradient Designer",
+  "date" : "Aug 11, 2021",
+  "summary" : "This is quite possibly the best gradient editor I&#39;ve ever seen. It lets you create multiple layered gradients using a GUI.",
+  "thumbnail": "https://gra.dient.art/favicon.png",
+  "url": "https://go.raybo.org/4zda",
+  "tags" : "external"
+},{
+  "title": "Explain Shell",
+  "date" : "Aug 11, 2021",
+  "summary" : "This cool site gives you an explanation of a series of shell commands. You can roll over the explanation to highlight and send the link of the explanation to someone else.",
+  "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210711-17796-1dfoo5b.png",
+  "url": "https://go.raybo.org/4-Bw",
+  "tags" : "external"
+},{
+  "title": "Emmet Live",
+  "date" : "Aug 11, 2021",
+  "summary" : "If you love Emmett, you&#39;ll love this VSCode Extension. It lets you type in an Emmet expression and shows you a live preview as you modify it.",
+  "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210713-23387-pmnuo6.png",
+  "url": "https://go.raybo.org/4_SU",
+  "tags" : "external"
+},{
+  "title": "QR Code Builder",
+  "date" : "Aug 11, 2021",
+  "summary" : "Nice little QR Code builder for giving people your WiFi Details. Would be great to print out for your Airbnb, your business or just on top of your router.",
+  "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210714-27599-sjvg95.png",
+  "url": "https://go.raybo.org/512r",
+  "tags" : "external"
+},{
+  "title": "Flowchart Designer 3",
+  "date" : "Aug 11, 2021",
+  "summary" : "I&#39;d been looking for a great way to create flowcharts, and I came across Flowchart Designer 3, which was just what I needed for some simple charts. There&#39;s a free version with a$7.99 upgrade for some more shapes. It works just as you&#39;d expect. The arrows automatically connect the nodes, which then move with as you adjust other notes, items auto align to a grid and it&#39;s easy to enter some labels. Plus it lets you save as a transparent PNG or PDF. I do wish it would let you save SVGs directly from the app though.",
+  "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210714-26973-lxmt69.png",
+  "url": "https://go.raybo.org/515v",
+  "tags" : "external"
+},{
+  "title": "Warp-The terminal of the Future",
+  "date" : "Aug 11, 2021",
+  "summary" : "Just saw the terminal app of the future called Warp. True innovation on the terminal. Real time collaboration, auto-complete, multi-cursor. Built with Rust. I can&#39;t wait to give it a go.",
+  "thumbnail": "https://storage.cloud.google.com/website-image-preview/url_preview.png",
+  "url": "https://go.raybo.org/53FA",
+  "tags" : "external"
+},{
+  "title": "Choose a License",
+  "date" : "Aug 11, 2021",
+  "summary" : "Choosing a license for. your projects can seem daunting, especially if you&#39;re not a lawyer. This site gives you a good idea of which way you should go depending on your needs.",
+  "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210719-3203-rw14s1.png",
+  "url": "https://go.raybo.org/54ns",
+  "tags" : "external"
+},{
+  "title": "Command Line Tools",
+  "date" : "Aug 11, 2021",
+  "summary" : "If you love the command line, here’s a nice set of tools you might enjoy using, I gotta check some of these out, the fuzzy finder looks cool and I’ve already used broot.",
+  "thumbnail": "https://earthly.dev/blog/generated/assets/images/command-line-tools/header-800-a028dbebd.jpg",
+  "url": "https://go.raybo.org/5Gca",
+  "tags" : "external"
+},{
+  "title": "Names Generator",
+  "date" : "Aug 11, 2021",
+  "summary" : "Nice little project to auto generate your names. Written in TypeScript with not that much code.",
+  "thumbnail": "https://opengraph.githubassets.com/ab2a4c23ca7fe92a7e757806b0ee8ca08c5e83a361b6420db321461b47c3ad/andreasonny83/unique-names-generator",
+  "url": "https://go.raybo.org/5Gcp",
+  "tags" : "external"
+},{
+  "title": "SVGGobbler",
+  "date" : "Aug 11, 2021",
+  "summary" : "A set of SVG utilities available as a browser extension. Lets you quickly copy SVGs on a page with lots of options.",
+  "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210801-30260-1qltfb4.png",
+  "url": "https://go.raybo.org/5Gc_",
+  "tags" : "external"
+},{
+  "title": "Slinkity",
+  "date" : "Aug 11, 2021",
+  "summary" : "Slinkity is like Astro and Eleventy put together. Gives you easy access to React, Vue or Svelte easily inside Eleventy. Hydrates progressively with Snowpack. https:/go.raybo.org/5JtE Dang it I&#39;m sold already!!! Now I need several weeks to re-write raybo.org. There goes my social life.",
+  "thumbnail": "https://slinkity.dev/assets/og-image-banner.jpg",
+  "url": "https://go.raybo.org/5JtE",
+  "tags" : "external"
+},{
+  "title": "Coding with Character",
+  "date" : "Aug 11, 2021",
+  "summary" : "A list of coding monospaced fonts that focuses on personality and readability. https://go.raybo.org/5Gct some pretty cool options there.",
+  "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210801-26886-97udlf.png",
+  "url": "https://go.raybo.org/5Gcu",
+  "tags" : "external"
+},{
   "title": "Sniptt OTS",
-  "date" : "Aug 10, 2021",
+  "date" : "Aug 11, 2021",
   "summary" : "This API lets you create one time URLs to share end-to-end encrypted secrets. Good for API keys, passwords and other stuff. Whoah! Cool.",
   "thumbnail": "http://pixelprowess.com/i/2021-08-10_15-22-24.png",
   "url": "https://www.sniptt.com/ots/",
   "tags" : "external"
 },{
   "title": "Layoutit Grid",
-  "date" : "Aug 10, 2021",
+  "date" : "Aug 11, 2021",
   "summary" : "If the language of grid layouts feels a bit frustrating, check out this excellent grid layout app. Recommended by Addy Omani.",
   "thumbnail": "https://raw.githubusercontent.com/Leniolabs/layoutit-grid/main/assets/layoutit-grid-showcase-v2.gif",
   "url": "https://go.raybo.org/5GeW",
   "tags" : "external"
 },{
   "title": "24 Hour Homepage",
-  "date" : "Aug 10, 2021",
+  "date" : "Aug 11, 2021",
   "summary" : "From the why the heck didn’t I think of that. This guy is selling time on a website that repeats daily and lets you promote something by the second of the day. You can buy several seconds and your ad will play on the site at that time everyday.",
   "thumbnail": "http://pixelprowess.com/i/2021-08-10_15-22-24.png",
   "url": "https://go.raybo.org/5Gdr",
