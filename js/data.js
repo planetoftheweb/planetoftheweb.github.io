@@ -1,9 +1,23 @@
 [{
+  "title": "Sniptt OTS",
+  "date" : "Aug 10, 2021",
+  "summary" : "This API lets you create one time URLs to share end-to-end encrypted secrets. Good for API keys, passwords and other stuff. Whoah! Cool.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-10_15-22-24.png",
+  "url": "https://www.sniptt.com/ots/",
+  "tags" : "external"
+},{
   "title": "Layoutit Grid",
-  "date" : "Aug 05, 2021",
+  "date" : "Aug 10, 2021",
   "summary" : "If the language of grid layouts feels a bit frustrating, check out this excellent grid layout app. Recommended by Addy Omani.",
   "thumbnail": "https://raw.githubusercontent.com/Leniolabs/layoutit-grid/main/assets/layoutit-grid-showcase-v2.gif",
   "url": "https://go.raybo.org/5GeW",
+  "tags" : "external"
+},{
+  "title": "24 Hour Homepage",
+  "date" : "Aug 10, 2021",
+  "summary" : "From the why the heck didn’t I think of that. This guy is selling time on a website that repeats daily and lets you promote something by the second of the day. You can buy several seconds and your ad will play on the site at that time everyday.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-10_15-22-24.png",
+  "url": "https://go.raybo.org/5Gdr",
   "tags" : "external"
 },{
   "title": "The Unchanging Essence",
