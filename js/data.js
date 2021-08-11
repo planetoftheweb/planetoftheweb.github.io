@@ -1,4 +1,102 @@
 [{
+  "title": "How to Write Good Alt Text",
+  "date" : "Aug 11, 2021",
+  "summary" : "What a fantastic article on how to write good ALT tags. It might not be the most exciting thing to do, but it&#39;s a great practice.",
+  "thumbnail": "https://www.zenweb.com.au/blog/img/alt-text-for-accessibility-and-search-engines.jpg",
+  "url": "https://go.raybo.org/4RjU",
+  "tags" : "external"
+},{
+  "title": "",
+  "date" : "Aug 11, 2021",
+  
+  
+  "url": "/shorts/202108111132/",
+  "tags" : ""
+},{
+  "title": "Crop SVGs",
+  "date" : "Aug 11, 2021",
+  "summary" : "Isn&#39;t it annoying when someone hands you an SVG with too much whitespace around it. Here&#39;s a site that will quickly remove that. https://go.raybo.org/4Rjl",
+  "thumbnail": "https://svgcrop.com/images/twitter.png",
+  "url": "https://go.raybo.org/4Rjl&quot;",
+  "tags" : "external"
+},{
+  "title": "Anyone Can Learn CSS Grid",
+  "date" : "Aug 11, 2021",
+  "summary" : "Want to learn CSS Grid. Here&#39;s a cool little interactive tutorial. I guess you could also take Morten&#39;s course...(Flexbox FTW!!!).",
+  "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210531-29707-7zi609.png",
+  "url": "https://go.raybo.org/4Rjp",
+  "tags" : "external"
+},{
+  "title": "JSONMatic: CSV to JSON",
+  "date" : "Aug 11, 2021",
+  "summary" : "Bookmark this site next time you need to convert a spreadsheet (CSV) to JSON. Quick and easy.",
+  "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210605-4043-dnw6b9.png",
+  "url": "https://go.raybo.org/4UOY",
+  "tags" : "external"
+},{
+  "title": "AV Press Video Encoder",
+  "date" : "Aug 11, 2021",
+  "summary" : "Need to convert a video? Right now I use Adobe Media Encoder, but it&#39;s overkill and I keep wanting to wean myself from Adobe products. Addy Osmani (thegenius) built a browser video compressor that uses ffmpeg and Web Assembly if you need a quick fix.",
+  "thumbnail": "https://avpress.netlify.app/metatag.jpg",
+  "url": "https://go.raybo.org/4S99&quot;",
+  "tags" : "external"
+},{
+  "title": "Online Hash Tool",
+  "date" : "Aug 11, 2021",
+  "summary" : "I found this random Hash tools pretty useful while I was working on a course. Sometimes you have to mock up some hashes or create a super secure password. This tool is pretty flexible.",
+  "thumbnail": "https://onlinehashtools.com/images/preview-image-onlinehashtools.png",
+  "url": "https://go.raybo.org/4UOd",
+  "tags" : "external"
+},{
+  "title": "rehype",
+  "date" : "Aug 11, 2021",
+  "summary" : "A plugin system for processing HTML files. Format, Minify, Process Markdown including a CLI.",
+  "thumbnail": "https://opengraph.githubassets.com/c3fcf6e44558545bf7281d897a7b4e13c226131ce6b16418e7e69b84490287/rehypejs/rehype",
+  "url": "https://go.raybo.org/4Sua",
+  "tags" : "external"
+},{
+  "title": "Online GIF Tools",
+  "date" : "Aug 11, 2021",
+  "summary" : "So many GIF (pronounced like the peanut butter) tools on this site. I like that you can make a sprite from a GIF, do the reverse or modify any of the properties like playback speed.",
+  "thumbnail": "https://onlinegiftools.com/images/preview-image-onlinegiftools.png",
+  "url": "https://go.raybo.org/4UOg",
+  "tags" : "external"
+},{
+  "title": "xBar",
+  "date" : "Aug 11, 2021",
+  "summary" : "This looks pretty useful. Add just about anything you want including bash scripts into your menu bar. Code responsibly though.",
+  "thumbnail": "https://xbarapp.com/public/img/xbar-menu-preview.png",
+  "url": "https://go.raybo.org/4UyP&quot;",
+  "tags" : "external"
+},{
+  "title": "Snowtrack",
+  "date" : "Aug 11, 2021",
+  "summary" : "It&#39;s still an early version, but it&#39;s a heck of a project. Version tracking for graphic files.",
+  "thumbnail": "https://www.snowtrack.io/wp-content/uploads/2021/06/social-media-card.jpg",
+  "url": "https://go.raybo.org/4XaE",
+  "tags" : "external"
+},{
+  "title": "",
+  "date" : "Aug 11, 2021",
+  "summary" : "It&#39;s a little too early to tell, but this might just be the next big thing. Create a website with a simple observable that waits for your actions and only loads Scripts when absolutely necessary. The static site generator of the future. It&#39;s definitely got legs.",
+  "thumbnail": "https://astro.build/social.png?v=1",
+  "url": "https://go.raybo.org/4Zpc&quot;",
+  "tags" : "external"
+},{
+  "title": "CSS Grid Editor in Chrome",
+  "date" : "Aug 11, 2021",
+  "summary" : "Chrome now has a new CSS Grid editor. Seems like it&#39;s catching up to others, but that should help with Grid Adoption.",
+  "thumbnail": "https://developer-chrome-com.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/mV9Ac7QAD8vVPoiqmii6.png?auto=format&amp;w=1600",
+  "url": "https://go.raybo.org/4atZ",
+  "tags" : "external"
+},{
+  "title": "Astro Demo Video",
+  "date" : "Aug 11, 2021",
+  "summary" : "The other day, I mentioned Astro as being the potential next great thing. Here&#39;s a video that shows you why. Not mine, but from a podcast. https://go.raybo.org/4cRg",
+  "thumbnail": "https://i.ytimg.com/vi/mgkwZqVkrwo/hqdefault.jpg",
+  "url": "https://go.raybo.org/4cRg&quot;",
+  "tags" : "external"
+},{
   "title": "File Converter",
   "date" : "Aug 11, 2021",
   "summary" : "Free for 25 conversions per day and pretty handy, this site converts an insane amount of formats. Pretty handy.",
@@ -6,18 +104,11 @@
   "url": "https://go.raybo.org/4dw1",
   "tags" : "external"
 },{
-  "title": "",
+  "title": "Modern Unix Repo List",
   "date" : "Aug 11, 2021",
   "summary" : "I really like this list of alternative Unix commands. Didn&#39;t have lots of them available in zsh, but I did have and enjoyed using bat for displaying code nicely.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210618-9342-q25tc1.png",
   "url": "https://go.raybo.org/4exX",
-  "tags" : "external"
-},{
-  "title": "",
-  "date" : "Aug 11, 2021",
-  "summary" : "Looks like Lighthouse is got some competition from Microsoft with it&#39;s own performance and accessibility tools called Webhint. Who doesn&#39;t love a Narwhal? Are you using these tools to check your site?",
-  "thumbnail": "https://webhint.io/static/images/apple-touch-icon-c01d89d4f3.png",
-  "url": "https://go.raybo.org/4fVv",
   "tags" : "external"
 },{
   "title": "Webhint",
@@ -206,7 +297,7 @@
   "date" : "Aug 05, 2021",
   "summary" : "This week, I talk about the best advice I gave to some students from Yale, realize I&#39;m not that different from who I was in high school, talk about my meeting with the old NAP crew, plus I realize the course I just finished two days ago, needs an update.",
   "thumbnail": "/images/newsletter/unchangingessence_tn.jpg",
-  "url": "/newsletter/2021-08-05-The_Professional_Developer/",
+  "url": "/newsletter/2021-08-05-The-unchanging-essence/",
   "tags" : ""
 },{
   "title": "What&#39;s new in Bootstrap 5.1? The Toolbox - Episode 02",
