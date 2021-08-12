@@ -24,7 +24,7 @@
   "date" : "Aug 12, 2021",
   "summary" : "You know I&#39;m a big fan of markdown and reveal.js, but this markdown presentation as an ecosystem sounds pretty cool. I don&#39;t feel like I&#39;m going to be moving rayveal.js anytime soon, but it might be worth a look.",
   "thumbnail": "http://pixelprowess.com/i/2021-08-10_15-22-24.png",
-  "url": "https://go.raybo.org/5Gdr",
+  "url": "https://marp.app/",
   "tags" : "external"
 },{
   "title": "How to Write Good Alt Text",
