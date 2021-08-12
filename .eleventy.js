@@ -20,6 +20,27 @@ module.exports = function (eleventyConfig) {
     )
   })
 
+
+  eleventyConfig.addFilter("getRandom", function (items, avoid, category) {
+    /*
+    this filter tries to match to categories
+    */
+    if (!items.length || items.length < 2) return;
+
+    let myItems = items.filter(i => {
+      return (i.data.categories === category) && (i.url !== avoid.url);
+    });
+
+    if (myItems.length === 0) {
+      myItems = items.filter(i => {
+        return i.url !== avoid.url;
+      });
+    }
+
+    if (myItems.length === 0) return;
+    return myItems[Math.floor(Math.random() * myItems.length)];
+  });
+
   eleventyConfig.addPlugin(pluginTOC, {
     tags: ['h2'],
     wrapper: 'div',
