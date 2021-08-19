@@ -384,6 +384,13 @@
   "url": "https://go.raybo.org/5Gdr",
   "tags" : "external"
 },{
+  "title": "The Influenced Mind",
+  "date" : "Aug 19, 2021",
+  "summary" : "summary",
+  "thumbnail": "/images/newsletter/influencedmind_tn.jpg",
+  "url": "/newsletter/2021-08-19-the-influenced-mind/",
+  "tags" : ""
+},{
   "title": "Obsidian for Developers and Creators who Take Notes The Toolbox - Episode 03",
   "date" : "Aug 18, 2021",
   "summary" : "Obsidian is the tool that made me completely change my workflow and the way I write articles, notes, pretty much everything. We&#39;ll also cover some of other new tools including Flat Data, two awesome VSCode Extensions for coders, Nextra, the Next.js and React powered static site generator from Vercel and some of the cool things you can do from the recent CodeSpaces.",
