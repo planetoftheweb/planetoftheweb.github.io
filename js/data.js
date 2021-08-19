@@ -386,7 +386,7 @@
 },{
   "title": "The Influenced Mind",
   "date" : "Aug 19, 2021",
-  "summary" : "summary",
+  "summary" : "This week, I had one of those planning conversations about what I&#39;m supposed to cover next year. It&#39;s tough to predict the future as to what technologies are going to make a difference, specially a year ahead, but having to cover a lot of emergent technologies is always rewires and in a way controls the direction of my mind.",
   "thumbnail": "/images/newsletter/influencedmind_tn.jpg",
   "url": "/newsletter/2021-08-19-the-influenced-mind/",
   "tags" : ""
