@@ -8,11 +8,6 @@ thumb: /images/toolbox/obsidian_tn.jpg
 category: toolbox
 ---
 
-# Show Index
-
-Chapters
-00:00 Intro
-
 # Toolbox Shorts
 
 Let's start by going through the tools I'm super interested in right now. Things I'm either using or that are doing things that could make my life a lot easier.
@@ -105,7 +100,7 @@ I love anything that has markdown in it. It's made my live a lot easier. Every o
 
 Let's take a look at what all the excitement is about.
 
-## Obsidian
+## Another Markdown Editor?
 
 I'm really just getting started with Obsidian. At it's heart it's just another markdown editor. I've tried so many of them that I've lost count. The first thing that really appeals to me is that it doesn't try to ALSO write markdown documents, it's a markdown first editor.
 
@@ -156,7 +151,3 @@ Speaking of which next week, I'll be doing a special [live stream espisode](http
 ## Morten's Live Stream 8/18/21
 
 Also, my friend Morten has an exciting [Live Stream](https://www.linkedin.com/events/6830563558145839105/) coming up tomorrow, so check out his talk with Monika Bielskyte, where he'll be talking about Protopia Futures Framework and why design needs a makeover.
-
-## Replay
-
-Remember that if you missed part of the show, you can always catch the replay on my blog [raybo.org](https://raybo.org/) some time after the episode with full links to everything.
