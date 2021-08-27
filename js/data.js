@@ -1,402 +1,451 @@
 [{
+  "title": "Notistack - React Compatible Notification Library",
+  "date" : "Aug 27, 2021",
+  "summary" : "This is a really nice library for building notifications with React with a lot of options. The best part is the way the examples section lets you choose the different options and it builds the code for you. I wish every demo worked like this.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-26_12-44-48.png",
+  "url": "https://go.raybo.org/5XSn",
+  "tags" : "external"
+},{
+  "title": "JS Zip - Read, Write and Create Zip Files",
+  "date" : "Aug 27, 2021",
+  "summary" : "This JavaScript library gives you tools to read, write or create Zip files directly from JavaScript, which gives you access to content stored as zip files on your server, or the ability to quickly zip a group of files through your own projects. I&#39;m putting that into my...might be useful at some point bucked.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-26_12-44-48.png",
+  "url": "https://go.raybo.org/5XS9",
+  "tags" : "external"
+},{
+  "title": "Github CLI 2.0 - Now with Extensions support",
+  "date" : "Aug 27, 2021",
+  "summary" : "There&#39;s a new version of the Github CLI and this one provides an extensible framework that allows other developers to contribute content to the platform. The CLI is interesting in that you can use it to do a lot of stuff directly in Github. I like using it for creating issues directly from within a project. I can&#39;t wait to see what developers do with this.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-26_12-41-23.png",
+  "url": "https://go.raybo.org/5XRm",
+  "tags" : "external"
+},{
+  "title": "Coming Soon: CSS Imports in JavaScript",
+  "date" : "Aug 27, 2021",
+  "summary" : "Microsoft and Google have struck an agreement that will bring easy CSS Imports through script tags. This has some performance improvements over the link attribute, which is the current way to load up a CSS file. They can be directly applied as import statements into existing JS files and is similar to the way JavaScript modules work.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-26_12-24-07.png",
+  "url": "https://go.raybo.org/5XRA",
+  "tags" : "external"
+},{
+  "title": "Tailwind Buttons",
+  "date" : "Aug 27, 2021",
+  "summary" : "One of the hardest things to do in Tailwind CSS is figure out how to style a complex element like buttons. Here&#39;s a page with a ton of button styles that easily lets you copy the code for each one. ",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-26_11-17-23.png",
+  "url": "https://go.raybo.org/5XPF",
+  "tags" : "external"
+},{
+  "title": "GistPad",
+  "date" : "Aug 27, 2021",
+  "summary" : "GistPad gives you all the goodness of GitHub Gists with directly from within Visual Studio Code. Create, fork, star, follow everything as if it was a local item.",
+  "thumbnail": "https://user-images.githubusercontent.com/116461/69910156-96274b80-13fe-11ea-9be4-d801f4e9c377.gif",
+  "url": "https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs",
+  "tags" : "external"
+},{
   "title": "",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   
   
   "url": "/shorts/202108201151/",
   "tags" : ""
 },{
   "title": "Tabout VSCode Extension",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This Visual Studio Code extension changes how the tab works so that if you&#39;ve just typed something within quotes or parenthesis or any other programming type code, the tab key...tabs out instead of adding a useless tab inside your code. Brilliantly simple.",
   "thumbnail": "https://raw.githubusercontent.com/albertromkes/tabout/master/images/tabout-command.gif",
   "url": "https://marketplace.visualstudio.com/items?itemName=albert.TabOut",
   "tags" : "external"
 },{
   "title": "HTML End Tag Labels",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "If you&#39;ve got a lot of DIVs in your HTML (and who doesn&#39;t), it&#39;s hard to tell which is which. This VSCode extension will show you the ID and/or Class of each div. Simple, but it can really help you identify when you&#39;re missing a closing DIV.",
   "thumbnail": "https://anteprimorac.gallerycdn.vsassets.io/extensions/anteprimorac/html-end-tag-labels/0.7.0/1624720640642/Microsoft.VisualStudio.Services.Icons.Default",
   "url": "https://go.raybo.org/5LLI",
   "tags" : "external"
 },{
   "title": "KidPix in JavaScript",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Wow. Someone redid KidPix (a very old Mac App) in JavaScript and yes, there&#39;s a GitHub repo if you want to play with the code. I coded an app using those KidPix sound way back when for my daughter that she loved called PhoebeSound. Ah...those were the days.",
   "thumbnail": "https://kidpix.app/static/jskidpix.png",
   "url": "https://go.raybo.org/5LLE",
   "tags" : "external"
 },{
   "title": "Wikimedia picks Vue.js",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This is pretty big news, Wikimedia Foundation picks Vue.js as their official JavaScript framework. Well, that was already my fave, so welcome aboard.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210808-6329-13him63.png",
   "url": "https://go.raybo.org/5LLC",
   "tags" : "external"
 },{
   "title": "What&#39;s new in ES2022",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "A fantastic write-up of what&#39;s coming in ES2022 with a bit of history and an explanation of what came before. Are you excited for the Class Fields addition?",
   "thumbnail": "https://yagmurcetintas.com/static/8858449c0456e6034b6ecd8a4a941cad/8fc5d/me_in_color.png",
   "url": "https://go.raybo.org/5LL9",
   "tags" : "external"
 },{
   "title": "JSON Blob Tester",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "I often use JSON testers to quickly visualize the validity of my data. The thing I like about this one that it is open source, it comes with an interesting API and is easily forkable since it&#39;s a GitHub repo.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210808-6611-7pf666.png",
   "url": "https://go.raybo.org/5LL7",
   "tags" : "external"
 },{
   "title": "CodeSpaces with CodeSwing",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "An extension to VS Code to let you create a practice environment for someone to have an interactive code tryout. This works fantastically well with CodeSpaces new option to start up an environment by switching the link to the repo&#39;s TLD from .com to .dev. It lets you go directly to something like a CodePen with all of the power of Git and VSCode. Clearly a superior experience.",
   "thumbnail": "http://pixelprowess.com/i/2021-08-18_11-41-59.png",
   "url": "https://github.dev/lostintangent/rock-paper-scissors",
   "tags" : "external"
 },{
   "title": "HTML End Tag Labels",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "The HTML End Tags extension shows you what element the current div is closing. This solves a huge problem because something I think a DIV is closing an element, but in reality, it&#39;s closing something else.",
   "thumbnail": "https://github.com/anteprimorac/vscode-html-end-tag-labels/raw/HEAD/images/screenshot-1.png",
   "url": "https://marketplace.visualstudio.com/items?itemName=anteprimorac.html-end-tag-labels",
   "tags" : "external"
 },{
   "title": "Flat Data",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This is a really clever  way to build a GitHub Action that makes it easier to process data from an API into a static site like Eleventy. It comes with a VSCode Extension that gives you an interface to create the YAML for the GitHub Action.",
   "thumbnail": "https://octo.github.com/assets/projects/flat/flat.png",
   "url": "https://go.raybo.org/5LMf",
   "tags" : "external"
 },{
   "title": "Snipped VS Code Extension",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Snipped is a VS Code Extension that makes it easier for you to share your code snippets by letting you take screenshots directly from VSCode. There&#39;s a lot of options for sharing code, but for me, I&#39;m usually sharing a web snippet or something I&#39;ve written myself. This is just about the quickest way to do it.",
   "thumbnail": "https://i.imgur.com/NSCltwI.png",
   "url": "https://marketplace.visualstudio.com/items?itemName=JeffersonLicet.snipped&amp;ssr=true#overview",
   "tags" : "external"
 },{
   "title": "Obsidian",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Obsidian is my new favorite markdown editor that is the best tool for writing. It offers tons of plugins that I enjoy using like Kanban boards, calendars, mind maps, charts, calendars, icons and more.",
   "thumbnail": "https://obsidian.md/images/banner.png",
   "url": "https://obsidian.md",
   "tags" : "external"
 },{
   "title": "Introducing the World Wide Web",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "The web is now 30 years old and this page has some awesome stats and info. 60% of the world is online. 81% of Americans log on a daily basis, 69,444 users apply for jobs and much more.",
   "thumbnail": "https://www.w3.org/comm/assets/graphics/internet-minute-2020-sepia.jpg",
   "url": "https://www.w3.org/blog/2021/08/30-years-on-from-introducing-the-web-to-the-world/",
   "tags" : "external"
 },{
   "title": "HTML2Canvas",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This module lets you add screenshot capture of whole pages or parts of a page to your projects using JavaScript. It&#39;s DOM based, so it might not be 100% accurate, but still cool as heck.",
   "thumbnail": "http://pixelprowess.com/i/2021-08-11_13-07-21.png",
   "url": "https://html2canvas.hertzen.com/",
   "tags" : "external"
 },{
   "title": "Github CodeSpaces",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This had been a long time coming. Github is now available for Teams and Enterprise. The beta remains until they announce a personal option. They reduced the startup time to 10 seconds and Github itself is dogfooding how they build things. For them it went from 45 minds to the 10 seconds mentioned above.",
   "thumbnail": "http://pixelprowess.com/i/2021-08-11_12-32-02.png",
   "url": "https://github.com/features/codespaces",
   "tags" : "external"
 },{
   "title": "Markdown Presentation Ecosystem",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "You know I&#39;m a big fan of markdown and reveal.js, but this markdown presentation as an ecosystem sounds pretty cool. I don&#39;t feel like I&#39;m going to be moving rayveal.js anytime soon, but it might be worth a look.",
   "thumbnail": "http://pixelprowess.com/i/2021-08-10_15-22-24.png",
   "url": "https://marp.app/",
   "tags" : "external"
 },{
   "title": "How to Write Good Alt Text",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "What a fantastic article on how to write good ALT tags. It might not be the most exciting thing to do, but it&#39;s a great practice.",
   "thumbnail": "https://www.zenweb.com.au/blog/img/alt-text-for-accessibility-and-search-engines.jpg",
   "url": "https://go.raybo.org/4RjU",
   "tags" : "external"
 },{
   "title": "Crop SVGs",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Isn&#39;t it annoying when someone hands you an SVG with too much whitespace around it. Here&#39;s a site that will quickly remove that. https://go.raybo.org/4Rjl",
   "thumbnail": "https://svgcrop.com/images/twitter.png",
   "url": "https://go.raybo.org/4Rjl&quot;",
   "tags" : "external"
 },{
   "title": "Anyone Can Learn CSS Grid",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Want to learn CSS Grid. Here&#39;s a cool little interactive tutorial. I guess you could also take Morten&#39;s course...(Flexbox FTW!!!).",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210531-29707-7zi609.png",
   "url": "https://go.raybo.org/4Rjp",
   "tags" : "external"
 },{
   "title": "JSONMatic: CSV to JSON",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Bookmark this site next time you need to convert a spreadsheet (CSV) to JSON. Quick and easy.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210605-4043-dnw6b9.png",
   "url": "https://go.raybo.org/4UOY",
   "tags" : "external"
 },{
   "title": "AV Press Video Encoder",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Need to convert a video? Right now I use Adobe Media Encoder, but it&#39;s overkill and I keep wanting to wean myself from Adobe products. Addy Osmani (thegenius) built a browser video compressor that uses ffmpeg and Web Assembly if you need a quick fix.",
   "thumbnail": "https://avpress.netlify.app/metatag.jpg",
   "url": "https://go.raybo.org/4S99&quot;",
   "tags" : "external"
 },{
   "title": "Online Hash Tool",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "I found this random Hash tools pretty useful while I was working on a course. Sometimes you have to mock up some hashes or create a super secure password. This tool is pretty flexible.",
   "thumbnail": "https://onlinehashtools.com/images/preview-image-onlinehashtools.png",
   "url": "https://go.raybo.org/4UOd",
   "tags" : "external"
 },{
   "title": "rehype",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "A plugin system for processing HTML files. Format, Minify, Process Markdown including a CLI.",
   "thumbnail": "https://opengraph.githubassets.com/c3fcf6e44558545bf7281d897a7b4e13c226131ce6b16418e7e69b84490287/rehypejs/rehype",
   "url": "https://go.raybo.org/4Sua",
   "tags" : "external"
 },{
   "title": "Online GIF Tools",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "So many GIF (pronounced like the peanut butter) tools on this site. I like that you can make a sprite from a GIF, do the reverse or modify any of the properties like playback speed.",
   "thumbnail": "https://onlinegiftools.com/images/preview-image-onlinegiftools.png",
   "url": "https://go.raybo.org/4UOg",
   "tags" : "external"
 },{
   "title": "xBar",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This looks pretty useful. Add just about anything you want including bash scripts into your menu bar. Code responsibly though.",
   "thumbnail": "https://xbarapp.com/public/img/xbar-menu-preview.png",
   "url": "https://go.raybo.org/4UyP&quot;",
   "tags" : "external"
 },{
   "title": "Snowtrack",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "It&#39;s still an early version, but it&#39;s a heck of a project. Version tracking for graphic files.",
   "thumbnail": "https://www.snowtrack.io/wp-content/uploads/2021/06/social-media-card.jpg",
   "url": "https://go.raybo.org/4XaE",
   "tags" : "external"
 },{
   "title": "",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "It&#39;s a little too early to tell, but this might just be the next big thing. Create a website with a simple observable that waits for your actions and only loads Scripts when absolutely necessary. The static site generator of the future. It&#39;s definitely got legs.",
   "thumbnail": "https://astro.build/social.png?v=1",
   "url": "https://go.raybo.org/4Zpc&quot;",
   "tags" : "external"
 },{
   "title": "CSS Grid Editor in Chrome",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Chrome now has a new CSS Grid editor. Seems like it&#39;s catching up to others, but that should help with Grid Adoption.",
   "thumbnail": "https://developer-chrome-com.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/mV9Ac7QAD8vVPoiqmii6.png?auto=format&amp;w=1600",
   "url": "https://go.raybo.org/4atZ",
   "tags" : "external"
 },{
   "title": "Astro Demo Video",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "The other day, I mentioned Astro as being the potential next great thing. Here&#39;s a video that shows you why. Not mine, but from a podcast. https://go.raybo.org/4cRg",
   "thumbnail": "https://i.ytimg.com/vi/mgkwZqVkrwo/hqdefault.jpg",
   "url": "https://go.raybo.org/4cRg&quot;",
   "tags" : "external"
 },{
   "title": "File Converter",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Free for 25 conversions per day and pretty handy, this site converts an insane amount of formats. Pretty handy.",
   "thumbnail": "https://cloudconvert.com/images/logo_flat_110_borderless.png",
   "url": "https://go.raybo.org/4dw1",
   "tags" : "external"
 },{
   "title": "Modern Unix Repo List",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "I really like this list of alternative Unix commands. Didn&#39;t have lots of them available in zsh, but I did have and enjoyed using bat for displaying code nicely.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210618-9342-q25tc1.png",
   "url": "https://go.raybo.org/4exX",
   "tags" : "external"
 },{
   "title": "Webhint",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Looks like Lighthouse is got some competition from Microsoft with it&#39;s own performance and accesibility tools called Webhint. Who doesn&#39;t love a Narwhal? Are you using these tools to check your site?",
   "thumbnail": "https://webhint.io/static/images/apple-touch-icon-c01d89d4f3.png",
   "url": "https://go.raybo.org/4fVv",
   "tags" : "external"
 },{
   "title": "Optimising for high density displays",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "A nice writeup or how to prepare your images for high density screens.",
   "thumbnail": "https://jakearchibald.com/c/img-f8ecf98d.jpg",
   "url": "https://go.raybo.org/4fVz&quot;",
   "tags" : "external"
 },{
   "title": "ES2021 Features",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "ES2021 has been approved. This site has a nice short and concise list of examples of what&#39;s new.",
   "thumbnail": "https://h3manth.com/ES2021/og.jpeg",
   "url": "https://go.raybo.org/4mXO",
   "tags" : "external"
 },{
   "title": "Temporal-JavaScript&#39;s new Date API",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Finally, a date object an API that makes sense. The upcoming JavaScript temporal API. Here&#39;s a write-up from Axel Raushmayer.",
   "thumbnail": "https://2ality.com/img/deep-js.jpg",
   "url": "https://go.raybo.org/4uU_",
   "tags" : "external"
 },{
   "title": "SolidJS",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "A React Killer? We&#39;ll see, although solid has a lot going for it in terms of performance, I think the problem is the similarity to React. Why would someone switch from React...for a few k or milliseconds. However. Only time will tell, but still keep an eye out on this one.",
   "thumbnail": "https://www.solidjs.com/og.jpg",
   "url": "https://go.raybo.org/4uVr&quot;",
   "tags" : "external"
 },{
   "title": "JS is Weird",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This is such a fun test ( I can&#39;t believe I&#39;m saying that). Don&#39;t worry about the score (srsly, don&#39;t try to get a good score), but try to think about what&#39;s happening. I think the best part is the explanations at the end of the test.",
   "thumbnail": "https://jsisweird.com/jsisweird.png",
   "url": "https://go.raybo.org/4uWD&quot;",
   "tags" : "external"
 },{
   "title": "Animista",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Another one of those cool sites that helps you build animations with a modern interface. Get the animation and code after you play.",
   "thumbnail": "http://animista.net/animista-media-img.gif",
   "url": "https://go.raybo.org/4ymn&quot;",
   "tags" : "external"
 },{
   "title": "JS1024",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This is an annual event for JS developers who love pain (I mean a challenge). Try to make something cool in less than 1024 bytes (1k). It&#39;s like when someone asks me if I want to get up at 5am to go to the beach and see the sunrise (no thanks). I feel like I have enough of a hard time doing anything in infinite K.",
   "thumbnail": "https://js1024.fun/files/meta.png",
   "url": "https://go.raybo.org/4uWP&quot;",
   "tags" : "external"
 },{
   "title": "HTTP Code Generator",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This code generator for HTTP requests will help you build and give you the code for different HTTP requests.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210705-5799-c2yawm.png",
   "url": "https://go.raybo.org/4uX0",
   "tags" : "external"
 },{
   "title": "Wikipedia QL",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Scrape Wikipedia through a query language and receive the results as JSON objects that you can use on your projects. Wikipedia has so much data you might end up using this one.",
   "thumbnail": "https://opengraph.githubassets.com/bc26424bb1efcf42513adafa8fcc858e4adbfba3bcad329b1e0f40b6b7d872/zverok/wikipedia_ql",
   "url": "https://go.raybo.org/4vek",
   "tags" : "external"
 },{
   "title": "npm audit: Broken by Design",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "npm has a false positive approach that creates a &#39;boy who cried wolf&#39; problem. This great article from Dan Abramov is a deep dive into why that&#39;s a problem and potential fixes.",
   "thumbnail": "https://imgur.com/ABDK4Ky.png",
   "url": "https://go.raybo.org/4zWW",
   "tags" : "external"
 },{
   "title": "Gradient Designer",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This is quite possibly the best gradient editor I&#39;ve ever seen. It lets you create multiple layered gradients using a GUI.",
   "thumbnail": "https://gra.dient.art/favicon.png",
   "url": "https://go.raybo.org/4zda",
   "tags" : "external"
 },{
   "title": "Explain Shell",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This cool site gives you an explanation of a series of shell commands. You can roll over the explanation to highlight and send the link of the explanation to someone else.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210711-17796-1dfoo5b.png",
   "url": "https://go.raybo.org/4-Bw",
   "tags" : "external"
 },{
   "title": "Emmet Live",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "If you love Emmett, you&#39;ll love this VSCode Extension. It lets you type in an Emmet expression and shows you a live preview as you modify it.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210713-23387-pmnuo6.png",
   "url": "https://go.raybo.org/4_SU",
   "tags" : "external"
 },{
   "title": "QR Code Builder",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Nice little QR Code builder for giving people your WiFi Details. Would be great to print out for your Airbnb, your business or just on top of your router.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210714-27599-sjvg95.png",
   "url": "https://go.raybo.org/512r",
   "tags" : "external"
 },{
   "title": "Flowchart Designer 3",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "I&#39;d been looking for a great way to create flowcharts, and I came across Flowchart Designer 3, which was just what I needed for some simple charts. There&#39;s a free version with a$7.99 upgrade for some more shapes. It works just as you&#39;d expect. The arrows automatically connect the nodes, which then move with as you adjust other notes, items auto align to a grid and it&#39;s easy to enter some labels. Plus it lets you save as a transparent PNG or PDF. I do wish it would let you save SVGs directly from the app though.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210714-26973-lxmt69.png",
   "url": "https://go.raybo.org/515v",
   "tags" : "external"
 },{
   "title": "Warp-The terminal of the Future",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Just saw the terminal app of the future called Warp. True innovation on the terminal. Real time collaboration, auto-complete, multi-cursor. Built with Rust. I can&#39;t wait to give it a go.",
   "thumbnail": "https://storage.cloud.google.com/website-image-preview/url_preview.png",
   "url": "https://go.raybo.org/53FA",
   "tags" : "external"
 },{
   "title": "Choose a License",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Choosing a license for. your projects can seem daunting, especially if you&#39;re not a lawyer. This site gives you a good idea of which way you should go depending on your needs.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210719-3203-rw14s1.png",
   "url": "https://go.raybo.org/54ns",
   "tags" : "external"
 },{
   "title": "Command Line Tools",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "If you love the command line, here’s a nice set of tools you might enjoy using, I gotta check some of these out, the fuzzy finder looks cool and I’ve already used broot.",
   "thumbnail": "https://earthly.dev/blog/generated/assets/images/command-line-tools/header-800-a028dbebd.jpg",
   "url": "https://go.raybo.org/5Gca",
   "tags" : "external"
 },{
   "title": "Names Generator",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Nice little project to auto generate your names. Written in TypeScript with not that much code.",
   "thumbnail": "https://opengraph.githubassets.com/ab2a4c23ca7fe92a7e757806b0ee8ca08c5e83a361b6420db321461b47c3ad/andreasonny83/unique-names-generator",
   "url": "https://go.raybo.org/5Gcp",
   "tags" : "external"
 },{
   "title": "SVGGobbler",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "A set of SVG utilities available as a browser extension. Lets you quickly copy SVGs on a page with lots of options.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210801-30260-1qltfb4.png",
   "url": "https://go.raybo.org/5Gc_",
   "tags" : "external"
 },{
   "title": "Slinkity",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "Slinkity is like Astro and Eleventy put together. Gives you easy access to React, Vue or Svelte easily inside Eleventy. Hydrates progressively with Snowpack. https:/go.raybo.org/5JtE Dang it I&#39;m sold already!!! Now I need several weeks to re-write raybo.org. There goes my social life.",
   "thumbnail": "https://slinkity.dev/assets/og-image-banner.jpg",
   "url": "https://go.raybo.org/5JtE",
   "tags" : "external"
 },{
   "title": "Coding with Character",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "A list of coding monospaced fonts that focuses on personality and readability. https://go.raybo.org/5Gct some pretty cool options there.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210801-26886-97udlf.png",
   "url": "https://go.raybo.org/5Gcu",
   "tags" : "external"
 },{
   "title": "Sniptt OTS",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "This API lets you create one time URLs to share end-to-end encrypted secrets. Good for API keys, passwords and other stuff. Whoah! Cool.",
   "thumbnail": "http://pixelprowess.com/i/2021-08-10_15-22-24.png",
   "url": "https://www.sniptt.com/ots/",
   "tags" : "external"
 },{
   "title": "Layoutit Grid",
-  "date" : "Aug 25, 2021",
+  "date" : "Aug 27, 2021",
   "summary" : "If the language of grid layouts feels a bit frustrating, check out this excellent grid layout app. Recommended by Addy Omani.",
   "thumbnail": "https://raw.githubusercontent.com/Leniolabs/layoutit-grid/main/assets/layoutit-grid-showcase-v2.gif",
   "url": "https://go.raybo.org/5GeW",
   "tags" : "external"
 },{
-  "title": "24 Hour Homepage",
+  "title": "The Collaboration Conundrum",
+  "date" : "Aug 26, 2021",
+  "summary" : "My sisters were masters in the art of collaboration...specially when it came to tormenting their younger brother. Which reminds me of GitHub...a company who&#39;s also mastered collaboration. A new Github Code Challenges course and as usual, I share some excellent tools.",
+  "thumbnail": "/images/newsletter/collaboration_tn.jpg",
+  "url": "/newsletter/2021-08-26-the-collaboration-connundrum/",
+  "tags" : ""
+},{
+  "title": "GitHub Tools You Should Now -- The Toolbox Episode 04 -- Special Launch Edition",
   "date" : "Aug 25, 2021",
-  "summary" : "From the why the heck didn’t I think of that. This guy is selling time on a website that repeats daily and lets you promote something by the second of the day. You can buy several seconds and your ad will play on the site at that time everyday.",
-  "thumbnail": "http://pixelprowess.com/i/2021-08-10_15-22-24.png",
-  "url": "https://go.raybo.org/5Gdr",
-  "tags" : "external"
+  "summary" : "I&#39;m celebrating the release of my new course: GitHub Code Challenges. So, in a special launch edition of The Toolbox, I go over some of the latest GitHub Tools and updates as well as some of my favorite GitHub tips you should already know.",
+  "thumbnail": "/images/toolbox/githubtools_tn.jpg",
+  "url": "/toolbox/2021-08-25-github-tips-you-should-know-the-toolbox-Ep-04-launch-edition/",
+  "tags" : ""
 },{
   "title": "The Influenced Mind",
   "date" : "Aug 19, 2021",
@@ -405,11 +454,18 @@
   "url": "/newsletter/2021-08-19-the-influenced-mind/",
   "tags" : ""
 },{
+  "title": "What&#39;s new in Bootstrap 5.1? The Toolbox - Episode 02",
+  "date" : "Aug 18, 2021",
+  "summary" : "In this episode, I&#39;ll talk about Obsidian the tool that made me completely change my workflow and the way I write articles, notes, pretty much everything. We&#39;ll also cover some of the new features inside Bootstrap 5.1 and cover some more other tools.",
+  "thumbnail": "/images/toolbox/obsidian_tn.jpg",
+  "url": "/toolbox/2021-08-18-obsidian-for-developers-who-take-notes-the-toolbox-Ep-03/",
+  "tags" : ""
+},{
   "title": "Obsidian for Developers and Creators who Take Notes The Toolbox - Episode 03",
   "date" : "Aug 18, 2021",
   "summary" : "Obsidian is the tool that made me completely change my workflow and the way I write articles, notes, pretty much everything. We&#39;ll also cover some of other new tools including Flat Data, two awesome VSCode Extensions for coders, Nextra, the Next.js and React powered static site generator from Vercel and some of the cool things you can do from the recent CodeSpaces.",
   "thumbnail": "/images/toolbox/obsidian_tn.jpg",
-  "url": "/toolbox/2021-08-18-obsidian-for-developers-who-take-notes-the-toolbox-Ep-03/",
+  "url": "/toolbox/2021-08-18-obsidian-for-developers-who-take-notes-the-toolbox-Ep-03 (Rays-MacBook-Pro.local&#39;s conflicted copy 2021-08-26)/",
   "tags" : ""
 },{
   "title": "The Golden Mean",
@@ -425,6 +481,13 @@
   "thumbnail": "/images/courses/githubcodechallenges_tn.jpg",
   "url": "https://www.linkedin.com/learning/github-code-challenges/",
   "tags" : "external,github,source control,github actions"
+},{
+  "title": "24 Hour Homepage",
+  "date" : "Aug 10, 2021",
+  "summary" : "From the why the heck didn’t I think of that. This guy is selling time on a website that repeats daily and lets you promote something by the second of the day. You can buy several seconds and your ad will play on the site at that time everyday.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-10_15-22-24.png",
+  "url": "https://go.raybo.org/5Gdr",
+  "tags" : "external"
 },{
   "title": "The Unchanging Essence",
   "date" : "Aug 05, 2021",
@@ -454,7 +517,7 @@
   "url": "/newsletter/2021-07-22-The-Unforgettable-Ride/",
   "tags" : ""
 },{
-  "title": "How Can Github Help me Manage my Development Projects? The Toolbox - Episode 01",
+  "title": "How Can GitHub Help me Manage my Development Projects? The Toolbox - Episode 01",
   "date" : "Jul 21, 2021",
   "summary" : "In this episode...the official first episode of the Toolbox, we&#39;ll take a look at some great new tools, including my new favorite flowchart designer, a site that explains the shell and I&#39;ll introduce you to the tools inside Github that help with Project Management.",
   "thumbnail": "/images/toolbox/GithubTimeMachine_tn.jpg",
