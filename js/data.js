@@ -2,8 +2,8 @@
   "title": "Notistack - React Compatible Notification Library",
   "date" : "Aug 27, 2021",
   "summary" : "This is a really nice library for building notifications with React with a lot of options. The best part is the way the examples section lets you choose the different options and it builds the code for you. I wish every demo worked like this.",
-  "thumbnail": "http://pixelprowess.com/i/2021-08-26_12-44-48.png",
-  "url": "https://go.raybo.org/5XSn",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-27_12-33-29.png",
+  "url": "https://go.raybo.org/5Y61",
   "tags" : "external"
 },{
   "title": "JS Zip - Read, Write and Create Zip Files",
@@ -95,13 +95,6 @@
   "summary" : "An extension to VS Code to let you create a practice environment for someone to have an interactive code tryout. This works fantastically well with CodeSpaces new option to start up an environment by switching the link to the repo&#39;s TLD from .com to .dev. It lets you go directly to something like a CodePen with all of the power of Git and VSCode. Clearly a superior experience.",
   "thumbnail": "http://pixelprowess.com/i/2021-08-18_11-41-59.png",
   "url": "https://github.dev/lostintangent/rock-paper-scissors",
-  "tags" : "external"
-},{
-  "title": "HTML End Tag Labels",
-  "date" : "Aug 27, 2021",
-  "summary" : "The HTML End Tags extension shows you what element the current div is closing. This solves a huge problem because something I think a DIV is closing an element, but in reality, it&#39;s closing something else.",
-  "thumbnail": "https://github.com/anteprimorac/vscode-html-end-tag-labels/raw/HEAD/images/screenshot-1.png",
-  "url": "https://marketplace.visualstudio.com/items?itemName=anteprimorac.html-end-tag-labels",
   "tags" : "external"
 },{
   "title": "Flat Data",
@@ -433,6 +426,41 @@
   "url": "https://go.raybo.org/5GeW",
   "tags" : "external"
 },{
+  "title": "Tailwind Starter Kit",
+  "date" : "Aug 27, 2021",
+  "summary" : "A set of component additions to Tailwind CSS to help you build websites quicker. It doesn&#39;t change the code you have to type for Tailwind CSS, but provides a set of interactive components for different frameworks including Vue/React and Angular.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-27_12-57-24.png",
+  "url": "https://go.raybo.org/5Y6s",
+  "tags" : "external"
+},{
+  "title": "Hypercolor - Tailwind/CSS Color Gradients",
+  "date" : "Aug 27, 2021",
+  "summary" : "I can be a bit color challenged, so I appreciate a good site with inspiring gradients gives me the Tailwind or CSS code quickly. Great interface with lots of customization options.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-27_12-50-23.png",
+  "url": "https://go.raybo.org/5Y6e",
+  "tags" : "external"
+},{
+  "title": "Daisy UI - Component Library for Tailwind CSS",
+  "date" : "Aug 27, 2021",
+  "summary" : "Tailwind is really just an engine for building components, but it doesn&#39;t include any components of it&#39;s own. Daisy UI uses Tailwind CSS and it gives you a set of components to build sites quicker. It installs as a Tailwind CSS plugin so it&#39;s easy to add to your existing project. Think of it as the missing Bootstrap-style link to Tailwind CSS.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-27_12-45-24.png",
+  "url": "https://go.raybo.org/5Y6Y",
+  "tags" : "external"
+},{
+  "title": "Tailwind Kit - UI Components for Tailwind CSS",
+  "date" : "Aug 27, 2021",
+  "summary" : "A beautiful UI component showcase for Tailwinds UI. It has a lot of smaller elements like buttons, forms, navigation and lists as well as larger templates for bigger things. Over 250 components and templates that are also React/Vue/Angular compatible.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-27_12-36-49.png",
+  "url": "https://go.raybo.org/5Y67",
+  "tags" : "external"
+},{
+  "title": "Tailblocks - Free Tailwind CSS Component Code",
+  "date" : "Aug 27, 2021",
+  "summary" : "Tailwinds CSS is great, but it doesn&#39;t come with any built in components. A few industrious developers have been creating their own. This is a pretty good selection of ready to go components with everything from ecommerce, navigation, testimonials and blog elements you can copy and paste from. It also has an easy to use interface to copy and preview the blocks.",
+  "thumbnail": "http://pixelprowess.com/i/2021-08-27_12-25-48.png",
+  "url": "https://go.raybo.org/5Y5c",
+  "tags" : "external"
+},{
   "title": "The Collaboration Conundrum",
   "date" : "Aug 26, 2021",
   "summary" : "My sisters were masters in the art of collaboration...specially when it came to tormenting their younger brother. Which reminds me of GitHub...a company who&#39;s also mastered collaboration. A new Github Code Challenges course and as usual, I share some excellent tools.",
@@ -459,13 +487,6 @@
   "summary" : "In this episode, I&#39;ll talk about Obsidian the tool that made me completely change my workflow and the way I write articles, notes, pretty much everything. We&#39;ll also cover some of the new features inside Bootstrap 5.1 and cover some more other tools.",
   "thumbnail": "/images/toolbox/obsidian_tn.jpg",
   "url": "/toolbox/2021-08-18-obsidian-for-developers-who-take-notes-the-toolbox-Ep-03/",
-  "tags" : ""
-},{
-  "title": "Obsidian for Developers and Creators who Take Notes The Toolbox - Episode 03",
-  "date" : "Aug 18, 2021",
-  "summary" : "Obsidian is the tool that made me completely change my workflow and the way I write articles, notes, pretty much everything. We&#39;ll also cover some of other new tools including Flat Data, two awesome VSCode Extensions for coders, Nextra, the Next.js and React powered static site generator from Vercel and some of the cool things you can do from the recent CodeSpaces.",
-  "thumbnail": "/images/toolbox/obsidian_tn.jpg",
-  "url": "/toolbox/2021-08-18-obsidian-for-developers-who-take-notes-the-toolbox-Ep-03 (Rays-MacBook-Pro.local&#39;s conflicted copy 2021-08-26)/",
   "tags" : ""
 },{
   "title": "The Golden Mean",
