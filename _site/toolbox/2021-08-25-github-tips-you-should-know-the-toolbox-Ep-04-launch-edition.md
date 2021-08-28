@@ -3,7 +3,7 @@ layout: post
 title: "GitHub Tools You Should Now -- The Toolbox Episode 04 -- Special Launch Edition"
 summary: "I'm celebrating the release of my new course: GitHub Code Challenges. So, in a special launch edition of The Toolbox, I go over some of the latest GitHub Tools and updates as well as some of my favorite GitHub tips you should already know."
 video: "bagdajYKNN4"
-hero: /images/toolbox/githubtools.png
+hero: /images/toolbox/githubtools.jpg
 thumb: /images/toolbox/githubtools_tn.jpg
 category: toolbox
 ---
@@ -23,6 +23,7 @@ Recently GitHub announced a quick way to jump into CodeSpaces. You can hit a per
 I demoed this on last week's episode, but this works really well with a tool called [CodeSwing](https://marketplace.visualstudio.com/items?itemName=codespaces-Contrib.codeswing) that lets you build a CodePen directly into VSCode, but with all of the power of GitHub.
 
 ## Copilot
+
 [![Copilot](http://pixelprowess.com/i/2021-08-26_17-36-59.png)](https://copilot.github.com/)
 
 Another popular new tool is GitHub CoPilot. This is an AI tool that's sort of the next generation of auto-complete. It's an artificial intelligence tool that writes entire functions for you in many programming languages based on the context of your code.
@@ -36,6 +37,7 @@ Copilot uses a new algorithm based on GPT3 called Codex, which focuses on softwa
 Something else that's not quite out, but I'm pretty excited about is the changes to GitHub Issues. GitHub has all these cool features that can help you organize your code project. That's usually done with a Kanban board, but they're working on something that is more like a table mode. It lets you look at your projects' status a bit easier.
 
 ## GitHub CLI
+
 [![GitHub CLI](http://pixelprowess.com/i/2021-08-26_17-40-47.png)](https://cli.github.com)
 
 Now GitHub also has a command line interface, that's a terminal tool that lets you issue commands directly from GitHub. Where this can come in handy is with something like issues. You can create issues directly from the command line while working on a project.
@@ -43,12 +45,14 @@ Now GitHub also has a command line interface, that's a terminal tool that lets y
 They just announced a [2.0 version](https://github.blog/2021-08-24-github-cli-2-0-includes-extensions/) of the tool which also lets developers create extensions for the CLI, so I'm excited to see what other developers create with this.
 
 ## GitHub for Mobile
+
 [![GitHub for Mobile](http://pixelprowess.com/i/2021-08-26_17-42-11.png)](https://github.com/mobile/)
 If you're a maintainer, it can be a hassle to keep up with your projects, so the mobile app for Github gives you the ability to peek into your inbox, comment on issues and do things away from your computer.
 
 Recently, they announced a feature that allows you to [block users](https://github.blog/2011-06-01-block-the-bullies/) who are being disruptive. That's a welcome addition to an already capable platform.
 
 ## Git Lens
+
 [![](https://raw.githubusercontent.com/eamodio/vscode-gitlens/main/images/docs/revision-navigation.gif)](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
 Visual Studio code has a lot of built in GitHub functionality, but one tool that you gotta install is GitLens. It turbo charges what Visual Studio code can do.
 
@@ -130,6 +134,7 @@ It has a lot of options, but the ones I find really useful are -n, which will sh
 Be careful with these commands because they're permanent.
 
 ## Github TLDs
+
 ![Creating a new Repo](http://pixelprowess.com/i/2021-08-26_17-52-54.png)
 
 GitHub has a bunch of TLDs (Top Level Domains) that you can use to do quickly take care of tasks.
@@ -140,7 +145,7 @@ GitHub has a bunch of TLDs (Top Level Domains) that you can use to do quickly ta
 
 ## Shortcuts
 
-Github has a number of shortcuts you can use to do things. 
+Github has a number of shortcuts you can use to do things.
 
 - `shift-?` - If you only remember one shortcut, remember shift-? inside any github page, it gets you a list of all the shortcuts.
 
