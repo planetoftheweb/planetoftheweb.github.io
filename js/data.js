@@ -1,4 +1,25 @@
 [{
+  "title": "The Changing History",
+  "date" : "Sep 02, 2021",
+  "summary" : "Time Travel is a dangerous concept...if you can change the past. This week, I ask the question...what would you be willing to give up to change the past? Plus, I&#39;ve got a new GitHub course and a new some Tailwind related shorts.",
+  "thumbnail": "/images/newsletter/changinghistory_tn.jpg",
+  "url": "/newsletter/2021-09-02-the-historic-time-machine/",
+  "tags" : ""
+},{
+  "title": "Using CodeSpaces to Create a Jailwind JIT Environment -- The Toolbox Ep 05",
+  "date" : "Sep 01, 2021",
+  "summary" : "Create your own repo that can take the place of CodePen or a custom environment with your own node modules to install and run Tailwind CSS.",
+  "thumbnail": "/images/toolbox/episode05-tailwindsjit_tn.jpg",
+  "url": "/toolbox/2021-09-01-using-codespaces-with-codeswing-to-create-a-tailwind-jit-environment--Ep-05/",
+  "tags" : ""
+},{
+  "title": "Learning Git and Github 2021",
+  "date" : "Sep 01, 2021",
+  "summary" : "Version Control lets you manage changes you&#39;ve made to files over time, and is an essential skill for developers to master. Git is by far the most popular version control system on the web. In this fast-paced course, Ray Villalobos shows you the fundamental commands that you need to work with most Git projects.",
+  "thumbnail": "/images/courses/learninggitgithub_tn.jpg",
+  "url": "https://www.linkedin.com/learning/learning-git-and-github-14213624/",
+  "tags" : "external,github,source control,github actions"
+},{
   "title": "Tailwind Starter Kit",
   "date" : "Aug 27, 2021",
   "summary" : "A set of component additions to Tailwind CSS to help you build websites quicker. It doesn&#39;t change the code you have to type for Tailwind CSS, but provides a set of interactive components for different frameworks including Vue/React and Angular.",
