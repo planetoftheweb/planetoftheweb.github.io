@@ -7,7 +7,7 @@ thumb: /images/newsletter/changinghistory_tn.jpg
 category: newsletter
 ---
 
-Being a Sci-Fi afficionado, the concept of time travel is often in my mind. I love all of the concepts...like the time loop, which I recently discovered in a super old film _The Time Travelers_ from 1964.
+Being a Sci-Fi aficionado, the concept of time travel is often in my mind. I love all of the concepts...like the time loop, which I recently discovered in a super old film _The Time Travelers_ from 1964.
 
 [![The Time Travelers](http://pixelprowess.com/i/2021-09-02_08-42-25.png)](https://www.youtube.com/watch?v=f5bAMyjr_ok)
 
@@ -23,7 +23,7 @@ The scariest horror movie would be someone who keeps on trying to change the pas
 
 I wouldn't want to skip meeting my wife, for example. I'd be terrified of not having any of my kids. I'm real happy about the job I have, but there were plenty of decisions that could have screwed that up.
 
-If I did have a time machine and invested in a FAANG company, I'd spend the whole time up to the time I invented the machine trying to make sure everything else stayed the same. But the tempation, since I had the resources, of righting big historical wrongs would be too much.
+If I did have a time machine and invested in a FAANG company, I'd spend the whole time up to the time I invented the machine trying to make sure everything else stayed the same. But the temptation, since I had the resources, of righting big historical wrongs would be too much.
 
 I remember before I got a job at Lynda/LinkedIn, I applied at other education companies. One of these no longer does online training, while the other one gave a fantastic first and second interviews...then I heard nothing from them. I always wondered what I did wrong until I got my current job. Then I stopped caring. But what if I would have taken either of those jobs? I'm sure I'd be miserable working for anyone else.
 
