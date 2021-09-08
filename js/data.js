@@ -1,4 +1,11 @@
 [{
+  "title": "The Coolest Bootstrap 5.1 Features -- The Toolbox Ep 06",
+  "date" : "Sep 08, 2021",
+  "summary" : "In this episode of the toolbox, we&#39;re going to talk about some of the coolest features in bootstrap 5.1, like support for offCanvas in navbars, placeholders and stacks. In Toolbox Shorts we&#39;ve got an amazing search engine for developers and a big change on how Google indexes titles. Plus demos of how to streamline your querySelectors and what&#39;s quite possibly the next big thing in CSS development. It&#39;s Wednesday, September 8, 1pm Eastern time...and this is episode 06. So, let&#39;s get tooling",
+  "thumbnail": "/images/toolbox/episode06-bootstrap51new_tn.jpg",
+  "url": "/toolbox/2021-09-08-coolest-boostrap-5.1-features--Ep-06/",
+  "tags" : ""
+},{
   "title": "The Changing History",
   "date" : "Sep 02, 2021",
   "summary" : "Time Travel is a dangerous concept...if you can change the past. This week, I ask the question...what would you be willing to give up to change the past? Plus, I&#39;ve got a new GitHub course and a new some Tailwind related shorts.",
