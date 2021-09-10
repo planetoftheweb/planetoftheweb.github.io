@@ -1,4 +1,18 @@
 [{
+  "title": "",
+  "date" : "Sep 09, 2021",
+  
+  
+  "url": "/newsletter/2021-09-09-The-speedy-slowness/",
+  "tags" : ""
+},{
+  "title": "The Speedy Slowness",
+  "date" : "Sep 09, 2021",
+  "summary" : "Sometimes, the best way to get faster at something is to slow down and take the time to develop a process that will eventually pay off. I had a chance to rethink how I created a new series so it could be handled by a larger team of people. They say that slow is smooth and smooth is fast. Here&#39;s how I did it.",
+  "thumbnail": "/images/newsletter/slowisfast_tn.jpg",
+  "url": "/newsletter/2021-09-09-The-fast-slowdown/",
+  "tags" : ""
+},{
   "title": "The Coolest Bootstrap 5.1 Features -- The Toolbox Ep 06",
   "date" : "Sep 08, 2021",
   "summary" : "In this episode of the toolbox, we&#39;re going to talk about some of the coolest features in bootstrap 5.1, like support for offCanvas in navbars, placeholders and stacks. In Toolbox Shorts we&#39;ve got an amazing search engine for developers and a big change on how Google indexes titles. Plus demos of how to streamline your querySelectors and what&#39;s quite possibly the next big thing in CSS development. It&#39;s Wednesday, September 8, 1pm Eastern time...and this is episode 06. So, let&#39;s get tooling",
