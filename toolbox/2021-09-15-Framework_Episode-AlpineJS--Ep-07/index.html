@@ -1,0 +1,371 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <meta name="description" content="In this episode of the toolbox, we take a look at Alpline.js. an up and coming frameworks that rewires your mind and like Tailwind CSS lets you do everything with only the HTML file. I’ve got lots of Toolbox shorts, GitHub tips and I’ll let you take a peek at what I’m working on next in JSL." />
+    <meta property="og:title" content="What New Framework should you try next -- The Toolbox Ep 07" />
+    <meta property="og:description" content="In this episode of the toolbox, we take a look at Alpline.js. an up and coming frameworks that rewires your mind and like Tailwind CSS lets you do everything with only the HTML file. I’ve got lots of Toolbox shorts, GitHub tips and I’ll let you take a peek at what I’m working on next in JSL." />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/episode07.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2021-09-15-Framework_Episode-AlpineJS--Ep-07/">
+    <meta name="twitter:title" content="What New Framework should you try next -- The Toolbox Ep 07">
+    <meta name="twitter:description" content="In this episode of the toolbox, we take a look at Alpline.js. an up and coming frameworks that rewires your mind and like Tailwind CSS lets you do everything with only the HTML file. I’ve got lots of Toolbox shorts, GitHub tips and I’ll let you take a peek at what I’m working on next in JSL.">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode07.jpg">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
+ 
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body class="position-relative">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  bg-dark sticky-top  py-0">
+  <div class="container-fluid">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="bi bi-house-door-fill"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/toolbox/0/">toolbox</a>
+            
+            <a class="nav-item nav-link" href="/shorts/0/">shorts</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                  <i class="bi bi-linkedin text-secondary me-1"></i> linkedin
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                  <i class="bi bi-github text-secondary me-1"></i> github
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                  <i class="bi bi-suit-club text-secondary me-1"></i> clubhouse
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                  <i class="bi bi-twitter text-secondary me-1"></i> twitter
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                  <i class="bi bi-image text-secondary me-1"></i> flickr
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                  <i class="bi bi-youtube text-secondary me-1"></i> youtube
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                  <i class="bi bi-instagram text-secondary me-1"></i> instagram
+              </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="site-header ratio ratio-16x9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/lTolSal2qgY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+<h1>What New Framework should you try next -- The Toolbox Ep 07</h1>
+<p class="lead">In this episode of the toolbox, we take a look at Alpline.js. an up and coming frameworks that rewires your mind and like Tailwind CSS lets you do everything with only the HTML file. I’ve got lots of Toolbox shorts, GitHub tips and I’ll let you take a peek at what I’m working on next in JSL.</p>
+
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern time 10am Pacific. So follow me and subscribe on the social media things for tons more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.</p>
+<h1 id="toolbox-shorts">Toolbox Shorts <a class="direct-link" href="#toolbox-shorts"> </a></h1>
+<p>Let's get started with some shorts. There are new tools and articles that you should know about.</p>
+<hr>
+<h2 id="draw.io"><a href="http://Draw.io">Draw.io</a> <a class="direct-link" href="#draw.io"> </a></h2>
+<p><a href="https://draw.io"><img src="http://pixelprowess.com/i/2021-09-15_09-57-24.png" alt="Draw.io"></a></p>
+<p>Weeks ago, I found a pretty neat Mac and iPad App called Flowchart Designer 3. Well, now that I found <a href="http://Draw.io">Draw.io</a>, I feel like a fool, there’s a cool new site you can try called <a href="http://draw.io">draw.io</a> that is just as capable, free and online. There’s even a <a href="https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio">VSCode extension</a>, which means you can also use this on a codespace or on github.dev.</p>
+<hr>
+<h2 id="frontmatter">FrontMatter <a class="direct-link" href="#frontmatter"> </a></h2>
+<p><a href="https://frontmatter.codes/"><img src="http://pixelprowess.com/i/2021-09-15_10-15-45.png" alt="Front Matter"></a></p>
+<p>This is a Headless CMS right inside Visual Studio code, so you can use it to edit your blog posts if you’re using something like Eleventy, but it also works with Hugo, Hexo, Jekyll, Next, Gatsby and more. One of the features I really love is the ability to quickly search through the different files on my blog. Plus it gives you tons of stats and helps you generate the content.</p>
+<hr>
+<h2 id="marp-for-vs-code">MARP for VS Code <a class="direct-link" href="#marp-for-vs-code"> </a></h2>
+<p><a href="https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode"><img src="http://pixelprowess.com/i/2021-09-15_09-42-10.png" alt="MARP for VSCode"></a></p>
+<p>I keep hearing about this new way of creating presentations called MARP for Markdown Presentation and it’s growing into more than just a simple way to create slides with Markdown. It’s a whole ecosystem for creating your presentations with a built-in ecosystem. So, you can use all types of additions like <a href="https://marpit.marp.app/directives">directives</a> to customize how you create these. Well, there’s now a VSCode Extension that lets you live preview your presentations quickly. I’m now switching from <a href="https://rayveal.tech/#/">rayveal.js</a> just yet, but I’m definitely getting jealous of what this can do.</p>
+<hr>
+<h2 id="github.dev-tips">GitHub.dev Tips <a class="direct-link" href="#github.dev-tips"> </a></h2>
+<p><a href="https://dev.to/lostintangent/10-awesome-things-you-can-do-with-github-dev-5fm7"><img src="http://pixelprowess.com/i/2021-09-15_09-48-38.png" alt="GitHub.dev Tips"></a></p>
+<p>You know I’ve been a huge fan of codespaces and GitHub.dev, which lets you quickly jump into a practice environment by using the period key on any repo. Jonathan Carter, who manages the project at GitHub, wrote an article detailing some of the things you can do with the tool. For example you can use it no just on branches, but also on individual files or selections in your text. While difffing files. My brain has been rewired.</p>
+<hr>
+<h2 id="gitignore.io"><a href="http://GitIgnore.io">GitIgnore.io</a> <a class="direct-link" href="#gitignore.io"> </a></h2>
+<p><a href="https://go.raybo.org/5jb2"><img src="http://pixelprowess.com/i/2021-09-15_03-15-16.png" alt="GitIgnore.io"></a></p>
+<p>This site is sort of like a search engine for gitignore files. Those are files that git will ignore and not send to a service like Github. Type in your operating system or framework and it will show you a file you can use as a .gitignore with a nice interface.</p>
+<hr>
+<h1 id="git-tips">Git Tips <a class="direct-link" href="#git-tips"> </a></h1>
+<p>Gitignore files are super useful, and you can create a global version using the git config command. Git config is one of those things every developer uses when they install git to set up their default name and email and then forgets about. Let’s go over a couple of ways you can use it to make your life easier.</p>
+<h1 id="global-gitignore-file">Global Gitignore File <a class="direct-link" href="#global-gitignore-file"> </a></h1>
+<p>If you’re a developer who uses git, specially on a Mac, the operating system creates invisible files like .DS_Store file to keep track of file operations.  The same thing happens in an npm projects, which creates a node_modules folder.</p>
+<p>To prevent that from happening, you can create a .gitignore file that tells git not to send those to your repo when you push things.</p>
+<p>You can create a global version of that file, so that it ignores files in all your new projects automatically.</p>
+<p>We can do that in our home directory by using the touch command <code>touch ~/.gitignore_global</code></p>
+<p>You can add things in there you can to ignore all the time.</p>
+<p>If you haven’t done so already, go ahead and add the code command to your paths, so you can use it in any terminal. You can do that in the command palette and type in <code>shell...</code></p>
+<p>I’m going to keep things simple and just add a couple of files.</p>
+<p>Now we can use VSCode to open our files <code>touch ~/.gitignore_global</code></p>
+<pre><code>node_modules
+.DS_Store
+</code></pre>
+<p>Now that we have this file we can modify git’s globals using the git core variable. That’s going to allow us to specify the excludefile option and point that to the location of our new file.</p>
+<p>Now, when we initialize a repo, it will use our defaults to ignore files in the future.</p>
+<p><code>git config --global core.excludesfile ~/.gitignore_global</code></p>
+<p>Git config is really easy and lets you</p>
+<h2 id="default-branch-name">Default branch name <a class="direct-link" href="#default-branch-name"> </a></h2>
+<p>There are lots of config variables that you can change.  A pretty common one you can use is to change the default branch name to main.</p>
+<p><code>git config --global init.defaultBranch main</code></p>
+<p>By the way, you can use this in a case by case basis.</p>
+<pre><code>git init --initial-branch=main
+git init -b main
+</code></pre>
+<p>now, whenever you create a new repo, it will use main as the default branch name instead of master.</p>
+<p>This will work in versions of git 2.28.0 and newer. You can find out which version of git you’re running using. <code>git --version</code></p>
+<hr>
+<p>In addition to setting up a global .gitinore file, I use git config to set up my default difftool, which is Kaleidoscope. There’s lots of other <a href="https://git-scm.com/docs/git-config#_configuration_file">customizations</a> you can do.</p>
+<pre><code>git config --list
+git config --global core.editor
+git config --global help.autocorrect 1
+git config --global diff.tool winmerge
+git config --global merge.tool
+</code></pre>
+<hr>
+<h1 id="jsl-nullish-coalescing">JSL Nullish Coalescing <a class="direct-link" href="#jsl-nullish-coalescing"> </a></h1>
+<p>Let’s take a look at one of the projects I’m currently working on.</p>
+<p>I wanted to give you a sneak peek into something that I'm working on, and that's a project called JavaScript as a second language. In that course, I'm creating a series of videos and each video happens to be on a JavaScript topic and I'm showing you how they work by context, which is how I learned English as a second language. So I created this example to explain something called nulish coalescing operator. It's this operator right here. I'm using the technique here called the short circuit, which is pretty common, but you may have seen it with the or operator.</p>
+<p>When JavaScript evaluates the statement. If the part of the left of the or is true, then it doesn't need to evaluate the second part. And that's because if either of these statements is true, then the whole thing is true. And as a matter of fact, JavaScript doesn't evaluate the right side of the equation. If the first part is true, there's no need to do that.</p>
+<p>Now you can use the short circuit to create a default value, and that's exactly what I'm doing right here. This technique is fantastic, but the logical OR operator has a problem. It will execute the right hand side of the equation if the left hand side has any falsey value. So if Lama ID happens to be null or undefined, it would return a random image, which is what I want, except for when I want to initialize the Lamas right here, I want to pass the index of the first item, which would be this image right here.</p>
+<p>The problem is that when I'm passing zero, it interprets that as a false value because when working with booleans zero means false and one means true. That's what the Nullish Coalescing operator is there to fix. If I change this back to question Mark question Mark, notice that it is showing me the plain Lama. It only changes when I hit the switch button right here. Now, if I had the logical or here as I did before, it would sometimes give me a random Lama.</p>
+<p>It will always execute the right hand side of the operation, even if I use zero as the index for LlamaID, and that's what this whole series is about. It's showing you how these things work in a context of building something like an app. It also tries to be a lot of of fun, and that's why I'm using Llamas.</p>
+<p>I’m really excited about the project, so I’ll probably give you more peeks into the things I’m building as time passes by.</p>
+<hr>
+<h1 id="alpine.js">Alpine.js <a class="direct-link" href="#alpine.js"> </a></h1>
+<p>Last week, I showed you a new CSS framework called assembler CSS, which I think is where CSS platforms might be going in the future. As I traveled the web, I stumbled over this framework called AlpineCSS. It’s been called the Tailwind CSS of JavaScript frameworks. Let’s take a look.</p>
+<p>The killer feature of this framework is it’s simplicity. It looks weird when you first encounter it. One of the big selling points is how few things you have to remember. If you think about how bloated React, Vue or other frameworks get over time, the simplicity of this approach has a lot of value.</p>
+<p>There are only 15 attributes, 6 properties and 2 methods to remember…that’s it. Otherwise, you use regular javascript with some pretty modern features.</p>
+<blockquote>
+<p>SET UP</p>
+</blockquote>
+<p>Let’s open up a codeswing in Visual Studio Code. This is an extension you can install for quick demos.</p>
+<ul>
+<li>We’ll need to add the Alpine extension. We can do that in codeswing.</li>
+<li>Let’s go ahead and add Bootstrap to this.</li>
+</ul>
+<h2 id="approach">Approach <a class="direct-link" href="#approach"> </a></h2>
+<p>The interesting approach with Alpine is that it is meant to use just HTML. Like with Tailwind CSS, you can use the HTML file to do everything. This is weird, but you can build your whole app without touching a separate JavaScript file…if it feels weird, just go with me on this one.</p>
+<h2 id="template-and-x--directives">Template and x- directives <a class="direct-link" href="#template-and-x--directives"> </a></h2>
+<p>This framework uses two important HTML features you might not be too familiar with. First is the use of x- directives. Directives are nothing more than commands and like with other frameworks, the commands are stored in custom directives with Alpine.js</p>
+<p>This is valid HTML and as a matter of fact technically reserved for user agent use, so it’s guaranteed never to collide with any HTML.</p>
+<h2 id="x-data">x-data <a class="direct-link" href="#x-data"> </a></h2>
+<p>The other features is the use of the template tag. It’s a way to create content that won’t be rendered immediately when the page loads. I think this framework best embraces the template tag. More on that later.</p>
+<p>What lets Alpine know that it needs to control an element is the addition of an x-data wrapper on a set of tags.</p>
+<p>The tag isn’t just an identifier, it’s also how you manage state within the app.</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">x-data</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{ name: <span class="token punctuation">'</span>Groceries<span class="token punctuation">'</span> }<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
+<p>You can pass a regular JavaScript object here as the parameter. To output the name, you can add it into another directive called x-text.</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">x-data</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{ name: <span class="token punctuation">'</span>Groceries<span class="token punctuation">'</span> }<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">x-text</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>name</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
+<p>Here’s how you would add a count to the button</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">x-data</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{ name: <span class="token punctuation">'</span>Groceries<span class="token punctuation">'</span>, count: 0 }<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
+<p>And finallly the button.</p>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name"><span class="token namespace">x-on:</span>click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>count++<span class="token punctuation">"</span></span> <br>	<span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn btn-primary position-relative<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="highlight-line">	count</span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">x-text</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>count<span class="token punctuation">"</span></span> <br>		<span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>position-absolute top-0 start-100 <br>			translate-middle badge rounded-pill bg-secondary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="highlight-line">	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span></span></code></pre>
+<p>Let’s switch the button to an input field, so I can show you how Alpine handles two way data binding, which is the ability of an input field to track the value of a variable. If the user modifies the Input Field OR the value somewhere else, then both change to reflect the new value. It’s quite a powerful technique.</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>input-group mb-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">x-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>count<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line"></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name"><span class="token namespace">x-on:</span>click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>count++<span class="token punctuation">"</span></span><br>		<span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn btn-primary position-relative<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>button<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="highlight-line">		add</span><br>		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">x-text</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>count<span class="token punctuation">"</span></span> <br>			<span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>position-absolute top-0 start-100<br>			translate-middle badge rounded-pill bg-secondary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="highlight-line">		<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
+<p>Next,  let’s take a look at what it would take to build a ToDo type app with what we’ve learned.</p>
+<pre class="language-html"><code class="language-html"><span class="highlight-line"></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">x-data</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>{ <br><span class="highlight-line">  name: <span class="token punctuation">'</span>Groceries<span class="token punctuation">'</span>,</span><br><span class="highlight-line">  current: <span class="token punctuation">'</span><span class="token punctuation">'</span>,</span><br><span class="highlight-line">  list: [<span class="token punctuation">'</span>Grapes<span class="token punctuation">'</span>],</span><br><span class="highlight-line">  count: 0,</span><br><span class="highlight-line">  add() {this.list.push(this.current)}</span><br>  }<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>container w-50 d-flex flex-column mt-4 justify-content-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">x-text</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span>name</span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>input-group mb-3<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">x-model</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>current<span class="token punctuation">"</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>form-control<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br>    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>button</span> <span class="token attr-name"><span class="token namespace">x-on:</span>click</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>add<span class="token punctuation">"</span></span><br>      <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>btn btn-primary position-relative<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="highlight-line">      add</span><br>      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>span</span> <span class="token attr-name">x-text</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>list.length<span class="token punctuation">"</span></span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>position-absolute top-0 start-100 <br>        translate-middle badge rounded-pill bg-secondary<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br><span class="highlight-line">      <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>span</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>button</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>ul</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>list-group<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>template</span> <span class="token attr-name">x-for</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>item in list<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">    <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>li</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>list-group-item<span class="token punctuation">"</span></span> <span class="token attr-name">x-text</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>item<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>li</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>template</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>ul</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
+<hr>
+<h1 id="postfix">PostFix <a class="direct-link" href="#postfix"> </a></h1>
+<h2 id="apply-newsletter">Apply Newsletter <a class="direct-link" href="#apply-newsletter"> </a></h2>
+<p>If you want to find out what's in store for next week's episode of The Toolbox, then check out my newsletter called Apply...get it as in call and apply in JavaScript.</p>
+<p>I publish that every week on about Thursdays. Here's the <a href="https://www.linkedin.com/pulse/changing-history-ray-villalobos/">last edition</a>. If you're a LinkedIn member, you can subscribe to it. It's a bit different than my technical courses and starts with some thoughts on whatever is happening.</p>
+<h2 id="new-course-bootstrap-5%3A-transitioning-from-bootstrap-4">New Course Bootstrap 5: Transitioning from Bootstrap 4 <a class="direct-link" href="#new-course-bootstrap-5%3A-transitioning-from-bootstrap-4"> </a></h2>
+<p>I’ve got a new course that covers how to transition from Bootstrap 4 to Bootstrap 5.</p>
+<div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="640" height="360" src="https://www.linkedin.com/learning/embed/bootstrap-5-transitioning-from-bootstrap-4/welcome-to-a-next-generation-bootstrap?autoplay=false&claim=AQEl4FHh_ta6kQAAAXvySGzon8r_CV693wpbVF6RQQkHLRSzzspesV2k23U30_bz1VVwBFktQ0Hz5cAZeXRVKKSFu-RZ_nXpTrEcDMSWlOstHgMl3c0pkLHz7Ter5n_Mksb1PBOhCy9BmEpu8sU7Bx8TNade2-0IBRn4Uhw8vh4s1bFGXblXw2MNjG3355BLjy8vtFnHloHQErMKVk6ZOuVi9PKHJlYycZrR4xgDE90lVdZ4U7wx2qowpS50n0IejWTzCRzZH-D3q8KM546fQgVNaeI_m_Skybd09hBPOFuMAeiI3Jz99fSqjXjLkB-DmH-_tn1HetXhO27qqNO2rLJUpMbNQODOmKm7iJxavkflC-h5Oui5-zLk8TtNuHT0QWzWHbstLox0ajKreuDHJ-OlRJ0EnkA6Pv7SRP50qk0R4Or-FNxe-Fy-edyV9m4kURSeolHtBjHGGiBSuQmQcck7nV5_VSEpNGwffMYd3FV0YhLj7BodRdJmgN0IlXzSYl8qX_I5i-Cfs4j6vfje-5O6sff4ESdvSNkPUS9BTgZJ9vSL4pbFIwr2bMLibJ6Sr-jFsHlC2QQfKhf6CHLArzjByb9lYgydWaYmL3IdY5C6iEHq9_Pcta8W6bxYTU3G-mH8VrTzObqW9QqM_ncpbO4NS1VlPR4AS4nhfIQNs6GdMQAtJtqWFjOvZ23dX5h9BoVnUYDrM2g93d3Biixf6oS-SIEdGqBz5gTFdN-jCrI&lipi=urn%3Ali%3Apage%3Ad_learning_content%3BL07VGoybRKa%2FlbW5TI7m1w%3D%3D&licu" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" frameborder="0" style="position:absolute;width:100%;height:100%;left:0"></iframe></div><p><strong><a href="https://www.linkedin.com/learning/bootstrap-5-transitioning-from-bootstrap-4/welcome-to-a-next-generation-bootstrap?trk=embed_lil">Welcome to a next-generation Bootstrap</a></strong> from <strong><a href="https://www.linkedin.com/learning/bootstrap-5-transitioning-from-bootstrap-4?trk=embed_lil">Bootstrap 5: Transitioning from Bootstrap 4</a></strong> by <strong><a href="https://www.linkedin.com/learning/instructors/ray-villalobos?trk=embed_lil">Ray Villalobos</a></strong></p>
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#draw.io">Draw.io  </a>
+            		</li>
+
+                    <li><a href="#frontmatter">FrontMatter  </a>
+            		</li>
+
+                    <li><a href="#marp-for-vs-code">MARP for VS Code  </a>
+            		</li>
+
+                    <li><a href="#github.dev-tips">GitHub.dev Tips  </a>
+            		</li>
+
+                    <li><a href="#gitignore.io">GitIgnore.io  </a>
+            		</li>
+
+                    <li><a href="#default-branch-name">Default branch name  </a>
+            		</li>
+
+                    <li><a href="#approach">Approach  </a>
+            		</li>
+
+                    <li><a href="#template-and-x--directives">Template and x- directives  </a>
+            		</li>
+
+                    <li><a href="#x-data">x-data  </a>
+            		</li>
+
+                    <li><a href="#apply-newsletter">Apply Newsletter  </a>
+            		</li>
+
+                    <li><a href="#new-course-bootstrap-5%3A-transitioning-from-bootstrap-4">New Course Bootstrap 5: Transitioning from Bootstrap 4  </a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
+</article>
+
+    <footer class="site-footer bg-transparent pb-3 pb-md-5">
+      <div class="container d-flex justify-content-center"><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
+      <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://github.com/planetoftheweb">
+      <i class="bi bi-github text-secondary me-1"></i>github
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.joinclubhouse.com/planetoftheweb">
+      <i class="bi bi-suit-club text-secondary me-1"></i>clubhouse
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://twitter.com/planetoftheweb">
+      <i class="bi bi-twitter text-secondary me-1"></i>twitter
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="bi bi-image text-secondary me-1"></i>flickr
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="bi bi-youtube text-secondary me-1"></i>youtube
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.instagram.com/planetoftheweb">
+      <i class="bi bi-instagram text-secondary me-1"></i>instagram
+      </a>
+    </div></div>
+      <div class="text-center">
+      <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+      <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+      </div>
+    </footer>
+
+  <script>
+    (function () {
+      let nav = document.querySelector('.site-nav')
+      let mainContent = document.querySelector('#main-content')
+      let navHeight = nav.scrollHeight
+
+      function moveHeader() {
+        let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+        mainOnTop < 0
+          ? nav.classList.add('in-body')
+          : nav.classList.remove('in-body')
+
+        window.requestAnimationFrame(moveHeader)
+      }
+      window.requestAnimationFrame(moveHeader)
+    })();
+  </script>
+  <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"lang":"en","siteId":2197414,"cookiePolicyId":85544448, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html>

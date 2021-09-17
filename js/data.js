@@ -1,4 +1,18 @@
 [{
+  "title": "The Broadcast Disaster",
+  "date" : "Sep 17, 2021",
+  "summary" : "I learned some great lessons about streaming while working for a company with a nightly live news show. Never before or since have I experienced the level of stress they&#39;ve mastered and I&#39;ll never forget the lessons it taught me about the importance of staying cool under pressure.",
+  "thumbnail": "/images/newsletter/broadcast-disaster_tn.jpg",
+  "url": "/newsletter/2021-09-17-The-Broadcast-Disaster/",
+  "tags" : ""
+},{
+  "title": "What New Framework should you try next -- The Toolbox Ep 07",
+  "date" : "Sep 15, 2021",
+  "summary" : "In this episode of the toolbox, we take a look at Alpline.js. an up and coming frameworks that rewires your mind and like Tailwind CSS lets you do everything with only the HTML file. I’ve got lots of Toolbox shorts, GitHub tips and I’ll let you take a peek at what I’m working on next in JSL.",
+  "thumbnail": "/images/toolbox/episode07_tn.jpg",
+  "url": "/toolbox/2021-09-15-Framework_Episode-AlpineJS--Ep-07/",
+  "tags" : ""
+},{
   "title": "",
   "date" : "Sep 09, 2021",
   
