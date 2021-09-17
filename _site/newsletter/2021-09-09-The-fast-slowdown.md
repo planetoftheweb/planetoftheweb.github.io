@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 ---
-=======
-----
->>>>>>> 8f037a7911928e2838ac395bb60366a987fe5b4f
 layout: post.njk
 title: "The Speedy Slowness"
 summary: "Sometimes, the best way to get faster at something is to slow down and take the time to develop a process that will eventually pay off. I had a chance to rethink how I created a new series so it could be handled by a larger team of people. They say that slow is smooth and smooth is fast. Here's how I did it."
@@ -10,6 +6,7 @@ hero: /images/newsletter/slowisfast.png
 thumb: /images/newsletter/slowisfast_tn.jpg
 category: newsletter
 ---
+
 I've been doing a lot of video streaming lately, so last week, I upgraded my Internet to 400mbps down/20Mbps up, made a wired connection so I didn't have to go through WiFi. I was gloriously blowing past the 400k into almost th 500's, guffawing as I downloaded fils with ease; uploading 4k files to YouTube without a care in the world.
 
 Then my wife had a great idea...Why don't we visit our daughters. We can stay at the State Park with all those hiking trails. That could only mean one thing...back to a slow connection. Barely two bars on a slow cell dependent network on a shared limited speed budget. Oh the humanity.
