@@ -1,4 +1,60 @@
 [{
+  "title": "Linkify JS Library",
+  "date" : "Sep 29, 2021",
+  "summary" : "Interesting JS plugin to help you convert links, hashtags and mentions to URLs. Works through npm or as a link in your HTML. There&#39;s support for frameworks like React and more.",
+  "thumbnail": "http://pixelprowess.com/i/2021-09-29_12-34-19.png",
+  "url": " https://linkify.js.org/",
+  "tags" : "external"
+},{
+  "title": "HTML Entity Finder",
+  "date" : "Sep 27, 2021",
+  "summary" : "Do you know the unicode for an arrow? Me neither, so I&#39;m glad I found this site with the common codes for all the weird characters I don&#39;t remember.",
+  "thumbnail": "http://pixelprowess.com/i/2021-09-27_13-48-26.png",
+  "url": "https://www.toptal.com/designers/htmlarrows/",
+  "tags" : "external"
+},{
+  "title": "Guide to HTML Head Elements",
+  "date" : "Sep 27, 2021",
+  "summary" : "Your head might need some aspirin after taking a peek at this site with exhaustive information on just about everything that could go in the HEAD section of your site.",
+  "thumbnail": "http://pixelprowess.com/i/2021-09-27_13-44-21.png",
+  "url": "https://htmlhead.dev/",
+  "tags" : "external"
+},{
+  "title": "Picking a Good Line Height",
+  "date" : "Sep 27, 2021",
+  "summary" : "I&#39;m often unhappy with the line-height settings for my CSS, so this site lets you calculate the optimal line-height visually for different fonts sizes. Cool.",
+  "thumbnail": "http://pixelprowess.com/i/2021-09-27_13-37-12.png",
+  "url": "https://www.thegoodlineheight.com/",
+  "tags" : "external"
+},{
+  "title": "System Font Stack",
+  "date" : "Sep 27, 2021",
+  "summary" : "Instead of loading custom fonts, you can easily use device defaults instead. This site has a list of what to set your CSS to if you want to start your designs with the fast loading build-in fonts for most devices.",
+  "thumbnail": "http://pixelprowess.com/i/2021-09-27_13-34-36.png",
+  "url": "https://systemfontstack.com/",
+  "tags" : "external"
+},{
+  "title": "Flexbox Patterns...FTW-For The Win",
+  "date" : "Sep 27, 2021",
+  "summary" : "All the cool kids love to tell you how great CSS Grid is, but Flexbox still has a lot of Mojo and is better for some things. This cool site has a number of prebuilt patterns for different layouts using Flexbox...Take that...CSS Gridsters.",
+  "thumbnail": "http://pixelprowess.com/i/2021-09-27_13-29-39.png",
+  "url": "https://www.flexboxpatterns.com/",
+  "tags" : "external"
+},{
+  "title": "MilkDown-Pluggable Markdown Editor",
+  "date" : "Sep 27, 2021",
+  "summary" : "Lightweight and powerful, I didn&#39;t think I would like this markdown editor, but it&#39;s pretty terrific. LaTex math equations, table support, copy and paste markdown, Collaboration and emoji support.",
+  "thumbnail": "http://pixelprowess.com/i/2021-09-27_11-56-37.png",
+  "url": "https://milkdown.dev",
+  "tags" : "external"
+},{
+  "title": "The Broadcast Disaster",
+  "date" : "Sep 23, 2021",
+  "summary" : "I learned some great lessons about streaming while working for a company with a nightly live news show. Never before or since have I experienced the level of stress they&#39;ve mastered and I&#39;ll never forget the lessons it taught me about the importance of staying cool under pressure.",
+  "thumbnail": "/images/newsletter/broadcast-disaster_tn.jpg",
+  "url": "/newsletter/2021-09-23-The-Yes-More/",
+  "tags" : ""
+},{
   "title": "The Broadcast Disaster",
   "date" : "Sep 17, 2021",
   "summary" : "I learned some great lessons about streaming while working for a company with a nightly live news show. Never before or since have I experienced the level of stress they&#39;ve mastered and I&#39;ll never forget the lessons it taught me about the importance of staying cool under pressure.",
@@ -55,12 +111,12 @@
   "url": "https://www.linkedin.com/learning/learning-git-and-github-14213624/",
   "tags" : "external,github,source control,github actions"
 },{
-  "title": "Tailwind Starter Kit",
+  "title": "",
   "date" : "Aug 27, 2021",
-  "summary" : "A set of component additions to Tailwind CSS to help you build websites quicker. It doesn&#39;t change the code you have to type for Tailwind CSS, but provides a set of interactive components for different frameworks including Vue/React and Angular.",
-  "thumbnail": "http://pixelprowess.com/i/2021-08-27_12-57-24.png",
-  "url": "https://go.raybo.org/5Y6s",
-  "tags" : "external"
+  
+  
+  "url": "/shorts/2021-08-27-12-58-17-pm/",
+  "tags" : ""
 },{
   "title": "Hypercolor - Tailwind/CSS Color Gradients",
   "date" : "Aug 27, 2021",
