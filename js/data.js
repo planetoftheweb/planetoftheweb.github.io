@@ -49,13 +49,6 @@
   "tags" : "external"
 },{
   "title": "The Broadcast Disaster",
-  "date" : "Sep 23, 2021",
-  "summary" : "I learned some great lessons about streaming while working for a company with a nightly live news show. Never before or since have I experienced the level of stress they&#39;ve mastered and I&#39;ll never forget the lessons it taught me about the importance of staying cool under pressure.",
-  "thumbnail": "/images/newsletter/broadcast-disaster_tn.jpg",
-  "url": "/newsletter/2021-09-23-The-Yes-More/",
-  "tags" : ""
-},{
-  "title": "The Broadcast Disaster",
   "date" : "Sep 17, 2021",
   "summary" : "I learned some great lessons about streaming while working for a company with a nightly live news show. Never before or since have I experienced the level of stress they&#39;ve mastered and I&#39;ll never forget the lessons it taught me about the importance of staying cool under pressure.",
   "thumbnail": "/images/newsletter/broadcast-disaster_tn.jpg",
@@ -68,6 +61,13 @@
   "thumbnail": "/images/toolbox/episode07_tn.jpg",
   "url": "/toolbox/2021-09-15-Framework_Episode-AlpineJS--Ep-07/",
   "tags" : ""
+},{
+  "title": "Bootstrap 5: Transitioning from Bootstrap 4",
+  "date" : "Sep 15, 2021",
+  "summary" : "Bootstrap 5 boasts a number of major changes and improvements to the popular front-end framework. If you&#39;ve been curious about making the switch to Bootstrap 5, this course prepares you to tackle the migration process.",
+  "thumbnail": "/images/courses/techtrends_tn.jpg",
+  "url": "https://www.linkedin.com/learning/bootstrap-5-transitioning-from-bootstrap-4/",
+  "tags" : "external,bootstrap,bootstrap5,bootstrap5"
 },{
   "title": "",
   "date" : "Sep 09, 2021",
@@ -187,6 +187,13 @@
   "thumbnail": "/images/newsletter/collaboration_tn.jpg",
   "url": "/newsletter/2021-08-26-the-collaboration-connundrum/",
   "tags" : ""
+},{
+  "title": "Tech Trends",
+  "date" : "Aug 26, 2021",
+  "summary" : "Technologies evolve faster than we can create courses. How do you sort out which technologies deserve your attention and how can you integrate them with your work? LinkedIn staff instructors share their insights about products and technologies that have just appeared on the horizon.",
+  "thumbnail": "/images/courses/techtrends_tn.jpg",
+  "url": "https://www.linkedin.com/learning/tech-trends",
+  "tags" : "external,tech trends,technology,trends"
 },{
   "title": "GitHub Tools You Should Now -- The Toolbox Episode 04 -- Special Launch Edition",
   "date" : "Aug 25, 2021",

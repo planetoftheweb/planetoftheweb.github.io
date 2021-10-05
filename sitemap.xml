@@ -1097,6 +1097,11 @@
   </url>
   
   <url>
+    <loc>/courses/2021-08-26-tech-trends/</loc>
+    <lastmod>2021-08-26</lastmod>
+  </url>
+  
+  <url>
     <loc>/newsletter/2021-08-26-the-collaboration-connundrum/</loc>
     <lastmod>2021-08-26</lastmod>
   </url>
@@ -1182,6 +1187,11 @@
   </url>
   
   <url>
+    <loc>/courses/2021-09-15-bootsttrap-transitioning/</loc>
+    <lastmod>2021-09-15</lastmod>
+  </url>
+  
+  <url>
     <loc>/toolbox/2021-09-15-Framework_Episode-AlpineJS--Ep-07/</loc>
     <lastmod>2021-09-15</lastmod>
   </url>
@@ -1189,11 +1199,6 @@
   <url>
     <loc>/newsletter/2021-09-17-The-Broadcast-Disaster/</loc>
     <lastmod>2021-09-17</lastmod>
-  </url>
-  
-  <url>
-    <loc>/newsletter/2021-09-23-The-Yes-More/</loc>
-    <lastmod>2021-09-23</lastmod>
   </url>
   
   <url>
@@ -1233,61 +1238,66 @@
   
   <url>
     <loc>/about/</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
   </url>
   
   <url>
     <loc>/about/policies/</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
   </url>
   
   <url>
     <loc>/courses/0/</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
   </url>
   
   <url>
     <loc>/js/data.js</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
   </url>
   
   <url>
     <loc>/newsletter/0/</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
   </url>
   
   <url>
     <loc>/posts/0/</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
   </url>
   
   <url>
     <loc>/shorts/0/</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
   </url>
   
   <url>
     <loc>/tags/external/</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
   </url>
   
   <url>
     <loc>/toolbox/0/</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
   </url>
   
   <url>
     <loc>/videos/0/</loc>
-    <lastmod>2021-09-29</lastmod>
+    <lastmod>2021-10-05</lastmod>
+  </url>
+  
+  <url>
+    <loc>/newsletter/2021-10-07-The-Yes-More/</loc>
+    <lastmod>2021-10-07</lastmod>
   </url>
 </urlset>
