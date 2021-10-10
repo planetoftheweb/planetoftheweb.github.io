@@ -1,4 +1,32 @@
 [{
+  "title": "React Preview",
+  "date" : "Oct 07, 2021",
+  "summary" : "A React Plugin for Visual Studio Code, WebStorm or the command line that lets you preview all of a project&#39;s components and storybook stories. Sort of like an in browser preview that you get with the react chrome tools.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-07_04-11-13.png",
+  "url": "https://reactpreview.com/",
+  "tags" : "external"
+},{
+  "title": "The Yes More",
+  "date" : "Oct 07, 2021",
+  "summary" : "This week, I remember another famous and infamous Panamenian who managed to do something great once he was unable to quit. I&#39;ve been gone for a few weeks, so I&#39;m slowly gearing back up to speed, so find out about my two upcoming toolbox episodes and some of my new courses.",
+  "thumbnail": "/images/newsletter/yesmore_tn.jpg",
+  "url": "/newsletter/2021-10-07-The-Yes-More/",
+  "tags" : ""
+},{
+  "title": "Flag Icons",
+  "date" : "Oct 05, 2021",
+  "summary" : "Bookmark this when you need a flag in SVG format...Hey website, Panama is in Central...not North America.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-05_16-11-37.png",
+  "url": "https://flagicons.lipis.dev/",
+  "tags" : "external"
+},{
+  "title": "Motion One",
+  "date" : "Oct 05, 2021",
+  "summary" : "Close to a tenth the size of Greensock (which I love), this animation framework focuses on performance by using hardware acceleration. Pretty promising.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-05_16-04-39.png",
+  "url": "https://motion.dev/",
+  "tags" : "external"
+},{
   "title": "Linkify JS Library",
   "date" : "Sep 29, 2021",
   "summary" : "Interesting JS plugin to help you convert links, hashtags and mentions to URLs. Works through npm or as a link in your HTML. There&#39;s support for frameworks like React and more.",
@@ -67,7 +95,7 @@
   "summary" : "Bootstrap 5 boasts a number of major changes and improvements to the popular front-end framework. If you&#39;ve been curious about making the switch to Bootstrap 5, this course prepares you to tackle the migration process.",
   "thumbnail": "/images/courses/techtrends_tn.jpg",
   "url": "https://www.linkedin.com/learning/bootstrap-5-transitioning-from-bootstrap-4/",
-  "tags" : "external,bootstrap,bootstrap5,bootstrap5"
+  "tags" : "external,bootstrap,bootstrap5"
 },{
   "title": "",
   "date" : "Sep 09, 2021",
