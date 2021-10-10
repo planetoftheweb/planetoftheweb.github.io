@@ -10,5 +10,4 @@ tags:
   - external
   - bootstrap
   - bootstrap5
-  - bootstrap5
 ---
