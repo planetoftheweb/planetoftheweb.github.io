@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: "Building a Layout with Pollen CSS and Alpine"
