@@ -1,8 +1,8 @@
 [{
-  "title": "",
+  "title": "Building a Layout with Pollen CSS and Alpine",
   "date" : "Oct 13, 2021",
-  
-  
+  "summary" : "In this episode of the toolbox, I&#39;m going to build a sample layout using Pollen, a simple, variable based CSS library that uses CSS Custom properties (otherwise known as variables). We&#39;ll combine this with Alpine.js, which will help us build the layout a lot quicker. It&#39;s Wednesday October 13 and this is episode 8 of the toolbox. Let&#39;s get started.",
+  "thumbnail": "/images/toolbox/EP08-Pollen_tn.jpg",
   "url": "/toolbox/2021-10-13-Pollen-AlpineJS--Ep-08/",
   "tags" : ""
 },{
