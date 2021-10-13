@@ -1,3 +1,10 @@
 {
-  "$schema": "https://frontmatter.codes/frontmatter.schema.json"
+  "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.content.pageFolders": [
+    {
+      "title": "_site",
+      "path": "[[workspace]]/_site"
+    }
+  ],
+  "frontMatter.dashboard.openOnStart": true
 }
