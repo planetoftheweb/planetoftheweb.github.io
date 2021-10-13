@@ -1,4 +1,18 @@
 [{
+  "title": "",
+  "date" : "Oct 13, 2021",
+  
+  
+  "url": "/toolbox/2021-10-13-Pollen-AlpineJS--Ep-08/",
+  "tags" : ""
+},{
+  "title": "AtroposJS",
+  "date" : "Oct 13, 2021",
+  "summary" : "You totally didn’t know you wanted to use this library until you visit the site and play around with it. A framework compatible library for building touch enabled 3d parallax transformations. Sounds like it should be in some sort of Web Developer bingo pool.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-13_04-02-08.png",
+  "url": "https://atroposjs.com",
+  "tags" : "external"
+},{
   "title": "React Preview",
   "date" : "Oct 07, 2021",
   "summary" : "A React Plugin for Visual Studio Code, WebStorm or the command line that lets you preview all of a project&#39;s components and storybook stories. Sort of like an in browser preview that you get with the react chrome tools.",
@@ -23,7 +37,7 @@
   "title": "Motion One",
   "date" : "Oct 05, 2021",
   "summary" : "Close to a tenth the size of Greensock (which I love), this animation framework focuses on performance by using hardware acceleration. Pretty promising.",
-  "thumbnail": "http://pixelprowess.com/i/2021-10-05_16-04-39.png",
+  "thumbnail": "images/shorts/motionone.png",
   "url": "https://motion.dev/",
   "tags" : "external"
 },{
