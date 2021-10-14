@@ -1,4 +1,11 @@
 [{
+  "title": "State of CSS Survey",
+  "date" : "Oct 14, 2021",
+  "summary" : "This is one of the most comprehensive once a year surveys on how the community feels about different libraries, tools and features. If you want to get the results or just want to contribute to the community, it&#39;s a simple way to cast a vote.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-14_11-49-44.png",
+  "url": "https://survey.stateofjs.com/",
+  "tags" : "external"
+},{
   "title": "Building a Layout with Pollen CSS and Alpine",
   "date" : "Oct 13, 2021",
   "summary" : "In this episode of the toolbox, I&#39;m going to build a sample layout using Pollen, a simple, variable based CSS library that uses CSS Custom properties (otherwise known as variables). We&#39;ll combine this with Alpine.js, which will help us build the layout a lot quicker. It&#39;s Wednesday October 13 and this is episode 8 of the toolbox. Let&#39;s get started.",
@@ -37,7 +44,7 @@
   "title": "Motion One",
   "date" : "Oct 05, 2021",
   "summary" : "Close to a tenth the size of Greensock (which I love), this animation framework focuses on performance by using hardware acceleration. Pretty promising.",
-  "thumbnail": "images/shorts/motionone.png",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-05_16-04-39.png",
   "url": "https://motion.dev/",
   "tags" : "external"
 },{
