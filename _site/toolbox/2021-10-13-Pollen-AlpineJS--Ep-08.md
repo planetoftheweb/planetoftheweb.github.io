@@ -19,7 +19,7 @@ Let's get started with some shorts. There are new tools and articles that you sh
 ---
 
 ## Motion One
-[![Motion One](images/shorts/motionone.png)](https://motion.dev)
+[![Motion One](../../images/shorts/motionone.png)](https://motion.dev)
 
 Close to a tenth the size of Greensock (which I love), this animation framework focuses on performance by using hardware acceleration. Pretty promising
 
