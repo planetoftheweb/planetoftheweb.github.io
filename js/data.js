@@ -1,10 +1,24 @@
 [{
+  "title": "Styled Components with Stiches",
+  "date" : "Oct 14, 2021",
+  "summary" : "Are you into styled components, Check out this framework agnostic, an interesting API with a short learning curve and lots of features. I&#39;m not sure I&#39;m sold on this quite yet, although they&#39;re a good idea for component based architectures.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-14_12-59-49.png",
+  "url": "https://stitches.dev/",
+  "tags" : "external"
+},{
   "title": "State of CSS Survey",
   "date" : "Oct 14, 2021",
   "summary" : "This is one of the most comprehensive once a year surveys on how the community feels about different libraries, tools and features. If you want to get the results or just want to contribute to the community, it&#39;s a simple way to cast a vote.",
   "thumbnail": "http://pixelprowess.com/i/2021-10-14_11-49-44.png",
   "url": "https://survey.stateofjs.com/",
   "tags" : "external"
+},{
+  "title": "The Lame Outage",
+  "date" : "Oct 14, 2021",
+  "summary" : "Facebook went down this week and I almost didn&#39;t notice, but I did come back to streaming with a new Toolbox Episode, some gems in the Toolbox Shorts and some other amazing tidbits.",
+  "thumbnail": "/images/newsletter/lame-outage_tn.jpg",
+  "url": "/newsletter/2021-10-14-The-Lame-Outage/",
+  "tags" : ""
 },{
   "title": "Building a Layout with Pollen CSS and Alpine",
   "date" : "Oct 13, 2021",
@@ -118,18 +132,11 @@
   "url": "https://www.linkedin.com/learning/bootstrap-5-transitioning-from-bootstrap-4/",
   "tags" : "external,bootstrap,bootstrap5"
 },{
-  "title": "",
-  "date" : "Sep 09, 2021",
-  
-  
-  "url": "/newsletter/2021-09-09-The-speedy-slowness/",
-  "tags" : ""
-},{
   "title": "The Speedy Slowness",
   "date" : "Sep 09, 2021",
   "summary" : "Sometimes, the best way to get faster at something is to slow down and take the time to develop a process that will eventually pay off. I had a chance to rethink how I created a new series so it could be handled by a larger team of people. They say that slow is smooth and smooth is fast. Here&#39;s how I did it.",
   "thumbnail": "/images/newsletter/slowisfast_tn.jpg",
-  "url": "/newsletter/2021-09-09-The-fast-slowdown/",
+  "url": "/newsletter/2021-09-09-The-speedy-slowness/",
   "tags" : ""
 },{
   "title": "The Coolest Bootstrap 5.1 Features -- The Toolbox Ep 06",

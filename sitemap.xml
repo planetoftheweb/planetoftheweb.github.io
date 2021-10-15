@@ -1177,11 +1177,6 @@
   </url>
   
   <url>
-    <loc>/newsletter/2021-09-09-The-fast-slowdown/</loc>
-    <lastmod>2021-09-09</lastmod>
-  </url>
-  
-  <url>
     <loc>/newsletter/2021-09-09-The-speedy-slowness/</loc>
     <lastmod>2021-09-09</lastmod>
   </url>
@@ -1267,67 +1262,77 @@
   </url>
   
   <url>
+    <loc>/newsletter/2021-10-14-The-Lame-Outage/</loc>
+    <lastmod>2021-10-14</lastmod>
+  </url>
+  
+  <url>
     <loc>/shorts/2021-10-14-11-41-state-of-css-survey/</loc>
     <lastmod>2021-10-14</lastmod>
   </url>
   
   <url>
-    <loc>/about/</loc>
+    <loc>/shorts/2021-10-14-13-16-stiches-styled-components/</loc>
     <lastmod>2021-10-14</lastmod>
+  </url>
+  
+  <url>
+    <loc>/about/</loc>
+    <lastmod>2021-10-15</lastmod>
   </url>
   
   <url>
     <loc>/about/policies/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-15</lastmod>
   </url>
   
   <url>
     <loc>/courses/0/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-15</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-15</lastmod>
   </url>
   
   <url>
     <loc>/js/data.js</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-15</lastmod>
   </url>
   
   <url>
     <loc>/newsletter/0/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-15</lastmod>
   </url>
   
   <url>
     <loc>/posts/0/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-15</lastmod>
   </url>
   
   <url>
     <loc>/shorts/0/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-15</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-15</lastmod>
   </url>
   
   <url>
     <loc>/tags/external/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-15</lastmod>
   </url>
   
   <url>
     <loc>/toolbox/0/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-15</lastmod>
   </url>
   
   <url>
     <loc>/videos/0/</loc>
-    <lastmod>2021-10-14</lastmod>
+    <lastmod>2021-10-15</lastmod>
   </url>
 </urlset>

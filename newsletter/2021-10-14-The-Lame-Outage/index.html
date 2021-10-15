@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Raybo.org</title>
 
-    <meta name="description" content="In this episode of the toolbox, I'm going to build a sample layout using Pollen, a simple, variable based CSS library that uses CSS Custom properties (otherwise known as variables). We'll combine this with Alpine.js, which will help us build the layout a lot quicker. It's Wednesday October 13 and this is episode 8 of the toolbox. Let's get started." />
-    <meta property="og:title" content="Building a Layout with Pollen CSS and Alpine" />
-    <meta property="og:description" content="In this episode of the toolbox, I'm going to build a sample layout using Pollen, a simple, variable based CSS library that uses CSS Custom properties (otherwise known as variables). We'll combine this with Alpine.js, which will help us build the layout a lot quicker. It's Wednesday October 13 and this is episode 8 of the toolbox. Let's get started." />
-    <meta property="og:image" content="https://raybo.org/images/toolbox/EP08-Pollen.jpg" />
+    <meta name="description" content="Facebook went down this week and I almost didn't notice, but I did come back to streaming with a new Toolbox Episode, some gems in the Toolbox Shorts and some other amazing tidbits." />
+    <meta property="og:title" content="The Lame Outage" />
+    <meta property="og:description" content="Facebook went down this week and I almost didn't notice, but I did come back to streaming with a new Toolbox Episode, some gems in the Toolbox Shorts and some other amazing tidbits." />
+    <meta property="og:image" content="https://raybo.org/images/newsletter/lame-outage.png" />
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://raybo.org/toolbox/2021-10-13-Pollen-AlpineJS--Ep-08/">
-    <meta name="twitter:title" content="Building a Layout with Pollen CSS and Alpine">
-    <meta name="twitter:description" content="In this episode of the toolbox, I'm going to build a sample layout using Pollen, a simple, variable based CSS library that uses CSS Custom properties (otherwise known as variables). We'll combine this with Alpine.js, which will help us build the layout a lot quicker. It's Wednesday October 13 and this is episode 8 of the toolbox. Let's get started.">
-    <meta name="twitter:image" content="https://raybo.org/images/toolbox/EP08-Pollen.jpg">
+    <meta name="twitter:site" content="https://raybo.org/newsletter/2021-10-14-The-Lame-Outage/">
+    <meta name="twitter:title" content="The Lame Outage">
+    <meta name="twitter:description" content="Facebook went down this week and I almost didn't notice, but I did come back to streaming with a new Toolbox Episode, some gems in the Toolbox Shorts and some other amazing tidbits.">
+    <meta name="twitter:image" content="https://raybo.org/images/newsletter/lame-outage.png">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
@@ -41,7 +41,7 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
   <body class="position-relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  bg-dark sticky-top  py-0">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
   <div class="container-fluid">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
@@ -138,9 +138,21 @@
 </nav>
 
     
-  <header id="page-hero" class="site-header ratio ratio-16x9">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/OGymLdZ3svc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</header>
+  <header id="page-hero" class="site-header position-relative 100vw  site-header" style="min-height: 40vh;">
+<section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(126, 59, 151, .6) 50px, transparent), url(/images/newsletter/lame-outage.png); height: 100%; width: 100%;  filter: blur(20px);  transform: scale(1.1);" ></section>
+<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
+  <div class="container">
+    <div class="row justify-content-center text-center">
+      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
+        <h2 class="page-section-title text-light">The Lame Outage</h2>
+        <p class="page-section-text text-light d-none d-md-block">
+          Facebook went down this week and I almost didn't notice, but I did come back to streaming with a new Toolbox Episode, some gems in the Toolbox Shorts and some other amazing tidbits.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+</header> 
 
 
 
@@ -150,69 +162,43 @@
 >
 <main class="article-content px-3 px-sm-0 container">
 
-<h1>Building a Layout with Pollen CSS and Alpine</h1>
-<p class="lead">In this episode of the toolbox, I&#39;m going to build a sample layout using Pollen, a simple, variable based CSS library that uses CSS Custom properties (otherwise known as variables). We&#39;ll combine this with Alpine.js, which will help us build the layout a lot quicker. It&#39;s Wednesday October 13 and this is episode 8 of the toolbox. Let&#39;s get started.</p>
-
   <div class="row">
     <main class="article-content px-3 px-sm-0 main col-lg-9">
-    <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern time 10am Pacific. So follow me and subscribe on all the social media things for tons more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.</p>
-<p>I’ve been gone for a few weeks trying to catch up with some work projects, so hopefully I’ll be back for at least a few weeks. In the meantime though, lets get started with some shorts.</p>
-<h1 id="toolbox-shorts">Toolbox Shorts <a class="direct-link" href="#toolbox-shorts"> </a></h1>
-<p>Let's get started with some shorts. There are new tools and articles that you should know about.</p>
-<hr>
+    <p>This week Facebook went down and it was a really big deal…to the rest of the world. I hardly even noticed and I’m wondering how it affected you (so make sure you leave notes in the comments. It wasn’t just Facebook, but also Instagram and WhatsApp. People were freaking out.</p>
+<p>I only found out when I had a regularly scheduled meeting. I didn’t have my headphones set up, but I could tell something was going on. My colleagues were passionately discussing something animatedly. Did we get acquired? What did Microsoft buy this time? Life on Mars. Nope, just another mild outage.</p>
+<p>My friend Morten tried to explain the size of the calamity. Countries depend on Facebook (huh?), it’s the ONLY internet for some people (say what?). For some reason, I couldn’t muster an ounce of concern.</p>
+<p><img src="http://pixelprowess.com/i/2021-10-14_17-12-57.png" alt="Social People"></p>
+<p>I remember the time before the web and I remember the first time the internet went down at a TV station I worked at, many people couldn’t do their jobs and were walking around like zombies…that felt a bit weird.</p>
+<p>But Facebook is like a worldwide treasure now? I don’t get it. I haven’t been on Facebook in about three years, so maybe I’ve just been missing out. I never thought I was interesting enough to post pictures of my food or my face on Instagram. Although I keep a twitter account, I’m not active there. I got Twitter B.O. (Before Oprah), so it’s been a way for me to tweet about geeky things, but not any trending topics. It seems like a pit of meanness now.</p>
+<p>I usually try to get into any social media platform early to make sure I get my usual @planetoftheweb handle. I dutifully downloaded and installed TikTok on my phone for about 30 seconds…I quickly came to the conclusion that it was just soul sucking garbage and deleted it. It’s weird to me that developers and web personalities are really trying and someone succeeding in posting popular content there.</p>
+<p>I’m pretty active on LinkedIn. I know I work there, but what people post there appears on their job application profile, so I feel that people are a bit more civil there.</p>
+<p>If it had a much bigger impact on you, I’d love to hear another perspective, but I feel that if a solar flare selective wiped out trendy social media, we’d all be fine…as long as it was for a few hours.</p>
+<h2 id="the-shorts">The Shorts <a class="direct-link" href="#the-shorts"> </a></h2>
+<p>Here’s some cool things I found on the web recently. Some of these were part of the Toolbox Episode 8 and might make it into future episodes.</p>
+<h2 id="state-of-css-survey">State of CSS Survey <a class="direct-link" href="#state-of-css-survey"> </a></h2>
+<p><a href="https://survey.stateofjs.com/"><img src="http://pixelprowess.com/i/2021-10-14_11-49-44.png" alt="State of CSS Survey"></a><br>
+This is one of the most comprehensive once a year surveys on how the community feels about different libraries, tools and features. If you want to get the results or just want to contribute to the community, it's a simple way to <a href="https://survey.stateofjs.com">cast a vote</a>.</p>
 <h2 id="motion-one">Motion One <a class="direct-link" href="#motion-one"> </a></h2>
 <p><a href="https://motion.dev"><img src="../../images/shorts/motionone.png" alt="Motion One"></a></p>
-<p>Close to a tenth the size of Greensock (which I love), this animation framework focuses on performance by using hardware acceleration. Pretty promising</p>
+<p>Close to a tenth the size of Greensock (which I love), this <a href="https://motion.dev">animation framework</a> focuses on performance by using hardware acceleration. Pretty promising</p>
 <hr>
 <h2 id="flexbox-patterns">Flexbox Patterns <a class="direct-link" href="#flexbox-patterns"> </a></h2>
 <p><a href="https://www.flexboxpatterns.com"><img src="http://pixelprowess.com/i/2021-09-27_13-29-39.png" alt="Flexbox Patterns"></a></p>
-<p>All the cool kids love to tell you how great CSS Grid is, but Flexbox still has a lot of Mojo and is better for some things. This cool site has a number of prebuilt patterns for different layouts using Flexbox...Take that...CSS Gridsters.&quot;</p>
+<p>All the cool kids love to tell you how great CSS Grid is, but Flexbox still <a href="https://www.flexboxpatterns.com">has a lot of Mojo</a> and is better for some things. This cool site has a number of prebuilt patterns for different layouts using Flexbox...Take that...CSS Gridsters.&quot;</p>
 <hr>
 <h2 id="atroposjs">AtroposJS <a class="direct-link" href="#atroposjs"> </a></h2>
 <p><a href="https://atroposjs.com/"><img src="http://pixelprowess.com/i/2021-10-13_04-02-08.png" alt="AtroposJS"></a></p>
-<p>You totally didn’t know you wanted to use this library until you visit the site and play around with it. A framework compatible library for building touch enabled 3d parallax transformations. Sounds like it should be in some sort of Web Developer bingo pool.</p>
-<hr>
-<h1 id="pollen">Pollen <a class="direct-link" href="#pollen"> </a></h1>
-<p>I’m always happy when I’m learning new things, so I keep finding interesting libraries and frameworks that I want to try and there’s nothing like giving yourself a goal like a live stream to make yourself learn something on a schedule.</p>
-<p>I’m experimenting with pre-recording some of these segments, so you don’t see me stumbling around typing everything, but I promise that I’ll stop and see if you have questions.</p>
-<h2 id="what-is-pollen%3F">What is Pollen? <a class="direct-link" href="#what-is-pollen%3F"> </a></h2>
-<p><a href="https://www.pollen.style/">Pollen</a> is a variable based CSS library that was inspired by one of my other favorites…Tailwind CSS. It’s a lot simpler…as a matter of fact, it’s really just a bunch of CSS variables that have been pre-built.</p>
-<p>Right now it doesn’t really have a ton of functionality, but I do think it has some value, specially if you’re trying to stay away from something like Tailwinds, which fills your HTML with a ton of classes.</p>
-<div class="ratio ratio-16x9">
-  <iframe  src="https://www.youtube.com/embed/Cl2uFIUXqeQ?start=64" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<p>And that’s pretty much how you use pollen. You use the variables that are available in the library.</p>
-<p>Before I get into the full demo, I am going to show you how I set up this project with <a href="https://alpinejs.dev/">Alpine.js</a>. I did a demo of Alpine.js in <a href="https://youtu.be/OGymLdZ3svc">episode 7</a>, so you can check that out. The cool thing about Alpine is that there are only 23 things in the entire framework…15 attributes, 6 properties and 2 methods. Let’s take a look:</p>
-<div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/Cl2uFIUXqeQ?start=139" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<p>I think Alpine would be perfect for a simple single page website. Maybe not for a large application, but it’s pretty powerful and I’m just scratching the surface, there are cool ways to manage events and animate content. It’s a lot like React and Vue, you just have to get used to doing all of your JavaScript in HTML.</p>
-<p>Alright, let’s get back to Pollen. In PollenCSS, the variables are categorized into different groups, so you have typography variables with a font size scale, different weights, leading and tracking.</p>
-<p>You also get some layout variables, with a size scale for smaller items and a width scale that are sort of like what you get on a Bootstrap or Tailwind Grid.</p>
-<p>There’s also a handful of colors and there are four shades of each of the colors so you can get darker versions of each. It’s not a ton of colors, but it’s got most of the ones you’d use. If you don’t like the colors, you can easily override not just the colors, but any variable.</p>
-<p>Finally, there’s a section called UI that has something you can use for shadows, easing, radius and creating layers.</p>
-<p>And that’s all there is to it. This library is extremely minimal. In reality it is literally just a bunch of pre-built variables. Let’s see how you might use it to build a simple layout.</p>
-<div class="ratio ratio-16x9">
-  <iframe src="https://www.youtube.com/embed/Cl2uFIUXqeQ?start=561" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</div>
-<p>So that’s Pollen for you. What do you think. I am like 55% sold on the library. I think that I’d go for it if I wanted to stick with straight CSS on a small project. Some people really hate how bloated something like Bootstrap or Tailwinds feels.</p>
-<p>Also, there is VERY little setup and no tooling. This is just CSS, so as long as you are targeting browsers that support variables, you’re good to go here.</p>
-<p>What do you think? Let me know in the comments? Also, if there’s some cool new framework you want me to try.</p>
-<p>If you want to play around with the finished code for this, I added the <a href="https://go.raybo.org/5_fJ">finished code</a> to my Github Repo. If you want to play along while you watch this recording later, you can get the <a href="https://go.raybo.org/5_fH">starting version</a>. Make sure you have the <a href="https://go.raybo.org/5_xC">CodeSwing extension</a>.</p>
-<h3 id="urls">URLs <a class="direct-link" href="#urls"> </a></h3>
-<p><strong>Pollen</strong>: <a href="https://pollen.style">https://pollen.style</a><br>
-<strong>Starting Repo</strong>: <a href="https://go.raybo.org/5_fH">https://go.raybo.org/5_fH</a><br>
-<strong>CodeSwing</strong>: <a href="https://go.raybo.org/5_xC">https://go.raybo.org/5_xC</a><br>
-<strong>AlpineJS</strong>: <a href="https://alpinejs.dev">https://alpinejs.dev</a><br>
-<strong>Finished Code</strong>: <a href="http://go.raybo.org/5_fJ">go.raybo.org/5_fJ</a></p>
-<hr>
-<h1 id="postfix">PostFix <a class="direct-link" href="#postfix"> </a></h1>
-<h2 id="episode-09">Episode 09 <a class="direct-link" href="#episode-09"> </a></h2>
-<p>I’ve already scheduled a new Toolbox episode for <a href="https://www.linkedin.com/video/event/urn:li:ugcPost:6852737335998627840/">next week</a>. I’m going to be focusing on <a href="https://vitejs.dev/">Vite</a>, which is a set of build tools that was created by the developers of Vue.js. It’s pretty easy to get going with it, so hopefully you’ll make it back next week. If you’re on LinkedIn, you can <a href="https://go.raybo.org/5_gK">get a reminder</a>.</p>
-<h2 id="newsletter">Newsletter <a class="direct-link" href="#newsletter"> </a></h2>
-<p>I’m also back writing articles for the <a href="%5Bhttps://go.raybo.org/5Tbq%5D(https://go.raybo.org/5Tbq)">newsletter</a>. Last week, I did a n article on an infamous Panamanian fighter, Roberto Duran, but I usually post these about every week</p>
-<h2 id="site">Site <a class="direct-link" href="#site"> </a></h2>
-<p>And of course, for all the latest on what I’m up to, visit my blog, <a href="http://raybo.org">raybo.org</a>, where you can find all of my latest work including courses, videos and the shorts. So if you remember you saw a cool tool, there’s a search at the top of the site where you can quickly get to one of the older shorts, or just click on the <a href="%5Bhttps://raybo.org/shorts/0/%5D(https://raybo.org/shorts/0/)">shorts link</a>.</p>
+<p>You totally didn’t know you wanted to use this library until you visit the site and play around with it. A framework compatible library for building touch enabled <a href="https://atroposjs.com">3d parallax transformations</a>. Sounds like it should be in some sort of Web Developer bingo pool.</p>
+<h3 id="the-toolbox-episode-09">The Toolbox Episode 09 <a class="direct-link" href="#the-toolbox-episode-09"> </a></h3>
+<p>It’s been a riot working on my streaming show called The Toolbox. This week, I’m back with a new episode exploring another interesting library called Pollen.</p>
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:6852469013012897792" height="367" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+<p>I am really enjoying exploring new frameworks. There are so many that it’s impossible to keep up, so the show is my attempt at trying out new things. Better me than you, I actually get paid to try things that might not even have an impact.</p>
+<p>Speaking of which I’ve been really enjoying AlpineJS, so It’s also covered in this week’s episode of the Toolbox. I’m thinking at some point, I might do an episode with Tailwinds CSS, since I’ve seen that combination before.</p>
+<h3 id="front-end-tooling-with-vite">Front End Tooling with Vite <a class="direct-link" href="#front-end-tooling-with-vite"> </a></h3>
+<h4 id="oct-20%2C-1pm-est%2C-10am-pst">Oct 20, 1PM EST, 10AM PST <a class="direct-link" href="#oct-20%2C-1pm-est%2C-10am-pst"> </a></h4>
+<p><a href="https://linkedin.com/video/event/urn:li:ugcPost:6852737335998627840"><img src="/images/toolbox/EP09-Vite.png" alt="The Toolbox Episode 09 - Vite"></a></p>
+<p>There are so many build tools you can use, but the one I've been enjoying the best lately is Vite. Fast and easy to set-up. Plus, it's used by Vue.js so it's got a strong developer pipeline and pretty awesome features. If you're ready to make your tool chain more effective, come check out why it's fast becoming by tooling of choice. We'll have the usual suspects like Shorts and whatever else I'm up to.</p>
+<p><a href="https://linkedin.com/video/event/urn:li:ugcPost:6852737335998627840/">Get a reminder</a></p>
 
     </main>
     <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
@@ -221,6 +207,12 @@
       <div class="">
                 <ol>
                     
+                    <li><a href="#the-shorts">The Shorts  </a>
+            		</li>
+
+                    <li><a href="#state-of-css-survey">State of CSS Survey  </a>
+            		</li>
+
                     <li><a href="#motion-one">Motion One  </a>
             		</li>
 
@@ -228,18 +220,6 @@
             		</li>
 
                     <li><a href="#atroposjs">AtroposJS  </a>
-            		</li>
-
-                    <li><a href="#what-is-pollen%3F">What is Pollen?  </a>
-            		</li>
-
-                    <li><a href="#episode-09">Episode 09  </a>
-            		</li>
-
-                    <li><a href="#newsletter">Newsletter  </a>
-            		</li>
-
-                    <li><a href="#site">Site  </a>
             		</li>
                 </ol>
             </div>
