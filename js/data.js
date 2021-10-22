@@ -1,4 +1,25 @@
 [{
+  "title": "The Home Work",
+  "date" : "Oct 22, 2021",
+  "summary" : "Last week, in an interview with the Wall Street Journal, Google CEO Sundar Pichai announced where their policy for work is going three days in the office/four weeks working from home a year. The change in the structure of work is going to be one of the biggest shifts on how companies will operate in the future. Here&#39;s what I think.",
+  "thumbnail": "/images/newsletter/homework_tn.jpg",
+  "url": "/newsletter/2021-10-22-The-Home-Work/",
+  "tags" : ""
+},{
+  "title": "Front End Tooling with Vite",
+  "date" : "Oct 20, 2021",
+  "summary" : "In this episode of the toolbox, I&#39;ll show you how to work with my favorite tooling platform called Vite. I&#39;ve got a few surprises in the shorts segment and tons of other things to discuss...so let&#39;s get started",
+  "thumbnail": "/images/toolbox/EP09-Vite_tn.jpg",
+  "url": "/toolbox/2021-10-20-Tooling-For-Developers-Using-Vite--Ep-09/",
+  "tags" : ""
+},{
+  "title": "Electron Fiddle",
+  "date" : "Oct 16, 2021",
+  "summary" : "If you&#39;ve been meaning to try out the Electron platform to build cross-platform apps using web technologies, you can download an app with all the dependencies already pre-installed. It&#39;s a great way to try out electron without committing.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-16_16-12-30.png",
+  "url": "https://www.electronjs.org/fiddle",
+  "tags" : "external"
+},{
   "title": "Styled Components with Stiches",
   "date" : "Oct 14, 2021",
   "summary" : "Are you into styled components, Check out this framework agnostic, an interesting API with a short learning curve and lots of features. I&#39;m not sure I&#39;m sold on this quite yet, although they&#39;re a good idea for component based architectures.",

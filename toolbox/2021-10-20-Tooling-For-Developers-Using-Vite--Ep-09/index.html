@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Raybo.org</title>
 
-    <meta name="description" content="Learn full-stack developer skills with a clear, practical style" />
-    <meta property="og:title" content="Raybo.org" />
-    <meta property="og:description" content="Learn full-stack developer skills with a clear, practical style" />
-    <meta property="og:image" content="https://raybo.org/images/raybo.jpg" />
+    <meta name="description" content="In this episode of the toolbox, I'll show you how to work with my favorite tooling platform called Vite. I've got a few surprises in the shorts segment and tons of other things to discuss...so let's get started" />
+    <meta property="og:title" content="Front End Tooling with Vite" />
+    <meta property="og:description" content="In this episode of the toolbox, I'll show you how to work with my favorite tooling platform called Vite. I've got a few surprises in the shorts segment and tons of other things to discuss...so let's get started" />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/EP09-Vite.png" />
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://raybo.org/tags/nav/">
-    <meta name="twitter:title" content="Raybo.org">
-    <meta name="twitter:description" content="Learn full-stack developer skills with a clear, practical style">
-    <meta name="twitter:image" content="https://raybo.org/images/raybo.jpg">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2021-10-20-Tooling-For-Developers-Using-Vite--Ep-09/">
+    <meta name="twitter:title" content="Front End Tooling with Vite">
+    <meta name="twitter:description" content="In this episode of the toolbox, I'll show you how to work with my favorite tooling platform called Vite. I've got a few surprises in the shorts segment and tons of other things to discuss...so let's get started">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/EP09-Vite.png">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
@@ -41,7 +41,7 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
   <body class="position-relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
+    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  bg-dark sticky-top  py-0">
   <div class="container-fluid">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
@@ -138,199 +138,87 @@
 </nav>
 
     
+  <header id="page-hero" class="site-header ratio ratio-16x9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/OGymLdZ3svc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
 
  
 <article id="main-content" class="site-main container mt-3 mb-5"
-style="padding-top: 80px"
+
 >
-<p>See <a href="/tags/">all tags</a>.</p>
-<h2 class="text-secondary mb-5">Tagged <small>“nav”</small></h2>
-  
+<main class="article-content px-3 px-sm-0 container">
 
-  
+<h1>Front End Tooling with Vite</h1>
+<p class="lead">In this episode of the toolbox, I&#39;ll show you how to work with my favorite tooling platform called Vite. I&#39;ve got a few surprises in the shorts segment and tons of other things to discuss...so let&#39;s get started</p>
 
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  mb-3 ">
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <h1 id="toolbox-shorts">Toolbox Shorts <a class="direct-link" href="#toolbox-shorts"> </a></h1>
+<p>Let's get started with some shorts. There are new tools and articles that you should know about.</p>
+<hr>
+<h2 id="ohmysh">OhMySh <a class="direct-link" href="#ohmysh"> </a></h2>
+<p><a href="https://ohmyz.sh/"><img src="http://pixelprowess.com/i/2021-10-20_23-04-34.png" alt="Oh My Sh"></a></p>
+<p>Oh My Sh is for people who love to use the terminal and want some advanced features like auto-complete, search and others. My favorite feature is by far autocomplete, but you can also do a web search and lots of other stuff directly from the terminal.</p>
+<h3 id="fave-plugins">Fave Plugins <a class="direct-link" href="#fave-plugins"> </a></h3>
+<ul>
+<li><a href="https://github.com/zsh-users/zsh-autosuggestions">Auto Suggestions</a></li>
+<li><a href="https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/web-search">Web Search</a></li>
+</ul>
+<h2 id="quicktip%3A-terminal-history">QuickTip: Terminal History <a class="direct-link" href="#quicktip%3A-terminal-history"> </a></h2>
+<p>If you're like me, you're probably used to hitting the up arrow in your terminal until you find a previous command…That can take a long time and it's pretty inefficient.</p>
+<p>There's a much better way to do this, and that's with the history command.</p>
+<p>Simply type in <code>history</code> and hit <code>enter</code>.</p>
+<p>You'll get a list of all the previous commands you can run. Notice there's a number next to them. <code>!NUMBER</code></p>
+<p>You can type in an exclamation mark and then the number of the command and then hit return again. There's also a couple of other shortcuts you can use.</p>
+<p><code>!STRING</code> gets you the most recent command with the string you typed in.</p>
+<p>To clear the history type in a <code>history -c</code> command</p>
+<p>Of course, like everything else in linux, there's a pretty rich set of <a href="https://ss64.com/bash/history.html">additional options</a>.</p>
+<hr>
+<h1 id="vite">Vite <a class="direct-link" href="#vite"> </a></h1>
+<p>A lot of modern web development requires a build process for handling processing modules from Javascript, react, sass or supporting new features and there's a lot of tools for doing this, so, so what's the difference?</p>
+<p>Vite is opinionated, so you give up a bit of control, but it gets you going quicker. I'm going to scaffold a new project with Vite.</p>
+<p>By the way, you want to make sure that you have NodeJS 12 or greater to get it to work. Iit scaffolds the project for you, places it where you specify and it shows you the commands you need to run this project.</p>
+<p>Vite uses an index.html file as the entry point of our application. It resolves references to scripts, even inline scripts with a type of module as well as css as code. There's no need for special placeholders and it also supports multiple html pages as entry points.</p>
+<p>Vite also gives you a lot of advanced CSS features. For example, you can use PostCSS, import statements, it takes care of prefixing things if necessary and rebases all links inside the CSS for you. You can even use CSS modules and treat your CSS like a javascript object. It has built-in support for Sass, less and stylus.</p>
+<p>Vite uses something called HRM. Hot Module Reloading means that…to speed up development, modules are updated individually without having to reload other modules. That makes Vite extremely fast.</p>
+<h3 id="urls">URLs <a class="direct-link" href="#urls"> </a></h3>
+<ul>
+<li><a href="https://vitejs.dev">Vite Website</a></li>
+<li><strong><a href="https://go.raybo.org/5_fJ">Finished Code</a></strong>: <a href="http://go.raybo.org/5_fJ">go.raybo.org/5_fJ</a></li>
+</ul>
+<hr>
+<h1 id="postfix">PostFix <a class="direct-link" href="#postfix"> </a></h1>
+<h2 id="newsletter">Newsletter <a class="direct-link" href="#newsletter"> </a></h2>
+<p>I’m back writing articles for the <a href="%5Bhttps://go.raybo.org/5Tbq%5D(https://go.raybo.org/5Tbq)">newsletter</a>. Last week, I did a n article on an infamous Panamanian fighter, Roberto Duran, but I usually post these about every week</p>
+<h2 id="site">Site <a class="direct-link" href="#site"> </a></h2>
+<p>And of course, for all the latest on what I’m up to, visit my blog, <a href="http://raybo.org">raybo.org</a>, where you can find all of my latest work including courses, videos and the shorts. So if you remember you saw a cool tool, there’s a search at the top of the site where you can quickly get to one of the older shorts, or just click on the <a href="%5Bhttps://raybo.org/shorts/0/%5D(https://raybo.org/shorts/0/)">shorts link</a>.</p>
 
-    
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#ohmysh">OhMySh  </a>
+            		</li>
 
-    <div class=""> 
-      <a href="/videos/0/" class="item-title h2 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
+                    <li><a href="#quicktip%3A-terminal-history">QuickTip: Terminal History  </a>
+            		</li>
 
-        
+                    <li><a href="#newsletter">Newsletter  </a>
+            		</li>
 
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Oct 22, 2021">Oct 22, 2021</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/toolbox/0/" class="item-title h2 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Oct 22, 2021">Oct 22, 2021</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/shorts/0/" class="item-title h2 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Oct 22, 2021">Oct 22, 2021</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/posts/0/" class="item-title h2 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Oct 22, 2021">Oct 22, 2021</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/newsletter/0/" class="item-title h2 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Oct 22, 2021">Oct 22, 2021</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/courses/0/" class="item-title h2 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Oct 22, 2021">Oct 22, 2021</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
+                    <li><a href="#site">Site  </a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
 </article>
 
     <footer class="site-footer bg-transparent pb-3 pb-md-5">
