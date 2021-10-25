@@ -19,10 +19,10 @@
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
  
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script defer src="/js/lite-yt-embed.js"></script>
     <script defer src="/js/script.js"></script>
  
@@ -40,17 +40,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
-  <body class="position-relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
-  <div class="container-fluid">
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  fixed-top  py-0">
+  <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="navbar-brand text-lowercase">
       <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a>  <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">Shorts</span>
     </div>
-
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ms-auto fw-regular text-uppercase">
         
@@ -138,9 +136,9 @@
 </nav>
 
     
-  <header id="page-hero" class="site-header position-relative 100vw  site-header" style="min-height: 30vh;">
-<section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(126, 59, 151, .6) 50px, transparent), url(/images/site/shorts.png); height: 100%; width: 100%;  filter: blur(0);  transform: scale(1.1);" ></section>
-<div class="layout-hero-content position-absolute d-flex align-items-center w-100 h-100">
+  <header id="page-hero" class="site-header position-relative container  site-header" style="border-radius: 20px !important; margin-top: 60px; min-height: 60vh">
+<section class="layout-hero position-absolute d-flex align-items-center" style="background-image: linear-gradient(rgba(126, 59, 151, .6) 50px, transparent), url(/images/site/shorts.png); height: 100%; width: 100%; transform: scale(1.1);" ></section>
+<div class="layout-hero-content position-absolute d-flex w-100" style="bottom: 0;">
   <div class="container">
     <div class="row justify-content-center text-center">
       <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
@@ -166,24 +164,24 @@
   <div class="pagination pagination-sm justify-content-center">
       
       <div class="page-item">
-        <a class="page-link" href="/shorts/1/index.html"><i class="bi bi-arrow-left"></i></a>
+        <a class="page-link" href="//shorts/1/index.html"><i class="bi bi-arrow-left"></i></a>
       </div>
       
     
-      <div class="page-item "><a class="page-link" href="/shorts/0/index.html">1</a></div>
+      <div class="page-item "><a class="page-link" href="//shorts/0/index.html">1</a></div>
     
-      <div class="page-item "><a class="page-link" href="/shorts/1/index.html">2</a></div>
+      <div class="page-item "><a class="page-link" href="//shorts/1/index.html">2</a></div>
     
-      <div class="page-item active"><a class="page-link" href="/shorts/2/index.html">3</a></div>
+      <div class="page-item active"><a class="page-link" href="//shorts/2/index.html">3</a></div>
     
-      <div class="page-item "><a class="page-link" href="/shorts/3/index.html">4</a></div>
+      <div class="page-item "><a class="page-link" href="//shorts/3/index.html">4</a></div>
     
-      <div class="page-item "><a class="page-link" href="/shorts/4/index.html">5</a></div>
+      <div class="page-item "><a class="page-link" href="//shorts/4/index.html">5</a></div>
     
 
       
       <div class="page-item">
-        <a class="page-link" href="/shorts/3/index.html"><i class="bi bi-arrow-right"></i></a>
+        <a class="page-link" href="//shorts/3/index.html"><i class="bi bi-arrow-right"></i></a>
       </div>
       
   </div>
@@ -199,14 +197,340 @@
 
     
       <div class="col-md-3">
-        <a href="https://go.raybo.org/4RjU" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://www.zenweb.com.au/blog/img/alt-text-for-accessibility-and-search-engines.jpg" alt="How to Write Good Alt Text image">
+        <a href="https://go.raybo.org/5LMf" class="d-block mb-1 text-decoration-none"  target="_blank">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://octo.github.com/assets/projects/flat/flat.png" alt="Flat Data image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4RjU" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">How to Write Good Alt Text<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/5LMf" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Flat Data<i class="bi bi-link-45deg ms-1"></i></a>
+      <div class="small d-block">
+        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        shorts</a> | <time class="item-date" datetime="Aug 19, 2021">Aug 19, 2021</time></div>
+      <div class="fs-6 text-body">This is a really clever  way to build a GitHub Action that makes it easier to process data from an API into a static site like Eleventy. It comes with a VSCode Extension that gives you an interface to create the YAML for the GitHub Action.</div>
+      
+  <div class="item-links">
+  
+    
+    
+    
+    
+    
+    <i class="bi bi-globe"></i>
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+
+    
+      <div class="col-md-3">
+        <a href="https://marketplace.visualstudio.com/items?itemName=JeffersonLicet.snipped&amp;ssr=true#overview" class="d-block mb-1 text-decoration-none"  target="_blank">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://i.imgur.com/NSCltwI.png" alt="Snipped VS Code Extension image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9"> 
+      <a href="https://marketplace.visualstudio.com/items?itemName=JeffersonLicet.snipped&amp;ssr=true#overview" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Snipped VS Code Extension<i class="bi bi-link-45deg ms-1"></i></a>
+      <div class="small d-block">
+        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        shorts</a> | <time class="item-date" datetime="Aug 19, 2021">Aug 19, 2021</time></div>
+      <div class="fs-6 text-body">Snipped is a VS Code Extension that makes it easier for you to share your code snippets by letting you take screenshots directly from VSCode. There's a lot of options for sharing code, but for me, I'm usually sharing a web snippet or something I've written myself. This is just about the quickest way to do it.</div>
+      
+  <div class="item-links">
+  
+    
+    
+    
+    
+    
+    <i class="bi bi-globe"></i>
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+
+    
+      <div class="col-md-3">
+        <a href="https://obsidian.md" class="d-block mb-1 text-decoration-none"  target="_blank">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://obsidian.md/images/banner.png" alt="Obsidian image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9"> 
+      <a href="https://obsidian.md" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Obsidian<i class="bi bi-link-45deg ms-1"></i></a>
+      <div class="small d-block">
+        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        shorts</a> | <time class="item-date" datetime="Aug 19, 2021">Aug 19, 2021</time></div>
+      <div class="fs-6 text-body">Obsidian is my new favorite markdown editor that is the best tool for writing. It offers tons of plugins that I enjoy using like Kanban boards, calendars, mind maps, charts, calendars, icons and more.</div>
+      
+  <div class="item-links">
+  
+    
+    
+    
+    
+    
+    <i class="bi bi-globe"></i>
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+
+    
+      <div class="col-md-3">
+        <a href="https://www.w3.org/blog/2021/08/30-years-on-from-introducing-the-web-to-the-world/" class="d-block mb-1 text-decoration-none"  target="_blank">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://www.w3.org/comm/assets/graphics/internet-minute-2020-sepia.jpg" alt="Introducing the World Wide Web image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9"> 
+      <a href="https://www.w3.org/blog/2021/08/30-years-on-from-introducing-the-web-to-the-world/" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Introducing the World Wide Web<i class="bi bi-link-45deg ms-1"></i></a>
+      <div class="small d-block">
+        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        shorts</a> | <time class="item-date" datetime="Aug 11, 2021">Aug 11, 2021</time></div>
+      <div class="fs-6 text-body">The web is now 30 years old and this page has some awesome stats and info. 60% of the world is online. 81% of Americans log on a daily basis, 69,444 users apply for jobs and much more.</div>
+      
+  <div class="item-links">
+  
+    
+    
+    
+    
+    
+    <i class="bi bi-globe"></i>
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+
+    
+      <div class="col-md-3">
+        <a href="https://html2canvas.hertzen.com/" class="d-block mb-1 text-decoration-none"  target="_blank">
+          <img class="item-title text-light w-100 img-fluid rounded" src="http://pixelprowess.com/i/2021-08-11_13-07-21.png" alt="HTML2Canvas image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9"> 
+      <a href="https://html2canvas.hertzen.com/" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">HTML2Canvas<i class="bi bi-link-45deg ms-1"></i></a>
+      <div class="small d-block">
+        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        shorts</a> | <time class="item-date" datetime="Aug 11, 2021">Aug 11, 2021</time></div>
+      <div class="fs-6 text-body">This module lets you add screenshot capture of whole pages or parts of a page to your projects using JavaScript. It's DOM based, so it might not be 100% accurate, but still cool as heck.</div>
+      
+  <div class="item-links">
+  
+    
+    
+    
+    
+    
+    <i class="bi bi-globe"></i>
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+
+    
+      <div class="col-md-3">
+        <a href="https://github.com/features/codespaces" class="d-block mb-1 text-decoration-none"  target="_blank">
+          <img class="item-title text-light w-100 img-fluid rounded" src="http://pixelprowess.com/i/2021-08-11_12-32-02.png" alt="Github CodeSpaces image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9"> 
+      <a href="https://github.com/features/codespaces" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Github CodeSpaces<i class="bi bi-link-45deg ms-1"></i></a>
+      <div class="small d-block">
+        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        shorts</a> | <time class="item-date" datetime="Aug 11, 2021">Aug 11, 2021</time></div>
+      <div class="fs-6 text-body">This had been a long time coming. Github is now available for Teams and Enterprise. The beta remains until they announce a personal option. They reduced the startup time to 10 seconds and Github itself is dogfooding how they build things. For them it went from 45 minds to the 10 seconds mentioned above.</div>
+      
+  <div class="item-links">
+  
+    
+    
+    
+    
+    
+    <i class="bi bi-globe"></i>
+  
+  </div>
+  
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+
+    
+
+    <div class=""> 
+      <a href="/shorts/2021-08-11-1200-Markdown-Presentation-Ecosystem/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
+      <div class="small d-block">
+        <a href="//0" class="text-decoration-none fw-bold text-secondary">
+        
+        
+        
+        
+        
+
+        
+
+        
+
+        
+
+        
+        </a> | <time class="item-date" datetime="Aug 11, 2021">Aug 11, 2021</time></div>
+      <div class="fs-6 text-body"></div>
+        
+
+    </div>
+  </div>
+    
+      
+
+  
+
+  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
+
+    
+      <div class="col-md-3">
+        <a href="https://go.raybo.org/4RjU" class="d-block mb-1 text-decoration-none"  target="_blank">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://www.zenweb.com.au/blog/img/alt-text-for-accessibility-and-search-engines.jpg" alt="How to Write Good Alt Text image">
+        </a>
+      </div>
+    
+
+    <div class="col-md-9"> 
+      <a href="https://go.raybo.org/4RjU" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">How to Write Good Alt Text<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -249,13 +573,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4Rjl&quot;" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://svgcrop.com/images/twitter.png" alt="Crop SVGs image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://svgcrop.com/images/twitter.png" alt="Crop SVGs image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4Rjl&quot;" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">Crop SVGs<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4Rjl&quot;" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Crop SVGs<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -298,13 +622,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4Rjp" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://cdn.publer.io/uploads/photos/mini_magick20210531-29707-7zi609.png" alt="Anyone Can Learn CSS Grid image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://cdn.publer.io/uploads/photos/mini_magick20210531-29707-7zi609.png" alt="Anyone Can Learn CSS Grid image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4Rjp" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">Anyone Can Learn CSS Grid<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4Rjp" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Anyone Can Learn CSS Grid<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -347,13 +671,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4UOY" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://cdn.publer.io/uploads/photos/mini_magick20210605-4043-dnw6b9.png" alt="JSONMatic: CSV to JSON image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://cdn.publer.io/uploads/photos/mini_magick20210605-4043-dnw6b9.png" alt="JSONMatic: CSV to JSON image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4UOY" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">JSONMatic: CSV to JSON<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4UOY" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">JSONMatic: CSV to JSON<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -396,13 +720,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4S99&quot;" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://avpress.netlify.app/metatag.jpg" alt="AV Press Video Encoder image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://avpress.netlify.app/metatag.jpg" alt="AV Press Video Encoder image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4S99&quot;" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">AV Press Video Encoder<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4S99&quot;" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">AV Press Video Encoder<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -445,13 +769,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4UOd" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://onlinehashtools.com/images/preview-image-onlinehashtools.png" alt="Online Hash Tool image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://onlinehashtools.com/images/preview-image-onlinehashtools.png" alt="Online-Hash-Tool image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4UOd" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">Online Hash Tool<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4UOd" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Online-Hash-Tool<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -494,13 +818,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4Sua" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://opengraph.githubassets.com/c3fcf6e44558545bf7281d897a7b4e13c226131ce6b16418e7e69b84490287/rehypejs/rehype" alt="rehype image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://opengraph.githubassets.com/c3fcf6e44558545bf7281d897a7b4e13c226131ce6b16418e7e69b84490287/rehypejs/rehype" alt="rehype image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4Sua" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">rehype<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4Sua" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">rehype<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -543,13 +867,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4UOg" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://onlinegiftools.com/images/preview-image-onlinegiftools.png" alt="Online GIF Tools image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://onlinegiftools.com/images/preview-image-onlinegiftools.png" alt="Online GIF Tools image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4UOg" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">Online GIF Tools<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4UOg" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Online GIF Tools<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -592,13 +916,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4UyP&quot;" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://xbarapp.com/public/img/xbar-menu-preview.png" alt="xBar image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://xbarapp.com/public/img/xbar-menu-preview.png" alt="xBar image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4UyP&quot;" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">xBar<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4UyP&quot;" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">xBar<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -641,13 +965,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4XaE" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://www.snowtrack.io/wp-content/uploads/2021/06/social-media-card.jpg" alt="Snowtrack image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://www.snowtrack.io/wp-content/uploads/2021/06/social-media-card.jpg" alt="Snowtrack image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4XaE" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">Snowtrack<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4XaE" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Snowtrack<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -690,13 +1014,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4Zpc&quot;" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://astro.build/social.png?v=1" alt=" image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://astro.build/social.png" alt="Astro image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4Zpc&quot;" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank"><i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4Zpc&quot;" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Astro<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -739,13 +1063,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4atZ" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://developer-chrome-com.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/mV9Ac7QAD8vVPoiqmii6.png?auto=format&amp;w=1600" alt="CSS Grid Editor in Chrome image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://developer-chrome-com.imgix.net/image/dPDCek3EhZgLQPGtEG3y0fTn4v82/mV9Ac7QAD8vVPoiqmii6.png?auto=format&amp;w=1600" alt="CSS Grid Editor in Chrome image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4atZ" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">CSS Grid Editor in Chrome<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4atZ" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">CSS Grid Editor in Chrome<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -788,13 +1112,13 @@
     
       <div class="col-md-3">
         <a href="https://go.raybo.org/4cRg&quot;" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://i.ytimg.com/vi/mgkwZqVkrwo/hqdefault.jpg" alt="Astro Demo Video image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="https://i.ytimg.com/vi/mgkwZqVkrwo/hqdefault.jpg" alt="Astro Demo Video image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4cRg&quot;" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">Astro Demo Video<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://go.raybo.org/4cRg&quot;" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Astro Demo Video<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -827,371 +1151,28 @@
 
     </div>
   </div>
-    
-      
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-      <div class="col-md-3">
-        <a href="https://go.raybo.org/4dw1" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://cloudconvert.com/images/logo_flat_110_borderless.png" alt="File Converter image">
-        </a>
-      </div>
-    
-
-    <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4dw1" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">File Converter<i class="bi bi-link-45deg ms-1"></i></a>
-      <div class="small d-block">
-        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        shorts</a> | <time class="item-date" datetime="Aug 11, 2021">Aug 11, 2021</time></div>
-      <div class="fs-6 text-body">Free for 25 conversions per day and pretty handy, this site converts an insane amount of formats. Pretty handy.</div>
-      
-  <div class="item-links">
-  
-    
-    
-    
-    
-    
-    <i class="bi bi-globe"></i>
-  
-  </div>
-  
-
-    </div>
-  </div>
-    
-      
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-      <div class="col-md-3">
-        <a href="https://go.raybo.org/4exX" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://cdn.publer.io/uploads/photos/mini_magick20210618-9342-q25tc1.png" alt="Modern Unix Repo List image">
-        </a>
-      </div>
-    
-
-    <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4exX" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">Modern Unix Repo List<i class="bi bi-link-45deg ms-1"></i></a>
-      <div class="small d-block">
-        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        shorts</a> | <time class="item-date" datetime="Aug 11, 2021">Aug 11, 2021</time></div>
-      <div class="fs-6 text-body">I really like this list of alternative Unix commands. Didn't have lots of them available in zsh, but I did have and enjoyed using bat for displaying code nicely.</div>
-      
-  <div class="item-links">
-  
-    
-    
-    
-    
-    
-    <i class="bi bi-globe"></i>
-  
-  </div>
-  
-
-    </div>
-  </div>
-    
-      
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-      <div class="col-md-3">
-        <a href="https://go.raybo.org/4fVv" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://webhint.io/static/images/apple-touch-icon-c01d89d4f3.png" alt="Webhint image">
-        </a>
-      </div>
-    
-
-    <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4fVv" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">Webhint<i class="bi bi-link-45deg ms-1"></i></a>
-      <div class="small d-block">
-        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        shorts</a> | <time class="item-date" datetime="Aug 11, 2021">Aug 11, 2021</time></div>
-      <div class="fs-6 text-body">Looks like Lighthouse is got some competition from Microsoft with it's own performance and accesibility tools called Webhint. Who doesn't love a Narwhal? Are you using these tools to check your site?</div>
-      
-  <div class="item-links">
-  
-    
-    
-    
-    
-    
-    <i class="bi bi-globe"></i>
-  
-  </div>
-  
-
-    </div>
-  </div>
-    
-      
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-      <div class="col-md-3">
-        <a href="https://go.raybo.org/4fVz&quot;" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://jakearchibald.com/c/img-f8ecf98d.jpg" alt="Optimising for high density displays image">
-        </a>
-      </div>
-    
-
-    <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4fVz&quot;" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">Optimising for high density displays<i class="bi bi-link-45deg ms-1"></i></a>
-      <div class="small d-block">
-        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        shorts</a> | <time class="item-date" datetime="Aug 11, 2021">Aug 11, 2021</time></div>
-      <div class="fs-6 text-body">A nice writeup or how to prepare your images for high density screens.</div>
-      
-  <div class="item-links">
-  
-    
-    
-    
-    
-    
-    <i class="bi bi-globe"></i>
-  
-  </div>
-  
-
-    </div>
-  </div>
-    
-      
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-      <div class="col-md-3">
-        <a href="https://go.raybo.org/4mXO" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://h3manth.com/ES2021/og.jpeg" alt="ES2021 Features image">
-        </a>
-      </div>
-    
-
-    <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4mXO" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">ES2021 Features<i class="bi bi-link-45deg ms-1"></i></a>
-      <div class="small d-block">
-        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        shorts</a> | <time class="item-date" datetime="Aug 11, 2021">Aug 11, 2021</time></div>
-      <div class="fs-6 text-body">ES2021 has been approved. This site has a nice short and concise list of examples of what's new.</div>
-      
-  <div class="item-links">
-  
-    
-    
-    
-    
-    
-    <i class="bi bi-globe"></i>
-  
-  </div>
-  
-
-    </div>
-  </div>
-    
-      
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-      <div class="col-md-3">
-        <a href="https://go.raybo.org/4uU_" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://2ality.com/img/deep-js.jpg" alt="Temporal-JavaScript&#39;s new Date API image">
-        </a>
-      </div>
-    
-
-    <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4uU_" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">Temporal-JavaScript's new Date API<i class="bi bi-link-45deg ms-1"></i></a>
-      <div class="small d-block">
-        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        shorts</a> | <time class="item-date" datetime="Aug 11, 2021">Aug 11, 2021</time></div>
-      <div class="fs-6 text-body">Finally, a date object an API that makes sense. The upcoming JavaScript temporal API. Here's a write-up from Axel Raushmayer.</div>
-      
-  <div class="item-links">
-  
-    
-    
-    
-    
-    
-    <i class="bi bi-globe"></i>
-  
-  </div>
-  
-
-    </div>
-  </div>
-    
-      
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-      <div class="col-md-3">
-        <a href="https://go.raybo.org/4uVr&quot;" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="https://www.solidjs.com/og.jpg" alt="SolidJS image">
-        </a>
-      </div>
-    
-
-    <div class="col-md-9"> 
-      <a href="https://go.raybo.org/4uVr&quot;" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">SolidJS<i class="bi bi-link-45deg ms-1"></i></a>
-      <div class="small d-block">
-        <a href="/shorts/0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        shorts</a> | <time class="item-date" datetime="Aug 11, 2021">Aug 11, 2021</time></div>
-      <div class="fs-6 text-body">A React Killer? We'll see, although solid has a lot going for it in terms of performance, I think the problem is the similarity to React. Why would someone switch from React...for a few k or milliseconds. However. Only time will tell, but still keep an eye out on this one.</div>
-      
-  <div class="item-links">
-  
-    
-    
-    
-    
-    
-    <i class="bi bi-globe"></i>
-  
-  </div>
-  
-
-    </div>
-  </div>
     <nav class="my-3" aria-label="Page navigation">
   <div class="pagination pagination-sm justify-content-center">
       
       <div class="page-item">
-        <a class="page-link" href="/shorts/1/index.html"><i class="bi bi-arrow-left"></i></a>
+        <a class="page-link" href="//shorts/1/index.html"><i class="bi bi-arrow-left"></i></a>
       </div>
       
     
-      <div class="page-item "><a class="page-link" href="/shorts/0/index.html">1</a></div>
+      <div class="page-item "><a class="page-link" href="//shorts/0/index.html">1</a></div>
     
-      <div class="page-item "><a class="page-link" href="/shorts/1/index.html">2</a></div>
+      <div class="page-item "><a class="page-link" href="//shorts/1/index.html">2</a></div>
     
-      <div class="page-item active"><a class="page-link" href="/shorts/2/index.html">3</a></div>
+      <div class="page-item active"><a class="page-link" href="//shorts/2/index.html">3</a></div>
     
-      <div class="page-item "><a class="page-link" href="/shorts/3/index.html">4</a></div>
+      <div class="page-item "><a class="page-link" href="//shorts/3/index.html">4</a></div>
     
-      <div class="page-item "><a class="page-link" href="/shorts/4/index.html">5</a></div>
+      <div class="page-item "><a class="page-link" href="//shorts/4/index.html">5</a></div>
     
 
       
       <div class="page-item">
-        <a class="page-link" href="/shorts/3/index.html"><i class="bi bi-arrow-right"></i></a>
+        <a class="page-link" href="//shorts/3/index.html"><i class="bi bi-arrow-right"></i></a>
       </div>
       
   </div>
@@ -1227,21 +1208,6 @@
         
           
           <div class="carousel-item  active ">
-            
-            <lite-youtube videoid="hiI-CTcXZZs" style="background-image: url('/images/videos/githubcopilot_tn.jpg'); width:100%;">
-              <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">GitHub Copilot Demo and Review</span></button>
-            </lite-youtube>
-            
-            <div class="d-block">
-              <time class="small d-none d-lg-block text-body" datetime="Invalid DateTime">Jun 03, 2021</time>
-              <a href="https://www.youtube.com/watch?v=hiI-CTcXZZs" 
-              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">GitHub Copilot Demo and Review</a>
-              <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">Well...the secret about being a programmer is that you&#39;re always looking things up. Wether it&#39;s through MDN, the mozilla developer network. Github Copilot works sort of like AutoComplete, but it&#39;s a lot cooler. To use it, you can just try to write a function with a logical name and the AI will use billions of lines of code to give you something that...well might work.</p>
-            </div>
-          </div>
-        
-          
-          <div class="carousel-item ">
             
             <lite-youtube videoid="k2RnfcjDN2g" style="background-image: url('/images/videos/managingtheDOM_tn.jpg'); width:100%;">
               <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Managing the DOM to Automate the creation of Bootstrap 5 Indicators.</span></button>
@@ -1282,6 +1248,21 @@
               <a href="https://www.youtube.com/watch?v=0-1aD5M40js" 
               class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">Building Sidebar Carousels with CSS by Hacking the Bootstrap Carousel</a>
               <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">You don&#39;t have to use a single carousel on a page, they work really well on sidebars to cycle through content, getting attention by using their sliding or fading features.</p>
+            </div>
+          </div>
+        
+          
+          <div class="carousel-item ">
+            
+            <lite-youtube videoid="71RrEJ00gPk" style="background-image: url('/images/videos/launch-react-graphql_tn.jpg'); width:100%;">
+              <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Understanding how React Hooks work with GraphQL using the Github GraphQL API</span></button>
+            </lite-youtube>
+            
+            <div class="d-block">
+              <time class="small d-none d-lg-block text-body" datetime="Invalid DateTime">Mar 24, 2021</time>
+              <a href="https://www.youtube.com/watch?v=71RrEJ00gPk" 
+              class="h4 text-decoration-none stretched-link"  style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 1; -webkit-box-orient: vertical;">Understanding how React Hooks work with GraphQL using the Github GraphQL API</a>
+              <p style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 6; -webkit-box-orient: vertical;">Like great wine, there are some tools that pair exceptionally well with each other. One of those is React and GrahpQL. To celebrate the launch of my new course, I&#39;m hosting a new livestream to talk about how they work together, why you should build something with them as soon as possible and how to use them with React Hooks.</p>
             </div>
           </div>
         </div>
@@ -1384,8 +1365,8 @@
 
 </article>
 
-    <footer class="site-footer bg-transparent pb-3 pb-md-5">
-      <div class="container d-flex justify-content-center"><div>
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
       <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
       <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
       </a>
@@ -1414,12 +1395,11 @@
       <i class="bi bi-instagram text-secondary me-1"></i>instagram
       </a>
     </div></div>
-      <div class="text-center">
-      <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      </div>
-    </footer>
-
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
   <script>
     (function () {
       let nav = document.querySelector('.site-nav')

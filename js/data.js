@@ -1,4 +1,60 @@
 [{
+  "title": "Eta Templater",
+  "date" : "Oct 24, 2021",
+  "summary" : "I hadn&#39;t heard of this templating system, but it claims to be a successor to EJS, which I really loved before I got into Eleventy and Liquid.",
+  "thumbnail": "/images/shorts/2021-10-24_17-36-20.png",
+  "url": "URL",
+  "tags" : "full stack development"
+},{
+  "title": "Day.js",
+  "date" : "Oct 23, 2021",
+  "summary" : "Let&#39;s face it. JavaScript&#39;s date implementation has never been great or had great options. I used Moment.js for while, but it seems to have lost support/steam. Here&#39;s a small minimalist alternative. Immutable and i18n compatible.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-23_04-11-11.png",
+  "url": "https://day.js.org/",
+  "tags" : "external"
+},{
+  "title": "Jamstack Conference Videos",
+  "date" : "Oct 23, 2021",
+  "summary" : "I went to the very first JamStack Conference and it was mostly fun, ran into Chris Coyier and Web Bos so that&#39;s cool. Here&#39;s a playlist with the 2020 version. Put together by Netlify, looks like some great content, but I just can&#39;t find the time to watch that much online conference content.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-23_04-06-26.png",
+  "url": "URhttps://www.youtube.com/watch?v=phC14xfwvjc&amp;list=PL58Wk5g77lF-XaNacKxWk7yOKgeCMveASL",
+  "tags" : "external"
+},{
+  "title": "Eleventy 1.0",
+  "date" : "Oct 23, 2021",
+  "summary" : "The way versions are numbered in the web world is always a mystery to me. I&#39;ve used eleventy for quite a while, but only recently did they go to a 1.0 release. There&#39;s not even that much new other than a serverless functions, which is cool, but doesn&#39;t feel so revolutionary to warrant a new version.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-23_04-01-10.png",
+  "url": "https://www.11ty.dev/blog/eleventy-v1-beta/",
+  "tags" : "external"
+},{
+  "title": "Astro .21 Preview",
+  "date" : "Oct 23, 2021",
+  "summary" : "Normally I don&#39;t cover small release, but heck Astro is the new talk of the town, so why not. This new release is powered by Vite, a new WASM compiler plus components in markdown. This is growing up to be more than just a small framework with some tricks into a platform for publishing.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-23_03-58-12.png",
+  "url": "https://astro.build/blog/astro-021-preview/",
+  "tags" : "external"
+},{
+  "title": "Nuxt 3",
+  "date" : "Oct 23, 2021",
+  "summary" : "Not to be confused with NextJS, this Vue.js clone gives you most of the features of that React Framework, but working within Vue with a sweet installation API, routing, rendering modes, data fetching. If you live Vue, you&#39;re pretty much going to love Nuxt.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-23_03-08-59.png",
+  "url": "https://nuxtjs.org/announcements/nuxt3-beta/",
+  "tags" : "external"
+},{
+  "title": "Oh My Zsh",
+  "date" : "Oct 23, 2021",
+  "summary" : "I&#39;m not kidding, you&#39;re not going want to go back to the regular shell after trying this. You can make your shell have custom colors, auto-complete, search google and tons more. If you&#39;re a terminal warrior, then follow that link for some nerdvana.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-23_02-58-17.png",
+  "url": "https://ohmyz.sh",
+  "tags" : "external"
+},{
+  "title": "React Hot Toast",
+  "date" : "Oct 23, 2021",
+  "summary" : "Get your toasts (small notifications) in React with this small library. Accessible and customizable looks like a good option to add this simple, but useful feature.",
+  "thumbnail": "http://pixelprowess.com/i/2021-10-23_02-39-26.png",
+  "url": "https://react-hot-toast.com/",
+  "tags" : "external"
+},{
   "title": "The Home Work",
   "date" : "Oct 22, 2021",
   "summary" : "Last week, in an interview with the Wall Street Journal, Google CEO Sundar Pichai announced where their policy for work is going three days in the office/four weeks working from home a year. The change in the structure of work is going to be one of the biggest shifts on how companies will operate in the future. Here&#39;s what I think.",
@@ -192,7 +248,7 @@
   "date" : "Aug 27, 2021",
   
   
-  "url": "/shorts/2021-08-27-12-58-17-pm/",
+  "url": "/shorts/2021-08-27-12-58-17-Tailwind-Starter-Kit/",
   "tags" : ""
 },{
   "title": "Hypercolor - Tailwind/CSS Color Gradients",
@@ -285,13 +341,6 @@
   "thumbnail": "https://user-images.githubusercontent.com/116461/69910156-96274b80-13fe-11ea-9be4-d801f4e9c377.gif",
   "url": "https://marketplace.visualstudio.com/items?itemName=vsls-contrib.gistfs",
   "tags" : "external"
-},{
-  "title": "",
-  "date" : "Aug 20, 2021",
-  
-  
-  "url": "/shorts/2021-08-20-1151/",
-  "tags" : ""
 },{
   "title": "Tabout VSCode Extension",
   "date" : "Aug 20, 2021",
@@ -412,12 +461,12 @@
   "url": "https://github.com/features/codespaces",
   "tags" : "external"
 },{
-  "title": "Markdown Presentation Ecosystem",
+  "title": "",
   "date" : "Aug 11, 2021",
-  "summary" : "You know I&#39;m a big fan of markdown and reveal.js, but this markdown presentation as an ecosystem sounds pretty cool. I don&#39;t feel like I&#39;m going to be moving rayveal.js anytime soon, but it might be worth a look.",
-  "thumbnail": "http://pixelprowess.com/i/2021-08-10_15-22-24.png",
-  "url": "https://marp.app/",
-  "tags" : "external"
+  
+  
+  "url": "/shorts/2021-08-11-1200-Markdown-Presentation-Ecosystem/",
+  "tags" : ""
 },{
   "title": "How to Write Good Alt Text",
   "date" : "Aug 11, 2021",
@@ -454,7 +503,7 @@
   "url": "https://go.raybo.org/4S99&quot;",
   "tags" : "external"
 },{
-  "title": "Online Hash Tool",
+  "title": "Online-Hash-Tool",
   "date" : "Aug 11, 2021",
   "summary" : "I found this random Hash tools pretty useful while I was working on a course. Sometimes you have to mock up some hashes or create a super secure password. This tool is pretty flexible.",
   "thumbnail": "https://onlinehashtools.com/images/preview-image-onlinehashtools.png",
@@ -489,10 +538,10 @@
   "url": "https://go.raybo.org/4XaE",
   "tags" : "external"
 },{
-  "title": "",
+  "title": "Astro",
   "date" : "Aug 11, 2021",
   "summary" : "It&#39;s a little too early to tell, but this might just be the next big thing. Create a website with a simple observable that waits for your actions and only loads Scripts when absolutely necessary. The static site generator of the future. It&#39;s definitely got legs.",
-  "thumbnail": "https://astro.build/social.png?v=1",
+  "thumbnail": "https://astro.build/social.png",
   "url": "https://go.raybo.org/4Zpc&quot;",
   "tags" : "external"
 },{
@@ -664,7 +713,7 @@
   "url": "https://go.raybo.org/5Gcp",
   "tags" : "external"
 },{
-  "title": "SVGGobbler",
+  "title": "SVG Gobbler",
   "date" : "Aug 11, 2021",
   "summary" : "A set of SVG utilities available as a browser extension. Lets you quickly copy SVGs on a page with lots of options.",
   "thumbnail": "https://cdn.publer.io/uploads/photos/mini_magick20210801-30260-1qltfb4.png",
@@ -801,7 +850,7 @@
   "date" : "Jun 03, 2021",
   "summary" : "Well...the secret about being a programmer is that you&#39;re always looking things up. Wether it&#39;s through MDN, the mozilla developer network. Github Copilot works sort of like AutoComplete, but it&#39;s a lot cooler. To use it, you can just try to write a function with a logical name and the AI will use billions of lines of code to give you something that...well might work.",
   "thumbnail": "/images/videos/githubcopilot_tn.jpg",
-  "url": "/videos/2021-06-03-Github-Copilot-Demo/",
+  "url": "/posts/2021-06-03-Github-Copilot-Demo/",
   "tags" : ""
 },{
   "title": "The Geekier Edition",

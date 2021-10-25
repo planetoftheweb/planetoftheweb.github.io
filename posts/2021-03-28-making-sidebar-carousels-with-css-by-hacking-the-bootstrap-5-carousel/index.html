@@ -19,10 +19,10 @@
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
  
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script defer src="/js/lite-yt-embed.js"></script>
     <script defer src="/js/script.js"></script>
  
@@ -40,17 +40,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
-  <body class="position-relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  bg-dark sticky-top  py-0">
-  <div class="container-fluid">
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="navbar-brand text-lowercase">
       <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
     </div>
-
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ms-auto fw-regular text-uppercase">
         
@@ -143,7 +141,6 @@
 </header>
 
 
-
  
 <article id="main-content" class="site-main container mt-3 mb-5"
 
@@ -162,11 +159,11 @@
   (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 <p>To get this working, I've added some CSS to align the carousel to the right.</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token selector">#carouselSidebar</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">width</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token selector">#carouselSidebar</span> <span class="token punctuation">{</span><br>  <span class="token property">display</span><span class="token punctuation">:</span> inline-block<span class="token punctuation">;</span><br>  <span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span><br>  <span class="token property">width</span><span class="token punctuation">:</span> 400px<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
 <p>You could use columns to position the sidebar, but this way it will move with the content in the article.</p>
 <h2 id="equalizing-proportions">Equalizing Proportions <a class="direct-link" href="#equalizing-proportions"> </a></h2>
 <p>The images aren't the same proportions and therefore heights, so I'm going to use a trick that I covered when I wrote an article on <a href="/posts/2021-03-27-consistent-height-carousels-with-css-gradients-by-hacking-the-bootstrap-5-carousels/">building consistent height carousels</a>.</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token selector">#carouselSidebar .carousel-item img</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">object-fit</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">object-position</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">height</span><span class="token punctuation">:</span> 210px<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token selector">#carouselSidebar .carousel-item img</span> <span class="token punctuation">{</span><br>  <span class="token property">object-fit</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span><br>  <span class="token property">object-position</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span><br>  <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span><br>  <span class="token property">height</span><span class="token punctuation">:</span> 210px<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
 <p>Using <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit">object-fit</a> and <a href="object-position">object-position</a> with the <code>overflow:hidden</code> property, I can set the height of the image and make them proportionally the same size.</p>
 <iframe height="500" style="width: 100%;" scrolling="no" title="Bootstrap 5: Consistent Height Sidebar" src="https://codepen.io/planetoftheweb/embed/540c3c572ce63d86f141877f475c7592?height=265&theme-id=dark&default-tab=result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/planetoftheweb/pen/540c3c572ce63d86f141877f475c7592'>Bootstrap 5: Consistent Height Sidebar</a> by Ray Villalobos
@@ -181,7 +178,7 @@
 <h2 id="adjusting-the-arrows-and-indicators">Adjusting the Arrows and Indicators <a class="direct-link" href="#adjusting-the-arrows-and-indicators"> </a></h2>
 <p>The problem is that the arrows indicators you can use to go to the previous and next image appear to be gone. They're still there, but since they're centered, they happen to be in the area with the text.</p>
 <p>To fix these, we need to position them manually based on the size of our image.</p>
-<pre class="language-css"><code class="language-css"><span class="token selector">#carouselSidebar .carousel-control-prev,<br>#carouselSidebar .carousel-control-next</span> <span class="token punctuation">{</span><br><span class="highlight-line">  <span class="token property">align-items</span><span class="token punctuation">:</span> flex-start<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">top</span><span class="token punctuation">:</span> 80px<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token selector">#carouselSidebar .carousel-indicators</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">align-items</span><span class="token punctuation">:</span> flex-start<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">top</span><span class="token punctuation">:</span> 180px<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token selector">#carouselSidebar .carousel-control-prev,<br>#carouselSidebar .carousel-control-next</span> <span class="token punctuation">{</span><br>  <span class="token property">align-items</span><span class="token punctuation">:</span> flex-start<span class="token punctuation">;</span><br>  <span class="token property">top</span><span class="token punctuation">:</span> 80px<span class="token punctuation">;</span><br><span class="token punctuation">}</span><br><br><span class="token selector">#carouselSidebar .carousel-indicators</span> <span class="token punctuation">{</span><br>  <span class="token property">align-items</span><span class="token punctuation">:</span> flex-start<span class="token punctuation">;</span><br>  <span class="token property">top</span><span class="token punctuation">:</span> 180px<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
 <p>This will place the image and the arrows in the proper place. You need to calculate these manually and make sure that you adjust the height and margin; otherwise they will run on top of the text, but it's not a big deal.</p>
 <iframe height="500" style="width: 100%;" scrolling="no" title="Bootstrap 5 Sidebar Carousel with Fixed Controls and Indicators" src="https://codepen.io/planetoftheweb/embed/f834ee4f343a7f76239085bad7dbcc19?height=265&theme-id=dark&default-tab=result" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
   See the Pen <a href='https://codepen.io/planetoftheweb/pen/f834ee4f343a7f76239085bad7dbcc19'>Bootstrap 5 Sidebar Carousel with Fixed Controls and Indicators</a> by Ray Villalobos
@@ -189,7 +186,7 @@
 </iframe>
 <h2 id="stretched-links">Stretched Links <a class="direct-link" href="#stretched-links"> </a></h2>
 <p>One of the newer features in Bootstrap is the ability to take a link in a component and stretch it so that it cover it's container. You can take advantage of that feature in our carousel and that way you don't have to make a link for both the image and the headline.</p>
-<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span><br><span class="highlight-line">  <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://raybo.org<span class="token punctuation">"</span></span></span><br>  <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>h5 d-block mt-2<br><span class="highlight-line">    stretched-link</span><br><span class="highlight-line">    text-decoration-none</span><br>    text-secondary<span class="token punctuation">"</span></span><br><span class="highlight-line">  <span class="token punctuation">></span></span>Slide 01<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span></span><br><span class="token punctuation">></span></span></code></pre>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>a</span><br>  <span class="token attr-name">href</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>https://raybo.org<span class="token punctuation">"</span></span><br>  <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>h5 d-block mt-2<br>    stretched-link<br>    text-decoration-none<br>    text-secondary<span class="token punctuation">"</span></span><br>  <span class="token punctuation">></span></span>Slide 01<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>a</span><br><span class="token punctuation">></span></span></code></pre>
 <p>All you have to do is add a <code>stretched-link</code> class to the link and it will travel up to a container that has a <code>position: relative</code> property. This is working well with our carousel, but remember that sometimes you have to add that manually.</p>
 <p>There's a few other interesting things going on with the link. You'll notice that it's actually an anchor tag that's been styled to look like a level 5 headline. Sort of nice that bootstrap has that. Because it's a link, it would normally run as an inline element, but we can quickly switch that to a block level element with <code>d-block</code>. Links don't normally have additional margins, so we can add 2 units of margin with <code>mt-2</code>.</p>
 <p>If you don't add the <code>text-decoration-none</code>, because it's a link it will have an underline and the <code>text-secondary</code> class gives it a gray tint instead of the loud blue color.</p>
@@ -201,19 +198,19 @@
       <div class="">
                 <ol>
                     
-                    <li><a href="#carousels-as-sidebars">Carousels as Sidebars  </a>
+                    <li><a href="#carousels-as-sidebars">Carousels as Sidebars</a>
             		</li>
 
-                    <li><a href="#equalizing-proportions">Equalizing Proportions  </a>
+                    <li><a href="#equalizing-proportions">Equalizing Proportions</a>
             		</li>
 
-                    <li><a href="#fixing-the-overlay-text">Fixing the Overlay Text  </a>
+                    <li><a href="#fixing-the-overlay-text">Fixing the Overlay Text</a>
             		</li>
 
-                    <li><a href="#adjusting-the-arrows-and-indicators">Adjusting the Arrows and Indicators  </a>
+                    <li><a href="#adjusting-the-arrows-and-indicators">Adjusting the Arrows and Indicators</a>
             		</li>
 
-                    <li><a href="#stretched-links">Stretched Links  </a>
+                    <li><a href="#stretched-links">Stretched Links</a>
             		</li>
                 </ol>
             </div>
@@ -223,8 +220,8 @@
 </main>
 </article>
 
-    <footer class="site-footer bg-transparent pb-3 pb-md-5">
-      <div class="container d-flex justify-content-center"><div>
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
       <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
       <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
       </a>
@@ -253,12 +250,11 @@
       <i class="bi bi-instagram text-secondary me-1"></i>instagram
       </a>
     </div></div>
-      <div class="text-center">
-      <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      </div>
-    </footer>
-
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
   <script>
     (function () {
       let nav = document.querySelector('.site-nav')

@@ -19,10 +19,10 @@
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
  
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script defer src="/js/lite-yt-embed.js"></script>
     <script defer src="/js/script.js"></script>
  
@@ -40,17 +40,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
-  <body class="position-relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  bg-dark sticky-top  py-0">
-  <div class="container-fluid">
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="navbar-brand text-lowercase">
       <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
     </div>
-
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ms-auto fw-regular text-uppercase">
         
@@ -143,7 +141,6 @@
 </header>
 
 
-
  
 <article id="main-content" class="site-main container mt-3 mb-5"
 
@@ -186,27 +183,27 @@ Visual Studio code has a lot of built in GitHub functionality, but one tool that
 <p>Enough about the tools, lets dive into some of my favorite tips. The first is a couple of changes to git that you'll probably notice in more and more tutorials.</p>
 <h2 id="restoring">Restoring <a class="direct-link" href="#restoring"> </a></h2>
 <p>There's a new way to restore files. It's an addition to git 2.2, so eventually you'll see it being used more and more. You can issue a <code>git restore</code> command instead of the old git checkout command. Checkout had too many responsibilities in Git, so they've added a few commands that are more targeted.</p>
-<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> restore README.md</span><br><span class="highlight-line"><span class="token comment"># git restore .</span></span><br><span class="highlight-line"><span class="token comment"># git checkout .</span></span></code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> restore README.md<br><span class="token comment"># git restore .</span><br><span class="token comment"># git checkout .</span></code></pre>
 <p>You can still use git checkout command. I think restore makes more sense since checkout can be used in other ways.</p>
 <h2 id="ignoring-files">Ignoring Files <a class="direct-link" href="#ignoring-files"> </a></h2>
 <p>To take care of ignoring files, you can create a <code>.gitignore</code> file at the root level of your project. Inside that file, you can add any type of file or pattern that you want to ignore.</p>
-<pre class="language-bash"><code class="language-bash"><span class="highlight-line">.DS_Store</span><br><span class="highlight-line">.vscode/</span><br><span class="highlight-line">authentication.js</span><br><span class="highlight-line">node_modules</span><br><span class="highlight-line">notes/</span><br><span class="highlight-line">**/*-todo.md</span></code></pre>
+<pre class="language-bash"><code class="language-bash">.DS_Store<br>.vscode/<br>authentication.js<br>node_modules<br>notes/<br>**/*-todo.md</code></pre>
 <p>You can add an entry for the .DS_Store file as well as the .VSCode folder.</p>
 <p>Another common one is a file called <code>node_modules</code>. This is create by npm when working on web projects.</p>
 <p>If your project requires it, you can add a file here to store authentication tokens, API keys, etc.</p>
 <p>You can also add a <code>notes/</code> folder here for local notes about the project you don't want to share.</p>
 <p>Or you can create a special extension and add the notes anywhere in your project.</p>
-<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> config --global core.excludesfile <span class="token punctuation">[</span>file<span class="token punctuation">]</span></span></code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> config --global core.excludesfile <span class="token punctuation">[</span>file<span class="token punctuation">]</span></code></pre>
 <p>If you're going to be using the same ignore files in many projects, you can also add this as a config variable pointing to a file in your hard drive. You can add many things to your config variables that makes using git easier.</p>
 <h2 id="copying-a-branch">Copying a branch <a class="direct-link" href="#copying-a-branch"> </a></h2>
-<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> switch NAME</span><br><span class="highlight-line"><span class="token function">git</span> switch -c NAME</span><br><span class="highlight-line"><span class="token comment"># git checkout -b NAME</span></span></code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> switch NAME<br><span class="token function">git</span> switch -c NAME<br><span class="token comment"># git checkout -b NAME</span></code></pre>
 <blockquote>
 <blockquote></blockquote>
 </blockquote>
 <p>With the git switch command we can switch to or create a new branch and switch to it. It will have the same history as the current branch.</p>
 <p>This is the same as the old git checkout command.</p>
 <h2 id="git-clean">Git Clean <a class="direct-link" href="#git-clean"> </a></h2>
-<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> clean -n <span class="token comment"># dry run</span></span><br><span class="highlight-line"><span class="token function">git</span> clean -d <span class="token comment"># directories</span></span><br><span class="highlight-line"><span class="token function">git</span> clean -f <span class="token comment"># force</span></span></code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> clean -n <span class="token comment"># dry run</span><br><span class="token function">git</span> clean -d <span class="token comment"># directories</span><br><span class="token function">git</span> clean -f <span class="token comment"># force</span></code></pre>
 <p>Git clean is pretty simple. It lets you remove all untracked files and directories from your branch quickly. This is a nice way of removing old files that you don't need anymore.</p>
 <p>It has a lot of options, but the ones I find really useful are -n, which will show you which files are going to be deleted, and -d, which will delete directories.</p>
 <p>Be careful with these commands because they're permanent.</p>
@@ -256,49 +253,49 @@ Visual Studio code has a lot of built in GitHub functionality, but one tool that
       <div class="">
                 <ol>
                     
-                    <li><a href="#codespaces">CodeSpaces  </a>
+                    <li><a href="#codespaces">CodeSpaces</a>
             		</li>
 
-                    <li><a href="#copilot">Copilot  </a>
+                    <li><a href="#copilot">Copilot</a>
             		</li>
 
-                    <li><a href="#github-issues">GitHub Issues  </a>
+                    <li><a href="#github-issues">GitHub Issues</a>
             		</li>
 
-                    <li><a href="#github-cli">GitHub CLI  </a>
+                    <li><a href="#github-cli">GitHub CLI</a>
             		</li>
 
-                    <li><a href="#github-for-mobile">GitHub for Mobile  </a>
+                    <li><a href="#github-for-mobile">GitHub for Mobile</a>
             		</li>
 
-                    <li><a href="#git-lens">Git Lens  </a>
+                    <li><a href="#git-lens">Git Lens</a>
             		</li>
 
-                    <li><a href="#restoring">Restoring  </a>
+                    <li><a href="#restoring">Restoring</a>
             		</li>
 
-                    <li><a href="#ignoring-files">Ignoring Files  </a>
+                    <li><a href="#ignoring-files">Ignoring Files</a>
             		</li>
 
-                    <li><a href="#copying-a-branch">Copying a branch  </a>
+                    <li><a href="#copying-a-branch">Copying a branch</a>
             		</li>
 
-                    <li><a href="#git-clean">Git Clean  </a>
+                    <li><a href="#git-clean">Git Clean</a>
             		</li>
 
-                    <li><a href="#github-tlds">Github TLDs  </a>
+                    <li><a href="#github-tlds">Github TLDs</a>
             		</li>
 
-                    <li><a href="#shortcuts">Shortcuts  </a>
+                    <li><a href="#shortcuts">Shortcuts</a>
             		</li>
 
-                    <li><a href="#github-special-profile">GitHub Special Profile  </a>
+                    <li><a href="#github-special-profile">GitHub Special Profile</a>
             		</li>
 
-                    <li><a href="#watch-it-for-free">Watch it for Free  </a>
+                    <li><a href="#watch-it-for-free">Watch it for Free</a>
             		</li>
 
-                    <li><a href="#tailwind-css's-jit-mode">Tailwind CSS's JIT Mode  </a>
+                    <li><a href="#tailwind-css's-jit-mode">Tailwind CSS's JIT Mode</a>
             		</li>
                 </ol>
             </div>
@@ -308,8 +305,8 @@ Visual Studio code has a lot of built in GitHub functionality, but one tool that
 </main>
 </article>
 
-    <footer class="site-footer bg-transparent pb-3 pb-md-5">
-      <div class="container d-flex justify-content-center"><div>
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
       <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
       <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
       </a>
@@ -338,12 +335,11 @@ Visual Studio code has a lot of built in GitHub functionality, but one tool that
       <i class="bi bi-instagram text-secondary me-1"></i>instagram
       </a>
     </div></div>
-      <div class="text-center">
-      <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      </div>
-    </footer>
-
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
   <script>
     (function () {
       let nav = document.querySelector('.site-nav')

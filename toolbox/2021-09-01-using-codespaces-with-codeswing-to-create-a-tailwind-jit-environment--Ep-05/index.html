@@ -19,10 +19,10 @@
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
  
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script defer src="/js/lite-yt-embed.js"></script>
     <script defer src="/js/script.js"></script>
  
@@ -40,17 +40,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
-  <body class="position-relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  bg-dark sticky-top  py-0">
-  <div class="container-fluid">
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="navbar-brand text-lowercase">
       <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
     </div>
-
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ms-auto fw-regular text-uppercase">
         
@@ -143,7 +141,6 @@
 </header>
 
 
-
  
 <article id="main-content" class="site-main container mt-3 mb-5"
 
@@ -180,13 +177,13 @@
 <h2 id="what-you-get">What you get <a class="direct-link" href="#what-you-get"> </a></h2>
 <h2 id="using-the-playground">Using the Playground <a class="direct-link" href="#using-the-playground"> </a></h2>
 <p>There are three tabs open as well as a preview. Let's hide the open editors. Lets try adding some HTML. Since I have the emmet extension on, I can use some shortcuts.</p>
-<pre class="language-html"><code class="language-html"><span class="highlight-line">h1>Headline+</span><br><span class="highlight-line">p*5>lorem</span></code></pre>
+<pre class="language-html"><code class="language-html">h1>Headline+<br>p*5>lorem</code></pre>
 <p>One of the first advantages to CodePen  is that I have the full power of visual studio code in an environment with all of my extensions and plugins. It's the editor I'm used to working in, with my own preferences, other extensions and Color Themes</p>
 <p>Let's try some CSS</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token selector">h1</span> <span class="token punctuation">{</span></span><br><span class="highlight-line"><span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token selector">h1</span> <span class="token punctuation">{</span><br><span class="token property">color</span><span class="token punctuation">:</span> red<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
 <p>This is a live preview that updates constantly. In the background webpack is managing all of your files and letting you see changes as you make them. I also get the full power of VSCode's Intellisense.</p>
 <p>Let's try some simple JavaScript</p>
-<pre class="language-js"><code class="language-js"><span class="highlight-line">document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'h1'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>innerText <span class="token operator">=</span> <span class="token string">'Welcome'</span></span></code></pre>
+<pre class="language-js"><code class="language-js">document<span class="token punctuation">.</span><span class="token function">querySelector</span><span class="token punctuation">(</span><span class="token string">'h1'</span><span class="token punctuation">)</span><span class="token punctuation">.</span>innerText <span class="token operator">=</span> <span class="token string">'Welcome'</span></code></pre>
 <p>Like in Codepen, we didn't have to use scripts or link tags to make the css and scripts interactive.</p>
 <h2 id="changing-the-layout">Changing the Layout <a class="direct-link" href="#changing-the-layout"> </a></h2>
 <p>Now that we have a solid CodeSwing going, we should have more options in the command palette. Let's try changing the layout. Let's make sure all the files are saved fist.</p>
@@ -195,26 +192,26 @@
 <h2 id="adding-a-library">Adding A Library <a class="direct-link" href="#adding-a-library"> </a></h2>
 <p>Let's try adding a library to make our code playground a bit better.</p>
 <p>Let's add a container to make this align to our grid</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line">.container</span></code></pre>
+<pre class="language-css"><code class="language-css">.container</code></pre>
 <p>Let's also add some code to imrpove our text.</p>
-<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p-3 pb-md-4 mx-auto text-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>  </span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>display-4 fw-normal<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fs-5 text-muted<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>p-3 pb-md-4 mx-auto text-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>  <br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>display-4 fw-normal<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>fs-5 text-muted<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
 <h2 id="how-is-this-happening%3F">How is this Happening? <a class="direct-link" href="#how-is-this-happening%3F"> </a></h2>
 <p>If you're a developer, you're probably wondering how it's doing all this. There's certainly some magic happening in the extension, but basically, it's using CDNs to load up the different libraries. CodeSwing already knows to look for the HTML, CSS and JS files and the way that it keeps track of the additional libraries we've added is the special codeswing.json file.</p>
 <p>Lets take a peek.</p>
-<pre class="language-json"><code class="language-json"><span class="highlight-line"><span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span></span><br><span class="highlight-line">  <span class="token property">"styles"</span><span class="token operator">:</span> <span class="token punctuation">[</span></span><br><span class="highlight-line">    <span class="token string">"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css"</span></span><br><span class="highlight-line">  <span class="token punctuation">]</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>  <span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span><br>  <span class="token property">"styles"</span><span class="token operator">:</span> <span class="token punctuation">[</span><br>    <span class="token string">"https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css"</span><br>  <span class="token punctuation">]</span><br><span class="token punctuation">}</span></code></pre>
 <p>You can see that it's using a CDN to load up the minified version of Bootstrap.</p>
 <h2 id="sharing-with-codespaces">Sharing with CodeSpaces <a class="direct-link" href="#sharing-with-codespaces"> </a></h2>
 <p>So far, this is great for maybe demos that you're doing in a classroom, but what if you want to share something with the world. That's where Github CodeSpaces will come in handy.</p>
 <p>Let's go ahead create a new repo for this project. I'll call this bootswing, then I'll copy the terminal command to add the origin...because it's a bit long to remember.</p>
-<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> remote <span class="token function">add</span> origin URL</span></code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> remote <span class="token function">add</span> origin URL</code></pre>
 <p>Now, I'll go back to my desktop to initialize this as a git repository.</p>
-<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> init</span></code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> init</code></pre>
 <p>Open up the terminal and add the URL to the new repo origin, then push the branch over.</p>
-<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">git</span> remote <span class="token function">add</span> origin URL</span><br><span class="highlight-line"><span class="token function">git</span> push -u origin main</span></code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">git</span> remote <span class="token function">add</span> origin URL<br><span class="token function">git</span> push -u origin main</code></pre>
 <h2 id="adding-a-devcontainer-file">Adding a DevContainer File <a class="direct-link" href="#adding-a-devcontainer-file"> </a></h2>
 <p>Now, this will work for me, because I already have the codeswing extension installed and my local VSCode syncs to the remote. If someone comes to this repo and they don't have the CodeSwing extension, the experience wouldn't be as cool. So we'll make sure we add one more file to take care of that.</p>
 <p>There's a special devcontainer.json file you can add to make sure you configure how the CodeSpaces environment works. <code>.devcontainer/devcontainer.json</code>.</p>
-<pre class="language-json"><code class="language-json"><span class="highlight-line"><span class="token punctuation">{</span></span><br><span class="highlight-line">	<span class="token property">"extensions"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"codespaces-contrib.codeswing"</span><span class="token punctuation">]</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>	<span class="token property">"extensions"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token string">"codespaces-contrib.codeswing"</span><span class="token punctuation">]</span><br><span class="token punctuation">}</span></code></pre>
 <p>Now if someone comes to this repo, they can just hit the period key to get the codeswing going. If they don't have CodeSwing install, it will prompt them to do it.</p>
 <h2 id="template">Template <a class="direct-link" href="#template"> </a></h2>
 <p>You know this is a nice starter template that I could use in other projects, so I'm going to go to the settings tab, then click on the <code>Template repository</code> checkbox.</p>
@@ -224,27 +221,27 @@
 <h3 id="setting-up">Setting up <a class="direct-link" href="#setting-up"> </a></h3>
 <p>Let's open up a terminal so we can set things up.</p>
 <p>First, I'm going to need a package.json file.</p>
-<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">npm</span> init -y</span></code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> init -y</code></pre>
 <p>This will create one with the defaults. We'll also need to install some modules.</p>
-<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">npm</span> <span class="token function">install</span> -D @tailwindcss/jit tailwindcss postcss</span></code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -D @tailwindcss/jit tailwindcss postcss</code></pre>
 <p>To get Tailwind going, we're going to need to install tailwindcss, plus the just in time module and postcss. Tailwind CSS is a PostCSS module.</p>
 <p>We're going to need some configuration files as well including a <code>tailwind.config.js</code> and a postcss.config.js file. We can do that with this command.</p>
-<pre class="language-bash"><code class="language-bash"><span class="highlight-line">npx tailwindcss init -p</span></code></pre>
+<pre class="language-bash"><code class="language-bash">npx tailwindcss init -p</code></pre>
 <p>Now, we're going to need a script in the <code>package.json</code> file to start our container with.</p>
-<pre class="language-json"><code class="language-json"><span class="highlight-line"><span class="token property">"start"</span><span class="token operator">:</span> <span class="token string">"tailwind -i ./src/src.css -o ./style.css --watch"</span></span></code></pre>
+<pre class="language-json"><code class="language-json"><span class="token property">"start"</span><span class="token operator">:</span> <span class="token string">"tailwind -i ./src/src.css -o ./style.css --watch"</span></code></pre>
 <p>I'll need to create a src.css file inside a src folder and inside there, we can add the basic imports for the different tailwind components.</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token atrule"><span class="token rule">@tailwind</span> base<span class="token punctuation">;</span></span></span><br><span class="highlight-line"><span class="token atrule"><span class="token rule">@tailwind</span> components<span class="token punctuation">;</span></span></span><br><span class="highlight-line"><span class="token atrule"><span class="token rule">@tailwind</span> utilities<span class="token punctuation">;</span></span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token atrule"><span class="token rule">@tailwind</span> base<span class="token punctuation">;</span></span><br><span class="token atrule"><span class="token rule">@tailwind</span> components<span class="token punctuation">;</span></span><br><span class="token atrule"><span class="token rule">@tailwind</span> utilities<span class="token punctuation">;</span></span></code></pre>
 <p>Since we're not using Bootstrap, I'll need to remove the import from the styles section of the <code>codeswing.json</code> file.</p>
-<pre class="language-json"><code class="language-json"><span class="highlight-line"><span class="token punctuation">{</span></span><br><span class="highlight-line">	<span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span></span><br><span class="highlight-line">	<span class="token property">"styles"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<pre class="language-json"><code class="language-json"><span class="token punctuation">{</span><br>	<span class="token property">"scripts"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><span class="token punctuation">,</span><br>	<span class="token property">"styles"</span><span class="token operator">:</span> <span class="token punctuation">[</span><span class="token punctuation">]</span><br><span class="token punctuation">}</span></code></pre>
 <p>Now, let's adjust the <code>tailwind.config.js</code> file so that we can use the JIT mode instead of regular mode.</p>
 <p>We'll also need to identify the HTML as the file that needs to be verified for Tailwind Classes.</p>
-<pre class="language-js"><code class="language-js"><span class="highlight-line">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">mode<span class="token operator">:</span> <span class="token string">'jit'</span><span class="token punctuation">,</span></span><br><span class="highlight-line">purge<span class="token operator">:</span> <span class="token punctuation">[</span></span><br><span class="highlight-line">	<span class="token string">'./index.html'</span></span><br><span class="highlight-line"><span class="token punctuation">]</span><span class="token punctuation">,</span></span><br><span class="highlight-line"><span class="token operator">...</span></span></code></pre>
+<pre class="language-js"><code class="language-js">module<span class="token punctuation">.</span>exports <span class="token operator">=</span> <span class="token punctuation">{</span><br>mode<span class="token operator">:</span> <span class="token string">'jit'</span><span class="token punctuation">,</span><br>purge<span class="token operator">:</span> <span class="token punctuation">[</span><br>	<span class="token string">'./index.html'</span><br><span class="token punctuation">]</span><span class="token punctuation">,</span><br><span class="token operator">...</span></code></pre>
 <p>Alright. One note, because the npm install command will confitnuously check the HTML and create a new css file, we're not going to be able to just type period to start this project or use the <code>.dev</code> URL, but we can still use codespaces. We'll have to edit the devcontainer.json to start our processes.</p>
-<pre class="language-json"><code class="language-json"><span class="highlight-line">	<span class="token property">"postCreateCommand"</span><span class="token operator">:</span> <span class="token string">"npm install"</span><span class="token punctuation">,</span></span><br><span class="highlight-line">	<span class="token property">"postStartCommand"</span><span class="token operator">:</span> <span class="token string">"npm start"</span></span></code></pre>
+<pre class="language-json"><code class="language-json">	<span class="token property">"postCreateCommand"</span><span class="token operator">:</span> <span class="token string">"npm install"</span><span class="token punctuation">,</span><br>	<span class="token property">"postStartCommand"</span><span class="token operator">:</span> <span class="token string">"npm start"</span></code></pre>
 <p>You can check to see if this is working by opening a terminal and running the <code>npm start</code> command. Your preview should look real boring, but that's the sign tailwind is working.</p>
 <p>Let's clear out the <code>JavaScript</code> since we're not going to need that for this playground.</p>
 <p>Here's some adjustments to the HTML to try.</p>
-<pre class="language-html"><code class="language-html"><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-[50px] px-6 font-extrabold text-red-500 tracking-tight<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Headline<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span></span><br><span class="highlight-line">	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mt-4 max-w-2xl px-6 text-xl text-gray-500 mx-auto<span class="token punctuation">"</span></span><span class="token punctuation">></span></span></span><br><span class="highlight-line">		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat esse nesciunt cum, 	nulla obcaecati ipsam, commodi natus recusandae, dicta nostrum architecto. Ab dicta asperiores tempore quisquam magnam, ipsam nesciunt cupiditate.</span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span></span><br><span class="highlight-line"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></span></code></pre>
+<pre class="language-html"><code class="language-html"><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-center<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>h1</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>text-[50px] px-6 font-extrabold text-red-500 tracking-tight<span class="token punctuation">"</span></span><span class="token punctuation">></span></span>Headline<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>h1</span><span class="token punctuation">></span></span><br>	<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation attr-equals">=</span><span class="token punctuation">"</span>mt-4 max-w-2xl px-6 text-xl text-gray-500 mx-auto<span class="token punctuation">"</span></span><span class="token punctuation">></span></span><br>		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat esse nesciunt cum, 	nulla obcaecati ipsam, commodi natus recusandae, dicta nostrum architecto. Ab dicta asperiores tempore quisquam magnam, ipsam nesciunt cupiditate.<br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">></span></span><br><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">></span></span></code></pre>
 <h1 id="toolbox-shorts">Toolbox Shorts <a class="direct-link" href="#toolbox-shorts"> </a></h1>
 <p>Since this is a special episode of the Toolbox, I'm going to go over some of the GitHub Tools, plus an extension you should definitely add to GitHub.</p>
 <h2 id="hypercolor">Hypercolor <a class="direct-link" href="#hypercolor"> </a></h2>
@@ -277,61 +274,61 @@ Tailwinds CSS is great, but it doesn't come with any built in components. A few 
       <div class="">
                 <ol>
                     
-                    <li><a href="#installing">Installing  </a>
+                    <li><a href="#installing">Installing</a>
             		</li>
 
-                    <li><a href="#creating-a-swing">Creating a Swing  </a>
+                    <li><a href="#creating-a-swing">Creating a Swing</a>
             		</li>
 
-                    <li><a href="#choosing-a-template">Choosing a Template  </a>
+                    <li><a href="#choosing-a-template">Choosing a Template</a>
             		</li>
 
-                    <li><a href="#what-you-get">What you get  </a>
+                    <li><a href="#what-you-get">What you get</a>
             		</li>
 
-                    <li><a href="#using-the-playground">Using the Playground  </a>
+                    <li><a href="#using-the-playground">Using the Playground</a>
             		</li>
 
-                    <li><a href="#changing-the-layout">Changing the Layout  </a>
+                    <li><a href="#changing-the-layout">Changing the Layout</a>
             		</li>
 
-                    <li><a href="#adding-a-library">Adding A Library  </a>
+                    <li><a href="#adding-a-library">Adding A Library</a>
             		</li>
 
-                    <li><a href="#how-is-this-happening%3F">How is this Happening?  </a>
+                    <li><a href="#how-is-this-happening%3F">How is this Happening?</a>
             		</li>
 
-                    <li><a href="#sharing-with-codespaces">Sharing with CodeSpaces  </a>
+                    <li><a href="#sharing-with-codespaces">Sharing with CodeSpaces</a>
             		</li>
 
-                    <li><a href="#adding-a-devcontainer-file">Adding a DevContainer File  </a>
+                    <li><a href="#adding-a-devcontainer-file">Adding a DevContainer File</a>
             		</li>
 
-                    <li><a href="#template">Template  </a>
+                    <li><a href="#template">Template</a>
             		</li>
 
-                    <li><a href="#tailswing-tooling">Tailswing Tooling  </a>
+                    <li><a href="#tailswing-tooling">Tailswing Tooling</a>
             		</li>
 
-                    <li><a href="#hypercolor">Hypercolor  </a>
+                    <li><a href="#hypercolor">Hypercolor</a>
             		</li>
 
-                    <li><a href="#tailwind-buttons">Tailwind Buttons  </a>
+                    <li><a href="#tailwind-buttons">Tailwind Buttons</a>
             		</li>
 
-                    <li><a href="#tailwind-starter-kit">Tailwind Starter Kit  </a>
+                    <li><a href="#tailwind-starter-kit">Tailwind Starter Kit</a>
             		</li>
 
-                    <li><a href="#daisy-ui">Daisy UI  </a>
+                    <li><a href="#daisy-ui">Daisy UI</a>
             		</li>
 
-                    <li><a href="#tailwind-kit">Tailwind Kit  </a>
+                    <li><a href="#tailwind-kit">Tailwind Kit</a>
             		</li>
 
-                    <li><a href="#tailblocks">Tailblocks  </a>
+                    <li><a href="#tailblocks">Tailblocks</a>
             		</li>
 
-                    <li><a href="#what's-new-in-bootstrap-5.1">What's New in Bootstrap 5.1  </a>
+                    <li><a href="#what's-new-in-bootstrap-5.1">What's New in Bootstrap 5.1</a>
             		</li>
                 </ol>
             </div>
@@ -341,8 +338,8 @@ Tailwinds CSS is great, but it doesn't come with any built in components. A few 
 </main>
 </article>
 
-    <footer class="site-footer bg-transparent pb-3 pb-md-5">
-      <div class="container d-flex justify-content-center"><div>
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
       <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
       <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
       </a>
@@ -371,12 +368,11 @@ Tailwinds CSS is great, but it doesn't come with any built in components. A few 
       <i class="bi bi-instagram text-secondary me-1"></i>instagram
       </a>
     </div></div>
-      <div class="text-center">
-      <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      </div>
-    </footer>
-
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
   <script>
     (function () {
       let nav = document.querySelector('.site-nav')

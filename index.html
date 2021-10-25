@@ -19,10 +19,10 @@
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
  
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script defer src="/js/lite-yt-embed.js"></script>
     <script defer src="/js/script.js"></script>
  
@@ -40,17 +40,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
-  <body class="position-relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  fixed-top  py-0">
-  <div class="container-fluid">
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  fixed-top  py-0">
+  <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="navbar-brand text-lowercase">
       <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
     </div>
-
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ms-auto fw-regular text-uppercase">
         
@@ -141,12 +139,10 @@
 
 
 
-
-
-  <header id="page-hero">
+<header id="page-hero" class="container bg-secondary p-0"  style="margin-top:55px; background: transparent !important;">
   
   <header id="layout-carousel" 
-  class="carousel 100vw d-none d-sm-flex justify-content-center align-items-center  slide
+  class="carousel d-none rounded d-sm-flex justify-content-center align-items-center slide
     carousel-fade"
     
      
@@ -158,14 +154,14 @@
   <div class="carousel-indicators"></div>
   
  
-  <div class="carousel-inner">
+  <div class="carousel-inner" style="border-radius:20px !important;">
 
     
     <div class="carousel-item active" 
       >
       <a href="/newsletter/2021-10-22-The-Home-Work/">
         <img class="d-block w-100" src="/images/newsletter/homework.png" alt="The Home Work photo"
-          style="max-height: 40vh; overflow:hidden">
+          style="max-height: 60vh; overflow:hidden">
         <div class="carousel-caption">
           <div class="container">
           <h4 class="d-none d-lg-block text-white">The Home Work</h4>
@@ -179,7 +175,7 @@
       >
       <a href="/toolbox/2021-10-20-Tooling-For-Developers-Using-Vite--Ep-09/">
         <img class="d-block w-100" src="/images/toolbox/EP09-Vite.png" alt="Front End Tooling with Vite photo"
-          style="max-height: 40vh; overflow:hidden">
+          style="max-height: 60vh; overflow:hidden">
         <div class="carousel-caption">
           <div class="container">
           <h4 class="d-none d-lg-block text-white">Front End Tooling with Vite</h4>
@@ -193,7 +189,7 @@
       >
       <a href="/newsletter/2021-10-14-The-Lame-Outage/">
         <img class="d-block w-100" src="/images/newsletter/lame-outage.png" alt="The Lame Outage photo"
-          style="max-height: 40vh; overflow:hidden">
+          style="max-height: 60vh; overflow:hidden">
         <div class="carousel-caption">
           <div class="container">
           <h4 class="d-none d-lg-block text-white">The Lame Outage</h4>
@@ -207,7 +203,7 @@
       >
       <a href="/toolbox/2021-10-13-Pollen-AlpineJS--Ep-08/">
         <img class="d-block w-100" src="/images/toolbox/EP08-Pollen.png" alt="Building a Layout with Pollen CSS and Alpine photo"
-          style="max-height: 40vh; overflow:hidden">
+          style="max-height: 60vh; overflow:hidden">
         <div class="carousel-caption">
           <div class="container">
           <h4 class="d-none d-lg-block text-white">Building a Layout with Pollen CSS and Alpine</h4>
@@ -221,7 +217,7 @@
       >
       <a href="/newsletter/2021-10-07-The-Yes-More/">
         <img class="d-block w-100" src="/images/newsletter/yesmore.png" alt="The Yes More photo"
-          style="max-height: 40vh; overflow:hidden">
+          style="max-height: 60vh; overflow:hidden">
         <div class="carousel-caption">
           <div class="container">
           <h4 class="d-none d-lg-block text-white">The Yes More</h4>
@@ -237,8 +233,7 @@
   <div class="carousel-buttons"></div>
   
 </header>
-  </header>
-
+</header>
 
 <style>
 .video-list::-webkit-scrollbar {
@@ -250,195 +245,8 @@
 }
 </style>
 
-<div id="main-content" >
-
-<div class=" bg-primary vw-100 py-3">
-  <div class="video-list d-flex flex-row flex-nowrap" style="overflow-y: scroll">
-    
-    
-    <div class="ps-3">
-  <lite-youtube videoid="hiI-CTcXZZs" style="background-image: url('/images/videos/githubcopilot_tn.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">GitHub Copilot Demo and Review</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=hiI-CTcXZZs" class="lh-1 text-white text-decoration-none">GitHub Copilot Demo and Review</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="k2RnfcjDN2g" style="background-image: url('/images/videos/managingtheDOM_tn.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Managing the DOM to Automate the creation of Bootstrap 5 Indicators.</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=k2RnfcjDN2g" class="lh-1 text-white text-decoration-none">Managing the DOM to Automate the creation of Bootstrap 5 Indicators.</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="KHF6nysy0-c" style="background-image: url('https://i.ytimg.com/vi/KHF6nysy0-c/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Hacking the Bootstrap 5 Carousel: Consistent Height Carousels with CSS Gradients and Object Fit</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=KHF6nysy0-c" class="lh-1 text-white text-decoration-none">Hacking the Bootstrap 5 Carousel: Consistent Height Carousels with CSS Gradients and Object Fit</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="0-1aD5M40js" style="background-image: url('https://i.ytimg.com/vi/0-1aD5M40js/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Building Sidebar Carousels with CSS by Hacking the Bootstrap Carousel</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=0-1aD5M40js" class="lh-1 text-white text-decoration-none">Building Sidebar Carousels with CSS by Hacking the Bootstrap Carousel</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="71RrEJ00gPk" style="background-image: url('/images/videos/launch-react-graphql_tn.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Understanding how React Hooks work with GraphQL using the Github GraphQL API</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=71RrEJ00gPk" class="lh-1 text-white text-decoration-none">Understanding how React Hooks work with GraphQL using the Github GraphQL API</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="UQkhm_fQnOU" style="background-image: url('https://i.ytimg.com/vi/UQkhm_fQnOU/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Best Web Developer Tools, Extensions and Modules to Get Started on your Next Web Design Project</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=UQkhm_fQnOU" class="lh-1 text-white text-decoration-none">Best Web Developer Tools, Extensions and Modules to Get Started on your Next Web Design Project</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="KvQ4WCIXg0w" style="background-image: url('https://i.ytimg.com/vi/KvQ4WCIXg0w/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Automate Image Compression for your Websites with the latest codecs using Squoosh from Google</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=KvQ4WCIXg0w" class="lh-1 text-white text-decoration-none">Automate Image Compression for your Websites with the latest codecs using Squoosh from Google</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="CICYdO0g8Ew" style="background-image: url('https://i.ytimg.com/vi/CICYdO0g8Ew/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">CSS Tips and Tricks: Responsive content without media queries using CSS Clamp()</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=CICYdO0g8Ew" class="lh-1 text-white text-decoration-none">CSS Tips and Tricks: Responsive content without media queries using CSS Clamp()</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="Nhpyb1jx54A" style="background-image: url('https://i.ytimg.com/vi/Nhpyb1jx54A/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Bootstrap Icons - Free Icons for Web Design</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=Nhpyb1jx54A" class="lh-1 text-white text-decoration-none">Bootstrap Icons - Free Icons for Web Design</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="6ULHBv_0Y3U" style="background-image: url('https://i.ytimg.com/vi/6ULHBv_0Y3U/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Tailwind CSS vs Bootstrap-Is it time to switch?</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=6ULHBv_0Y3U" class="lh-1 text-white text-decoration-none">Tailwind CSS vs Bootstrap-Is it time to switch?</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="TLb0FyS2p2c" style="background-image: url('https://i.ytimg.com/vi/TLb0FyS2p2c/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">JavaScript ES2020 New Features-Optional Chaining</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=TLb0FyS2p2c" class="lh-1 text-white text-decoration-none">JavaScript ES2020 New Features-Optional Chaining</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="bjR4kHGsX3E" style="background-image: url('https://i.ytimg.com/vi/bjR4kHGsX3E/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">The Recap - Github Universe Edition</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=bjR4kHGsX3E" class="lh-1 text-white text-decoration-none">The Recap - Github Universe Edition</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="https://www.youtube.com/watch?v=aDDKibLYm18" style="background-image: url('https://i.ytimg.com/vi/aDDKibLYm18/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Using LinkedIn Learning courses with Github Repos</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=https://www.youtube.com/watch?v=aDDKibLYm18" class="lh-1 text-white text-decoration-none">Using LinkedIn Learning courses with Github Repos</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="l1DeaNvAOb8" style="background-image: url('https://i.ytimg.com/vi/l1DeaNvAOb8/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Notyf, A JavaScript Notification Library that&#39;s fully customizable</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=l1DeaNvAOb8" class="lh-1 text-white text-decoration-none">Notyf, A JavaScript Notification Library that&#39;s fully customizable</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="vlReYJkGNpQ" style="background-image: url('https://i.ytimg.com/vi/vlReYJkGNpQ/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">How to manage your Software Development Career Q&amp;A</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=vlReYJkGNpQ" class="lh-1 text-white text-decoration-none">How to manage your Software Development Career Q&amp;A</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="u7ta6qj_aCw" style="background-image: url('https://i.ytimg.com/vi/u7ta6qj_aCw/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Checking Out Bootstrap&#39;s NPM Starter Project</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=u7ta6qj_aCw" class="lh-1 text-white text-decoration-none">Checking Out Bootstrap&#39;s NPM Starter Project</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="fKY8S8L8d5c" style="background-image: url('https://i.ytimg.com/vi/fKY8S8L8d5c/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Bootstrap 5 Alpha 1. What&#39;s new and what to know if you&#39;re migrating.</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=fKY8S8L8d5c" class="lh-1 text-white text-decoration-none">Bootstrap 5 Alpha 1. What&#39;s new and what to know if you&#39;re migrating.</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="in9JuYB0J7Q" style="background-image: url('https://i.ytimg.com/vi/in9JuYB0J7Q/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Could this be the best new CSS Icon Library?</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=in9JuYB0J7Q" class="lh-1 text-white text-decoration-none">Could this be the best new CSS Icon Library?</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="hbZfpsdC3-Q" style="background-image: url('https://i.ytimg.com/vi/hbZfpsdC3-Q/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Tech Peeves: What makes you crazy about tech</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=hbZfpsdC3-Q" class="lh-1 text-white text-decoration-none">Tech Peeves: What makes you crazy about tech</a>
-  </div>
-</div>
-    
-    <div class="ps-3">
-  <lite-youtube videoid="Sk4dX9IuDb8" style="background-image: url('https://i.ytimg.com/vi/Sk4dX9IuDb8/hqdefault.jpg'); width:400px;">
-    <button type="button" class="lty-playbtn"><span class="lyt-visually-hidden">Let&#39;s Play with Github&#39;s CodeSpaces</span></button>
-  </lite-youtube>
-  <div style="overflow: hidden; display: -webkit-box; -webkit-line-clamp: 2; -webkit-box-orient: vertical;">
-    <a href="https://www.youtube.com/watch?v=Sk4dX9IuDb8" class="lh-1 text-white text-decoration-none">Let&#39;s Play with Github&#39;s CodeSpaces</a>
-  </div>
-</div>
-    </div>
-</div>
-
-
+<div id="main-content">
+  
 <article class="page-home site-main container"
 
 >
@@ -454,13 +262,13 @@
     
       <div class="col-md-3">
         <a href="/newsletter/2021-10-22-The-Home-Work/" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title  w-100 img-fluid rounded" src="/images/newsletter/homework_tn.jpg" alt="The Home Work image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="/images/newsletter/homework_tn.jpg" alt="The Home Work image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="/newsletter/2021-10-22-The-Home-Work/" class="item-title h2 mb-0 d-block text-decoration-none" >The Home Work</a>
+      <a href="/newsletter/2021-10-22-The-Home-Work/" class="item-title text-light h1 mb-0 d-block text-decoration-none" >The Home Work</a>
       <div class="small d-block">
         <a href="/newsletter/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -494,13 +302,13 @@
     
       <div class="col-md-3">
         <a href="/toolbox/2021-10-20-Tooling-For-Developers-Using-Vite--Ep-09/" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title  w-100 img-fluid rounded" src="/images/toolbox/EP09-Vite_tn.jpg" alt="Front End Tooling with Vite image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="/images/toolbox/EP09-Vite_tn.jpg" alt="Front End Tooling with Vite image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="/toolbox/2021-10-20-Tooling-For-Developers-Using-Vite--Ep-09/" class="item-title h2 mb-0 d-block text-decoration-none" >Front End Tooling with Vite</a>
+      <a href="/toolbox/2021-10-20-Tooling-For-Developers-Using-Vite--Ep-09/" class="item-title text-light h1 mb-0 d-block text-decoration-none" >Front End Tooling with Vite</a>
       <div class="small d-block">
         <a href="/toolbox/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -534,13 +342,13 @@
     
       <div class="col-md-3">
         <a href="/newsletter/2021-10-14-The-Lame-Outage/" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title  w-100 img-fluid rounded" src="/images/newsletter/lame-outage_tn.jpg" alt="The Lame Outage image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="/images/newsletter/lame-outage_tn.jpg" alt="The Lame Outage image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="/newsletter/2021-10-14-The-Lame-Outage/" class="item-title h2 mb-0 d-block text-decoration-none" >The Lame Outage</a>
+      <a href="/newsletter/2021-10-14-The-Lame-Outage/" class="item-title text-light h1 mb-0 d-block text-decoration-none" >The Lame Outage</a>
       <div class="small d-block">
         <a href="/newsletter/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -574,13 +382,13 @@
     
       <div class="col-md-3">
         <a href="/toolbox/2021-10-13-Pollen-AlpineJS--Ep-08/" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title  w-100 img-fluid rounded" src="/images/toolbox/EP08-Pollen_tn.jpg" alt="Building a Layout with Pollen CSS and Alpine image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="/images/toolbox/EP08-Pollen_tn.jpg" alt="Building a Layout with Pollen CSS and Alpine image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="/toolbox/2021-10-13-Pollen-AlpineJS--Ep-08/" class="item-title h2 mb-0 d-block text-decoration-none" >Building a Layout with Pollen CSS and Alpine</a>
+      <a href="/toolbox/2021-10-13-Pollen-AlpineJS--Ep-08/" class="item-title text-light h1 mb-0 d-block text-decoration-none" >Building a Layout with Pollen CSS and Alpine</a>
       <div class="small d-block">
         <a href="/toolbox/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -614,13 +422,13 @@
     
       <div class="col-md-3">
         <a href="/newsletter/2021-10-07-The-Yes-More/" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title  w-100 img-fluid rounded" src="/images/newsletter/yesmore_tn.jpg" alt="The Yes More image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="/images/newsletter/yesmore_tn.jpg" alt="The Yes More image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="/newsletter/2021-10-07-The-Yes-More/" class="item-title h2 mb-0 d-block text-decoration-none" >The Yes More</a>
+      <a href="/newsletter/2021-10-07-The-Yes-More/" class="item-title text-light h1 mb-0 d-block text-decoration-none" >The Yes More</a>
       <div class="small d-block">
         <a href="/newsletter/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -654,13 +462,13 @@
     
       <div class="col-md-3">
         <a href="/newsletter/2021-09-17-The-Broadcast-Disaster/" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title  w-100 img-fluid rounded" src="/images/newsletter/broadcast-disaster_tn.jpg" alt="The Broadcast Disaster image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="/images/newsletter/broadcast-disaster_tn.jpg" alt="The Broadcast Disaster image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="/newsletter/2021-09-17-The-Broadcast-Disaster/" class="item-title h2 mb-0 d-block text-decoration-none" >The Broadcast Disaster</a>
+      <a href="/newsletter/2021-09-17-The-Broadcast-Disaster/" class="item-title text-light h1 mb-0 d-block text-decoration-none" >The Broadcast Disaster</a>
       <div class="small d-block">
         <a href="/newsletter/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -694,13 +502,13 @@
     
       <div class="col-md-3">
         <a href="/toolbox/2021-09-15-Framework_Episode-AlpineJS--Ep-07/" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title  w-100 img-fluid rounded" src="/images/toolbox/episode07_tn.jpg" alt="What New Framework should you try next -- The Toolbox Ep 07 image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="/images/toolbox/episode07_tn.jpg" alt="What New Framework should you try next -- The Toolbox Ep 07 image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="/toolbox/2021-09-15-Framework_Episode-AlpineJS--Ep-07/" class="item-title h2 mb-0 d-block text-decoration-none" >What New Framework should you try next -- The Toolbox Ep 07</a>
+      <a href="/toolbox/2021-09-15-Framework_Episode-AlpineJS--Ep-07/" class="item-title text-light h1 mb-0 d-block text-decoration-none" >What New Framework should you try next -- The Toolbox Ep 07</a>
       <div class="small d-block">
         <a href="/toolbox/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -734,13 +542,13 @@
     
       <div class="col-md-3">
         <a href="https://www.linkedin.com/learning/bootstrap-5-transitioning-from-bootstrap-4/" class="d-block mb-1 text-decoration-none"  target="_blank">
-          <img class="item-title  w-100 img-fluid rounded" src="/images/courses/techtrends_tn.jpg" alt="Bootstrap 5: Transitioning from Bootstrap 4 image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="/images/courses/techtrends_tn.jpg" alt="Bootstrap 5: Transitioning from Bootstrap 4 image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="https://www.linkedin.com/learning/bootstrap-5-transitioning-from-bootstrap-4/" class="item-title h2 mb-0 d-block text-decoration-none" target="_blank">Bootstrap 5: Transitioning from Bootstrap 4<i class="bi bi-link-45deg ms-1"></i></a>
+      <a href="https://www.linkedin.com/learning/bootstrap-5-transitioning-from-bootstrap-4/" class="item-title text-light h1 mb-0 d-block text-decoration-none" target="_blank">Bootstrap 5: Transitioning from Bootstrap 4<i class="bi bi-link-45deg ms-1"></i></a>
       <div class="small d-block">
         <a href="/courses/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -785,13 +593,13 @@
     
       <div class="col-md-3">
         <a href="/newsletter/2021-09-09-The-speedy-slowness/" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title  w-100 img-fluid rounded" src="/images/newsletter/slowisfast_tn.jpg" alt="The Speedy Slowness image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="/images/newsletter/slowisfast_tn.jpg" alt="The Speedy Slowness image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="/newsletter/2021-09-09-The-speedy-slowness/" class="item-title h2 mb-0 d-block text-decoration-none" >The Speedy Slowness</a>
+      <a href="/newsletter/2021-09-09-The-speedy-slowness/" class="item-title text-light h1 mb-0 d-block text-decoration-none" >The Speedy Slowness</a>
       <div class="small d-block">
         <a href="/newsletter/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -825,13 +633,13 @@
     
       <div class="col-md-3">
         <a href="/toolbox/2021-09-08-coolest-boostrap-5.1-features--Ep-06/" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title  w-100 img-fluid rounded" src="/images/toolbox/episode06-bootstrap51new_tn.jpg" alt="The Coolest Bootstrap 5.1 Features -- The Toolbox Ep 06 image">
+          <img class="item-title text-light w-100 img-fluid rounded" src="/images/toolbox/episode06-bootstrap51new_tn.jpg" alt="The Coolest Bootstrap 5.1 Features -- The Toolbox Ep 06 image">
         </a>
       </div>
     
 
     <div class="col-md-9"> 
-      <a href="/toolbox/2021-09-08-coolest-boostrap-5.1-features--Ep-06/" class="item-title h2 mb-0 d-block text-decoration-none" >The Coolest Bootstrap 5.1 Features -- The Toolbox Ep 06</a>
+      <a href="/toolbox/2021-09-08-coolest-boostrap-5.1-features--Ep-06/" class="item-title text-light h1 mb-0 d-block text-decoration-none" >The Coolest Bootstrap 5.1 Features -- The Toolbox Ep 06</a>
       <div class="small d-block">
         <a href="/toolbox/0" class="text-decoration-none fw-bold text-secondary">
         
@@ -945,7 +753,8 @@
     </div>
 
       <a href="/newsletter/0" class="d-lg-block text-secondary family-sans"><i class="fas fa-newspaper"></i> All Articles</a>
-      <a href="https://www.linkedin.com/newsletters/apply-for-web-developers-6674822532509655040/" class="d-lg-block text-secondary family-sans"><i class="fab fa-linkedin"></i> Subscribe</a>
+      <a href="https://www.linkedin.com/newsletters/apply-for-web-developers-6674822532509655040/"
+        class="d-lg-block text-secondary family-sans"><i class="fab fa-linkedin"></i> Subscribe</a>
     </div>
     
     <div class="sidebar-courses">
@@ -1076,16 +885,15 @@
       </button>
     </div>
 
-      <a href="/courses/0" class="d-lg-block text-secondary family-sans"><i class="fab fa-linkedin"></i> All my courses</a>
+      <a href="/courses/0" class="d-lg-block text-secondary family-sans">
+        <i class="fab fa-linkedin"></i> All my courses</a>
     </div>
   </div>
 </div>
 </div>
 </article>
-
-
-    <footer class="site-footer bg-transparent pb-3 pb-md-5">
-      <div class="container d-flex justify-content-center"><div>
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
       <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
       <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
       </a>
@@ -1114,12 +922,11 @@
       <i class="bi bi-instagram text-secondary me-1"></i>instagram
       </a>
     </div></div>
-      <div class="text-center">
-      <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      </div>
-    </footer>
-
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
   <script>
     (function () {
       let nav = document.querySelector('.site-nav')

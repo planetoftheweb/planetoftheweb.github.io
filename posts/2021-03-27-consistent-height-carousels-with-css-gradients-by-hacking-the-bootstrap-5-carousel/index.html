@@ -19,10 +19,10 @@
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
  
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script defer src="/js/lite-yt-embed.js"></script>
     <script defer src="/js/script.js"></script>
  
@@ -40,17 +40,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
-  <body class="position-relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  bg-dark sticky-top  py-0">
-  <div class="container-fluid">
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="navbar-brand text-lowercase">
       <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
     </div>
-
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ms-auto fw-regular text-uppercase">
         
@@ -143,7 +141,6 @@
 </header>
 
 
-
  
 <article id="main-content" class="site-main container mt-3 mb-5"
 
@@ -166,7 +163,7 @@
 <h2 id="object-fit-%26-object-position-to-the-rescue">Object Fit &amp; Object Position to the rescue <a class="direct-link" href="#object-fit-%26-object-position-to-the-rescue"> </a></h2>
 <p>To fix this we can use some newer CSS properties that you may have not heard of. If you're familiar with how backgrounds work, you know that you can set the <code>background-size</code> attribute to cover and the browser will proportionally resize the background to fit the space available.</p>
 <p>You can do the same thing with a regular image using <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit">object-fit</a>. To get this to look right, you can combine it with <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/object-position">object-position</a> to center the image.</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token selector">#carouselHero .carousel-item img</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">object-fit</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">object-position</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">height</span><span class="token punctuation">:</span> 50vh<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token selector">#carouselHero .carousel-item img</span> <span class="token punctuation">{</span><br>  <span class="token property">object-fit</span><span class="token punctuation">:</span> cover<span class="token punctuation">;</span><br>  <span class="token property">object-position</span><span class="token punctuation">:</span> center<span class="token punctuation">;</span><br>  <span class="token property">height</span><span class="token punctuation">:</span> 50vh<span class="token punctuation">;</span><br>  <span class="token property">overflow</span><span class="token punctuation">:</span> hidden<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
 <p>You can also set a height with the <code>vh</code> (viewport height) measurement and add <code>overflow:hidden;</code> so any extra bit of image will get chopped off. Although <code>50vh</code> means that the image will be 50% of the viewport height in this case, you can set that to any height you want.</p>
 <p>Now the image centers and fits in the space alloted proportionately. That's what I'm talking about!</p>
 <iframe height="500" style="width: 100%;" scrolling="no" title="Carousel Height Fixed" src="https://codepen.io/planetoftheweb/embed/5289da10b0bd1875e6a9d00845b7aa58?height=265&theme-id=dark&default-tab=html,result&editable=true" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
@@ -184,7 +181,7 @@
   (<a href='https://codepen.io/planetoftheweb'>@planetoftheweb</a>) on <a href='https://codepen.io'>CodePen</a>.
 </iframe>
 <p>That's when adding a gradient can come in handy. The best way to do it is to add the gradient on top of the image, but behind the caption, so you can still select the text in the caption. To do that we can use the :before pseudo element selector. It's sort of like adding an extra element before an existing element, and then adding the gradient on that element.</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token selector">#carouselHero .carousel-item:before</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>to bottom<span class="token punctuation">,</span> transparent<span class="token punctuation">,</span> <span class="token function">rgba</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.5<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">width</span><span class="token punctuation">:</span> 100vw<span class="token punctuation">;</span></span><br><span class="highlight-line">  <span class="token property">height</span><span class="token punctuation">:</span> 100vh<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token selector">#carouselHero .carousel-item:before</span> <span class="token punctuation">{</span><br>  <span class="token property">content</span><span class="token punctuation">:</span> <span class="token string">""</span><span class="token punctuation">;</span><br>  <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token function">linear-gradient</span><span class="token punctuation">(</span>to bottom<span class="token punctuation">,</span> transparent<span class="token punctuation">,</span> <span class="token function">rgba</span><span class="token punctuation">(</span>0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0<span class="token punctuation">,</span> 0.5<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">;</span><br>  <span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span><br>  <span class="token property">position</span><span class="token punctuation">:</span> absolute<span class="token punctuation">;</span><br>  <span class="token property">top</span><span class="token punctuation">:</span> 0<span class="token punctuation">;</span><br>  <span class="token property">width</span><span class="token punctuation">:</span> 100vw<span class="token punctuation">;</span><br>  <span class="token property">height</span><span class="token punctuation">:</span> 100vh<span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
 <p>A few important things to note here. We have to include a <code>content: ''</code> property, otherwise the browser will assume this is an empty element and not display it at all.</p>
 <p>You can see that I'm setting a gradient with a direction from top to bottom and transparent to 50% black. That way I can still see the photo beneath.</p>
 <p>Set the display to block, and then include some metrics to make sure the gradient is in the right place.</p>
@@ -203,16 +200,16 @@
       <div class="">
                 <ol>
                     
-                    <li><a href="#proportionally-cropping-and-positioning-an-image">Proportionally Cropping and Positioning an Image  </a>
+                    <li><a href="#proportionally-cropping-and-positioning-an-image">Proportionally Cropping and Positioning an Image</a>
             		</li>
 
-                    <li><a href="#object-fit-%26-object-position-to-the-rescue">Object Fit & Object Position to the rescue  </a>
+                    <li><a href="#object-fit-%26-object-position-to-the-rescue">Object Fit & Object Position to the rescue</a>
             		</li>
 
-                    <li><a href="#browser-support">Browser Support  </a>
+                    <li><a href="#browser-support">Browser Support</a>
             		</li>
 
-                    <li><a href="#gradients-with-captions">Gradients with Captions  </a>
+                    <li><a href="#gradients-with-captions">Gradients with Captions</a>
             		</li>
                 </ol>
             </div>
@@ -222,8 +219,8 @@
 </main>
 </article>
 
-    <footer class="site-footer bg-transparent pb-3 pb-md-5">
-      <div class="container d-flex justify-content-center"><div>
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
       <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
       <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
       </a>
@@ -252,12 +249,11 @@
       <i class="bi bi-instagram text-secondary me-1"></i>instagram
       </a>
     </div></div>
-      <div class="text-center">
-      <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      </div>
-    </footer>
-
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
   <script>
     (function () {
       let nav = document.querySelector('.site-nav')

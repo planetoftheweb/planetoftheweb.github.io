@@ -19,10 +19,10 @@
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"> 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
  
     <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
-    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script defer src="/js/lite-yt-embed.js"></script>
     <script defer src="/js/script.js"></script>
  
@@ -40,17 +40,15 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
-  <body class="position-relative">
-    <nav class="site-nav family-sans navbar navbar-expand-md navbar-dark  bg-dark sticky-top  py-0">
-  <div class="container-fluid">
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="navbar-brand text-lowercase">
       <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
     </div>
-
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ms-auto fw-regular text-uppercase">
         
@@ -143,7 +141,6 @@
 </header>
 
 
-
  
 <article id="main-content" class="site-main container mt-3 mb-5"
 
@@ -156,31 +153,31 @@
   <div class="row">
     <main class="article-content px-3 px-sm-0 main col-lg-9">
     <p>Here's what Clamp looks like:</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token function">clamp</span><span class="token punctuation">(</span>MIN<span class="token punctuation">,</span> VAL<span class="token punctuation">,</span> MAX<span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token function">clamp</span><span class="token punctuation">(</span>MIN<span class="token punctuation">,</span> VAL<span class="token punctuation">,</span> MAX<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <h2 id="where-can-i-use-it%3F">Where can I use it? <a class="direct-link" href="#where-can-i-use-it%3F"> </a></h2>
 <p><code>length</code> <code>frequency</code> <code>angle</code> <code>time</code> <code>percentage</code> <code>number</code> <code>integer</code></p>
 <p>You can use it to limit all types of values wherever you use properties like length, frequency angles, and all of the other ones listed here. In addition to measurements like percentages you can use any of the viewport measurements like 100vw, so it's way more flexible than just a adding a hard value.</p>
 <h2 id="the-hero">The Hero <a class="direct-link" href="#the-hero"> </a></h2>
 <p>Let's say you have an hero image for your site:</p>
-<pre class="language-jsx"><code class="language-jsx"><span class="highlight-line"><span class="token operator">&lt;</span>img src<span class="token operator">=</span>img<span class="token punctuation">.</span>jpg<span class="token string">" alt="</span>some image" <span class="token operator">/</span><span class="token operator">></span></span></code></pre>
+<pre class="language-jsx"><code class="language-jsx"><span class="token operator">&lt;</span>img src<span class="token operator">=</span>img<span class="token punctuation">.</span>jpg<span class="token string">" alt="</span>some image" <span class="token operator">/</span><span class="token operator">></span></code></pre>
 <p>To make this fit the width of the display, in CSS, you might try something like this:</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token property">width</span><span class="token punctuation">:</span> 100%<span class="token punctuation">;</span></code></pre>
 <p>But sometimes you don't want the image to go the full width. You might want some constraints to that width. This is where <code>clamp()</code> can come in handy.</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token selector">img</span> <span class="token punctuation">{</span></span><br><span class="highlight-line">  <span class="token property">width</span><span class="token punctuation">:</span> <span class="token function">clamp</span><span class="token punctuation">(</span>800px<span class="token punctuation">,</span> 100%<span class="token punctuation">,</span> 1200px<span class="token punctuation">)</span><span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token punctuation">}</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token selector">img</span> <span class="token punctuation">{</span><br>  <span class="token property">width</span><span class="token punctuation">:</span> <span class="token function">clamp</span><span class="token punctuation">(</span>800px<span class="token punctuation">,</span> 100%<span class="token punctuation">,</span> 1200px<span class="token punctuation">)</span><span class="token punctuation">;</span><br><span class="token punctuation">}</span></code></pre>
 <p>This will make the image try to be 100% of the width of the container, but also no smaller than 800 pixels and no larger than 1200 pixels.</p>
 <p>Normally, I'd take care of this by creating a div that contains the image, but <code>clamp()</code> is letting me put this directly on the image, so that's less, more flexible code.</p>
 <h2 id="clamp-with-content">Clamp with content <a class="direct-link" href="#clamp-with-content"> </a></h2>
 <p>Let's see the content section of your site. That 100% width might get too big at times. Now, you can fix this with media queries, but clamp gives you a better way.</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token property">margin</span><span class="token punctuation">:</span> 0 auto<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token property">width</span><span class="token punctuation">:</span> <span class="token function">clamp</span><span class="token punctuation">(</span>800px<span class="token punctuation">,</span> 100%<span class="token punctuation">,</span> 1200px<span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token property">display</span><span class="token punctuation">:</span> block<span class="token punctuation">;</span><br><span class="token property">margin</span><span class="token punctuation">:</span> 0 auto<span class="token punctuation">;</span><br><span class="token property">width</span><span class="token punctuation">:</span> <span class="token function">clamp</span><span class="token punctuation">(</span>800px<span class="token punctuation">,</span> 100%<span class="token punctuation">,</span> 1200px<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>I'm adding a display block and the margin rule to make sure this images centers on our layout.</p>
 <p>This rule makes the hero image cover 100% of the width of the container, but also be no smaller than 800 Pixels and no bigger than 1200 pixels. Normally I take care of this type of thing by wrapping my images in a container, but this is cleaner.</p>
 <h2 id="content-images">Content Images <a class="direct-link" href="#content-images"> </a></h2>
 <p>I could definitely use something like this for images in the main content section of a site. The problem here is that responsive images get too big or two small, so a percentage never works well.</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span></span><br><span class="highlight-line"><span class="token property">width</span><span class="token punctuation">:</span> <span class="token function">clamp</span><span class="token punctuation">(</span>300px<span class="token punctuation">,</span> 50%<span class="token punctuation">,</span> 600px<span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token property">float</span><span class="token punctuation">:</span> right<span class="token punctuation">;</span><br><span class="token property">width</span><span class="token punctuation">:</span> <span class="token function">clamp</span><span class="token punctuation">(</span>300px<span class="token punctuation">,</span> 50%<span class="token punctuation">,</span> 600px<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>Now you have an image that doesn't get too big or too small.</p>
 <h2 id="what-about-fonts%3F">What about fonts? <a class="direct-link" href="#what-about-fonts%3F"> </a></h2>
 <p>You can also use this to create responsive font sizes. The typical way is to use a complex <code>calc()</code> function, but with the <code>clamp()</code> function, it's easy to establish a range of values.</p>
-<pre class="language-css"><code class="language-css"><span class="highlight-line"><span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token function">clamp</span><span class="token punctuation">(</span>2em<span class="token punctuation">,</span> 4vw<span class="token punctuation">,</span> 3.2em<span class="token punctuation">)</span><span class="token punctuation">;</span></span></code></pre>
+<pre class="language-css"><code class="language-css"><span class="token property">font-size</span><span class="token punctuation">:</span> <span class="token function">clamp</span><span class="token punctuation">(</span>2em<span class="token punctuation">,</span> 4vw<span class="token punctuation">,</span> 3.2em<span class="token punctuation">)</span><span class="token punctuation">;</span></code></pre>
 <p>I'm using viewport widths here, so that's making the font responsive to the size of the browser. Just remember that 100vw means 100% of the viewport width and that would be a HUGE font size, so a fairly small size here. To me, this type of sizing is easier to read than a complex <code>calc()</code>.</p>
 <p>It's got pretty good <a href="https://caniuse.com/?search=clamp">browser support</a>, so I think that unless you're supporting really old browsers it's something you can start using today.</p>
 
@@ -191,19 +188,19 @@
       <div class="">
                 <ol>
                     
-                    <li><a href="#where-can-i-use-it%3F">Where can I use it?  </a>
+                    <li><a href="#where-can-i-use-it%3F">Where can I use it?</a>
             		</li>
 
-                    <li><a href="#the-hero">The Hero  </a>
+                    <li><a href="#the-hero">The Hero</a>
             		</li>
 
-                    <li><a href="#clamp-with-content">Clamp with content  </a>
+                    <li><a href="#clamp-with-content">Clamp with content</a>
             		</li>
 
-                    <li><a href="#content-images">Content Images  </a>
+                    <li><a href="#content-images">Content Images</a>
             		</li>
 
-                    <li><a href="#what-about-fonts%3F">What about fonts?  </a>
+                    <li><a href="#what-about-fonts%3F">What about fonts?</a>
             		</li>
                 </ol>
             </div>
@@ -213,8 +210,8 @@
 </main>
 </article>
 
-    <footer class="site-footer bg-transparent pb-3 pb-md-5">
-      <div class="container d-flex justify-content-center"><div>
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
       <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
       <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
       </a>
@@ -243,12 +240,11 @@
       <i class="bi bi-instagram text-secondary me-1"></i>instagram
       </a>
     </div></div>
-      <div class="text-center">
-      <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
-      </div>
-    </footer>
-
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
   <script>
     (function () {
       let nav = document.querySelector('.site-nav')
