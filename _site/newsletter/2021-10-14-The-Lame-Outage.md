@@ -25,7 +25,7 @@ I’m pretty active on LinkedIn. I know I work there, but what people post there
 
 If it had a much bigger impact on you, I’d love to hear another perspective, but I feel that if a solar flare selective wiped out trendy social media, we’d all be fine…as long as it was for a few hours.
 
-## The Shorts
+# The Shorts
 
 Here’s some cool things I found on the web recently. Some of these were part of the Toolbox Episode 8 and might make it into future episodes.
 

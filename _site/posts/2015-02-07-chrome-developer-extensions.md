@@ -13,6 +13,7 @@ tags:
 ## Responsive Inspector
 
 [![Responsive Inspector](http://i.imgur.com/bw2QkXh.png)](https://chrome.google.com/webstore/detail/responsive-inspector/memcdolmmnmnleeiodllgpibdjlkbpim)
+
 Awesome for responsive design projects. This extension automatically analyzes a current website and shows you the media query breakpoints on that page in a nice visual display.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ylMHAj0OU10" frameborder="0" allowfullscreen></iframe>

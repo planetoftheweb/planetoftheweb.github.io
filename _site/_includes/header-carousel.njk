@@ -9,7 +9,7 @@
   {% if carousel.ride !== false %}data-ride="carousel"{% endif %}
   {% if carousel.pause == false %}data-pause="false"{% endif %}>
 
-  <div class="carousel-inner">
+  <div class="carousel-inner" style="border-radius:20px !important;">
     {% if carousel.indicators !== false %}
     <ol class="carousel-indicators">
       {% for item in carousel.items %}

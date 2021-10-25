@@ -6,6 +6,12 @@ const eleventyNavigationPlugin = require('@11ty/eleventy-navigation')
 const now = new Date();
 const livePosts = post => post.date <= now;
 
+const UpgradeHelper = require("@11ty/eleventy-upgrade-help");
+
+module.exports = function (eleventyConfig) {
+  eleventyConfig.addPlugin(UpgradeHelper);
+};
+
 module.exports = function (eleventyConfig) {
 
   eleventyConfig.addPlugin(pluginRss)

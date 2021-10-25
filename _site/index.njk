@@ -1,6 +1,5 @@
 ---
 layout: base.njk
-headerHeight: 40vh
 carousel:
   fade: true
 eleventyNavigation:
@@ -10,29 +9,10 @@ eleventyNavigation:
 {% set videoslist = collections.videos | head(20) %}
 {% set carouselPosts = collections.posts | head(5) %}
 
-
-{% if hero %}
-<header id="page-hero" class="site-header position-relative {% if not hero %}mt-5 pt-5{% endif %} site-header" style="width: 100vw; min-height: {{(headerHeight) if headerHeight else '50vh'}};">
-<section class="layout-hero position-absolute d-flex align-items-center" {% if hero %} style="background-image: linear-gradient(rgba(0, 0, 0, .7) 50px, transparent), url({{ hero }}); height: 100%; width: 100%; filter: blur({{(blur) if blur else '0'}});" {% endif %}></section>
-<div class="layout-hero-content position-absolute d-flex align-items-center" style="height: 100%; width: 100%;">
-  <div class="container">
-    <div class="row justify-content-center text-center">
-      <div class="header-content col-11 col-sm-10 col-md-9 animated fadeInUp">
-        <h1 class="page-section-title text-light">{{metadata.title}}</h1>
-        <p class="page-section-text text-light">
-          {{metadata.description}}
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
-</header>
-{% else %}
-  <header id="page-hero">
+<header id="page-hero" class="container bg-secondary p-0"  style="margin-top:55px; background: transparent !important;">
   {% set carouselPosts = collections.home | head(5) %}
   {% include "header-carousel-posts.njk" %}
-  </header>
-{% endif %}
+</header>
 
 <style>
 .video-list::-webkit-scrollbar {
@@ -44,18 +24,8 @@ eleventyNavigation:
 }
 </style>
 
-<div id="main-content" >
-
-<div class=" bg-primary vw-100 py-3">
-  <div class="video-list d-flex flex-row flex-nowrap" style="overflow-y: scroll">
-    {% set itemList = videoslist %}
-    {% for item in itemList %}
-    {% include "slider_videos.njk" %}
-    {% endfor -%}
-  </div>
-</div>
-
-{% set postslist = collections.home | head(10) %}
+<div id="main-content">
+  {% set postslist = collections.home | head(10) %}
 <article class="page-home site-main container"
 {% if carouselPosts==null and hero==null%}style="padding-top: 60px"{%endif%}
 >
@@ -76,17 +46,18 @@ eleventyNavigation:
       {% set itemList = collections.newsletter | head(4) %}
       {{ carousel(itemList, id = 'sidebar-newsletter') }}
       <a href="/newsletter/0" class="d-lg-block text-secondary family-sans"><i class="fas fa-newspaper"></i> All Articles</a>
-      <a href="https://www.linkedin.com/newsletters/apply-for-web-developers-6674822532509655040/" class="d-lg-block text-secondary family-sans"><i class="fab fa-linkedin"></i> Subscribe</a>
+      <a href="https://www.linkedin.com/newsletters/apply-for-web-developers-6674822532509655040/"
+        class="d-lg-block text-secondary family-sans"><i class="fab fa-linkedin"></i> Subscribe</a>
     </div>
     
     <div class="sidebar-courses">
       <h6 class="text-secondary mt-3 px-3 px-sm-0">Latest Courses</h6>
       {% set itemList = collections.courses | head(8) %}
       {{ carousel(itemList, id = 'sidebar-courses') }}
-      <a href="/courses/0" class="d-lg-block text-secondary family-sans"><i class="fab fa-linkedin"></i> All my courses</a>
+      <a href="/courses/0" class="d-lg-block text-secondary family-sans">
+        <i class="fab fa-linkedin"></i> All my courses</a>
     </div>
   </div>
 </div>
 </div>
 </article>
-

@@ -5,6 +5,10 @@
   background: $brighter-beige;
 }
 
+a {
+  color: $yellow;
+}
+
 a:hover {
   color: $dark-red;
 }
@@ -51,7 +55,7 @@ h1,
 
 h2,
 .h2 {
-  color: $primary;
+  color: $light;
   @include font-size(2rem);
   font-weight: 700;
 }
@@ -90,14 +94,6 @@ h3,
 
 .layout-social {
   @include font-size(2rem);
-}
-
-a.text-primary:hover {
-  color: #3b556b;
-}
-
-.list-group-item:hover {
-  background: #3b556b;
 }
 
 .site-nav input {
@@ -145,12 +141,9 @@ a.text-primary:hover {
 
   @include font-size(0.9em);
   padding: 15px 1em 5px 1em;
-  background: $dark-blue;
   border-radius: 10px;
-  color: $light-beige;
 
   a.h4 {
-    color: $yellow-100;
     font-size: 1.5em;
   }
 
@@ -257,7 +250,7 @@ time {
   }
 
   .article-content a {
-    color: $primary;
+    color: $yellow;
     text-decoration: underline;
   }
 
@@ -295,8 +288,6 @@ time {
 }
 
 #layout-carousel {
-  width: 100vw;
-
   .carousel-item img {
     object-fit: cover;
     object-position: center center;

@@ -1,13 +1,11 @@
-<nav class="site-nav family-sans navbar navbar-expand-md navbar-dark {% if sidebar %} sidebar sticky-top {% elif video %} bg-dark sticky-top {% else %} fixed-top {% endif %} py-0">
-  <div class="container-fluid">
+<nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark {% if sidebar %} sidebar sticky-top {% elif video %} sticky-top {% else %} fixed-top {% endif %} py-0">
+  <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-
     <div class="navbar-brand text-lowercase">
       <a class="text-white text-decoration-none" href="{{ '/' | url }}"><i class="icon icon-pow"></i>{{ metadata.title }}</a> {% if navtitle %} <span class="d-none d-lg-inline">|</span> <span class="small text-light text-uppercase d-none d-lg-inline align-text-middle">{{ navtitle }}</span>{% endif %}
     </div>
-
     <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
       <div class="navbar-nav ms-auto fw-regular text-uppercase">
         {# These next two links are hidden are allow scrollspy to detect the current page #}

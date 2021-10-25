@@ -1,5 +1,60 @@
 {
   "$schema": "https://frontmatter.codes/frontmatter.schema.json",
+  "frontMatter.taxonomy.contentTypes": [
+    {
+      "name": "default",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "Title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "Summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "Article preview",
+          "name": "thumb",
+          "type": "image",
+          "isPreviewImage": true
+        },
+        {
+          "title": "Hero Image",
+          "name": "hero",
+          "type": "image"
+        },
+        {
+          "title": "Is in draft",
+          "name": "draft",
+          "type": "boolean"
+        },
+        {
+          "title": "Tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "Category",
+          "name": "category",
+          "type": "string"
+        },
+        {
+          "title": "Links",
+          "name": "links",
+          "type": "choice",
+          "choices": [
+            "",
+            "website",
+            "lil",
+            "github"
+          ]
+        }
+      ]
+    }
+  ],
   "frontMatter.content.pageFolders": [
     {
       "title": "_site",
