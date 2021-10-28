@@ -6,10 +6,10 @@
   "url": "/newsletter/2021-10-28-TheThereYet/",
   "tags" : ""
 },{
-  "title": "Github Universe 2021",
+  "title": "Github Universe/TailwindCSS 3",
   "date" : "Oct 27, 2021",
   "summary" : "In this special GitHub Late edition of the Toolbox, I&#39;ll talk about my favorite Universe announcements, then, I&#39;ll share a new exciting Tailwind CSS 3.0 Alpha feature and one more tip in searching through your terminal history. It&#39;s Wednesday, October 27 and this is episode 10. Let&#39;s get started.",
-  "thumbnail": "/images/toolbox/EP09-Vite_tn.jpg",
+  "thumbnail": "/images/toolbox/toolbox-ep10_tn.jpg",
   "url": "/toolbox/2021-10-27-Github-Unverse-2021-Edition-Toolbox--Ep10/",
   "tags" : ""
 },{
