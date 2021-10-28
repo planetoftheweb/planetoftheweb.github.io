@@ -6,6 +6,13 @@
   "url": "/posts/Untitled/",
   "tags" : ""
 },{
+  "title": "The There Yet",
+  "date" : "Oct 28, 2021",
+  "summary" : "In this edition, I reminisce about the time I ran into someone that looked just like my friend Morten...but with a Mohak, then ran into Morten. Plus what&#39;s new in the GitHub Universe conference, the Tailwind CSS 3.0 Alpha and a brand new episode of the Toolbox.",
+  "thumbnail": "/images/newsletter/thereyet_tn.jpg",
+  "url": "/newsletter/2021-10-28-TheThereYet/",
+  "tags" : ""
+},{
   "title": "Github Universe 2021",
   "date" : "Oct 27, 2021",
   "summary" : "In this special GitHub Late edition of the Toolbox, I&#39;ll talk about my favorite Universe announcements, then, I&#39;ll share a new exciting Tailwind CSS 3.0 Alpha feature and one more tip in searching through your terminal history. It&#39;s Wednesday, October 27 and this is episode 10. Let&#39;s get started.",
