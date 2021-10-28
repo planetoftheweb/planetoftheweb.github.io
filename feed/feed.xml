@@ -4,20 +4,12 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2021-10-28T09:56:42Z</updated>
+	<updated>2021-06-03T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
-	
-	<entry>
-		<title></title>
-		<link href="/posts/Untitled/"/>
-		<updated>2021-10-28T09:56:42Z</updated>
-		<id>/posts/Untitled/</id>
-		<content type="html"></content>
-	</entry>
 	
 	<entry>
 		<title>GitHub Copilot Demo and Review</title>
