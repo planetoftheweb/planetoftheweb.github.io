@@ -3,7 +3,7 @@
   "date" : "Nov 12, 2021",
   "summary" : "I decide to take a break and go somewhere in my RV with the worst possible internet connection. Plus, how to be a tech teacher, YouTube makes moves, the gig economy and the end of coding as we know it.",
   "thumbnail": "/images/newsletter/theroadagain_tn.jpg",
-  "url": "/newsletter/the-road-again/",
+  "url": "/newsletter/2021-11-12-the-road-again/",
   "tags" : ""
 },{
   "title": "The End of Coding as we know it.",
