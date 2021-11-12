@@ -12,7 +12,7 @@ Let's get started with a couple of shorts. There are new tools and articles that
 
 ## Hydrogen E-commerce Framework
 
-[![Hydrogen E-commerce Framework](../images/shorts/2021-11-10_00-17-02.png)](https://shopify.dev/api/hydrogen)
+[![Hydrogen E-commerce Framework](/images/shorts/2021-11-10_00-17-02.png)](https://shopify.dev/api/hydrogen)
 
 First is Hydrogen, a new framework from Shopify. I really didn't want to like this, but there it is, pretty much everything I want to use packaged into a nice framework that's just like every full stack developer bingo favorites.
 
@@ -25,7 +25,7 @@ Now, all I need is some products to sell besides my [t-shirt](https://cottonbure
 
 ## Microsoft Loop
 
-[![Github Issues](../images/shorts/2021-11-10_00-36-17.png)](https://www.microsoft.com/en-us/microsoft-loop)
+[![Github Issues](/images/shorts/2021-11-10_00-36-17.png)](https://www.microsoft.com/en-us/microsoft-loop)
 
 Before I mention this next thing, I have to tell you that I'm a Microsoft employee, but I'm always on a constant quest for productivity tools. In the last Ignite conference, Microsoft made a pretty cool announcement introducing something called [Loop](https://www.microsoft.com/en-us/microsoft-loop). 
 
@@ -33,7 +33,7 @@ Loop is a pretty similar to another tool called [Notion](https://www.notion.so/)
 
 What Notion/Loop do that's better is one of those things that is hard to put into words. Part of it is that it's a place to publish content within your company where it's available to others within the organization.
 
-![Notion Documents](../images/shorts/2021-11-10_01-15-02.png)
+![Notion Documents](/images/shorts/2021-11-10_01-15-02.png)
 
 Notion lets you save the usual notes and you can use templates to create content with a previously defined structure, but it also lets you create Kanban Boards (which developers love for getting things done), simpler to-do list type documents, calendar items, galleries and timelines for project management.
 

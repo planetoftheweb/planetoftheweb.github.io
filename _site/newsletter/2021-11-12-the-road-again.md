@@ -14,7 +14,7 @@ So far, the internet connection on these trips have gone from bad to worse at ev
 
 <div class="article-side-image">
 
-![Mojo](../images/newsletter/mojo-sleep.jpg)
+![Mojo](/images/newsletter/mojo-sleep.jpg)
 
 </div>
 
@@ -28,7 +28,7 @@ By the way, my ex-boss and friend asked me to tell you that we're always looking
 
 <div class="article-side-image">
 
-![Mojo](../images/newsletter/learning.png)
+![Mojo](/images/newsletter/learning.png)
 
 </div>
 
@@ -62,7 +62,7 @@ They hope to have this ready for Christmas, but whatever the do, it better be qu
 
 A couple of other things I posted about you might have missed. Microsoft announced an update to excel with [additional javscript API features](https://www.linkedin.com/posts/planetoftheweb_microsoft-brings-javascript-to-excel-activity-6863688367545102336-7iCT),  Edge is now [available in Linux](https://www.linkedin.com/posts/planetoftheweb_microsofts-edge-browser-is-now-available-activity-6861740011126079489-rGL0)…I'm hoping it fits in a raspberry pi. That would be epic. Also, I did a post on whether developers would go back if their office was a [Trophy Office](https://www.linkedin.com/posts/planetoftheweb_webdeveloper-webdesigner-homeoffice-activity-6861731271077351424-BBqZ).
 
-![Jedi Council](../images/newsletter/jedi-council.png)
+![Jedi Council](/images/newsletter/jedi-council.png)
 
 Of course you heard [Facebook's announcement on Meta](https://www.linkedin.com/posts/planetoftheweb_facialrecognition-metafacebook-facebook-activity-6861443774439055360-9jWZ). I'm wondering what you think. Me, I feel like this has been done before with Second Life, but the AR possibilities are interesting. I think the real hook might be to create virtual work environments on the fly that allow you to 
 
@@ -75,11 +75,8 @@ Plugging along, my friend and fellow author Garrick Chow created a short video w
 He's doing it as an experiment and documenting it online in a [new page](https://www.linkedin.com/company/staffinstructors/) that the creative team is putting together, so check it out and follow it.  Who knows, I might do a cameo in there if the topic works for something I'm doing.
 
 # The Toolbox
-<div class="ratio ratio-16x9">
 
-<iframe src="https://www.linkedin.com/video/embed/live/urn:li:ugcPost:6863638563100123136" height="600" width="900" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
-
-	</div>
+<iframe class="ratio ratio-16x9" src="https://www.linkedin.com/video/embed/live/urn:li:ugcPost:6863638563100123136" height="600" width="900" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 	
 I'm back on my regular schedule with The Toolbox. This week, I talk about a new framework from the makers of Shopify called [Hydrogen](https://shopify.dev/custom-storefronts/hydrogen). If were to throw almost every library and framework I'm excited about using, that's what they've done with Hydrogen. Super exciting Stuff.
 
