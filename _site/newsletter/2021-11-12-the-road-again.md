@@ -58,13 +58,17 @@ Another interesting bit of news from YouTube was the fact that they are planning
 
 They hope to have this ready for Christmas, but whatever the do, it better be quick with all the shipping and supply side problem we're having here on the US. That's going to be huge for creators. I already buy tons of stuff after watching YouTube videos, so if they figure out the right way to monetize this, they'll be rolling in cash.
 
-## Other Posts
-
-A couple of other things I posted about you might have missed. Microsoft announced an update to excel with [additional javscript API features](https://www.linkedin.com/posts/planetoftheweb_microsoft-brings-javascript-to-excel-activity-6863688367545102336-7iCT),  Edge is now [available in Linux](https://www.linkedin.com/posts/planetoftheweb_microsofts-edge-browser-is-now-available-activity-6861740011126079489-rGL0)…I'm hoping it fits in a raspberry pi. That would be epic. Also, I did a post on whether developers would go back if their office was a [Trophy Office](https://www.linkedin.com/posts/planetoftheweb_webdeveloper-webdesigner-homeoffice-activity-6861731271077351424-BBqZ).
+## Meta's Virtual World
 
 ![Jedi Council](/images/newsletter/jedi-council.png)
 
-Of course you heard [Facebook's announcement on Meta](https://www.linkedin.com/posts/planetoftheweb_facialrecognition-metafacebook-facebook-activity-6861443774439055360-9jWZ). I'm wondering what you think. Me, I feel like this has been done before with Second Life, but the AR possibilities are interesting. I think the real hook might be to create virtual work environments on the fly that allow you to 
+Of course you heard [Facebook's announcement on Meta](https://www.linkedin.com/posts/planetoftheweb_facialrecognition-metafacebook-facebook-activity-6861443774439055360-9jWZ). I'm wondering what you think. Me, I feel like this has been done before with Second Life, but the AR possibilities are interesting.
+
+I think the real hook might be to create virtual work environments on the fly that allow you to attend meetings with others a-la-Jedi-Council, use an infinite amount of virtual monitors that take up no space (in my RV once the connection things are fixed). People might truly be able to work from anywhere.
+
+## Other Posts
+
+A couple of other things I posted about you might have missed. Microsoft announced an update to excel with [additional javscript API features](https://www.linkedin.com/posts/planetoftheweb_microsoft-brings-javascript-to-excel-activity-6863688367545102336-7iCT),  Edge is now [available in Linux](https://www.linkedin.com/posts/planetoftheweb_microsofts-edge-browser-is-now-available-activity-6861740011126079489-rGL0)…I'm hoping it fits in a raspberry pi. That would be epic. Also, I did a post on whether developers would go back if their office was a [Trophy Office](https://www.linkedin.com/posts/planetoftheweb_webdeveloper-webdesigner-homeoffice-activity-6861731271077351424-BBqZ).
 
 ## The Gig Economy
 
