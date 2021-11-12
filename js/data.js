@@ -1,4 +1,25 @@
 [{
+  "title": "The Road Again",
+  "date" : "Nov 12, 2021",
+  "summary" : "I decide to take a break and go somewhere in my RV with the worst possible internet connection. Plus, how to be a tech teacher, YouTube makes moves, the gig economy and the end of coding as we know it.",
+  "thumbnail": "/images/newsletter/theroadagain_tn.jpg",
+  "url": "/newsletter/the-road-again/",
+  "tags" : ""
+},{
+  "title": "The End of Coding as we know it.",
+  "date" : "Nov 10, 2021",
+  "summary" : "In this episode of the Toolbox, I&#39;m going to talk about my recent experience creating a new course using online tools and why I think that&#39;s the future of coding...Dear friends, it&#39;s the end of coding as we know it.",
+  "thumbnail": "/images/toolbox/desktopcoding_tn.jpg",
+  "url": "/toolbox/2021-11-10-The-End-Of-Coding--Ep11/",
+  "tags" : ""
+},{
+  "title": "Hydrogen E-commerce Framework",
+  "date" : "Nov 10, 2021",
+  "summary" : "Who thinks you need to learn a new framework? Well, evidently shopify has something special just for you. Honestly, I hate learning new frameworks either, specially when as advertised it&#39;s an opinionated framework. That&#39;s usually the death knell to any product...except when I live all the decisions they make.",
+  "thumbnail": "/images/shorts/2021-11-10_00-17-02.png",
+  "url": "https://shopify.dev/api/hydrogen",
+  "tags" : "external"
+},{
   "title": "The There Yet",
   "date" : "Oct 28, 2021",
   "summary" : "In this edition, I reminisce about the time I ran into someone that looked just like my friend Morten...but with a Mohak, then ran into Morten. Plus what&#39;s new in the GitHub Universe conference, the Tailwind CSS 3.0 Alpha and a brand new episode of the Toolbox.",
