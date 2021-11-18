@@ -61,5 +61,6 @@
       "path": "[[workspace]]/_site"
     }
   ],
-  "frontMatter.dashboard.openOnStart": true
+  "frontMatter.dashboard.openOnStart": true,
+  "frontMatter.content.fmHighlight": true
 }
