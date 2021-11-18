@@ -1,0 +1,396 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <meta name="description" content="In this episode of the toolbox, ...so let's get started" />
+    <meta property="og:title" content="TITLE" />
+    <meta property="og:description" content="In this episode of the toolbox, ...so let's get started" />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/IMG.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2021-11-24-WindiCSS-Review-and-demo-Ep13/">
+    <meta name="twitter:title" content="TITLE">
+    <meta name="twitter:description" content="In this episode of the toolbox, ...so let's get started">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/IMG.jpg">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
+ 
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="bi bi-house-door-fill"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/toolbox/0/">toolbox</a>
+            
+            <a class="nav-item nav-link" href="/shorts/0/">shorts</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                  <i class="bi bi-linkedin text-secondary me-1"></i> linkedin
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                  <i class="bi bi-github text-secondary me-1"></i> github
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                  <i class="bi bi-suit-club text-secondary me-1"></i> clubhouse
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                  <i class="bi bi-twitter text-secondary me-1"></i> twitter
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                  <i class="bi bi-image text-secondary me-1"></i> flickr
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                  <i class="bi bi-youtube text-secondary me-1"></i> youtube
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                  <i class="bi bi-instagram text-secondary me-1"></i> instagram
+              </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="site-header ratio ratio-16x9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEOID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+<h1>TITLE</h1>
+<p class="lead">In this episode of the toolbox, ...so let&#39;s get started</p>
+
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern time 10am Pacific. So follow me and subscribe on all the social media things for more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.</p>
+<hr>
+<h1 id="shorts">Shorts <a class="direct-link" href="#shorts"> </a></h1>
+<p>Let's get started with some shorts. There are new tools and articles that you should know about.</p>
+<h2 id="minimason.js">MiniMason.js <a class="direct-link" href="#minimason.js"> </a></h2>
+<p>A lightweight dependency Free library for building masonry layouts. <a href="https://spope.github.io/MiniMasonry.js/">https://spope.github.io/MiniMasonry.js/</a></p>
+<h2 id="simple.css">Simple.css <a class="direct-link" href="#simple.css"> </a></h2>
+<ul>
+<li><a href="https://simplecss.org/">Simple CSS</a></li>
+<li>spin something up very quick</li>
+<li>A good looking <code>sans-serif</code> local font stack.</li>
+<li>Typographic best practices.</li>
+<li>Automagic flipping to dark mode.</li>
+<li>Fully responsive.</li>
+<li>Sensible defaults that format standard HTML elements.</li>
+<li>Super lightweight; <strong>less than 4 KB in size</strong>.</li>
+</ul>
+<hr>
+<h2 id="rust">Rust <a class="direct-link" href="#rust"> </a></h2>
+<ul>
+<li><a href="https://www.rust-lang.org/">Rust</a></li>
+</ul>
+<p>Deno<br>
+esbuild<br>
+Rome</p>
+<p>most loved programming language <a href="https://insights.stackoverflow.com/survey/2016#technology-most-loved-dreaded-and-wanted">six</a></p>
+<p>used at <a href="https://engineering.fb.com/2021/04/29/developer-tools/rust/">Facebook</a>, <a href="https://twitter.com/oskargroth/status/1301502690409709568">Apple</a>, <a href="https://aws.amazon.com/blogs/opensource/why-aws-loves-rust-and-how-wed-like-to-help/">Amazon</a>, <a href="https://twitter.com/ryan_levick/status/1171830191804551168">Microsoft</a>, and <a href="https://security.googleblog.com/2021/04/rust-in-android-platform.html">Google</a></p>
+<p><a href="https://stork-search.net/">https://stork-search.net/</a></p>
+<h2 id="iles">Iles <a class="direct-link" href="#iles"> </a></h2>
+<ul>
+<li>[Iles](<a href="https://iles-docs.netlify.app/guide/introduction">https://iles-docs.netlify.app/guide/introduction</a></li>
+</ul>
+<p>From this article (<a href="https://css-tricks.com/does-the-next-generation-of-static-site-generators-make-building-sites-better/">https://css-tricks.com/does-the-next-generation-of-static-site-generators-make-building-sites-better/</a>)</p>
+<ul>
+<li>Ship zero JavaScript by default. Interactive bits are opt-in — that’s what the islands metaphor is all about. Astro and îles do it at the per-component level and <a href="https://kit.svelte.dev/">SvelteKit</a> prefers it at the <a href="https://kit.svelte.dev/docs#ssr-and-javascript-prerender">page level</a>.</li>
+<li>Additional fanciness around controls for when hydration happens, like “when the browser is idle,” or “when the component is visible.”</li>
+<li>Use a fast build tool, like <a href="https://vitejs.dev/">Vite</a> which is Go-based <a href="https://esbuild.github.io/">esbuild</a> under the hood. Or Rust-based <a href="https://swc.rs/">swc</a> in the case of <a href="https://nextjs.org/blog/next-12">Next 12</a>.</li>
+<li>Support multiple JavaScript frameworks for componentry. Astro and îles do this out of the box, and another example is how <a href="https://slinkity.dev/">Slinkity</a> brings that to <a href="https://www.11ty.dev/">Eleventy</a>.</li>
+<li>File-system based routing.</li>
+<li>Assumption that Markdown is used for content.</li>
+</ul>
+<h1 id="main-event">Main Event <a class="direct-link" href="#main-event"> </a></h1>
+<h2 id="windicss">WindiCSS <a class="direct-link" href="#windicss"> </a></h2>
+<p><a href="https://windicss.org/">https://windicss.org/</a></p>
+<ul>
+<li>on-demand alternative</li>
+<li>faster load times</li>
+<li>Full compatibility with Tailwind v2.0</li>
+<li>Zero dependencies: does not rely on PostCSS and Autoprefixer</li>
+<li>JIT default</li>
+<li>Vite</li>
+</ul>
+<h3 id="additional-cool-features">Additional cool features <a class="direct-link" href="#additional-cool-features"> </a></h3>
+<ul>
+<li>Variant Groups<a href="https://windicss.org/features/#variant-groups">#</a></li>
+</ul>
+<p>Apply utilities to the same variant by grouping them with parentheses.</p>
+<pre><code>&lt;div class=&quot;bg-white dark:hover:(bg-gray-800 font-medium text-white)&quot;/&gt;
+</code></pre>
+<p>Extended responsive breakpoint control.</p>
+<pre><code>&lt;div class=&quot;p-1 md:p-2 &lt;lg:p-3&quot;&gt;&lt;/div&gt;
+</code></pre>
+<ul>
+<li>Important Prefix<a href="https://windicss.org/features/#important-prefix">#</a></li>
+</ul>
+<p>Prefix any utility classes with <code>!</code> to set them as <code>!important</code>.</p>
+<pre><code>&lt;div class=&quot;text-red-400 !text-green-300&quot;&gt;Green&lt;/div&gt;
+</code></pre>
+<ul>
+<li>Reusable components</li>
+</ul>
+<p>Quickly combine utilities to create reusable components.</p>
+<p>windi.config.js</p>
+<pre><code>export default {
+  theme: {
+    /* ... */
+  },
+  shortcuts: {
+    'btn': 'py-2 px-4 font-semibold rounded-lg shadow-md',
+    'btn-green': 'text-white bg-green-500 hover:bg-green-700',
+  },
+}
+</code></pre>
+<pre><code>&lt;div class=&quot;btn hover:btn-green&quot;&gt;&lt;/div&gt;
+</code></pre>
+<ul>
+<li>Dark Mode<a href="https://windicss.org/features/#dark-mode">#</a></li>
+</ul>
+<pre><code>&lt;div class=&quot;text-black dark:text-white&quot;&gt;&lt;/div&gt;
+</code></pre>
+<p><a href="https://windicss.org/features/dark-mode">Learn more</a></p>
+<ul>
+<li>RTL<a href="https://windicss.org/features/#rtl">#</a></li>
+</ul>
+<pre><code>&lt;div class=&quot;text-green-400 rtl:(text-red-400 text-right)&quot;&gt;&lt;/div&gt;
+</code></pre>
+<p><a href="https://windicss.org/features/rtl">Learn more</a></p>
+<ul>
+<li>Directives<a href="https://windicss.org/features/#directives">#</a></li>
+</ul>
+<p>Tailwind-like <code>@apply</code>, <code>@screen</code> directives are fully supported.</p>
+<pre><code>.btn {
+  @apply font-bold py-2 px-4 rounded;
+}
+.btn-blue {
+  @apply bg-blue-500 hover:bg-blue-700 text-white;
+  padding-top: 1rem;
+}
+</code></pre>
+<ul>
+<li>Visual Analyzer<a href="https://windicss.org/features/analyzer.html#visual-analyzer">#</a></li>
+</ul>
+<p><a href="https://github.com/windicss/windicss-analysis"><img src="https://img.shields.io/badge/a-windicss--analysis-gray?logo=github&amp;label=" alt=""></a><a href="https://www.npmjs.com/package/windicss-analysis"><img src="https://img.shields.io/npm/v/windicss-analysis?color=cb0200&amp;label=%20&amp;logo=npm" alt=""></a><a href="https://github.com/antfu"><img src="https://img.shields.io/badge/a-%40antfu-48B0F1?label=" alt=""></a></p>
+<p>A visual analyser tool for <a href="https://github.com/windicss/windicss">Windi CSS</a>. Browse your utility usages, get an overview of your design system, identify &quot;bad practices&quot;, and more!</p>
+<hr>
+<hr>
+<h1 id="outro">Outro <a class="direct-link" href="#outro"> </a></h1>
+<p>Next week, I'm</p>
+<p>Alright, thanks for watching. Don't forget to follow me on LinkedIn, YouTube or your favorite Social Media platforms @planetoftheweb.</p>
+<p>You can catch old episodes of the toolbox at <a href="http://raybo.org">raybo.org</a>. I'll see you next week for some more front end and full stack tooling</p>
+<hr>
+<h2 id=""> <a class="direct-link" href="#"> </a></h2>
+<p><a href="URL"><img src="IMG" alt="TITLE"></a></p>
+<p>DESCRIPTION</p>
+<hr>
+<h1 id="title">TITLE <a class="direct-link" href="#title"> </a></h1>
+<p>DESCRIPTION</p>
+<p><lite-youtube videoid="6YJfZE8UUXg"></lite-youtube></p>
+<div class="article-side-image">
+</div>
+<h3 id="urls">URLs <a class="direct-link" href="#urls"> </a></h3>
+<ul>
+<li><strong><a href="LINK">TITLE</a></strong>: TYPEDLINK</li>
+<li><strong><a href="LINK">TITLE</a></strong>: TYPEDLINK</li>
+<li><strong><a href="LINK">TITLE</a></strong>: TYPEDLINK</li>
+</ul>
+<hr>
+<h1 id="postfix">PostFix <a class="direct-link" href="#postfix"> </a></h1>
+<h2 id="next-episode">Next Episode <a class="direct-link" href="#next-episode"> </a></h2>
+<p><a href="LINK"><img src="TITLE" alt="IMG_URL"></a></p>
+<p>DESCRIPTION</p>
+<hr>
+<h2 id="newsletter">Newsletter <a class="direct-link" href="#newsletter"> </a></h2>
+<p><a href="LINK"><img src="TITLE" alt="IMG_URL"></a></p>
+<ul>
+<li><strong>Subscribe</strong>: <a href="%5Bhttps://go.raybo.org/5Tbq%5D(https://go.raybo.org/5Tbq)">Apply Newsletter</a></li>
+</ul>
+<p>DESCRIPTION</p>
+
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#minimason.js">MiniMason.js</a>
+            		</li>
+
+                    <li><a href="#simple.css">Simple.css</a>
+            		</li>
+
+                    <li><a href="#rust">Rust</a>
+            		</li>
+
+                    <li><a href="#iles">Iles</a>
+            		</li>
+
+                    <li><a href="#windicss">WindiCSS</a>
+            		</li>
+
+
+                    <li><a href="#next-episode">Next Episode</a>
+            		</li>
+
+                    <li><a href="#newsletter">Newsletter</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
+</article>
+
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
+      <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://github.com/planetoftheweb">
+      <i class="bi bi-github text-secondary me-1"></i>github
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.joinclubhouse.com/planetoftheweb">
+      <i class="bi bi-suit-club text-secondary me-1"></i>clubhouse
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://twitter.com/planetoftheweb">
+      <i class="bi bi-twitter text-secondary me-1"></i>twitter
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="bi bi-image text-secondary me-1"></i>flickr
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="bi bi-youtube text-secondary me-1"></i>youtube
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.instagram.com/planetoftheweb">
+      <i class="bi bi-instagram text-secondary me-1"></i>instagram
+      </a>
+    </div></div>
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      let nav = document.querySelector('.site-nav')
+      let mainContent = document.querySelector('#main-content')
+      let navHeight = nav.scrollHeight
+
+      function moveHeader() {
+        let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+        mainOnTop < 0
+          ? nav.classList.add('in-body')
+          : nav.classList.remove('in-body')
+
+        window.requestAnimationFrame(moveHeader)
+      }
+      window.requestAnimationFrame(moveHeader)
+    })();
+  </script>
+  <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"lang":"en","siteId":2197414,"cookiePolicyId":85544448, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html>

@@ -1,4 +1,11 @@
 [{
+  "title": "Carousels, Multi Repo CLI and Coding Fonts - Episode 12",
+  "date" : "Nov 17, 2021",
+  "summary" : "In this episode of the toolbox, I&#39;m going to try out one of the most feature-full carousel frameworks out there called SplideJS, plus in the shorts, I talk about the State of the Octoverse, why the creator of Svelte, just got hired by Vercel...Plus, we&#39;re looking for teachers at LinkedIn Learning. It&#39;s Wednesday November 17 and this is Episode 12...so let&#39;s get started",
+  "thumbnail": "/images/toolbox/episode12_tn.jpg",
+  "url": "/toolbox/2021-11-17-Carousels,-Multi-Repo-CLI-and-Coding-Fonts-Ep12/",
+  "tags" : ""
+},{
   "title": "The Road Again",
   "date" : "Nov 12, 2021",
   "summary" : "I decide to take a break and go somewhere in my RV with the worst possible internet connection. Plus, how to be a tech teacher, YouTube makes moves, the gig economy and the end of coding as we know it.",
