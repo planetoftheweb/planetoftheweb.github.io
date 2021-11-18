@@ -28,7 +28,7 @@ This week I'm doing something slightly different with the shorts, I'm covering s
 
 ## State of the Octoverse
 
-[![/images/toolbox/2021-11-18_01-32-59.png](Octoverse)](https://octoverse.github.com)
+[![Octoverse](/images/toolbox/2021-11-18_01-32-59.png)](https://octoverse.github.com)
 
 This report usually comes out during GitHub Universe. This year, however, it's out as a long website instead. It shows you the growth and changes within the GitHub platform.
 
@@ -38,17 +38,15 @@ This year, the report includes interesting insights, including the result of the
 
 ## The Creator of Svelte joins Vercel
 
-[![/images/toolbox/2021-11-18_01-52-20.png](Rich Harris joins Vercel)](https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte)
+[![Rich Harris joins Vercel](/images/toolbox/2021-11-18_01-52-20.png)](https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte)
 
 Creator or Svelte, Hired by Vercel full time to work on Svelte. A lot of open source projects suffer from the lack of financial support from the community. This is a huge investment from Vercel and it's interesting because it means that they are not just supporting the project, but perhaps gaining a valuable tool to integrate into their platform.
-
-https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte
 
 ---
 
 ## Coding Font
 
-[![/images/toolbox/2021-11-18_01-54-14.png](Coding Font)](https://www.codingfont.com/)
+[![Coding Font](/images/toolbox/2021-11-18_01-54-14.png)](https://www.codingfont.com/)
 
 A new game to help you choose your coding font. It puts a series of fonts side by side and helps you pick between them.
 
@@ -56,7 +54,7 @@ A new game to help you choose your coding font. It puts a series of fonts side b
 
 ## Mani CLI
 
-[![/images/toolbox/2021-11-18_02-34-53.png](Mani)](https://manicli.com)
+[![Mani](/images/toolbox/2021-11-18_02-34-53.png)](https://manicli.com)
 
 `mani` is a CLI tool that helps you manage multiple repositories. It's useful when you are working with micro-services, multi-project systems, many libraries or just a bunch of repositories and want a central place for pulling all repositories and running commands over them.
 
@@ -71,7 +69,7 @@ A new game to help you choose your coding font. It puts a series of fonts side b
 
 ## Looking for Teachers
 
-[![/images/toolbox/2021-11-18_02-49-33.png](Looking for Teachers)](https://learning.linkedin.com/en-us/instructors)
+[![Looking for Teachers](/images/toolbox/2021-11-18_02-49-33.png)](https://learning.linkedin.com/en-us/instructors)
 
 We're always looking for great new technology teachers. If you want to make some extra cash and love programming/helping others. It's a fantastic gig.
 
@@ -87,7 +85,7 @@ If you're interested in that type of thing, just [DM me on LinkedIn](https://www
 
 ## SplideJS
 
-[![/images/toolbox/2021-11-18_02-50-25.png](SplideJS)](https://splidejs.com/)
+[![SplideJS](/images/toolbox/2021-11-18_02-50-25.png)](https://splidejs.com/)
 
 Sometimes, you spend so much time creating your own things, that it becomes counter productive. Trust me, I spend a lot of time obsessing over the smallest little projects.
 
