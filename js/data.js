@@ -1,4 +1,11 @@
 [{
+  "title": "The Nuclear Fusion",
+  "date" : "Nov 19, 2021",
+  "summary" : "What does Nuclear Fusion have to do with JavaScript, the big Meta and recording live action videos? I&#39;m not sure, but I think I figured something out this week as I worked through all the changes around me. I don&#39;t think I&#39;m going to be in the Meta Universe, but the change is the weird part I enjoy.",
+  "thumbnail": "/images/newsletter/fusion_tn.jpg",
+  "url": "/newsletter/2021-11-19-The-Nuclear-Fusion/",
+  "tags" : ""
+},{
   "title": "Carousels, Multi Repo CLI and Coding Fonts - Episode 12",
   "date" : "Nov 17, 2021",
   "summary" : "In this episode of the toolbox, I&#39;m going to try out one of the most feature-full carousel frameworks out there called SplideJS, plus in the shorts, I talk about the State of the Octoverse, why the creator of Svelte, just got hired by Vercel...Plus, we&#39;re looking for teachers at LinkedIn Learning. It&#39;s Wednesday November 17 and this is Episode 12...so let&#39;s get started",
