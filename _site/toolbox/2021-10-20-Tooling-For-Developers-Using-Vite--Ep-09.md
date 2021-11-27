@@ -2,6 +2,7 @@
 layout: post
 title: "Front End Tooling with Vite"
 summary: "In this episode of the toolbox, I'll show you how to work with my favorite tooling platform called Vite. I've got a few surprises in the shorts segment and tons of other things to discuss...so let's get started"
+hideDesc: true
 video: OGymLdZ3svc
 hero: /images/toolbox/EP09-Vite.png
 thumb: /images/toolbox/EP09-Vite_tn.jpg

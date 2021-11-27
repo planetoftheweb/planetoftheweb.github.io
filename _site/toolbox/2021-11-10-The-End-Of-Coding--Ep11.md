@@ -2,6 +2,7 @@
 layout: post.njk
 title: "The End of Coding as we know it."
 summary: "In this episode of the Toolbox, I'm going to talk about my recent experience creating a new course using online tools and why I think that's the future of coding...Dear friends, it's the end of coding as we know it."
+hideDesc: true
 video: m33g-56Vgr0
 hero: /images/toolbox/desktopcoding.png
 thumb: /images/toolbox/desktopcoding_tn.jpg
@@ -16,18 +17,17 @@ Let's get started with a couple of shorts. There are new tools and articles that
 
 First is Hydrogen, a new framework from Shopify. I really didn't want to like this, but there it is, pretty much everything I want to use packaged into a nice framework that's just like every full stack developer bingo favorites.
 
-To begin with, it already uses liquid, a templating system that's pretty popular among [Eleventy users](https://www.11ty.dev/). However, hydrogen is based on React,  adds Vite for Tooling, expressJS, a GraphQL API…dang it, it's like if I would have made all the decisions for this thing. It makes it easy for the sites you build with it to be search engine friendly and uses Tailwind CSS by default.
+To begin with, it already uses liquid, a templating system that's pretty popular among [Eleventy users](https://www.11ty.dev/). However, hydrogen is based on React, adds Vite for Tooling, expressJS, a GraphQL API…dang it, it's like if I would have made all the decisions for this thing. It makes it easy for the sites you build with it to be search engine friendly and uses Tailwind CSS by default.
 
 I think the plan is to make this into something like NextJS, that makes it a compelling place to start your e-commerce site.
 
 Now, all I need is some products to sell besides my [t-shirt](https://cottonbureau.com/products/pow-shirt).
 
-
 ## Microsoft Loop
 
 [![Github Issues](/images/shorts/2021-11-10_00-36-17.png)](https://www.microsoft.com/en-us/microsoft-loop)
 
-Before I mention this next thing, I have to tell you that I'm a Microsoft employee, but I'm always on a constant quest for productivity tools. In the last Ignite conference, Microsoft made a pretty cool announcement introducing something called [Loop](https://www.microsoft.com/en-us/microsoft-loop). 
+Before I mention this next thing, I have to tell you that I'm a Microsoft employee, but I'm always on a constant quest for productivity tools. In the last Ignite conference, Microsoft made a pretty cool announcement introducing something called [Loop](https://www.microsoft.com/en-us/microsoft-loop).
 
 Loop is a pretty similar to another tool called [Notion](https://www.notion.so/) and before I moved to Obsidian, which by the way…check out [Episode 03](https://www.youtube.com/watch?v=6YJfZE8UUXg), where I talk about my switch to Obsidian.
 
@@ -47,7 +47,7 @@ That's why it's not the right fit for my personal work where I'm just doing work
 
 I just finished a course on Publishing with GitHub and I usually plan my topics months if not a year in advance. Then, by the time I do the course, everything's changed. But the thing I didn't expect when I recorded this course is that for the first time I didn't need to use my Desktop Copy of Visual Studio Code.
 
-Now why is that important. Think of how web developers currently work on projects. Clone or fork a repo, then download the files. When the files arrive at your local machine, they come with no modules. So if you're using React, or Node, GraphQL or whatever, all that has to be installed. 
+Now why is that important. Think of how web developers currently work on projects. Clone or fork a repo, then download the files. When the files arrive at your local machine, they come with no modules. So if you're using React, or Node, GraphQL or whatever, all that has to be installed.
 
 If you're working in a team environment, chances are you have to pull the latest changes for the project, and then go through updating and cleaning up of updated modules. The web is so fluid, that modules go out of date almost every time you come into a project.
 

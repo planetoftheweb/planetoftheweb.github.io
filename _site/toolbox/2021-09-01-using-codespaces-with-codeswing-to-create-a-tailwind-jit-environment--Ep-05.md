@@ -2,6 +2,7 @@
 layout: post
 title: "Using CodeSpaces to Create a Jailwind JIT Environment -- The Toolbox Ep 05"
 summary: "Create your own repo that can take the place of CodePen or a custom environment with your own node modules to install and run Tailwind CSS."
+hideDesc: true
 video: gHoXdPbiqjA
 hero: /images/toolbox/episode05-tailwindsjit.jpg
 thumb: /images/toolbox/episode05-tailwindsjit_tn.jpg
@@ -31,7 +32,7 @@ Type in CodeSwing, then choose one of the options:
 - Add a swing in a directory
 - Create one in a default location
 - Open an existing Swing
-- Make a swing from  a template
+- Make a swing from a template
 - Open a Swing in a New Window
 
 Since I know I'm going to use this later, I'll add a swing in a directory, then choose the location and give it a name.
@@ -44,7 +45,6 @@ I'm going to go with the first option, HTML/CSS/JavaScript.
 
 You'll get three tabs as well as a preview window, so you can start coding right away.
 
-
 ## What you get
 
 ## Using the Playground
@@ -52,17 +52,16 @@ You'll get three tabs as well as a preview window, so you can start coding right
 There are three tabs open as well as a preview. Let's hide the open editors. Lets try adding some HTML. Since I have the emmet extension on, I can use some shortcuts.
 
 ```html
-h1>Headline+
-p*5>lorem
+h1>Headline+ p*5>lorem
 ```
 
-One of the first advantages to CodePen  is that I have the full power of visual studio code in an environment with all of my extensions and plugins. It's the editor I'm used to working in, with my own preferences, other extensions and Color Themes
+One of the first advantages to CodePen is that I have the full power of visual studio code in an environment with all of my extensions and plugins. It's the editor I'm used to working in, with my own preferences, other extensions and Color Themes
 
 Let's try some CSS
 
 ```css
 h1 {
-color: red;
+  color: red;
 }
 ```
 
@@ -71,7 +70,7 @@ This is a live preview that updates constantly. In the background webpack is man
 Let's try some simple JavaScript
 
 ```js
-document.querySelector('h1').innerText = 'Welcome'
+document.querySelector("h1").innerText = "Welcome";
 ```
 
 Like in Codepen, we didn't have to use scripts or link tags to make the css and scripts interactive.
@@ -97,27 +96,23 @@ Let's add a container to make this align to our grid
 Let's also add some code to imrpove our text.
 
 ```html
-<div class="p-3 pb-md-4 mx-auto text-center">  
+<div class="p-3 pb-md-4 mx-auto text-center">
+  <h1 class="display-4 fw-normal"></h1>
 
-<h1 class="display-4 fw-normal"></h1>
-
-<p class="fs-5 text-muted"></p>
-
+  <p class="fs-5 text-muted"></p>
 </div>
 ```
 
 ## How is this Happening?
 
-If you're a developer, you're probably wondering how it's doing all this. There's certainly some magic happening in the extension, but basically, it's using CDNs to load up the different libraries. CodeSwing already knows to look for the HTML, CSS and JS files and the way that it keeps track of the additional libraries we've added is the special codeswing.json file. 
+If you're a developer, you're probably wondering how it's doing all this. There's certainly some magic happening in the extension, but basically, it's using CDNs to load up the different libraries. CodeSwing already knows to look for the HTML, CSS and JS files and the way that it keeps track of the additional libraries we've added is the special codeswing.json file.
 
 Lets take a peek.
 
 ```json
 {
   "scripts": [],
-  "styles": [
-    "https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css"
-  ]
+  "styles": ["https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.0/css/bootstrap.min.css"]
 }
 ```
 
@@ -146,7 +141,6 @@ git remote add origin URL
 git push -u origin main
 ```
 
-
 ## Adding a DevContainer File
 
 Now, this will work for me, because I already have the codeswing extension installed and my local VSCode syncs to the remote. If someone comes to this repo and they don't have the CodeSwing extension, the experience wouldn't be as cool. So we'll make sure we add one more file to take care of that.
@@ -155,20 +149,21 @@ There's a special devcontainer.json file you can add to make sure you configure 
 
 ```json
 {
-	"extensions": ["codespaces-contrib.codeswing"]
+  "extensions": ["codespaces-contrib.codeswing"]
 }
 ```
 
 Now if someone comes to this repo, they can just hit the period key to get the codeswing going. If they don't have CodeSwing install, it will prompt them to do it.
 
 ## Template
-You know this is a nice starter template that I could use in other projects, so I'm going to go to the settings tab, then click on the `Template repository` checkbox. 
+
+You know this is a nice starter template that I could use in other projects, so I'm going to go to the settings tab, then click on the `Template repository` checkbox.
 
 Now if you go to the top of the repo, you can create a new repository based on this one.
 
 ## Tailswing Tooling
 
-I want to create a Tailwind Just in time project using CodeSpaces. I can use this template I created for the CodeSwing, but it's going to need some additional tooling. That's because the JIT compiler is going to need some...well live compiling. Because of that,  I'll need to use the regular version of CodeSpaces.
+I want to create a Tailwind Just in time project using CodeSpaces. I can use this template I created for the CodeSwing, but it's going to need some additional tooling. That's because the JIT compiler is going to need some...well live compiling. Because of that, I'll need to use the regular version of CodeSpaces.
 
 ### Setting up
 
@@ -212,8 +207,8 @@ Since we're not using Bootstrap, I'll need to remove the import from the styles 
 
 ```json
 {
-	"scripts": [],
-	"styles": []
+  "scripts": [],
+  "styles": []
 }
 ```
 
@@ -245,12 +240,14 @@ Here's some adjustments to the HTML to try.
 
 ```html
 <div class="text-center">
-	<h1 class="text-[50px] px-6 font-extrabold text-red-500 tracking-tight">Headline</h1>
-	<p class="mt-4 max-w-2xl px-6 text-xl text-gray-500 mx-auto">
-		Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat esse nesciunt cum, 	nulla obcaecati ipsam, commodi natus recusandae, dicta nostrum architecto. Ab dicta asperiores tempore quisquam magnam, ipsam nesciunt cupiditate.
-</p>
+  <h1 class="text-[50px] px-6 font-extrabold text-red-500 tracking-tight">Headline</h1>
+  <p class="mt-4 max-w-2xl px-6 text-xl text-gray-500 mx-auto">
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat esse nesciunt cum, nulla obcaecati ipsam, commodi natus recusandae, dicta nostrum
+    architecto. Ab dicta asperiores tempore quisquam magnam, ipsam nesciunt cupiditate.
+  </p>
 </div>
 ```
+
 # Toolbox Shorts
 
 Since this is a special episode of the Toolbox, I'm going to go over some of the GitHub Tools, plus an extension you should definitely add to GitHub.
@@ -260,7 +257,6 @@ Since this is a special episode of the Toolbox, I'm going to go over some of the
 [![Copilot](http://pixelprowess.com/i/2021-08-27_12-50-23.png)](https://go.raybo.org/5Y6e)
 
 I can be a bit color challenged, so I appreciate a good site with inspiring gradients gives me the Tailwind or CSS code quickly. Great interface with lots of customization options."
-
 
 ## Tailwind Buttons
 

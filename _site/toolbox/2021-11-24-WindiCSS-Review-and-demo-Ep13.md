@@ -1,10 +1,11 @@
 ---
 layout: post
-title: "TITLE"
-summary: "In this episode of the toolbox, ...so let's get started"
-video: VIDEOID
-hero: /images/toolbox/IMG.jpg
-thumb: /images/toolbox/IMG_tn.jpg
+title: "MiniMasonry, Simple.css, Rust, Iles and Big WindiCSS demo"
+summary: "In this episode of the toolbox, we'll take a peek at some new libraries like minimason and simple.css, then talk about how Rust is taking over the web, plus we'll look at some major new major frameworks like Remix and Iles. Then, I'll show you a demo of WindiCSS, a contender that offers some improvements over TailwindCSS. It's not in your mind, the pace of the web is relentless...so to keep up...it's time, for the Toolbox"
+hideDesc: true
+video: i-maN7uHAn4
+hero: /images/toolbox/ep13.jpg
+thumb: /images/toolbox/ep13_tn.jpg
 category: toolbox
 ---
 
@@ -14,54 +15,72 @@ Hello everyone this is Ray Villalobos and I stream about front-end and full stac
 
 # Shorts
 
-Let's get started with some shorts. There are new tools and articles that you should know about.
+There's a lot going on, so lets talk about the shorts, where I cover what's happening on the world of full stack development.
 
-## MiniMason.js
+## MiniMasonry.js
 
-A lightweight dependency Free library for building masonry layouts. https://spope.github.io/MiniMasonry.js/
+A lightweight dependency Free library for building masonry layouts. These are a great way to organize photos of difference sizes and were popularized by social media websites. Looks like something I'd love to do a demo of in an upcoming episode. Do you think this is still a good layout? https://spope.github.io/MiniMasonry.js/
 
 ## Simple.css
+
+This is quite possibly the simplest libray you'll find. It's meant to give you a decent enough look with a minimal of markup. Whereas most CSS frameworks make you use complex CSS classes, this one assumes that you'll be using just regular markup. This is a good option if you just need to get something up quickly.
+
 - [Simple CSS](https://simplecss.org/)
 - spin something up very quick
--  A good looking `sans-serif` local font stack.
--  Typographic best practices.
--  Automagic flipping to dark mode.
--  Fully responsive.
--  Sensible defaults that format standard HTML elements.
--  Super lightweight; **less than 4 KB in size**.
+- A good looking `sans-serif` local font stack.
+- Typographic best practices.
+- Automagic flipping to dark mode.
+- Fully responsive.
+- Sensible defaults that format standard HTML elements.
+- Super lightweight; **less than 4 KB in size**.
 
 ---
 
-
 ## Rust
-- [Rust](https://www.rust-lang.org/)
 
-Deno
-esbuild
-Rome
+[Rust](https://www.rust-lang.org/)
 
-most loved programming language [six](https://insights.stackoverflow.com/survey/2016#technology-most-loved-dreaded-and-wanted)
+You may be wondering what's going on with the web since so many projects are moving at least part of their engines to a newer programming language called Rust instead of JavaScript. According to one of the Stack Overflow surveys, Rust was the most loved programming languages, preferred by almost 84% of programmers six years in a row.
 
-used at [Facebook](https://engineering.fb.com/2021/04/29/developer-tools/rust/), [Apple](https://twitter.com/oskargroth/status/1301502690409709568), [Amazon](https://aws.amazon.com/blogs/opensource/why-aws-loves-rust-and-how-wed-like-to-help/), [Microsoft](https://twitter.com/ryan_levick/status/1171830191804551168), and [Google](https://security.googleblog.com/2021/04/rust-in-android-platform.html)
+The proof is the amount of popular projects using Rust like Deno, esbuild, Rome, Parcel, Vite…it's being used by companies like Facebook, Amazon, Apple, Microsoft and Google.
 
-https://stork-search.net/
-
+Rust helps programmers work with large amounts of data in a very efficient way. It uses a unique and automated memory management approach. Although it's early, it's definitely something to take a peek at.
 
 ## Iles
-- [Iles](https://iles-docs.netlify.app/guide/introduction
+
+[Iles](https://iles-docs.netlify.app/guide/introduction
+
+The hot new trend in frameworks is something called partial hydration. It basically means that your interactivity is not loaded until it's needed. A lot of new frameworks are adopting that approach including this one called Iles.
 
 From this article (https://css-tricks.com/does-the-next-generation-of-static-site-generators-make-building-sites-better/)
+
 - Ship zero JavaScript by default. Interactive bits are opt-in — that’s what the islands metaphor is all about. Astro and îles do it at the per-component level and [SvelteKit](https://kit.svelte.dev/) prefers it at the [page level](https://kit.svelte.dev/docs#ssr-and-javascript-prerender).
--   Additional fanciness around controls for when hydration happens, like “when the browser is idle,” or “when the component is visible.”
--   Use a fast build tool, like [Vite](https://vitejs.dev/) which is Go-based [esbuild](https://esbuild.github.io/) under the hood. Or Rust-based [swc](https://swc.rs/) in the case of [Next 12](https://nextjs.org/blog/next-12).
--   Support multiple JavaScript frameworks for componentry. Astro and îles do this out of the box, and another example is how [Slinkity](https://slinkity.dev/) brings that to [Eleventy](https://www.11ty.dev/).
--   File-system based routing.
--   Assumption that Markdown is used for content.
+- Additional fanciness around controls for when hydration happens, like “when the browser is idle,” or “when the component is visible.”
+- Use a fast build tool, like [Vite](https://vitejs.dev/) which is Go-based [esbuild](https://esbuild.github.io/) under the hood. Or Rust-based [swc](https://swc.rs/) in the case of [Next 12](https://nextjs.org/blog/next-12).
+- Support multiple JavaScript frameworks for componentry. Astro and îles do this out of the box, and another example is how [Slinkity](https://slinkity.dev/) brings that to [Eleventy](https://www.11ty.dev/).
+- File-system based routing.
+- Assumption that Markdown is used for content.
 
+## Remix
 
-# Main Event
+https://remix.run/
+
+Just this Monday, a new framework was released that was hard to ignore called Remix. I've never seen the level of pre-marketing about a new framework. This is a React based framework that is really the evolution of a popular project called React Router.
+
+They used to charge big bucks for it, but now it's an open source project that is free to use. The killer feature here is that it takes the web full circle.
+
+Remember the days where we handle most things in the server…we'll bellbottom and server side code is back with Remix. However, it takes the best of what we've learned about the new web like mostly static content, simple routing and super fast loading.
+
+One of the interesting approaches is the ability to create something called nested routes. So a page can have sub-sections that load separately. The huge advantage is sort of like what happens with modern build tools like HMR or Hot Module replacement.
+
+Sub-routes can load separately than other routes, so updates happen way quicker since only a small portion of the page has to be reloaded.
+
+# Demo
+
+Alright Let's get to the main even, which is the demo of cool stuff. Today, we're taking a look at WindiCSS, it's trying to outdo TailwindCSS, which is becoming a dominant library in the web space.
 
 ## WindiCSS
+
 https://windicss.org/
 
 - on-demand alternative
@@ -117,13 +136,13 @@ export default {
 <div class="btn hover:btn-green"></div>
 ```
 
- - Dark Mode[#](https://windicss.org/features/#dark-mode)
+- Dark Mode[#](https://windicss.org/features/#dark-mode)
 
 ```
 <div class="text-black dark:text-white"></div>
 ```
 
-[Learn more](https://windicss.org/features/dark-mode) 
+[Learn more](https://windicss.org/features/dark-mode)
 
 - RTL[#](https://windicss.org/features/#rtl)
 
@@ -131,7 +150,7 @@ export default {
 <div class="text-green-400 rtl:(text-red-400 text-right)"></div>
 ```
 
-[Learn more](https://windicss.org/features/rtl) 
+[Learn more](https://windicss.org/features/rtl)
 
 - Directives[#](https://windicss.org/features/#directives)
 
@@ -153,23 +172,19 @@ Tailwind-like `@apply`, `@screen` directives are fully supported.
 
 A visual analyser tool for [Windi CSS](https://github.com/windicss/windicss). Browse your utility usages, get an overview of your design system, identify "bad practices", and more!
 
-
 ---
 
-
----
 # Outro
 
-Next week, I'm 
+Ooo, there's a lot going on, so I'm thinking of doing maybe Astro next week since I've been meaning to try a demo of that. It finally got a new interesting release where it was re-written in Go, powered by Vite and it addedd MDX style components. I mean, I feel like they're begging me to try it now.
 
 Alright, thanks for watching. Don't forget to follow me on LinkedIn, YouTube or your favorite Social Media platforms @planetoftheweb.
 
 You can catch old episodes of the toolbox at raybo.org. I'll see you next week for some more front end and full stack tooling
 
-
 ---
 
-## 
+##
 
 [![TITLE](IMG)](URL)
 
@@ -177,18 +192,18 @@ DESCRIPTION
 
 ---
 
-
 # TITLE
 
 DESCRIPTION
 
 <lite-youtube videoid="6YJfZE8UUXg"></lite-youtube>
+
 <div class="article-side-image">
 
-	
 </div>
 
 ### URLs
+
 - **[TITLE](LINK)**: TYPEDLINK
 - **[TITLE](LINK)**: TYPEDLINK
 - **[TITLE](LINK)**: TYPEDLINK
@@ -209,6 +224,6 @@ DESCRIPTION
 
 [![IMG_URL](TITLE)](LINK)
 
--  **Subscribe**: [Apply Newsletter](<[https://go.raybo.org/5Tbq](https://go.raybo.org/5Tbq)>)
+- **Subscribe**: [Apply Newsletter](<[https://go.raybo.org/5Tbq](https://go.raybo.org/5Tbq)>)
 
 DESCRIPTION

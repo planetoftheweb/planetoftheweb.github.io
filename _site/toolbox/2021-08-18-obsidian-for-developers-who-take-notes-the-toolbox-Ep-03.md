@@ -2,6 +2,7 @@
 layout: post
 title: "What's new in Bootstrap 5.1? The Toolbox - Episode 02"
 summary: "In this episode, I'll talk about Obsidian the tool that made me completely change my workflow and the way I write articles, notes, pretty much everything. We'll also cover some of the new features inside Bootstrap 5.1 and cover some more other tools."
+hideDesc: true
 video: 6YJfZE8UUXg
 hero: /images/toolbox/obsidian.png
 thumb: /images/toolbox/obsidian_tn.jpg
@@ -12,12 +13,11 @@ category: toolbox
 
 Let's start by going through the tools I'm super interested in right now. Things I'm either using or that are doing things that could make my life a lot easier.
 
-
 ## Flat Data
 
 [![Flat Data Generator](https://octo.github.com/assets/projects/flat/flat.png)](https://go.raybo.org/5LMf)
 
-ThIs is a really clever way to build a Github Action that makes it easier to process data from an API into a  static site like Eleventy. It comes with a VSCode Extension that gives you an interface to create the YAML for the Github Action.
+ThIs is a really clever way to build a Github Action that makes it easier to process data from an API into a static site like Eleventy. It comes with a VSCode Extension that gives you an interface to create the YAML for the Github Action.
 
 Once you get the YAML, it can be added into your actions folder and get processed by Github.
 
@@ -29,14 +29,16 @@ You can then plug this data into your project and it will create an static data 
 
 [![Advanced CSS Gradient Editor](https://i.imgur.com/NSCltwI.png)](https://marketplace.visualstudio.com/items?itemName=JeffersonLicet.snipped&ssr=true#overview)
 
-Snipped is a VS Code Extension that makes it easier for you to share your code snippets by letting you take screenshots directly from VSCode. There's a lot of options for sharing code, but for me, I'm usually sharing a web snippet or something I've written myself. This is just about the quickest way to do it. 
+Snipped is a VS Code Extension that makes it easier for you to share your code snippets by letting you take screenshots directly from VSCode. There's a lot of options for sharing code, but for me, I'm usually sharing a web snippet or something I've written myself. This is just about the quickest way to do it.
 
-Here's some  TailwindCSS code:
+Here's some TailwindCSS code:
 
 ```html
 <div class="text-center">
-<h1 class="mt-24 text-5xl px-6 font-extrabold text-green-500 tracking-tight">About Binaryville</h1>
-<p class="mt-4 max-w-2xl px-6 text-xl text-gray-500 mx-auto">On the edge of the world stands the progressive town of Binaryville, where technology is a way of life.</p>
+  <h1 class="mt-24 text-5xl px-6 font-extrabold text-green-500 tracking-tight">About Binaryville</h1>
+  <p class="mt-4 max-w-2xl px-6 text-xl text-gray-500 mx-auto">
+    On the edge of the world stands the progressive town of Binaryville, where technology is a way of life.
+  </p>
 </div>
 ```
 
@@ -51,9 +53,9 @@ Notice that the text is selectable, although this is not a live preview. Also, y
 ## HTML End Tag Labels
 
 [![HTML End Tag Labels](https://github.com/anteprimorac/vscode-html-end-tag-labels/raw/HEAD/images/screenshot-1.png)](https://marketplace.visualstudio.com/items?itemName=anteprimorac.html-end-tag-labels)
-If you've ever coded with a framework that has a lot of classes, then you've run into a problem I call DIVitis. A problem where you end up with tons of closing DIV pairs, and you're not even sure what they pair up with. 
+If you've ever coded with a framework that has a lot of classes, then you've run into a problem I call DIVitis. A problem where you end up with tons of closing DIV pairs, and you're not even sure what they pair up with.
 
-The HTML End Tags extension shows you what element the current div is closing. This solves a huge problem because something I think a DIV is closing an element, but in reality, it's closing something else. 
+The HTML End Tags extension shows you what element the current div is closing. This solves a huge problem because something I think a DIV is closing an element, but in reality, it's closing something else.
 
 You can see that it is showing you the tags, classes and ids that this DIV is closing. I've been using this a while and that insight is real useful in figuring out if I'm closing the right tag.
 
@@ -65,11 +67,11 @@ You can see that it is showing you the tags, classes and ids that this DIV is cl
 
 You may have heard that CodeSpaces launched officially this week as a product for Enterprise clients. It's still available as a beta for users and the public release details are coming soon.
 
-One of the cool additions is that you can now take any Github Repo and jump right into codespaces by just hitting the period. You can also create a link to a repo, by switching the Top Level Domain from dot com (.com) to dot dev (.dev). That lets people immediately dive into the code and gives you some unique opportunity. 
+One of the cool additions is that you can now take any Github Repo and jump right into codespaces by just hitting the period. You can also create a link to a repo, by switching the Top Level Domain from dot com (.com) to dot dev (.dev). That lets people immediately dive into the code and gives you some unique opportunity.
 
 You would use the period, when you wan to just jump into the code, whereas the DEV will let you create a link that takes someone to the code.
 
-The one I'm showing you here shows how a product called CodeSwing, which is normally an extension to VS Code  to let you create a practice environment for someone to have an interactive code tryout.
+The one I'm showing you here shows how a product called CodeSwing, which is normally an extension to VS Code to let you create a practice environment for someone to have an interactive code tryout.
 
 You might be thinking that this is a lot like Codepen and you'd be right, but what's different about it is that you can demo things that Codepen can't. A good example might be something like TailwindCSS's JIT compiler which re-writes the CSS output in real time as you code your HTML.
 
@@ -91,28 +93,27 @@ That's always seemed something a bit gimmicky, but it's one of those technologie
 
 I feel like I have a lot of questions about this one, but it might be the solution for people who don't want to do so much of the technical lift themselves.
 
-
-
 ## Obsidian
+
 I love anything that has markdown in it. It's made my live a lot easier. Every once in a while though, I find something that truly changes the way I work...for the better. Obsidian is a markdown tool like Rome Research or Notion that lets you do a lot more than just take notes. I think this is the one I've been looking for.
 
-Let's take a look at what all the excitement is about. 
-
+Let's take a look at what all the excitement is about.
 
 ## Obsidian
+
 I'm really just getting started with Obsidian. At it's heart it's just another markdown editor. I've tried so many of them that I've lost count. The first thing that really appeals to me is that it doesn't try to ALSO write markdown documents, it's a markdown first editor.
 
 As much as I liked things like Notion, It relies on doing all your writing through a database, so your markdown files become ingested by Notion. Obsidian leaves your files alone so you can use it to manage any type of markdown document. So I can easily drop my blog raybo.org inside obsidian and just write my articles. I can still drop into VSCode if I need to edit some of my eleventy config or nunjunks code.
 
 Another great feature is that it lets you create links between files. That sounds obvious, but it's real smart about these links. Let's take a look at how that works. When I create a course, the first thing I write is my Table of Contents. I'm currently doing a course on Tailwind CSS. Here's what the markdown for the TOC looks like.
 
-This looks real complicated, but if you're familiar with Github Flavored Markdown, you might recognize this as a list with checkboxes. 
+This looks real complicated, but if you're familiar with Github Flavored Markdown, you might recognize this as a list with checkboxes.
 
 You can see the links to the documents that I'm writing for this course as well. Links in Obsidian start with double brackets. If I click on one of these, it will take me directly to that document. You can also hit the back button to get back to the list.
 
 I can easily toggle the checkbox at any time while I'm writing by hitting command enter. I can also preview this by hitting the button on the corner. Notice that in preview, I can put my mouse on top of the article and see a popup preview of that content without going there.
 
-If I right click on the TOC, I can also choose a view that shows all these relationships called Graph View. You can see all of the relationships between all of your documents, but this local view just shows me the links in the current scope. The graph view is really just eye candy so far for me, but really cool eye candy. 
+If I right click on the TOC, I can also choose a view that shows all these relationships called Graph View. You can see all of the relationships between all of your documents, but this local view just shows me the links in the current scope. The graph view is really just eye candy so far for me, but really cool eye candy.
 
 You'll notice that in this TOC, I added some hashtags to indicate when this will be a new movie and when it's something I've recorded previously that doesn't need an update.
 
@@ -131,10 +132,10 @@ Since I write all of my slides and articles in Markdown you can see that this is
 You can see there are things like mind map views, charts, calendars, icons and lots more. I'm truly just scratching the surface. If you write in Markdown, this thing will quite possibly change your life.
 
 ## Postfix
+
 ### Github Code Challenges
 
-I would be remiss if I didn't tell you that I have a new course out called Github Code Challenges. Now, I know that GitHub isn't a coding language, but 
-
+I would be remiss if I didn't tell you that I have a new course out called Github Code Challenges. Now, I know that GitHub isn't a coding language, but
 
 ### Git and Github Tips you should know
 
@@ -142,10 +143,10 @@ Speaking of which next week, I'll be doing a special [live stream espisode](http
 
 ### Morten's Live Stream Tomorrow
 
-Also, my friend Morten has an exciting [Live Stream](https://www.linkedin.com/events/6830563558145839105/) coming up tomorrow, so check out his talk with Monika Bielskyte, where he'll be talking about the Protopia Futures framework and why design needs a makeover. 
+Also, my friend Morten has an exciting [Live Stream](https://www.linkedin.com/events/6830563558145839105/) coming up tomorrow, so check out his talk with Monika Bielskyte, where he'll be talking about the Protopia Futures framework and why design needs a makeover.
 
 Remember that if you missed part of the show, you can always catch the replay on my blog [raybo.org](https://raybo.org/) some time after the episode with full links to everything.
 
 Chapters
 00:00 Intro
-01:00 
+01:00

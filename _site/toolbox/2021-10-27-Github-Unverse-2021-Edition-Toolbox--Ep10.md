@@ -2,6 +2,7 @@
 layout: post.njk
 title: "Github Universe/TailwindCSS 3"
 summary: "In this special GitHub Late edition of the Toolbox, I'll talk about my favorite Universe announcements, then, I'll share a new exciting Tailwind CSS 3.0 Alpha feature and one more tip in searching through your terminal history. It's Wednesday, October 27 and this is episode 10. Let's get started."
+hideDesc: true
 video: YZL5_v-vz98
 hero: /images/toolbox/toolbox-ep10.png
 thumb: /images/toolbox/toolbox-ep10_tn.jpg

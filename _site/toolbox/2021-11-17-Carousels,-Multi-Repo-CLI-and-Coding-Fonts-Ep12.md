@@ -1,7 +1,8 @@
 ---
 layout: post
 title: "Carousels, Multi Repo CLI and Coding Fonts - Episode 12"
-summary: "In this episode of the toolbox, I'm going to try out one of the most feature-full carousel frameworks out there called SplideJS, plus in the shorts, I talk about the State of the Octoverse, why the creator of Svelte, just got hired by Vercel...Plus, we're looking for teachers at LinkedIn Learning. It's Wednesday November 17 and this is Episode 12...so let's get started"
+summary: "In this episode of the toolbox, I'm going to try out one of the most feature-full carousel frameworks out there called SplideJS, plus in the shorts, I talk about the State of the Octoverse, why the creator of Svelte, just got hired by Vercel...Plus, we're looking for teachers at LinkedIn Learning. It's Wednesday November 24 and this is Episode 12...so let's get started"
+hideDesc: true
 video: dx-gI9BZGKE
 hero: /images/toolbox/episode12.png
 thumb: /images/toolbox/episode12_tn.jpg

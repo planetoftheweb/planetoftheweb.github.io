@@ -2,6 +2,7 @@
 layout: post
 title: "The Coolest Bootstrap 5.1 Features -- The Toolbox Ep 06"
 summary: "In this episode of the toolbox, we're going to talk about some of the coolest features in bootstrap 5.1, like support for offCanvas in navbars, placeholders and stacks. In Toolbox Shorts we've got an amazing search engine for developers and a big change on how Google indexes titles. Plus demos of how to streamline your querySelectors and what's quite possibly the next big thing in CSS development. It's Wednesday, September 8, 1pm Eastern time...and this is episode 06. So, let's get tooling"
+hideDesc: true
 video: lTolSal2qgY
 hero: /images/toolbox/episode06-bootstrap51new.png
 thumb: /images/toolbox/episode06-bootstrap51new_tn.jpg

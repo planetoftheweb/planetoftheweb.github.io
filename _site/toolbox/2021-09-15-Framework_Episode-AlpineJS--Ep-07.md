@@ -3,6 +3,7 @@ layout: post
 title: "What New Framework should you try next -- The Toolbox Ep 07"
 
 summary: "In this episode of the toolbox, we take a look at Alpline.js. an up and coming frameworks that rewires your mind and like Tailwind CSS lets you do everything with only the HTML file. I’ve got lots of Toolbox shorts, GitHub tips and I’ll let you take a peek at what I’m working on next in JSL."
+hideDesc: true
 video: lTolSal2qgY
 hero: /images/toolbox/episode07.jpg
 thumb: /images/toolbox/episode07_tn.jpg
@@ -21,7 +22,7 @@ Let's get started with some shorts. There are new tools and articles that you sh
 
 [![Draw.io](http://pixelprowess.com/i/2021-09-15_09-57-24.png)](https://draw.io)
 
-Weeks ago, I found a pretty neat Mac and iPad App called Flowchart Designer 3. Well, now that I found Draw.io, I feel like a fool, there’s a cool new site you can try called draw.io that is just as capable, free and online. There’s even a [VSCode extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio), which means you can also use this on a codespace or on github.dev. 
+Weeks ago, I found a pretty neat Mac and iPad App called Flowchart Designer 3. Well, now that I found Draw.io, I feel like a fool, there’s a cool new site you can try called draw.io that is just as capable, free and online. There’s even a [VSCode extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio), which means you can also use this on a codespace or on github.dev.
 
 ---
 
@@ -29,14 +30,15 @@ Weeks ago, I found a pretty neat Mac and iPad App called Flowchart Designer 3. W
 
 [![Front Matter](http://pixelprowess.com/i/2021-09-15_10-15-45.png)](https://frontmatter.codes/)
 
-This is a Headless CMS right inside Visual Studio code, so you can use it to edit your blog posts if you’re using something like Eleventy, but it also works with Hugo, Hexo, Jekyll, Next, Gatsby and more. One of the features I really love is the ability to quickly search through the different files on my blog. Plus it gives you tons of stats and helps you generate the content. 
+This is a Headless CMS right inside Visual Studio code, so you can use it to edit your blog posts if you’re using something like Eleventy, but it also works with Hugo, Hexo, Jekyll, Next, Gatsby and more. One of the features I really love is the ability to quickly search through the different files on my blog. Plus it gives you tons of stats and helps you generate the content.
 
 ---
 
 ## MARP for VS Code
+
 [![MARP for VSCode](http://pixelprowess.com/i/2021-09-15_09-42-10.png)](https://marketplace.visualstudio.com/items?itemName=marp-team.marp-vscode)
 
-I keep hearing about this new way of creating presentations called MARP for Markdown Presentation and it’s growing into more than just a simple way to create slides with Markdown. It’s a whole ecosystem for creating your presentations with a built-in ecosystem. So, you can use all types of additions like [directives](https://marpit.marp.app/directives) to customize how you create these. Well, there’s now a VSCode Extension that lets you live preview your presentations quickly. I’m now switching from [rayveal.js](https://rayveal.tech/#/) just yet, but I’m definitely getting jealous of what this can do. 
+I keep hearing about this new way of creating presentations called MARP for Markdown Presentation and it’s growing into more than just a simple way to create slides with Markdown. It’s a whole ecosystem for creating your presentations with a built-in ecosystem. So, you can use all types of additions like [directives](https://marpit.marp.app/directives) to customize how you create these. Well, there’s now a VSCode Extension that lets you live preview your presentations quickly. I’m now switching from [rayveal.js](https://rayveal.tech/#/) just yet, but I’m definitely getting jealous of what this can do.
 
 ---
 
@@ -62,7 +64,7 @@ Gitignore files are super useful, and you can create a global version using the 
 
 # Global Gitignore File
 
-If you’re a developer who uses git, specially on a Mac, the operating system creates invisible files like .DS_Store file to keep track of file operations.  The same thing happens in an npm projects, which creates a node_modules folder.
+If you’re a developer who uses git, specially on a Mac, the operating system creates invisible files like .DS_Store file to keep track of file operations. The same thing happens in an npm projects, which creates a node_modules folder.
 
 To prevent that from happening, you can create a .gitignore file that tells git not to send those to your repo when you push things.
 
@@ -89,10 +91,11 @@ Now, when we initialize a repo, it will use our defaults to ignore files in the 
 
 `git config --global core.excludesfile ~/.gitignore_global`
 
-Git config is really easy and lets you 
+Git config is really easy and lets you
 
 ## Default branch name
-There are lots of config variables that you can change.  A pretty common one you can use is to change the default branch name to main.
+
+There are lots of config variables that you can change. A pretty common one you can use is to change the default branch name to main.
 
 `git config --global init.defaultBranch main`
 
@@ -173,35 +176,34 @@ What lets Alpine know that it needs to control an element is the addition of an 
 The tag isn’t just an identifier, it’s also how you manage state within the app.
 
 ```html
-<div x-data="{ name: 'Groceries' }">
-</div>
+<div x-data="{ name: 'Groceries' }"></div>
 ```
 
-You can pass a regular JavaScript object here as the parameter. To output the name, you can add it into another directive called x-text. 
+You can pass a regular JavaScript object here as the parameter. To output the name, you can add it into another directive called x-text.
 
 ```html
 <div x-data="{ name: 'Groceries' }">
-	<h1 x-text=name></h1>
+  <h1 x-text="name"></h1>
 </div>
 ```
 
 Here’s how you would add a count to the button
 
 ```html
-<div x-data="{ name: 'Groceries', count: 0 }">
-</div>
+<div x-data="{ name: 'Groceries', count: 0 }"></div>
 ```
 
 And finallly the button.
 
 ```html
-<button x-on:click="count++" 
-	class="btn btn-primary position-relative" type="button">
-	count
-	<span x-text="count" 
-		class="position-absolute top-0 start-100 
-			translate-middle badge rounded-pill bg-secondary">
-	</span>
+<button x-on:click="count++" class="btn btn-primary position-relative" type="button">
+  count
+  <span
+    x-text="count"
+    class="position-absolute top-0 start-100 
+			translate-middle badge rounded-pill bg-secondary"
+  >
+  </span>
 </button>
 ```
 
@@ -209,47 +211,52 @@ Let’s switch the button to an input field, so I can show you how Alpine handle
 
 ```html
 <div class="input-group mb-3">
-	<input x-model="count" type="text" class="form-control">
+  <input x-model="count" type="text" class="form-control" />
 
-	<button x-on:click="count++"
-		class="btn btn-primary position-relative" type="button">
-		add
-		<span x-text="count" 
-			class="position-absolute top-0 start-100
-			translate-middle badge rounded-pill bg-secondary">
-		</span>
-	</button>
+  <button x-on:click="count++" class="btn btn-primary position-relative" type="button">
+    add
+    <span
+      x-text="count"
+      class="position-absolute top-0 start-100
+			translate-middle badge rounded-pill bg-secondary"
+    >
+    </span>
+  </button>
 </div>
 ```
 
-Next,  let’s take a look at what it would take to build a ToDo type app with what we’ve learned.
+Next, let’s take a look at what it would take to build a ToDo type app with what we’ve learned.
 
 ```html
-
-<div x-data="{ 
+<div
+  x-data="{ 
   name: 'Groceries',
   current: '',
   list: ['Grapes'],
   count: 0,
   add() {this.list.push(this.current)}
-  }" class="container w-50 d-flex flex-column mt-4 justify-content-center">
-    <h1 x-text=name></h1>
+  }"
+  class="container w-50 d-flex flex-column mt-4 justify-content-center"
+>
+  <h1 x-text="name"></h1>
 
   <div class="input-group mb-3">
-    <input x-model="current" type="text" class="form-control">
-    <button x-on:click="add"
-      class="btn btn-primary position-relative">
+    <input x-model="current" type="text" class="form-control" />
+    <button x-on:click="add" class="btn btn-primary position-relative">
       add
-      <span x-text="list.length" class="position-absolute top-0 start-100 
-        translate-middle badge rounded-pill bg-secondary">
+      <span
+        x-text="list.length"
+        class="position-absolute top-0 start-100 
+        translate-middle badge rounded-pill bg-secondary"
+      >
       </span>
     </button>
   </div>
 
   <ul class="list-group">
     <template x-for="item in list">
-    <li class="list-group-item" x-text="item"></li>
-  </template>
+      <li class="list-group-item" x-text="item"></li>
+    </template>
   </ul>
 </div>
 ```
@@ -265,6 +272,7 @@ If you want to find out what's in store for next week's episode of The Toolbox, 
 I publish that every week on about Thursdays. Here's the [last edition](https://www.linkedin.com/pulse/changing-history-ray-villalobos/). If you're a LinkedIn member, you can subscribe to it. It's a bit different than my technical courses and starts with some thoughts on whatever is happening.
 
 ## New Course Bootstrap 5: Transitioning from Bootstrap 4
+
 I’ve got a new course that covers how to transition from Bootstrap 4 to Bootstrap 5.
 
 <div style="position:relative;height:0;padding-bottom:56.25%"><iframe width="640" height="360" src="https://www.linkedin.com/learning/embed/bootstrap-5-transitioning-from-bootstrap-4/welcome-to-a-next-generation-bootstrap?autoplay=false&claim=AQEl4FHh_ta6kQAAAXvySGzon8r_CV693wpbVF6RQQkHLRSzzspesV2k23U30_bz1VVwBFktQ0Hz5cAZeXRVKKSFu-RZ_nXpTrEcDMSWlOstHgMl3c0pkLHz7Ter5n_Mksb1PBOhCy9BmEpu8sU7Bx8TNade2-0IBRn4Uhw8vh4s1bFGXblXw2MNjG3355BLjy8vtFnHloHQErMKVk6ZOuVi9PKHJlYycZrR4xgDE90lVdZ4U7wx2qowpS50n0IejWTzCRzZH-D3q8KM546fQgVNaeI_m_Skybd09hBPOFuMAeiI3Jz99fSqjXjLkB-DmH-_tn1HetXhO27qqNO2rLJUpMbNQODOmKm7iJxavkflC-h5Oui5-zLk8TtNuHT0QWzWHbstLox0ajKreuDHJ-OlRJ0EnkA6Pv7SRP50qk0R4Or-FNxe-Fy-edyV9m4kURSeolHtBjHGGiBSuQmQcck7nV5_VSEpNGwffMYd3FV0YhLj7BodRdJmgN0IlXzSYl8qX_I5i-Cfs4j6vfje-5O6sff4ESdvSNkPUS9BTgZJ9vSL4pbFIwr2bMLibJ6Sr-jFsHlC2QQfKhf6CHLArzjByb9lYgydWaYmL3IdY5C6iEHq9_Pcta8W6bxYTU3G-mH8VrTzObqW9QqM_ncpbO4NS1VlPR4AS4nhfIQNs6GdMQAtJtqWFjOvZ23dX5h9BoVnUYDrM2g93d3Biixf6oS-SIEdGqBz5gTFdN-jCrI&lipi=urn%3Ali%3Apage%3Ad_learning_content%3BL07VGoybRKa%2FlbW5TI7m1w%3D%3D&licu" mozallowfullscreen="true" webkitallowfullscreen="true" allowfullscreen="true" frameborder="0" style="position:absolute;width:100%;height:100%;left:0"></iframe></div><p><strong><a href="https://www.linkedin.com/learning/bootstrap-5-transitioning-from-bootstrap-4/welcome-to-a-next-generation-bootstrap?trk=embed_lil">Welcome to a next-generation Bootstrap</a></strong> from <strong><a href="https://www.linkedin.com/learning/bootstrap-5-transitioning-from-bootstrap-4?trk=embed_lil">Bootstrap 5: Transitioning from Bootstrap 4</a></strong> by <strong><a href="https://www.linkedin.com/learning/instructors/ray-villalobos?trk=embed_lil">Ray Villalobos</a></strong></p>

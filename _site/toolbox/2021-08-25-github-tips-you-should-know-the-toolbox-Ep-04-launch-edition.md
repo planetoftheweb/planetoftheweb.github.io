@@ -2,6 +2,7 @@
 layout: post
 title: "GitHub Tools You Should Now -- The Toolbox Episode 04 -- Special Launch Edition"
 summary: "I'm celebrating the release of my new course: GitHub Code Challenges. So, in a special launch edition of The Toolbox, I go over some of the latest GitHub Tools and updates as well as some of my favorite GitHub tips you should already know."
+hideDesc: true
 video: "bagdajYKNN4"
 hero: /images/toolbox/githubtools.jpg
 thumb: /images/toolbox/githubtools_tn.jpg

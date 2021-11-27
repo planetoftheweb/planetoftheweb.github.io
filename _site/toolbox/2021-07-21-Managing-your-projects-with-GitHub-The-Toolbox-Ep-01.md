@@ -2,6 +2,7 @@
 layout: post
 title: "How Can GitHub Help me Manage my Development Projects? The Toolbox - Episode 01"
 summary: "In this episode...the official first episode of the Toolbox, we'll take a look at some great new tools, including my new favorite flowchart designer, a site that explains the shell and I'll introduce you to the tools inside Github that help with Project Management."
+hideDesc: true
 video: djiiIhLZtOs?t=97
 hero: /images/toolbox/GithubTimeMachine.jpg
 thumb: /images/toolbox/GithubTimeMachine_tn.jpg
