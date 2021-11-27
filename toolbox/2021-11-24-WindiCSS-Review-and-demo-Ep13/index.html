@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Raybo.org</title>
 
-    <meta name="description" content="In this episode of the toolbox, ...so let's get started" />
-    <meta property="og:title" content="TITLE" />
-    <meta property="og:description" content="In this episode of the toolbox, ...so let's get started" />
-    <meta property="og:image" content="https://raybo.org/images/toolbox/IMG.jpg" />
+    <meta name="description" content="In this episode of the toolbox, we'll take a peek at some new libraries like minimason and simple.css, then talk about how Rust is taking over the web, plus we'll look at some major new major frameworks like Remix and Iles. Then, I'll show you a demo of WindiCSS, a contender that offers some improvements over TailwindCSS. It's not in your mind, the pace of the web is relentless...so to keep up...it's time, for the Toolbox" />
+    <meta property="og:title" content="MiniMasonry, Simple.css, Rust, Iles and Big WindiCSS demo" />
+    <meta property="og:description" content="In this episode of the toolbox, we'll take a peek at some new libraries like minimason and simple.css, then talk about how Rust is taking over the web, plus we'll look at some major new major frameworks like Remix and Iles. Then, I'll show you a demo of WindiCSS, a contender that offers some improvements over TailwindCSS. It's not in your mind, the pace of the web is relentless...so to keep up...it's time, for the Toolbox" />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/ep13.jpg" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="https://raybo.org/toolbox/2021-11-24-WindiCSS-Review-and-demo-Ep13/">
-    <meta name="twitter:title" content="TITLE">
-    <meta name="twitter:description" content="In this episode of the toolbox, ...so let's get started">
-    <meta name="twitter:image" content="https://raybo.org/images/toolbox/IMG.jpg">
+    <meta name="twitter:title" content="MiniMasonry, Simple.css, Rust, Iles and Big WindiCSS demo">
+    <meta name="twitter:description" content="In this episode of the toolbox, we'll take a peek at some new libraries like minimason and simple.css, then talk about how Rust is taking over the web, plus we'll look at some major new major frameworks like Remix and Iles. Then, I'll show you a demo of WindiCSS, a contender that offers some improvements over TailwindCSS. It's not in your mind, the pace of the web is relentless...so to keep up...it's time, for the Toolbox">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/ep13.jpg">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
@@ -137,7 +137,7 @@
 
     
   <header id="page-hero" class="site-header ratio ratio-16x9">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/VIDEOID" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/i-maN7uHAn4" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </header>
 
 
@@ -147,18 +147,19 @@
 >
 <main class="article-content px-3 px-sm-0 container">
 
-<h1>TITLE</h1>
-<p class="lead">In this episode of the toolbox, ...so let&#39;s get started</p>
+<h1>MiniMasonry, Simple.css, Rust, Iles and Big WindiCSS demo</h1>
+<p class="lead">In this episode of the toolbox, we&#39;ll take a peek at some new libraries like minimason and simple.css, then talk about how Rust is taking over the web, plus we&#39;ll look at some major new major frameworks like Remix and Iles. Then, I&#39;ll show you a demo of WindiCSS, a contender that offers some improvements over TailwindCSS. It&#39;s not in your mind, the pace of the web is relentless...so to keep up...it&#39;s time, for the Toolbox</p>
 
   <div class="row">
     <main class="article-content px-3 px-sm-0 main col-lg-9">
     <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern time 10am Pacific. So follow me and subscribe on all the social media things for more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.</p>
 <hr>
 <h1 id="shorts">Shorts <a class="direct-link" href="#shorts"> </a></h1>
-<p>Let's get started with some shorts. There are new tools and articles that you should know about.</p>
-<h2 id="minimason.js">MiniMason.js <a class="direct-link" href="#minimason.js"> </a></h2>
-<p>A lightweight dependency Free library for building masonry layouts. <a href="https://spope.github.io/MiniMasonry.js/">https://spope.github.io/MiniMasonry.js/</a></p>
+<p>There's a lot going on, so lets talk about the shorts, where I cover what's happening on the world of full stack development.</p>
+<h2 id="minimasonry.js">MiniMasonry.js <a class="direct-link" href="#minimasonry.js"> </a></h2>
+<p>A lightweight dependency Free library for building masonry layouts. These are a great way to organize photos of difference sizes and were popularized by social media websites. Looks like something I'd love to do a demo of in an upcoming episode. Do you think this is still a good layout? <a href="https://spope.github.io/MiniMasonry.js/">https://spope.github.io/MiniMasonry.js/</a></p>
 <h2 id="simple.css">Simple.css <a class="direct-link" href="#simple.css"> </a></h2>
+<p>This is quite possibly the simplest libray you'll find. It's meant to give you a decent enough look with a minimal of markup. Whereas most CSS frameworks make you use complex CSS classes, this one assumes that you'll be using just regular markup. This is a good option if you just need to get something up quickly.</p>
 <ul>
 <li><a href="https://simplecss.org/">Simple CSS</a></li>
 <li>spin something up very quick</li>
@@ -171,19 +172,13 @@
 </ul>
 <hr>
 <h2 id="rust">Rust <a class="direct-link" href="#rust"> </a></h2>
-<ul>
-<li><a href="https://www.rust-lang.org/">Rust</a></li>
-</ul>
-<p>Deno<br>
-esbuild<br>
-Rome</p>
-<p>most loved programming language <a href="https://insights.stackoverflow.com/survey/2016#technology-most-loved-dreaded-and-wanted">six</a></p>
-<p>used at <a href="https://engineering.fb.com/2021/04/29/developer-tools/rust/">Facebook</a>, <a href="https://twitter.com/oskargroth/status/1301502690409709568">Apple</a>, <a href="https://aws.amazon.com/blogs/opensource/why-aws-loves-rust-and-how-wed-like-to-help/">Amazon</a>, <a href="https://twitter.com/ryan_levick/status/1171830191804551168">Microsoft</a>, and <a href="https://security.googleblog.com/2021/04/rust-in-android-platform.html">Google</a></p>
-<p><a href="https://stork-search.net/">https://stork-search.net/</a></p>
+<p><a href="https://www.rust-lang.org/">Rust</a></p>
+<p>You may be wondering what's going on with the web since so many projects are moving at least part of their engines to a newer programming language called Rust instead of JavaScript. According to one of the Stack Overflow surveys, Rust was the most loved programming languages, preferred by almost 84% of programmers six years in a row.</p>
+<p>The proof is the amount of popular projects using Rust like Deno, esbuild, Rome, Parcel, Vite…it's being used by companies like Facebook, Amazon, Apple, Microsoft and Google.</p>
+<p>Rust helps programmers work with large amounts of data in a very efficient way. It uses a unique and automated memory management approach. Although it's early, it's definitely something to take a peek at.</p>
 <h2 id="iles">Iles <a class="direct-link" href="#iles"> </a></h2>
-<ul>
-<li>[Iles](<a href="https://iles-docs.netlify.app/guide/introduction">https://iles-docs.netlify.app/guide/introduction</a></li>
-</ul>
+<p>[Iles](<a href="https://iles-docs.netlify.app/guide/introduction">https://iles-docs.netlify.app/guide/introduction</a></p>
+<p>The hot new trend in frameworks is something called partial hydration. It basically means that your interactivity is not loaded until it's needed. A lot of new frameworks are adopting that approach including this one called Iles.</p>
 <p>From this article (<a href="https://css-tricks.com/does-the-next-generation-of-static-site-generators-make-building-sites-better/">https://css-tricks.com/does-the-next-generation-of-static-site-generators-make-building-sites-better/</a>)</p>
 <ul>
 <li>Ship zero JavaScript by default. Interactive bits are opt-in — that’s what the islands metaphor is all about. Astro and îles do it at the per-component level and <a href="https://kit.svelte.dev/">SvelteKit</a> prefers it at the <a href="https://kit.svelte.dev/docs#ssr-and-javascript-prerender">page level</a>.</li>
@@ -193,7 +188,15 @@ Rome</p>
 <li>File-system based routing.</li>
 <li>Assumption that Markdown is used for content.</li>
 </ul>
-<h1 id="main-event">Main Event <a class="direct-link" href="#main-event"> </a></h1>
+<h2 id="remix">Remix <a class="direct-link" href="#remix"> </a></h2>
+<p><a href="https://remix.run/">https://remix.run/</a></p>
+<p>Just this Monday, a new framework was released that was hard to ignore called Remix. I've never seen the level of pre-marketing about a new framework. This is a React based framework that is really the evolution of a popular project called React Router.</p>
+<p>They used to charge big bucks for it, but now it's an open source project that is free to use. The killer feature here is that it takes the web full circle.</p>
+<p>Remember the days where we handle most things in the server…we'll bellbottom and server side code is back with Remix. However, it takes the best of what we've learned about the new web like mostly static content, simple routing and super fast loading.</p>
+<p>One of the interesting approaches is the ability to create something called nested routes. So a page can have sub-sections that load separately. The huge advantage is sort of like what happens with modern build tools like HMR or Hot Module replacement.</p>
+<p>Sub-routes can load separately than other routes, so updates happen way quicker since only a small portion of the page has to be reloaded.</p>
+<h1 id="demo">Demo <a class="direct-link" href="#demo"> </a></h1>
+<p>Alright Let's get to the main even, which is the demo of cool stuff. Today, we're taking a look at WindiCSS, it's trying to outdo TailwindCSS, which is becoming a dominant library in the web space.</p>
 <h2 id="windicss">WindiCSS <a class="direct-link" href="#windicss"> </a></h2>
 <p><a href="https://windicss.org/">https://windicss.org/</a></p>
 <ul>
@@ -267,9 +270,8 @@ Rome</p>
 <p><a href="https://github.com/windicss/windicss-analysis"><img src="https://img.shields.io/badge/a-windicss--analysis-gray?logo=github&amp;label=" alt=""></a><a href="https://www.npmjs.com/package/windicss-analysis"><img src="https://img.shields.io/npm/v/windicss-analysis?color=cb0200&amp;label=%20&amp;logo=npm" alt=""></a><a href="https://github.com/antfu"><img src="https://img.shields.io/badge/a-%40antfu-48B0F1?label=" alt=""></a></p>
 <p>A visual analyser tool for <a href="https://github.com/windicss/windicss">Windi CSS</a>. Browse your utility usages, get an overview of your design system, identify &quot;bad practices&quot;, and more!</p>
 <hr>
-<hr>
 <h1 id="outro">Outro <a class="direct-link" href="#outro"> </a></h1>
-<p>Next week, I'm</p>
+<p>Ooo, there's a lot going on, so I'm thinking of doing maybe Astro next week since I've been meaning to try a demo of that. It finally got a new interesting release where it was re-written in Go, powered by Vite and it addedd MDX style components. I mean, I feel like they're begging me to try it now.</p>
 <p>Alright, thanks for watching. Don't forget to follow me on LinkedIn, YouTube or your favorite Social Media platforms @planetoftheweb.</p>
 <p>You can catch old episodes of the toolbox at <a href="http://raybo.org">raybo.org</a>. I'll see you next week for some more front end and full stack tooling</p>
 <hr>
@@ -308,7 +310,7 @@ Rome</p>
       <div class="">
                 <ol>
                     
-                    <li><a href="#minimason.js">MiniMason.js</a>
+                    <li><a href="#minimasonry.js">MiniMasonry.js</a>
             		</li>
 
                     <li><a href="#simple.css">Simple.css</a>
@@ -318,6 +320,9 @@ Rome</p>
             		</li>
 
                     <li><a href="#iles">Iles</a>
+            		</li>
+
+                    <li><a href="#remix">Remix</a>
             		</li>
 
                     <li><a href="#windicss">WindiCSS</a>

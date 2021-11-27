@@ -4,12 +4,61 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2021-06-03T00:00:00Z</updated>
+	<updated>2021-11-25T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Windi CSS: Is it a Tailwind CSS Killer?</title>
+		<link href="/posts/2021-11-25-Windi-CSS-The-Tailwind-CSS-Killer/"/>
+		<updated>2021-11-25T00:00:00Z</updated>
+		<id>/posts/2021-11-25-Windi-CSS-The-Tailwind-CSS-Killer/</id>
+		<content type="html">&lt;p&gt;Tailwind&#39;s utility based approach is &lt;a href=&quot;https://adamwathan.me/css-utility-classes-and-separation-of-concerns/&quot;&gt;a bit controversial&lt;/a&gt;, but it&#39;s perfect for today&#39;s component focused frameworks like React and Svelte. I&#39;ve really grown to enjoy it.&lt;/p&gt;
+&lt;p&gt;The problem with Tailwind CSS 2 is that it has a ton of classes which will create large files unless you use the PurgeCSS option.&lt;/p&gt;
+&lt;p&gt;WindiCSS was created to solve some of these problems with a JIT compiler that is a central part of how it works. Newer versions of Tailwind introduced something called the JIT compiler to fix this, which will be a standard when version 3.0 comes out soon.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Fully compatibile with Tailwind v2.0&lt;/li&gt;
+&lt;li&gt;Zero dependencies: no PostCSS or Autoprefixer&lt;/li&gt;
+&lt;li&gt;First class integration: Vite, Rollup and it also offer it&#39;s own CLI, if you want to roll your own build process.&lt;/li&gt;
+&lt;li&gt;Condensed manual&lt;/li&gt;
+&lt;li&gt;Additional Features&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&quot;variant-groups&quot;&gt;Variant Groups &lt;a class=&quot;direct-link&quot; href=&quot;#variant-groups&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Variant Groups&lt;a href=&quot;https://windicss.org/features/#variant-groups&quot;&gt;#&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Group variants with parenthesis&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;bg-white dark:hover:(bg-gray-800 font-medium text-white)&amp;quot;/&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;extended-breakpoint-control&quot;&gt;Extended Breakpoint Control &lt;a class=&quot;direct-link&quot; href=&quot;#extended-breakpoint-control&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Extended responsive breakpoint control gives you a way to declare better ranges of media queries.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;p-1 md:p-2 &amp;lt;lg:p-3&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;reusable-components&quot;&gt;Reusable components &lt;a class=&quot;direct-link&quot; href=&quot;#reusable-components&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Quickly combine utilities to create reusable components using a windi.config file. The regular Tailwinds can do the same, but I think the configuration is a bit easier to follow in WindiCSS without the @apply keyword.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;windi.config.js&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;export default {
+  shortcuts: {
+    &#39;btn&#39;: &#39;py-2 px-4 font-semibold rounded-lg shadow-md&#39;
+  },
+}
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;btn&amp;quot;&amp;gt;More Info&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;rtl-support&quot;&gt;RTL Support &lt;a class=&quot;direct-link&quot; href=&quot;#rtl-support&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Right to left support for languages that need it.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;&amp;lt;div class=&amp;quot;text-green-400 rtl:(text-red-400 text-right)&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&quot;visual-analyzer&quot;&gt;Visual Analyzer &lt;a class=&quot;direct-link&quot; href=&quot;#visual-analyzer&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;You can use a visual analyzer through npx, or by downloading the VSCode extension. It gives you some excellent information about your application.&lt;/p&gt;
+&lt;h3 id=&quot;no-jit&quot;&gt;No JIT &lt;a class=&quot;direct-link&quot; href=&quot;#no-jit&quot;&gt; &lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;The newest version of TailwindCSS has one advantage and that&#39;s the CDN JIT version, which lets you build a custom css file from a CDN. That makes it easier to do demos, but iit means that you&#39;re going to need a build process to try out Windi. There is, however a cool &lt;a href=&quot;https://windicss.org/play.html&quot;&gt;online playground&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;A visual analyzer tool for &lt;a href=&quot;https://github.com/windicss/windicss&quot;&gt;Windi CSS&lt;/a&gt;. Browse your utility usages, get an overview of your design system, identify &amp;quot;bad practices&amp;quot;, and more!&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>GitHub Copilot Demo and Review</title>

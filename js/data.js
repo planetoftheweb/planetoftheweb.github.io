@@ -1,4 +1,18 @@
 [{
+  "title": "Windi CSS: Is it a Tailwind CSS Killer?",
+  "date" : "Nov 25, 2021",
+  "summary" : "When it was released, Tailwind CSS is of those frameworks that made everyone notice. Popularity, breeds competition and there&#39;s a contender that&#39;s been gaining ground called WindiCSS. Let&#39;s take a look at why you&#39;d want to consider it, and then we&#39;ll build something with it.",
+  "thumbnail": "/images/posts/windi_tn.jpg",
+  "url": "/posts/2021-11-25-Windi-CSS-The-Tailwind-CSS-Killer/",
+  "tags" : ""
+},{
+  "title": "MiniMasonry, Simple.css, Rust, Iles and Big WindiCSS demo",
+  "date" : "Nov 24, 2021",
+  "summary" : "In this episode of the toolbox, we&#39;ll take a peek at some new libraries like minimason and simple.css, then talk about how Rust is taking over the web, plus we&#39;ll look at some major new major frameworks like Remix and Iles. Then, I&#39;ll show you a demo of WindiCSS, a contender that offers some improvements over TailwindCSS. It&#39;s not in your mind, the pace of the web is relentless...so to keep up...it&#39;s time, for the Toolbox",
+  "thumbnail": "/images/toolbox/ep13_tn.jpg",
+  "url": "/toolbox/2021-11-24-WindiCSS-Review-and-demo-Ep13/",
+  "tags" : ""
+},{
   "title": "The Nuclear Fusion",
   "date" : "Nov 19, 2021",
   "summary" : "What does Nuclear Fusion have to do with JavaScript, the big Meta and recording live action videos? I&#39;m not sure, but I think I figured something out this week as I worked through all the changes around me. I don&#39;t think I&#39;m going to be in the Meta Universe, but the change is the weird part I enjoy.",
@@ -8,7 +22,7 @@
 },{
   "title": "Carousels, Multi Repo CLI and Coding Fonts - Episode 12",
   "date" : "Nov 17, 2021",
-  "summary" : "In this episode of the toolbox, I&#39;m going to try out one of the most feature-full carousel frameworks out there called SplideJS, plus in the shorts, I talk about the State of the Octoverse, why the creator of Svelte, just got hired by Vercel...Plus, we&#39;re looking for teachers at LinkedIn Learning. It&#39;s Wednesday November 17 and this is Episode 12...so let&#39;s get started",
+  "summary" : "In this episode of the toolbox, I&#39;m going to try out one of the most feature-full carousel frameworks out there called SplideJS, plus in the shorts, I talk about the State of the Octoverse, why the creator of Svelte, just got hired by Vercel...Plus, we&#39;re looking for teachers at LinkedIn Learning. It&#39;s Wednesday November 24 and this is Episode 12...so let&#39;s get started",
   "thumbnail": "/images/toolbox/episode12_tn.jpg",
   "url": "/toolbox/2021-11-17-Carousels,-Multi-Repo-CLI-and-Coding-Fonts-Ep12/",
   "tags" : ""
