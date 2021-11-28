@@ -1,4 +1,11 @@
 [{
+  "title": "The New Lingo",
+  "date" : "Nov 27, 2021",
+  "summary" : "When I was a boy, my family moved about every three years to a new country. Although every one spoke spanish, the language wasn&#39;t the same. There are new words to learn, old words with new meaning and things you can say in one country that shouldn&#39;t be said in another. It&#39;s the same way with web development.",
+  "thumbnail": "/images/newsletter/newframeworks_tn.jpg",
+  "url": "/newsletter/2021-11-27-The-New-Lingo/",
+  "tags" : ""
+},{
   "title": "Windi CSS: Is it a Tailwind CSS Killer?",
   "date" : "Nov 25, 2021",
   "summary" : "When it was released, Tailwind CSS is of those frameworks that made everyone notice. Popularity, breeds competition and there&#39;s a contender that&#39;s been gaining ground called WindiCSS. Let&#39;s take a look at why you&#39;d want to consider it, and then we&#39;ll build something with it.",
