@@ -10,7 +10,7 @@
   "date" : "Dec 03, 2021",
   "summary" : "I don&#39;t like learning new things as much as the next person, but when everyone starts screaming about the next new framework everyone &#39;loves&#39;, I begin to understand why too much curiosity can be a bad thing.",
   "thumbnail": "/images/posts/learningastro_tn.jpg",
-  "url": "URL",
+  "url": "/posts/2021-12-03-Should-I-Bother-Learning-the-Astro-JavaScript-Framework/",
   "tags" : "full stack development,javascript,frameworks"
 },{
   "title": "The Distinctive Difference",
