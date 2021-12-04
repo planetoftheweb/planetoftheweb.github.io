@@ -41,7 +41,6 @@
 &lt;li&gt;&lt;code&gt;src/pages&lt;/code&gt; - pages, which can be either &lt;code&gt;.astro&lt;/code&gt; or &lt;code&gt;.md&lt;/code&gt; files&lt;/li&gt;
 &lt;li&gt;&lt;code&gt;public&lt;/code&gt; - Anything you want to just be copied into the root of the site.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&quot;installation&quot;&gt;Installation &lt;a class=&quot;direct-link&quot; href=&quot;#installation&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;h2 id=&quot;single-file-components&quot;&gt;Single File Components &lt;a class=&quot;direct-link&quot; href=&quot;#single-file-components&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Files with an &lt;code&gt;.astro&lt;/code&gt; extensions are single file components. They can be as simple as an html snippet.&lt;/p&gt;
 &lt;p&gt;One of the interesting features is that styles created with the &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag are scoped to these components, so that you don&#39;t have to worry about style names colliding with other styles. They are optimized with the build for you.&lt;/p&gt;
