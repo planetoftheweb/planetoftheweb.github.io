@@ -4,12 +4,59 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2021-11-25T00:00:00Z</updated>
+	<updated>2021-12-03T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Should I bother learning Astro?</title>
+		<link href="/posts/2021-12-03-Should-I-Bother-Learning-the-Astro-JavaScript-Framework/"/>
+		<updated>2021-12-03T00:00:00Z</updated>
+		<id>/posts/2021-12-03-Should-I-Bother-Learning-the-Astro-JavaScript-Framework/</id>
+		<content type="html">&lt;p&gt;When I start trying out a new framework, there&#39;s something deep within my heart that doesn&#39;t want to like it. Just like you, I&#39;m often thinking I like what I&#39;m using just fine at the moment.&lt;/p&gt;
+&lt;p&gt;Just as I thought, after trying Astro, I found some of it was surprisingly good, and other things frustrating. Here&#39;s the good, bad and ugly bits of the hottest new framework that according to my friend Morten…everyone&#39;s heard about, but no-one is using (he makes me laugh too).&lt;/p&gt;
+&lt;h2 id=&quot;the-heck-is-astro%3F&quot;&gt;The heck is Astro? &lt;a class=&quot;direct-link&quot; href=&quot;#the-heck-is-astro%3F&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;At its core, Astro is a static site builder. In that way it&#39;s like Eleventy, or Gatsby or Next.js and others. There&#39;s a great page on their site that compares how Astro &lt;a href=&quot;https://docs.astro.build/comparing-astro-vs-other-tools/&quot;&gt;stacks up against other frameworks&lt;/a&gt;. It&#39;s surprisingly thorough, so take a look at that if you&#39;re thinking of using it.&lt;/p&gt;
+&lt;p&gt;Every new framework has to have a new hook, something that makes it different and hopefully better than what came before. For astro that is a feature called hydration. It&#39;s the though that your scripts shouldn&#39;t load if the page isn&#39;t ready to use them yet. This can make for a much faster experience.&lt;/p&gt;
+&lt;p&gt;I appreciate performance just as much as the next person, but it&#39;s never been a reason for me to love something new. When I worked for Tribune Interactive, I spent about a month squeezing every kilobyte out of my CSS files, so I care…I really care…but it doesn&#39;t help when a single image is way larger than any CSS I ever wrote.&lt;/p&gt;
+&lt;p&gt;Still, the concept is solid and this framework is much more than just about hydration.&lt;/p&gt;
+&lt;h2 id=&quot;it&#39;s-a-baby&quot;&gt;It&#39;s a Baby &lt;a class=&quot;direct-link&quot; href=&quot;#it&#39;s-a-baby&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/2021-11-30_01-00-49.png&quot; alt=&quot;Astro 2.1&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;As far as frameworks Go, Astro is still a baby at only version .21, it&#39;s practically a newborn, but don&#39;t let that fool you. It&#39;s a baby like when a Terminator is fully born with some impressive features.&lt;/p&gt;
+&lt;p&gt;However, keep that in mind if you want to do something with it today. In the last version, the &lt;a href=&quot;https://astro.build/blog/astro-021-release/&quot;&gt;internals were re-written&lt;/a&gt; to use Vite as the build engine (good choice) as well as Go for the compiler.&lt;/p&gt;
+&lt;h2 id=&quot;any-framework&quot;&gt;Any Framework &lt;a class=&quot;direct-link&quot; href=&quot;#any-framework&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Interesting enough, I&#39;m noticing more and more frameworks that offer the option of using other frameworks, multiple frameworks or nothing at all. I&#39;m not sure I&#39;d ever need a ton of frameworks, but that&#39;s interesting and the type of open mindedness I like.&lt;/p&gt;
+&lt;p&gt;It&#39;s one of the things that makes me leery about using something like Next, Gatsby and others, I don&#39;t want to be married to a specific framework, so that&#39;s a plus. It&#39;s why I&#39;m currently using Eleventy, it&#39;s dirt simple and doesn&#39;t try to do too much.&lt;/p&gt;
+&lt;h2 id=&quot;markdown-components&quot;&gt;Markdown Components &lt;a class=&quot;direct-link&quot; href=&quot;#markdown-components&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;This is one of those features I didn&#39;t understand until I gave it a try. I love markdown, but I&#39;ve never really been too much of a fan of MDX, which tries to combine the best of markdown with the worst of JSX (or the best if you&#39;re into it), Basically, I dislike the concept of taking something beautifully simple like Markdown with YAML and making people write embedded JavaScript.&lt;/p&gt;
+&lt;h2 id=&quot;routing&quot;&gt;Routing &lt;a class=&quot;direct-link&quot; href=&quot;#routing&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Astro generates routes that map to URLs when you publish a site. it assumes that you&#39;ll start your files in the source/pages directory and pretty much everything in there gets turned into a route.&lt;/p&gt;
+&lt;p&gt;Files are nicely organized into a series of folders mostly inside an &lt;code&gt;src&lt;/code&gt; folder.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;code&gt;src/components&lt;/code&gt; - small pieces of code in js, react, vue, whatever&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/layouts&lt;/code&gt; - page templates and small layouts&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;src/pages&lt;/code&gt; - pages, which can be either &lt;code&gt;.astro&lt;/code&gt; or &lt;code&gt;.md&lt;/code&gt; files&lt;/li&gt;
+&lt;li&gt;&lt;code&gt;public&lt;/code&gt; - Anything you want to just be copied into the root of the site.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;installation&quot;&gt;Installation &lt;a class=&quot;direct-link&quot; href=&quot;#installation&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;h2 id=&quot;single-file-components&quot;&gt;Single File Components &lt;a class=&quot;direct-link&quot; href=&quot;#single-file-components&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Files with an &lt;code&gt;.astro&lt;/code&gt; extensions are single file components. They can be as simple as an html snippet.&lt;/p&gt;
+&lt;p&gt;One of the interesting features is that styles created with the &lt;code&gt;&amp;lt;style&amp;gt;&lt;/code&gt; tag are scoped to these components, so that you don&#39;t have to worry about style names colliding with other styles. They are optimized with the build for you.&lt;/p&gt;
+&lt;p&gt;Another is the addition of dynamic components with the use of a frontmatter script. The frontmatter is what normally goes inside two codefences &lt;code&gt;---&lt;/code&gt; that you often see containing some YAML on other static site builders.&lt;/p&gt;
+&lt;h2 id=&quot;title&quot;&gt;TITLE &lt;a class=&quot;direct-link&quot; href=&quot;#title&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;URL&quot;&gt;&lt;img src=&quot;IMG&quot; alt=&quot;TITLE&quot; /&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;DESCRIPTION&lt;/p&gt;
+&lt;hr /&gt;
+&lt;p&gt;Utilities&lt;/p&gt;
+&lt;p&gt;&lt;lite-youtube videoid=&quot;VIDEO&quot;&gt;&lt;/lite-youtube&gt;&lt;/p&gt;
+&lt;div class=&quot;article-side-image&quot;&gt;
+&lt;p&gt;&lt;img src=&quot;SIDE_IMG_URL&quot; alt=&quot;SIDE_TITLE&quot; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Windi CSS: Is it a Tailwind CSS Killer?</title>

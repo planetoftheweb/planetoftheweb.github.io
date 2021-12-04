@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Raybo.org</title>
 
-    <meta name="description" content="Learn full-stack developer skills with a clear, practical style" />
-    <meta property="og:title" content="Raybo.org" />
-    <meta property="og:description" content="Learn full-stack developer skills with a clear, practical style" />
-    <meta property="og:image" content="https://raybo.org/images/raybo.jpg" />
+    <meta name="description" content="In this episode of the toolbox, we'll start off with developer news, the rise of the meta frameworks, and a review/demo of Astro, which just did a re-write a few weeks ago. You're not imagining things" />
+    <meta property="og:title" content="The Rise of the Meta Frameworks - EP 14" />
+    <meta property="og:description" content="In this episode of the toolbox, we'll start off with developer news, the rise of the meta frameworks, and a review/demo of Astro, which just did a re-write a few weeks ago. You're not imagining things" />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/episode14.jpg" />
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://raybo.org/tags/full stack development/">
-    <meta name="twitter:title" content="Raybo.org">
-    <meta name="twitter:description" content="Learn full-stack developer skills with a clear, practical style">
-    <meta name="twitter:image" content="https://raybo.org/images/raybo.jpg">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2021-12-01-21-The-Rise-of-the-Meta-Frameworks-EP-14/">
+    <meta name="twitter:title" content="The Rise of the Meta Frameworks - EP 14">
+    <meta name="twitter:description" content="In this episode of the toolbox, we'll start off with developer news, the rise of the meta frameworks, and a review/demo of Astro, which just did a re-write a few weeks ago. You're not imagining things">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode14.jpg">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
@@ -41,7 +41,7 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
   <body class="position-relative bg-dark">
-    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  fixed-top  py-0">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
   <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
@@ -136,113 +136,66 @@
 </nav>
 
     
+  <header id="page-hero" class="site-header ratio ratio-16x9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YYl5BPePwTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
 
  
 <article id="main-content" class="site-main container mt-3 mb-5"
-style="padding-top: 80px"
+
 >
-<p>See <a href="/tags/">all tags</a>.</p>
-<h2 class="text-secondary mb-5">Tagged <small>“full stack development”</small></h2>
-  
+<main class="article-content px-3 px-sm-0 container">
 
-  
+<h1>The Rise of the Meta Frameworks - EP 14</h1>
+<p class="lead">In this episode of the toolbox, we&#39;ll start off with developer news, the rise of the meta frameworks, and a review/demo of Astro, which just did a re-write a few weeks ago. You&#39;re not imagining things</p>
 
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  mb-3 ">
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <h2 id="news">News <a class="direct-link" href="#news"> </a></h2>
+<p>Let's get started with some news. Recent articles that you should know about if you're a web developer.</p>
+<p><a href="https://www.nytimes.com/2021/11/29/technology/parag-agrawal-twitter.html"><img src="http://pixelprowess.com/i/2021-12-03_22-43-57.png" alt="Who is Parag Agrawal"></a></p>
+<p>Of course, the biggest announcement this week Jack Dorsey being replaced by a new CEO at Twitter. Parag Agrawal has an opportunity to reboot Twitter, which in my opinion could use some serious changes beyond the technological.</p>
+<p><a href="https://www.vice.com/en/article/epxxb4/fired-employees-sue-google-for-breaching-dont-be-evil-part-of-contract?utm_source=reddit.com"><img src="http://pixelprowess.com/i/2021-12-03_22-46-03.png" alt="Fired Google Employees Sue Google"></a></p>
+<p>Another interesting article was that some employees who were fired from Google are trying to a 'Don't be Evil' defense. I'm not sure how good that will work for them, but it's an intersting legal approach.</p>
+<p><a href="https://www.edweek.org/teaching-learning/teaching-in-the-metaverse-roblox-looks-to-make-it-a-reality/2021/11"><img src="http://pixelprowess.com/i/2021-12-03_22-50-44.png" alt="Roblox in the Meta Verse"></a></p>
+<p>If you're a developer or plan to be a developer in the future, there's a new Wild West coming. It's called the Metaverse. In this article, you can hear of how companies like Roblox are seeking to get their</p>
+<h2 id="toolbox-shorts">Toolbox Shorts <a class="direct-link" href="#toolbox-shorts"> </a></h2>
+<p>Lets take a look at some of the new tools in the industry.</p>
+<p><a href="https://unocss.antfu.me/"><img src="http://pixelprowess.com/i/2021-12-03_23-01-13.png" alt="Uno CSS"></a></p>
+<p>Last week, we covered WindiCSS, an alternative to Tailwind CSS with a few more interesting features. This week, I found out that the developer of Windi CSS has a new project, Uno CSS, which has some related features. It's pretty much in early beta now, but looks like a promising framework.</p>
+<p><a href="https://gridsome.org/"><img src="http://pixelprowess.com/i/2021-12-03_23-17-02.png" alt=""></a></p>
+<p>One of the interesting new developments is the rise of the embedded frameworks, which are frameworks based on a specific framework like this one called Gridsome. Based on Vue.js with lots of new features.</p>
+<p><a href="https://slinkity.dev/"><img src="http://pixelprowess.com/i/2021-12-03_23-20-23.png" alt="Slinkity"></a></p>
+<p>Another new...thing is Slinkity, which is built on top of another framework. That's sort of confusing, so I'm not even trying to figure out what to call it, but at least for now, it's a plugin to Eleventy. It's also in alpha, but it gives Eleventy features like Astro like hydration, shortcodes and plays nicely with other frameworks like React and Vue.</p>
+<h2 id="main-event">Main Event <a class="direct-link" href="#main-event"> </a></h2>
+<p><a href="https://astro.build"><img src="http://pixelprowess.com/i/2021-12-03_23-35-38.png" alt="Astro"></a></p>
+<p>At its core, Astro is a static site builder. In that way it's like Eleventy, or Gatsby or Next.js and others. There's a great page on their site that compares how Astro <a href="https://docs.astro.build/comparing-astro-vs-other-tools/">stacks up against other frameworks</a>. It's surprisingly thorough, so take a look at that if you're thinking of using it.</p>
+<p>Every new framework has to have a new hook, something that makes it different and hopefully better than what came before. For astro that is a feature called hydration. It's the thought that your scripts shouldn't load if the page isn't ready to use them yet. This can make for a much faster experience.</p>
+<p>I appreciate performance just as much as the next person, but it's never been a reason for me to love something new. When I worked for Tribune Interactive, I spent about a month squeezing every kilobyte out of my CSS files, so I care…I really care…but it doesn't help when a single image is way larger than any CSS I ever wrote.</p>
+<p>Still, the concept is solid and this framework is much more than just about hydration.</p>
 
-    
-      <div class="col-md-3">
-        <a href="URL" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title text-light w-100 img-fluid rounded" src="/images/posts/learningastro_tn.jpg" alt="Should I bother learning Astro? image">
-        </a>
-      </div>
-    
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#news">News</a>
+            		</li>
 
-    <div class="col-md-9"> 
-      <a href="URL" class="item-title text-light h1 mb-0 d-block text-decoration-none" >Should I bother learning Astro?</a>
-      <div class="small d-block">
-        <a href="/posts/0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
+                    <li><a href="#toolbox-shorts">Toolbox Shorts</a>
+            		</li>
 
-        
-
-        
-
-        
-          <i class="bi bi-file-earmark-richtext"></i>
-        
-
-        
-        posts</a> | <time class="item-date" datetime="Dec 03, 2021">Dec 03, 2021</time></div>
-      <div class="fs-6 text-body">I don't like learning new things as much as the next person, but when everyone starts screaming about the next new framework everyone 'loves', I begin to understand why too much curiosity can be a bad thing.</div>
-      
-  <div class="item-links">
-  
-    
-    
-    
-    
-    
-    <i class="bi bi-globe"></i>
-  
-  </div>
-  
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-      <div class="col-md-3">
-        <a href="URL" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title text-light w-100 img-fluid rounded" src="/images/shorts/2021-10-24_17-36-20.png" alt="Eta Templater image">
-        </a>
-      </div>
-    
-
-    <div class="col-md-9"> 
-      <a href="URL" class="item-title text-light h1 mb-0 d-block text-decoration-none" >Eta Templater</a>
-      <div class="small d-block">
-        <a href="/posts/0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-          <i class="bi bi-file-earmark-richtext"></i>
-        
-
-        
-        posts</a> | <time class="item-date" datetime="Oct 24, 2021">Oct 24, 2021</time></div>
-      <div class="fs-6 text-body">I hadn't heard of this templating system, but it claims to be a successor to EJS, which I really loved before I got into Eleventy and Liquid.</div>
-      
-  <div class="item-links">
-  
-    
-    
-    
-    
-    
-    <i class="bi bi-globe"></i>
-  
-  </div>
-  
-
-    </div>
-  </div>
+                    <li><a href="#main-event">Main Event</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
 </article>
 
   <footer class="site-footer bg-transparent pb-3 pb-md-5">

@@ -1,4 +1,32 @@
 [{
+  "title": "MarkApp",
+  "date" : "Dec 03, 2021",
+  "summary" : "MarkApp is a small site by Lea Verou to showcase a few declarative HTML libraries. They let you add interactivity to your sites without having to write anyJavascript. I think too many of these could be a problem, but dang it..sometimes you just want to get things done.",
+  "thumbnail": "shortshttp://pixelprowess.com/i/2021-12-02_10-56-54.png",
+  "url": "http://markapp.io",
+  "tags" : "external"
+},{
+  "title": "Should I bother learning Astro?",
+  "date" : "Dec 03, 2021",
+  "summary" : "I don&#39;t like learning new things as much as the next person, but when everyone starts screaming about the next new framework everyone &#39;loves&#39;, I begin to understand why too much curiosity can be a bad thing.",
+  "thumbnail": "/images/posts/learningastro_tn.jpg",
+  "url": "URL",
+  "tags" : "full stack development,javascript,frameworks"
+},{
+  "title": "The Distinctive Difference",
+  "date" : "Dec 03, 2021",
+  "summary" : "There&#39;s a discussion that goes around and around in developer circles. No, it&#39;s not the &#39;gif&#39; versus &#39;jif&#39; argument or whether tabs are better than spaces. It&#39;s surprisingly, the definition of what the word framework means.",
+  "thumbnail": "/images/newsletter/differences_tn.jpg",
+  "url": "/newsletter/2021-12-03-The-Distinctive-Difference/",
+  "tags" : ""
+},{
+  "title": "The Rise of the Meta Frameworks - EP 14",
+  "date" : "Dec 01, 2021",
+  "summary" : "In this episode of the toolbox, we&#39;ll start off with developer news, the rise of the meta frameworks, and a review/demo of Astro, which just did a re-write a few weeks ago. You&#39;re not imagining things",
+  "thumbnail": "/images/toolbox/episode14_tn.jpg",
+  "url": "/toolbox/2021-12-01-21-The-Rise-of-the-Meta-Frameworks-EP-14/",
+  "tags" : ""
+},{
   "title": "The New Lingo",
   "date" : "Nov 27, 2021",
   "summary" : "When I was a boy, my family moved about every three years to a new country. Although every one spoke spanish, the language wasn&#39;t the same. There are new words to learn, old words with new meaning and things you can say in one country that shouldn&#39;t be said in another. It&#39;s the same way with web development.",
