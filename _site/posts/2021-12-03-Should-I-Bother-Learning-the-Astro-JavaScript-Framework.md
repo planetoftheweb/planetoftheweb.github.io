@@ -2,10 +2,9 @@
 layout: post.njk
 title: "Should I bother learning Astro?"
 summary: "I don't like learning new things as much as the next person, but when everyone starts screaming about the next new framework everyone 'loves', I begin to understand why too much curiosity can be a bad thing."
+hero: /images/posts/learningastro.png
 thumb: /images/posts/learningastro_tn.jpg
 video: YYl5BPePwTM
-links:
-  - website: URL
 category: posts
 tags:
   - full stack development
@@ -13,9 +12,9 @@ tags:
   - frameworks
 ---
 
-When I start trying out a new framework, there's something deep within my heart that doesn't want to like it. Just like you, I'm often thinking I like what I'm using just fine at the moment.
+There's something about trying out new frameworks that I just don't like. Just like anyone else, I feel like what I'm using just fine at the moment. But I'm always curious when Ieveryone starts talking about the next cool thing.
 
-Just as I thought, after trying Astro, I found some of it was surprisingly good, and other things frustrating. Here's the good, bad and ugly bits of the hottest new framework that according to my friend Morten…everyone's heard about, but no-one is using (he makes me laugh too).
+I'm lucky to have a job where I get to try these things out, so here, so here's my take on Astro. I'll give you a rundown on what makes astro special as well as it's shortcomings. Finally,
 
 ## The heck is Astro?
 
@@ -65,21 +64,3 @@ Files with an `.astro` extensions are single file components. They can be as sim
 One of the interesting features is that styles created with the `<style>` tag are scoped to these components, so that you don't have to worry about style names colliding with other styles. They are optimized with the build for you.
 
 Another is the addition of dynamic components with the use of a frontmatter script. The frontmatter is what normally goes inside two codefences `---` that you often see containing some YAML on other static site builders.
-
-## TITLE
-
-[![TITLE](IMG)](URL)
-
-DESCRIPTION
-
----
-
-Utilities
-
-<lite-youtube videoid="VIDEO"></lite-youtube>
-
-<div class="article-side-image">
-
-![SIDE_TITLE](SIDE_IMG_URL)
-
-</div>
