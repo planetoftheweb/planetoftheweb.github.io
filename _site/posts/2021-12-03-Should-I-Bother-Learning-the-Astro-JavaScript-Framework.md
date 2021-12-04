@@ -55,8 +55,6 @@ Files are nicely organized into a series of folders mostly inside an `src` folde
 - `src/pages` - pages, which can be either `.astro` or `.md` files
 - `public` - Anything you want to just be copied into the root of the site.
 
-## Installation
-
 ## Single File Components
 
 Files with an `.astro` extensions are single file components. They can be as simple as an html snippet.
