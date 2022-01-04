@@ -13,7 +13,7 @@ Lately in the episodes of my series called [The Toolbox](https://raybo.org/toolb
 
 Most of the courses I'd been doing are what we call 'screen cap'. It works well, but I'd always wondered if there was a better way. The Toolbox has been a source of experimentation in the past year. Here's a clip so you can see what I've been up to.
 
-<iframe src="https://www.youtube.com/watch?v=3PSu4tGWeq8" width="744" height="419" title="Embedded article content"></iframe>
+<lite-youtube videoid="3PSu4tGWeq8"></lite-youtube>
 
 My plan was to try to do something weekly; One or two actionable tips covering new, cutting edge material: new frameworks, JS/CSS features, news, great new tooling and maybe an interview here and there. The sort of stuff that wouldn't work as part of my courses.
 
@@ -39,7 +39,7 @@ Astro looks so promising you should pay attention to it. The way that it uses pa
 
 Last year we saw companies like [Vercel](https://vercel.com/) and [Netlify](https://www.netlify.com/) got large infusions of cash. Vercel made some strategic investments, hiring Rich Harris, the main developer of [Svelte](https://svelte.dev/) and also buying up [TurboRepo](https://turborepo.org/). Keep an eye on Svelte, it's due to have a breakthrough year.
 
-<iframe src="https://www.youtube.com/watch?v=uQntFkK8Z54" width="744" height="419" title="Embedded article content"></iframe>
+<lite-youtube videoid="uQntFkK8Z54"></lite-youtube>
 
 Definitely watch this interview from the folks at Vercel where Rich talks about the future of the platform. Also, here's a course I did that's an introduction to Svelte.
 
@@ -49,7 +49,7 @@ Definitely watch this interview from the folks at Vercel where Rich talks about 
 
 New frameworks like Shopify's [Hydrogen](https://hydrogen.shopify.dev/) and [Remix](https://remix.run/) are going back to the server. Servers are great at caching, storing and processing lots of data. The Serverless movement tried to make life easier by pre-rendering content, but shouldn't the server do that anyways. It's a pain to pre-render content locally and then upload it, so why not let the server do it. That's where these frameworks are trying to go.
 
-<iframe src="https://www.youtube.com/watch?v=YYl5BPePwTM" width="744" height="419" title="Embedded article content"></iframe>
+<lite-youtube videoid="YYl5BPePwTM"></lite-youtube>
 
 ### JavaScript
 
@@ -63,13 +63,9 @@ If you don't know CSS Grid yet, you should probably spend some time with it. You
 
 You should learn about object fit (Tailwinds example above, it works just like CSS), since it helps your images work like the older backgrounds. Container queries is another hot topic, but it's been in flux so I'd wait a while to bother about it. Everyone is going to be making some videos about it though. You should also check out feature queries, gap, scroll snap, :is/:where. There's also filters and shapes that are going to change what people can do with layouts.
 
-## How to Learn Everything
+## How to Stay Up to Date
 
-[
-
-![No alt text provided for this image](https://media-exp1.licdn.com/dms/image/C4E12AQE760mWc7hVSQ/article-inline_image-shrink_1500_2232/0/1641223485914?e=1646870400&v=beta&t=IM_Sd1GeOxxQmAhsb7aAsluKnkZN4DIhJmyVE2ySHcE)
-
-](http://raybo.org/toolbox/0/)
+[![No alt text provided for this image](https://media-exp1.licdn.com/dms/image/C4E12AQE760mWc7hVSQ/article-inline_image-shrink_1500_2232/0/1641223485914?e=1646870400&v=beta&t=IM_Sd1GeOxxQmAhsb7aAsluKnkZN4DIhJmyVE2ySHcE)](http://raybo.org/toolbox/0/)
 
 My goal this year is to make keeping up with the web part of [The Toolbox](https://raybo.org/toolbox/0/). I'll do a weekly episode with breaks when I have to. I'll be covering emerging frameworks, JavaScript/CSS trends, hot new tools and feature interviews with people doing the work.
 
