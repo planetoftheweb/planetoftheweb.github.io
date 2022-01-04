@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "MiniMasonry, Simple.css, Rust, Iles and Big WindiCSS demo"
+title: "MiniMasonry, Simple.css, Rust, Iles and Big WindiCSS-Ep13"
 summary: "In this episode of the toolbox, we'll take a peek at some new libraries like minimason and simple.css, then talk about how Rust is taking over the web, plus we'll look at some major new major frameworks like Remix and Iles. Then, I'll show you a demo of WindiCSS, a contender that offers some improvements over TailwindCSS. It's not in your mind, the pace of the web is relentless...so to keep up...it's time, for the Toolbox"
 hideDesc: true
 video: i-maN7uHAn4
@@ -23,7 +23,7 @@ A lightweight dependency Free library for building masonry layouts. These are a 
 
 ## Simple.css
 
-This is quite possibly the simplest libray you'll find. It's meant to give you a decent enough look with a minimal of markup. Whereas most CSS frameworks make you use complex CSS classes, this one assumes that you'll be using just regular markup. This is a good option if you just need to get something up quickly.
+This is quite possibly the simplest library you'll find. It's meant to give you a decent enough look with a minimal of markup. Whereas most CSS frameworks make you use complex CSS classes, this one assumes that you'll be using just regular markup. This is a good option if you just need to get something up quickly.
 
 - [Simple CSS](https://simplecss.org/)
 - spin something up very quick
@@ -181,49 +181,3 @@ Ooo, there's a lot going on, so I'm thinking of doing maybe Astro next week sinc
 Alright, thanks for watching. Don't forget to follow me on LinkedIn, YouTube or your favorite Social Media platforms @planetoftheweb.
 
 You can catch old episodes of the toolbox at raybo.org. I'll see you next week for some more front end and full stack tooling
-
----
-
-##
-
-[![TITLE](IMG)](URL)
-
-DESCRIPTION
-
----
-
-# TITLE
-
-DESCRIPTION
-
-<lite-youtube videoid="6YJfZE8UUXg"></lite-youtube>
-
-<div class="article-side-image">
-
-</div>
-
-### URLs
-
-- **[TITLE](LINK)**: TYPEDLINK
-- **[TITLE](LINK)**: TYPEDLINK
-- **[TITLE](LINK)**: TYPEDLINK
-
----
-
-# PostFix
-
-## Next Episode
-
-[![IMG_URL](TITLE)](LINK)
-
-DESCRIPTION
-
----
-
-## Newsletter
-
-[![IMG_URL](TITLE)](LINK)
-
-- **Subscribe**: [Apply Newsletter](<[https://go.raybo.org/5Tbq](https://go.raybo.org/5Tbq)>)
-
-DESCRIPTION

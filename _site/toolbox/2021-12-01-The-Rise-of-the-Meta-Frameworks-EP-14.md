@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Rise of the Meta Frameworks - EP 14"
+title: "The Rise of the Meta Frameworks-Ep14"
 summary: "In this episode of the toolbox, we'll start off with developer news, the rise of the meta frameworks, and a review/demo of Astro, which just did a re-write a few weeks ago. You're not imagining things"
 hideDesc: true
 video: YYl5BPePwTM
