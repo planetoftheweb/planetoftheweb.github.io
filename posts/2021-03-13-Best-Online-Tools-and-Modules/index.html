@@ -177,9 +177,9 @@
 <p><a href="https://github.com/Rich-Harris/degit"><img src="http://pixelprowess.com/i/2021-03-15_01-47-33.png" alt="Degit"></a></p>
 <p>Ok, what if you want to create a project based on someone else's Github Repo, but you don't want to fork...or maybe you forgot to create a template based on the repo. You might even be looking to clone a specific branch and you definitely want to start off with a clean history.</p>
 <p>This is where Degit has some advanced features that makes this easy. It is a CLI that you'll need to install globally</p>
-<pre class="language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> -g degit</code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line"><span class="token function">npm</span> <span class="token function">install</span> -g degit</span></code></pre>
 <p>Once you've done that, you can easily clone any repo's latest state with a simple format.</p>
-<pre class="language-bash"><code class="language-bash">degit planetoftheweb/bootstrap4layouts my-project</code></pre>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line">degit planetoftheweb/bootstrap4layouts my-project</span></code></pre>
 <p>It assumes you'll be cloning from Github, but you can also specify others by prefixing a keyword like <code>degit bitbucket:user/project</code></p>
 <p>If you want to clone just a sub-directory, you can simply add slashes to read the right directory <code>degit planetoftheweb/bootstrap4layouts/build</code>, but you can also clone specific branches, releases or commit hashes.</p>
 <p>The big advantage here is that you're cloning the repo without history, so you can grab a piece of a project to begin a new project easily.</p>

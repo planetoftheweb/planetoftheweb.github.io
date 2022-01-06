@@ -6,12 +6,12 @@
     <title>Raybo.org</title>
 
     <meta name="description" content="In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test." />
-    <meta property="og:title" content="Why JavaScript is Definitely Weird: The Toolbox - Episode 00" />
+    <meta property="og:title" content="Why JavaScript is Definitely Weird-Ep00" />
     <meta property="og:description" content="In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test." />
     <meta property="og:image" content="https://raybo.org/images/site/thetoolbox-illustration.png" />
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="https://raybo.org/toolbox/2021-07-14-The-Toolbox-Ep-00-JavaScript-is-Definitely-Weird/">
-    <meta name="twitter:title" content="Why JavaScript is Definitely Weird: The Toolbox - Episode 00">
+    <meta name="twitter:title" content="Why JavaScript is Definitely Weird-Ep00">
     <meta name="twitter:description" content="In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test.">
     <meta name="twitter:image" content="https://raybo.org/images/site/thetoolbox-illustration.png">
 
@@ -147,7 +147,7 @@
 >
 <main class="article-content px-3 px-sm-0 container">
 
-<h1>Why JavaScript is Definitely Weird: The Toolbox - Episode 00</h1>
+<h1>Why JavaScript is Definitely Weird-Ep00</h1>
 <p class="lead">In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test.</p>
 
   <div class="row">
@@ -181,6 +181,49 @@
 <p><a href="https://jsisweird.com/"><img src="http://pixelprowess.com/i/2021-07-14_12-22-29.png" alt="JS is Weird"></a></p>
 <p>I'm not big on quizzes...they bring back old memories of bad teachers, but I really think you should take <a href="https://jsisweird.com/">this quiz</a>. It's full of questions about JavaScript's quirkiness, so this isn't about learning useful code for your next project. and the best part of the quiz is not the questions, but at the end, the site provides thorough explanations of why the developer chose to write his own query language.</p>
 <h3 id="see-you-next-week">See you next week <a class="direct-link" href="#see-you-next-week"> </a></h3>
+<h2 id="the-best-way-to-keep-up-with-what-i'm-up-to-is-to-follow-me-on-linkedin-at-linkedin%2Fin%2Fplanetoftheweb.-i'm-also-on-all-of-the-other-less-superior-social-media-platforms-at-planetoftheweb.">The best way to keep up with what I'm up to is to follow me on Linkedin at <a href="https://www.linkedin.com/in/planetoftheweb/">linkedin/in/planetoftheweb</a>. I'm also on all of the other less superior social media platforms at planetoftheweb. <a class="direct-link" href="#the-best-way-to-keep-up-with-what-i'm-up-to-is-to-follow-me-on-linkedin-at-linkedin%2Fin%2Fplanetoftheweb.-i'm-also-on-all-of-the-other-less-superior-social-media-platforms-at-planetoftheweb."> </a></h2>
+<p>layout: post<br>
+title: &quot;Why JavaScript is Definitely Weird: The Toolbox - Episode 00&quot;<br>
+summary: &quot;In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a query language for Wikipedia, important changes to Git and struggle through the JS is weird test.&quot;<br>
+hideDesc: true<br>
+video: GjfHjnfIA9E<br>
+hero: /images/site/thetoolbox-illustration.png<br>
+thumb: /images/site/thetoolbox_tn.png<br>
+category: toolbox<br>
+tags:</p>
+<ul>
+<li>thetoolbox</li>
+</ul>
+<hr>
+<h2 id="npm-and-the-boy-who-cried-wolf-2">NPM and the Boy Who Cried Wolf <a class="direct-link" href="#npm-and-the-boy-who-cried-wolf-2"> </a></h2>
+<p><a href="https://go.raybo.org/4zWW"><img src="http://pixelprowess.com/i/2021-07-14_10-00-56.png" alt="NPM and the Boy Who Cried Wolf"></a></p>
+<p><a href="https://www.npmjs.com/">NPM</a>, the tool that is installed with <a href="https://nodejs.org/en/">NodeJS</a>...which most web developers use everyday has a false positive approach that creates a 'boy who cried wolf' problem. This great article from <a href="https://mobile.twitter.com/dan_abramov">Dan Abramov</a> is a deep dive into why that's a problem and potential fixes.</p>
+<p>The main problem is that it over reports vulnerabilities and dependency problems, so for example, almost everytime I write a blog post, I notice that some dependency is out of date, often with a high severity. As vulnerabilities are found on projects, NPM records and mentions this, which is a great thing.</p>
+<p>However, because my site is a static site, I don't publish code that has these dependencies. That's one of the problems this article talks about. Some of the suggestions for fixing things are: <strong>Move dependency to devDependencies</strong> to make sure things the published site doesn't need don't get published. <strong>Inline all dependencies during publish</strong> (<a href="https://vitejs.dev/">Vite</a> does this), so that once things are transpiled into the published site, they dependency issue goes away.</p>
+<hr>
+<h2 id="appsumo-day-sale-2">AppSumo Day Sale <a class="direct-link" href="#appsumo-day-sale-2"> </a></h2>
+<p><a href="https://appsumo.com/"><img src="http://pixelprowess.com/i/2021-07-14_11-26-38.png" alt="AppSumo Day Sale"></a></p>
+<p>This is a limited time deal, but the site is always awesome. AppSumo has a lot of up and coming apps often offered with lifetime deals. I've found so many useful apps here like Publr and Switchy. They have some specials that are set to last only for a couple of days.</p>
+<ul>
+<li>I like the concept of <a href="https://appsumo.com/products/getterms/">GetTerms</a>, since these days sites and apps require privacy policies. This gives you some reasonable one size fits most privacy policy. I'd gotten in on this deal before.</li>
+<li><a href="https://appsumo.com/products/onestream-live/">OneStream Live</a> lets you both live stream, but also schedule pre-recorded live streams and it will take care of simulcasting it in multiple social media platforms for you. I bought this one when it was previous offered, but I'm still using <a href="https://streamyard.com/">StreamYard</a>, which does some of the same things, but lets you also have multiple guests. Still, for a one time deal, OneStream looks pretty sweet.</li>
+<li>Who doesn't love stickers. <a href="https://appsumo.com/products/stickermule/">StickerMule</a> will often run special deals on things like die cuts and regular stickers. They're offering Holographic Stickers this time for only $9. This one's a little harder to find on the site, but it's well worth it.</li>
+</ul>
+<p>You can use the code SUMODAY for 10% off and there's lots more deals and it runs from July 13-16th.</p>
+<hr>
+<h2 id="wikipedia-ql-2">Wikipedia QL <a class="direct-link" href="#wikipedia-ql-2"> </a></h2>
+<p><a href="https://github.com/zverok/wikipedia_ql"><img src="http://pixelprowess.com/i/2021-07-14_11-48-35.png" alt="Wikipedia QL"></a></p>
+<p>This <a href="https://github.com/zverok/wikipedia_ql">npm project</a> is a tool for querying Wikipedia. It's a NodeJS module that uses the <a href="https://en.wikipedia.org/wiki/Wikipedia:API">Wikipedia API</a> to retrieve metadata in an easy to digest JSON format. It runs on and returns easy to part JSON data. I like that at the end of the NPM project it shows some reasons why this is a better approach than other solutions provide by and for Wikipedia.</p>
+<hr>
+<h2 id="git-restore-and-switch-2">Git Restore and Switch <a class="direct-link" href="#git-restore-and-switch-2"> </a></h2>
+<p><img src="http://pixelprowess.com/i/2021-07-14_11-53-21.png" alt="Git Switch and Restore">.</p>
+<p>There's been some recent changes to Git, the most popular version control system for web developers. The <code>git checkout</code> command had been doing the work of switching to commits and branches as well as restoring the state of commits. That work has now been split into two different commands, <code>git restore</code> and <code>git switch</code>.</p>
+<p>The most important thing to remember is that you use <code>git switch -c BRANCHNAME</code> to create a new branch instead of <code>git restore .</code> to switch to a branch. The old way of switching to a branch is deprecated, but still works and might be removed in the future, so you might as well start getting used to it.</p>
+<hr>
+<h2 id="js-is-weird-2">JS is Weird <a class="direct-link" href="#js-is-weird-2"> </a></h2>
+<p><a href="https://jsisweird.com/"><img src="http://pixelprowess.com/i/2021-07-14_12-22-29.png" alt="JS is Weird"></a></p>
+<p>I'm not big on quizzes...they bring back old memories of bad teachers, but I really think you should take <a href="https://jsisweird.com/">this quiz</a>. It's full of questions about JavaScript's quirkiness, so this isn't about learning useful code for your next project. and the best part of the quiz is not the questions, but at the end, the site provides thorough explanations of why the developer chose to write his own query language.</p>
+<h3 id="see-you-next-week-2">See you next week <a class="direct-link" href="#see-you-next-week-2"> </a></h3>
 <p>The best way to keep up with what I'm up to is to follow me on Linkedin at <a href="https://www.linkedin.com/in/planetoftheweb/">linkedin/in/planetoftheweb</a>. I'm also on all of the other less superior social media platforms at planetoftheweb.</p>
 
     </main>
@@ -203,6 +246,24 @@
             		</li>
 
                     <li><a href="#js-is-weird">JS is Weird</a>
+            		</li>
+
+                    <li><a href="#the-best-way-to-keep-up-with-what-i'm-up-to-is-to-follow-me-on-linkedin-at-linkedin%2Fin%2Fplanetoftheweb.-i'm-also-on-all-of-the-other-less-superior-social-media-platforms-at-planetoftheweb.">The best way to keep up with what I'm up to is to follow me on Linkedin at linkedin/in/planetoftheweb. I'm also on all of the other less superior social media platforms at planetoftheweb.</a>
+            		</li>
+
+                    <li><a href="#npm-and-the-boy-who-cried-wolf-2">NPM and the Boy Who Cried Wolf</a>
+            		</li>
+
+                    <li><a href="#appsumo-day-sale-2">AppSumo Day Sale</a>
+            		</li>
+
+                    <li><a href="#wikipedia-ql-2">Wikipedia QL</a>
+            		</li>
+
+                    <li><a href="#git-restore-and-switch-2">Git Restore and Switch</a>
+            		</li>
+
+                    <li><a href="#js-is-weird-2">JS is Weird</a>
             		</li>
                 </ol>
             </div>

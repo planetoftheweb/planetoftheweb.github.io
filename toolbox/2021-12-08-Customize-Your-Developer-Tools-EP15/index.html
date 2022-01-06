@@ -1,0 +1,338 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <meta name="description" content="In this episode of the toolbox, we'll talk about the coming war of the dynamic hosting giants, then I'll show you several cool new tools including sandpack, supabase and mitosis. Plus, I'll give you a demo of two small libraries: MD Block from Lea Verou and Tippy.js." />
+    <meta property="og:title" content="Customize Your Developer Tools-Ep15" />
+    <meta property="og:description" content="In this episode of the toolbox, we'll talk about the coming war of the dynamic hosting giants, then I'll show you several cool new tools including sandpack, supabase and mitosis. Plus, I'll give you a demo of two small libraries: MD Block from Lea Verou and Tippy.js." />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/episode15.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2021-12-08-Customize-Your-Developer-Tools-EP15/">
+    <meta name="twitter:title" content="Customize Your Developer Tools-Ep15">
+    <meta name="twitter:description" content="In this episode of the toolbox, we'll talk about the coming war of the dynamic hosting giants, then I'll show you several cool new tools including sandpack, supabase and mitosis. Plus, I'll give you a demo of two small libraries: MD Block from Lea Verou and Tippy.js.">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode15.jpg">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
+ 
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="bi bi-house-door-fill"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/toolbox/0/">toolbox</a>
+            
+            <a class="nav-item nav-link" href="/shorts/0/">shorts</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                  <i class="bi bi-linkedin text-secondary me-1"></i> linkedin
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                  <i class="bi bi-github text-secondary me-1"></i> github
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                  <i class="bi bi-suit-club text-secondary me-1"></i> clubhouse
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                  <i class="bi bi-twitter text-secondary me-1"></i> twitter
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                  <i class="bi bi-image text-secondary me-1"></i> flickr
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                  <i class="bi bi-youtube text-secondary me-1"></i> youtube
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                  <i class="bi bi-instagram text-secondary me-1"></i> instagram
+              </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="site-header ratio ratio-16x9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/AbtASxLxEyA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+<h1>Customize Your Developer Tools-Ep15</h1>
+<p class="lead">In this episode of the toolbox, we&#39;ll talk about the coming war of the dynamic hosting giants, then I&#39;ll show you several cool new tools including sandpack, supabase and mitosis. Plus, I&#39;ll give you a demo of two small libraries: MD Block from Lea Verou and Tippy.js.</p>
+
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern time 10am Pacific. So follow me and subscribe on all the social media things for more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.</p>
+<hr>
+<h1 id="news">News <a class="direct-link" href="#news"> </a></h1>
+<p>So, I've noticed some interesting things happening on the web recently, mainly that there are two players working to dominate the dynamic hosting space. Both of them had some large funding moves this week.</p>
+<h2 id="netlify">Netlify <a class="direct-link" href="#netlify"> </a></h2>
+<p><a href="https://www.netlify.com/"><img src="/images/toolbox/2021-12-08_01-32-16.png" alt="Netlify"></a></p>
+<p>First is Netlify, which raised 105 million dollars to 'transform the development of the modern web'. Netlify coined the term the JAMstack to indicate sites that were pre-rendered using Javascript APIs and Markdown. Basically this is what used to be called serverless or pre-rendered or static pages until people realized that the server needed to play a stronger role in the process.</p>
+<p>They aqcuired <a href="https://www.onegraph.com/">OneGraph</a>, which is a GraphQL platform and started a 10 million dollar Jamstack Innovation fund as well as a million dollars in direct open source sponsorships. Zach Leatherman, the creator of Eleventy, which is what my blog <a href="http://raybo.org">raybo.org</a> is currently running in works for Netlify.</p>
+<p>Netlify also started a conference for the Jamstack called <a href="https://jamstackconf.com/">Jamstack Conf</a>, which ran online this year on Oct 6-7. I went to the first version of this conference, which was great. Online conferences don't really have the same pull.</p>
+<p><a href="https://vercel.com/blog/series-c-102m-continue-building-the-next-web"><img src="/images/toolbox/2021-12-08_02-41-28.png" alt="Vercel"></a></p>
+<h2 id="vercel">Vercel <a class="direct-link" href="#vercel"> </a></h2>
+<p>The second company is Vercel, which got $150 million dollars in series D funding. Vercel used to be known as Now, but changed it's name last year (I'm not a fan of the name Vercel). I am a client of Vercel and a big fan of their work. They created the <a href="https://hyper.is/">hyper</a> terminal and originally now was one of the fastest way to deploy node.js based projects.</p>
+<p>Vercel has thrown its support behind several important open source libraries like <a href="https://webpack.js.org/">webpack</a>, <a href="https://astro.build/">astro</a>, <a href="https://babeljs.io/">babel</a>, <a href="https://parceljs.org/">parcel</a> and others.</p>
+<p>Most notably, Vercel runs what's probably the most popular <a href="https://reactjs.org/">React</a> open source Meta frameworks <a href="https://nextjs.org/">Next.js</a>.</p>
+<p>This year, Vercel ran their own conference called <a href="https://nextjs.org/conf">NextConf</a>. Gillermo Rauch, the CEO of Netflix has often appeared at <a href="https://githubuniverse.com/">GitHub Universe</a>,</p>
+<h2 id="rich-harris">Rich Harris <a class="direct-link" href="#rich-harris"> </a></h2>
+<p>The most interesting move was the hiring of Svelte creator Rich Harris, to <a href="https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte">work full time on the project</a>.</p>
+<p>That was a real interesting move, it frees up Rich to work on Svelte full time and gives the company unique insight into one of the leading frameworks for the web. Svelte has always been the fourth framework. Angular, React, Vue and then Svelte.</p>
+<p>I think that potentially this could signal a breakout year for Svelte and we're going to see serverless frameworks move towards a hybrid model where the server is still managing parts of the process, caching pre-rendered content as much as possible, but still working to deliver some of the dynamic aspects that the web really needs.</p>
+<h2 id="the-future">The Future <a class="direct-link" href="#the-future"> </a></h2>
+<p>I think that in 2021, you should look at a model that moves some of these frameworks to what <a href="https://remix.run/">Remix</a> is doing. Remix moved almost completely back to the server, which honestly is where things belong. The cloud makes it easier to handle the pre-rendering that the server is doing.</p>
+<hr>
+<h1 id="toolbox-shorts">Toolbox Shorts <a class="direct-link" href="#toolbox-shorts"> </a></h1>
+<p>Let's get started with some shorts. There are new tools and articles that you should know about.</p>
+<h2 id="sandpack">Sandpack <a class="direct-link" href="#sandpack"> </a></h2>
+<p><a href="https://sandpack.codesandbox.io"><img src="/images/shorts/2021-12-06_17-01-01.png" alt="CodeSandbox"></a></p>
+<p>Sites like CodePen and JSBin provide code sandboxes that allow people to try code out. Although this might be a little self serving, I like this code sandbox creator library. I've been using CodePen and CodeSwing in my demos, but I always feel like it's safer if I could have my own version.</p>
+<p>Looks like it's what React Docs is currently trying to use, so it feels like a pretty solid investment if you're looking to create code demos in your docs.</p>
+<hr>
+<h2 id="mitosis">Mitosis <a class="direct-link" href="#mitosis"> </a></h2>
+<p><a href="https://github.com/builderio/mitosis"><img src="/images/shorts/2021-12-07_17-00-52.png" alt="Mitosis"></a></p>
+<p>This is a unique idea in framework development. A framework designed to compile to other frameworks. It's also inspired by many other frameworks.</p>
+<p>At first it looks surprisingly like React, but it also gets inspiration from just about everything else.</p>
+<p>It looks so much like React components and hooks, but has a mutable state like Vue and compiles in the same way that Svelte compiles. The weird thing is that it doesn't just compile to JavaScript, but also other frameworks code.</p>
+<p>I gotta say, that's the weirdest concept I've ever seen, but stay with me for a second. Imagine that you're building a component library for a bigger company that uses different frameworks, so you actually NEED to write the components in different languages.</p>
+<p>Sounds like a heck of an edge case, but having a single language that takes the best of each of the frameworks, but produces code in all of them might be an advantage to at least two or maybe three people.</p>
+<p>It's in Alpha, so be careful and good luck to you.</p>
+<hr>
+<h2 id="xtend-ui">Xtend UI <a class="direct-link" href="#xtend-ui"> </a></h2>
+<p><a href="https://xtendui.com/"><img src="/images/shorts/2021-12-07_17-27-54.png" alt="Xtend UI"></a></p>
+<p>One of the problems with Tailwinds is that it doesn't come with it's own components like Bootstrap, so a lot of solutions have come out to try to fix that shortcoming. XtendUI boasts a number of excellent components with animations and it happens to be framework agnostic.</p>
+<p>If you look at the list of what it's built with, I have to agree with the choices. It uses Tailwind components to create the elements, vanilla javascript plugins like Popper and Feather icons that well respected to handle the rough spots. It also uses GSAP for the animations, which is another one of my favorites.</p>
+<p>I think what killed this framework for me was the installation. The <a href="https://xtendui.com/intro/setup">docs</a> use a pretty complicated set of steps to install the libraries and even then, you don't really get a build process with something like Vite. Feels like something you have to add to another existing project.</p>
+<p>The animations are beautiful, although I feel like I'd get exhausted after a while. This also uses the non-jit version of Tailwinds that came out in version 2.1, so it feels a bit dated…but really…who can keep up.</p>
+<hr>
+<h2 id="30-seconds-of-knowledge">30 SECONDS OF KNOWLEDGE <a class="direct-link" href="#30-seconds-of-knowledge"> </a></h2>
+<p><a href="https://30secondsofknowledge.com"><img src="/images/shorts/2021-12-07_17-54-04.png" alt="30 SECONDS OF KNOWLEDGE"></a></p>
+<p>I'm a sucker for replacement content extensions when you open a new tab, so I was excited to try this one which adds random code snippets that can help you learn the language of your choice. It's very customizable with over 900 snippets.</p>
+<p>I added this to my chrome based browser…I love to use Brave and turned off some of the less desirable languages like C++ and Ruby (who needs them).</p>
+<hr>
+<h2 id="md-block">MD Block <a class="direct-link" href="#md-block"> </a></h2>
+<p><a href="https://md-block.verou.me/"><img src="/images/shorts/2021-12-08_01-07-02.png" alt="MD Block"></a></p>
+<p>It was created by one of the true geniuses of the web...Lea Verou in what she refers to as a <a href="https://lea.verou.me/2021/11/on-yak-shaving-and-md-block-an-html-element-for-markdown/">Yak Shaving incident</a>. In other words, she started to do one thing and then realized she needed another thing so in one of those crazy sprints she built this thing.</p>
+<p>She wanted it to have zero dependencies, and be able to load external markdown files as well and also be compatible with prism (her other thing that's a syntax highlighter)</p>
+<p>So, I created a <a href="https://github.dev/planetoftheweb/swing-md-block">code swing for it</a>, so you can try if you're interested.</p>
+<hr>
+<h2 id="supabase">Supabase <a class="direct-link" href="#supabase"> </a></h2>
+<p><a href="https://supabase.com/"><img src="/images/toolbox/2021-12-08_03-32-26.png" alt="Supabase"></a></p>
+<p>I've been drooling over this FireBase alternative for a while because I love Firebase so much that it seems like a viable open source alternative. But I realized that the beauty of Firebase is how simple it makes taking care of things.</p>
+<p>It falls into the category of backend as a service and allows you to focus on building your app and not worrying about things like Real Time, Multi User offline and authentication features.</p>
+<p>Firebase was a platform purchased by Google a while back. Google has been busy adding lots of features to the platform way beyond the original database.</p>
+<p>The main difference I see is that Supabase uses a PostgresQL database, whereas Firebase uses noSQL. With the rise of GraphQL's popularity, I feel like I want to stick with Firebase until I find a good GraphQL alternative, which soupabase just announced.</p>
+<hr>
+<h2 id="tippy">Tippy <a class="direct-link" href="#tippy"> </a></h2>
+<p>I love small use libraries that do a great job regardless of the language. I found this great little library called Tippy.js. It's based on <a href="https://popper.js.org/">popper</a>, so it has that as a dependency.</p>
+<p>It has a ton of great features. Compared to Popper, which is more of a positioning language, Tippy has a fuller set of utilities to let you control the look and feel of your popovers.</p>
+<hr>
+<h1 id="outro">Outro <a class="direct-link" href="#outro"> </a></h1>
+<p>Alright, thanks for watching. Don't forget to follow me on LinkedIn, YouTube or your favorite Social Media platforms @planetoftheweb.</p>
+<p>You can catch old episodes of the toolbox at <a href="http://raybo.org">raybo.org</a>. I'll see you next week for some more front end and full stack tooling</p>
+<hr>
+<h1 id="postfix">PostFix <a class="direct-link" href="#postfix"> </a></h1>
+<h2 id="next-episode">Next Episode <a class="direct-link" href="#next-episode"> </a></h2>
+<p>This is the last episode of the year for The Toolbox and good news, some of the work we've been doing here is going to be featured in other places on LinkedIn and LinkedIn Learning.</p>
+<p>I'm debating how often to do these. They're a lot of work so I feel like I could go to a bi-weekly show and then maybe do something to engage more directly with the community the other week.</p>
+<p>Mountains are moving, seas are parting and you might see The Toolbox get a little bigger next year. In the meantime, have a Merry Christmas, a prosperous new year and keep tooling.</p>
+
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#netlify">Netlify</a>
+            		</li>
+
+                    <li><a href="#vercel">Vercel</a>
+            		</li>
+
+                    <li><a href="#rich-harris">Rich Harris</a>
+            		</li>
+
+                    <li><a href="#the-future">The Future</a>
+            		</li>
+
+                    <li><a href="#sandpack">Sandpack</a>
+            		</li>
+
+                    <li><a href="#mitosis">Mitosis</a>
+            		</li>
+
+                    <li><a href="#xtend-ui">Xtend UI</a>
+            		</li>
+
+                    <li><a href="#30-seconds-of-knowledge">30 SECONDS OF KNOWLEDGE</a>
+            		</li>
+
+                    <li><a href="#md-block">MD Block</a>
+            		</li>
+
+                    <li><a href="#supabase">Supabase</a>
+            		</li>
+
+                    <li><a href="#tippy">Tippy</a>
+            		</li>
+
+                    <li><a href="#next-episode">Next Episode</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
+</article>
+
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
+      <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://github.com/planetoftheweb">
+      <i class="bi bi-github text-secondary me-1"></i>github
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.joinclubhouse.com/planetoftheweb">
+      <i class="bi bi-suit-club text-secondary me-1"></i>clubhouse
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://twitter.com/planetoftheweb">
+      <i class="bi bi-twitter text-secondary me-1"></i>twitter
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="bi bi-image text-secondary me-1"></i>flickr
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="bi bi-youtube text-secondary me-1"></i>youtube
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.instagram.com/planetoftheweb">
+      <i class="bi bi-instagram text-secondary me-1"></i>instagram
+      </a>
+    </div></div>
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      let nav = document.querySelector('.site-nav')
+      let mainContent = document.querySelector('#main-content')
+      let navHeight = nav.scrollHeight
+
+      function moveHeader() {
+        let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+        mainOnTop < 0
+          ? nav.classList.add('in-body')
+          : nav.classList.remove('in-body')
+
+        window.requestAnimationFrame(moveHeader)
+      }
+      window.requestAnimationFrame(moveHeader)
+    })();
+  </script>
+  <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"lang":"en","siteId":2197414,"cookiePolicyId":85544448, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html>

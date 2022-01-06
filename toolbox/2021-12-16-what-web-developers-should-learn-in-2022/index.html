@@ -1,0 +1,320 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <meta name="description" content="In this episode of The Toolbox, I'm going to talk about what css, javascript and new frameworks you should learn in 2022. Plus, sites you should know about, and I'll go over every new feature in Tailwind CSS 3. The pace of the web is relentless...and that's why you need The Toolbox." />
+    <meta property="og:title" content="What Web Designers/Developers Should Learn in 2022-Ep17" />
+    <meta property="og:description" content="In this episode of The Toolbox, I'm going to talk about what css, javascript and new frameworks you should learn in 2022. Plus, sites you should know about, and I'll go over every new feature in Tailwind CSS 3. The pace of the web is relentless...and that's why you need The Toolbox." />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/episode17.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2021-12-16-what-web-developers-should-learn-in-2022/">
+    <meta name="twitter:title" content="What Web Designers/Developers Should Learn in 2022-Ep17">
+    <meta name="twitter:description" content="In this episode of The Toolbox, I'm going to talk about what css, javascript and new frameworks you should learn in 2022. Plus, sites you should know about, and I'll go over every new feature in Tailwind CSS 3. The pace of the web is relentless...and that's why you need The Toolbox.">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode17.jpg">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
+ 
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="bi bi-house-door-fill"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/toolbox/0/">toolbox</a>
+            
+            <a class="nav-item nav-link" href="/shorts/0/">shorts</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                  <i class="bi bi-linkedin text-secondary me-1"></i> linkedin
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                  <i class="bi bi-github text-secondary me-1"></i> github
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                  <i class="bi bi-suit-club text-secondary me-1"></i> clubhouse
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                  <i class="bi bi-twitter text-secondary me-1"></i> twitter
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                  <i class="bi bi-image text-secondary me-1"></i> flickr
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                  <i class="bi bi-youtube text-secondary me-1"></i> youtube
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                  <i class="bi bi-instagram text-secondary me-1"></i> instagram
+              </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="site-header ratio ratio-16x9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/IwvyuqjOeNE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+<h1>What Web Designers/Developers Should Learn in 2022-Ep17</h1>
+<p class="lead">In this episode of The Toolbox, I&#39;m going to talk about what css, javascript and new frameworks you should learn in 2022. Plus, sites you should know about, and I&#39;ll go over every new feature in Tailwind CSS 3. The pace of the web is relentless...and that&#39;s why you need The Toolbox.</p>
+
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern time 10am Pacific. So follow me and subscribe on all the social media things for more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.</p>
+<p>A big part of my job is to try to stay on top of new technologies for web developers. After 16 episodes of the Toolbox I have to admit...I had no idea how deep the rabbit hole was.</p>
+<p>So what I wanted to do this year in the Toolbox is to give you a show that helps you stay up to date. I'll be covering all of the new frameworks, javascript/css trends and also interviewing some people who do the work.</p>
+<p>Spend an hour learning each week and I'll try to keep you up to date with what's going on. In the live show, I'll let you ask questions, but you can watch the shows later on your own time, if it doesn't work on your schedule.</p>
+<p>Let's begin with what I call The Bits, some sites that I found useful recently. You can find all these in the shorts section of <a href="http://raybo.org">raybo.org</a>.</p>
+<h3 id="state-of-css">State of CSS <a class="direct-link" href="#state-of-css"> </a></h3>
+<p><a href="https://2021.stateofcss.com">https://2021.stateofcss.com</a></p>
+<p>I know I pointed this one out before, but I use this site so much to guide me in what to learn. Every year, they do a survey and ask questions about the usage for new technologies. This survey can actually help you learn new features that you may have missed. It's closed right now, but you can go over the results. I did a deep dive of it in the last episode.</p>
+<h2 id="state-of-js">State of JS <a class="direct-link" href="#state-of-js"> </a></h2>
+<p><a href="https://2020.stateofjs.com">https://2020.stateofjs.com</a></p>
+<p>The State of jS survey is of course focused on just JavaScript. This one's a bit older, but it can give you a good reference to see the usage of certain features. If you don't know about some of the features and they are being heavily used. Chances are that you should get some practice with them to stay current.</p>
+<h2 id="es-proposals">ES Proposals <a class="direct-link" href="#es-proposals"> </a></h2>
+<p><a href="https://www.proposals.es">https://www.proposals.es</a></p>
+<p>Another way to stay current is to look at this site that has the status of what's being added to EcmaScript (AKA JavaScript) each year.</p>
+<h2 id="javascript-as-a-second-language">JavaScript as a Second Language <a class="direct-link" href="#javascript-as-a-second-language"> </a></h2>
+<p><a href="https://go.raybo.org/6uWw">https://go.raybo.org/6uWw</a></p>
+<p>Shameless plug, I just released a course called JavaScript as a Second language on LinkedIn Learning that goes over some of these new features as well as recent javascript trends with lots of graphics and code. I try to show you JavaScript in the same way that I learned english, using examples in context.</p>
+<p>Check it out, it's a completely new type of course, so if you like it, give a good review and let people know you want more of that type of content.</p>
+<h1 id="what's-new">What's New <a class="direct-link" href="#what's-new"> </a></h1>
+<p>Let's talk a bit about some of the things that happened in the world of web development and where things are going. We'll start with CSS.</p>
+<h2 id="css">CSS <a class="direct-link" href="#css"> </a></h2>
+<p>CSS is one of the fastest moving languages, way more so than JavaScript. Whereas JavaScript is getting more incremental changes, CSS is seeing a lot more new features.</p>
+<p><a href="https://2021.stateofcss.com/en-US/features/layout">https://2021.stateofcss.com/en-US/features/layout</a></p>
+<p>If you look at the state of CSS survey, you'll notice that the big news in CSS is that Grid has finally become something you need to be comfortable with to stay competitive. In 2021, 83% of respondents said they have used it.</p>
+<p>There's a new feature called subgrid. It's very new and still in flux, so keep an eye on it, but definitely know how to work with CSS Grid.</p>
+<p>You can see that people are super comfortable using Flexbox for layout with more than 98% people saying they've used it last year.</p>
+<p>There's a lot of other features here, you can see that although writing modes, where you can specify right to left and left to right orientation is somethign people haven't used yet, but it's being added to every framework, so it's important.</p>
+<p>I like position: sticky. Logical properties are also awesome. I did a video on CSS Clamp, so check out <a href="http://raybo.org">raybo.org</a> if you want to see how awesome it is.</p>
+<p>Something that's getting a lot of press is container queries. It's still very much a feature that's in flux, so not many people have used it, but you're going to see a lot of videos about it in the next year. It lets you define responsiveness, not just at the viewport, but each individual HTML tag can respond to how much room it has on the page.</p>
+<p>In terms of shapes and graphics, we're finally getting the ability to define geometric shapes, clipping paths, effects, masks and blend modes in CSS. You should really see design take a leap forward once people get used to these.</p>
+<p>There's a couple of other smaller features that are pretty cool. Intrinsic sizing lets the browser take into account the space that the text takes up.</p>
+<p>I also love object-fit, which gives you all of the features you could use with backgrounds now with images. So you can ask an image to fit a certain space proportionately.</p>
+<p>Lots of other cool features, but I think those are the top features you should learn if you haven't already. Part of what I plan to do the rest of the year is to show you some of these on The Toolbox in a bit more context.</p>
+<h2 id="css-frameworks">CSS Frameworks <a class="direct-link" href="#css-frameworks"> </a></h2>
+<p>A lot of interesting things are happening in the world of frameworks. Sass is still heavily used everywhere in the real world, but most of its features have been added to or plan to be added to regular CSS.</p>
+<p>Bootstrap is also still incredibly popular and I love Bootstrap 5, but things like Tailwind CSS as well as WindiCSS, and others are starting to nip at its heels.</p>
+<p>Tailwinds is quickly becoming the de-facto standard for Component Based Architectures like React, Vue and Svelte. The Utility based approach is superior when working with those frameworks, but not if you're just using straight HTML. More about this on the demo.</p>
+<p>There's a couple of interesting things happening here: first, some frameworks are adopting Tailwinds Utility approach and taking it further. I covered in a previous episode how Windi CSS is a Tailwinds clone that brought the JIT approach. I did an episode on that too.</p>
+<p>Another interesting contender is something that sounds even crazier than Tailwinds...Assembler CSS (<a href="https://asmcss.com/">https://asmcss.com/</a>). It's like a clone of Tailwinds that uses CSS variables instead of pre-built classes. I did a video on a previous episode. You have to see it to believe it.</p>
+<p>Finally, there's UnoCSS, from the developer who made Windi. This is an Atomic CSS framework that claims to be 200 times faster than the tailwinds even with the Just In Time compiler.</p>
+<p>Now, I wouldn't worry too much about these last few frameworks unless you've got some time to burn, but the utility approach is so good that we're seeing a lot of experimentation of where this can go next.</p>
+<h1 id="javascript">JavaScript <a class="direct-link" href="#javascript"> </a></h1>
+<p>Let's talk about JavaScript. As I mentioned, most of the additions to the language aren't super revolutionary, but it means that There's some features that you should be super comfortable with.</p>
+<p>The module system is one of these. JavaScript is fully modular today, so you should be super comfortable with the import command.</p>
+<p>JavaScript now has async/await functions that make the execution of code more predictable. To understand Async/Await, you should have a good understanding of promises. The course JavaScript as a Second Language I mentioned earlier has some videos on this.</p>
+<p>If you're getting started, make sure you can read arrow functions well because otherwise JavaScript will seem like spaghetti, same thing with the spread syntax and error handling. I added all these to my new course, so go watch that or we have lots of other stuff.</p>
+<p>Which reminds me, if you follow me on LinkedIn, I'll make this course free.</p>
+<h1 id="javascript-frameworks">Javascript Frameworks <a class="direct-link" href="#javascript-frameworks"> </a></h1>
+<p>The real action in JavaScript is happening in the Framework front. Of course there's the big three frameworks, React Vue and Angular.</p>
+<p>If I was out looking for a job right now, I would definitely learn React. It's truly dominant and it's also constantly evolving, so it's the most marketable of the frameworks.</p>
+<p>However, if I was building a personal project, I'd probably go for Vue.js. I say it again and again. It's my favorite framework...real easy to learn and it just makes a ton of sense. The fact that you can use it by adding a simple script tag is pretty slick.</p>
+<p>Angular is still around, but not as dominant as it used to be. You might still find companies using this. Honestly, learn React, these frameworks are somewhat related so picking up a new one once you learn one of them isn't a huge deal.</p>
+<p>Now, if you're itching to try something new, check out Svelte. Svelte gets rid of the killer feature in React and Vue...the Virtual DOM. The virtual DOM makes things easier, but at a performance cost. Svelte pre-compiles the code so that you don't need.</p>
+<p>I think Svelte is going to have a breakthrough year. This year, Vercel hired Rich Harrys, the creator of Svelte full time just so he can work on Svelte. <a href="https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte">https://vercel.com/blog/vercel-welcomes-rich-harris-creator-of-svelte</a></p>
+<p>So, as amazing as Svelte is, up to now, it's been a part time job for Rich, who used to work at the New York Times and created it on his 'free' time.</p>
+<p>I want to make an honorable mention to another framework that I've really enjoyed using called <a href="https://alpinejs.dev/">AlpineJS</a>. This is a small javascript framework that is real fun to use. It's really meant for small projects and I did do a demo of this in a previous episode.</p>
+<p>It's easy to learn with only 15 attributes, six propertie and 2 methods to learn. It feels as fun as jQuery used to feel when it was cool, but it's all modern.</p>
+<h2 id="the-rise-of-the-meta-frameworks">The Rise of the Meta Frameworks <a class="direct-link" href="#the-rise-of-the-meta-frameworks"> </a></h2>
+<p>The other thing to know is that there are these new meta frameworks that aren't real frameworks in themselves, but frameworks that use other frameworks.</p>
+<p>The most important one of these is Astro. It's still in heavy development and I did a demo of this in a recent episode, so make sure you check that out. Everyone I know is super excited about this.</p>
+<p>The main features are partial hydration, so it can load javascript only when needed, like when an element appears on the page and works with the other frameworks I mentioned.</p>
+<p>There are two new developments on this front that are super interesting. First is Hydrogen, which is a framework from the shopping platform called Shoppify. What's interesting about this one is that it uses a module based approach to load and modify content independently of what else is going on in the page.</p>
+<p>If I was to guess what's going to happen, I'd say that this is the future of frameworks. Serverless tools 11ty changed the way that we created sites by pre-rendering content.</p>
+<p>But rendering things is what the servers are really good at, so I see an attempt to move things back to the server, so there is a framework called Remix that focuses on this.</p>
+<p>Since the servers are also usually using CDNs and caching, we can do something called Edge computing where the work of creating dynamic sites and static content is handled and manage by the server.</p>
+<h2 id="other-tools">Other Tools <a class="direct-link" href="#other-tools"> </a></h2>
+<p>Honorable mentions go to two tools that are becoming dominang and might be something you spend some time with.</p>
+<p>The first is Vite...from the makers of Vue.js. Today, we often need build tools to manage the process of processing our code and converting it to code usable by the browser. There have been lots of things that try to solve this problem like Grunt, Gulp, Webpack, Snowpack.</p>
+<p>The list is real long, but I'm seeing more and more projects use Vite. Of course I've already covered this in a previous Toolbox episode.</p>
+<p>Finally, I've also seen a lot of tools move at least part of it's processor intensive tools to Rust instead of JavaScript. Rust is a language that is friendly and offers some nice memory management. I'm not too familiar with it, but it feels like a trend.</p>
+<h1 id="tailwind-css-3">Tailwind CSS 3 <a class="direct-link" href="#tailwind-css-3"> </a></h1>
+<p>Alright, so let's get to the Tailwind CSS demo.</p>
+<p>Tailwind CSS 3 is a new version of the utility-first CSS framework that shook the world a few years ago. Let's take a look at why it's gotten so dominant so quickly and what's changed in the latest version.</p>
+
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#state-of-js">State of JS</a>
+            		</li>
+
+                    <li><a href="#es-proposals">ES Proposals</a>
+            		</li>
+
+                    <li><a href="#javascript-as-a-second-language">JavaScript as a Second Language</a>
+            		</li>
+
+                    <li><a href="#css">CSS</a>
+            		</li>
+
+                    <li><a href="#css-frameworks">CSS Frameworks</a>
+            		</li>
+
+                    <li><a href="#the-rise-of-the-meta-frameworks">The Rise of the Meta Frameworks</a>
+            		</li>
+
+                    <li><a href="#other-tools">Other Tools</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
+</article>
+
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
+      <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://github.com/planetoftheweb">
+      <i class="bi bi-github text-secondary me-1"></i>github
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.joinclubhouse.com/planetoftheweb">
+      <i class="bi bi-suit-club text-secondary me-1"></i>clubhouse
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://twitter.com/planetoftheweb">
+      <i class="bi bi-twitter text-secondary me-1"></i>twitter
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="bi bi-image text-secondary me-1"></i>flickr
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="bi bi-youtube text-secondary me-1"></i>youtube
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.instagram.com/planetoftheweb">
+      <i class="bi bi-instagram text-secondary me-1"></i>instagram
+      </a>
+    </div></div>
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      let nav = document.querySelector('.site-nav')
+      let mainContent = document.querySelector('#main-content')
+      let navHeight = nav.scrollHeight
+
+      function moveHeader() {
+        let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+        mainOnTop < 0
+          ? nav.classList.add('in-body')
+          : nav.classList.remove('in-body')
+
+        window.requestAnimationFrame(moveHeader)
+      }
+      window.requestAnimationFrame(moveHeader)
+    })();
+  </script>
+  <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"lang":"en","siteId":2197414,"cookiePolicyId":85544448, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html>

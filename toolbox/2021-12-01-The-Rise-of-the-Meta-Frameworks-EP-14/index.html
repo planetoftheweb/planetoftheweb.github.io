@@ -1,0 +1,257 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <meta name="description" content="In this episode of the toolbox, we'll start off with developer news, the rise of the meta frameworks, and a review/demo of Astro, which just did a re-write a few weeks ago. You're not imagining things" />
+    <meta property="og:title" content="The Rise of the Meta Frameworks-Ep14" />
+    <meta property="og:description" content="In this episode of the toolbox, we'll start off with developer news, the rise of the meta frameworks, and a review/demo of Astro, which just did a re-write a few weeks ago. You're not imagining things" />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/episode14.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2021-12-01-The-Rise-of-the-Meta-Frameworks-EP-14/">
+    <meta name="twitter:title" content="The Rise of the Meta Frameworks-Ep14">
+    <meta name="twitter:description" content="In this episode of the toolbox, we'll start off with developer news, the rise of the meta frameworks, and a review/demo of Astro, which just did a re-write a few weeks ago. You're not imagining things">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode14.jpg">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
+ 
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-toggle="collapse" data-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="bi bi-house-door-fill"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/toolbox/0/">toolbox</a>
+            
+            <a class="nav-item nav-link" href="/shorts/0/">shorts</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                  <i class="bi bi-linkedin text-secondary me-1"></i> linkedin
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                  <i class="bi bi-github text-secondary me-1"></i> github
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                  <i class="bi bi-suit-club text-secondary me-1"></i> clubhouse
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                  <i class="bi bi-twitter text-secondary me-1"></i> twitter
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                  <i class="bi bi-image text-secondary me-1"></i> flickr
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                  <i class="bi bi-youtube text-secondary me-1"></i> youtube
+              </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                  <i class="bi bi-instagram text-secondary me-1"></i> instagram
+              </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="site-header ratio ratio-16x9">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/YYl5BPePwTM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+<h1>The Rise of the Meta Frameworks-Ep14</h1>
+<p class="lead">In this episode of the toolbox, we&#39;ll start off with developer news, the rise of the meta frameworks, and a review/demo of Astro, which just did a re-write a few weeks ago. You&#39;re not imagining things</p>
+
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <h2 id="news">News <a class="direct-link" href="#news"> </a></h2>
+<p>Let's get started with some news. Recent articles that you should know about if you're a web developer.</p>
+<p><a href="https://www.nytimes.com/2021/11/29/technology/parag-agrawal-twitter.html"><img src="http://pixelprowess.com/i/2021-12-03_22-43-57.png" alt="Who is Parag Agrawal"></a></p>
+<p>Of course, the biggest announcement this week Jack Dorsey being replaced by a new CEO at Twitter. Parag Agrawal has an opportunity to reboot Twitter, which in my opinion could use some serious changes beyond the technological.</p>
+<p><a href="https://www.vice.com/en/article/epxxb4/fired-employees-sue-google-for-breaching-dont-be-evil-part-of-contract?utm_source=reddit.com"><img src="http://pixelprowess.com/i/2021-12-03_22-46-03.png" alt="Fired Google Employees Sue Google"></a></p>
+<p>Another interesting article was that some employees who were fired from Google are trying to a 'Don't be Evil' defense. I'm not sure how good that will work for them, but it's an intersting legal approach.</p>
+<p><a href="https://www.edweek.org/teaching-learning/teaching-in-the-metaverse-roblox-looks-to-make-it-a-reality/2021/11"><img src="http://pixelprowess.com/i/2021-12-03_22-50-44.png" alt="Roblox in the Meta Verse"></a></p>
+<p>If you're a developer or plan to be a developer in the future, there's a new Wild West coming. It's called the Metaverse. In this article, you can hear of how companies like Roblox are seeking to get their</p>
+<h2 id="toolbox-shorts">Toolbox Shorts <a class="direct-link" href="#toolbox-shorts"> </a></h2>
+<p>Lets take a look at some of the new tools in the industry.</p>
+<p><a href="https://unocss.antfu.me/"><img src="http://pixelprowess.com/i/2021-12-03_23-01-13.png" alt="Uno CSS"></a></p>
+<p>Last week, we covered WindiCSS, an alternative to Tailwind CSS with a few more interesting features. This week, I found out that the developer of Windi CSS has a new project, Uno CSS, which has some related features. It's pretty much in early beta now, but looks like a promising framework.</p>
+<p><a href="https://gridsome.org/"><img src="http://pixelprowess.com/i/2021-12-03_23-17-02.png" alt=""></a></p>
+<p>One of the interesting new developments is the rise of the embedded frameworks, which are frameworks based on a specific framework like this one called Gridsome. Based on Vue.js with lots of new features.</p>
+<p><a href="https://slinkity.dev/"><img src="http://pixelprowess.com/i/2021-12-03_23-20-23.png" alt="Slinkity"></a></p>
+<p>Another new...thing is Slinkity, which is built on top of another framework. That's sort of confusing, so I'm not even trying to figure out what to call it, but at least for now, it's a plugin to Eleventy. It's also in alpha, but it gives Eleventy features like Astro like hydration, shortcodes and plays nicely with other frameworks like React and Vue.</p>
+<h2 id="main-event">Main Event <a class="direct-link" href="#main-event"> </a></h2>
+<p><a href="https://astro.build"><img src="http://pixelprowess.com/i/2021-12-03_23-35-38.png" alt="Astro"></a></p>
+<p>At its core, Astro is a static site builder. In that way it's like Eleventy, or Gatsby or Next.js and others. There's a great page on their site that compares how Astro <a href="https://docs.astro.build/comparing-astro-vs-other-tools/">stacks up against other frameworks</a>. It's surprisingly thorough, so take a look at that if you're thinking of using it.</p>
+<p>Every new framework has to have a new hook, something that makes it different and hopefully better than what came before. For astro that is a feature called hydration. It's the thought that your scripts shouldn't load if the page isn't ready to use them yet. This can make for a much faster experience.</p>
+<p>I appreciate performance just as much as the next person, but it's never been a reason for me to love something new. When I worked for Tribune Interactive, I spent about a month squeezing every kilobyte out of my CSS files, so I care…I really care…but it doesn't help when a single image is way larger than any CSS I ever wrote.</p>
+<p>Still, the concept is solid and this framework is much more than just about hydration.</p>
+
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#news">News</a>
+            		</li>
+
+                    <li><a href="#toolbox-shorts">Toolbox Shorts</a>
+            		</li>
+
+                    <li><a href="#main-event">Main Event</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
+</article>
+
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
+      <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://github.com/planetoftheweb">
+      <i class="bi bi-github text-secondary me-1"></i>github
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.joinclubhouse.com/planetoftheweb">
+      <i class="bi bi-suit-club text-secondary me-1"></i>clubhouse
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://twitter.com/planetoftheweb">
+      <i class="bi bi-twitter text-secondary me-1"></i>twitter
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="bi bi-image text-secondary me-1"></i>flickr
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="bi bi-youtube text-secondary me-1"></i>youtube
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.instagram.com/planetoftheweb">
+      <i class="bi bi-instagram text-secondary me-1"></i>instagram
+      </a>
+    </div></div>
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      let nav = document.querySelector('.site-nav')
+      let mainContent = document.querySelector('#main-content')
+      let navHeight = nav.scrollHeight
+
+      function moveHeader() {
+        let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+        mainOnTop < 0
+          ? nav.classList.add('in-body')
+          : nav.classList.remove('in-body')
+
+        window.requestAnimationFrame(moveHeader)
+      }
+      window.requestAnimationFrame(moveHeader)
+    })();
+  </script>
+  <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"lang":"en","siteId":2197414,"cookiePolicyId":85544448, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html>

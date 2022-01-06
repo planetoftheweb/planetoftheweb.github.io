@@ -17,6 +17,11 @@
   </url>
   
   <url>
+    <loc>/shorts/2012-12-10-MD-Block/</loc>
+    <lastmod>2012-12-10</lastmod>
+  </url>
+  
+  <url>
     <loc>/courses/2013-01-18-javascript-ajax/</loc>
     <lastmod>2013-01-18</lastmod>
   </url>
@@ -1377,7 +1382,7 @@
   </url>
   
   <url>
-    <loc>/toolbox/2021-12-01-21-The-Rise-of-the-Meta-Frameworks-EP-14/</loc>
+    <loc>/toolbox/2021-12-01-The-Rise-of-the-Meta-Frameworks-EP-14/</loc>
     <lastmod>2021-12-01</lastmod>
   </url>
   
@@ -1397,62 +1402,107 @@
   </url>
   
   <url>
+    <loc>/shorts/2021-12-08-30-seconds-chrome-extension/</loc>
+    <lastmod>2021-12-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shorts/2021-12-08-Mitosis/</loc>
+    <lastmod>2021-12-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shorts/2021-12-08-Xtend-UI/</loc>
+    <lastmod>2021-12-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>/shorts/2021-12-08-sandpack/</loc>
+    <lastmod>2021-12-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>/toolbox/2021-12-08-Customize-Your-Developer-Tools-EP15/</loc>
+    <lastmod>2021-12-08</lastmod>
+  </url>
+  
+  <url>
+    <loc>/toolbox/2021-12-16-The-State-of-CSS-Where-we-stand-and-where-were-going-EP16/</loc>
+    <lastmod>2021-12-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>/toolbox/2021-12-16-what-web-developers-should-learn-in-2022/</loc>
+    <lastmod>2021-12-16</lastmod>
+  </url>
+  
+  <url>
+    <loc>/newsletter/2022-01-03-The-Relentless-Pace/</loc>
+    <lastmod>2022-01-03</lastmod>
+  </url>
+  
+  <url>
+    <loc>/posts/2022-01-04-whats-new-in-tailwind-css-3/</loc>
+    <lastmod>2022-01-04</lastmod>
+  </url>
+  
+  <url>
     <loc>/about/</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
   
   <url>
     <loc>/about/policies/</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
   
   <url>
     <loc>/courses/0/</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
   
   <url>
     <loc>/js/data.js</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
   
   <url>
     <loc>/newsletter/0/</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
   
   <url>
     <loc>/posts/0/</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
   
   <url>
     <loc>/shorts/0/</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
   
   <url>
     <loc>/tags/external/</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
   
   <url>
     <loc>/toolbox/0/</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
   
   <url>
     <loc>/videos/0/</loc>
-    <lastmod>2021-12-04</lastmod>
+    <lastmod>2022-01-06</lastmod>
   </url>
 </urlset>

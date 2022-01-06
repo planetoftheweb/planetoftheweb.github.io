@@ -1,7 +1,70 @@
 [{
+  "title": "What&#39;s New in Tailwind CSS 3",
+  "date" : "Jan 04, 2022",
+  "summary" : "Tailwind CSS 3 is a new version of the utility-first CSS framework that shook the world a few years ago. Let&#39;s take a look at why it&#39;s gotten so dominant so quickly and what&#39;s changed in the latest version.",
+  "thumbnail": "/images/posts/learningastro_tn.jpg",
+  "url": "/posts/2022-01-04-whats-new-in-tailwind-css-3/",
+  "tags" : "full stack development,javascript,frameworks"
+},{
+  "title": "The Relentless Pace",
+  "date" : "Jan 03, 2022",
+  "summary" : "A big part of my job is to try to stay on top of new technologies for web developers. This year after 16 episodes of the Toolbox I have to admit...I had no idea how deep the rabbit hole was. Here&#39;s a few things I learned, and more importantly what you should try to learn in 2022.",
+  "thumbnail": "/images/newsletter/relentlesspace_tn.jpg",
+  "url": "/newsletter/2022-01-03-The-Relentless-Pace/",
+  "tags" : ""
+},{
+  "title": "What Web Designers/Developers Should Learn in 2022-Ep17",
+  "date" : "Dec 16, 2021",
+  "summary" : "In this episode of The Toolbox, I&#39;m going to talk about what css, javascript and new frameworks you should learn in 2022. Plus, sites you should know about, and I&#39;ll go over every new feature in Tailwind CSS 3. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
+  "thumbnail": "/images/toolbox/episode17_tn.jpg",
+  "url": "/toolbox/2021-12-16-what-web-developers-should-learn-in-2022/",
+  "tags" : ""
+},{
+  "title": "The State of CSS-Ep16",
+  "date" : "Dec 16, 2021",
+  "summary" : "In this Special episode of The Toolbox, I&#39;m going to go over the annual State of CSS survey and talk about why it helps me figure out what I need to learn.",
+  "thumbnail": "/images/toolbox/episode16_tn.jpg",
+  "url": "/toolbox/2021-12-16-The-State-of-CSS-Where-we-stand-and-where-were-going-EP16/",
+  "tags" : ""
+},{
+  "title": "Customize Your Developer Tools-Ep15",
+  "date" : "Dec 08, 2021",
+  "summary" : "In this episode of the toolbox, we&#39;ll talk about the coming war of the dynamic hosting giants, then I&#39;ll show you several cool new tools including sandpack, supabase and mitosis. Plus, I&#39;ll give you a demo of two small libraries: MD Block from Lea Verou and Tippy.js.",
+  "thumbnail": "/images/toolbox/episode15_tn.jpg",
+  "url": "/toolbox/2021-12-08-Customize-Your-Developer-Tools-EP15/",
+  "tags" : ""
+},{
+  "title": "Sandpack",
+  "date" : "Dec 08, 2021",
+  "summary" : "Sites like CodePen and JSBin provide code sandboxes that allow people to try code out. Although this might be a little self serving, I like this code sandbox creator library. I&#39;ve been using CodePen and CodeSwing in my demos, but I always feel like it&#39;s safer if I could have my own version.",
+  "thumbnail": "/images/shorts/2021-12-06_17-01-01.png",
+  "url": "https://sandpack.codesandbox.io/",
+  "tags" : "external"
+},{
+  "title": "Xtend UI",
+  "date" : "Dec 08, 2021",
+  "summary" : "One of the problems with Tailwinds is that it doesn&#39;t come with it&#39;s own components like Bootstrap, so a lot of solutions have come out to try to fix that shortcoming. XtendUI boasts a number of excellent components with animations and it happens to be framework agnostic.",
+  "thumbnail": "/images/shorts/2021-12-07_17-27-54.png",
+  "url": "https://xtendui.com/",
+  "tags" : "external"
+},{
+  "title": "Mitosis",
+  "date" : "Dec 08, 2021",
+  "summary" : "This is a unique idea in framework development. A framework designed to compile to other frameworks. It&#39;s also inspired by other frameworks. At first it looks surprisingly like React, but it also gets inspiration from just about everything else.",
+  "thumbnail": "/images/shorts/2021-12-07_17-00-52.png",
+  "url": "https://github.com/builderio/mitosis",
+  "tags" : "external"
+},{
+  "title": "30 SECONDS OF KNOWLEDGE",
+  "date" : "Dec 08, 2021",
+  "summary" : "I&#39;m a sucker for replacement content extensions when you open a new tab, so I was excited to try this one which adds random code snippets that can help you learn the language of your choice. It&#39;s very customizable with over 900 snippets.",
+  "thumbnail": "/images/shorts/2021-12-07_17-54-04.png",
+  "url": "https://30secondsofknowledge.com/",
+  "tags" : "external"
+},{
   "title": "MarkApp",
   "date" : "Dec 03, 2021",
-  "summary" : "MarkApp is a small site by Lea Verou to showcase a few declarative HTML libraries. They let you add interactivity to your sites without having to write anyJavascript. I think too many of these could be a problem, but dang it..sometimes you just want to get things done.",
+  "summary" : "MarkApp is a small site by Lea Verou to showcase a few declarative HTML libraries. They let you add interactivity to your sites without having to write any Javascript. I think too many of these could be a problem, but dang it..sometimes you just want to get things done.",
   "thumbnail": "shortshttp://pixelprowess.com/i/2021-12-02_10-56-54.png",
   "url": "http://markapp.io",
   "tags" : "external"
@@ -20,11 +83,11 @@
   "url": "/newsletter/2021-12-03-The-Distinctive-Difference/",
   "tags" : ""
 },{
-  "title": "The Rise of the Meta Frameworks - EP 14",
+  "title": "The Rise of the Meta Frameworks-Ep14",
   "date" : "Dec 01, 2021",
   "summary" : "In this episode of the toolbox, we&#39;ll start off with developer news, the rise of the meta frameworks, and a review/demo of Astro, which just did a re-write a few weeks ago. You&#39;re not imagining things",
   "thumbnail": "/images/toolbox/episode14_tn.jpg",
-  "url": "/toolbox/2021-12-01-21-The-Rise-of-the-Meta-Frameworks-EP-14/",
+  "url": "/toolbox/2021-12-01-The-Rise-of-the-Meta-Frameworks-EP-14/",
   "tags" : ""
 },{
   "title": "The New Lingo",
@@ -41,7 +104,7 @@
   "url": "/posts/2021-11-25-Windi-CSS-The-Tailwind-CSS-Killer/",
   "tags" : ""
 },{
-  "title": "MiniMasonry, Simple.css, Rust, Iles and Big WindiCSS demo",
+  "title": "MiniMasonry, Simple.css, Rust, Iles and Big WindiCSS-Ep13",
   "date" : "Nov 24, 2021",
   "summary" : "In this episode of the toolbox, we&#39;ll take a peek at some new libraries like minimason and simple.css, then talk about how Rust is taking over the web, plus we&#39;ll look at some major new major frameworks like Remix and Iles. Then, I&#39;ll show you a demo of WindiCSS, a contender that offers some improvements over TailwindCSS. It&#39;s not in your mind, the pace of the web is relentless...so to keep up...it&#39;s time, for the Toolbox",
   "thumbnail": "/images/toolbox/ep13_tn.jpg",
@@ -55,7 +118,7 @@
   "url": "/newsletter/2021-11-19-The-Nuclear-Fusion/",
   "tags" : ""
 },{
-  "title": "Carousels, Multi Repo CLI and Coding Fonts - Episode 12",
+  "title": "Carousels, Multi Repo CLI and Coding Fonts-Ep12",
   "date" : "Nov 17, 2021",
   "summary" : "In this episode of the toolbox, I&#39;m going to try out one of the most feature-full carousel frameworks out there called SplideJS, plus in the shorts, I talk about the State of the Octoverse, why the creator of Svelte, just got hired by Vercel...Plus, we&#39;re looking for teachers at LinkedIn Learning. It&#39;s Wednesday November 24 and this is Episode 12...so let&#39;s get started",
   "thumbnail": "/images/toolbox/episode12_tn.jpg",
@@ -69,7 +132,7 @@
   "url": "/newsletter/2021-11-12-the-road-again/",
   "tags" : ""
 },{
-  "title": "The End of Coding as we know it.",
+  "title": "The End of Coding as we know it-Ep11",
   "date" : "Nov 10, 2021",
   "summary" : "In this episode of the Toolbox, I&#39;m going to talk about my recent experience creating a new course using online tools and why I think that&#39;s the future of coding...Dear friends, it&#39;s the end of coding as we know it.",
   "thumbnail": "/images/toolbox/desktopcoding_tn.jpg",
@@ -90,7 +153,7 @@
   "url": "/newsletter/2021-10-28-TheThereYet/",
   "tags" : ""
 },{
-  "title": "Github Universe/TailwindCSS 3",
+  "title": "Github Universe/TailwindCSS 3-Ep10",
   "date" : "Oct 27, 2021",
   "summary" : "In this special GitHub Late edition of the Toolbox, I&#39;ll talk about my favorite Universe announcements, then, I&#39;ll share a new exciting Tailwind CSS 3.0 Alpha feature and one more tip in searching through your terminal history. It&#39;s Wednesday, October 27 and this is episode 10. Let&#39;s get started.",
   "thumbnail": "/images/toolbox/toolbox-ep10_tn.jpg",
@@ -160,7 +223,7 @@
   "url": "/newsletter/2021-10-22-The-Home-Work/",
   "tags" : ""
 },{
-  "title": "Front End Tooling with Vite",
+  "title": "Front End Tooling with Vite-Ep09",
   "date" : "Oct 20, 2021",
   "summary" : "In this episode of the toolbox, I&#39;ll show you how to work with my favorite tooling platform called Vite. I&#39;ve got a few surprises in the shorts segment and tons of other things to discuss...so let&#39;s get started",
   "thumbnail": "/images/toolbox/EP09-Vite_tn.jpg",
@@ -195,7 +258,7 @@
   "url": "/newsletter/2021-10-14-The-Lame-Outage/",
   "tags" : ""
 },{
-  "title": "Building a Layout with Pollen CSS and Alpine",
+  "title": "Building a Layout with Pollen CSS and Alpine-Ep08",
   "date" : "Oct 13, 2021",
   "summary" : "In this episode of the toolbox, I&#39;m going to build a sample layout using Pollen, a simple, variable based CSS library that uses CSS Custom properties (otherwise known as variables). We&#39;ll combine this with Alpine.js, which will help us build the layout a lot quicker. It&#39;s Wednesday October 13 and this is episode 8 of the toolbox. Let&#39;s get started.",
   "thumbnail": "/images/toolbox/EP08-Pollen_tn.jpg",
@@ -293,7 +356,7 @@
   "url": "/newsletter/2021-09-17-The-Broadcast-Disaster/",
   "tags" : ""
 },{
-  "title": "What New Framework should you try next -- The Toolbox Ep 07",
+  "title": "What New Framework should you try next-Ep07",
   "date" : "Sep 15, 2021",
   "summary" : "In this episode of the toolbox, we take a look at Alpline.js. an up and coming frameworks that rewires your mind and like Tailwind CSS lets you do everything with only the HTML file. I’ve got lots of Toolbox shorts, GitHub tips and I’ll let you take a peek at what I’m working on next in JSL.",
   "thumbnail": "/images/toolbox/episode07_tn.jpg",
@@ -314,7 +377,7 @@
   "url": "/newsletter/2021-09-09-The-speedy-slowness/",
   "tags" : ""
 },{
-  "title": "The Coolest Bootstrap 5.1 Features -- The Toolbox Ep 06",
+  "title": "The Coolest Bootstrap 5.1 Features-Ep06",
   "date" : "Sep 08, 2021",
   "summary" : "In this episode of the toolbox, we&#39;re going to talk about some of the coolest features in bootstrap 5.1, like support for offCanvas in navbars, placeholders and stacks. In Toolbox Shorts we&#39;ve got an amazing search engine for developers and a big change on how Google indexes titles. Plus demos of how to streamline your querySelectors and what&#39;s quite possibly the next big thing in CSS development. It&#39;s Wednesday, September 8, 1pm Eastern time...and this is episode 06. So, let&#39;s get tooling",
   "thumbnail": "/images/toolbox/episode06-bootstrap51new_tn.jpg",
@@ -328,7 +391,7 @@
   "url": "/newsletter/2021-09-02-the-historic-time-machine/",
   "tags" : ""
 },{
-  "title": "Using CodeSpaces to Create a Jailwind JIT Environment -- The Toolbox Ep 05",
+  "title": "Using CodeSpaces to Create a Jailwind JIT Environment-Ep05",
   "date" : "Sep 01, 2021",
   "summary" : "Create your own repo that can take the place of CodePen or a custom environment with your own node modules to install and run Tailwind CSS.",
   "thumbnail": "/images/toolbox/episode05-tailwindsjit_tn.jpg",
@@ -426,7 +489,7 @@
   "url": "https://www.linkedin.com/learning/tech-trends",
   "tags" : "external,tech trends,technology,trends"
 },{
-  "title": "GitHub Tools You Should Now -- The Toolbox Episode 04 -- Special Launch Edition",
+  "title": "GitHub Tools You Should Now-Ep04",
   "date" : "Aug 25, 2021",
   "summary" : "I&#39;m celebrating the release of my new course: GitHub Code Challenges. So, in a special launch edition of The Toolbox, I go over some of the latest GitHub Tools and updates as well as some of my favorite GitHub tips you should already know.",
   "thumbnail": "/images/toolbox/githubtools_tn.jpg",
@@ -517,7 +580,7 @@
   "url": "/newsletter/2021-08-19-the-influenced-mind/",
   "tags" : ""
 },{
-  "title": "What&#39;s new in Bootstrap 5.1? The Toolbox - Episode 02",
+  "title": "What&#39;s new in Bootstrap 5.1-Ep03",
   "date" : "Aug 18, 2021",
   "summary" : "In this episode, I&#39;ll talk about Obsidian the tool that made me completely change my workflow and the way I write articles, notes, pretty much everything. We&#39;ll also cover some of the new features inside Bootstrap 5.1 and cover some more other tools.",
   "thumbnail": "/images/toolbox/obsidian_tn.jpg",
@@ -860,7 +923,7 @@
   "url": "/newsletter/2021-08-05-The-unchanging-essence/",
   "tags" : ""
 },{
-  "title": "What&#39;s new in Bootstrap 5.1? The Toolbox - Episode 02",
+  "title": "What&#39;s new in Bootstrap 5.1-Ep02",
   "date" : "Aug 04, 2021",
   "summary" : "In this episode...Bootstrap has released a new version of it&#39;s popular front end Framework. V ersion 5.1 offers lots of new features and a move towards CSS Grid. In this episode, we&#39;ll discuss the changes and what they mean to someone who wants to update.",
   "thumbnail": "/images/toolbox/bootstrap52-tbep02_tn.jpg",
@@ -881,7 +944,7 @@
   "url": "/newsletter/2021-07-22-The-Unforgettable-Ride/",
   "tags" : ""
 },{
-  "title": "How Can GitHub Help me Manage my Development Projects? The Toolbox - Episode 01",
+  "title": "How Can GitHub Help me Manage my Development Projects-Ep01",
   "date" : "Jul 21, 2021",
   "summary" : "In this episode...the official first episode of the Toolbox, we&#39;ll take a look at some great new tools, including my new favorite flowchart designer, a site that explains the shell and I&#39;ll introduce you to the tools inside Github that help with Project Management.",
   "thumbnail": "/images/toolbox/GithubTimeMachine_tn.jpg",
@@ -895,7 +958,7 @@
   "url": "/newsletter/2021-07-15-The-Quizzical-Dream/",
   "tags" : ""
 },{
-  "title": "Why JavaScript is Definitely Weird: The Toolbox - Episode 00",
+  "title": "Why JavaScript is Definitely Weird-Ep00",
   "date" : "Jul 14, 2021",
   "summary" : "In this...the unofficial Episode 0. I take a look at an article on why npm audit is broken, check out the AppSumo sale, a  query language for Wikipedia, important changes to Git and struggle through the JS is weird test.",
   "thumbnail": "/images/site/thetoolbox_tn.png",
@@ -1916,6 +1979,13 @@
   "thumbnail": "/images/courses/ajax_tn.png",
   "url": "https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fjavascript-and-ajax-integration-techniques",
   "tags" : "external,css,javascript,html,web designer,web developer"
+},{
+  "title": "MD Block",
+  "date" : "Dec 10, 2012",
+  "summary" : "MD Block is probably not for everyone. It&#39;s a small script that lets you create a new tag in your HTML that you can use to insert internal or external markdown. For Markdown nerds like me, it makes it easier to write markdown inside an HTML document.",
+  "thumbnail": "/images/shorts/2021-12-08_01-07-02.png",
+  "url": "https://md-block.verou.me/",
+  "tags" : "external"
 },{
   "title": "View Source",
   "date" : "May 25, 2012",
