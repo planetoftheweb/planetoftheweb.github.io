@@ -1,5 +1,5 @@
 <header id="layout-carousel" 
-  class="carousel d-none rounded d-sm-flex justify-content-center align-items-center {% if carousel.slide !== false %}slide{%endif%}
+  class="carousel d-none d-md-flex rounded justify-content-center align-items-center {% if carousel.slide !== false %}slide{%endif%}
     {% if carousel.fade %}carousel-fade{% endif %}"
     {% if carousel.interval %}data-bs-interval="{{carousel.interval}}"{% endif %}
     {% if carousel.wrap == false %}data-bs-wrap="false"{% endif %} 
@@ -16,13 +16,13 @@
     {% for item in carouselPosts %}
     <div class="carousel-item {% if loop.first %}active{% endif%}" 
       >
-      <a href="{{item.url}}">
+      <a class="stretched-link" href="{{item.url}}">
         <img class="d-block w-100" src="{{ item.data.hero }}" alt="{{ item.data.title }} photo">
 
          {% if item.data.hideDesc!= true %} 
         <div class="carousel-caption">
           <div class="container">
-          --{{item.data.hideDesc}}
+          {{item.data.hideDesc}}
           {% if item.data.title %}<h4 class="d-none d-lg-block text-white">{{item.data.title}}</h4>{% endif %}
           {% if item.data.summary %}<p class="d-none d-xl-block" style="font-size: .9em">{{item.data.summary}}</p>{% endif %}
           </div>

@@ -2,14 +2,15 @@
 layout: post.njk
 title: "What's New in Tailwind CSS 3"
 summary: "Tailwind CSS 3 is a new version of the utility-first CSS framework that shook the world a few years ago. Let's take a look at why it's gotten so dominant so quickly and what's changed in the latest version."
-hero: /images/posts/learningastro.png
-thumb: /images/posts/learningastro_tn.jpg
-video: YYl5BPePwTM
+hero: /images/posts/whatsnewtailwind.png
+thumb: /images/posts/whatsnewtailwind_tn.jpg
+video: 1LfMMOJzB-o
 category: posts
 tags:
   - full stack development
-  - javascript
+  - css
   - frameworks
+  - tailwindcss
 ---
 
 Early in December 2021, Tailwind CSS released a version 3 of the framework. The main changes in this version had been pioneered since version 2.1. Before we go over the specifics, let's go over how it works and what makes it a compelling option for component based architectures.

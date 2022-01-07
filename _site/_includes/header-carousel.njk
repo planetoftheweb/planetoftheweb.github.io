@@ -2,7 +2,7 @@
 
 {% if not hero %}mt-5 pt-5{% endif %} site-header" style="width: 100vw; min-height: {{(headerHeight) if headerHeight else '50vh'}};
 
-  class="site-header position-relative carousel {% if carousel.slide !== false %}slide{%endif%}
+  class="d-none d-lg-block site-header position-relative carousel {% if carousel.slide !== false %}slide{%endif%}
   {% if carousel.fade %}carousel-fade{% endif %}"
   {% if carousel.interval %}data-interval="{{carousel.interval}}"{% endif %}
   {% if carousel.wrap == false %}data-wrap="false"{% endif %} 
@@ -20,7 +20,7 @@
 
     {% for item in carousel.items %}
     <div class="carousel-item {% if loop.first %}active{% endif%}" >
-      <a href="{{item.url}}">
+      <a class="stretched-link" href="{{item.url}}">
         <img class="d-block w-100" src="{{item.data.hero}}" style="max-height: {{(headerHeight) if headerHeight else '50vh'}}"></div>
         <div class="carousel-caption d-none d-md-block">
           {% if item.data.title %}<h1>{{item.data.title}}</h1>{% endif %}

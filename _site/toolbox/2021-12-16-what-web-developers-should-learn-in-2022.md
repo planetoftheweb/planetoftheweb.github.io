@@ -4,7 +4,7 @@ title: "What Web Designers/Developers Should Learn in 2022-Ep17"
 summary: "In this episode of The Toolbox, I'm going to talk about what css, javascript and new frameworks you should learn in 2022. Plus, sites you should know about, and I'll go over every new feature in Tailwind CSS 3. The pace of the web is relentless...and that's why you need The Toolbox."
 hideDesc: true
 video: IwvyuqjOeNE
-hero: /images/toolbox/episode17.jpg
+hero: /images/toolbox/episode17.png
 thumb: /images/toolbox/episode17_tn.jpg
 category: toolbox
 ---
