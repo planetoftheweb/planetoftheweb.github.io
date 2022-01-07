@@ -13,6 +13,20 @@
   "url": "/newsletter/2022-01-03-The-Relentless-Pace/",
   "tags" : ""
 },{
+  "title": "Publishing Apps and Sites with GitHub",
+  "date" : "Jan 03, 2022",
+  "summary" : "If you’re looking for an open-core, user-friendly way to publish an app or website, GitHub has a lot to offer. Now, with GitHub Pages, you can get your own site up and running in no time, and you can do it all for free.",
+  "thumbnail": "/images/courses/publishingwithgithub_tn.jpg",
+  "url": "https://www.linkedin.com/learning/publishing-apps-and-sites-with-github/",
+  "tags" : "external,github"
+},{
+  "title": "JavaScript as a Second Language",
+  "date" : "Dec 20, 2021",
+  "summary" : "JavaScript seems simple on the surface, with new features arriving often to make complicated tasks easier. Sorting out that pile of features isn&#39;t so simple. Tight graphic presentations to the rescue!",
+  "thumbnail": "/images/courses/jsl_tn.jpg",
+  "url": "https://www.linkedin.com/learning/javascript-as-a-second-language",
+  "tags" : "external,javascript"
+},{
   "title": "What Web Designers/Developers Should Learn in 2022-Ep17",
   "date" : "Dec 16, 2021",
   "summary" : "In this episode of The Toolbox, I&#39;m going to talk about what css, javascript and new frameworks you should learn in 2022. Plus, sites you should know about, and I&#39;ll go over every new feature in Tailwind CSS 3. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
