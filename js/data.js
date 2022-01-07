@@ -2,9 +2,9 @@
   "title": "What&#39;s New in Tailwind CSS 3",
   "date" : "Jan 04, 2022",
   "summary" : "Tailwind CSS 3 is a new version of the utility-first CSS framework that shook the world a few years ago. Let&#39;s take a look at why it&#39;s gotten so dominant so quickly and what&#39;s changed in the latest version.",
-  "thumbnail": "/images/posts/learningastro_tn.jpg",
+  "thumbnail": "/images/posts/whatsnewtailwind_tn.jpg",
   "url": "/posts/2022-01-04-whats-new-in-tailwind-css-3/",
-  "tags" : "full stack development,javascript,frameworks"
+  "tags" : "full stack development,css,frameworks,tailwindcss"
 },{
   "title": "The Relentless Pace",
   "date" : "Jan 03, 2022",
