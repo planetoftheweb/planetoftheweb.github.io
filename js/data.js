@@ -1,4 +1,11 @@
 [{
+  "title": "The Learning Algorithm",
+  "date" : "Jan 10, 2022",
+  "summary" : "Learning is second nature to most, but how does a professional learner approach it? In this article, I talk about my experience as a lifelong learner and some of the research that might help you establish your own approach.",
+  "thumbnail": "/images/newsletter/learningalgorythm_tn.jpg",
+  "url": "/newsletter/2022-01-10-The-Learning-Algorithm/",
+  "tags" : ""
+},{
   "title": "What&#39;s New in Tailwind CSS 3",
   "date" : "Jan 04, 2022",
   "summary" : "Tailwind CSS 3 is a new version of the utility-first CSS framework that shook the world a few years ago. Let&#39;s take a look at why it&#39;s gotten so dominant so quickly and what&#39;s changed in the latest version.",
