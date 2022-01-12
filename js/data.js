@@ -1,4 +1,11 @@
 [{
+  "title": "Learning About Learning-Ep18",
+  "date" : "Jan 12, 2022",
+  "summary" : "In this episode of The Toolbox, I&#39;m going to talk about some of the research behind how adults learn, what programmers do and how I approach learning as a professional student. I&#39;ve also got some great demos of GitHub&#39;s new Code Search Engine, the best new terminal I&#39;ve seen in ages called Warp and I&#39;ll even give you a chance to get some invites. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
+  "thumbnail": "/images/toolbox/episode17_tn.jpg",
+  "url": "/toolbox/2022-01-12-learning-about-learning/",
+  "tags" : ""
+},{
   "title": "Learning from Code Samples",
   "date" : "Jan 11, 2022",
   "summary" : "Code screenshots have taken over social media timelines. Although they get a ton of engagement, how should you use them to learn and perhaps as a way to help your development team or your interviews get better.",
@@ -11,6 +18,13 @@
   "summary" : "Learning is second nature to most, but how does a professional learner approach it? In this article, I talk about my experience as a lifelong learner and some of the research that might help you establish your own approach.",
   "thumbnail": "/images/newsletter/learningalgorythm_tn.jpg",
   "url": "/newsletter/2022-01-10-The-Learning-Algorithm/",
+  "tags" : ""
+},{
+  "title": "What Web Designers/Developers Should Learn in 2022-Ep17",
+  "date" : "Jan 05, 2022",
+  "summary" : "In this episode of The Toolbox, I&#39;m going to talk about what css, javascript and new frameworks you should learn in 2022. Plus, sites you should know about, and I&#39;ll go over every new feature in Tailwind CSS 3. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
+  "thumbnail": "/images/toolbox/episode17_tn.jpg",
+  "url": "/toolbox/2022-01-05-what-web-developers-should-learn-in-2022/",
   "tags" : ""
 },{
   "title": "What&#39;s New in Tailwind CSS 3",
@@ -40,13 +54,6 @@
   "thumbnail": "/images/courses/jsl_tn.jpg",
   "url": "https://www.linkedin.com/learning/javascript-as-a-second-language",
   "tags" : "external,javascript"
-},{
-  "title": "What Web Designers/Developers Should Learn in 2022-Ep17",
-  "date" : "Dec 16, 2021",
-  "summary" : "In this episode of The Toolbox, I&#39;m going to talk about what css, javascript and new frameworks you should learn in 2022. Plus, sites you should know about, and I&#39;ll go over every new feature in Tailwind CSS 3. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
-  "thumbnail": "/images/toolbox/episode17_tn.jpg",
-  "url": "/toolbox/2021-12-16-what-web-developers-should-learn-in-2022/",
-  "tags" : ""
 },{
   "title": "The State of CSS-Ep16",
   "date" : "Dec 16, 2021",

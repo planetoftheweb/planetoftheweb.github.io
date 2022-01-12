@@ -1,0 +1,354 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <meta name="description" content="In this episode of The Toolbox, I'm going to talk about some of the research behind how adults learn, what programmers do and how I approach learning as a professional student. I've also got some great demos of GitHub's new Code Search Engine, the best new terminal I've seen in ages called Warp and I'll even give you a chance to get some invites. The pace of the web is relentless...and that's why you need The Toolbox." />
+    <meta property="og:title" content="Learning About Learning-Ep18" />
+    <meta property="og:description" content="In this episode of The Toolbox, I'm going to talk about some of the research behind how adults learn, what programmers do and how I approach learning as a professional student. I've also got some great demos of GitHub's new Code Search Engine, the best new terminal I've seen in ages called Warp and I'll even give you a chance to get some invites. The pace of the web is relentless...and that's why you need The Toolbox." />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/episode17.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2022-01-12-learning-about-learning/">
+    <meta name="twitter:title" content="Learning About Learning-Ep18">
+    <meta name="twitter:description" content="In this episode of The Toolbox, I'm going to talk about some of the research behind how adults learn, what programmers do and how I approach learning as a professional student. I've also got some great demos of GitHub's new Code Search Engine, the best new terminal I've seen in ages called Warp and I'll even give you a chance to get some invites. The pace of the web is relentless...and that's why you need The Toolbox.">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode17.png">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
+ 
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-bs-toggle="collapse" data-bs-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="bi bi-house-door-fill"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/toolbox/0/">toolbox</a>
+            
+            <a class="nav-item nav-link" href="/shorts/0/">shorts</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                    <i class="bi bi-linkedin text-secondary me-1"></i> linkedin
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                    <i class="bi bi-github text-secondary me-1"></i> github
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                    <i class="bi bi-suit-club text-secondary me-1"></i> clubhouse
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                    <i class="bi bi-twitter text-secondary me-1"></i> twitter
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                    <i class="bi bi-image text-secondary me-1"></i> flickr
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                    <i class="bi bi-youtube text-secondary me-1"></i> youtube
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                    <i class="bi bi-instagram text-secondary me-1"></i> instagram
+                  </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="container site-header ratio ratio-16x9">
+  <iframe style="border-radius: 20px;" src="https://www.youtube.com/embed/IwvyuqjOeNE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+<h1>Learning About Learning-Ep18</h1>
+<p class="lead">In this episode of The Toolbox, I&#39;m going to talk about some of the research behind how adults learn, what programmers do and how I approach learning as a professional student. I&#39;ve also got some great demos of GitHub&#39;s new Code Search Engine, the best new terminal I&#39;ve seen in ages called Warp and I&#39;ll even give you a chance to get some invites. The pace of the web is relentless...and that&#39;s why you need The Toolbox.</p>
+
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern • 10am Pacific. Follow me and subscribe on all the social media things for more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.</p>
+<p>My dad worked for a big bank and when I graduated from 10th grade, we moved to Chile. I had already taken my first basic computer class in Puerto Rico, so I signed up for a Pascal class at the new school. But, when I got there, the semester was almost over.</p>
+<p>My teacher decided to let me do self study, so I got the book, help whenever I needed it and a series of problems to solve. As long as I finished the problems, I would get a passing grade.</p>
+<p>That experience really changed my life and to this day, I've learned the value of how to study. It's only recently that I learned that adult learning is a pretty well researched topic.</p>
+<p>So today, I wanted to talk about some of the things I do and hopefully it's something that can help you.</p>
+<p>Before I get into that, I want to talk about a couple of cool new tools you should know about.</p>
+<h2 id="github-code-search">GitHub Code Search <a class="direct-link" href="#github-code-search"> </a></h2>
+<p>First, it's the brand new <a href="https://cs.github.com/">GitHub Code Search</a>. It's currently under closed beta and I just got access the day before yesterday, so I wanted to share.</p>
+<p>There's a couple of real interesting things. Last week I talked about how the Rust programming language is becoming real popular and sure enough, this new Search Engine was written in <a href="https://www.rust-lang.org/">Rust</a>.</p>
+<p>This search engine focuses on letting your search code that's on GitHub. Now GitHub let's you do some of this, but this URL is clearly superior. You can easily search throughout GitHub</p>
+<p>Like with GitHub, you can hit the question mark ? to get a quick list of the available commands.</p>
+<p>You can choose to search within GitHub or on just your own repos with the dropdown. You can even create custom scopes that you search often.</p>
+<p>Let's search for one of my articles. &quot;The Rise of the Meta Frameworks&quot;. Once you get some results, you can choose to view the repo or search inside that search result.</p>
+<p>You can multi-line choose text and then hit the copy icon.</p>
+<p>You can also jump back into GitHub or easily open up a codespace to fix or work on a file.</p>
+<h1 id="warp-terminal">Warp Terminal <a class="direct-link" href="#warp-terminal"> </a></h1>
+<p>Another awesome new tool is the brand new Terminal tool called <a href="https://www.warp.dev/">Warp</a>. Which was also written in Rust.</p>
+<p>I finally got my invite to check it out and I couldn't be more excited. I'm not sure I can ever go back and when I got into the Visual Studio Code terminal, I'm sort of disappointed.</p>
+<p>This terminal is super smart. It has excellent autocomplete features that are magical.</p>
+<p>You can easily go through your command history by hitting the up arrow.</p>
+<p>You can type multiple commands by hitting the shift return key.</p>
+<p>When doing this, you enter block editing mode and the terminal will then behave like a regular text editor. That means that you can do things like multiple cursors.</p>
+<p>I have about 10 invites that I can give out to Warp, so send me an InMail on LinkedIn and I'll give them out to the first 10 people.</p>
+<h1 id="about-learning">About Learning <a class="direct-link" href="#about-learning"> </a></h1>
+<p>People think I spent most of my time teaching, but the reality is that most of my time is spent writing (for teaching) and learning. My learning approach hasn't changed much since high school. It goes something like this:</p>
+<ul>
+<li>Read/Watch</li>
+<li>Take notes</li>
+<li>Practice</li>
+<li>Teach it</li>
+</ul>
+<h2 id="read%2Fwatch">Read/Watch <a class="direct-link" href="#read%2Fwatch"> </a></h2>
+<p>Giving yourself time and permission to learn is probably the most important skill to develop. If I take 30 minutes to learn something that will eventually save me hours, then it makes sense to spend the time doing it. Although I learn by reading or watching videos or reading documentation, it doesn't really matter how you learn. Different people enjoy different types of learning.</p>
+<h2 id="take-notes">Take notes <a class="direct-link" href="#take-notes"> </a></h2>
+<p>The difference between normal notes and then ones I use for learning is that I focus on writing things I want to practice later. I learn from videos, documentation or articles, so those are easily bookmarked for access later. Learning materials can have a lot of fluff, so I'm really interested things I want to reinforce with practice.</p>
+<p>Here's a good research based article on how to take actionable notes:</p>
+<p><a href="https://go.raybo.org/6-Is">Research on Notes</a></p>
+<p>Basically the article talks about how revising and reviewing notes is the key to making them useful. Nowadays all the conference talks are recorded, so notes can help you establish your learning plan.</p>
+<h2 id="practice">Practice <a class="direct-link" href="#practice"> </a></h2>
+<p>It's tough to learn something well that's not going to be useful in the future, so reading documentation is a waste unless you're willing to do something with it. If you're reading from documentation, try to give yourself a realistic problem that will help you expand your knowledge about the topic.</p>
+<p>We all get these screenshots or code snippets so I did a video on how you can use them to learn a few things. Most of the time, it's not important what they're about, but just going through the code will help you get better.</p>
+<blockquote>
+<p>Pay Video screenshotlearning.mov</p>
+</blockquote>
+<h2 id="teach-it">Teach it <a class="direct-link" href="#teach-it"> </a></h2>
+<p>This is one secret all teachers know. The best way to understand something is to try to explain it. One of the ways I did this in high school is by becoming a lab assistant. Having to help people with their own problems made me really dig into topics.</p>
+<h2 id="favorite-reasearch-findings-from-stack-overflow">Favorite Reasearch Findings from Stack Overflow <a class="direct-link" href="#favorite-reasearch-findings-from-stack-overflow"> </a></h2>
+<p>Let's talk a bit about some of the wayss that developers are different. The stack overflow annual survey has about 80k respondents. I gathered some stats about developers and education from the <a href="https://go.raybo.org/6-JD">2020</a> and <a href="https://go.raybo.org/6-JI">2021</a> surveys.</p>
+<ul>
+<li><a href="https://insights.stackoverflow.com/survey/2020#technology-learning-new-tech-frequency">75% Learn Something New</a></li>
+<li><a href="https://insights.stackoverflow.com/survey/2021#section-experience-learning-how-to-code">60% Use Online Resources</a></li>
+<li><a href="https://insights.stackoverflow.com/survey/2021#section-learning-problem-solving-what-do-you-do-when-you-get-stuck">90% Google It</a></li>
+<li><a href="https://insights.stackoverflow.com/survey/2020#technology-already-visited-feeling">Half Seen it Before</a></li>
+<li><a href="https://insights.stackoverflow.com/survey/2021#section-education-educational-attainment">80% Higher Ed</a></li>
+<li><a href="https://insights.stackoverflow.com/survey/2020#developer-profile-formal-education-importance">85% Though it Important</a></li>
+</ul>
+<h2 id="andragogy-principles">Andragogy Principles <a class="direct-link" href="#andragogy-principles"> </a></h2>
+<p>Let's take a look at how that compares to adult learners and some of the research that has been done there.</p>
+<p><a href="https://go.raybo.org/6-JN">Learning Principles</a></p>
+<h1 id="andragogy-principles-2">Andragogy Principles <a class="direct-link" href="#andragogy-principles-2"> </a></h1>
+<ul>
+<li>Prior Experience</li>
+<li>Self-concept</li>
+<li>Motivation</li>
+<li>Readiness</li>
+<li>Orientation</li>
+</ul>
+<p>Learners have a wide range of experience levels</p>
+<h2 id="self-concept">Self-concept <a class="direct-link" href="#self-concept"> </a></h2>
+<p>Learners like to feel like they're in charge</p>
+<h2 id="need-to-know">Need to know <a class="direct-link" href="#need-to-know"> </a></h2>
+<p>Learners want to know why they need to learn something</p>
+<p>You will be more successful learning if you understand why you need to learn something. When I taught in college one or more students would always want to know why something was important. What they were really saying is why do I need to learn this? What's in it for me? I don't blame them. CSS and JavaScript are getting ridiculously complicated.</p>
+<h2 id="motivation">Motivation <a class="direct-link" href="#motivation"> </a></h2>
+<p>Learners are better motivated by internal pressures</p>
+<p>We can be motivated by all types of things, an increased salary, a new job title, etc. The motivations that work the best are things like job satisfaction, self esteem and quality of life.</p>
+<p>How does this translate to practical learning for developers? For me, I choose to learn things that will improve me as a developer. Regular practice is the best way to learn.</p>
+<h2 id="readiness">Readiness <a class="direct-link" href="#readiness"> </a></h2>
+<p>Learners want training when they need to know something</p>
+<p>Most people don't want to learn things until they have to. That's the reason that developers use Google or Stack Overflow so much. Deadlines are a fantastic way to learn, so you can create your own by defining some accountability.</p>
+<p>Here's some techniques to target readiness. Writing a regular blog post and having a weekly stream is definitely motivating me to learn new things constantly. If you make it a point to As a boss, you can ask your workers to talk about a new topic at a meeting, or ask them to have a day of learning where they get to share what they learned with each other.</p>
+<h2 id="orientation">Orientation <a class="direct-link" href="#orientation"> </a></h2>
+<p>Learners are encouraged by solutions to real problems</p>
+<p>People want to learn from real world problems. That's my problem with a lot of documentation and even some tutorials. I teach the same way I learn...by working on something realistic.</p>
+<p>I've got a new course that focuses on this approach called <a href="https://go.raybo.org/6-JZ">JavaScript as a Second Language</a>.</p>
+<h2 id="demo-of-code-from-friend">Demo of Code from Friend <a class="direct-link" href="#demo-of-code-from-friend"> </a></h2>
+<p>Last week, Peter EasterBrook, who watches the show often had a good question. Asking about React charting libraries. I did a bit of research and found and article discussing the <a href="https://go.raybo.org/6-Je">top 5 React Libraries</a></p>
+<p>He and I chatted through the list and I think he linked ReChart. So, he went out and built something with it.</p>
+<p><a href="https://weather.onestepweb.dev/">https://weather.onestepweb.dev/</a></p>
+<p>I think this encapsulates all of the things I talked about how developers learn something.</p>
+
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#github-code-search">GitHub Code Search</a>
+            		</li>
+
+                    <li><a href="#read%2Fwatch">Read/Watch</a>
+            		</li>
+
+                    <li><a href="#take-notes">Take notes</a>
+            		</li>
+
+                    <li><a href="#practice">Practice</a>
+            		</li>
+
+                    <li><a href="#teach-it">Teach it</a>
+            		</li>
+
+                    <li><a href="#favorite-reasearch-findings-from-stack-overflow">Favorite Reasearch Findings from Stack Overflow</a>
+            		</li>
+
+                    <li><a href="#andragogy-principles">Andragogy Principles</a>
+            		</li>
+
+                    <li><a href="#self-concept">Self-concept</a>
+            		</li>
+
+                    <li><a href="#need-to-know">Need to know</a>
+            		</li>
+
+                    <li><a href="#motivation">Motivation</a>
+            		</li>
+
+                    <li><a href="#readiness">Readiness</a>
+            		</li>
+
+                    <li><a href="#orientation">Orientation</a>
+            		</li>
+
+                    <li><a href="#demo-of-code-from-friend">Demo of Code from Friend</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
+</article>
+
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
+      <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://github.com/planetoftheweb">
+      <i class="bi bi-github text-secondary me-1"></i>github
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.joinclubhouse.com/planetoftheweb">
+      <i class="bi bi-suit-club text-secondary me-1"></i>clubhouse
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://twitter.com/planetoftheweb">
+      <i class="bi bi-twitter text-secondary me-1"></i>twitter
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="bi bi-image text-secondary me-1"></i>flickr
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="bi bi-youtube text-secondary me-1"></i>youtube
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.instagram.com/planetoftheweb">
+      <i class="bi bi-instagram text-secondary me-1"></i>instagram
+      </a>
+    </div></div>
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      let nav = document.querySelector('.site-nav')
+      let mainContent = document.querySelector('#main-content')
+      let navHeight = nav.scrollHeight
+
+      function moveHeader() {
+        let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+        mainOnTop < 0
+          ? nav.classList.add('in-body')
+          : nav.classList.remove('in-body')
+
+        window.requestAnimationFrame(moveHeader)
+      }
+      window.requestAnimationFrame(moveHeader)
+    })();
+  </script>
+  <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"lang":"en","siteId":2197414,"cookiePolicyId":85544448, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html>
