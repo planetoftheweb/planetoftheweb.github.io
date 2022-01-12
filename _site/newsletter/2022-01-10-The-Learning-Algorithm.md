@@ -99,15 +99,17 @@ A bit of code that explains how promises work. I love seeing those, but I rarely
 
 This is from [a course I did](https://www.linkedin.com/posts/planetoftheweb_whats-does-research-say-about-learning-javascript-activity-6886345674527395840-Fl3h) that shows you not just the code for the spread operator, but how you might use it to solve a problem you can relate with.
 
+If you see a code png or gif on social media and it's something you want to try later...bookmark or save the code and then make a note to try it later. Try modifying the code for some extra retention.
+
 ## Readiness
 
 Most people don't want to learn things until they have to. That's the reason that developers use Google or Stack Overflow so much. Deadlines are a fantastic way to learn, so you can create your own by defining some accountability.
 
 [![Github Code Search](/images/newsletter/2022-01-11_01-27-49.png)](https://cs.github.com/)
 
-Rcently, GitHub announced access to its [code search engine](https://cs.github.com/). Some of this functionality was already on GitHub, but it's now it's own service and was programmed with Rust for ultimate speed.
+Rcently, GitHub announced access to its [code search engine](https://cs.github.com/). Some of this functionality was already in GitHub, but now GitHub launched it as it's own service programmed with Rust for ultimate speed.
 
-Here's some techniques to target your readiness. As a boss, you can ask your workers to talk about a new topic at a meeting, or ask them to have a day of learning where they get to share what they learned with each other. Writing a regular blog post and having a weekly stream is definitely motivating me to learn new things constantly.
+Here's some techniques to target readiness. Writing a regular blog post and having a weekly stream is definitely motivating me to learn new things constantly. If you make it a point to As a boss, you can ask your workers to talk about a new topic at a meeting, or ask them to have a day of learning where they get to share what they learned with each other.
 
 # Learn More
 
