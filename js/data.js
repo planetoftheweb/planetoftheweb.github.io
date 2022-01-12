@@ -1,4 +1,11 @@
 [{
+  "title": "Learning from Code Samples",
+  "date" : "Jan 11, 2022",
+  "summary" : "Code screenshots have taken over social media timelines. Although they get a ton of engagement, how should you use them to learn and perhaps as a way to help your development team or your interviews get better.",
+  "thumbnail": "/images/posts/developer-coding_tn.jpg",
+  "url": "/posts/2022-01-11-learning-from-code-samples/",
+  "tags" : "full stack development,javascript"
+},{
   "title": "The Learning Algorithm",
   "date" : "Jan 10, 2022",
   "summary" : "Learning is second nature to most, but how does a professional learner approach it? In this article, I talk about my experience as a lifelong learner and some of the research that might help you establish your own approach.",
