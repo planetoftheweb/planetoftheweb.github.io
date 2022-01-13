@@ -1,8 +1,8 @@
 [{
-  "title": "Learning About Learning-Ep18",
+  "title": "The Best Way To Learn JavaScript-Ep18",
   "date" : "Jan 12, 2022",
-  "summary" : "In this episode of The Toolbox, I&#39;m going to talk about some of the research behind how adults learn, what programmers do and how I approach learning as a professional student. I&#39;ve also got some great demos of GitHub&#39;s new Code Search Engine, the best new terminal I&#39;ve seen in ages called Warp and I&#39;ll even give you a chance to get some invites. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
-  "thumbnail": "/images/toolbox/episode17_tn.jpg",
+  "summary" : "In this episode of The Toolbox, I&#39;m going to talk about some of the research behind how adults learn, what programmers do and how I approach learning as a professional student. I&#39;ve also got some great demos of GitHub&#39;s new Code Search Engine, the best new terminal I&#39;ve seen in ages called Warp and yes, I have some invites. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
+  "thumbnail": "/images/toolbox/episode18_tn.jpg",
   "url": "/toolbox/2022-01-12-learning-about-learning/",
   "tags" : ""
 },{
