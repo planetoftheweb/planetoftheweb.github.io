@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Learning About Learning-Ep18"
-summary: "In this episode of The Toolbox, I'm going to talk about some of the research behind how adults learn, what programmers do and how I approach learning as a professional student. I've also got some great demos of GitHub's new Code Search Engine, the best new terminal I've seen in ages called Warp and I'll even give you a chance to get some invites. The pace of the web is relentless...and that's why you need The Toolbox."
+title: "The Best Way To Learn JavaScript-Ep18"
+summary: "In this episode of The Toolbox, I'm going to talk about some of the research behind how adults learn, what programmers do and how I approach learning as a professional student. I've also got some great demos of GitHub's new Code Search Engine, the best new terminal I've seen in ages called Warp and yes, I have some invites. The pace of the web is relentless...and that's why you need The Toolbox."
 hideDesc: true
-video: IwvyuqjOeNE
-hero: /images/toolbox/episode17.png
-thumb: /images/toolbox/episode17_tn.jpg
+video: wj-eqxaImkg
+hero: /images/toolbox/episode18.jpg
+thumb: /images/toolbox/episode18_tn.jpg
 category: toolbox
 ---
 
@@ -94,12 +94,12 @@ This is one secret all teachers know. The best way to understand something is to
 
 Let's talk a bit about some of the wayss that developers are different. The stack overflow annual survey has about 80k respondents. I gathered some stats about developers and education from the [2020](https://go.raybo.org/6-JD) and [2021](https://go.raybo.org/6-JI) surveys.
 
-- [75% Learn Something New](https://insights.stackoverflow.com/survey/2020#technology-learning-new-tech-frequency)
-- [60% Use Online Resources](https://insights.stackoverflow.com/survey/2021#section-experience-learning-how-to-code)
-- [90% Google It](https://insights.stackoverflow.com/survey/2021#section-learning-problem-solving-what-do-you-do-when-you-get-stuck)
-- [Half Seen it Before](https://insights.stackoverflow.com/survey/2020#technology-already-visited-feeling)
-- [80% Higher Ed](https://insights.stackoverflow.com/survey/2021#section-education-educational-attainment)
-- [85% Though it Important](https://insights.stackoverflow.com/survey/2020#developer-profile-formal-education-importance)
+- [75% Learn Something New](https://go.raybo.org/6-Kc)
+- [60% Use Online Resources](https://go.raybo.org/6-Kf)
+- [90% Google It](https://go.raybo.org/6-Kg)
+- [Half Seen it Before](https://go.raybo.org/6-Kh)
+- [80% Higher Ed](https://go.raybo.org/6-Ki)
+- [85% Though it Important](https://go.raybo.org/6-Kj)
 
 ## Andragogy Principles
 
