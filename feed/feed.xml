@@ -4,12 +4,22 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2022-01-11T00:00:00Z</updated>
+	<updated>2022-01-26T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Open Props Review: The CSS Variable Framework</title>
+		<link href="/posts/2022-01-26-open-props-css-variable-framework-review/"/>
+		<updated>2022-01-26T00:00:00Z</updated>
+		<id>/posts/2022-01-26-open-props-css-variable-framework-review/</id>
+		<content type="html">&lt;p&gt;In CSS, variables are known as Custom Properties, so this framework is called open props because they are giving you a set of variables that you can use.&lt;/p&gt;
+&lt;p&gt;There&#39;s a lot of ways to install these, but&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Learning from Code Samples</title>

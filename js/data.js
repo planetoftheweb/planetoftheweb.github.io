@@ -1,4 +1,60 @@
 [{
+  "title": "How to Make CSS Design Simpler - Ep 19",
+  "date" : "Jan 26, 2022",
+  "summary" : "In this episode of The Toolbox, I&#39;ll go over some of the complexity that&#39;s plaguing CSS and making specificity harder to figure out. We&#39;ll look at what frameworks are doing to try to address this and show simpler ways of designing pages. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
+  "thumbnail": "/images/toolbox/episode19_tn.jpg",
+  "url": "/toolbox/2022-01-26-making-css-simpler/",
+  "tags" : ""
+},{
+  "title": "Open Props Review: The CSS Variable Framework",
+  "date" : "Jan 26, 2022",
+  "summary" : "One of the ways that some CSS frameworks are trying to make things easier is by giving you a set of pre-defined variables that can help you create a consistent look for your sites.",
+  "thumbnail": "/images/posts/developer-coding_tn.jpg",
+  "url": "/posts/2022-01-26-open-props-css-variable-framework-review/",
+  "tags" : "full stack development,javascript"
+},{
+  "title": "ZX-Run-Bash-Scripts-in-JavaScript",
+  "date" : "Jan 21, 2022",
+  "summary" : "A real popular package on GitHub, this tool lets you run bash scripts from javascript with top level await functionality. Be real careful with this, running shell commands could be hazardous to your health, you might be replaced by a small shell script.",
+  "thumbnail": "/images/shorts/2022-01-21_12-54-19.png",
+  "url": "https://github.com/google/zx",
+  "tags" : "external"
+},{
+  "title": "Simple CSS",
+  "date" : "Jan 21, 2022",
+  "summary" : "This is a set of stylesheets that lets you create a web page without any classes. Feels like the way HTML should work. The page looks pretty good as is and of course can be customized, but that&#39;s almost besides the point. Great for demos that look great out of the box.",
+  "thumbnail": "/images/shorts/2022-01-21_13-25-15.png",
+  "url": "https://simplecss.org",
+  "tags" : "external"
+},{
+  "title": "Open Props",
+  "date" : "Jan 21, 2022",
+  "summary" : "A set of pre-defined variables that can be added to your projects as modules. Helps you create beautiful design with some consistency.",
+  "thumbnail": "/images/shorts/2022-01-21_13-12-55.png",
+  "url": "https://open-props.style/",
+  "tags" : "external"
+},{
+  "title": "Simple CSS",
+  "date" : "Jan 21, 2022",
+  "summary" : "Gotta get a quick demo going and are tired of using the same three pictures of you pets. We&#39;ll then there&#39;s Doodle Ipsum. Sort of like a Lorem Ipsum for random pictures. Could be great in a pinch.",
+  "thumbnail": "/images/shorts/2022-01-21_14-00-28.png",
+  "url": "https://doodleipsum.com/",
+  "tags" : "external"
+},{
+  "title": "Rising Stars",
+  "date" : "Jan 21, 2022",
+  "summary" : "This site looks at the popularity of front end tools, based on their GitHub stars and ranks them as. Some pretty interesting results. Although React is sitting at number one, Vue, which is split into two repos, is technically bigger. But the shocker is that Svelte has officially blown past Angular in popularity. Sorry Google.",
+  "thumbnail": "/images/shorts/2022-01-21_12-34-50.png",
+  "url": "https://risingstars.js.org/2021/en#section-framework",
+  "tags" : "external"
+},{
+  "title": "Git Alias",
+  "date" : "Jan 21, 2022",
+  "summary" : "This cool GitHub repo has a list of commonly used git aliases you can use. That&#39;s shortcuts you can use instead of the full command like &#39;git c&#39; instead of &#39;git commit&#39;.",
+  "thumbnail": "/images/shorts/2022-01-21_12-34-50.png",
+  "url": "https://github.com/GitAlias/gitalias",
+  "tags" : "external"
+},{
   "title": "The Best Way To Learn JavaScript-Ep18",
   "date" : "Jan 12, 2022",
   "summary" : "In this episode of The Toolbox, I&#39;m going to talk about some of the research behind how adults learn, what programmers do and how I approach learning as a professional student. I&#39;ve also got some great demos of GitHub&#39;s new Code Search Engine, the best new terminal I&#39;ve seen in ages called Warp and yes, I have some invites. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
