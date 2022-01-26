@@ -84,8 +84,6 @@ It's tough to learn something well that's not going to be useful in the future, 
 
 We all get these screenshots or code snippets so I did a video on how you can use them to learn a few things. Most of the time, it's not important what they're about, but just going through the code will help you get better.
 
-> Pay Video screenshotlearning.mov
-
 ## Teach it
 
 This is one secret all teachers know. The best way to understand something is to try to explain it. One of the ways I did this in high school is by becoming a lab assistant. Having to help people with their own problems made me really dig into topics.
@@ -119,11 +117,11 @@ Learners have a wide range of experience levels
 
 ## Self-concept
 
-Learners like to feel like they're in charge
+Learners like to feel like they're in charge.
 
 ## Need to know
 
-Learners want to know why they need to learn something
+Learners want to know why they need to learn something.
 
 You will be more successful learning if you understand why you need to learn something. When I taught in college one or more students would always want to know why something was important. What they were really saying is why do I need to learn this? What's in it for me? I don't blame them. CSS and JavaScript are getting ridiculously complicated.
 
