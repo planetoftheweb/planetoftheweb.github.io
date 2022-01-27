@@ -112,6 +112,7 @@ Let's take a look at how that compares to adult learners and some of the researc
 - Motivation
 - Readiness
 - Orientation
+  npm start
 
 Learners have a wide range of experience levels
 

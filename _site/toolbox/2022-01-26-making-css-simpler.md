@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How to Make CSS Design Simpler - Ep 19"
-summary: "In this episode of The Toolbox, I'll go over some of the complexity that's plaguing CSS and making specificity harder to figure out. We'll look at what frameworks are doing to try to address this and show simpler ways of designing pages. The pace of the web is relentless...and that's why you need The Toolbox."
+summary: "In this episode of The Toolbox, I'll go over some of the complexity that's plaguing CSS and making specificity harder to figure out. We'll look at WHAT frameworks are doing to help you develop simpler ways of designing sites. The pace of the web is relentless...and that's why you need The Toolbox."
 hideDesc: true
 video: feAPtBN-SOI
 hero: /images/toolbox/episode19.png
