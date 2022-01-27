@@ -16,8 +16,14 @@
 		<link href="/posts/2022-01-26-open-props-css-variable-framework-review/"/>
 		<updated>2022-01-26T00:00:00Z</updated>
 		<id>/posts/2022-01-26-open-props-css-variable-framework-review/</id>
-		<content type="html">&lt;p&gt;In CSS, variables are known as Custom Properties, so this framework is called open props because they are giving you a set of variables that you can use.&lt;/p&gt;
-&lt;p&gt;There&#39;s a lot of ways to install these, but&lt;/p&gt;
+		<content type="html">&lt;h1 id=&quot;variable-frameworks&quot;&gt;Variable Frameworks &lt;a class=&quot;direct-link&quot; href=&quot;#variable-frameworks&quot;&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;One of the ways that some CSS frameworks are trying to make things easier is by giving you a set of predefined variables that can help you create a consistent look for your sites.&lt;/p&gt;
+&lt;p&gt;In CSS variables are known as custom properties. So this framework is called Open Props because they offer some preset variables that you can use. By using the variables, you&#39;re creating a design language that is consistent across your different components.&lt;/p&gt;
+&lt;h2 id=&quot;how-it-works&quot;&gt;How it Works &lt;a class=&quot;direct-link&quot; href=&quot;#how-it-works&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you look, for example, at how colors are put together, the variables use a color name and then a number from zero to nine. The same structure exists, for example, when you get to typography and then you specify things like font size or font weight and use the same type of numbers. The naming conventions for the variables are pretty easy to follow. Once you start working with the variables, you&#39;ll have an idea of how all the variables work.&lt;/p&gt;
+&lt;p&gt;Also, it&#39;s incrementally adoptable, which means that you can grab all the props, just the props that you need, or the props in JavaScript mode. You can also customize the props yourself. If you want to have a different name for the variables using JavaScript or the command line.&lt;/p&gt;
+&lt;h1 id=&quot;amazing-docs&quot;&gt;Amazing Docs &lt;a class=&quot;direct-link&quot; href=&quot;#amazing-docs&quot;&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;The documentation is fantastic for this. It has a very cool little language for creating most of the things that you&#39;re going to need. You can see media queries, Z index, also a lot of nice built in gradients so you can scroll and see all the gradients here. So it feels like a really fairly complete framework already and you can see that there&#39;s going to be a lot of stuff that&#39;s being added since I&#39;m really excited to see this framework sort of growing and it&#39;s part of how a lot of newer frameworks are trying to make your lives a lot easier.&lt;/p&gt;
 </content>
 	</entry>
 	

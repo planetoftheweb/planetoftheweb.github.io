@@ -1,17 +1,17 @@
 [{
   "title": "How to Make CSS Design Simpler - Ep 19",
   "date" : "Jan 26, 2022",
-  "summary" : "In this episode of The Toolbox, I&#39;ll go over some of the complexity that&#39;s plaguing CSS and making specificity harder to figure out. We&#39;ll look at what frameworks are doing to try to address this and show simpler ways of designing pages. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
+  "summary" : "In this episode of The Toolbox, I&#39;ll go over some of the complexity that&#39;s plaguing CSS and making specificity harder to figure out. We&#39;ll look at WHAT frameworks are doing to help you develop simpler ways of designing sites. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
   "thumbnail": "/images/toolbox/episode19_tn.jpg",
   "url": "/toolbox/2022-01-26-making-css-simpler/",
   "tags" : ""
 },{
   "title": "Open Props Review: The CSS Variable Framework",
   "date" : "Jan 26, 2022",
-  "summary" : "One of the ways that some CSS frameworks are trying to make things easier is by giving you a set of pre-defined variables that can help you create a consistent look for your sites.",
-  "thumbnail": "/images/posts/developer-coding_tn.jpg",
+  "summary" : "One of the ways that some CSS frameworks are trying to make things easier is by giving you a set of pre-defined variables that can help you create a consistent look for your sites. Open Props offers a modular and extensible way to create designs based on these variables",
+  "thumbnail": "/images/toolbox/openprops-demo.png",
   "url": "/posts/2022-01-26-open-props-css-variable-framework-review/",
-  "tags" : "full stack development,javascript"
+  "tags" : "full stack development,css,css frameworks"
 },{
   "title": "ZX-Run-Bash-Scripts-in-JavaScript",
   "date" : "Jan 21, 2022",
