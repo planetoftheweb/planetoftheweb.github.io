@@ -9,8 +9,6 @@ thumb: /images/toolbox/episode18_tn.jpg
 category: toolbox
 ---
 
-Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern • 10am Pacific. Follow me and subscribe on all the social media things for more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.
-
 My dad worked for a big bank and when I graduated from 10th grade, we moved to Chile. I had already taken my first basic computer class in Puerto Rico, so I signed up for a Pascal class at the new school. But, when I got there, the semester was almost over.
 
 My teacher decided to let me do self study, so I got the book, help whenever I needed it and a series of problems to solve. As long as I finished the problems, I would get a passing grade.

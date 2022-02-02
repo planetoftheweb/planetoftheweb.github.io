@@ -9,8 +9,6 @@ thumb: /images/toolbox/episode19_tn.jpg
 category: toolbox
 ---
 
-Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern • 10am Pacific. Follow me and subscribe on all the social media things for more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.
-
 # Shorts
 
 Let's start by going over some cool sites that I think you should know about. They're related to our topic today, so it's about where things are going and how you can make things simpler.
