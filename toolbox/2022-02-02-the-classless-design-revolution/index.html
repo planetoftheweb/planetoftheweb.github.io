@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <meta name="description" content="In this episode of The Toolbox, I'll go over some of the best ways you can design websites with little to no styles. I'll also do a demo of my favorite of all the minimalist classless frameworks Pico.css and I'll let you decide if it's the right thing for your next site. The pace of the web is relentless...and that's why you need...The Toolbox." />
+    <meta property="og:title" content="The Classless CSS Design Revolution - Ep 20" />
+    <meta property="og:description" content="In this episode of The Toolbox, I'll go over some of the best ways you can design websites with little to no styles. I'll also do a demo of my favorite of all the minimalist classless frameworks Pico.css and I'll let you decide if it's the right thing for your next site. The pace of the web is relentless...and that's why you need...The Toolbox." />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/episode20.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2022-02-02-the-classless-design-revolution/">
+    <meta name="twitter:title" content="The Classless CSS Design Revolution - Ep 20">
+    <meta name="twitter:description" content="In this episode of The Toolbox, I'll go over some of the best ways you can design websites with little to no styles. I'll also do a demo of my favorite of all the minimalist classless frameworks Pico.css and I'll let you decide if it's the right thing for your next site. The pace of the web is relentless...and that's why you need...The Toolbox.">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode20.jpg">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
+ 
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-bs-toggle="collapse" data-bs-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="bi bi-house-door-fill"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/toolbox/0/">toolbox</a>
+            
+            <a class="nav-item nav-link" href="/shorts/0/">shorts</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                    <i class="bi bi-linkedin text-secondary me-1"></i> linkedin
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                    <i class="bi bi-github text-secondary me-1"></i> github
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                    <i class="bi bi-suit-club text-secondary me-1"></i> clubhouse
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                    <i class="bi bi-twitter text-secondary me-1"></i> twitter
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                    <i class="bi bi-image text-secondary me-1"></i> flickr
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                    <i class="bi bi-youtube text-secondary me-1"></i> youtube
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                    <i class="bi bi-instagram text-secondary me-1"></i> instagram
+                  </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="container site-header ratio ratio-16x9">
+  <iframe style="border-radius: 20px;" src="https://www.youtube.com/embed/IYN8c4YhqHc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+<h1>The Classless CSS Design Revolution - Ep 20</h1>
+<p class="lead">In this episode of The Toolbox, I&#39;ll go over some of the best ways you can design websites with little to no styles. I&#39;ll also do a demo of my favorite of all the minimalist classless frameworks Pico.css and I&#39;ll let you decide if it&#39;s the right thing for your next site. The pace of the web is relentless...and that&#39;s why you need...The Toolbox.</p>
+
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern • 10am Pacific. Follow me and subscribe on all the social media things for more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.</p>
+<p><a href="https://simplecss.org/"><img src="/images/toolbox/2022-02-02_10-55-30.png" alt="Simple.css"></a></p>
+<p>Last week in the shorts, I covered a small framework called <a href="https://simplecss.org/">Simple.css</a>. It's a great way to build a super simple website using no css. The basic styles are nice, but clearly basic.</p>
+<p>I know I'm onto something, when I post about a library and my friend Morton [drops me a bomb in the comments]. So I thought...I wonder if there's anything else out there like it. So I went down a rabbit hole and found lots of options and one called Pico.css that I thought was interesting enough for a demo.</p>
+<p>Before we do that, let's go over some interesting things I found on the web this week.</p>
+<h1 id="shorts">Shorts <a class="direct-link" href="#shorts"> </a></h1>
+<h2 id="svg-export">SVG Export <a class="direct-link" href="#svg-export"> </a></h2>
+<p><a href="https://go.raybo.org/7HG5"><img src="/images/shorts/2022-02-02_10-28-16.png" alt="SVG Export"></a></p>
+<p>I often need to get a logo or an SVG for a tutorial or even a project I'm working on, and it'd be nice to be able to resize and convert the graphics without having to download or photoshop them. This excellent Chrome Plugin will let you do just that and lots more.</p>
+<h2 id="type-it">Type It <a class="direct-link" href="#type-it"> </a></h2>
+<p><a href="https://www.typeitjs.com/"><img src="/images/shorts/2022-02-02_10-31-28.png" alt="TypeIt"></a></p>
+<p>Animations are a great way to get your visitor's attention, so I'm noticing a lot more sites that will type some text while you're scrolling. Type It is a paid tool ($20) that lets you animate text on the screen through a javascript library. Super flexible.</p>
+<h2 id="free-logo-maker">Free Logo Maker <a class="direct-link" href="#free-logo-maker"> </a></h2>
+<p><a href="https://go.raybo.org/7HN3"><img src="/images/toolbox/2022-02-02_11-27-48.png" alt="Free Logo Maker"></a></p>
+<p>This is a charming logo maker from the folks at NameCheap, the domain name service. It's an app that creates a logo for you based on font choices. Honestly, it's sort of cheesy, but I like that it lets you modify your choices after you go through the options.</p>
+<p>Plus it gives you links to the fonts and icons. You could easily replace this with some icon fonts. I wouldn't use this professionally, but again. If you need to do a demo and don't want to spend design mocking up a logo...this is pretty cool.</p>
+<h1 id="minimalist-css-frameworks">Minimalist CSS Frameworks <a class="direct-link" href="#minimalist-css-frameworks"> </a></h1>
+<p>As I mentioned after looking for sites like Simple.css, I found plenty of sites that were trying to do similar things. Here's some of what I found.</p>
+<h2 id="markdown-css">Markdown CSS <a class="direct-link" href="#markdown-css"> </a></h2>
+<p><a href="https://go.raybo.org/7HN7"><img src="/images/toolbox/2022-02-02_11-19-36.png" alt="Markdown CSS"></a></p>
+<p>This is probably the simplest. It's not really a library or framework like the others, just a set of styles for those like me who enjoy writing markdown.</p>
+<p>However, I think the splendor style here is one of the best of the whole list I put together. It feels like the styles here are trying to be for something you'd enjoy reading.</p>
+<p>I think these styles would work well as a series of defaults or a great starter template. Perhaps with something like <a href="https://md-block.verou.me">md-block</a>, from Lea Verou, which lets you just insert markdown straight onto HTML via a simple tag. I covered that library in a previous episode.</p>
+<h2 id="water.css">Water.css <a class="direct-link" href="#water.css"> </a></h2>
+<p><a href="https://watercss.kognise.dev/"><img src="/images/toolbox/2022-02-02_11-00-19.png" alt="Water.css"></a></p>
+<p>The first one that caught my attention was this one called Water.css. It is much more basic than simple.css, I like that it has a light and dark theme already, plus it's super tiny at 3.27kb.</p>
+<p>It doesn't use a grid, there's no navigation or components and is clearly very basic. one feature it does have is that there's a bookmarklet and it can help you replace styles on an existing site so that it becomes more readable.</p>
+<p>This one, unlike Simple, is more of a CSS reset, but I think it's the type of reaset I wish browsers had by default. Think of how many styles it takes to normalize and then override form elements to make them look consistent and nice accross platforms.</p>
+<p>The defaults were built in the mid 90's. It really feels like the defaults haven't progressed that much since then.</p>
+<h2 id="atricss">AtriCSS <a class="direct-link" href="#atricss"> </a></h2>
+<p><a href="https://go.raybo.org/7HHu"><img src="/images/toolbox/2022-02-02_11-07-57.png" alt="AtriCSS"></a></p>
+<p>This one looks pretty similar to water, but it does come with a navigation and multiple themes. I think the default midnight-green looks the best.</p>
+<p>I like the rounded edges in the images and the way that attributes are used to create alternative styles. For example, the way buttons have a secondary or a disabled option. I know that disabled is a thing, but I'm not too sure about the secondary option.</p>
+<p>It does have a container wrapper, and a way to make a button full width or have more of an inline look.</p>
+<p>It even has a way to create a footer. It's more like it since I think it gets closer to offering what you'd need for a basic site.</p>
+<h2 id="bahunya">Bahunya <a class="direct-link" href="#bahunya"> </a></h2>
+<p><a href="https://go.raybo.org/7HIi"><img src="/images/toolbox/2022-02-02_11-13-57.png" alt="Bahunya"><br>
+https://hakanalpay.com/bahunya/</a></p>
+<p>I thought this one looked real nice, but it is a bit controversial because it uses a <a href="https://hakanalpay.com/bahunya/installation.html">hamburger menu</a> by default. It's debatable that everyone knows what to do with that menu, but it's an option</p>
+<p>This one does have the option of <a href="https://hakanalpay.com/bahunya/customization.html">customizing the color</a> through the use of CSS variables. Some of the more advanced frameworks use this option, which I think is pretty slick.</p>
+<p>One thing I don't like is the use of fonts here. It tries to use Century Schoolbook by default, but lets you override it. I prefer using the system defaults instead.</p>
+<h2 id="mvp-css">MVP CSS <a class="direct-link" href="#mvp-css"> </a></h2>
+<p><a href="https://go.raybo.org/7HLe"><img src="/images/toolbox/2022-02-02_11-34-44.png" alt="MVP CSS"></a></p>
+<p>This is one that is going a little bit beyond classless. It's a minimalist style sheet so it tends to have a few more options.</p>
+<p>I actually like the light version of this one better than the dark version. If there's anything missing here is some documentation. You can look at the <a href="https://andybrewer.github.io/mvp/mvp.html">QuickStart template</a> to see how things are done.</p>
+<h1 id="demo%3A-pico.css">Demo: Pico.CSS <a class="direct-link" href="#demo%3A-pico.css"> </a></h1>
+<p><a href="https://picocss.com/"><img src="/images/toolbox/2022-02-02_11-39-17.png" alt="Pico CSS"></a></p>
+<p>After going through this journey I landed on this one called Pico.css. I feel it's by far the best one with a ton of customization options, great looking defaults, excellent documentation and a lot of features I didn't see in other places.</p>
+<h1 id="conclusion">Conclusion <a class="direct-link" href="#conclusion"> </a></h1>
+<p>I'm curious as to what you think and when you think this sort of approach might be useful.</p>
+<p>For me, I know that I can use this in demos. There's a lot of times I want to have a nice default override that will help me focus on a JavaScript lesson, not the styles.</p>
+<p>I could see where if I wanted to print some Markdown, or just send someone to a basic GitHub Pages, this could be super useful. It's just another one of those things that would be great to keep in your Toolbox.</p>
+<h2 id="links">Links <a class="direct-link" href="#links"> </a></h2>
+<ul>
+<li><a href="https://simplecss.org">Simple CSS</a></li>
+<li><a href="https://go.raybo.org/7HG5">SVG Export</a></li>
+<li><a href="https://go.raybo.org/7HG5">Type It</a></li>
+<li><a href="https://go.raybo.org/7HN3">Free Logo Maker</a></li>
+<li><a href="https://go.raybo.org/7HN7">Markdown CSS</a></li>
+<li><a href="https://md-block.verou.me">md-block</a></li>
+<li><a href="https://watercss.kognise.dev/">Water.css</a></li>
+<li><a href="https://go.raybo.org/7HHu">Atri CSS</a></li>
+<li><a href="https://go.raybo.org/7HIi">Bahunya</a></li>
+<li><a href="https://go.raybo.org/7HLe">MVP CSS</a></li>
+<li><a href="https://picocss.com/">Pico CSS</a></li>
+</ul>
+
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#svg-export">SVG Export</a>
+            		</li>
+
+                    <li><a href="#type-it">Type It</a>
+            		</li>
+
+                    <li><a href="#free-logo-maker">Free Logo Maker</a>
+            		</li>
+
+                    <li><a href="#markdown-css">Markdown CSS</a>
+            		</li>
+
+                    <li><a href="#water.css">Water.css</a>
+            		</li>
+
+                    <li><a href="#atricss">AtriCSS</a>
+            		</li>
+
+                    <li><a href="#bahunya">Bahunya</a>
+            		</li>
+
+                    <li><a href="#mvp-css">MVP CSS</a>
+            		</li>
+
+                    <li><a href="#links">Links</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
+</article>
+
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
+      <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://github.com/planetoftheweb">
+      <i class="bi bi-github text-secondary me-1"></i>github
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.joinclubhouse.com/planetoftheweb">
+      <i class="bi bi-suit-club text-secondary me-1"></i>clubhouse
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://twitter.com/planetoftheweb">
+      <i class="bi bi-twitter text-secondary me-1"></i>twitter
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="bi bi-image text-secondary me-1"></i>flickr
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="bi bi-youtube text-secondary me-1"></i>youtube
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.instagram.com/planetoftheweb">
+      <i class="bi bi-instagram text-secondary me-1"></i>instagram
+      </a>
+    </div></div>
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      let nav = document.querySelector('.site-nav')
+      let mainContent = document.querySelector('#main-content')
+      let navHeight = nav.scrollHeight
+
+      function moveHeader() {
+        let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+        mainOnTop < 0
+          ? nav.classList.add('in-body')
+          : nav.classList.remove('in-body')
+
+        window.requestAnimationFrame(moveHeader)
+      }
+      window.requestAnimationFrame(moveHeader)
+    })();
+  </script>
+  <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"lang":"en","siteId":2197414,"cookiePolicyId":85544448, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html>

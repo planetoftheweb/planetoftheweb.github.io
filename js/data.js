@@ -1,4 +1,18 @@
 [{
+  "title": "The Classless CSS Design Revolution - Ep 20",
+  "date" : "Feb 02, 2022",
+  "summary" : "In this episode of The Toolbox, I&#39;ll go over some of the best ways you can design websites with little to no styles. I&#39;ll also do a demo of my favorite of all the minimalist classless frameworks Pico.css and I&#39;ll let you decide if it&#39;s the right thing for your next site. The pace of the web is relentless...and that&#39;s why you need...The Toolbox.",
+  "thumbnail": "/images/toolbox/episode20_tn.jpg",
+  "url": "/toolbox/2022-02-02-the-classless-design-revolution/",
+  "tags" : ""
+},{
+  "title": "SplideJS - Flexible and Accessible Carousel for Web Designers",
+  "date" : "Jan 29, 2022",
+  "summary" : "This is a really cool library that gives you almost every option for creating different kinds of carousels. Touch enabled, has usability and accessibility features, pagination, vertical slides and really, just about any feature that I would want in a carousel.",
+  "thumbnail": "/images/posts/splidejs.jpg",
+  "url": "/posts/2022-01-29-SplideJS-Flexible-and-accessible-Carousel-for-Web-Designers/",
+  "tags" : "full stack development,javascript,carousel,javascript library"
+},{
   "title": "How to Make CSS Design Simpler - Ep 19",
   "date" : "Jan 26, 2022",
   "summary" : "In this episode of The Toolbox, I&#39;ll go over some of the complexity that&#39;s plaguing CSS and making specificity harder to figure out. We&#39;ll look at WHAT frameworks are doing to help you develop simpler ways of designing sites. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
