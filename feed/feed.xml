@@ -4,12 +4,48 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2022-01-29T00:00:00Z</updated>
+	<updated>2022-02-02T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Pico CSS, The Exquisitely Classless Web Design Framework</title>
+		<link href="/posts/2022-02-02-pico-css-the-css-framework-thats-exquisitely-classless/"/>
+		<updated>2022-02-02T00:00:00Z</updated>
+		<id>/posts/2022-02-02-pico-css-the-css-framework-thats-exquisitely-classless/</id>
+		<content type="html">&lt;p&gt;Pico CSS is a framework that gives you a great look in sight with minimal or no classes. It feels like what writing HTML should be instead of the convoluted mess of classes, containers, etc.&lt;/p&gt;
+&lt;h2 id=&quot;compared-to-bootstrap&quot;&gt;Compared to Bootstrap &lt;a class=&quot;direct-link&quot; href=&quot;#compared-to-bootstrap&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Let me show you an example. Let&#39;s take a look at the code for building a bootstrap navigation.&lt;/p&gt;
+&lt;p&gt;The approach is simple, use native HTML tags whenever possible, while encouraging attributes that modify the look of the tag.&lt;/p&gt;
+&lt;h2 id=&quot;only-10-classes&quot;&gt;Only 10 Classes &lt;a class=&quot;direct-link&quot; href=&quot;#only-10-classes&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There is a completely classless version of the framework or a version that has only 11 classes in the framework.&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;container&lt;/li&gt;
+&lt;li&gt;container-fluid&lt;/li&gt;
+&lt;li&gt;grid&lt;/li&gt;
+&lt;li&gt;secondary&lt;/li&gt;
+&lt;li&gt;contrast&lt;/li&gt;
+&lt;li&gt;headings&lt;/li&gt;
+&lt;li&gt;outline&lt;/li&gt;
+&lt;li&gt;close&lt;/li&gt;
+&lt;li&gt;modal-is-open&lt;/li&gt;
+&lt;li&gt;modal-is-opening&lt;/li&gt;
+&lt;li&gt;modal-is-closing&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;You can see what the navigation looks like right here. If you want something with a logo in it, you would just create an additional list item with an SVG in it. You can see that by inspecting the navigation for the website.&lt;/p&gt;
+&lt;h2 id=&quot;accordions&quot;&gt;Accordions &lt;a class=&quot;direct-link&quot; href=&quot;#accordions&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Another notoriously difficult component is the accordion. With Pico, all we have to do is create a details tag with some content in it. In Bootstrap, Accordions are one of the toughest things to do properly because you have to include all types of classes, IDs and even data attributes.&lt;/p&gt;
+&lt;h2 id=&quot;buttons&quot;&gt;Buttons &lt;a class=&quot;direct-link&quot; href=&quot;#buttons&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Elements like buttons are just as simple. The basic button looks great without any classes, and if you need a button to be an inline element, you just add a roll of button.&lt;/p&gt;
+&lt;p&gt;There&#39;s also a couple of classes that you can use to create a secondary and a contrast style, and then you can create an outline by using the Outline variant. Contrast that with how you do buttons in something like Telling CSS, which makes you add an insane amount of classes for even something as simple as a basic button.&lt;/p&gt;
+&lt;h2 id=&quot;layouts&quot;&gt;Layouts &lt;a class=&quot;direct-link&quot; href=&quot;#layouts&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;If you add a figure as a wrapper container, you can make any content scroll horizontally. There is also a classless version of the framework, and in that case you use the header name and footer Tags and they&#39;ll act as a container to define a centered viewport.&lt;/p&gt;
+&lt;p&gt;For that, you&#39;re going to need to load a slightly different version of the framework. You can redefine some of the CSS variables, and that way you can customize any of the variables that come with the framework. There&#39;s also a SAS version of the library where you can customize the variables and create a customized version of Pico.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>SplideJS - Flexible and Accessible Carousel for Web Designers</title>
