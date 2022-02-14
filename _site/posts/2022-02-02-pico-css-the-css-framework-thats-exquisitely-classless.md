@@ -2,6 +2,7 @@
 layout: post.njk
 title: "Pico CSS, The Exquisitely Classless Web Design Framework"
 summary: "CSS frameworks are awesome, but they can often be a pain to work with. The classes you have to write get complex quickly. The main concept behind Pico is to let you create as much content as possible with little or no classes."
+hideDesc: true
 hero: /images/posts/picocss.png
 thumb: /images/posts/picocss_tn.jpg
 video: JPzC_sbBfyY
@@ -49,6 +50,8 @@ Elements like buttons are just as simple. The basic button looks great without a
 There's also a couple of classes that you can use to create a secondary and a contrast style, and then you can create an outline by using the Outline variant. Contrast that with how you do buttons in something like Telling CSS, which makes you add an insane amount of classes for even something as simple as a basic button.
 
 ## Layouts
+
+npm start
 
 If you add a figure as a wrapper container, you can make any content scroll horizontally. There is also a classless version of the framework, and in that case you use the header name and footer Tags and they'll act as a container to define a centered viewport.
 
