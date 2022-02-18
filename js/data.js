@@ -1,4 +1,18 @@
 [{
+  "title": "The BackEnd Strikes Back - Ep 21",
+  "date" : "Feb 09, 2022",
+  "summary" : "In this episode of The Toolbox, we&#39;ll explore one of the latest regressions that&#39;s a trend in the world of web development. Thankfully it&#39;s not the return of table layouts. I&#39;m talking about the return of the backend...and yes...it&#39;s coming back with a vengance. The pace of the web is relentless...and that&#39;s why you need...The Toolbox.",
+  "thumbnail": "/images/toolbox/episode21_tn.jpg",
+  "url": "/toolbox/2022-02-09-the-backend-strikes-back/",
+  "tags" : ""
+},{
+  "title": "Remix. The Backend React JavaScript Framework",
+  "date" : "Feb 09, 2022",
+  "summary" : "Recently, there&#39;s been a move from the front end to the backend and Remix, formerly a React Router libray has graduated to a full framework giving you a lot of super cool ",
+  "thumbnail": "/images/posts/demo-remix_tn.jpg",
+  "url": "/posts/2022-02-09-Remix-backend-framework-for-delicioous-javascript/",
+  "tags" : "full stack development,css,css frameworks"
+},{
   "title": "The Classless CSS Design Revolution - Ep 20",
   "date" : "Feb 02, 2022",
   "summary" : "In this episode of The Toolbox, I&#39;ll go over some of the best ways you can design websites with little to no styles. I&#39;ll also do a demo of my favorite of all the minimalist classless frameworks Pico.css and I&#39;ll let you decide if it&#39;s the right thing for your next site. The pace of the web is relentless...and that&#39;s why you need...The Toolbox.",
@@ -16,7 +30,7 @@
   "title": "SplideJS - Flexible and Accessible Carousel for Web Designers",
   "date" : "Jan 29, 2022",
   "summary" : "This is a really cool library that gives you almost every option for creating different kinds of carousels. Touch enabled, has usability and accessibility features, pagination, vertical slides and really, just about any feature that I would want in a carousel.",
-  "thumbnail": "/images/posts/splidejs.jpg",
+  "thumbnail": "/images/posts/splidejs_tn.jpg",
   "url": "/posts/2022-01-29-SplideJS-Flexible-and-accessible-Carousel-for-Web-Designers/",
   "tags" : "full stack development,javascript,carousel,javascript library"
 },{

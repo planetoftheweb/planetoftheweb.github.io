@@ -4,12 +4,27 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2022-02-02T00:00:00Z</updated>
+	<updated>2022-02-09T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Remix. The Backend React JavaScript Framework</title>
+		<link href="/posts/2022-02-09-Remix-backend-framework-for-delicioous-javascript/"/>
+		<updated>2022-02-09T00:00:00Z</updated>
+		<id>/posts/2022-02-09-Remix-backend-framework-for-delicioous-javascript/</id>
+		<content type="html">&lt;p&gt;Remix is a new framework that uses the power of the back end and almost magic routing to help you build your apps using React.&lt;/p&gt;
+&lt;h2 id=&quot;what&#39;s-special&quot;&gt;What&#39;s Special &lt;a class=&quot;direct-link&quot; href=&quot;#what&#39;s-special&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;One of the coolest features in this platform is nested routes. Instead of loading different parts of the pages dynamically like in a single page app, it fetches and caches parts of the page on the server and then sends it to the client fully formed.&lt;/p&gt;
+&lt;p&gt;The other thing is that it handles data loading and processing on the server side. If you&#39;re not use to posting data to a server and receiving a response, then this will seem weird, but it&#39;s the way the web is supposed to work.&lt;/p&gt;
+&lt;h2 id=&quot;the-demo&quot;&gt;The Demo &lt;a class=&quot;direct-link&quot; href=&quot;#the-demo&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In this tutorial I&#39;m going to build a simple app in less than 10 minutes to give you an idea of what Remix is trying to do and how it beautifully manages one of the hardest parts of the web...routing.&lt;/p&gt;
+&lt;p&gt;I&#39;ll show you how to install Remix, what you get once that&#39;s done, how to add some modules like Pico, add CSS files, regular and nested routes.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Pico CSS, The Exquisitely Classless Web Design Framework</title>
@@ -42,6 +57,7 @@
 &lt;p&gt;Elements like buttons are just as simple. The basic button looks great without any classes, and if you need a button to be an inline element, you just add a roll of button.&lt;/p&gt;
 &lt;p&gt;There&#39;s also a couple of classes that you can use to create a secondary and a contrast style, and then you can create an outline by using the Outline variant. Contrast that with how you do buttons in something like Telling CSS, which makes you add an insane amount of classes for even something as simple as a basic button.&lt;/p&gt;
 &lt;h2 id=&quot;layouts&quot;&gt;Layouts &lt;a class=&quot;direct-link&quot; href=&quot;#layouts&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;npm start&lt;/p&gt;
 &lt;p&gt;If you add a figure as a wrapper container, you can make any content scroll horizontally. There is also a classless version of the framework, and in that case you use the header name and footer Tags and they&#39;ll act as a container to define a centered viewport.&lt;/p&gt;
 &lt;p&gt;For that, you&#39;re going to need to load a slightly different version of the framework. You can redefine some of the CSS variables, and that way you can customize any of the variables that come with the framework. There&#39;s also a SAS version of the library where you can customize the variables and create a customized version of Pico.&lt;/p&gt;
 </content>
