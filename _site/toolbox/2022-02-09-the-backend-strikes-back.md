@@ -15,6 +15,8 @@ One of the things that's really surprised me recently is how a lot of new framew
 
 # Shorts
 
+npm start
+
 ### Sponsors Only Repositories
 
 [![Sponsors Only Repos](https://github.blog/wp-content/uploads/2019/05/Sponsors-1200x630-X2.png)](https://github.blog/2022-02-02-new-sponsors-only-repositories-custom-amounts-and-more/)
