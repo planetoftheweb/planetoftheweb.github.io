@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <meta name="description" content="In this episode of The Toolbox, we'll take a look at 8 new and old CSS libraries and the way they're changing how you'll be writing CSS in the future. The pace of the web is relentless...and that's why you need...The Toolbox." />
+    <meta property="og:title" content="Rethinking CSS Rules - Ep 22" />
+    <meta property="og:description" content="In this episode of The Toolbox, we'll take a look at 8 new and old CSS libraries and the way they're changing how you'll be writing CSS in the future. The pace of the web is relentless...and that's why you need...The Toolbox." />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/episode22.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2022-03-09-rethinking-css-rules/">
+    <meta name="twitter:title" content="Rethinking CSS Rules - Ep 22">
+    <meta name="twitter:description" content="In this episode of The Toolbox, we'll take a look at 8 new and old CSS libraries and the way they're changing how you'll be writing CSS in the future. The pace of the web is relentless...and that's why you need...The Toolbox.">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode22.jpg">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
+ 
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-bs-toggle="collapse" data-bs-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="bi bi-house-door-fill"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/toolbox/0/">toolbox</a>
+            
+            <a class="nav-item nav-link" href="/shorts/0/">shorts</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                    <i class="bi bi-linkedin text-secondary me-1"></i> linkedin
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                    <i class="bi bi-github text-secondary me-1"></i> github
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                    <i class="bi bi-suit-club text-secondary me-1"></i> clubhouse
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                    <i class="bi bi-twitter text-secondary me-1"></i> twitter
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                    <i class="bi bi-image text-secondary me-1"></i> flickr
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                    <i class="bi bi-youtube text-secondary me-1"></i> youtube
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                    <i class="bi bi-instagram text-secondary me-1"></i> instagram
+                  </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="container site-header ratio ratio-16x9">
+  <iframe style="border-radius: 20px;" src="https://www.youtube.com/embed/8HDFeez-Tjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+<h1>Rethinking CSS Rules - Ep 22</h1>
+<p class="lead">In this episode of The Toolbox, we&#39;ll take a look at 8 new and old CSS libraries and the way they&#39;re changing how you&#39;ll be writing CSS in the future. The pace of the web is relentless...and that&#39;s why you need...The Toolbox.</p>
+
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern • 10am Pacific. Follow me and subscribe on LinkedIn and YouTube for more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.</p>
+<p>So, I've been on a journey lately with The Toolbox. It's more of a mission to explore new frameworks and ideas.</p>
+<p>As I'm going through this, I realized that what it's done for me is to change my perspective as to where CSS and JavaScript are trying to go.</p>
+<p>Frameworks always drive the development of things like CSS, so I'm going to go through all the frameworks I've been working with lately and show you where CSS is going, what each one is good for and some of the pitfalls in each.</p>
+<p>Hey Take a second and write down which frameworks you've used in the comments and maybe what you like.</p>
+<hr>
+<h2 id="pico-css">Pico CSS <a class="direct-link" href="#pico-css"> </a></h2>
+<p><a href="https://picocss.com/"><img src="../images/toolbox/2022-03-09_01-20-46.png" alt="Pico CSS"></a></p>
+<p>Alright, let's talk about one of my favorite new finds called [Pico CSS]. This framework is probably the simplest of all frameworks. Think of it as a reset that rewrites the way a site look when it DOESN'T use any classes.</p>
+<p>Notice that in order to write a form, you just use the input fields without any classes...and they look great.</p>
+<p>I did a bit of a <a href="https://github.dev/planetoftheweb/swing_pico">sample</a> so you can see how it works. It's a pretty decent layout and I have to say it has very minimal CSS.</p>
+<p>This made me think about the fact that the browser defaults haven't changed in years. Most browsers still use serif fonts and buttons are rendered in a style that looks like it's from an old version of windows.</p>
+<p>We spend so much time resetting CSS, then cleaning up the defaults to a reasonable and acceptable level just to get going on any project.</p>
+<p><lite-youtube videoid="JPzC_sbBfyY"></lite-youtube></p>
+<hr>
+<h2 id="bootstrap">Bootstrap <a class="direct-link" href="#bootstrap"> </a></h2>
+<p><a href="https://getbootstrap.com/"><img src="../images/toolbox/2022-03-09_00-51-51.png" alt="Bootstrap"></a></p>
+<p>Alright, so let's start with Bootstrap. The world's most popular Front End Framework.</p>
+<h3 id="the-good">The Good <a class="direct-link" href="#the-good"> </a></h3>
+<ul>
+<li>It's just a great way to create simpler sites.</li>
+<li>You can prototype entire sites without having to worry about the design and then have a designer come back and make adjustments to make it unique.</li>
+<li>76k stars on GitHub</li>
+<li>A great set of components: Buttons, Navigation, Alerts, Cards and the ever popular carousel. Bootstrap has just about everything you need to build modern sites. Ready to go out of the box.</li>
+</ul>
+<h3 id="the-bad">The Bad <a class="direct-link" href="#the-bad"> </a></h3>
+<ul>
+<li>Overly complex class naming conventions.</li>
+</ul>
+<p>This isn't actually Bootstrap's fault. It inherited this from ideas like <a href="http://getbem.com/naming/">BEM</a> and something called SMACSS. The main concept is to provide a <a href="http://getbem.com/naming/">consistent naming structure</a>.</p>
+<p>What ends up happening is that items that need a lot of elements require a great number of classes. The <a href="https://codepen.io/planetoftheweb/pen/gOgdyZq?editors=1000">accordions</a>, for example. I'll be honest with you...out of all the things I've ever had to build for a course, this was the toughest to get right. I was literally terrified when I recorded how to work for this element because it's very easy to miss something.</p>
+<h3 id="when-to-use-it">When To Use It <a class="direct-link" href="#when-to-use-it"> </a></h3>
+<p>Having said that, If I was building simpler sites, Bootstrap is really my comfort framework. I go to it when I need to build something with just HTML, CSS and JavaScript.</p>
+<p>When I want something that does everything I need in one place.</p>
+<p>It's really gotten a lot better at being easy to override.</p>
+<p>Have you ever or do you still use Bootstrap?</p>
+<hr>
+<h2 id="sass">SASS <a class="direct-link" href="#sass"> </a></h2>
+<p><a href="https://sass-lang.com/"><img src="../images/toolbox/2022-03-09_00-59-47.png" alt="Sass"></a></p>
+<p>Let's talk about Sass next. I just finished the update on our Sass course. It hasn't seen a ton of changes until very recently. As a matter of fact, I've been trying to do the Sass update for years, but something else crucial always came up, so I kept on pushing it back.</p>
+<p>By the time I got to it, I was wondering if it was even relevant today...and that's when I saw this:</p>
+<p><a href="https://2020.stateofcss.com/en-US/technologies/"><img src="../images/toolbox/2022-03-09_01-03-56.png" alt="2020 State of JS Survey"></a></p>
+<p>This is one of the annual surveys I keep track of to see what the industry is doing...and there it was. Sass was the only framework that was on that sweet spot. Top right of the poll. That means that it was the one that people were most satisfied with and also most used.</p>
+<p>I think that we as teachers are always promoting the hottest new framework...and you forget what people are actually using. In the case of Sass, it actually reminded me that people love this framework.</p>
+<p>As I got back to it, I realized why I missed it. Sass variables are superior than CSS variables. The fact that the framework is processed means that it can do things that plain CSS can't.</p>
+<p>Case in point, take a look at <a href="https://codepen.io/planetoftheweb/pen/wvrbPYE?editors=1100">parent selectors</a>, something still missing in CSS. Plus the ability to extend existing classes makes it an amazing framework. I still truly love this one.</p>
+<p>Sass is 15 years old and if I had to create a larger site where I had to implement a design system, I would honestly think about using it instead of just regular CSS.</p>
+<p>Do you use Sass at work still?</p>
+<hr>
+<h2 id="pollen">Pollen <a class="direct-link" href="#pollen"> </a></h2>
+<p><a href="https://www.pollen.style/"><img src="../images/toolbox/2022-03-09_11-09-28.png" alt="Pollen CSS"></a></p>
+<p>One of the improvement that CSS has made in the past few years is of course variables. They were inspired by Sass, but as I mentioned I don't think they're as flexible as the ones that SASS provides.</p>
+<p>However an interesting category of frameworks has arrived that provides you a set of variables to use on your projects.</p>
+<p>It gives you a set of scales, like sizes for things, a color palette, a simple grid and more.</p>
+<p>This is no different than you using your own variables, but it's a great way to get started and the framework looks pretty nice.</p>
+<p>You can see an <a href="https://www.pollen.style/">example project</a> using GitHub.dev. This is really no different than creating your own set of variables, but it's a great pre-built starting group of styles that you can use.</p>
+<p>One of the things that scales do is keep your design consistent, so the sizes in one part of your document match styles in other places.</p>
+<p>If you have used something like Tailwind, you'll notice that the scales and the color structures have been inspired by Tailwind CSS. I think no other platform other than maybe bootstrap has had such a dramatic effect on other libraries.</p>
+<p>Do you use CSS variables heavily? Or do you go for something like Sass?</p>
+<p><lite-youtube videoid="Cl2uFIUXqeQ"></lite-youtube></p>
+<hr>
+<h2 id="open-props">Open Props <a class="direct-link" href="#open-props"> </a></h2>
+<p>[<a href="../images/toolbox/2022-03-09_11-12-08.png">Open Props</a>](<a href="https://open-props.style/">https://open-props.style/</a>)</p>
+<p>Pollen is nice, but if you're really want to use CSS variables, you'll eventually want something more flexible.</p>
+<p>When I used Open Props, I felt like it's a set of variable structures. The cool thing here is that everything is so much more customizable than in Pollen. Variables are structured into different pieces, and you can import just what you need, or npm install the project and import what you need.</p>
+<p>Whereas the variables in Pollen try to keep the Tailwind CSS model, I think Open Props has it's own way of doing things. So, font sizes scales use a number 1, 2, etc, whereas Tailwind has a different naming structure.</p>
+<p>Here's a codeSwing, so you can <a href="https://github.dev/planetoftheweb/swing-openprops/tree/finished">see it in action</a>. It's a simple demo, but you'll get an ide of how it works.</p>
+<p>Basically, Open Pros is a more pro version of variables than Pollen. If you love using variables to design your projects, then this is the way to go.</p>
+<p><lite-youtube videoid="tKMNFQE64fA"></lite-youtube></p>
+<hr>
+<h2 id="tailwind-css">Tailwind CSS <a class="direct-link" href="#tailwind-css"> </a></h2>
+<p>[<a href="../images/toolbox/2022-03-09_01-35-30.png">Tailwind CSS</a>](<a href="https://tailwindcss.com/">https://tailwindcss.com/</a>)</p>
+<p>That brings us to the present day. Let's talk about the framework that really changed things and that's Tailwind CSS.</p>
+<p>It came out of nowhere to very quickly rise to the top of the pack.</p>
+<p>What changed was that a new generation of JavaScript frameworks that were component based. Angular, React Vue and now Svelte changed the way people built apps and sites.</p>
+<p>Tailwind uses this approach called Utility First. It seems like a crazy thing to do. The classes mimic almost exactly every CSS class out there. So there are display properties, margin, padding, grid, flexbox. Chances are, if the class exists in CSS, then there is a duplicate in Tailwinds.</p>
+<p>But that's not really it's best feature.</p>
+<p>The best feature is the ability to use modifiers to control how the components behave in different states. You can see that there are hover states, media query states and even dark mode states.</p>
+<p>The revolutionary thing is that by placing the styles right on the components, there is no overriding ever. The component CSS is right there on the components themselves.</p>
+<p>Tailwind doesn't have any components like Bootstrap, so there's no shortcut for building a button class, for example. That's actually one of it's weaknesses.</p>
+<p>Also, as you can see, Tailwind is a bit wordy when it comes to classes. Even doing simple headlines or buttons require a ton of classes. There are ways around it but it's definitely not something you want to use if you have to repeat a lot of content and you're not using a component architecture.</p>
+<p>For simpler sites, it's just not the right framework.</p>
+<p><lite-youtube videoid="1LfMMOJzB-o"></lite-youtube></p>
+<hr>
+<h2 id="windi-css">Windi CSS <a class="direct-link" href="#windi-css"> </a></h2>
+<p><a href="https://windicss.org/">![Windi CSS](file:///Users/raybo/Documents/__notes/Home/raybo.org/_site/images/toolbox/2022-03-09_11-53-45.png)</a></p>
+<p>I have to give a mention to WindiCSS. It was basically an attempt to make something that worked like Tailwind CSS 2, but way more performant. It's basic improvement was a Just In Time Compiler.</p>
+<p>It features a language that is an exact clone of Tailwinds. There is very little difference between the two so you can move between them easily. Maybe something called Attributify mode is something I haven't yet seen in Tailwind CSS.</p>
+<p>The problem with using this framework today is that Tailwind CSS 3 now has a Just In Time compiler, so it isn't as compelling as it used to be anymore.</p>
+<p><lite-youtube videoid="3PSu4tGWeq8"></lite-youtube></p>
+<hr>
+<h2 id="assembler-css">Assembler CSS <a class="direct-link" href="#assembler-css"> </a></h2>
+<p>[<a href="https://asmcss.com/"><img src="../images/toolbox/2022-03-09_11-32-39.png" alt="Assembler CSS"></a>](<a href="https://asmcss.com/">https://asmcss.com/</a>)</p>
+<p>Now we're getting into the crazy and experimental ideas...although I might consider something like Pico CSS and Tailwinds in the same vein.</p>
+<p>One of the features of Tailwind CSS that people question is the way that Tailwind CSS classes are really just clones of regular CSS styles. So people ask...why not just USE the CSS style tag...Isn't that the same thing.</p>
+<p>I would agree that it's almost the same thing, except that what makes Tailwind really powerful is the modifiers.</p>
+<p>Well Assembler lets you use the style tag...sort of. The <a href="https://asmcss.com/docs/1.x/core-concepts.html">basic idea</a> is that you define your styles just like you would with the style attribute.</p>
+<p>But you use the x-style attribute instead of the style attribute. Now...that's a made up attribute, but shockingly enough it's technically valid HTML.</p>
+<p>One of the advantages of Tailwind CSS is that it gives you a lot of pre-built variables for sizes and colors...for example. Well, Assembler also has them...not only that, for the most part, they mimic the scale and format that Tailwind CSS uses. So you have sizes like md, sm, lg, etc.</p>
+<p>Now, the other thing that's cool about Tailwind CSS is the modifiers. Well, Assembler has them too and again, they're pretty similar to Tailwind CSS, but you have to use pipe characters because CSS styles already use the colons.</p>
+<p>The other cool feature is that it supports Mixins. Reusable snippets of code. The way that these are supported is brilliant. They use CSS variables. If you want to use them everywhere, you simply define them in the root section.</p>
+<p>To configure things, you can use <code>data-</code> attributes.</p>
+<p>The whole thing can be installed through a CDN link.</p>
+<p>Assembler feels like what Tailwinds would be if it was done today. Honestly, I'm scared of using it because I really haven't seen people be too interested in it.</p>
+<p>This also feels like where CSS might go if it starts adopting some of Tailwind's concepts.</p>
+<p><lite-youtube videoid="iNaDoE0qBwI"></lite-youtube></p>
+<hr>
+<h2 id="unocss">UnoCSS <a class="direct-link" href="#unocss"> </a></h2>
+<p><a href="https://unocss.antfu.me/"><img src="../images/toolbox/2022-03-09_12-07-57.png" alt="Uno CSS"></a></p>
+<p>I feel like I have to mention this product here called UnoCSS. From the makers of WindiCSS. The developer who created Windi is now workinng on this new framework.</p>
+<p>It doesn't yet have a lot of documentation, but what it has sounds pretty cool. Way faster performance than Tailwinds. No core utilities, just a bunch of presets.</p>
+<p>One of the weird and interesting features is that it supports the classes from multiple frameworks, so that would make it easier to switch.</p>
+<p>You can import the presets you want.</p>
+<p>The way that it lets you write rules is pretty similar to what Talwinds is doing through configuration.</p>
+<p>This is pretty interesting stuff but a bit too experimental...even for me. Maybe I'll come back to it some day.</p>
+
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#pico-css">Pico CSS</a>
+            		</li>
+
+                    <li><a href="#bootstrap">Bootstrap</a>
+            		</li>
+
+                    <li><a href="#sass">SASS</a>
+            		</li>
+
+                    <li><a href="#pollen">Pollen</a>
+            		</li>
+
+                    <li><a href="#open-props">Open Props</a>
+            		</li>
+
+                    <li><a href="#tailwind-css">Tailwind CSS</a>
+            		</li>
+
+                    <li><a href="#windi-css">Windi CSS</a>
+            		</li>
+
+                    <li><a href="#assembler-css">Assembler CSS</a>
+            		</li>
+
+                    <li><a href="#unocss">UnoCSS</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
+</article>
+
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
+      <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://github.com/planetoftheweb">
+      <i class="bi bi-github text-secondary me-1"></i>github
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.joinclubhouse.com/planetoftheweb">
+      <i class="bi bi-suit-club text-secondary me-1"></i>clubhouse
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://twitter.com/planetoftheweb">
+      <i class="bi bi-twitter text-secondary me-1"></i>twitter
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="bi bi-image text-secondary me-1"></i>flickr
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="bi bi-youtube text-secondary me-1"></i>youtube
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.instagram.com/planetoftheweb">
+      <i class="bi bi-instagram text-secondary me-1"></i>instagram
+      </a>
+    </div></div>
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      let nav = document.querySelector('.site-nav')
+      let mainContent = document.querySelector('#main-content')
+      let navHeight = nav.scrollHeight
+
+      function moveHeader() {
+        let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+        mainOnTop < 0
+          ? nav.classList.add('in-body')
+          : nav.classList.remove('in-body')
+
+        window.requestAnimationFrame(moveHeader)
+      }
+      window.requestAnimationFrame(moveHeader)
+    })();
+  </script>
+  <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"lang":"en","siteId":2197414,"cookiePolicyId":85544448, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html>
