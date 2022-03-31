@@ -6,6 +6,13 @@
   "url": "/toolbox/2022-03-09-rethinking-css-rules/",
   "tags" : ""
 },{
+  "title": "Sass Essential Training",
+  "date" : "Mar 03, 2022",
+  "summary" : "Learn the fundamentals of Syntactically Awesome Stylesheets (Sass), a modern web development language that helps you write CSS better, faster, and with more advanced features.",
+  "thumbnail": "/images/courses/sass-essential-training_tn.png",
+  "url": "https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fsass-essential-training",
+  "tags" : "external,video tutorial,css,sass,html,web designer,web developer"
+},{
   "title": "The BackEnd Strikes Back - Ep 21",
   "date" : "Feb 09, 2022",
   "summary" : "In this episode of The Toolbox, we&#39;ll explore one of the latest regressions that&#39;s a trend in the world of web development. Thankfully it&#39;s not the return of table layouts. I&#39;m talking about the return of the backend...and yes...it&#39;s coming back with a vengance. The pace of the web is relentless...and that&#39;s why you need...The Toolbox.",
@@ -1972,13 +1979,6 @@
   "thumbnail": "/images/courses/angularjs1-formvalidation_tn.png",
   "url": "https://www.linkedin.com/learning/angularjs-1-form-validation?u=104",
   "tags" : "external,css,javascript,html,web designer,web developer,angular,frameworks"
-},{
-  "title": "Sass Essential Training",
-  "date" : "Oct 06, 2015",
-  "summary" : "Learn the fundamentals of Syntactically Awesome Stylesheets (Sass), a modern web development language that helps you write CSS better, faster, and with more advanced features.",
-  "thumbnail": "/images/courses/sass_tn.png",
-  "url": "https://linkedin-learning.pxf.io/c/1252977/449670/8005?u=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fsass-essential-training",
-  "tags" : "external,video tutorial,css,sass,javascript,html,web designer,web developer"
 },{
   "title": "Bootstrap 3 Essential Training",
   "date" : "Aug 26, 2015",
