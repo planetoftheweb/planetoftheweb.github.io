@@ -3,13 +3,13 @@ layout: post
 title: "Rethinking CSS Rules - Ep 22"
 summary: "In this episode of The Toolbox, we'll take a look at 8 new and old CSS libraries and the way they're changing how you'll be writing CSS in the future. The pace of the web is relentless...and that's why you need...The Toolbox."
 hideDesc: true
-video: 8HDFeez-Tjc
+video: B0eI5RT1-Hw
 hero: /images/toolbox/episode22.jpg
 thumb: /images/toolbox/episode22_tn.jpg
 category: toolbox
 ---
 
-Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern • 10am Pacific. Follow me and subscribe on LinkedIn and YouTube for more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.
+Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern • 10am Pacific. Follow me and subscribe on LinkedIn and YouTube for more content. If you want to watch any past episodes, make sure you take a look at my blog raybo.org.
 
 So, I've been on a journey lately with The Toolbox. It's more of a mission to explore new frameworks and ideas.
 
@@ -23,7 +23,7 @@ Hey Take a second and write down which frameworks you've used in the comments an
 
 ## Pico CSS
 
-[![Pico CSS](../images/toolbox/2022-03-09_01-20-46.png)](https://picocss.com/)
+[![Pico CSS](/images/toolbox/2022-03-09_01-20-46.png)](https://picocss.com/)
 
 Alright, let's talk about one of my favorite new finds called [Pico CSS]. This framework is probably the simplest of all frameworks. Think of it as a reset that rewrites the way a site look when it DOESN'T use any classes.
 
@@ -41,7 +41,7 @@ We spend so much time resetting CSS, then cleaning up the defaults to a reasonab
 
 ## Bootstrap
 
-[![Bootstrap](../images/toolbox/2022-03-09_00-51-51.png)](https://getbootstrap.com/)
+[![Bootstrap](/images/toolbox/2022-03-09_00-51-51.png)](https://getbootstrap.com/)
 
 Alright, so let's start with Bootstrap. The world's most popular Front End Framework.
 
@@ -74,13 +74,13 @@ Have you ever or do you still use Bootstrap?
 
 ## SASS
 
-[![Sass](../images/toolbox/2022-03-09_00-59-47.png)](https://sass-lang.com/)
+[![Sass](/images/toolbox/2022-03-09_00-59-47.png)](https://sass-lang.com/)
 
 Let's talk about Sass next. I just finished the update on our Sass course. It hasn't seen a ton of changes until very recently. As a matter of fact, I've been trying to do the Sass update for years, but something else crucial always came up, so I kept on pushing it back.
 
 By the time I got to it, I was wondering if it was even relevant today...and that's when I saw this:
 
-[![2020 State of JS Survey](../images/toolbox/2022-03-09_01-03-56.png)](https://2020.stateofcss.com/en-US/technologies/)
+[![2020 State of JS Survey](/images/toolbox/2022-03-09_01-03-56.png)](https://2020.stateofcss.com/en-US/technologies/)
 
 This is one of the annual surveys I keep track of to see what the industry is doing...and there it was. Sass was the only framework that was on that sweet spot. Top right of the poll. That means that it was the one that people were most satisfied with and also most used.
 
@@ -98,7 +98,7 @@ Do you use Sass at work still?
 
 ## Pollen
 
-[![Pollen CSS](../images/toolbox/2022-03-09_11-09-28.png)](https://www.pollen.style/)
+[![Pollen CSS](/images/toolbox/2022-03-09_11-09-28.png)](https://www.pollen.style/)
 
 One of the improvement that CSS has made in the past few years is of course variables. They were inspired by Sass, but as I mentioned I don't think they're as flexible as the ones that SASS provides.
 
@@ -122,7 +122,7 @@ Do you use CSS variables heavily? Or do you go for something like Sass?
 
 ## Open Props
 
-[[Open Props](../images/toolbox/2022-03-09_11-12-08.png)](https://open-props.style/)
+[[Open Props](/images/toolbox/2022-03-09_11-12-08.png)](https://open-props.style/)
 
 Pollen is nice, but if you're really want to use CSS variables, you'll eventually want something more flexible.
 
@@ -140,7 +140,7 @@ Basically, Open Pros is a more pro version of variables than Pollen. If you love
 
 ## Tailwind CSS
 
-[[Tailwind CSS](../images/toolbox/2022-03-09_01-35-30.png)](https://tailwindcss.com/)
+[[Tailwind CSS](/images/toolbox/2022-03-09_01-35-30.png)](https://tailwindcss.com/)
 
 That brings us to the present day. Let's talk about the framework that really changed things and that's Tailwind CSS.
 
@@ -168,7 +168,7 @@ For simpler sites, it's just not the right framework.
 
 ## Windi CSS
 
-[![Windi CSS](file:///Users/raybo/Documents/__notes/Home/raybo.org/_site/images/toolbox/2022-03-09_11-53-45.png)](https://windicss.org/)
+[![Windi CSS](/images/toolbox/2022-03-09_11-53-45.png)](https://windicss.org/)
 
 I have to give a mention to WindiCSS. It was basically an attempt to make something that worked like Tailwind CSS 2, but way more performant. It's basic improvement was a Just In Time Compiler.
 
@@ -182,7 +182,7 @@ The problem with using this framework today is that Tailwind CSS 3 now has a Jus
 
 ## Assembler CSS
 
-[[![Assembler CSS](../images/toolbox/2022-03-09_11-32-39.png)](https://asmcss.com/)](https://asmcss.com/)
+[![Assembler CSS](/images/toolbox/2022-03-09_11-32-39.png)](https://asmcss.com/)
 
 Now we're getting into the crazy and experimental ideas...although I might consider something like Pico CSS and Tailwinds in the same vein.
 
@@ -214,7 +214,7 @@ This also feels like where CSS might go if it starts adopting some of Tailwind's
 
 ## UnoCSS
 
-[![Uno CSS](../images/toolbox/2022-03-09_12-07-57.png)](https://unocss.antfu.me/)
+[![Uno CSS](/images/toolbox/2022-03-09_12-07-57.png)](https://unocss.antfu.me/)
 
 I feel like I have to mention this product here called UnoCSS. From the makers of WindiCSS. The developer who created Windi is now workinng on this new framework.
 
