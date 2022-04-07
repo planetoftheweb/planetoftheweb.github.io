@@ -1,9 +1,51 @@
 [{
+  "title": "What&#39;s Next JS - Ep 23",
+  "date" : "Apr 06, 2022",
+  "summary" : "In this episode of The Toolbox, we&#39;ll take a look the most popular React Meta Framework called NextJS. It&#39;s an almost magical set of tools that can help you build a site or app quickly. I&#39;ll also talk about some exciting new tools in the shorts including new sass and css frameworks...or libraries...or whatever you call them. Yeah the pace of the web is relentless and that&#39;s why you need the Toolbox",
+  "thumbnail": "/images/toolbox/episode23_tn.jpg",
+  "url": "/toolbox/2022-04-06-whats-next-js-ep23/",
+  "tags" : ""
+},{
+  "title": "Cirrus",
+  "date" : "Apr 05, 2022",
+  "summary" : "This is a real interesting Development because it&#39;s basically Tailwind CSS, but for Sass. The advantage is that all of the configuration is done in sass instead of through JS config.",
+  "thumbnail": "/images/toolbox/2022-04-07_01-55-41.png",
+  "url": "https://www.cirrus-ui.com/",
+  "tags" : "external"
+},{
+  "title": "JSON Visio Editor",
+  "date" : "Apr 04, 2022",
+  "summary" : "I use JSON in a lot of project, so this was a new approach to previewing JSON objects visually. Super Cool interface, you can change the orientation of the nodes and there&#39;s a few other ways to control the interface.",
+  "thumbnail": "/images/toolbox/2022-04-07_01-54-11.png",
+  "url": "https://jsonvisio.com/editor",
+  "tags" : "external"
+},{
+  "title": "M Dash",
+  "date" : "Apr 03, 2022",
+  "summary" : "This is a strange new library that gives you components that are based on regular HTML tags, so they&#39;re easy to learn and tiny. It pushes web standards whenever possible.",
+  "thumbnail": "/images/toolbox/2022-04-07_01-54-49.png",
+  "url": "https://m-docs.org/",
+  "tags" : "external"
+},{
+  "title": "Sublime Merge",
+  "date" : "Apr 02, 2022",
+  "summary" : "This is a new Git Client from the makers of my favorite previous editor...Sublime Text. It looks pretty amazing and like sublime it&#39;s super fast. So, it feels less like a GUI editor than the GitHub client. I think that if you&#39;re still a user of Sublime Text, then you&#39;ll probably love this editor.",
+  "thumbnail": "/images/toolbox/2022-04-07_01-53-35.png",
+  "url": "https://www.sublimemerge.com",
+  "tags" : "external"
+},{
+  "title": "ScrollMovie",
+  "date" : "Apr 01, 2022",
+  "summary" : "This is a library to let you animate a background element on scroll. The site is adorably cute with the picture of a cat cleaning itself.",
+  "thumbnail": "/images/toolbox/2022-04-07_01-53-25.png",
+  "url": "https://nagatapote.github.io/scroll-movie",
+  "tags" : "external"
+},{
   "title": "Rethinking CSS Rules - Ep 22",
   "date" : "Mar 09, 2022",
   "summary" : "In this episode of The Toolbox, we&#39;ll take a look at 8 new and old CSS libraries and the way they&#39;re changing how you&#39;ll be writing CSS in the future. The pace of the web is relentless...and that&#39;s why you need...The Toolbox.",
   "thumbnail": "/images/toolbox/episode22_tn.jpg",
-  "url": "/toolbox/2022-03-09-rethinking-css-rules/",
+  "url": "/toolbox/2022-03-09-rethinking-css-rules-ep22/",
   "tags" : ""
 },{
   "title": "Sass Essential Training",
@@ -17,7 +59,7 @@
   "date" : "Feb 09, 2022",
   "summary" : "In this episode of The Toolbox, we&#39;ll explore one of the latest regressions that&#39;s a trend in the world of web development. Thankfully it&#39;s not the return of table layouts. I&#39;m talking about the return of the backend...and yes...it&#39;s coming back with a vengance. The pace of the web is relentless...and that&#39;s why you need...The Toolbox.",
   "thumbnail": "/images/toolbox/episode21_tn.jpg",
-  "url": "/toolbox/2022-02-09-the-backend-strikes-back/",
+  "url": "/toolbox/2022-02-09-the-backend-strikes-back-ep21/",
   "tags" : ""
 },{
   "title": "Remix. The Backend React JavaScript Framework",
@@ -31,7 +73,7 @@
   "date" : "Feb 02, 2022",
   "summary" : "In this episode of The Toolbox, I&#39;ll go over some of the best ways you can design websites with little to no styles. I&#39;ll also do a demo of my favorite of all the minimalist classless frameworks Pico.css and I&#39;ll let you decide if it&#39;s the right thing for your next site. The pace of the web is relentless...and that&#39;s why you need...The Toolbox.",
   "thumbnail": "/images/toolbox/episode20_tn.jpg",
-  "url": "/toolbox/2022-02-02-the-classless-design-revolution/",
+  "url": "/toolbox/2022-02-02-the-classless-design-revolution-ep20/",
   "tags" : ""
 },{
   "title": "Pico CSS, The Exquisitely Classless Web Design Framework",
@@ -52,7 +94,7 @@
   "date" : "Jan 26, 2022",
   "summary" : "In this episode of The Toolbox, I&#39;ll go over some of the complexity that&#39;s plaguing CSS and making specificity harder to figure out. We&#39;ll look at WHAT frameworks are doing to help you develop simpler ways of designing sites. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
   "thumbnail": "/images/toolbox/episode19_tn.jpg",
-  "url": "/toolbox/2022-01-26-making-css-simpler/",
+  "url": "/toolbox/2022-01-26-making-css-simpler-ep19/",
   "tags" : ""
 },{
   "title": "Open Props Review: The CSS Variable Framework",
@@ -108,7 +150,7 @@
   "date" : "Jan 12, 2022",
   "summary" : "In this episode of The Toolbox, I&#39;m going to talk about some of the research behind how adults learn, what programmers do and how I approach learning as a professional student. I&#39;ve also got some great demos of GitHub&#39;s new Code Search Engine, the best new terminal I&#39;ve seen in ages called Warp and yes, I have some invites. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
   "thumbnail": "/images/toolbox/episode18_tn.jpg",
-  "url": "/toolbox/2022-01-12-learning-about-learning/",
+  "url": "/toolbox/2022-01-12-learning-about-learning-ep18/",
   "tags" : ""
 },{
   "title": "Learning from Code Samples",
@@ -129,7 +171,7 @@
   "date" : "Jan 05, 2022",
   "summary" : "In this episode of The Toolbox, I&#39;m going to talk about what css, javascript and new frameworks you should learn in 2022. Plus, sites you should know about, and I&#39;ll go over every new feature in Tailwind CSS 3. The pace of the web is relentless...and that&#39;s why you need The Toolbox.",
   "thumbnail": "/images/toolbox/episode17_tn.jpg",
-  "url": "/toolbox/2022-01-05-what-web-developers-should-learn-in-2022/",
+  "url": "/toolbox/2022-01-05-what-web-developers-should-learn-in-2022-ep17/",
   "tags" : ""
 },{
   "title": "What&#39;s New in Tailwind CSS 3",

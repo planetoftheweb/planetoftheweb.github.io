@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Raybo.org</title>
 
-    <meta name="description" content="In this episode of The Toolbox, we'll explore one of the latest regressions that's a trend in the world of web development. Thankfully it's not the return of table layouts. I'm talking about the return of the backend...and yes...it's coming back with a vengance. The pace of the web is relentless...and that's why you need...The Toolbox." />
-    <meta property="og:title" content="The BackEnd Strikes Back - Ep 21" />
-    <meta property="og:description" content="In this episode of The Toolbox, we'll explore one of the latest regressions that's a trend in the world of web development. Thankfully it's not the return of table layouts. I'm talking about the return of the backend...and yes...it's coming back with a vengance. The pace of the web is relentless...and that's why you need...The Toolbox." />
-    <meta property="og:image" content="https://raybo.org/images/toolbox/episode21.png" />
+    <meta name="description" content="I use JSON in a lot of project, so this was a new approach to previewing JSON objects visually. Super Cool interface, you can change the orientation of the nodes and there's a few other ways to control the interface." />
+    <meta property="og:title" content="JSON Visio Editor" />
+    <meta property="og:description" content="I use JSON in a lot of project, so this was a new approach to previewing JSON objects visually. Super Cool interface, you can change the orientation of the nodes and there's a few other ways to control the interface." />
+    <meta property="og:image" content="https://raybo.org/images/raybo.jpg" />
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://raybo.org/toolbox/2022-02-09-the-backend-strikes-back/">
-    <meta name="twitter:title" content="The BackEnd Strikes Back - Ep 21">
-    <meta name="twitter:description" content="In this episode of The Toolbox, we'll explore one of the latest regressions that's a trend in the world of web development. Thankfully it's not the return of table layouts. I'm talking about the return of the backend...and yes...it's coming back with a vengance. The pace of the web is relentless...and that's why you need...The Toolbox.">
-    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode21.png">
+    <meta name="twitter:site" content="https://raybo.org/shorts/2022-04-04-JSONVisioEditor/">
+    <meta name="twitter:title" content="JSON Visio Editor">
+    <meta name="twitter:description" content="I use JSON in a lot of project, so this was a new approach to previewing JSON objects visually. Super Cool interface, you can change the orientation of the nodes and there's a few other ways to control the interface.">
+    <meta name="twitter:image" content="https://raybo.org/images/raybo.jpg">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
@@ -41,7 +41,7 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
   <body class="position-relative bg-dark">
-    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  fixed-top  py-0">
   <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-bs-toggle="collapse" data-bs-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
@@ -135,81 +135,21 @@
 </nav>
 
     
-  <header id="page-hero" class="container site-header ratio ratio-16x9">
-  <iframe style="border-radius: 20px;" src="https://www.youtube.com/embed/8HDFeez-Tjc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</header>
-
 
  
 <article id="main-content" class="site-main container mt-3 mb-5"
-
+style="padding-top: 80px"
 >
 <main class="article-content px-3 px-sm-0 container">
 
-<h1>The BackEnd Strikes Back - Ep 21</h1>
-<p class="lead">In this episode of The Toolbox, we&#39;ll explore one of the latest regressions that&#39;s a trend in the world of web development. Thankfully it&#39;s not the return of table layouts. I&#39;m talking about the return of the backend...and yes...it&#39;s coming back with a vengance. The pace of the web is relentless...and that&#39;s why you need...The Toolbox.</p>
-
   <div class="row">
     <main class="article-content px-3 px-sm-0 main col-lg-9">
-    <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern • 10am Pacific. Follow me and subscribe on all the social media things for more content. If you want to watch any past episodes, make sure you take a look at my blog...raybo.org.</p>
-<p>One of the things that's really surprised me recently is how a lot of new frameworks are revisiting the backend and that's what we're going to explore later on.</p>
-<h1 id="shorts">Shorts <a class="direct-link" href="#shorts"> </a></h1>
-<p>npm start</p>
-<h3 id="sponsors-only-repositories">Sponsors Only Repositories <a class="direct-link" href="#sponsors-only-repositories"> </a></h3>
-<p><a href="https://github.blog/2022-02-02-new-sponsors-only-repositories-custom-amounts-and-more/"><img src="https://github.blog/wp-content/uploads/2019/05/Sponsors-1200x630-X2.png" alt="Sponsors Only Repos"></a></p>
-<p>GitHub has now added the ability to create <a href="">sponsors only repositories</a>. This is sort of competing with Patreon, but really just making sponsorships a lot easier.</p>
-<p>That means you can create a repo that is only visible to people who support you on GitHub.</p>
-<p>The whole world of support for maintainers is broken. Lots of people who are doing excellent work aren't supported</p>
-<p>Recently they added discussions and now that makes a lot more sense because you can create discussions to engage and interact with your sponsors.</p>
-<h3 id="fetch-in-node-core">Fetch in Node Core <a class="direct-link" href="#fetch-in-node-core"> </a></h3>
-<p><a href="https://fusebit.io/blog/node-fetch/"><img src="../images/toolbox/2022-02-13_18-45-52.png" alt="Fetch in node Core"></a></p>
-<p>The Fetch API is a modern promise based API that thankfully replaced AJAX and is the de-facto standard for front end developers.</p>
-<p>Node.js 17.5 features <a href="https://fusebit.io/blog/node-fetch">built in support for Fetch</a>. This is pretty big news because it makes things easier on the server side. A single API that is able to read content using the same API just makes it easier to do things.</p>
-<p>Before this, you had to use an external module called node-fetch. So that's going away. It's still a bit early for this, but I can't wait.</p>
-<h3 id="top-100-package-maintainers-require-2fa">Top 100 package maintainers require 2FA <a class="direct-link" href="#top-100-package-maintainers-require-2fa"> </a></h3>
-<p><a href="https://github.blog/2022-02-01-top-100-npm-package-maintainers-require-2fa-additional-security/"><img src="../images/toolbox/2022-02-13_18-47-36.png" alt="2FA Maintainers"></a></p>
-<p>This is pretty big news. npm is requiring the top 100 npm package <a href="https://github.blog/2022-02-01-top-100-npm-package-maintainers-require-2fa-additional-security">maintainers to use 2FA</a>, or two factor authentication.</p>
-<p>There's a bit of setup and when you log into your account, you sometimes have to sync via an alternative login method.</p>
-<p>You can now also turn that on within an organization.</p>
-<h3 id="css-grid-generator">CSS Grid Generator <a class="direct-link" href="#css-grid-generator"> </a></h3>
-<p><a href="https://cssgrid-generator.netlify.app/"><img src="../images/toolbox/2022-02-13_23-23-23.png" alt="CSS Grid Generator"></a></p>
-<p>I was working on the demo and realized that <a href="https://picocss.com/">Pico.css</a> doesn't have a good grid system. The options are to add the Bootstrap Grid or use CSS grid to lay things out.</p>
-<p>I find the fractional width language a bit confusing, so this is a really nice visual tool that can help you create a grid rather quickly.</p>
-<h3 id="bootstrap-icons">Bootstrap Icons <a class="direct-link" href="#bootstrap-icons"> </a></h3>
-<p><a href="https://icons.getbootstrap.com/"><img src="../images/toolbox/2022-02-13_23-29-27.png" alt="Bootstrap Icons"></a></p>
-<p>This icon library keeps getting better and better. It's now my go to library for high quality icons. Although I also like the interface behind <a href="https://css.gg/">css.gg</a>, Bootstrap Icons are already up to twice the size at 1600 icons and constantly being updated.</p>
-<p>They just released 140 new icons, which are mostly valentines, file extensions and a lot of other utility icons. It's not the icons per se that I love, but the fact that the library is continuously being updated with quality content.</p>
-<h3 id="shadow-web-lite-youtube-component">Shadow Web Lite YouTube Component <a class="direct-link" href="#shadow-web-lite-youtube-component"> </a></h3>
-<p>[<img src="../images/toolbox/2022-02-13_23-38-55.png" alt="Lite YouTube Component">](Lite YouTube Component)</p>
-<p>This is an extremely fast way to display videos on your site. It's a clone from Paul Irish's excellent <a href="https://github.com/paulirish/lite-youtube-embed">lite youtube embed</a>, but what makes it different is that it uses web components.</p>
-<p>If you haven't used this, it will get rid of a bunch of tracking code and who knows what else that slows down the display of YouTube videos on websites. Who knows what YouTube is doing, but this is...according to Paul Irish 224 times faster. I use this on <a href="http://raybo.org">raybo.org</a>.</p>
-<h3 id="the-story-of-react">The Story of React <a class="direct-link" href="#the-story-of-react"> </a></h3>
-<p><a href="https://www.youtube.com/watch?v=Wm_xI7KntDs"><img src="../images/toolbox/2022-02-13_23-44-52.png" alt="Story of React"></a></p>
-<p>This is a documentary type video which discusses the history of the React Framework. If you don't know why React has pretty much won the framework war...at least for the type being...then this is a great video that goes through it's entire background, discussing other frameworks and why they fail where React has succeeded.</p>
-<p>There's a few new frameworks that are trying to challenge React's superiority, but they have a big hill to climb.</p>
-<h3 id="remix">Remix <a class="direct-link" href="#remix"> </a></h3>
-<p>In this tutorial I'm going to build a simple app in less than 10 minutes to give you an idea of what Remix is trying to do and how it beautifully manages one of the hardest parts of the web...routing.</p>
-<p>I'll show you how to install Remix, what you get once that's done, how to add some modules like Pico, add CSS files, regular and nested routes.</p>
-<h2 id="links">Links <a class="direct-link" href="#links"> </a></h2>
-<ul>
-<li><a href="https://hydrogen.shopify.dev/">Hydrogen</a></li>
-<li><a href="https://nextjs.org/">NextJS</a></li>
-<li><a href="https://v3.nuxtjs.org/">Nuxt</a></li>
-<li><a href="https://picocss.com/">Pico CSS</a></li>
-<li><a href="https://remix.run/">Remix</a></li>
-</ul>
-
+    
     </main>
     <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
       <h4>Contents</h4>
       <nav class="sticky-top" style="top: 100px;">
-      <div class="">
-                <ol>
-                    
-                    <li><a href="#links">Links</a>
-            		</li>
-                </ol>
-            </div>
+      
       </nav>
     </aside>
   <div>

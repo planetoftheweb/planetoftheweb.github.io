@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <meta name="description" content="In this episode of The Toolbox, I'll go over some of the complexity that's plaguing CSS and making specificity harder to figure out. We'll look at WHAT frameworks are doing to help you develop simpler ways of designing sites. The pace of the web is relentless...and that's why you need The Toolbox." />
+    <meta property="og:title" content="How to Make CSS Design Simpler - Ep 19" />
+    <meta property="og:description" content="In this episode of The Toolbox, I'll go over some of the complexity that's plaguing CSS and making specificity harder to figure out. We'll look at WHAT frameworks are doing to help you develop simpler ways of designing sites. The pace of the web is relentless...and that's why you need The Toolbox." />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/episode19.png" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2022-01-26-making-css-simpler-ep19/">
+    <meta name="twitter:title" content="How to Make CSS Design Simpler - Ep 19">
+    <meta name="twitter:description" content="In this episode of The Toolbox, I'll go over some of the complexity that's plaguing CSS and making specificity harder to figure out. We'll look at WHAT frameworks are doing to help you develop simpler ways of designing sites. The pace of the web is relentless...and that's why you need The Toolbox.">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode19.png">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
+ 
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-bs-toggle="collapse" data-bs-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="bi bi-house-door-fill"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/toolbox/0/">toolbox</a>
+            
+            <a class="nav-item nav-link" href="/shorts/0/">shorts</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                    <i class="bi bi-linkedin text-secondary me-1"></i> linkedin
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                    <i class="bi bi-github text-secondary me-1"></i> github
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                    <i class="bi bi-suit-club text-secondary me-1"></i> clubhouse
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                    <i class="bi bi-twitter text-secondary me-1"></i> twitter
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                    <i class="bi bi-image text-secondary me-1"></i> flickr
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                    <i class="bi bi-youtube text-secondary me-1"></i> youtube
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                    <i class="bi bi-instagram text-secondary me-1"></i> instagram
+                  </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="container site-header ratio ratio-16x9">
+  <iframe style="border-radius: 20px;" src="https://www.youtube.com/embed/feAPtBN-SOI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+<h1>How to Make CSS Design Simpler - Ep 19</h1>
+<p class="lead">In this episode of The Toolbox, I&#39;ll go over some of the complexity that&#39;s plaguing CSS and making specificity harder to figure out. We&#39;ll look at WHAT frameworks are doing to help you develop simpler ways of designing sites. The pace of the web is relentless...and that&#39;s why you need The Toolbox.</p>
+
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <h1 id="shorts">Shorts <a class="direct-link" href="#shorts"> </a></h1>
+<p>Let's start by going over some cool sites that I think you should know about. They're related to our topic today, so it's about where things are going and how you can make things simpler.</p>
+<h2 id="rising-stars">Rising Stars <a class="direct-link" href="#rising-stars"> </a></h2>
+<p><a href="https://go.raybo.org/7ARI"><img src="/images/shorts/2022-01-21_12-34-50.png" alt="Rising Stars"></a></p>
+<p><a href="https://go.raybo.org/7ARI">This site</a> looks at the popularity of front end tools, based on their GitHub stars and ranks them as. Some pretty interesting results. Although React is sitting at number one, Vue, which is split into two repos, is technically bigger. But the shocker is that Svelte has officially blown past Angular in popularity. Sorry Google.&quot;</p>
+<h2 id="doodle-ipsum">Doodle Ipsum <a class="direct-link" href="#doodle-ipsum"> </a></h2>
+<p><a href="https://doodleipsum.com/"><img src="/images/shorts/2022-01-21_14-00-28.png" alt="Doodle Ipsum"></a></p>
+<p>Gotta get a quick demo going and are tired of using the same three pictures of you pets. We'll then there's <a href="https://doodleipsum.com/">Doodle Ipsum</a>. Sort of like a Lorem Ipsum for random pictures. Could be great in a pinch.</p>
+<h2 id="simple-css">Simple CSS <a class="direct-link" href="#simple-css"> </a></h2>
+<p><a href="https://simplecss.org"><img src="/images/shorts/2022-01-21_13-25-15.png" alt="Simple CSS"></a></p>
+<p>This is a <a href="https://simplecss.org">set of stylesheets</a> that lets you create a web page without any classes. Feels like the way HTML should work. The page looks pretty good as is and of course can be customized, but that's almost besides the point. Great for demos that look great out of the box.</p>
+<h1 id="intro">Intro <a class="direct-link" href="#intro"> </a></h1>
+<p>A while back, I was looking at the State of CSS report and the most interesting part of the report is in the <a href="https://go.raybo.org/7AQ3">technologies section</a>, which shows you the user satisfaction versus interest for most CSS technologies out there.</p>
+<p>Under satisfaction, SASS is clearly the winner. There are other things that people are pretty happy with here like PostCSS, Styled Components...which seems crazy to me, but is a way to write CSS with javascript. I haven't given that enough time, so at some point, I'm just going to have to go explore that, plus BEM, which is a structure for how you name your classes.</p>
+<p>Interesting to note that Bootstrap is dipping under the adopt threshold in this graph, and most of the frameworks are in the assess section.</p>
+<h1 id="why-the-complexity">Why The Complexity <a class="direct-link" href="#why-the-complexity"> </a></h1>
+<p>The thing that started me on this topic was watching this <a href="https://go.raybo.org/7AQ2">great video</a> from Una Kravets about one of the upcoming features in CSS called Layers. It's pretty much what you're probably thinking.</p>
+<p><a href="https://go.raybo.org/7AQ7">There's a codepen</a> where you can play with it. Basically, it lets you arrange pieces of CSS into layers. What struck me though is how much more complicated the specificity will get once people start putting CSS in layers and layers.</p>
+<p>One of the other more hyped features for CSS are <a href="https://go.raybo.org/7AQA">Container Queries</a>. Container queries are like media queries, but they don't have to be relative to a viewport, you to control the layout based on the width available to the current item. Super powerful, but also additional complexity.</p>
+<p>Just think of how far the <a href="https://go.raybo.org/7AQC">display property</a> has come in just a few years.</p>
+<h2 id="my-take-on-frameworks">My Take On Frameworks <a class="direct-link" href="#my-take-on-frameworks"> </a></h2>
+<p>I see frameworks as attempt to solve problems not addressed by the main languages. The things that happen on frameworks today are the features you'll see on CSS tomorrow.</p>
+<p>A lot of things from SASS like variables and calculations have made it into CSS. There's also a lot of things from SASS that are trying to make it back as well...like <a href="https://go.raybo.org/7AQC">conditionals</a>, <a href="https://go.raybo.org/7AQU">nesting</a>.</p>
+<p>So, it's always a good idea to take a look at what's happening with frameworks to see the future of CSS.</p>
+<h2 id="how-frameworks-solve-complexity">How Frameworks Solve Complexity <a class="direct-link" href="#how-frameworks-solve-complexity"> </a></h2>
+<p>I just finished recording an update to a course <a href="https://sass-lang.com/">on Sass</a>. Sass has been around for 15 years now...15 years. That is like several lifetimes in web terms. A lot of the features that we have in CSS today and that are coming online are things people have had in SASS for years.</p>
+<p>It's not a bad language to learn to this day and as you saw earlier, user satisfaction is huge. Here's a few things that are in SASS that you'd probably drool for in CSS.</p>
+<p>You have the ability to <a href="https://go.raybo.org/7ARD">extend classes</a>, so that new classes will be based on old ones. You have all of these <a href="https://go.raybo.org/7ARC">color modification</a> classes which are super handy.</p>
+<h1 id="where-are-they-going%3F">Where are they going? <a class="direct-link" href="#where-are-they-going%3F"> </a></h1>
+<p>Some frameworks are using CSS variable presets to help you build complex designs in a way that can be easier to follow.</p>
+<p>There's a lot of frameworks like <a href="https://asmcss.com">Assembler CSS</a> that are moving towards this sort of model. Closer to what we do in the style tag. This is great for component based architectures, but not as good if you have a lot of repetitive work.</p>
+<p><a href="https://www.pollen.style/">PollenCSS</a>, for example offers a preset of CSS variables that give you a design system that you can use to design things. I did a demo of how you can use these to create a <a href="https://go.raybo.org/7ASq">responsive design</a> a while back.</p>
+<h1 id="tailwind's-utility-first-approach">Tailwind's Utility First Approach <a class="direct-link" href="#tailwind's-utility-first-approach"> </a></h1>
+<p><a href="https://tailwindcss.com/">Tailwind CSS</a> is an interesting framework that focuses has a Utility First Approach. If you haven't used it yet, it will feel really weird and you might not like it at first, but it's basically like trying to go closer to the computed tab in your browser.</p>
+<p>Here's <a href="https://go.raybo.org/7ASP">some examples</a> that will show you how to make something look like buttons of different widths.</p>
+<h1 id="demo----open-props">Demo -- Open Props <a class="direct-link" href="#demo----open-props"> </a></h1>
+<p>I'm noticing the rise of several frameworks that are an enhancement to existing CSS variables. This one is called Open Props.</p>
+<h2 id="links">Links <a class="direct-link" href="#links"> </a></h2>
+<ul>
+<li><a href="https://go.raybo.org/7ARI">Rising Stars</a></li>
+<li><a href="https://doodleipsum.com">Doodle Ipsum</a></li>
+<li><a href="https://simplecss.org">Simple CSS</a></li>
+<li><a href="https://go.raybo.org/7AQ3">State of CSS - Tech</a>,</li>
+<li><a href="https://go.raybo.org/7AQ2">Una Kravets Layers</a></li>
+<li><a href="https://go.raybo.org/7AQ7">CSS Layers Sample</a></li>
+<li><a href="https://go.raybo.org/7AQA">CSS Container Queries</a>.</li>
+<li><a href="https://go.raybo.org/7AQC">CSS Display Property</a></li>
+<li><a href="https://go.raybo.org/7AQC">MDN Conditionals</a></li>
+<li><a href="https://go.raybo.org/7AQU">CSS Nesting Module</a>.</li>
+<li><a href="https://sass-lang.com/">Sass</a></li>
+<li><a href="https://go.raybo.org/7ARD">SASS Extend Sample</a></li>
+<li><a href="https://go.raybo.org/7ARC">SASS Color Mods</a></li>
+<li><a href="https://asmcss.com">Assembler CSS</a></li>
+<li><a href="https://www.pollen.style/">PollenCSS</a></li>
+<li><a href="https://go.raybo.org/7ASq">Pollen CSS Sample</a></li>
+<li><a href="https://tailwindcss.com/">Tailwind CSS</a></li>
+<li><a href="https://go.raybo.org/7ASP">Tailwind Sample</a></li>
+</ul>
+
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#rising-stars">Rising Stars</a>
+            		</li>
+
+                    <li><a href="#doodle-ipsum">Doodle Ipsum</a>
+            		</li>
+
+                    <li><a href="#simple-css">Simple CSS</a>
+            		</li>
+
+                    <li><a href="#my-take-on-frameworks">My Take On Frameworks</a>
+            		</li>
+
+                    <li><a href="#how-frameworks-solve-complexity">How Frameworks Solve Complexity</a>
+            		</li>
+
+                    <li><a href="#links">Links</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
+</article>
+
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
+      <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://github.com/planetoftheweb">
+      <i class="bi bi-github text-secondary me-1"></i>github
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.joinclubhouse.com/planetoftheweb">
+      <i class="bi bi-suit-club text-secondary me-1"></i>clubhouse
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://twitter.com/planetoftheweb">
+      <i class="bi bi-twitter text-secondary me-1"></i>twitter
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="bi bi-image text-secondary me-1"></i>flickr
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="bi bi-youtube text-secondary me-1"></i>youtube
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.instagram.com/planetoftheweb">
+      <i class="bi bi-instagram text-secondary me-1"></i>instagram
+      </a>
+    </div></div>
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      let nav = document.querySelector('.site-nav')
+      let mainContent = document.querySelector('#main-content')
+      let navHeight = nav.scrollHeight
+
+      function moveHeader() {
+        let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+        mainOnTop < 0
+          ? nav.classList.add('in-body')
+          : nav.classList.remove('in-body')
+
+        window.requestAnimationFrame(moveHeader)
+      }
+      window.requestAnimationFrame(moveHeader)
+    })();
+  </script>
+  <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"lang":"en","siteId":2197414,"cookiePolicyId":85544448, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html>
