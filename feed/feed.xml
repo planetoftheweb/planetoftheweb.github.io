@@ -18,7 +18,7 @@
 		<id>/posts/2022-04-10-NextJS-The-Almost-Magical-Meta-Framework-For-React.md/</id>
 		<content type="html">&lt;p&gt;Few things become a dominant platform for the web. React is one of those, but that library is hyper focused on building user interfaces...not web applications.&lt;/p&gt;
 &lt;p&gt;So, another company Vercel created what&#39;s called a Meta Framework built on top of React to give you features that go beyond building interfaces.&lt;/p&gt;
-&lt;p&gt;It gives you just about every modern feature you need to help you build modern web applications. Things like  routing, image optimization, an excellent development environment, support for just about any way to  create CSS.&lt;/p&gt;
+&lt;p&gt;It gives you just about every modern feature you need to help you build modern web applications. Things like routing, image optimization, an excellent development environment, support for just about any way to create CSS.&lt;/p&gt;
 &lt;p&gt;In this video, I show you how to build a simple app in about 17 minutes so you can get a taste of what NextJS can do.&lt;/p&gt;
 </content>
 	</entry>

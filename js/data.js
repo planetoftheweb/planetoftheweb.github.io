@@ -2,7 +2,7 @@
   "title": "NextJS. The Magical Meta Framework for React",
   "date" : "Apr 10, 2022",
   "summary" : "NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites.",
-  "thumbnail": "/images/posts/demo-remix_tn.jpg",
+  "thumbnail": "/images/posts/nexjsdemo_tn.jpg",
   "url": "/posts/2022-04-10-NextJS-The-Almost-Magical-Meta-Framework-For-React.md/",
   "tags" : "full stack development,React,JavaScript,NextJS"
 },{
