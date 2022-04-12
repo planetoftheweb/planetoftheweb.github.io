@@ -1,4 +1,11 @@
 [{
+  "title": "NextJS. The Magical Meta Framework for React",
+  "date" : "Apr 10, 2022",
+  "summary" : "NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites.",
+  "thumbnail": "/images/posts/demo-remix_tn.jpg",
+  "url": "/posts/2022-04-10-NextJS-The-Almost-Magical-Meta-Framework-For-React.md/",
+  "tags" : "full stack development,React,JavaScript,NextJS"
+},{
   "title": "What&#39;s Next JS - Ep 23",
   "date" : "Apr 06, 2022",
   "summary" : "In this episode of The Toolbox, we&#39;ll take a look the most popular React Meta Framework called NextJS. It&#39;s an almost magical set of tools that can help you build a site or app quickly. I&#39;ll also talk about some exciting new tools in the shorts including new sass and css frameworks...or libraries...or whatever you call them. Yeah the pace of the web is relentless and that&#39;s why you need the Toolbox",
@@ -73,7 +80,7 @@
   "date" : "Feb 09, 2022",
   "summary" : "Recently, there&#39;s been a move from the front end to the backend and Remix, formerly a React Router libray has graduated to a full framework giving you a lot of super cool ",
   "thumbnail": "/images/posts/demo-remix_tn.jpg",
-  "url": "/posts/2022-02-09-Remix-backend-framework-for-delicioous-javascript/",
+  "url": "/posts/2022-02-09-Remix-backend-framework-for-delicious-javascript/",
   "tags" : "full stack development,css,css frameworks"
 },{
   "title": "The Classless CSS Design Revolution - Ep 20",
