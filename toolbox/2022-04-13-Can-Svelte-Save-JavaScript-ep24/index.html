@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Raybo.org</title>
+
+    <meta name="description" content="In this episode of The Toolbox, we'll take a look the framework I wish was the most popular...SvelteJS. I have some great tools in the shorts including Svelte and React utilities...and you'll find out why I think Svelte can save JavaScript. The pace of the web is relentless and that's why you need the Toolbox" />
+    <meta property="og:title" content="Can Svelte Save JavaScript - Ep 24" />
+    <meta property="og:description" content="In this episode of The Toolbox, we'll take a look the framework I wish was the most popular...SvelteJS. I have some great tools in the shorts including Svelte and React utilities...and you'll find out why I think Svelte can save JavaScript. The pace of the web is relentless and that's why you need the Toolbox" />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/episode24.jpg" />
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2022-04-13-Can-Svelte-Save-JavaScript-ep24/">
+    <meta name="twitter:title" content="Can Svelte Save JavaScript - Ep 24">
+    <meta name="twitter:description" content="In this episode of The Toolbox, we'll take a look the framework I wish was the most popular...SvelteJS. I have some great tools in the shorts including Svelte and React utilities...and you'll find out why I think Svelte can save JavaScript. The pace of the web is relentless and that's why you need the Toolbox">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode24.jpg">
+
+    <link rel="stylesheet" href="/css/style.css" type="text/css">
+    <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Asap:wght@400;700&family=Roboto+Slab:wght@100;300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.6.1/font/bootstrap-icons.css"> 
+ 
+    <script defer src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script defer src="/js/lite-yt-embed.js"></script>
+    <script defer src="/js/script.js"></script>
+ 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-58547762-1"></script>
+    <script async>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'UA-58547762-1');
+    </script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+  </head>
+  <body class="position-relative bg-dark">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+  <div class="container">
+    <button type="button" class="navbar-toggler my-2 my-md-0" data-bs-toggle="collapse" data-bs-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="navbar-brand text-lowercase">
+      <a class="text-white text-decoration-none" href="/"><i class="icon icon-pow"></i>Raybo.org</a> 
+    </div>
+    <div class="collapse navbar-collapse text-center mt-0" id="myTogglerNav">
+      <div class="navbar-nav ms-auto fw-regular text-uppercase">
+        <a class="d-none nav-item nav-link" href="#page-hero">hero target</a>
+        <a class="d-none nav-item nav-link" href="#main-content">nav target</a>        
+        <a class="nav-item nav-link fw-bold  text-light" href="/"><i class="bi bi-house-door-fill"></i></a>
+        
+            <a class="nav-item nav-link" href="/courses/0/">courses</a>
+            
+            <a class="nav-item nav-link" href="/videos/0/">videos</a>
+            
+            <a class="nav-item nav-link" href="/toolbox/0/">toolbox</a>
+            
+            <a class="nav-item nav-link" href="/shorts/0/">shorts</a>
+            
+            <a class="nav-item nav-link" href="/posts/0/">posts</a>
+            
+            <a class="nav-item nav-link" href="/newsletter/0/">newsletter</a>
+            <div class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <i class="bi bi-person-fill"></i>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="userDropdown">
+              <li><a class="dropdown-item text-capitalize" href="/about">About Me</a></li>
+              <li><hr class="dropdown-divider"></li><li>
+                  <a class="dropdown-item text-capitalize" href="https://linkedin.com/in/planetoftheweb">
+                    <i class="bi bi-linkedin text-secondary me-1"></i> linkedin
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://github.com/planetoftheweb">
+                    <i class="bi bi-github text-secondary me-1"></i> github
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.joinclubhouse.com/planetoftheweb">
+                    <i class="bi bi-suit-club text-secondary me-1"></i> clubhouse
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://twitter.com/planetoftheweb">
+                    <i class="bi bi-twitter text-secondary me-1"></i> twitter
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+                    <i class="bi bi-image text-secondary me-1"></i> flickr
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.youtube.com/user/planetoftheweb">
+                    <i class="bi bi-youtube text-secondary me-1"></i> youtube
+                  </a>
+                </li><li>
+                  <a class="dropdown-item text-capitalize" href="https://www.instagram.com/planetoftheweb">
+                    <i class="bi bi-instagram text-secondary me-1"></i> instagram
+                  </a>
+                </li></ul>
+          </div>
+        </div>
+      </div>
+      <div class="searchbox pl-2 py-2">
+    <input
+      type="text"
+      v-model="query"
+      class="form-control text-white border m-auto"
+      :class="[isActive ? 'wide' : 'short']"
+      @focus="isActive=true"
+      @blur.prevent="handleBlur"
+      ref="searchinput"
+      style="background: transparent;"
+      aria-describedby="searchinput"
+      autocomplete="off"
+    >
+    <div v-if="query && isActive" class="position-absolute justify-content-center" style="top: 47px;">
+      <div class="card bg-secondary">
+        <ul class="list-group list-group-flush px-0" v-for="(item, index) in queried" :key="index">
+          <li class="list-group-item">
+            <a :href="item.url" class="d-flex text-secondary">
+              <span class="pr-2" v-html="item.icon"></span>
+              <span class="text-body text-start" v-html="item.title"></span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+</div>
+    </div>
+  </div>
+</nav>
+
+    
+  <header id="page-hero" class="container site-header ratio ratio-16x9">
+  <iframe style="border-radius: 20px;" src="https://www.youtube.com/embed/k4n5XIqCGq8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
+
+ 
+<article id="main-content" class="site-main container mt-3 mb-5"
+
+>
+<main class="article-content px-3 px-sm-0 container">
+
+<h1>Can Svelte Save JavaScript - Ep 24</h1>
+<p class="lead">In this episode of The Toolbox, we&#39;ll take a look the framework I wish was the most popular...SvelteJS. I have some great tools in the shorts including Svelte and React utilities...and you&#39;ll find out why I think Svelte can save JavaScript. The pace of the web is relentless and that&#39;s why you need the Toolbox</p>
+
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern • 10am Pacific. Follow me and subscribe on LinkedIn and YouTube for more content. If you want to watch any past episodes, make sure you take a look at my blog <a href="http://raybo.org">raybo.org</a>.</p>
+<p>I tend to love frameworks that are easier for humans to program. I always feel like things should be simpler, not harder for developers to do. I've said in the past that because of that, my favorite is Vue.js. That's true, but there's another framework that I wish was the best.</p>
+<h1 id="shorts">Shorts <a class="direct-link" href="#shorts"> </a></h1>
+<p>Let's take a look at some of the cool projects that I found interesting lately. I feel like I have a backlog of these.</p>
+<h2 id="svelte">Svelte <a class="direct-link" href="#svelte"> </a></h2>
+<p><a href="https://svelte.dev/"><img src="/images/toolbox/2022-04-13_10-08-44.png" alt="Svelte"></a></p>
+<p>Most of the shorts are going to be about Svelte this week, so we'll get kicked off with the main site Svelte.dev. This is a great playground for the platform, which includes a REPL tool that lets you try out some of the features in the framework. There's also a tutorial that uses the REPL took to walk you through some lessons.</p>
+<p>Q: Has Anyone Tried Svelte?<br>
+Q: What Other Frameworks are you using?</p>
+<h2 id="svelte-kit">Svelte Kit <a class="direct-link" href="#svelte-kit"> </a></h2>
+<p><a href="https://kit.svelte.dev"><img src="/images/toolbox/2022-04-13_12-00-48.png" alt="Svelte Kit"></a></p>
+<p>Svelte Kit is Svelte's answer to NextJS or other frameworks. This is I think where Svelte breaks down a bit. It's nowhere near as modern as Next and it's been truly under development for quite a while. I'm really hoping this improves with all 'Extra' time Rich has now.</p>
+<h2 id="svelte-cubed">Svelte Cubed <a class="direct-link" href="#svelte-cubed"> </a></h2>
+<p><a href="https://svelte-cubed.vercel.app/"><img src="/images/toolbox/2022-04-13_12-03-29.png" alt="Svelte Cubed"></a></p>
+<p>One of the things that Svelte does really well is provide hooks to animation states that make it easier to create complex movements. Like VueJS, it's a great framework for animations. If you thiknk about it, that makes sense since newspapers, where Rich came from often use a lot of complex animations and infographics. So this is a set of tools built on top of Svelte that let you work with probably the most popular 3d animation library called Three.js.</p>
+<p>Q: Do you use an animation library?<br>
+Q: Has anyone used three.js?</p>
+<p><a href="https://github.com/Rich-Harris/degit"><img src="/images/toolbox/2022-04-13_12-06-52.png" alt="Degit"></a></p>
+<p>Another strange thing about Svelte is that you don't use a CLI to start up a project, you simple make a copy of an existing repo. You use this library called Degit. It's so good that I often use it on other projects to help me clone repos without any history. It's super flexible with tons of options.</p>
+<p>Q: Do you usually begin projects by cloning an old project?</p>
+<h2 id="previewjs">PreviewJS <a class="direct-link" href="#previewjs"> </a></h2>
+<p><a href="https://previewjs.com/"><img src="/images/toolbox/2022-04-13_12-09-22.png" alt="PreviewJS"></a><br>
+Let's get to a couple of interesting React tools. First is PreviewJS, which lets you preview your React components within Visual Studio Code. It's great because it lets you see how it will look without having to start a server. You can pass along properties and supports storybook. There's even a pro edition if you want to support the developer with a few extra options.</p>
+<p>Q: Do you have any other favorite VSCode Extensions?</p>
+<h2 id="mantine">Mantine <a class="direct-link" href="#mantine"> </a></h2>
+<p><a href="https://mantine.dev"><img src="/images/toolbox/2022-04-13_12-13-03.png" alt="Mantine"></a><br>
+This is a pretty nice looking component library for React. Themmeable, reponsive and compatible with Gatsby, Remix or NextJS. Looks pretty full features. I thought it was cool, but I'd love to know if there's something else people are using.</p>
+<p>Q: What other component libraries are you using?</p>
+<h2 id="svelte-course">Svelte Course <a class="direct-link" href="#svelte-course"> </a></h2>
+<p><a href="https://go.raybo.org/7pyX"><img src="/images/toolbox/2022-04-13_12-16-22.png" alt="Svelte Course"></a></p>
+<p>Before I get started with Svelte, I just wanted to mention that I did a course on it and made it available for free on LinkedIn learning so if you follow me, it will be free for 24 hours using this link.</p>
+<p>I put all the links in the comments, so if you're coming in late, just scroll to the top of the comments on LinkedIn, or you can look for them on <a href="http://Raybo.org">Raybo.org</a> and YouTube.</p>
+<p>Q: What's your favorite course from Ray?</p>
+<hr>
+<h1 id="can-svelte-save-javascript%3F">Can Svelte Save JavaScript? <a class="direct-link" href="#can-svelte-save-javascript%3F"> </a></h1>
+<p>Svelte is a JavaScript framework that tries to do something different by helping you write truly reactive code without the virtual DOM...and it does it in style by helping you write less code. It's seen a rise in popularity in the last few years that has <a href="https://go.raybo.org/7pzX">surpassed others</a> to hang within the top five frameworks recently.</p>
+<p>It's tied for the number one spot in terms of user satisfaction and I think I agree with that because it feels very familiar.</p>
+<h2 id="less-code">Less Code <a class="direct-link" href="#less-code"> </a></h2>
+<p>Let's talk a bit about it's best feature and that's the fact that it helps you write less code. The language compiles to JavaScript...hopefully you got the joke in the title. The answer is that it's true that Svelte can save JavaScript because it compiles to JavaScript. So Svelte is higly optimized JavaScript compiler.</p>
+<p>However, I think that Svelte is also in the fight for simplicity over complexity. Recently the developer of Svelte...Rich Harris got hired by Vercel to work on the project full time. So this was a side project while Rich was working for the New York Times</p>
+<p>The more you use Svelte, the more you realize how simple it is. Take a look at <a href="https://svelte.dev/blog/write-less-code">this code sample</a>.</p>
+<p>You don't have to import the react library, you don't worry about creating a main container for your HTML. You don't need to remember to write className instead of class and it's super easy to do two way data-binding with the bind attribute.</p>
+<p>There's no useEffect...which I think is poorly named. It treats you like a human and takes care of the complexity of the language for you.</p>
+<p>You can really pick this framework up quickly.</p>
+<h2 id="no-virtual-dom">No Virtual DOM <a class="direct-link" href="#no-virtual-dom"> </a></h2>
+<p>Okay, this is going to sound weird at first because the big deal about React is that it introduced the concept of the Virtual DOM. With it, you just worry about updating the state...or data and it takes care of updating the interface for you.</p>
+<p>The thing is, that can be innefficient. because Updating the interface is a lot of work for the browser because it's constantly calculating the differences in code as the user works with the application.</p>
+<p>So instead of relying on an engine that keeps track of the DOM. Svelte creates optimized code that does what you want it to do.</p>
+<p>Q: Have you subscribed to Ray's YouTube Channel?</p>
+<h2 id="links">Links <a class="direct-link" href="#links"> </a></h2>
+<p>Svelte: <a href="https://svelte.dev/">https://svelte.dev/</a><br>
+Svelte Kit: <a href="https://kit.svelte.dev">https://kit.svelte.dev</a><br>
+Svelte Cubed: <a href="https://svelte-cubed.vercel.app/">https://svelte-cubed.vercel.app/</a><br>
+ThreeJS: <a href="https://threejs.org/">https://threejs.org/</a><br>
+PreviewJS: <a href="https://previewjs.com/">https://previewjs.com/</a><br>
+Mantine: <a href="https://mantine.dev">https://mantine.dev</a><br>
+Degit: <a href="https://go.raybo.org/7q0T">https://go.raybo.org/7q0T</a><br>
+Finished Code: <a href="https://go.raybo.org/7pzG">https://go.raybo.org/7pzG</a><br>
+Svelte Course: <a href="https://go.raybo.org/7pyX">https://go.raybo.org/7pyX</a><br>
+Blog: <a href="https://raybo.org">https://raybo.org</a><br>
+LinkedIn Profile: <a href="https://www.linkedin.com/in/planetoftheweb/">https://www.linkedin.com/in/planetoftheweb/</a><br>
+YouTube: <a href="https://www.youtube.com/planetoftheweb">https://www.youtube.com/planetoftheweb</a></p>
+
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#svelte">Svelte</a>
+            		</li>
+
+                    <li><a href="#svelte-kit">Svelte Kit</a>
+            		</li>
+
+                    <li><a href="#svelte-cubed">Svelte Cubed</a>
+            		</li>
+
+                    <li><a href="#previewjs">PreviewJS</a>
+            		</li>
+
+                    <li><a href="#mantine">Mantine</a>
+            		</li>
+
+                    <li><a href="#svelte-course">Svelte Course</a>
+            		</li>
+
+                    <li><a href="#less-code">Less Code</a>
+            		</li>
+
+                    <li><a href="#no-virtual-dom">No Virtual DOM</a>
+            		</li>
+
+                    <li><a href="#links">Links</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
+</article>
+
+  <footer class="site-footer bg-transparent pb-3 pb-md-5">
+    <div class="container d-flex justify-content-center"><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://linkedin.com/in/planetoftheweb">
+      <i class="bi bi-linkedin text-secondary me-1"></i>linkedin
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://github.com/planetoftheweb">
+      <i class="bi bi-github text-secondary me-1"></i>github
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.joinclubhouse.com/planetoftheweb">
+      <i class="bi bi-suit-club text-secondary me-1"></i>clubhouse
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://twitter.com/planetoftheweb">
+      <i class="bi bi-twitter text-secondary me-1"></i>twitter
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.flickr.com/photos/planetoftheweb/sets/72157602932636630/">
+      <i class="bi bi-image text-secondary me-1"></i>flickr
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.youtube.com/user/planetoftheweb">
+      <i class="bi bi-youtube text-secondary me-1"></i>youtube
+      </a>
+    </div><div>
+      <a class="text-decoration-none family-sans ms-3" href="https://www.instagram.com/planetoftheweb">
+      <i class="bi bi-instagram text-secondary me-1"></i>instagram
+      </a>
+    </div></div>
+    <div class="text-center">
+    <a href="https://www.iubenda.com/privacy-policy/85544448/cookie-policy" class="iubenda-white no-brand iubenda-embed" title="Cookie Policy ">Cookie Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    <a href="https://www.iubenda.com/privacy-policy/85544448" class="iubenda-white no-brand iubenda-embed" title="Privacy Policy ">Privacy Policy</a><script type="text/javascript">(function (w,d) {var loader = function () {var s = d.createElement("script"), tag = d.getElementsByTagName("script")[0]; s.src="https://cdn.iubenda.com/iubenda.js"; tag.parentNode.insertBefore(s,tag);}; if(w.addEventListener){w.addEventListener("load", loader, false);}else if(w.attachEvent){w.attachEvent("onload", loader);}else{w.onload = loader;}})(window, document);</script>
+    </div>
+  </footer>
+  <script>
+    (function () {
+      let nav = document.querySelector('.site-nav')
+      let mainContent = document.querySelector('#main-content')
+      let navHeight = nav.scrollHeight
+
+      function moveHeader() {
+        let mainOnTop = mainContent.getBoundingClientRect().top - navHeight
+
+        mainOnTop < 0
+          ? nav.classList.add('in-body')
+          : nav.classList.remove('in-body')
+
+        window.requestAnimationFrame(moveHeader)
+      }
+      window.requestAnimationFrame(moveHeader)
+    })();
+  </script>
+  <script type="text/javascript"> var _iub = _iub || []; _iub.csConfiguration = {"consentOnContinuedBrowsing":false,"lang":"en","siteId":2197414,"cookiePolicyId":85544448, "banner":{ "acceptButtonDisplay":true,"customizeButtonDisplay":true,"position":"float-top-center" }};</script>
+  <script type="text/javascript" src="//cdn.iubenda.com/cs/iubenda_cs.js" charset="UTF-8" async></script>
+</body>
+</html>

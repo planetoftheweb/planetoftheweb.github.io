@@ -1,4 +1,11 @@
 [{
+  "title": "Can Svelte Save JavaScript - Ep 24",
+  "date" : "Apr 13, 2022",
+  "summary" : "In this episode of The Toolbox, we&#39;ll take a look the framework I wish was the most popular...SvelteJS. I have some great tools in the shorts including Svelte and React utilities...and you&#39;ll find out why I think Svelte can save JavaScript. The pace of the web is relentless and that&#39;s why you need the Toolbox",
+  "thumbnail": "/images/toolbox/episode24_tn.jpg",
+  "url": "/toolbox/2022-04-13-Can-Svelte-Save-JavaScript-ep24/",
+  "tags" : ""
+},{
   "title": "NextJS. The Magical Meta Framework for React",
   "date" : "Apr 10, 2022",
   "summary" : "NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites.",
