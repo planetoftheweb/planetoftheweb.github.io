@@ -2,7 +2,7 @@
 layout: post.njk
 title: "NextJS. The Magical Meta Framework for React"
 summary: "NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites."
-hero: /images/posts/nexjsdemo.png
+hero: /images/posts/nexjsdemo.jpg
 thumb: /images/posts/nexjsdemo_tn.jpg
 hideDesc: true
 video: DPpQL4rCLeM
