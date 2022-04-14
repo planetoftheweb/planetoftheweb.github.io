@@ -23,8 +23,6 @@ Let's take a look at some of the cool interesting projects.  A lot of them are r
 
 Most of the shorts are going to be about Svelte this week, so we'll get kicked off with the main site Svelte.dev. This is a great playground for the platform, which includes a REPL tool that lets you try out some of the features in the framework. There's also a tutorial that uses the REPL took to walk you through some lessons.
 
-Q: Has Anyone Tried Svelte?
-Q: What Other Frameworks are you using?
 
 ## Svelte Kit
 
@@ -38,28 +36,23 @@ Svelte Kit is Svelte's answer to NextJS or other frameworks. This is I think whe
 
 One of the things that Svelte does really well is provide hooks to animation states that make it easier to create complex movements. Like VueJS, it's a great framework for animations. If you thiknk about it, that makes sense since newspapers, where Rich came from often use a lot of complex animations and infographics. So this is a set of tools built on top of Svelte that let you work with probably the most popular 3d animation library called Three.js.
 
-Q: Do you use an animation library?
-Q: Has anyone used three.js?
 
 [![Degit](/images/toolbox/2022-04-13_12-06-52.png)](https://github.com/Rich-Harris/degit)
 
 Another strange thing about Svelte is that you don't use a CLI to start up a project, you simple make a copy of an existing repo. You use this library called Degit. It's so good that I often use it on other projects to help me clone repos without any history. It's super flexible with tons of options.
 
-Q: Do you usually begin projects by cloning an old project?
 
 ## PreviewJS
 
 [![PreviewJS](/images/toolbox/2022-04-13_12-09-22.png)](https://previewjs.com/)
-Let's get to a couple of interesting React tools. First is PreviewJS, which lets you preview your React components within Visual Studio Code. It's great because it lets you see how it will look without having to start a server. You can pass along properties and supports storybook. There's even a pro edition if you want to support the developer with a few extra options.
+Lets you preview your React components within Visual Studio Code. It's great because it lets you see how it will look without having to start a server. You can pass along properties and supports storybook. There's even a pro edition if you want to support the developer with a few extra options.
 
-Q: Do you have any other favorite VSCode Extensions?
 
 ## Mantine
 
 [![Mantine](/images/toolbox/2022-04-13_12-13-03.png)](https://mantine.dev)
 This is a pretty nice looking component library for React. Themmeable, reponsive and compatible with Gatsby, Remix or NextJS. Looks pretty full features. I thought it was cool, but I'd love to know if there's something else people are using.
 
-Q: What other component libraries are you using?
 
 ## Svelte Course
 
@@ -69,7 +62,6 @@ Before I get started with Svelte, I just wanted to mention that I did a course o
 
 I put all the links in the comments, so if you're coming in late, just scroll to the top of the comments on LinkedIn, or you can look for them on Raybo.org and YouTube.
 
-Q: What's your favorite course from Ray?
 
 ---
 
@@ -100,8 +92,8 @@ Okay, this is going to sound weird at first because the big deal about React is 
 The thing is, that can be innefficient. because Updating the interface is a lot of work for the browser because it's constantly calculating the differences in code as the user works with the application.
 
 So instead of relying on an engine that keeps track of the DOM. Svelte creates optimized code that does what you want it to do.
+npm start
 
-Q: Have you subscribed to Ray's YouTube Channel?
 
 ## Links
 
