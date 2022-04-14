@@ -1,10 +1,17 @@
 [{
   "title": "Can Svelte Save JavaScript - Ep 24",
   "date" : "Apr 13, 2022",
-  "summary" : "In this episode of The Toolbox, we&#39;ll take a look the framework I wish was the most popular...SvelteJS. I have some great tools in the shorts including Svelte and React utilities...and you&#39;ll find out why I think Svelte can save JavaScript. The pace of the web is relentless and that&#39;s why you need the Toolbox",
+  "summary" : "In this episode of The Toolbox, we&#39;ll take a look the framework I wish was the most popular...SvelteJS. Plus, some great tools in the shorts segment including Svelte and React utilities...You&#39;ll also find out why I think Svelte can save JavaScript. The pace of the web is relentless and that&#39;s why you need the Toolbox",
   "thumbnail": "/images/toolbox/episode24_tn.jpg",
   "url": "/toolbox/2022-04-13-Can-Svelte-Save-JavaScript-ep24/",
   "tags" : ""
+},{
+  "title": "Mantine",
+  "date" : "Apr 10, 2022",
+  "summary" : "This is a pretty nice looking component library for React. Themmeable, reponsive and compatible with Gatsby, Remix or NextJS. Looks pretty full features. I thought it was cool, but I&#39;d love to know if there&#39;s something else people are using.",
+  "thumbnail": "/images/toolbox/2022-04-13_12-13-03.png",
+  "url": "https://mantine.dev",
+  "tags" : "external"
 },{
   "title": "NextJS. The Magical Meta Framework for React",
   "date" : "Apr 10, 2022",
@@ -12,6 +19,41 @@
   "thumbnail": "/images/posts/nexjsdemo_tn.jpg",
   "url": "/posts/2022-04-10-NextJS-The-Almost-Magical-Meta-Framework-For-React.md/",
   "tags" : "full stack development,React,JavaScript,NextJS"
+},{
+  "title": "Degit",
+  "date" : "Apr 09, 2022",
+  "summary" : "Degit lets you clone a repository without any history. It&#39;s typically used to start a new project with an old one. It&#39;s a fantastic tool that assumes you use Github, but lets you use any other platform and allows you to download a specific branch or tag.",
+  "thumbnail": "/images/toolbox/2022-04-13_12-06-52.png",
+  "url": "https://github.com/Rich-Harris/degit",
+  "tags" : "external"
+},{
+  "title": "PreviewJS",
+  "date" : "Apr 08, 2022",
+  "summary" : "Lets you preview your React components within Visual Studio Code. Great because it lets you see how it will look without having to start a server. You can pass along properties and supports storybook. There&#39;s even a pro edition if you want to support the developer with a few extra options.",
+  "thumbnail": "/images/toolbox/2022-04-13_12-09-22.png",
+  "url": "https://previewjs.com/",
+  "tags" : "external"
+},{
+  "title": "Svelte",
+  "date" : "Apr 07, 2022",
+  "summary" : "Svelte is a JavaScript framework that tries to do something different by helping you write truly reactive code without the virtual DOM...and it does it in style by helping you write less code.",
+  "thumbnail": "/images/toolbox/2022-04-13_10-08-44.png",
+  "url": "https://svelte.dev",
+  "tags" : "external"
+},{
+  "title": "Svelte Kit",
+  "date" : "Apr 07, 2022",
+  "summary" : "Svelte Kit is Svelte&#39;s answer to NextJS or other frameworks. This is I think where Svelte breaks down a bit. It&#39;s nowhere near as modern as Next and it&#39;s been truly under development for quite a while. I&#39;m really hoping this improves with all &#39;Extra&#39; time Rich has now.",
+  "thumbnail": "/images/toolbox/2022-04-13_12-00-48.png",
+  "url": "https://kit.svelte.dev",
+  "tags" : "external"
+},{
+  "title": "Svelte Cubed",
+  "date" : "Apr 07, 2022",
+  "summary" : "One of the things that Svelte does really well is provide hooks to animation states that make it easier to create complex movements. So this is a set of tools built on top of Svelte that let you work with probably the most popular 3d animation library called Three.js.",
+  "thumbnail": "/images/toolbox/2022-04-13_12-03-29.png",
+  "url": "https://svelte-cubed.vercel.app/",
+  "tags" : "external"
 },{
   "title": "What&#39;s Next JS - Ep 23",
   "date" : "Apr 06, 2022",
