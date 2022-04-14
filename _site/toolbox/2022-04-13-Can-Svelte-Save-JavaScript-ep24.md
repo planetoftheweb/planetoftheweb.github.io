@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Can Svelte Save JavaScript - Ep 24"
-summary: "In this episode of The Toolbox, we'll take a look the framework I wish was the most popular...SvelteJS. I have some great tools in the shorts including Svelte and React utilities...and you'll find out why I think Svelte can save JavaScript. The pace of the web is relentless and that's why you need the Toolbox"
+summary: "In this episode of The Toolbox, we'll take a look the framework I wish was the most popular...SvelteJS. Plus, some great tools in the shorts segment including Svelte and React utilities...You'll also find out why I think Svelte can save JavaScript. The pace of the web is relentless and that's why you need the Toolbox"
 hideDesc: true
 video: k4n5XIqCGq8
 hero: /images/toolbox/episode24.jpg
@@ -11,11 +11,11 @@ category: toolbox
 
 Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern • 10am Pacific. Follow me and subscribe on LinkedIn and YouTube for more content. If you want to watch any past episodes, make sure you take a look at my blog raybo.org.
 
-I tend to love frameworks that are easier for humans to program. I always feel like things should be simpler, not harder for developers to do. I've said in the past that because of that, my favorite is Vue.js. That's true, but there's another framework that I wish was the best.
+I tend to love frameworks that are easier for humans to program. I always feel like things should be simpler, not harder for developers to do. I've said in the past that because of that, my favorite framework is Vue.js. That's true, but there's another framework that I wish was the best and that's Svelte.
 
 # Shorts
 
-Let's take a look at some of the cool projects that I found interesting lately. I feel like I have a backlog of these.
+Let's take a look at some of the cool interesting projects.  A lot of them are related to Svelte.
 
 ## Svelte
 
