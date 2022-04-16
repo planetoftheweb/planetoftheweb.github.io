@@ -1,4 +1,18 @@
 [{
+  "title": "Svelte - The Alternative JavaScript Framework",
+  "date" : "Apr 16, 2022",
+  "summary" : "NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites.",
+  "thumbnail": "/images/posts/sveltedemo_tn.jpg",
+  "url": "/posts/2022-04-16-Svelte-The-Alternative-JavaScript-Framework-that-might-just-save-javascript.md/",
+  "tags" : "full stack development,Svelte,JavaScript"
+},{
+  "title": "Bejamas NextJS Theme",
+  "date" : "Apr 14, 2022",
+  "summary" : "This is a Next.js template with everything set up the way I would want to do a blog if I was starting today. Tailwind 3, MDX support...although mdx always seems a bit overkill for a blog. I hardly need to put react components inside a post. However, I feel like I&#39;d like that option if available.",
+  "thumbnail": "/images/shorts/2022-04-14_15-07-58.png",
+  "url": "https://github.com/netlify-templates/nextjs-blog-theme",
+  "tags" : "external"
+},{
   "title": "Can Svelte Save JavaScript - Ep 24",
   "date" : "Apr 13, 2022",
   "summary" : "In this episode of The Toolbox, we&#39;ll take a look the framework I wish was the most popular...SvelteJS. Plus, some great tools in the shorts segment including Svelte and React utilities...You&#39;ll also find out why I think Svelte can save JavaScript. The pace of the web is relentless and that&#39;s why you need the Toolbox",

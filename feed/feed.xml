@@ -4,12 +4,52 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2022-04-10T00:00:00Z</updated>
+	<updated>2022-04-16T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Svelte - The Alternative JavaScript Framework</title>
+		<link href="/posts/2022-04-16-Svelte-The-Alternative-JavaScript-Framework-that-might-just-save-javascript.md/"/>
+		<updated>2022-04-16T00:00:00Z</updated>
+		<id>/posts/2022-04-16-Svelte-The-Alternative-JavaScript-Framework-that-might-just-save-javascript.md/</id>
+		<content type="html">&lt;p&gt;Svelte is a JavaScript framework that tries to do something different.&lt;/p&gt;
+&lt;p&gt;It promises to help you write less code offering a truly reactive experience with no virtual DOM. After trying it for a week, I feel like it&#39;s the framework I wish everybody was using.&lt;/p&gt;
+&lt;p&gt;It&#39;s seen a dramatic [rise in popularity(&lt;a href=&quot;https://2021.stateofjs.com/en-US/libraries/front-end-frameworks/#front_end_frameworks_experience_ranking&quot;&gt;https://2021.stateofjs.com/en-US/libraries/front-end-frameworks/#front_end_frameworks_experience_ranking&lt;/a&gt;)] in the last few years that puts it within the top five frameworks.&lt;/p&gt;
+&lt;p&gt;The reason it&#39;s so popular is that it feels...well familiar. Let&#39;s build a quick search component so you can learn how it works.&lt;/p&gt;
+&lt;h1 id=&quot;installation&quot;&gt;Installation &lt;a class=&quot;direct-link&quot; href=&quot;#installation&quot;&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;Even the installation process is different than other platforms. Instead of having a CLI, you start your project using a template and a utility called &lt;a href=&quot;https://github.com/Rich-Harris/degit&quot;&gt;degit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This is actually a wonderful utility that can help you quickly clone an existing repo without any history.&lt;/p&gt;
+&lt;pre class=&quot;language-bash&quot;&gt;&lt;code class=&quot;language-bash&quot;&gt;&lt;span class=&quot;highlight-line&quot;&gt;npx degit sveltejs/template demo-svelte&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token builtin class-name&quot;&gt;cd&lt;/span&gt; demo-svelte&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;install&lt;/span&gt;&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; run dev&lt;/span&gt;&lt;br /&gt;&lt;span class=&quot;highlight-line&quot;&gt;&lt;span class=&quot;token function&quot;&gt;npm&lt;/span&gt; init&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;Because you&#39;re making a clean copy of a repo, you&#39;ll need to run npm init.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;git add .
+git commit -m &amp;quot;first commit&amp;quot; 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h2 id=&quot;config&quot;&gt;Config &lt;a class=&quot;direct-link&quot; href=&quot;#config&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Let&#39;s take a look at what you get when you install the project.&lt;/p&gt;
+&lt;p&gt;This is a pretty simple project, You&#39;ll notice a configuration file at the bottom.&lt;/p&gt;
+&lt;p&gt;Svelte uses &lt;a href=&quot;https://rollupjs.org/&quot;&gt;Rollup&lt;/a&gt; which is a module bundler for JavaScript developed by the creator of Svelte...Rich Harris. This is the same bundler that Vite uses, so I &#39;m a fan.&lt;/p&gt;
+&lt;p&gt;The config file will handle the live preview, the loading of other files and the exporting of the project.&lt;/p&gt;
+&lt;p&gt;Then there&#39;s the classic folders.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;public&lt;/code&gt; is where you put files that you want published directly on the server.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;scripts&lt;/code&gt; is where you would add scripts for special purposes. You can see one here that can help you set the project up for TypeScript.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;src&lt;/code&gt; is where your project will be.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;src/main.js&lt;/code&gt; is the entry point for the application. This is where you import Svelte and look for a tag in your HTML page&lt;/p&gt;
+&lt;p&gt;In this case, it&#39;s looking for the body of the document, so it&#39;s designed to take over a whole page.&lt;/p&gt;
+&lt;p&gt;We&#39;re passing some data to our application here...the variable world. This would be a global variable accessible to every page.&lt;/p&gt;
+&lt;p&gt;and then we export the default app. If you&#39;ve used React or Vue, this should make sense to you.&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;src/app.svelte&lt;/code&gt; is where the real work happens.&lt;/p&gt;
+&lt;p&gt;There are three parts to every Svelte component. The Script, the HTML and the style.&lt;/p&gt;
+&lt;p&gt;This makes a lot of sense to me. I think components should have these three parts. The css is scoped to the component...makes sense.&lt;/p&gt;
+&lt;p&gt;Part of the reason I love this framework is that it is designed to let you write less code.&lt;/p&gt;
+&lt;p&gt;A few things. It doesn&#39;t freak out if you don&#39;t create a container for the HTML.&lt;/p&gt;
+&lt;p&gt;Also, this isn&#39;t JSX, so you can use a style attribute here. You can use class instead of classname.&lt;/p&gt;
+&lt;p&gt;I don&#39;t have to export a module that returns something. The export statement just lets me initialize the variable. It&#39;s picking up the value from the global &lt;code&gt;main.js&lt;/code&gt; file, but I can just declare the value here.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>NextJS. The Magical Meta Framework for React</title>

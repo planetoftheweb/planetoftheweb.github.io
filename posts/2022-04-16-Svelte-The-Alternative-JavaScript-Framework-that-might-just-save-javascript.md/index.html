@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Raybo.org</title>
 
-    <meta name="description" content="Learn full-stack developer skills with a clear, practical style" />
-    <meta property="og:title" content="Raybo.org" />
-    <meta property="og:description" content="Learn full-stack developer skills with a clear, practical style" />
-    <meta property="og:image" content="https://raybo.org/images/raybo.jpg" />
+    <meta name="description" content="NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites." />
+    <meta property="og:title" content="Svelte - The Alternative JavaScript Framework" />
+    <meta property="og:description" content="NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites." />
+    <meta property="og:image" content="https://raybo.org/images/posts/sveltedemo.jpg" />
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://raybo.org/tags/JavaScript/">
-    <meta name="twitter:title" content="Raybo.org">
-    <meta name="twitter:description" content="Learn full-stack developer skills with a clear, practical style">
-    <meta name="twitter:image" content="https://raybo.org/images/raybo.jpg">
+    <meta name="twitter:site" content="https://raybo.org/posts/2022-04-16-Svelte-The-Alternative-JavaScript-Framework-that-might-just-save-javascript.md/">
+    <meta name="twitter:title" content="Svelte - The Alternative JavaScript Framework">
+    <meta name="twitter:description" content="NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites.">
+    <meta name="twitter:image" content="https://raybo.org/images/posts/sveltedemo.jpg">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
@@ -41,7 +41,7 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
   <body class="position-relative bg-dark">
-    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  fixed-top  py-0">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
   <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-bs-toggle="collapse" data-bs-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
@@ -135,91 +135,70 @@
 </nav>
 
     
+  <header id="page-hero" class="container site-header ratio ratio-16x9">
+  <iframe style="border-radius: 20px;" src="https://www.youtube.com/embed/yy_4uJMq3Zs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
 
  
 <article id="main-content" class="site-main container mt-3 mb-5"
-style="padding-top: 80px"
+
 >
-<p>See <a href="/tags/">all tags</a>.</p>
-<h2 class="text-secondary mb-5">Tagged <small>“JavaScript”</small></h2>
-  
+<main class="article-content px-3 px-sm-0 container">
 
-  
+<h1>Svelte - The Alternative JavaScript Framework</h1>
+<p class="lead">NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites.</p>
 
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  mb-3 ">
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <p>Svelte is a JavaScript framework that tries to do something different.</p>
+<p>It promises to help you write less code offering a truly reactive experience with no virtual DOM. After trying it for a week, I feel like it's the framework I wish everybody was using.</p>
+<p>It's seen a dramatic [rise in popularity(<a href="https://2021.stateofjs.com/en-US/libraries/front-end-frameworks/#front_end_frameworks_experience_ranking">https://2021.stateofjs.com/en-US/libraries/front-end-frameworks/#front_end_frameworks_experience_ranking</a>)] in the last few years that puts it within the top five frameworks.</p>
+<p>The reason it's so popular is that it feels...well familiar. Let's build a quick search component so you can learn how it works.</p>
+<h1 id="installation">Installation <a class="direct-link" href="#installation"> </a></h1>
+<p>Even the installation process is different than other platforms. Instead of having a CLI, you start your project using a template and a utility called <a href="https://github.com/Rich-Harris/degit">degit</a>.</p>
+<p>This is actually a wonderful utility that can help you quickly clone an existing repo without any history.</p>
+<pre class="language-bash"><code class="language-bash"><span class="highlight-line">npx degit sveltejs/template demo-svelte</span><br><span class="highlight-line"><span class="token builtin class-name">cd</span> demo-svelte</span><br><span class="highlight-line"><span class="token function">npm</span> <span class="token function">install</span></span><br><span class="highlight-line"><span class="token function">npm</span> run dev</span><br><span class="highlight-line"><span class="token function">npm</span> init</span></code></pre>
+<p>Because you're making a clean copy of a repo, you'll need to run npm init.</p>
+<pre><code>git add .
+git commit -m &quot;first commit&quot; 
+</code></pre>
+<h2 id="config">Config <a class="direct-link" href="#config"> </a></h2>
+<p>Let's take a look at what you get when you install the project.</p>
+<p>This is a pretty simple project, You'll notice a configuration file at the bottom.</p>
+<p>Svelte uses <a href="https://rollupjs.org/">Rollup</a> which is a module bundler for JavaScript developed by the creator of Svelte...Rich Harris. This is the same bundler that Vite uses, so I 'm a fan.</p>
+<p>The config file will handle the live preview, the loading of other files and the exporting of the project.</p>
+<p>Then there's the classic folders.</p>
+<p><code>public</code> is where you put files that you want published directly on the server.</p>
+<p><code>scripts</code> is where you would add scripts for special purposes. You can see one here that can help you set the project up for TypeScript.</p>
+<p><code>src</code> is where your project will be.</p>
+<p><code>src/main.js</code> is the entry point for the application. This is where you import Svelte and look for a tag in your HTML page</p>
+<p>In this case, it's looking for the body of the document, so it's designed to take over a whole page.</p>
+<p>We're passing some data to our application here...the variable world. This would be a global variable accessible to every page.</p>
+<p>and then we export the default app. If you've used React or Vue, this should make sense to you.</p>
+<p><code>src/app.svelte</code> is where the real work happens.</p>
+<p>There are three parts to every Svelte component. The Script, the HTML and the style.</p>
+<p>This makes a lot of sense to me. I think components should have these three parts. The css is scoped to the component...makes sense.</p>
+<p>Part of the reason I love this framework is that it is designed to let you write less code.</p>
+<p>A few things. It doesn't freak out if you don't create a container for the HTML.</p>
+<p>Also, this isn't JSX, so you can use a style attribute here. You can use class instead of classname.</p>
+<p>I don't have to export a module that returns something. The export statement just lets me initialize the variable. It's picking up the value from the global <code>main.js</code> file, but I can just declare the value here.</p>
 
-    
-      <div class="col-md-3">
-        <a href="/posts/2022-04-16-Svelte-The-Alternative-JavaScript-Framework-that-might-just-save-javascript.md/" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title text-light w-100 img-fluid rounded" src="/images/posts/sveltedemo_tn.jpg" alt="Svelte - The Alternative JavaScript Framework image">
-        </a>
-      </div>
-    
-
-    <div class="col-md-9"> 
-      <a href="/posts/2022-04-16-Svelte-The-Alternative-JavaScript-Framework-that-might-just-save-javascript.md/" class="item-title text-light h1 mb-0 d-block text-decoration-none" >Svelte - The Alternative JavaScript Framework</a>
-      <div class="small d-block">
-        <a href="/posts/0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-          <i class="bi bi-file-earmark-richtext"></i>
-        
-
-        
-        posts</a> | <time class="item-date" datetime="Apr 16, 2022">Apr 16, 2022</time></div>
-      <div class="fs-6 text-body">NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites.</div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-      <div class="col-md-3">
-        <a href="/posts/2022-04-10-NextJS-The-Almost-Magical-Meta-Framework-For-React.md/" class="d-block mb-1 text-decoration-none"  >
-          <img class="item-title text-light w-100 img-fluid rounded" src="/images/posts/nexjsdemo_tn.jpg" alt="NextJS. The Magical Meta Framework for React image">
-        </a>
-      </div>
-    
-
-    <div class="col-md-9"> 
-      <a href="/posts/2022-04-10-NextJS-The-Almost-Magical-Meta-Framework-For-React.md/" class="item-title text-light h1 mb-0 d-block text-decoration-none" >NextJS. The Magical Meta Framework for React</a>
-      <div class="small d-block">
-        <a href="/posts/0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-          <i class="bi bi-file-earmark-richtext"></i>
-        
-
-        
-        posts</a> | <time class="item-date" datetime="Apr 10, 2022">Apr 10, 2022</time></div>
-      <div class="fs-6 text-body">NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites.</div>
-        
-
-    </div>
-  </div>
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#config">Config</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
 </article>
 
   <footer class="site-footer bg-transparent pb-3 pb-md-5">
