@@ -98,6 +98,10 @@ npm start
 ## Links
 
 Svelte: https://svelte.dev/
+Degit: https://go.raybo.org/7q0T
+Finished Code: https://go.raybo.org/7pzG
+Svelte Course: https://go.raybo.org/7pyX
+
 Svelte Kit: https://kit.svelte.dev
 Svelte Cubed: https://svelte-cubed.vercel.app/
 ThreeJS: https://threejs.org/
