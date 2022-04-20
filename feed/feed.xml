@@ -4,12 +4,24 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2022-04-16T00:00:00Z</updated>
+	<updated>2022-04-20T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Astro - Heavenly JavaScript Meta Framework that Deserves the Hype</title>
+		<link href="/posts/2022-04-20-Astro-What-I-Would-Use-Today-if-I-was-coding-a-blog.md/"/>
+		<updated>2022-04-20T00:00:00Z</updated>
+		<id>/posts/2022-04-20-Astro-What-I-Would-Use-Today-if-I-was-coding-a-blog.md/</id>
+		<content type="html">&lt;p&gt;Astro has been getting more hype recently than any other framework. After spending some quality developer time with it, I can say that it absolutely deserves the hype.&lt;/p&gt;
+&lt;p&gt;It&#39;s a Meta Framework that lets you use components from just about any other framework including React, Vue or Svelte. You can even mix and match components from different frameworks.&lt;/p&gt;
+&lt;p&gt;It also has the best implementation of partial hydration which loads the javascript for components only when you need them.&lt;/p&gt;
+&lt;p&gt;But don&#39;t take my word for it. Let&#39;s build something with it, so you can see why when I rebuild my blog later this year, it&#39;s what I&#39;ll be using.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Svelte - The Alternative JavaScript Framework</title>

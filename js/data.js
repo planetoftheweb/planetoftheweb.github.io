@@ -1,4 +1,11 @@
 [{
+  "title": "Astro - Heavenly JavaScript Meta Framework that Deserves the Hype",
+  "date" : "Apr 20, 2022",
+  "summary" : "Astro tries and succeeds at something different. It&#39;s a meta framework that lets you use one or more components from any other framework including React, Vue or Svelte with Advanced features like Hydration.",
+  "thumbnail": "/images/posts/demo-astro_tn.jpg",
+  "url": "/posts/2022-04-20-Astro-What-I-Would-Use-Today-if-I-was-coding-a-blog.md/",
+  "tags" : "full stack development,Svelte,JavaScript"
+},{
   "title": "Svelte - The Alternative JavaScript Framework",
   "date" : "Apr 16, 2022",
   "summary" : "NextJS is a Meta Framework that gives you almost every feature you wish React had for building apps and sites.",
