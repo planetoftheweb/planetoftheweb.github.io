@@ -47,7 +47,7 @@
     "unset-value": "^1.0.0"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-free": "^5.13.1",
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "animate.css": "^3.7.2",
     "bootstrap": "^5.0.1",
     "vue": "^2.6.11"
