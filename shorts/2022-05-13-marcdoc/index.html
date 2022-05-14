@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Raybo.org</title>
 
-    <meta name="description" content="CSS frameworks are awesome, but they can often be a pain to work with. The classes you have to write get complex quickly. The main concept behind Pico is to let you create as much content as possible with little or no classes." />
-    <meta property="og:title" content="Pico CSS, The Exquisitely Classless Web Design Framework" />
-    <meta property="og:description" content="CSS frameworks are awesome, but they can often be a pain to work with. The classes you have to write get complex quickly. The main concept behind Pico is to let you create as much content as possible with little or no classes." />
-    <meta property="og:image" content="https://raybo.org/images/posts/picocss.png" />
+    <meta name="description" content="A markdown based authoring framework that was created for documentation sites, it adds some extensions to the markdown standard that allows you to add tags and attributes to your elements. Simple and super powerful." />
+    <meta property="og:title" content="MarcDoc" />
+    <meta property="og:description" content="A markdown based authoring framework that was created for documentation sites, it adds some extensions to the markdown standard that allows you to add tags and attributes to your elements. Simple and super powerful." />
+    <meta property="og:image" content="https://raybo.org/images/raybo.jpg" />
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://raybo.org/posts/2022-02-02-pico-css-the-css-framework-thats-exquisitely-classless/">
-    <meta name="twitter:title" content="Pico CSS, The Exquisitely Classless Web Design Framework">
-    <meta name="twitter:description" content="CSS frameworks are awesome, but they can often be a pain to work with. The classes you have to write get complex quickly. The main concept behind Pico is to let you create as much content as possible with little or no classes.">
-    <meta name="twitter:image" content="https://raybo.org/images/posts/picocss.png">
+    <meta name="twitter:site" content="https://raybo.org/shorts/2022-05-13-marcdoc/">
+    <meta name="twitter:title" content="MarcDoc">
+    <meta name="twitter:description" content="A markdown based authoring framework that was created for documentation sites, it adds some extensions to the markdown standard that allows you to add tags and attributes to your elements. Simple and super powerful.">
+    <meta name="twitter:image" content="https://raybo.org/images/raybo.jpg">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
@@ -41,7 +41,7 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
   <body class="position-relative bg-dark">
-    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  fixed-top  py-0">
   <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-bs-toggle="collapse" data-bs-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
@@ -135,75 +135,21 @@
 </nav>
 
     
-  <header id="page-hero" class="container site-header ratio ratio-16x9">
-  <iframe style="border-radius: 20px;" src="https://www.youtube.com/embed/JPzC_sbBfyY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-</header>
-
 
  
 <article id="main-content" class="site-main container mt-3 mb-5"
-
+style="padding-top: 80px"
 >
 <main class="article-content px-3 px-sm-0 container">
 
-<h1>Pico CSS, The Exquisitely Classless Web Design Framework</h1>
-<p class="lead">CSS frameworks are awesome, but they can often be a pain to work with. The classes you have to write get complex quickly. The main concept behind Pico is to let you create as much content as possible with little or no classes.</p>
-
   <div class="row">
     <main class="article-content px-3 px-sm-0 main col-lg-9">
-    <p>Pico CSS is a framework that gives you a great looking sight with minimal or no classes. It feels like what writing HTML should be instead of the convoluted mess of classes, containers, etc.</p>
-<h2 id="compared-to-bootstrap">Compared to Bootstrap <a class="direct-link" href="#compared-to-bootstrap"> </a></h2>
-<p>Let me show you an example. Let's take a look at the code for building a bootstrap navigation.</p>
-<p>The approach is simple, use native HTML tags whenever possible, while encouraging attributes that modify the look of the tag.</p>
-<h2 id="only-10-classes">Only 10 Classes <a class="direct-link" href="#only-10-classes"> </a></h2>
-<p>There is a completely classless version of the framework or a version that has only 11 classes in the framework.</p>
-<ul>
-<li>container</li>
-<li>container-fluid</li>
-<li>grid</li>
-<li>secondary</li>
-<li>contrast</li>
-<li>headings</li>
-<li>outline</li>
-<li>close</li>
-<li>modal-is-open</li>
-<li>modal-is-opening</li>
-<li>modal-is-closing</li>
-</ul>
-<p>You can see what the navigation looks like right here. If you want something with a logo in it, you would just create an additional list item with an SVG in it. You can see that by inspecting the navigation for the website.</p>
-<h2 id="accordions">Accordions <a class="direct-link" href="#accordions"> </a></h2>
-<p>Another notoriously difficult component is the accordion. With Pico, all we have to do is create a details tag with some content in it. In Bootstrap, Accordions are one of the toughest things to do properly because you have to include all types of classes, IDs and even data attributes.</p>
-<h2 id="buttons">Buttons <a class="direct-link" href="#buttons"> </a></h2>
-<p>Elements like buttons are just as simple. The basic button looks great without any classes, and if you need a button to be an inline element, you just add a roll of button.</p>
-<p>There's also a couple of classes that you can use to create a secondary and a contrast style, and then you can create an outline by using the Outline variant. Contrast that with how you do buttons in something like Telling CSS, which makes you add an insane amount of classes for even something as simple as a basic button.</p>
-<h2 id="layouts">Layouts <a class="direct-link" href="#layouts"> </a></h2>
-<p>npm start</p>
-<p>If you add a figure as a wrapper container, you can make any content scroll horizontally. There is also a classless version of the framework, and in that case you use the header name and footer Tags and they'll act as a container to define a centered viewport.</p>
-<p>For that, you're going to need to load a slightly different version of the framework. You can redefine some of the CSS variables, and that way you can customize any of the variables that come with the framework. There's also a SAS version of the library where you can customize the variables and create a customized version of Pico.</p>
-
+    
     </main>
     <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
       <h4>Contents</h4>
       <nav class="sticky-top" style="top: 100px;">
-      <div class="">
-                <ol>
-                    
-                    <li><a href="#compared-to-bootstrap">Compared to Bootstrap</a>
-            		</li>
-
-                    <li><a href="#only-10-classes">Only 10 Classes</a>
-            		</li>
-
-                    <li><a href="#accordions">Accordions</a>
-            		</li>
-
-                    <li><a href="#buttons">Buttons</a>
-            		</li>
-
-                    <li><a href="#layouts">Layouts</a>
-            		</li>
-                </ol>
-            </div>
+      
       </nav>
     </aside>
   <div>

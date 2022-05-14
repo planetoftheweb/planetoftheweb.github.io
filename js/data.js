@@ -1,4 +1,39 @@
 [{
+  "title": "MarcDoc",
+  "date" : "May 13, 2022",
+  "summary" : "A markdown based authoring framework that was created for documentation sites, it adds some extensions to the markdown standard that allows you to add tags and attributes to your elements. Simple and super powerful.",
+  "thumbnail": "/images/posts/2022-05-13_11-45-48.png",
+  "url": "https://markdoc.io/",
+  "tags" : "external"
+},{
+  "title": "How to Make Javascript FSTR - Ep 25",
+  "date" : "May 11, 2022",
+  "summary" : "In this episode of The toolbox, I&#39;ll show a demo of the framework with the highest satisfaction rating. We&#39;ll talk about why it so fast and why it&#39;s making React look... old. Plus, we&#39;ll go over a big industry survey to find out where the front end is going. The pace of the web is relentless and that&#39;s why you need the Toolbox",
+  "thumbnail": "/images/toolbox/episode25_tn.jpg",
+  "url": "/toolbox/2022-05-11-How-To-Make-JavaScript-Faster-ep25/",
+  "tags" : ""
+},{
+  "title": "Loaders",
+  "date" : "May 01, 2022",
+  "summary" : "A series of Free creative Loaders graphics built with HTML, CSS and SVG graphics. Not your average looking loaders.",
+  "thumbnail": "/images/shorts/2022-05-01_09-17-46.png",
+  "url": "https://uiball.com/loaders",
+  "tags" : "external"
+},{
+  "title": "SolidJS: React Flavored Pre-rendered Components",
+  "date" : "Apr 26, 2022",
+  "summary" : "SolidJS is a framework that tries to create a simpler and faster environment by combining the best features from React and Svelte.",
+  "thumbnail": "/images/posts/demo-solidjs_tn.jpg",
+  "url": "/posts/2022-04-26-SolidJS-React-flavored-pre-rendered-components.md/",
+  "tags" : "full stack development,Svelte,JavaScript"
+},{
+  "title": "AlpineJS - The Most Fun You&#39;ll Ever Have Without a JavaScript File",
+  "date" : "Apr 22, 2022",
+  "summary" : "AlpineJS is possibly the easiest framework you&#39;ll ever learn. With just 15 attributes, 6 properties and 2 methods you&#39;ll be up and going without you knowing it.",
+  "thumbnail": "/images/posts/demo-alpinejs_tn.jpg",
+  "url": "/posts/2022-04-22-AlpineJS-Like-Tailwind-CSS-but-for-JavaScript/",
+  "tags" : "full stack development,AlpineJS,JavaScript,Frameworks"
+},{
   "title": "OCLIF CLI Framework",
   "date" : "Apr 20, 2022",
   "summary" : "I love CLIs...or Command Line Interfaces, so I&#39;ve been really interested in this framework that can help you set them up a bit quicker. It lets you use Node so you can work with JavaScript instead oof something like Bash to work on your CLI.",

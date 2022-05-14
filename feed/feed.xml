@@ -4,12 +4,64 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2022-04-20T00:00:00Z</updated>
+	<updated>2022-04-26T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>SolidJS: React Flavored Pre-rendered Components</title>
+		<link href="/posts/2022-04-26-SolidJS-React-flavored-pre-rendered-components.md/"/>
+		<updated>2022-04-26T00:00:00Z</updated>
+		<id>/posts/2022-04-26-SolidJS-React-flavored-pre-rendered-components.md/</id>
+		<content type="html">&lt;p&gt;SolidJS is one of those frameworks that tries to modernize and simply React style development by relying on components that are then rendered in a way that&#39;s similar to Svelte.&lt;/p&gt;
+&lt;p&gt;That delivers faster applications with components that are familiar to write, but have some improvements over React.&lt;/p&gt;
+&lt;p&gt;It&#39;s main focus is on delivering more performant applications and uses Vite for it&#39;s build process, so it has a lot of modern features like hydration, suspense, streaming and more.&lt;/p&gt;
+&lt;p&gt;One of the reasons I wanted to take a peek was because it had some of the highest user satisfaction in the latest state of javascript survey although some of the smallest usage.&lt;/p&gt;
+&lt;p&gt;Let&#39;s take a look at how you&#39;d build a simple app with it.&lt;/p&gt;
+&lt;p&gt;It doesn&#39;t have a build tool, so you install this with degit like you do with svelte.&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;npx degit solidjs/templates/js demo-solid
+cd demo-solid
+npm i
+code ./
+npm run dev
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;There&#39;s a few package.json files and this pnpm lock file. I use npm, so this isn&#39;t really&lt;/p&gt;
+&lt;p&gt;You get a Vite config file. Vite has really taken over the build processes of almost all modern frameworks. That&#39;s pretty impressive&lt;/p&gt;
+&lt;p&gt;You can see the index file here, which has no imports except for the index.jsx file.&lt;/p&gt;
+&lt;p&gt;Remember that Solid is going to use Vite to process things for you, so this file will be managed by your setup.&lt;/p&gt;
+&lt;p&gt;Notice the div with the ID or root. That&#39;s where your app goes.&lt;/p&gt;
+&lt;p&gt;The whole app is in the src folder.&lt;/p&gt;
+&lt;p&gt;Assets is where your publicly available files are.&lt;/p&gt;
+&lt;p&gt;Lets look at the index.jsx, which is your extry point. Notice that it does work with the JSX format, but since it&#39;s going to be processed, there are some improvements.&lt;/p&gt;
+&lt;p&gt;It&#39;s importing the library&#39;s render method and also the CSS...this would be your global CSS.&lt;/p&gt;
+&lt;p&gt;It&#39;s also importing App.js. This is your main component where the rest of the app is placed.&lt;/p&gt;
+&lt;p&gt;The render function looks for a root element in the index.html file.&lt;/p&gt;
+&lt;p&gt;App.jsx&lt;/p&gt;
+&lt;p&gt;In the App.jsx, you have two imports. One for the SVG. notice that it goes into a variable as well as the styles from the module.css. If you&#39;re not used to this, it&#39;s CSS in jS where the CSS classes will be available to your project as an object.&lt;/p&gt;
+&lt;p&gt;Notice the class calls here reference that object and then the class name.&lt;/p&gt;
+&lt;p&gt;The image call also references our SVG. This is part of how Vite works and a lot of other frameworks are using this as well.&lt;/p&gt;
+&lt;p&gt;Just in case you didn&#39;t notice, although this is JSX, you get to use class instead of className like you would do in react. However, there must still be a single component. So the DIV here is acting as that component.&lt;/p&gt;
+&lt;p&gt;Also, there were no imports, this component is a simple function. That feels very javascripty. Not quite as easy and natural as Svelte, but this is an improvement over React and it&#39;s really designed to feel very familiar and similar to React.&lt;/p&gt;
+&lt;p&gt;Alright, let&#39;s get down to what&#39;s different.&lt;/p&gt;
+</content>
+	</entry>
+	
+	<entry>
+		<title>AlpineJS - The Most Fun You&#39;ll Ever Have Without a JavaScript File</title>
+		<link href="/posts/2022-04-22-AlpineJS-Like-Tailwind-CSS-but-for-JavaScript/"/>
+		<updated>2022-04-22T00:00:00Z</updated>
+		<id>/posts/2022-04-22-AlpineJS-Like-Tailwind-CSS-but-for-JavaScript/</id>
+		<content type="html">&lt;p&gt;I really don&#39;t like AlpineJS, but it&#39;s not what you think. Let me explain. Alpine JS is the easiest framework you&#39;ll ever have to learn. With only 15 attributes, 6 properties and 2 methods you&#39;ll be up and going before you know it.&lt;/p&gt;
+&lt;h2 id=&quot;progressive-enhancement&quot;&gt;Progressive Enhancement &lt;a class=&quot;direct-link&quot; href=&quot;#progressive-enhancement&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The problem is that it is something you would use for progressive enhancement...so it loads on the client side like jQuery and that might make it less performant.&lt;/p&gt;
+&lt;p&gt;The thing I love about this framework is how you use it. You create a series of x-data attributes directly on your html, which lets you create state variables, use loops and conditionals, and even load external data.&lt;/p&gt;
+&lt;h2 id=&quot;let&#39;s-do-this&quot;&gt;Let&#39;s Do This &lt;a class=&quot;direct-link&quot; href=&quot;#let&#39;s-do-this&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;But like they say, there&#39;s no better way to get a feel for what it does than by seeing it yourself, so let&#39;s build a to do style app with it.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Astro - Heavenly JavaScript Meta Framework that Deserves the Hype</title>
@@ -95,7 +147,7 @@ git commit -m &amp;quot;first commit&amp;quot;
 		<link href="/posts/2022-02-02-pico-css-the-css-framework-thats-exquisitely-classless/"/>
 		<updated>2022-02-02T00:00:00Z</updated>
 		<id>/posts/2022-02-02-pico-css-the-css-framework-thats-exquisitely-classless/</id>
-		<content type="html">&lt;p&gt;Pico CSS is a framework that gives you a great look in sight with minimal or no classes. It feels like what writing HTML should be instead of the convoluted mess of classes, containers, etc.&lt;/p&gt;
+		<content type="html">&lt;p&gt;Pico CSS is a framework that gives you a great looking sight with minimal or no classes. It feels like what writing HTML should be instead of the convoluted mess of classes, containers, etc.&lt;/p&gt;
 &lt;h2 id=&quot;compared-to-bootstrap&quot;&gt;Compared to Bootstrap &lt;a class=&quot;direct-link&quot; href=&quot;#compared-to-bootstrap&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
 &lt;p&gt;Let me show you an example. Let&#39;s take a look at the code for building a bootstrap navigation.&lt;/p&gt;
 &lt;p&gt;The approach is simple, use native HTML tags whenever possible, while encouraging attributes that modify the look of the tag.&lt;/p&gt;
