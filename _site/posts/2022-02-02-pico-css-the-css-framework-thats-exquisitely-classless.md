@@ -13,7 +13,7 @@ tags:
   - css frameworks
 ---
 
-Pico CSS is a framework that gives you a great look in sight with minimal or no classes. It feels like what writing HTML should be instead of the convoluted mess of classes, containers, etc.
+Pico CSS is a framework that gives you a great looking sight with minimal or no classes. It feels like what writing HTML should be instead of the convoluted mess of classes, containers, etc.
 
 ## Compared to Bootstrap
 

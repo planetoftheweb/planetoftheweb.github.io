@@ -51,6 +51,73 @@
             "lil",
             "github"
           ]
+        },
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "hideDesc",
+          "name": "hideDesc",
+          "type": "datetime"
+        },
+        {
+          "title": "video",
+          "name": "video",
+          "type": "string"
+        }
+      ]
+    },
+    {
+      "name": "post",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "layout",
+          "name": "layout",
+          "type": "string"
+        },
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "summary",
+          "name": "summary",
+          "type": "string"
+        },
+        {
+          "title": "hideDesc",
+          "name": "hideDesc",
+          "type": "datetime"
+        },
+        {
+          "title": "video",
+          "name": "video",
+          "type": "string"
+        },
+        {
+          "title": "hero",
+          "name": "hero",
+          "type": "string"
+        },
+        {
+          "title": "thumb",
+          "name": "thumb",
+          "type": "string"
+        },
+        {
+          "title": "category",
+          "name": "category",
+          "type": "string"
+        },
+        {
+          "name": "type",
+          "type": "string",
+          "default": "post",
+          "hidden": true
         }
       ]
     }
