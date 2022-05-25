@@ -1,4 +1,18 @@
 [{
+  "title": "What&#39;s New with CSS Frameworks - Ep 26",
+  "date" : "May 25, 2022",
+  "summary" : "In this episode of The toolbox, I&#39;ll talk of where some of the newest CSS frameworks are taking us, including an interesting new update to the most popular CSS framework...Bootstrap. The pace of the web is relentless and that&#39;s why you need the Toolbox",
+  "thumbnail": "/images/toolbox/episode26_tn.jpg",
+  "url": "/toolbox/2022-05-25-Whats-new-with-css-frameworks-ep26/",
+  "tags" : ""
+},{
+  "title": "The Unmounted Horse",
+  "date" : "May 17, 2022",
+  "summary" : "There are times when it&#39;s best to abandon something you&#39;re doing. Perhaps it&#39;s a habit, or a framework, something that in the long term isn&#39;t going to pay off. When&#39;s the right time to do it? lets talk about it.",
+  "thumbnail": "/images/newsletter/unmount_tn.png",
+  "url": "/newsletter/2022-05-17-the-unmounted-horse/",
+  "tags" : ""
+},{
   "title": "MarcDoc",
   "date" : "May 13, 2022",
   "summary" : "A markdown based authoring framework that was created for documentation sites, it adds some extensions to the markdown standard that allows you to add tags and attributes to your elements. Simple and super powerful.",
