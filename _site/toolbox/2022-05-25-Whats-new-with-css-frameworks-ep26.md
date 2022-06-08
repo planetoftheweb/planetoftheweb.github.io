@@ -1,7 +1,7 @@
 ---
 layout: post
 title: What's New with CSS Frameworks - Ep 26
-summary: In this episode of The toolbox, I'll talk of where some of the newest CSS frameworks are taking us, including an interesting new update to the most popular CSS framework...Bootstrap. The pace of the web is relentless and that's why you need the Toolbox
+summary: In this episode of The toolbox, I'll talk about WHERE some of the newest CSS frameworks are taking us, including a demo of all of the new CSS features of the MOST popular...Bootstrap. The pace of the web is relentless and that's why you need the Toolbox
 hideDesc: true
 video: sfNGIwK-r8E
 hero: /images/toolbox/episode26.jpg
@@ -60,7 +60,7 @@ There's also a whole [family of frameworks](https://picocss.com/) like PicoCSS t
 
 I love this framework because it's a great set of starter styles that work great. I feel like I always en up adjusting things when I work with it, but when I first discovered it, I wondered why the basic tags look so awful in browsers.
 
-Does anyone keeep the small sans serif fonts? Why do the form elements have to look like they were designed in the 90's.
+Does anyone keep the small sans serif fonts? Why do the form elements have to look like they were designed in the 90's.
 
 There's a couple of worthwhile mentions on this category as well. M-Dash lets tries to make the [defaults look good](https://m-docs.org/examples) too, but it also gives you a way to expand default tags to add component functionality. So, for example, [alerts](https://m-docs.org/alert) look great and function well. The library adds and m and a dash and then defines common components that are easily styled and modified.
 
@@ -90,9 +90,9 @@ Sure, you might say that if you add [postCSS](https://postcss.org/) with three o
 
 So CSS now has its own version of variables, which are technically called [Custom Properties](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties). Alright, I have a small problem with the way that the people who make these decisions name things to make them more confusing.
 
-I think this highlights a proble with CSS. That when you change things, you have to make them backwards compatible, so whereas Sass variables make immediate sense, CSS variables are honestly a bit confusing.
+I think this highlights a problem with CSS. That when you change things, you have to make them backwards compatible, so whereas Sass variables make immediate sense, CSS variables are honestly a bit confusing.
 
-They are accessed through the var function and theen are called with double dashes. Variables are [defined in a speecial :root](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#using_the_root_pseudo-class) section of your site so that they're available to all of your styles.
+They are accessed through the var function and theen are called with double dashes. Variables are [defined in a special :root](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties#using_the_root_pseudo-class) section of your site so that they're available to all of your styles.
 
 So, what are some frameworks doing with this? Some frameworks like [Pollen](https://www.pollen.style/) define a set of variables for you as a great starter set. This is something you could easily create them yourself, but these are some great presets that give you scales so that your designs look the same.
 
@@ -173,5 +173,13 @@ A simple addition of a new .form-check-reverse classs means that you can now fli
 ## Tables
 In addition to the traditional striped rows, you can now use a .`table-striped-columns` class to do the same thing to column. I can see that I'd ever use that, but it's a nice option.
 
+# Coming Soon
+Soon I'll be addding interviews
 
 # Links
+Bootstrap 5.2 Demo: https://go.raybo.org/8AbG
+
+
+It's the biggest bootstrap release since version 5 of the framework...and the most notable thing is the addition of a bunch of css variables that make it easier to customize everything. Bootstrap is getting ready to welcome dark mode into the fold and this beta release prepares you for just that.
+
+There's some other goodies, so let's break down all of the CSS changes with demos of the cool new features in the world's most popular HTML, CSS, and JS library.
