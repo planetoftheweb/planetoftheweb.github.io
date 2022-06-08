@@ -4,12 +4,48 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2022-04-26T00:00:00Z</updated>
+	<updated>2022-05-26T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>What&#39;s New in Bootstrap 5.2</title>
+		<link href="/posts/2022-05-26-whats-new-in-bootstrap-52/"/>
+		<updated>2022-05-26T00:00:00Z</updated>
+		<id>/posts/2022-05-26-whats-new-in-bootstrap-52/</id>
+		<content type="html">&lt;p&gt;One of the most popular frameworks on the web has been falling recently in terms of popularity. I don&#39;t think it&#39;s Bootstrap&#39;s fault, I still love to use it, but I&#39;m no longer using it for everything.&lt;/p&gt;
+&lt;p&gt;Today, I spend more time on libraries like Tailwind CSS and in lots of episodes of The Toolbox, I&#39;ve been exploring more interesting frameworks like &lt;a href=&quot;https://www.youtube.com/watch?v=JPzC_sbBfyY&amp;amp;list=PL1ezw_kTxXOl2kuQTYLpBq5uoK7R_DcKr&amp;amp;index=11&quot;&gt;Pico CSS&lt;/a&gt;, &lt;a href=&quot;https://www.youtube.com/watch?v=tKMNFQE64fA&amp;amp;list=PL1ezw_kTxXOl2kuQTYLpBq5uoK7R_DcKr&amp;amp;index=13&quot;&gt;Open Props&lt;/a&gt; and &lt;a href=&quot;https://www.youtube.com/watch?v=iNaDoE0qBwI&amp;amp;list=PL1ezw_kTxXOl2kuQTYLpBq5uoK7R_DcKr&amp;amp;index=24&quot;&gt;Assembler CSS&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;But there&#39;s something about Bootstrap that makes it compelling. It&#39;s the easiest way to get started with a robust set of tools that offer most of what you need to create simple sites. Setup is minimal, and it&#39;s a great starter kit for projects.&lt;/p&gt;
+&lt;p&gt;I&#39;m always interested when there are new versions of the framework, but 5.2 is a bit extra interesting. For one, it was released as a beta...which is unheard of for a minor revision. Let&#39;s dig in.&lt;/p&gt;
+&lt;h1 id=&quot;redesigned-documentation&quot;&gt;Redesigned Documentation &lt;a class=&quot;direct-link&quot; href=&quot;#redesigned-documentation&quot;&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;/images/posts/bootstrap52.png&quot; alt=&quot;Redesigned Docs&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The first thing you&#39;ll notice about this new version is that the whole site has been redesigned from scratch. It still has a bit of a Bootstrap classic flair, but if you look closely, you&#39;ll notice that the purple is a bit brighter than usual. I always thought it was weird that although the purple isn&#39;t really part of the &lt;a href=&quot;https://getbootstrap.com/docs/5.2/utilities/background/&quot;&gt;color utilities&lt;/a&gt;, it still appears as an option in the variables and is the color used for the site.&lt;/p&gt;
+&lt;p&gt;Another very slight change is that the edges are a bit rounder and some of them are also a bit darker. Very minor changes you probably won&#39;t even notice, but it does make it feel a bit more modern.&lt;/p&gt;
+&lt;h2 id=&quot;variables&quot;&gt;Variables &lt;a class=&quot;direct-link&quot; href=&quot;#variables&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The really big change is the addition of configuration variables for a lot of the built in components.&lt;/p&gt;
+&lt;p&gt;This is why the update is considered to be huge, although other than this, there&#39;s not that much that you&#39;d consider actual new features.&lt;/p&gt;
+&lt;p&gt;I can see that making a large number of variables for tons of the components would take a long time. This also prepares them for a new feature called dark mode. Coming soon on version 5.3.&lt;/p&gt;
+&lt;h2 id=&quot;text-background-helpers&quot;&gt;Text Background Helpers &lt;a class=&quot;direct-link&quot; href=&quot;#text-background-helpers&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;Another new change is the addition of a &lt;code&gt;.text.bg.*&lt;/code&gt; helpers. These will automatically set a background color and at the same time set up a reasonable foreground color. With previous versions you could use the &lt;code&gt;.bg-*&lt;/code&gt; classes, but then the fonts wouldn&#39;t have enough contrast, so you&#39;d also have to set up new &lt;code&gt;.text-*&lt;/code&gt; classes.&lt;/p&gt;
+&lt;p&gt;This is a shortcut, but you can still use the old classes if you want to further customize the colors of your foreground text.&lt;/p&gt;
+&lt;h2 id=&quot;responsive-offcanvas&quot;&gt;Responsive OffCanvas &lt;a class=&quot;direct-link&quot; href=&quot;#responsive-offcanvas&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;The OffCanvas component, which slides content in and out of the sides of your screen now has a few responsive variations, so that you can trigger it only at certain sizes with &lt;code&gt;.offcanvas-{sm|md|lg|xl|xxl}&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&quot;thicker-table-dividers&quot;&gt;Thicker Table Dividers &lt;a class=&quot;direct-link&quot; href=&quot;#thicker-table-dividers&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;There is a change to table dividers so that the thicker borders are now part of an optional class you can use.&lt;/p&gt;
+&lt;h2 id=&quot;scrollspy&quot;&gt;Scrollspy &lt;a class=&quot;direct-link&quot; href=&quot;#scrollspy&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A welcome change to scrollspy is that it was re-written t use the Intersection Observer API. This is a JavaScript API that makes it easier to do things based on when items appear on screen. That means you don&#39;t need relative parent wrappers and you no longer need the offset configuration.&lt;/p&gt;
+&lt;h2 id=&quot;forms&quot;&gt;Forms &lt;a class=&quot;direct-link&quot; href=&quot;#forms&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;A simple addition of a new .form-check-reverse classs means that you can now flip the order of labels and checkboxes or radio buttons. This is a minimal change, but it&#39;s about time.&lt;/p&gt;
+&lt;h2 id=&quot;tables&quot;&gt;Tables &lt;a class=&quot;direct-link&quot; href=&quot;#tables&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;In addition to the traditional striped rows, you can now use a .&lt;code&gt;table-striped-columns&lt;/code&gt; class to do the same thing to column. I can see that I&#39;d ever use that, but it&#39;s a nice option.&lt;/p&gt;
+&lt;h2 id=&quot;conclusion&quot;&gt;Conclusion &lt;a class=&quot;direct-link&quot; href=&quot;#conclusion&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;p&gt;I thought this was a decent upgrade and the addition of variables is great, however, because they&#39;re CSS variables, they&#39;re not as powerful as what&#39;s available with SASS, so their advantages are limited. I can&#39;t, for example just change the primary color in one place, but need to reassign it everywhere I want to use it.&lt;/p&gt;
+&lt;p&gt;I think it&#39;s a solid update, and honestly, I can&#39;t wait until the next version offering dark mode. I love Bootstrap, but it&#39;s definitely showing it&#39;s age and worse, NOT moving to PostCSS was a mistake, but the platform moves forward.&lt;/p&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>SolidJS: React Flavored Pre-rendered Components</title>

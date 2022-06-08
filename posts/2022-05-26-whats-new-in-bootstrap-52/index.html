@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Raybo.org</title>
 
-    <meta name="description" content="Learn full-stack developer skills with a clear, practical style" />
-    <meta property="og:title" content="Raybo.org" />
-    <meta property="og:description" content="Learn full-stack developer skills with a clear, practical style" />
-    <meta property="og:image" content="https://raybo.org/images/raybo.jpg" />
+    <meta name="description" content="Bootstrap is still one of the most popular frameworks on the web and it released a really interesting update with 5.2, so let's take a look at what's new in this release." />
+    <meta property="og:title" content="What&#39;s New in Bootstrap 5.2" />
+    <meta property="og:description" content="Bootstrap is still one of the most popular frameworks on the web and it released a really interesting update with 5.2, so let's take a look at what's new in this release." />
+    <meta property="og:image" content="https://raybo.org/images/posts/bootstrap52.png" />
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://raybo.org/tags/nav/">
-    <meta name="twitter:title" content="Raybo.org">
-    <meta name="twitter:description" content="Learn full-stack developer skills with a clear, practical style">
-    <meta name="twitter:image" content="https://raybo.org/images/raybo.jpg">
+    <meta name="twitter:site" content="https://raybo.org/posts/2022-05-26-whats-new-in-bootstrap-52/">
+    <meta name="twitter:title" content="What&#39;s New in Bootstrap 5.2">
+    <meta name="twitter:description" content="Bootstrap is still one of the most popular frameworks on the web and it released a really interesting update with 5.2, so let's take a look at what's new in this release.">
+    <meta name="twitter:image" content="https://raybo.org/images/posts/bootstrap52.png">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
@@ -41,7 +41,7 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
   <body class="position-relative bg-dark">
-    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  fixed-top  py-0">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
   <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-bs-toggle="collapse" data-bs-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
@@ -135,199 +135,87 @@
 </nav>
 
     
+  <header id="page-hero" class="container site-header ratio ratio-16x9">
+  <iframe style="border-radius: 20px;" src="https://www.youtube.com/embed/cd_9flkjX7s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
 
  
 <article id="main-content" class="site-main container mt-3 mb-5"
-style="padding-top: 80px"
+
 >
-<p>See <a href="/tags/">all tags</a>.</p>
-<h2 class="text-secondary mb-5">Tagged <small>“nav”</small></h2>
-  
+<main class="article-content px-3 px-sm-0 container">
 
-  
+<h1>What&#39;s New in Bootstrap 5.2</h1>
+<p class="lead">Bootstrap is still one of the most popular frameworks on the web and it released a really interesting update with 5.2, so let&#39;s take a look at what&#39;s new in this release.</p>
 
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  mb-3 ">
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <p>One of the most popular frameworks on the web has been falling recently in terms of popularity. I don't think it's Bootstrap's fault, I still love to use it, but I'm no longer using it for everything.</p>
+<p>Today, I spend more time on libraries like Tailwind CSS and in lots of episodes of The Toolbox, I've been exploring more interesting frameworks like <a href="https://www.youtube.com/watch?v=JPzC_sbBfyY&amp;list=PL1ezw_kTxXOl2kuQTYLpBq5uoK7R_DcKr&amp;index=11">Pico CSS</a>, <a href="https://www.youtube.com/watch?v=tKMNFQE64fA&amp;list=PL1ezw_kTxXOl2kuQTYLpBq5uoK7R_DcKr&amp;index=13">Open Props</a> and <a href="https://www.youtube.com/watch?v=iNaDoE0qBwI&amp;list=PL1ezw_kTxXOl2kuQTYLpBq5uoK7R_DcKr&amp;index=24">Assembler CSS</a></p>
+<p>But there's something about Bootstrap that makes it compelling. It's the easiest way to get started with a robust set of tools that offer most of what you need to create simple sites. Setup is minimal, and it's a great starter kit for projects.</p>
+<p>I'm always interested when there are new versions of the framework, but 5.2 is a bit extra interesting. For one, it was released as a beta...which is unheard of for a minor revision. Let's dig in.</p>
+<h1 id="redesigned-documentation">Redesigned Documentation <a class="direct-link" href="#redesigned-documentation"> </a></h1>
+<p><img src="/images/posts/bootstrap52.png" alt="Redesigned Docs"></p>
+<p>The first thing you'll notice about this new version is that the whole site has been redesigned from scratch. It still has a bit of a Bootstrap classic flair, but if you look closely, you'll notice that the purple is a bit brighter than usual. I always thought it was weird that although the purple isn't really part of the <a href="https://getbootstrap.com/docs/5.2/utilities/background/">color utilities</a>, it still appears as an option in the variables and is the color used for the site.</p>
+<p>Another very slight change is that the edges are a bit rounder and some of them are also a bit darker. Very minor changes you probably won't even notice, but it does make it feel a bit more modern.</p>
+<h2 id="variables">Variables <a class="direct-link" href="#variables"> </a></h2>
+<p>The really big change is the addition of configuration variables for a lot of the built in components.</p>
+<p>This is why the update is considered to be huge, although other than this, there's not that much that you'd consider actual new features.</p>
+<p>I can see that making a large number of variables for tons of the components would take a long time. This also prepares them for a new feature called dark mode. Coming soon on version 5.3.</p>
+<h2 id="text-background-helpers">Text Background Helpers <a class="direct-link" href="#text-background-helpers"> </a></h2>
+<p>Another new change is the addition of a <code>.text.bg.*</code> helpers. These will automatically set a background color and at the same time set up a reasonable foreground color. With previous versions you could use the <code>.bg-*</code> classes, but then the fonts wouldn't have enough contrast, so you'd also have to set up new <code>.text-*</code> classes.</p>
+<p>This is a shortcut, but you can still use the old classes if you want to further customize the colors of your foreground text.</p>
+<h2 id="responsive-offcanvas">Responsive OffCanvas <a class="direct-link" href="#responsive-offcanvas"> </a></h2>
+<p>The OffCanvas component, which slides content in and out of the sides of your screen now has a few responsive variations, so that you can trigger it only at certain sizes with <code>.offcanvas-{sm|md|lg|xl|xxl}</code>.</p>
+<h2 id="thicker-table-dividers">Thicker Table Dividers <a class="direct-link" href="#thicker-table-dividers"> </a></h2>
+<p>There is a change to table dividers so that the thicker borders are now part of an optional class you can use.</p>
+<h2 id="scrollspy">Scrollspy <a class="direct-link" href="#scrollspy"> </a></h2>
+<p>A welcome change to scrollspy is that it was re-written t use the Intersection Observer API. This is a JavaScript API that makes it easier to do things based on when items appear on screen. That means you don't need relative parent wrappers and you no longer need the offset configuration.</p>
+<h2 id="forms">Forms <a class="direct-link" href="#forms"> </a></h2>
+<p>A simple addition of a new .form-check-reverse classs means that you can now flip the order of labels and checkboxes or radio buttons. This is a minimal change, but it's about time.</p>
+<h2 id="tables">Tables <a class="direct-link" href="#tables"> </a></h2>
+<p>In addition to the traditional striped rows, you can now use a .<code>table-striped-columns</code> class to do the same thing to column. I can see that I'd ever use that, but it's a nice option.</p>
+<h2 id="conclusion">Conclusion <a class="direct-link" href="#conclusion"> </a></h2>
+<p>I thought this was a decent upgrade and the addition of variables is great, however, because they're CSS variables, they're not as powerful as what's available with SASS, so their advantages are limited. I can't, for example just change the primary color in one place, but need to reassign it everywhere I want to use it.</p>
+<p>I think it's a solid update, and honestly, I can't wait until the next version offering dark mode. I love Bootstrap, but it's definitely showing it's age and worse, NOT moving to PostCSS was a mistake, but the platform moves forward.</p>
 
-    
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#variables">Variables</a>
+            		</li>
 
-    <div class=""> 
-      <a href="/videos/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
+                    <li><a href="#text-background-helpers">Text Background Helpers</a>
+            		</li>
 
-        
+                    <li><a href="#responsive-offcanvas">Responsive OffCanvas</a>
+            		</li>
 
-        
+                    <li><a href="#thicker-table-dividers">Thicker Table Dividers</a>
+            		</li>
 
-        
+                    <li><a href="#scrollspy">Scrollspy</a>
+            		</li>
 
-        
-        </a> | <time class="item-date" datetime="Jun 08, 2022">Jun 08, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
+                    <li><a href="#forms">Forms</a>
+            		</li>
 
-    </div>
-  </div>
-  
+                    <li><a href="#tables">Tables</a>
+            		</li>
 
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/toolbox/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Jun 08, 2022">Jun 08, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/shorts/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Jun 08, 2022">Jun 08, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/posts/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Jun 08, 2022">Jun 08, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/newsletter/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Jun 08, 2022">Jun 08, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/courses/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Jun 08, 2022">Jun 08, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
+                    <li><a href="#conclusion">Conclusion</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
 </article>
 
   <footer class="site-footer bg-transparent pb-3 pb-md-5">

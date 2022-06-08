@@ -1,7 +1,21 @@
 [{
+  "title": "Building Desktop Apps with JavaScript - Ep 27",
+  "date" : "Jun 08, 2022",
+  "summary" : "In this episode of The toolbox, I&#39;ll talk about different frameworks that can help you leverage your HTML, CSS and JavaScript skills to build Desktop Apps. I&#39;ll show you a demo of one of the new contenders in this space...NeutralinoJS. Can it beat the dominant Electron platform. Stay tuned to find out. The pace of the web is relentless and that&#39;s why you need the Toolbox",
+  "thumbnail": "/images/toolbox/episode27_tn.jpg",
+  "url": "/toolbox/2022-06-08-Building-Desktop-Apps-with-JavaScript/",
+  "tags" : ""
+},{
+  "title": "What&#39;s New in Bootstrap 5.2",
+  "date" : "May 26, 2022",
+  "summary" : "Bootstrap is still one of the most popular frameworks on the web and it released a really interesting update with 5.2, so let&#39;s take a look at what&#39;s new in this release.",
+  "thumbnail": "/images/posts/bootstrap52_tn.png",
+  "url": "/posts/2022-05-26-whats-new-in-bootstrap-52/",
+  "tags" : "web design,bootstrap"
+},{
   "title": "What&#39;s New with CSS Frameworks - Ep 26",
   "date" : "May 25, 2022",
-  "summary" : "In this episode of The toolbox, I&#39;ll talk of where some of the newest CSS frameworks are taking us, including an interesting new update to the most popular CSS framework...Bootstrap. The pace of the web is relentless and that&#39;s why you need the Toolbox",
+  "summary" : "In this episode of The toolbox, I&#39;ll talk about WHERE some of the newest CSS frameworks are taking us, including a demo of all of the new CSS features of the MOST popular...Bootstrap. The pace of the web is relentless and that&#39;s why you need the Toolbox",
   "thumbnail": "/images/toolbox/episode26_tn.jpg",
   "url": "/toolbox/2022-05-25-Whats-new-with-css-frameworks-ep26/",
   "tags" : ""
