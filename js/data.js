@@ -1,10 +1,31 @@
 [{
+  "title": "Should Web Developers Learn Python - Ep 28",
+  "date" : "Jun 22, 2022",
+  "summary" : "In this episode of The Toolbox, I&#39;m debuting something I&#39;m calling Toolbox Talks. That&#39;s conversations with Web and Teaching professionals. I&#39;ll share my interview with Ronnie Sheer, who is hanging around in the Chat ready to answer your questions about Python, breaking into the industry, all of the full stack tools he uses. The pace of the web is relentless and that&#39;s why you need...the Toolbox.",
+  "thumbnail": "/images/toolbox/episode28_tn.jpg",
+  "url": "/toolbox/2022-06-22-Should-Web-Developers-Learn-Python/",
+  "tags" : ""
+},{
+  "title": "Toolbox Talks - Python with Ronnie Sheer",
+  "date" : "Jun 22, 2022",
+  "summary" : "In this first episode of the Toolbox Talks, we talk about Python, CoPilot, Git, CSS and more with Ronnie Sheer, the head of research and development at Hiverr.",
+  "thumbnail": "/images/posts/toolboxtalks-python_tn.jpg",
+  "url": "/posts/2022-06-22-Toolbox-Talks-Everything-Web-Developers-Need-To-Know-About-Python/",
+  "tags" : "web design,bootstrap"
+},{
   "title": "Building Desktop Apps with JavaScript - Ep 27",
   "date" : "Jun 08, 2022",
   "summary" : "In this episode of The toolbox, I&#39;ll talk about different frameworks that can help you leverage your HTML, CSS and JavaScript skills to build Desktop Apps. I&#39;ll show you a demo of one of the new contenders in this space...NeutralinoJS. Can it beat the dominant Electron platform. Stay tuned to find out. The pace of the web is relentless and that&#39;s why you need the Toolbox",
   "thumbnail": "/images/toolbox/episode27_tn.jpg",
   "url": "/toolbox/2022-06-08-Building-Desktop-Apps-with-JavaScript/",
   "tags" : ""
+},{
+  "title": "Git Code Challenges",
+  "date" : "May 31, 2022",
+  "summary" : "You&#39;ve used Git and maybe have your own workflow established. How much do you know about the broader possibilities though? Test your skills and find new options through this concise set of challenges.",
+  "thumbnail": "/images/courses/gitcodechallenges_tn.jpg",
+  "url": "https://www.linkedin.com/learning/git-code-challenges/",
+  "tags" : "external,video tutorial,git,github,web designer,web developer"
 },{
   "title": "What&#39;s New in Bootstrap 5.2",
   "date" : "May 26, 2022",
@@ -61,6 +82,13 @@
   "thumbnail": "/images/posts/demo-alpinejs_tn.jpg",
   "url": "/posts/2022-04-22-AlpineJS-Like-Tailwind-CSS-but-for-JavaScript/",
   "tags" : "full stack development,AlpineJS,JavaScript,Frameworks"
+},{
+  "title": "Tailwind CSS 3 Essential Training",
+  "date" : "Apr 21, 2022",
+  "summary" : "The utility-first approach of Tailwind 3 throws out many of the traditional approaches to building projects on the web, allowing you to create a complete and unique website without writing a single line of CSS.",
+  "thumbnail": "/images/courses/tailwindcss3_tn.jpg",
+  "url": "https://www.linkedin.com/learning/tailwind-css-3-essential-training",
+  "tags" : "external,video tutorial,css,tailwindcss,web designer,web developer"
 },{
   "title": "OCLIF CLI Framework",
   "date" : "Apr 20, 2022",

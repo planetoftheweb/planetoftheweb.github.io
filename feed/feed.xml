@@ -4,12 +4,71 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2022-05-26T00:00:00Z</updated>
+	<updated>2022-06-22T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Toolbox Talks - Python with Ronnie Sheer</title>
+		<link href="/posts/2022-06-22-Toolbox-Talks-Everything-Web-Developers-Need-To-Know-About-Python/"/>
+		<updated>2022-06-22T00:00:00Z</updated>
+		<id>/posts/2022-06-22-Toolbox-Talks-Everything-Web-Developers-Need-To-Know-About-Python/</id>
+		<content type="html">&lt;p&gt;You may have heard about PyScript, Flask, Django and have some FOMO. On Toolbox Talks, Ronnie Sheer and I discuss everything web developers need to know about Python, Python for JavaScript Developers, the cool tools and technology he uses to build enterprise level sites and breaking into the industry with non-tech degrees (that would be the both of us).&lt;/p&gt;
+&lt;p&gt;I learned so much talking to Ronnie Sheer about Python, how to break into startups from non-technology degrees, how important it is to learn to work through the dip, Python for JavaScript Developers, PyScript, Flask, Django.&lt;/p&gt;
+&lt;p&gt;Plus tons of links to interesting resources and frameworks you might not know. I&#39;m super excited about doing more of these, so let me know in the comments what you think.&lt;/p&gt;
+&lt;h1 id=&quot;index&quot;&gt;Index &lt;a class=&quot;direct-link&quot; href=&quot;#index&quot;&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=0s&quot;&gt;00:00&lt;/a&gt; Intro&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=32s&quot;&gt;00:32&lt;/a&gt; Ronnie Got Started from with a Non Tech Degree&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=81s&quot;&gt;01:21&lt;/a&gt; Getting his Opportunity by Doing a Pycon Talk&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=134s&quot;&gt;02:14&lt;/a&gt; Working at a Startup&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=165s&quot;&gt;02:45&lt;/a&gt; How Ronnie approaches Learning (The Secret behind The Dip)&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=294s&quot;&gt;04:54&lt;/a&gt; Input Based Goal Setting&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=344s&quot;&gt;05:44&lt;/a&gt; What About Universities&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=630s&quot;&gt;10:30&lt;/a&gt; College Helps you Learn Critical Thinking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=751s&quot;&gt;12:31&lt;/a&gt; Secrets to a Successful Career&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=1012s&quot;&gt;16:52&lt;/a&gt; How Do You Pick Your Stack on a Real Project?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=1315s&quot;&gt;21:55&lt;/a&gt; 8 Git Commands You Should Know&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=1512s&quot;&gt;25:12&lt;/a&gt; What is So Compelling about Python?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=1899s&quot;&gt;31:39&lt;/a&gt; What About PyScript and Other Awesome Tools You Use&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=2207s&quot;&gt;36:47&lt;/a&gt; What Other Technologies are you Real Excited About?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://youtube.com/watch?v=fJoZz2QzW8c&amp;amp;t=2514s&quot;&gt;41:54&lt;/a&gt; What to do if You&#39;re Laid Off?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h1 id=&quot;links&quot;&gt;Links &lt;a class=&quot;direct-link&quot; href=&quot;#links&quot;&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://pycon.org&quot;&gt;Pycon&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://bluevine.com&quot;&gt;Bluevine&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/&quot;&gt;8 Git Commands you Should Know&lt;/a&gt;8Poc&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Q1K&quot;&gt;The Toolbox&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.&quot;&gt;Python for JavaScript Developers&lt;/a&gt;org/8Q1O&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Q24&quot;&gt;VueJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://svelte.dev&quot;&gt;Svelte&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Q1s&quot;&gt;VueJS Essential Training&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://vuetifyjs.com&quot;&gt;Vuetify&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://vitejs.dev&quot;&gt;Vite&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://djangoproject.com&quot;&gt;Django&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://nodejs.org&quot;&gt;NodeJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://backbonejs.org&quot;&gt;BackboneJS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://ohmyz.sh&quot;&gt;Oh My ZSh&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://rubyonrails.org&quot;&gt;Ruby on Rails&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jquery.com&quot;&gt;jQuery&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://typescriptlang.org&quot;&gt;TypeScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://pyscript.net&quot;&gt;PyScript&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://jupyter.org&quot;&gt;Jupyter Notebooks&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://django-rest-framework.&quot;&gt;Django Rest Framework&lt;/a&gt;org&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://flask.palletsprojects.com&quot;&gt;Flask&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;fastapi.tiangolo.com&quot;&gt;FastAPI&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;click.palletsprojects.com&quot;&gt;Click Framework&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;copilot.github.com&quot;&gt;GitHub Copilot&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Qfl&quot;&gt;GitHub Copilot First Look&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://openai.com&quot;&gt;DallE2&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;go.raybo.org/8QoO&quot;&gt;Ronnie Sheer on LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>What&#39;s New in Bootstrap 5.2</title>
