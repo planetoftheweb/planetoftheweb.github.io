@@ -1,7 +1,7 @@
 [{
   "title": "Should Web Developers Learn Python - Ep 28",
   "date" : "Jun 22, 2022",
-  "summary" : "In this episode of The Toolbox, I&#39;m debuting something I&#39;m calling Toolbox Talks. That&#39;s conversations with Web and Teaching professionals. I&#39;ll share my interview with Ronnie Sheer, who is hanging around in the Chat ready to answer your questions about Python, breaking into the industry, all of the full stack tools he uses. The pace of the web is relentless and that&#39;s why you need...the Toolbox.",
+  "summary" : "In this episode of The Toolbox, we&#39;re talking about how much Python...Web Developers should know. I&#39;m trying out a new interview series I&#39;m calling Toolbox Talks with Ronnie Sheer, who is in the Chat ready to answer your questions about Python, breaking into the industry and all of the full stack tools he uses. The pace of the web is relentless and that&#39;s why you need...the Toolbox.",
   "thumbnail": "/images/toolbox/episode28_tn.jpg",
   "url": "/toolbox/2022-06-22-Should-Web-Developers-Learn-Python/",
   "tags" : ""
