@@ -1,4 +1,18 @@
 [{
+  "title": "Answering the Big CSS Questions - Ep 29",
+  "date" : "Jun 29, 2022",
+  "summary" : "In this episode of The Toolbox, we&#39;re talking to Christina Truong and together we&#39;re answering all the Big CSS questions about CSS new features, Sass, Grid vs Flexbox and how her Psychology major made her a successful Senior Front End Developer. The Pace of the web is relentless...and that&#39;s why you need, The Toolbox.",
+  "thumbnail": "/images/toolbox/episode29_tn.jpg",
+  "url": "/toolbox/2022-06-29-Answering-The-Big-CSS-Questions/",
+  "tags" : ""
+},{
+  "title": "Toolbox Talks - Breaking Into Front End Development with Christina Truong",
+  "date" : "Jun 29, 2022",
+  "summary" : "Christina Truong is one of the most popular LinkedIn Learning authors with Hundredths of Thousands of learners. In this episode of Toolbox Talks, we talk to her about her career and some of the CSS technologies she&#39;s excited about.",
+  "thumbnail": "/images/posts/toolboxtalks-christinatruong_tn.jpg",
+  "url": "/posts/2022-06-29-Toolbox-Talks-Breaking-Into-Front-End-Development/",
+  "tags" : "web design,bootstrap"
+},{
   "title": "Should Web Developers Learn Python - Ep 28",
   "date" : "Jun 22, 2022",
   "summary" : "In this episode of The Toolbox, we&#39;re talking about how much Python...Web Developers should know. I&#39;m trying out a new interview series I&#39;m calling Toolbox Talks with Ronnie Sheer, who is in the Chat ready to answer your questions about Python, breaking into the industry and all of the full stack tools he uses. The pace of the web is relentless and that&#39;s why you need...the Toolbox.",

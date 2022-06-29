@@ -4,12 +4,64 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2022-06-22T00:00:00Z</updated>
+	<updated>2022-06-29T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Toolbox Talks - Breaking Into Front End Development with Christina Truong</title>
+		<link href="/posts/2022-06-29-Toolbox-Talks-Breaking-Into-Front-End-Development/"/>
+		<updated>2022-06-29T00:00:00Z</updated>
+		<id>/posts/2022-06-29-Toolbox-Talks-Breaking-Into-Front-End-Development/</id>
+		<content type="html">&lt;p&gt;We talk to Christina Truong with more than 10 years in the web development industry, we talk about going to school for Psychology and how that ended up helping her with her career as a developer. How a 14 week program gave her a quick start in the industry and how she went from being a Junior Developer to a Tech Lead. Then we cover her experience with Ladies Learning Code as well as how her work at Agencies helped her grow her career.&lt;/p&gt;
+&lt;p&gt;We cover how to approach learning and when to pick up new technologies, how important soft skills are. We learn when she teaches her students about Stack Overflow. Then we get into her courses on Git, freelancing, Design systems and more.&lt;/p&gt;
+&lt;h1 id=&quot;index&quot;&gt;Index &lt;a class=&quot;direct-link&quot; href=&quot;#index&quot;&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://localhost:8080/watch?v=x-j9xhXxKp0&amp;amp;t=0s&quot;&gt;00:00&lt;/a&gt; Intro&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://localhost:8080/watch?v=x-j9xhXxKp0&amp;amp;t=42s&quot;&gt;00:42&lt;/a&gt; Starting with a Psychology degree&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;01:44&lt;/a&gt; Learning from a 14 Week Program&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;02:38&lt;/a&gt; Junior to Tech Lead&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;03:17&lt;/a&gt; Public Speaking&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;04:23&lt;/a&gt; Ladies Learning Code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;05:36&lt;/a&gt; Working at Agencies&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;07:03&lt;/a&gt; How University Experience Helped&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;08:51&lt;/a&gt; How To Approach Learning&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;13:09&lt;/a&gt; Choosing Technology&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;15:30&lt;/a&gt; You Don&#39;t Need the Latest&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;17:00&lt;/a&gt; The Importance of Soft Skills&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;18:04&lt;/a&gt; Focusing on Details&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;18:52&lt;/a&gt; When to use Stack Overflow&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;21:03&lt;/a&gt; When Should Someone Freelance?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;23:36&lt;/a&gt; When to Reach for Git&#39;s GUI app&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;25:17&lt;/a&gt; CSS Design Systems&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;27:02&lt;/a&gt; When to Use Utility First Frameworks?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;31:24&lt;/a&gt; Should Designers and Developers Learn to Pinch Hit?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;33:07&lt;/a&gt; CSS vs Sass&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;35:10&lt;/a&gt; New Features in CSS&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;&quot;&gt;37:30&lt;/a&gt; How to Find Christina&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;links&quot;&gt;Links &lt;a class=&quot;direct-link&quot; href=&quot;#links&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://linkedin.com/in/christinatruong&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Y4s&quot;&gt;LinkedIn Learning Courses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Y2j&quot;&gt;On YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://christinatruong.com&quot;&gt;Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://canadalearningcode.ca&quot;&gt;Canada Learning Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8URY&quot;&gt;CSS Essential Training&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8URO&quot;&gt;Decoded Newsletter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Usu&quot;&gt;Getting Your First Job as a Web Developer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8UvB&quot;&gt;Version Control with Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://reactjs.org&quot;&gt;React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://shopify.github.io/liquid&quot;&gt;Liquid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Y3u&quot;&gt;State of CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Y4Q&quot;&gt;CSS Layouts on YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Toolbox Talks - Python with Ronnie Sheer</title>

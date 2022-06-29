@@ -5,15 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Raybo.org</title>
 
-    <meta name="description" content="Learn full-stack developer skills with a clear, practical style" />
-    <meta property="og:title" content="Raybo.org" />
-    <meta property="og:description" content="Learn full-stack developer skills with a clear, practical style" />
-    <meta property="og:image" content="https://raybo.org/images/raybo.jpg" />
+    <meta name="description" content="In this episode of The Toolbox, we're talking to Christina Truong and together we're answering all the Big CSS questions about CSS new features, Sass, Grid vs Flexbox and how her Psychology major made her a successful Senior Front End Developer. The Pace of the web is relentless...and that's why you need, The Toolbox." />
+    <meta property="og:title" content="Answering the Big CSS Questions - Ep 29" />
+    <meta property="og:description" content="In this episode of The Toolbox, we're talking to Christina Truong and together we're answering all the Big CSS questions about CSS new features, Sass, Grid vs Flexbox and how her Psychology major made her a successful Senior Front End Developer. The Pace of the web is relentless...and that's why you need, The Toolbox." />
+    <meta property="og:image" content="https://raybo.org/images/toolbox/episode29.jpg" />
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:site" content="https://raybo.org/tags/nav/">
-    <meta name="twitter:title" content="Raybo.org">
-    <meta name="twitter:description" content="Learn full-stack developer skills with a clear, practical style">
-    <meta name="twitter:image" content="https://raybo.org/images/raybo.jpg">
+    <meta name="twitter:site" content="https://raybo.org/toolbox/2022-06-29-Answering-The-Big-CSS-Questions/">
+    <meta name="twitter:title" content="Answering the Big CSS Questions - Ep 29">
+    <meta name="twitter:description" content="In this episode of The Toolbox, we're talking to Christina Truong and together we're answering all the Big CSS questions about CSS new features, Sass, Grid vs Flexbox and how her Psychology major made her a successful Senior Front End Developer. The Pace of the web is relentless...and that's why you need, The Toolbox.">
+    <meta name="twitter:image" content="https://raybo.org/images/toolbox/episode29.jpg">
 
     <link rel="stylesheet" href="/css/style.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/prism-themes@1.6.0/themes/prism-shades-of-purple.css" rel="stylesheet">
@@ -41,7 +41,7 @@
     <link rel="manifest" href="/images/favicon/site.webmanifest">
   </head>
   <body class="position-relative bg-dark">
-    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  fixed-top  py-0">
+    <nav class="site-nav family-sans navbar navbar-expand-md bg-dark navbar-dark  sticky-top  py-0">
   <div class="container">
     <button type="button" class="navbar-toggler my-2 my-md-0" data-bs-toggle="collapse" data-bs-target="#myTogglerNav" aria-controls="myTogglerNav" aria-label="Toggle Navigation">
       <span class="navbar-toggler-icon"></span>
@@ -135,199 +135,89 @@
 </nav>
 
     
+  <header id="page-hero" class="container site-header ratio ratio-16x9">
+  <iframe style="border-radius: 20px;" src="https://www.youtube.com/embed/Csg933hkXdY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</header>
+
 
  
 <article id="main-content" class="site-main container mt-3 mb-5"
-style="padding-top: 80px"
+
 >
-<p>See <a href="/tags/">all tags</a>.</p>
-<h2 class="text-secondary mb-5">Tagged <small>“nav”</small></h2>
-  
+<main class="article-content px-3 px-sm-0 container">
 
-  
+<h1>Answering the Big CSS Questions - Ep 29</h1>
+<p class="lead">In this episode of The Toolbox, we&#39;re talking to Christina Truong and together we&#39;re answering all the Big CSS questions about CSS new features, Sass, Grid vs Flexbox and how her Psychology major made her a successful Senior Front End Developer. The Pace of the web is relentless...and that&#39;s why you need, The Toolbox.</p>
 
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  mb-3 ">
+  <div class="row">
+    <main class="article-content px-3 px-sm-0 main col-lg-9">
+    <p>Hello everyone this is Ray Villalobos and I stream about front-end and full stack tools Wednesdays at 1pm Eastern • 10am Pacific. Follow me and subscribe on LinkedIn, Twitter and YouTube for more content. If you want to watch any past episodes, make sure you take a look at my blog <a href="http://raybo.org">raybo.org</a>.</p>
+<p>You can find an article for Today's episode and all the links for the show.</p>
+<h2 id="turn-on-the-bell-icon">Turn on the Bell Icon <a class="direct-link" href="#turn-on-the-bell-icon"> </a></h2>
+<p>Also, make sure you check out my <a href="https://www.linkedin.com/in/planetoftheweb/">my profile</a> and click on the bell icon. You can't see it on your own profile, but if you follow me, it's where the bell icon is. I'll go to Christina's profile to show you.</p>
+<h2 id="industry-news">Industry News <a class="direct-link" href="#industry-news"> </a></h2>
+<p>Lets quickly review some of the latest industry news:</p>
+<ul>
+<li><a href="https://techcrunch.com/2022/06/23/amazon-launches-codewhisperer-its-ai-pair-programming-tool/">Code Whisperer</a></li>
+<li><a href="https://www.channelnews.com.au/facebook-changing-algorithm-to-mimic-tiktok-leak-reveals/">Facebook Mimics TikTok</a></li>
+<li><a href="https://www.yahoo.com/now/fcc-commissioner-google-facebook-ban-tik-tok-064559992.html">FCC Commissioner urges Google and Apple to ban TikTok</a></li>
+<li><a href="https://www.mnot.net/blog/2022/06/22/chromium-only">Chromium Only Web</a></li>
+<li><a href="https://hexwords.netlify.app/">HexWords</a></li>
+<li><a href="https://www.buzzfeednews.com/article/emilybakerwhite/tiktok-tapes-us-user-data-china-bytedance-access">Leaked Audio From 80 Internal TikTok Meetings Shows That US User Data Has Been Repeatedly Accessed From China</a></li>
+<li><a href="https://survey.stackoverflow.co/2022">State of Developer Survey</a></li>
+</ul>
+<h2 id="toolbox-talks">Toolbox Talks <a class="direct-link" href="#toolbox-talks"> </a></h2>
+<p>So, last week, I launched a new series of Talks, I'm calling <a href="https://www.youtube.com/playlist?list=PL1ezw_kTxXOm-x2kWZBRI5MMMxNDGHM4v">Toolbox Talks</a> and I had a great interview with Ronnie Sheer about Python.</p>
+<p>This week, I'm continuing that talking to Christina Truong, who's in the chat ready to answer your questions about CSS. I'll play an interview I did with her and then we'll both come on and answer questions.</p>
+<p>Christina does a huge variety of courses on LinkedIn. Everything from getting a job, to Git, design systems and one of our most popular courses on LinkedIn learning. CSS Essential Training with 176k learners.</p>
+<h2 id="qa">QA <a class="direct-link" href="#qa"> </a></h2>
+<h1 id="coming-soon">Coming Soon <a class="direct-link" href="#coming-soon"> </a></h1>
+<p>Then, I'll be gone for a couple of weeks and then I'll be back. I have another great interview lined up.  I'm really trying to figure out what framework I get to cover next...lots of cool stuff out there. See you next week!</p>
+<h2 id="links">Links <a class="direct-link" href="#links"> </a></h2>
+<ul>
+<li><a href="https://linkedin.com/in/christinatruong">Profile</a></li>
+<li><a href="https://go.raybo.org/8Y4s">LinkedIn Learning Courses</a></li>
+<li><a href="https://go.raybo.org/8Y2j">On YouTube</a></li>
+<li><a href="https://christinatruong.com">Website</a></li>
+<li><a href="https://canadalearningcode.ca">Canada Learning Code</a></li>
+<li><a href="https://go.raybo.org/8URY">CSS Essential Training</a></li>
+<li><a href="https://go.raybo.org/8URO">Decoded Newsletter</a></li>
+<li><a href="https://go.raybo.org/8Usu">Getting Your First Job as a Web Developer</a></li>
+<li><a href="https://go.raybo.org/8UvB">Version Control with Git</a></li>
+<li><a href="https://getbootstrap.com">Bootstrap</a></li>
+<li><a href="https://reactjs.org">React</a></li>
+<li><a href="https://shopify.github.io/liquid">Liquid</a></li>
+<li><a href="https://go.raybo.org/8Y3u">State of CSS</a></li>
+<li><a href="https://go.raybo.org/8Y4Q">CSS Layouts on YouTube</a></li>
+</ul>
 
-    
+    </main>
+    <aside class="aside aside-supplemental d-none d-lg-block col-lg-3 mt-3">
+      <h4>Contents</h4>
+      <nav class="sticky-top" style="top: 100px;">
+      <div class="">
+                <ol>
+                    
+                    <li><a href="#turn-on-the-bell-icon">Turn on the Bell Icon</a>
+            		</li>
 
-    <div class=""> 
-      <a href="/videos/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
+                    <li><a href="#industry-news">Industry News</a>
+            		</li>
 
-        
+                    <li><a href="#toolbox-talks">Toolbox Talks</a>
+            		</li>
 
-        
+                    <li><a href="#qa">QA</a>
+            		</li>
 
-        
-
-        
-        </a> | <time class="item-date" datetime="Jun 29, 2022">Jun 29, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/toolbox/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Jun 29, 2022">Jun 29, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/shorts/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Jun 29, 2022">Jun 29, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/posts/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Jun 29, 2022">Jun 29, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/newsletter/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Jun 29, 2022">Jun 29, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
-  
-
-  
-
-  <div class="row justify-content-center px-3 px-sm-0 position-relative  my-5 ">
-
-    
-
-    <div class=""> 
-      <a href="/courses/0/" class="item-title text-light h1 mb-0 d-block text-decoration-none" ></a>
-      <div class="small d-block">
-        <a href="//0" class="text-decoration-none fw-bold text-secondary">
-        
-        
-        
-        
-        
-
-        
-
-        
-
-        
-
-        
-        </a> | <time class="item-date" datetime="Jun 29, 2022">Jun 29, 2022</time></div>
-      <div class="fs-6 text-body"></div>
-        
-
-    </div>
-  </div>
+                    <li><a href="#links">Links</a>
+            		</li>
+                </ol>
+            </div>
+      </nav>
+    </aside>
+  <div>
+</main>
 </article>
 
   <footer class="site-footer bg-transparent pb-3 pb-md-5">
