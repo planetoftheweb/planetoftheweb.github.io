@@ -1,4 +1,11 @@
 [{
+  "title": "The Will Battle",
+  "date" : "Jul 05, 2022",
+  "summary" : "My daughter now has kids of her own and it&#39;s really interesting to see how she approaches problems her mom and I solved when we were her age. One problem that&#39;s come up is teaching kids to come to you when you call them. It&#39;s a lot like what we do in software development. New ideas are adopted from older software",
+  "thumbnail": "/images/newsletter/willbattle_tn.png",
+  "url": "/newsletter/2022-07-05-the-changing-times/",
+  "tags" : ""
+},{
   "title": "Answering the Big CSS Questions - Ep 29",
   "date" : "Jun 29, 2022",
   "summary" : "In this episode of The Toolbox, we&#39;re talking to Christina Truong and together we&#39;re answering all the Big CSS questions about CSS new features, Sass, Grid vs Flexbox and how her Psychology major made her a successful Senior Front End Developer. The Pace of the web is relentless...and that&#39;s why you need, The Toolbox.",
