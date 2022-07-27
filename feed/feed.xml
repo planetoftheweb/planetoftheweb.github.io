@@ -4,12 +4,62 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2022-06-29T00:00:00Z</updated>
+	<updated>2022-07-26T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Toolbox Talks - Secrets Senior Developers Know with Carlos Solis</title>
+		<link href="/posts/2022-07-26-Toolbox-Talkks-Secrets-Professional-Developers-Know/"/>
+		<updated>2022-07-26T00:00:00Z</updated>
+		<id>/posts/2022-07-26-Toolbox-Talkks-Secrets-Professional-Developers-Know/</id>
+		<content type="html">&lt;p&gt;We also talk about some of Carlos&#39; amazing courses you should take on creating Monorepos, GitHub packages and lots more.&lt;/p&gt;
+&lt;h1 id=&quot;index&quot;&gt;Index &lt;a class=&quot;direct-link&quot; href=&quot;#index&quot;&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=0s&quot;&gt;00:00&lt;/a&gt; Intro&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=38s&quot;&gt;00:38&lt;/a&gt; From Psychology to Development&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=73s&quot;&gt;01:13&lt;/a&gt; What If you don&#39;t Have a Traditional Degree&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=168s&quot;&gt;02:48&lt;/a&gt; Everything Depends on the People Around You&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=229s&quot;&gt;03:49&lt;/a&gt; Working in Teams&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=281s&quot;&gt;04:41&lt;/a&gt; Why You&#39;ll Like Daily Meetings&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=314s&quot;&gt;05:14&lt;/a&gt; The Agile Methodology&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=393s&quot;&gt;06:33&lt;/a&gt; A Minimum Viable Product&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=479s&quot;&gt;07:59&lt;/a&gt; What Happens In a Daily Meeting&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=8m58s&quot;&gt;08:58&lt;/a&gt; What Types of Agile are There?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=10m15s&quot;&gt;10:15&lt;/a&gt; Creating a Knowledge System&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=12m2s&quot;&gt;12:02&lt;/a&gt; How to Use Your Notes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=13m56s&quot;&gt;13:56&lt;/a&gt;  What does a Developer Advocate Do?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=15m35s&quot;&gt;15:35&lt;/a&gt; Differences between a Junior and Senior Developer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=16m26s&quot;&gt;16:26&lt;/a&gt; Creating a GitHub Package&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=18m00s&quot;&gt;18:00&lt;/a&gt; Why is Creating a Package Important&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=19m25s&quot;&gt;19:25&lt;/a&gt; Creating Mono Repos&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=21m48s&quot;&gt;21:48&lt;/a&gt; Big Companies Acquired Open Source Projects&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=23m28s&quot;&gt;23:28&lt;/a&gt; New Technologies: Micro Front Ends&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=24m57s&quot;&gt;24:57&lt;/a&gt; Dealing with Legacy Code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=25m12s&quot;&gt;25:12&lt;/a&gt; Where can Someone Find You?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;links&quot;&gt;Links &lt;a class=&quot;direct-link&quot; href=&quot;#links&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://linkedin.com/in/christinatruong&quot;&gt;Profile&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Y4s&quot;&gt;LinkedIn Learning Courses&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Y2j&quot;&gt;On YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://christinatruong.com&quot;&gt;Website&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://canadalearningcode.ca&quot;&gt;Canada Learning Code&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8URY&quot;&gt;CSS Essential Training&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8URO&quot;&gt;Decoded Newsletter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Usu&quot;&gt;Getting Your First Job as a Web Developer&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8UvB&quot;&gt;Version Control with Git&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://getbootstrap.com&quot;&gt;Bootstrap&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://reactjs.org&quot;&gt;React&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://shopify.github.io/liquid&quot;&gt;Liquid&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Y3u&quot;&gt;State of CSS&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/8Y4Q&quot;&gt;CSS Layouts on YouTube&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Toolbox Talks - Breaking Into Front End Development with Christina Truong</title>

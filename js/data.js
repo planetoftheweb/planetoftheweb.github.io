@@ -1,4 +1,18 @@
 [{
+  "title": "Secrets Professional Developers Know - Ep 30",
+  "date" : "Jul 27, 2022",
+  "summary" : "In this special episode of The Toolbox, I talk to Carlos Solis about the differences between junior and senior devlopers. I&#39;m also doing some live AI Image Generation with DALL*E and talk about some of the newest frameworks. The Pace of the web is relentless...and that&#39;s why you need, The Toolbox.",
+  "thumbnail": "/images/toolbox/episode30_tn.jpg",
+  "url": "/toolbox/2022-07-27-Secrets-Professional-Developers-Know-ep30/",
+  "tags" : ""
+},{
+  "title": "Toolbox Talks - Secrets Senior Developers Know with Carlos Solis",
+  "date" : "Jul 26, 2022",
+  "summary" : "Carlos Solis is a professor, developer, and certified Scrum master with more than 20 years of experience in the industry. He&#39;s also the author of A Warrior&#39;s Guide to Angular JS. He&#39;s an expert on building hybrid mobile applications, as well as Node, JS, PHP, SQL and Java. Now he lives in Santiago, Chile, where he works as a product evangelist.",
+  "thumbnail": "/images/posts/toolboxtalks-carlossolis_tn.jpg",
+  "url": "/posts/2022-07-26-Toolbox-Talkks-Secrets-Professional-Developers-Know/",
+  "tags" : "web design,toolboxtalks,carlos solis"
+},{
   "title": "The Will Battle",
   "date" : "Jul 05, 2022",
   "summary" : "My daughter now has kids of her own and it&#39;s really interesting to see how she approaches problems her mom and I solved when we were her age. One problem that&#39;s come up is teaching kids to come to you when you call them. It&#39;s a lot like what we do in software development. New ideas are adopted from older software",
