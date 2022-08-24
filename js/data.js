@@ -1,4 +1,18 @@
 [{
+  "title": "DevOps Tips for Impatient Developers - Ep 31",
+  "date" : "Aug 24, 2022",
+  "summary" : "In this special episode of The Toolbox, I talk to Michael Jenkins about something every full stack developer should master...DevOps, plus the importance of volunteering, the magic of the cloud and wether GitHub Actions can deliver a professional CI/CD pipeline. The Pace of the web is relentless...and that&#39;s why you need, The Toolbox.",
+  "thumbnail": "/images/toolbox/episode31_tn.jpg",
+  "url": "/toolbox/2022-08-24-DevOps-tips-for-Impatient-Developers/",
+  "tags" : ""
+},{
+  "title": "Toolbox Talks - DevOps Secrets for Full Stack Developers",
+  "date" : "Aug 24, 2022",
+  "summary" : "In another special Toolbox Talks episode, we talk to Michael Jenkins, a senior systems engineer at a leading entertainment company about his career path, DevOps tips that developers should know, what&#39;s going on with Cloud Coding and if GitHub Actions is ready to go as a CI/CD tool.",
+  "thumbnail": "/images/posts/toolboxtalks-michaeljenkins_tn.jpg",
+  "url": "/posts/2022-08-24-Toolbox-Talks-DevOps-Secrets-Full-Stack-Developers-Should-Know/",
+  "tags" : "web design,toolboxtalks,carlos solis"
+},{
   "title": "Secrets Professional Developers Know - Ep 30",
   "date" : "Jul 27, 2022",
   "summary" : "In this special episode of The Toolbox, I talk to Carlos Solis about the differences between junior and senior devlopers. I&#39;m also doing some live AI Image Generation with DALL*E and talk about some of the newest frameworks. The Pace of the web is relentless...and that&#39;s why you need, The Toolbox.",

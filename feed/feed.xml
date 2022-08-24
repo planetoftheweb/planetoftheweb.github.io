@@ -4,12 +4,68 @@
 	<subtitle></subtitle>
 	<link href="https://raybo.org/feed/feed.xml" rel="self"/>
 	<link href="raybo.org"/>
-	<updated>2022-07-26T00:00:00Z</updated>
+	<updated>2022-08-24T00:00:00Z</updated>
 	<id>https://raybo.org/</id>
 	<author>
 		<name>Ray Villalobos</name>
 		<email></email>
 	</author>
+	
+	<entry>
+		<title>Toolbox Talks - DevOps Secrets for Full Stack Developers</title>
+		<link href="/posts/2022-08-24-Toolbox-Talks-DevOps-Secrets-Full-Stack-Developers-Should-Know/"/>
+		<updated>2022-08-24T00:00:00Z</updated>
+		<id>/posts/2022-08-24-Toolbox-Talks-DevOps-Secrets-Full-Stack-Developers-Should-Know/</id>
+		<content type="html">&lt;p&gt;DevOps combines software development with deployment and operations. It&#39;s something that experienced and seasoned developers are familiar with.&lt;/p&gt;
+&lt;h1 id=&quot;index&quot;&gt;Index &lt;a class=&quot;direct-link&quot; href=&quot;#index&quot;&gt; &lt;/a&gt;&lt;/h1&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=0s&quot;&gt;00:00&lt;/a&gt; Intro&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=38s&quot;&gt;00:38&lt;/a&gt; From Psychology to Development&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=73s&quot;&gt;01:13&lt;/a&gt; What If you don&#39;t Have a Traditional Degree&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=168s&quot;&gt;02:48&lt;/a&gt; Everything Depends on the People Around You&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=229s&quot;&gt;03:49&lt;/a&gt; Working in Teams&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=281s&quot;&gt;04:41&lt;/a&gt; Why You&#39;ll Like Daily Meetings&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=314s&quot;&gt;05:14&lt;/a&gt; The Agile Methodology&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=393s&quot;&gt;06:33&lt;/a&gt; A Minimum Viable Product&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=479s&quot;&gt;07:59&lt;/a&gt; What Happens In a Daily Meeting&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=8m58s&quot;&gt;08:58&lt;/a&gt; What Types of Agile are There?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=10m15s&quot;&gt;10:15&lt;/a&gt; Creating a Knowledge System&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=12m2s&quot;&gt;12:02&lt;/a&gt; How to Use Your Notes&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=13m56s&quot;&gt;13:56&lt;/a&gt;  What does a Developer Advocate Do?&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=15m35s&quot;&gt;15:35&lt;/a&gt; Differences between a Junior and Senior Developer&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=16m26s&quot;&gt;16:26&lt;/a&gt; Creating a GitHub Package&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=18m00s&quot;&gt;18:00&lt;/a&gt; Why is Creating a Package Important&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=19m25s&quot;&gt;19:25&lt;/a&gt; Creating Mono Repos&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=21m48s&quot;&gt;21:48&lt;/a&gt; Big Companies Acquired Open Source Projects&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=23m28s&quot;&gt;23:28&lt;/a&gt; New Technologies: Micro Front Ends&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=24m57s&quot;&gt;24:57&lt;/a&gt; Dealing with Legacy Code&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;http://youtube.com/watch?v=vL8XgNmPxds&amp;amp;t=25m12s&quot;&gt;25:12&lt;/a&gt; Where can Someone Find You?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;a href=&quot;https://youtu.be/wM0hooWwdRA&quot;&gt;https://youtu.be/wM0hooWwdRA&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&quot;&gt;00:00&lt;/a&gt;) Intro&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=30s&quot;&gt;00:30&lt;/a&gt; Education&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=1m19s&quot;&gt;01:19&lt;/a&gt; What did you learn from College?&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=2m20s&quot;&gt;02:20&lt;/a&gt; What Pointed You Towards DevOps&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=5m56s&quot;&gt;05:56&lt;/a&gt; Passion for Journalism?&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=8m16s&quot;&gt;08:16&lt;/a&gt; Volunteering and Networking&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=10m27s&quot;&gt;10:27&lt;/a&gt; Encouraging UpSkilling&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=11m55s&quot;&gt;11:55&lt;/a&gt; ChatOps to Improve Your Meetings&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=12m52s&quot;&gt;12:52&lt;/a&gt; Cloud Coding and CodeSpaces&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=16m37s&quot;&gt;16:37&lt;/a&gt; Can GitHub Actions Deliver Pro CI/CD?&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=17m51s&quot;&gt;17:51&lt;/a&gt; What Makes a great DevOps Engineer&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=20m16s&quot;&gt;20:16&lt;/a&gt; Opportunities in DevOps&lt;br /&gt;
+&lt;a href=&quot;http://youtube.com/watch?v=wM0hooWwdRA&amp;amp;t=21m01s&quot;&gt;21:01&lt;/a&gt; Getting a Hold of Michael&lt;/p&gt;
+&lt;h2 id=&quot;links&quot;&gt;Links &lt;a class=&quot;direct-link&quot; href=&quot;#links&quot;&gt; &lt;/a&gt;&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/9s02&quot;&gt;DevOps Tips&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/9s1-&quot;&gt;Advanced Actions&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/9s2V&quot;&gt;Nailing Your DevOps Interview&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://go.raybo.org/9s2V&quot;&gt;Michael on LinkedIn&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://twitter.com/managedkaos&quot;&gt;Michael on Twitter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</content>
+	</entry>
 	
 	<entry>
 		<title>Toolbox Talks - Secrets Senior Developers Know with Carlos Solis</title>
