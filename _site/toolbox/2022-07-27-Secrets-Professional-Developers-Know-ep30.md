@@ -43,6 +43,7 @@ This week, I'm continuing that talking to Carlos Solis, who is a Developer Advoc
 
 
 ## Links
+- [Github Projects](https://go.raybo.org/9I9c)
 - [Dall-E](https://openai.com/dall-e-2/)
 - [Deno](https://deno.com/)
 - [Fresh](https://fresh.deno.dev/)
